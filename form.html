@@ -9,37 +9,39 @@
 
 </head>
 <body>
-  <div ng-app="comicsApp">
-    <div ng-controller="comicsCtrl">
-<div><label>cgcid</label><input type="text" ng-model="item.cgcid" ></div>
-    <div><label>title</label><input type="text" ng-model="item.title" ></div>
-    <div><label>issue</label><input type="text" ng-model="item.issue" ></div>
-    <div><label>version</label><input type="text" ng-model="item.version" ></div>
-    <div><label>publisher</label><input type="text" ng-model="item.publisher" ></div>
-    <div><label>cover_date</label><input type="text" ng-model="item.cover_date" ></div>
-    <div><label>pedigree</label><input type="text" ng-model="item.pedigree" ></div> 
-    <div><label>collection</label><input type="text" ng-model="item.collection" ></div> 
-    <div><label>provenance</label><input type="text" ng-model="item.provenance" ></div>
-    <div><label>grade_src</label><input type="text" ng-model="item.grade_src" ></div>
-    <div><label>grade</label><input type="text" ng-model="item.grade" ></div>
-    <div><label>pq</label><input type="text" ng-model="item.pq" ></div>
-    <div><label>grading_notes</label><input type="text" ng-model="item.grading_notes" ></div>
-    <div><label>restoration</label><input type="text" ng-model="item.restoration" ></div>
-    <div><label>general_commentary</label><input type="text" ng-model="item.general_commentary" ></div>
+
+  <div data-ng-app="comicsApp">
+    <div data-ng-controller="comicsCtrl">
+     
+<div><label>cgcid</label><input type="text" data-ng-model="item.cgcid" ></div>
+    <div><label>title</label><input type="text" data-ng-model="item.title" ></div>
+    <div><label>issue</label><input type="text" data-ng-model="item.issue" ></div>
+    <div><label>version</label><input type="text" data-ng-model="item.version" ></div>
+    <div><label>publisher</label><input type="text" data-ng-model="item.publisher" ></div>
+    <div><label>cover_date</label><input type="date" data-ng-model="item.cover_date" ></div>
+    <div><label>pedigree</label><input type="text" data-ng-model="item.pedigree" ></div> 
+    <div><label>collection</label><input type="text" data-ng-model="item.collection" ></div> 
+    <div><label>provenance</label><input type="text" data-ng-model="item.provenance" ></div>
+    <div><label>grade_src</label><input type="text" data-ng-model="item.grade_src" ></div>
+    <div><label>grade</label><input type="text" data-ng-model="item.grade" ></div>
+    <div><label>pq</label><input type="text" data-ng-model="item.pq" ></div>
+    <div><label>grading_notes</label><input type="text" data-ng-model="item.grading_notes" ></div>
+    <div><label>restoration</label><input type="text" data-ng-model="item.restoration" ></div>
+    <div><label>general_commentary</label><textarea data-ng-model="item.general_commentary" ></textarea></div>
     <fieldset><legend ng-toggle>Sales [{{sales.length}} so far]</legend>
-      <div><label>sellers_notes</label><input type="text" ng-model="sale.sellers_notes" ></div>
-      <div><label>sale_date</label><input type="text" ng-model="sale.sale_date" ></div>  
-      <div><label>price</label><input type="text" ng-model="sale.price" ></div>
-      <div><label>venue</label><input type="text" ng-model="sale.venue" ></div>
-      <div><label>link</label><input type="text" ng-model="sale.link" ></div>
-      <div><label>front_cover</label><input type="text" ng-model="sale.front_cover" ></div>
-      <div><label>back cover</label><input type="text" ng-model="sale.back_cover" ></div>
+      <div><label>sellers_notes</label><textarea data-ng-model="sale.sellers_notes" ></textarea></div>
+      <div><label>sale_date</label><input type="date" data-ng-model="sale.sale_date" ></div>  
+      <div><label>price</label><input type="text" data-ng-model="sale.price" ></div>
+      <div><label>venue</label><input type="text" data-ng-model="sale.venue" ></div>
+      <div><label>link</label><input type="text" data-ng-model="sale.link" ></div>
+      <div><label>front_cover</label><input type="text" data-ng-model="sale.front_cover" ></div>
+      <div><label>back cover</label><input type="text" data-ng-model="sale.back_cover" ></div>
      <div><input type="Button" value="Add" ng-click="addSale(sale)"></div>
     </fieldset>
-    <div><label>tags</label><input type="text" ng-model="item.Name" ></div>
-<div><input type="Button" value="Add" ng-click="addItem(item)"> 
-<input type="Button" value="Download" ng-click="download()"> </div>
- <input type="text" ng-model="search" class="search-query" placeholder="Search">
+    <div><label>tags</label><input type="text" data-ng-model="item.tags" ></div>
+<div><input type="Button" value="Add" data-ng-click="addItem(item)"> 
+<input type="Button" value="Download" data-ng-click="download()"> </div>
+ <input type="text" data-ng-model="search" class="search-query" placeholder="Search">
   <table>
     <tr>
       <td>cgcid</td>
@@ -60,7 +62,7 @@
     <td>sales</td>
      <td>tags</td>
    </tr>  
-<tr ng-repeat="it in items | filter:search | orderBy:'title'">
+<tr data-ng-repeat="it in items | filter:search | orderBy:'title'">
       <td>{{it.cgcid}}</td>
     <td>{{it.title}}</td>
     <td>{{it.issue}}</td>
@@ -76,8 +78,17 @@
     <td>{{it.grading_notes}}</td>
     <td>{{it.restoration}}</td>
     <td>{{it.general_commentary}}</td>
-    <td>{{it.sales}}</td>
-     <td>{{it.tags}}</td>
+    <td>
+      <table>
+        <tr data-ng-repeat="sl in it.sales">
+      <td>{{sl.venue}}</td>
+      <td>{{sl.sale_date}}</td>
+    <td>{{sl.price | currency}}</td>
+   </tr>
+
+ 
+  </table>  </td>
+     <td class="tags">{{it.tags}}</td>
    </tr>
 
  
@@ -104,7 +115,6 @@ angular.module('comicsApp.controllers', []).
         function(data){
          $scope.items = data.books
       });
-       
       $scope.sales = [];
       $scope.addItem = function(item) {
 
@@ -112,17 +122,22 @@ angular.module('comicsApp.controllers', []).
         $scope.items.push(item);
         $scope.item = {};
         $scope.sales = [];
-      console.log($scope.items,$scope.item,$scope.sales)
+        console.log($scope)
+    
       } 
       $scope.addSale = function(sale) {
-        $scope.sales.push(sale);
+        $scope.sales.push(_.clone(sale));
         for (var val in sale){
           delete sale[val];
         }
-
       } 
       $scope.download = function(){
-        window.open('data:applicaion/json;charset=utf-8,' + escape(JSON.stringify($scope.items)));
+        var items = $scope.items,
+            len = items.length;
+        for ( var i = 0; i <len; i++){
+          delete items[i]["$$hashKey"];
+        }
+        window.open('data:applicaion/json;charset=utf-8,' + escape(JSON.stringify(items)));
 
       }
   }

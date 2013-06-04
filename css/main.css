@@ -104,9 +104,9 @@ div label {
     display:inline-block;width:200px;
 }
 
+td { border:1px solid #666; padding:3px; border-collapse: collapse;}
 
-
-
+table { float:right; width:80%;}
 
 
 

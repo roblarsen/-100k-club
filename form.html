@@ -3,38 +3,9 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <title>$100,000 Club Form</title>
-  <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/angular.js/1.0.3/angular.min.js'></script>
+
   <link rel="stylesheet" type="text/css" href="/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="/css/main.css">
-<script>
-//'myApp.filters', 'myApp.services', 'myApp.directives', 
-angular.module('comicsApp', ['comicsApp.controllers']);
-angular.module('comicsApp.controllers', []).
-  controller('comicsCtrl', [ "$scope", "$http",
-    function( $scope , $http)  {
-      $http({"method" : "GET", "url" : "data/books.json"}).success(function(data){$scope.items = data.SALES});
-        console.log($scope);
-      
-      $scope.sales = [];
-      $scope.addItem = function(item) {
-        console.log(item)
-        item.sales = $scope.sales;
-        $scope.items.push(item);
-        $scope.item = {};
-        $scope.sales = [];
-        console.log($scope);
-        
-      } 
-      $scope.addSale = function(sale) {
-        $scope.sales.push(sale);
-        for (var val in sale){
-          delete sale[val];
-        }
-      } 
-  }
-]);
-</script>
-
 
 </head>
 <body>
@@ -66,11 +37,99 @@ angular.module('comicsApp.controllers', []).
      <div><input type="Button" value="Add" ng-click="addSale(sale)"></div>
     </fieldset>
     <div><label>tags</label><input type="text" ng-model="item.Name" ></div>
-<div><input type="Button" value="Add" ng-click="addItem(item)"> </div>
-  
+<div><input type="Button" value="Add" ng-click="addItem(item)"> 
+<input type="Button" value="Download" ng-click="download()"> </div>
+ <input type="text" ng-model="search" class="search-query" placeholder="Search">
+  <table>
+    <tr>
+      <td>cgcid</td>
+    <td>title</td>
+    <td>issue</td>
+    <td>version</td>
+    <td>publisher</td>
+    <td>cover_date</td>
+    <td>pedigree</td>
+    <td>collection</td> 
+    <td>provenance</td>
+    <td>grade_src</td>
+    <td>grade</td>
+    <td>pq</td>
+    <td>grading_notes</td>
+    <td>restoration</td>
+    <td>general_commentary</td>
+    <td>sales</td>
+     <td>tags</td>
+   </tr>  
+<tr ng-repeat="it in items | filter:search | orderBy:'title'">
+      <td>{{it.cgcid}}</td>
+    <td>{{it.title}}</td>
+    <td>{{it.issue}}</td>
+    <td>{{it.version}}</td>
+    <td>{{it.publisher}}</td>
+    <td>{{it.cover_date}}</td>
+    <td>{{it.pedigree}}</td>
+    <td>{{it.collection}}</td> 
+    <td>{{it.provenance}}</td>
+    <td>{{it.grade_src}}</td>
+    <td>{{it.grade}}</td>
+    <td>{{it.pq}}</td>
+    <td>{{it.grading_notes}}</td>
+    <td>{{it.restoration}}</td>
+    <td>{{it.general_commentary}}</td>
+    <td>{{it.sales}}</td>
+     <td>{{it.tags}}</td>
+   </tr>
+
+ 
+  </table>  
     </div>
+     
   </div>
-  
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/jquery/2.0.2/jquery.min.js"></script>
+  <script src="lib/lodash/1.2.1/lodash.min.js"></script>
+  <script src="lib/angular/ng-grid-2.0.5.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+  <script>
+//'myApp.filters', 'myApp.services', 'myApp.directives', 
+angular.module('comicsApp', ['comicsApp.controllers','ngGrid']);
+angular.module('comicsApp.controllers', []).
+  controller('comicsCtrl', [ "$scope", "$http",
+    function( $scope , $http)  {
+      $http({"method" : "GET", "url" : "data/books.json"}).success(
+        function(data){
+         $scope.items = data.books
+      });
+       
+      $scope.sales = [];
+      $scope.addItem = function(item) {
+
+        item.sales = $scope.sales;
+        $scope.items.push(item);
+        $scope.item = {};
+        $scope.sales = [];
+      console.log($scope.items,$scope.item,$scope.sales)
+      } 
+      $scope.addSale = function(sale) {
+        $scope.sales.push(sale);
+        for (var val in sale){
+          delete sale[val];
+        }
+
+      } 
+      $scope.download = function(){
+        window.open('data:applicaion/json;charset=utf-8,' + escape(JSON.stringify($scope.items)));
+
+      }
+  }
+])
+</script>
+
+
 </body>
 
 

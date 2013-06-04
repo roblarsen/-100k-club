@@ -12,7 +12,9 @@ angular.module('comicsApp', ['comicsApp.controllers']);
 angular.module('comicsApp.controllers', []).
   controller('comicsCtrl', [ "$scope", "$http",
     function( $scope , $http)  {
-      $http({"method" : "GET", "url" : "data/books.json"}).success(function(data){$scope.items = data});
+      $http({"method" : "GET", "url" : "data/books.json"}).success(function(data){$scope.items = data.SALES});
+        console.log($scope);
+      
       $scope.sales = [];
       $scope.addItem = function(item) {
         console.log(item)

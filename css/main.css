@@ -97,18 +97,21 @@ textarea {
 div, fieldset { margin-left:10px;}
 legend {font-weight:bold;}
 
-fieldset div {
+form { border:1px solid #666; padding:10px;margin-bottom:10px;}
+form div {
+margin:4px 10px;    
+}
+form fieldset div {
     margin-left:20px;
 }
 div label {
     display:inline-block;width:200px;
 }
-
+table{margin:10px 0; width:95%}
 td { border:1px solid #666; padding:3px; border-collapse: collapse;}
 
-table { float:right; width:80%;}
 
-.tags {max-width: 50px;}
+.tags {max-width: 50px; overflow:scroll}
 
 
 

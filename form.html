@@ -14,12 +14,12 @@
     <div data-ng-controller="comicsCtrl">
 <form>     
 <div><label>cgcid</label><input type="text" data-ng-model="item.cgcid" ></div>
-    <div><label>title</label><input type="text" data-ng-model="item.title" ></div>
+    <div><label>title</label><input type="text" data-ng-model="item.title" list="comicstitle"></div>
     <div><label>issue</label><input type="text" data-ng-model="item.issue" ></div>
     <div><label>version</label><input type="text" data-ng-model="item.version" ></div>
-    <div><label>publisher</label><input type="text" data-ng-model="item.publisher" ></div>
+    <div><label>publisher</label><input type="text" data-ng-model="item.publisher" list="comicspublisher"></div>
     <div><label>cover_date</label><input type="date" data-ng-model="item.cover_date" ></div>
-    <div><label>pedigree</label><input type="text" data-ng-model="item.pedigree" ></div> 
+    <div><label>pedigree</label><input type="text" data-ng-model="item.pedigree" list="comicspedigree"></div> 
     <div><label>collection</label><input type="text" data-ng-model="item.collection" ></div> 
     <div><label>provenance</label><input type="text" data-ng-model="item.provenance" ></div>
     <div><label>grade_src</label><input type="text" data-ng-model="item.grade_src" ></div>
@@ -93,13 +93,21 @@
 
  
   </table>  
+<datalist id="comicstitle" data-ng-repeat="ttl in titles">  
+<option value="{{ttl}}">
+</datalist>
+<datalist id="comicspedigree" data-ng-repeat="ped in pedigrees">  
+<option value="{{ped}}">
+</datalist>
+<datalist id="comicspublisher" data-ng-repeat="pub in publishers">  
+<option value="{{pub}}">
+</datalist>
     </div>
      
   </div>
   <script src="lib/angular/angular.js"></script>
   <script src="lib/jquery/2.0.2/jquery.min.js"></script>
   <script src="lib/lodash/1.2.1/lodash.min.js"></script>
-  <script src="lib/angular/ng-grid-2.0.5.min.js"></script>
   <script src="js/app.js"></script>
   <script src="js/services.js"></script>
   <script src="js/controllers.js"></script>
@@ -107,23 +115,43 @@
   <script src="js/directives.js"></script>
   <script>
 //'myApp.filters', 'myApp.services', 'myApp.directives', 
-angular.module('comicsApp', ['comicsApp.controllers','ngGrid']);
+angular.module('comicsApp', ['comicsApp.controllers']);
 angular.module('comicsApp.controllers', []).
   controller('comicsCtrl', [ "$scope", "$http",
     function( $scope , $http)  {
       $http({"method" : "GET", "url" : "data/books.json"}).success(
         function(data){
-         $scope.items = data.books
-      });
+         $scope.items = data.books;
+        
+         var titles = [], pedigrees = [], publishers = [];
+         for (var i=0; i < data.books.length; i++){
+           titles.push(data.books[i].title)
+           if (data.books[i].pedigree){
+            pedigrees.push(data.books[i].pedigree)
+           }
+           if (data.books[i].publisher){
+           publishers.push(data.books[i].publisher)
+         }
+           
+         }
+         $scope.publishers = _.unique(publishers);
+         $scope.pedigrees = _.unique(pedigrees);
+         $scope.titles = _.unique(titles);
+         console.log($scope);
+         });
       $scope.sales = [];
-      $scope.addItem = function(item) {
 
+      $scope.addItem = function(item) { 
+        console.log($scope);
         item.sales = $scope.sales;
         $scope.items.push(item);
         $scope.item = {};
         $scope.sales = [];
-        console.log($scope)
-    
+       
+        $scope.titles = _.unique($scope.titles.push(item.title));
+        $scope.pedigrees = _.unique($scope.pedigrees.push(item.pedigree));
+        $scope.publishers = _.unique($scope.publishers.push(item.publisher));
+        console.log($scope);
       } 
       $scope.addSale = function(sale) {
         $scope.sales.push(_.clone(sale));

@@ -46,45 +46,31 @@
  </div>
   <table>
     <tr>
-    <th>cgcid</th>
-    <th>title</th>
-    <th>issue</th>
+    <th>title/issue#</th>
     <th>version</th>
-    <th>publisher</th>
-    <th>cover_date</th>
     <th>pedigree</th>
     <th>collection</th> 
     <th>provenance</th>
     <th>grade_src</th>
     <th>grade</th>
-    <th>pq</th>
-    <th>grading_notes</th>
-    <th>restoration</th>
     <th>general_commentary</th>
     <th>sales</th>
    </tr>  
 <tr data-ng-repeat="it in items | filter:search | orderBy:'title'">
-      <td>{{it.cgcid}}</td>
-    <td>{{it.title}}</td>
-    <td>{{it.issue}}</td>
-    <td>{{it.version}}</td>
-    <td>{{it.publisher}}</td>
-    <td>{{it.cover_date}}</td>
-    <td>{{it.pedigree}}</td>
-    <td>{{it.collection}}</td> 
-    <td>{{it.provenance}}</td>
-    <td>{{it.grade_src}}</td>
-    <td>{{it.grade}}</td>
-    <td>{{it.pq}}</td>
-    <td>{{it.grading_notes}}</td>
-    <td>{{it.restoration}}</td>
-    <td>{{it.general_commentary}}</td>
-    <td>
+    <td contenteditable>{{it.title}} #{{it.issue}}</td>
+    <td contenteditable>{{it.version}}</td>
+    <td contenteditable>{{it.pedigree}}</td>
+    <td contenteditable>{{it.collection}}</td> 
+    <td contenteditable>{{it.provenance}}</td>
+    <td contenteditable>{{it.grade_src}}</td>
+    <td contenteditable>{{it.grade}}</td>
+    <td contenteditable>{{it.general_commentary}}</td>
+    <td class="sales">
       <table>
         <tr data-ng-repeat="sl in it.sales">
-      <td>{{sl.venue}}</td>
-      <td>{{sl.sale_date}}</td>
-    <td>{{sl.price | currency}}</td>
+      <td contenteditable>{{sl.venue}}</td>
+      <td contenteditable>{{sl.sale_date}}</td>
+    <td contenteditable>{{sl.price | currency}}</td>
    </tr>
 
  
@@ -137,21 +123,26 @@ angular.module('comicsApp.controllers', []).
          $scope.publishers = _.unique(publishers);
          $scope.pedigrees = _.unique(pedigrees);
          $scope.titles = _.unique(titles);
-         console.log($scope);
+         $scope.uid = data.books.length;
          });
       $scope.sales = [];
-
       $scope.addItem = function(item) { 
-        console.log($scope);
         item.sales = $scope.sales;
+        item.uid = $scope.uid;
+        $scope.uid++;
         $scope.items.push(item);
         $scope.item = {};
         $scope.sales = [];
-       
-        $scope.titles = _.unique($scope.titles.push(item.title));
-        $scope.pedigrees = _.unique($scope.pedigrees.push(item.pedigree));
-        $scope.publishers = _.unique($scope.publishers.push(item.publisher));
-        console.log($scope);
+        if (item.pedigree){
+          $scope.pedigrees.push(item.pedigree)
+          $scope.pedigrees = _.unique($scope.pedigrees);
+        }
+        if (item.publisher){
+          $scope.publishers.push(item.publisher)
+          $scope.publishers = _.unique($scope.publishers);
+        }
+        $scope.titles.push(item.title);
+        $scope.titles = _.unique($scope.titles);
       } 
       $scope.addSale = function(sale) {
         $scope.sales.push(_.clone(sale));

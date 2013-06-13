@@ -47,6 +47,7 @@
   <table>
     <tr>
       <th></th>
+      <th ng-show="editorEnabled">cgcid</th>
       <th>title</th>
       <th>issue#</th>
       <th>version</th>
@@ -60,99 +61,111 @@
     </tr>  
     <tr data-ng-repeat="it in items | filter:search | orderBy:'title'">
       <td>
-
         <span data-ng-hide="editorEnabled"><input type="checkbox" data-ng-click="editorEnabled=!editorEnabled"></span>
-      
-      <span ng-show="editorEnabled">
-        <span data-ng-click="editorEnabled=!editorEnabled">Save</span>
-      </span>
-        
+        <span ng-show="editorEnabled">
+          <span data-ng-click="editorEnabled=!editorEnabled">Save</span>
+        </span>
       </td>
-
+      
+      <td ng-show="editorEnabled"><label>cgcid</label><input type="text" data-ng-model="item.cgcid" >
       <td>
         <span data-ng-hide="editorEnabled">{{it.title}}</span>
-      
-      <span ng-show="editorEnabled">
-        <input data-ng-model="it.title">
-        
-      </span>
-    </td>
-    <td>
-      <span data-ng-hide="editorEnabled">{{it.issue}}</span>
-      
-      <span ng-show="editorEnabled">
-        <input data-ng-model="it.issue">
-        
-      </span>
-    </td>    
-    <td>
-      <span data-ng-hide="editorEnabled">{{it.version}}</span>
-      
-      <span ng-show="editorEnabled">
-        <input data-ng-model="it.version">
-        
-      </span>
-    </td>
-    <td>
-      <span data-ng-hide="editorEnabled">{{it.pedigree}}</span>
-      
-      <span ng-show="editorEnabled">
-        <input data-ng-model="it.pedigree">
-        
-      </span>
-    </td>
-    <td>
-      <span data-ng-hide="editorEnabled">{{it.collection}}</span>
-      
-      <span ng-show="editorEnabled">
-        <input data-ng-model="it.collection">
-        
-      </span>
-    </td> 
-    <td>
-      <span data-ng-hide="editorEnabled">{{it.provenance}}</span>
-      
-      <span ng-show="editorEnabled">
-        <input data-ng-model="it.provenance">
-        
-      </span>
-    </td>
-    <td>
-      <span data-ng-hide="editorEnabled">{{it.grade_src}}</span>
-      
-      <span ng-show="editorEnabled">
-        <input data-ng-model="it.grade_src">
-        
-      </span>
-    </td>
-    <td>
-      <span data-ng-hide="editorEnabled">{{it.grade}}</span>
-      
-      <span ng-show="editorEnabled">
-        <input data-ng-model="it.grade">
-        
-      </span>
-    </td>
-    <td>
-      <span data-ng-hide="editorEnabled">{{it.general_commentary}}</span>
-      
-      <span ng-show="editorEnabled">
-        <input data-ng-model="it.general_commentary">
-        
-      </span>
-    </td>
-    <td class="sales">
-      <table>
-        <tr data-ng-repeat="sl in it.sales">
-          <td contenteditable>{{sl.venue}}</td>
-          <td contenteditable>{{sl.sale_date}}</td>
-          <td data-ng-show="sl.link"><a href="{{sl.link}}">{{sl.price | currency}}</a></td>
-          <td data-ng-hide="sl.link">{{sl.price | currency}}</td>
-        </tr>
-      </table>  
-    </td>
-  </tr>
-</table>  
+        <span ng-show="editorEnabled">
+          <input data-ng-model="it.title">    
+        </span>
+      </td>
+      <td>
+        <span data-ng-hide="editorEnabled">{{it.issue}}</span>
+        <span ng-show="editorEnabled">
+          <input data-ng-model="it.issue">
+       </span>
+      </td>
+      <td ng-show="editorEnabled"><label>Cover date</label><input type="date" data-ng-model="item.cover_date" ></td>    
+      <td>
+        <span data-ng-hide="editorEnabled">{{it.version}}</span>
+        <span ng-show="editorEnabled">
+          <input data-ng-model="it.version"> 
+        </span>
+      </td>
+      <td>
+        <span data-ng-hide="editorEnabled">{{it.pedigree}}</span>
+        <span ng-show="editorEnabled">
+          <input data-ng-model="it.pedigree">
+        </span>
+      </td>
+      <td>
+        <span data-ng-hide="editorEnabled">{{it.collection}}</span>
+        <span ng-show="editorEnabled">
+          <input data-ng-model="it.collection">    
+        </span>
+      </td> 
+      <td>
+        <span data-ng-hide="editorEnabled">{{it.provenance}}</span>
+        <span ng-show="editorEnabled">
+          <input data-ng-model="it.provenance">      
+        </span>
+      </td>
+      <td>
+        <span data-ng-hide="editorEnabled">{{it.grade_src}}</span>
+        <span ng-show="editorEnabled">
+          <input data-ng-model="it.grade_src">
+        </span>
+      </td>
+      <td>
+        <span data-ng-hide="editorEnabled">{{it.grade}}</span>
+        <span ng-show="editorEnabled">
+          <input data-ng-model="it.grade">  
+        </span>
+      </td>
+      <td ng-show="editorEnabled">
+        <label>pq</label><input type="text" data-ng-model="it.pq" >
+      </td>
+      <td ng-show="editorEnabled">
+        <label>grading_notes</label><input type="text" data-ng-model="it.grading_notes" >
+      </td>
+      <td ng-show="editorEnabled">
+        <label>restoration</label><input type="text" data-ng-model="it.restoration" >
+      </td>
+      <td>
+        <span data-ng-hide="editorEnabled">{{it.general_commentary}}</span>
+        <span ng-show="editorEnabled">
+          <textarea data-ng-model="it.general_commentary"></textarea>      
+        </span>
+      </td>
+      <td class="sales">
+        <table>
+          <tr data-ng-repeat="sl in it.sales">
+            <td>
+        <span data-ng-hide="editorEnabled"><input type="checkbox" data-ng-click="editorEnabled=!editorEnabled"></span>
+        <span ng-show="editorEnabled">
+          <span data-ng-click="editorEnabled=!editorEnabled">Save</span>
+        </span>
+      </td><td ng-show="editorEnabled">
+      <label>sellers_notes</label><textarea data-ng-model="sl.sellers_notes" ></textarea></td>
+            <td ng-show="editorEnabled">
+      <label>link</label><input type="text" data-ng-model="sl.link" ></td>
+            <td ng-show="editorEnabled">
+      <label>front_cover</label><input type="text" data-ng-model="sl.front_cover" ></td>
+            <td ng-show="editorEnabled">
+      <label>back cover</label><input type="text" data-ng-model="sl.back_cover" ></td>
+            <td> <span data-ng-hide="editorEnabled">{{sl.venue}}</span>
+        <span ng-show="editorEnabled">
+          <input data-ng-model="sl.venue">  
+        </span></td>
+            <td> <span data-ng-hide="editorEnabled">{{sl.sale_date}}</span>
+        <span ng-show="editorEnabled">
+          <input data-ng-model="sl.sale_date" type="date">  
+        </span></td>
+             <td ng-show="editorEnabled">
+      <label>price</label><input type="text" data-ng-model="sl.price" ></td>
+            <td data-ng-show="sl.link"><a href="{{sl.link}}">{{sl.price | currency}}</a></td>
+            <td data-ng-hide="sl.link">{{sl.price | currency}}</td>
+            <td>
+          </tr>
+        </table>  
+      </td>
+    </tr>
+  </table>  
 <datalist id="comicstitle" data-ng-repeat="ttl in titles">  
 <option value="{{ttl}}">
 </datalist>

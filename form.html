@@ -59,7 +59,7 @@
       <th>general_commentary</th>
       <th>sales</th>
     </tr>  
-    <tr data-ng-repeat="it in items | filter:search | orderBy:'title'">
+    <tr data-ng-repeat="it in items | filter:search | orderBy:'title'" data-ng-class="{editing: editorEnabled}">
       <td>
         <span data-ng-hide="editorEnabled"><input type="checkbox" data-ng-click="editorEnabled=!editorEnabled"></span>
         <span ng-show="editorEnabled">
@@ -134,7 +134,7 @@
       </td>
       <td class="sales">
         <table>
-          <tr data-ng-repeat="sl in it.sales">
+          <tr data-ng-repeat="sl in it.sales" data-ng-class="{editing: editorEnabled}">
             <td>
         <span data-ng-hide="editorEnabled"><input type="checkbox" data-ng-click="editorEnabled=!editorEnabled"></span>
         <span ng-show="editorEnabled">

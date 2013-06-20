@@ -40,7 +40,7 @@
     </fieldset>
     <div><label>tags</label><input type="text" data-ng-model="item.tags" ></div>
 <div><input type="Button" value="Add" data-ng-click="addItem(item)"> 
-<input type="Button" value="Download" data-ng-click="download()"></form> </div>
+<input type="Button" value="Download" data-ng-click="download()" download="books.json"></form> </div>
 <div>
  <input type="text" data-ng-model="search" class="search-query" placeholder="Search">
  </div>
@@ -132,6 +132,9 @@
           <textarea data-ng-model="it.general_commentary"></textarea>      
         </span>
       </td>
+      <td ng-show="editorEnabled">
+        <label>tags</label><input type="text" data-ng-model="it.tags" >
+      </td>
       <td class="sales">
         <table>
           <tr data-ng-repeat="sl in it.sales" data-ng-class="{editing: editorEnabled}">
@@ -168,14 +171,14 @@
       </td>
     </tr>
   </table>  
-<datalist id="comicstitle" data-ng-repeat="ttl in titles">  
-<option value="{{ttl}}">
+<datalist id="comicstitle">  
+<option  data-ng-repeat="ttl in titles" value="{{ttl}}">
 </datalist>
-<datalist id="comicspedigree" data-ng-repeat="ped in pedigrees">  
-<option value="{{ped}}">
+<datalist id="comicspedigree" >  
+<option data-ng-repeat="ped in pedigrees" value="{{ped}}">
 </datalist>
-<datalist id="comicspublisher" data-ng-repeat="pub in publishers">  
-<option value="{{pub}}">
+<datalist id="comicspublisher">  
+<option  data-ng-repeat="pub in publishers" value="{{pub}}">
 </datalist>
     </div>
      

@@ -12,21 +12,14 @@
 
   <div data-ng-app="comicsApp">
     <div data-ng-controller="comicsCtrl">
-<form>     
-<div><label>cgcid</label><input type="text" data-ng-model="item.cgcid" ></div>
+<form>
     <div><label>title</label><input type="text" data-ng-model="item.title" list="comicstitle"></div>
     <div><label>issue</label><input type="text" data-ng-model="item.issue" ></div>
-    <div><label>version</label><input type="text" data-ng-model="item.version" ></div>
-    <div><label>publisher</label><input type="text" data-ng-model="item.publisher" list="comicspublisher"></div>
-    <div><label>cover_date</label><input type="date" data-ng-model="item.cover_date" ></div>
     <div><label>pedigree</label><input type="text" data-ng-model="item.pedigree" list="comicspedigree"></div> 
     <div><label>collection</label><input type="text" data-ng-model="item.collection" ></div> 
     <div><label>provenance</label><input type="text" data-ng-model="item.provenance" ></div>
     <div><label>grade_src</label><input type="text" data-ng-model="item.grade_src" ></div>
     <div><label>grade</label><input type="text" data-ng-model="item.grade" ></div>
-    <div><label>pq</label><input type="text" data-ng-model="item.pq" ></div>
-    <div><label>grading_notes</label><input type="text" data-ng-model="item.grading_notes" ></div>
-    <div><label>restoration</label><input type="text" data-ng-model="item.restoration" ></div>
     <div><label>general_commentary</label><textarea data-ng-model="item.general_commentary" ></textarea></div>
     <fieldset><legend ng-toggle>Sales [{{sales.length}} so far]</legend>
       <div><label>sellers_notes</label><textarea data-ng-model="sale.sellers_notes" ></textarea></div>
@@ -50,10 +43,7 @@
       <th ng-show="editorEnabled">cgcid</th>
       <th>title</th>
       <th>issue#</th>
-      <th>version</th>
       <th>pedigree</th>
-      <th>collection</th> 
-      <th>provenance</th>
       <th>grade_src</th>
       <th>grade</th>
       <th>general_commentary</th>
@@ -80,30 +70,20 @@
           <input data-ng-model="it.issue">
        </span>
       </td>
-      <td ng-show="editorEnabled"><label>Cover date</label><input type="date" data-ng-model="item.cover_date" ></td>    
       <td>
-        <span data-ng-hide="editorEnabled">{{it.version}}</span>
-        <span ng-show="editorEnabled">
-          <input data-ng-model="it.version"> 
-        </span>
-      </td>
-      <td>
-        <span data-ng-hide="editorEnabled">{{it.pedigree}}</span>
+        <span data-ng-hide="editorEnabled">{{it.pedigree}}{{it.collection}}{{it.provenance}}</span>
         <span ng-show="editorEnabled">
           <input data-ng-model="it.pedigree">
         </span>
       </td>
-      <td>
-        <span data-ng-hide="editorEnabled">{{it.collection}}</span>
-        <span ng-show="editorEnabled">
-          <input data-ng-model="it.collection">    
-        </span>
+      <td data-ng-show="editorEnabled">
+         <input data-ng-model="it.collection">    
+       
       </td> 
-      <td>
-        <span data-ng-hide="editorEnabled">{{it.provenance}}</span>
-        <span ng-show="editorEnabled">
+      <td  data-ng-show="editorEnabled">
+       
           <input data-ng-model="it.provenance">      
-        </span>
+       
       </td>
       <td>
         <span data-ng-hide="editorEnabled">{{it.grade_src}}</span>
@@ -137,7 +117,7 @@
       </td>
       <td class="sales">
         <table>
-          <tr data-ng-repeat="sl in it.sales" data-ng-class="{editing: editorEnabled}">
+          <tr data-ng-repeat="sl in it.sales | orderBy: 'sale_date'" data-ng-class="{editing: editorEnabled}">
             <td>
         <span data-ng-hide="editorEnabled"><button class="edit" data-ng-click="editorEnabled=!editorEnabled">edit</button></span>
         <span ng-show="editorEnabled">

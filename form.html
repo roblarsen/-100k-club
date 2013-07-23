@@ -49,7 +49,7 @@
       <th>general_commentary</th>
       <th>sales</th>
     </tr>  
-    <tr data-ng-repeat="it in items | filter:search | orderBy:'title'" data-ng-class="{editing: editorEnabled}">
+    <tr data-ng-repeat="it in items | filter:search | orderBy:['title','-grade']" data-ng-class="{editing: editorEnabled}">
       <td>
         <span data-ng-hide="editorEnabled"><button class="edit" data-ng-click="editorEnabled=!editorEnabled">edit</button></span>
         <span ng-show="editorEnabled">

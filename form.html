@@ -3,8 +3,8 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <title>$100,000 Club Form</title>
-<link rel="stylesheet" type="text/css" href="/css/normalize.css">
-<link rel="stylesheet" type="text/css" href="/css/main.css">
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 <div data-ng-app="comicsApp">
@@ -283,7 +283,7 @@ angular.module('comicsApp.controllers', ['comicFilters']).
         for ( var i = 0; i <len; i++){
           delete items[i]["$$hashKey"];
         }
-        $http.post('/data/index.php', JSON.stringify(items)).success(function(data){console.log("200");
+        $http.post('data/index.php', JSON.stringify(items)).success(function(data){console.log("200");
         }); 
       } 
       $scope.addSale = function(sale) {
@@ -305,7 +305,6 @@ angular.module('comicFilters', []).filter('srcFilter', function() {
     "use strict";
     return function (input) {
       if (input){
-        console.log(input)
         return input.charAt(0).toUpperCase() + input.slice(1);
       }
     };

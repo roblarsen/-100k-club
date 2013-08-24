@@ -23,7 +23,7 @@
          "pedigree":"",
          "grade":"8.5",
          "grade_src":"CGC",
-         "general_commentary":"Best Existing",
+         "general_commentary":"",
          "tags":"cgc,action,superman",
          "sales":[
             {
@@ -65,6 +65,7 @@
          "grade_src":"CGC",
          "sales":[
             {
+               "venue":"Unknown", 	
                "sale_date":"2002-01-01",
                "price":"192120.15",
                "$$hashKey":"00J"
@@ -113,6 +114,7 @@
          "tags":"cgc,superman,action",
          "sales":[
             {
+               "venue":"Unknown",
                "sale_date":"2006-01-01",
                "price":"250000",
                "$$hashKey":"00T"
@@ -150,6 +152,7 @@
          "tags":"cgc,upgrade,action,superman",
          "sales":[
             {
+               "venue":"Unknown",
                "sellers_notes":"as 5.5",
                "sale_date":"1900-01-01",
                "price":"120750",
@@ -231,6 +234,7 @@
          "tags":"cgc,superman,action,dc",
          "sales":[
             {
+               "venue":"Unknown",
                "sale_date":"1900-01-01",
                "price":"86250",
                "$$hashKey":"01B"
@@ -448,6 +452,7 @@
          "tags":"all-american-comics,green-lantern,dc,cgc,pedigree",
          "sales":[
             {
+               "venue":"Unknown",
                "sale_date":"1984-01-01",
                "price":"9000",
                "$$hashKey":"02H"
@@ -466,6 +471,7 @@
          "tags":"all-american-comics,green-lantern,dc,pedigree",
          "sales":[
             {
+               "venue":"Unknown",
                "sellers_notes":"OS26 listing",
                "sale_date":"1996-01-01",
                "price":"60000",
@@ -484,6 +490,7 @@
          "tags":"all-star-comics,jsa,dc,pedigree,cgc",
          "sales":[
             {
+               "venue":"Unknown",
                "sale_date":"1901-01-01",
                "price":"126500",
                "$$hashKey":"04W"
@@ -500,6 +507,7 @@
          "tags":"all-star,dc,church,pedigree",
          "sales":[
             {
+               "venue":"Unknown",
                "sale_date":"1995-01-01",
                "price":"70000",
                "$$hashKey":"02R"
@@ -620,6 +628,7 @@
          "tags":"amazing-fantasy,marvel,spider-man,cgc,pedigree",
          "sales":[
             {
+               "venue":"Unknown",
                "sale_date":"2001-01-01",
                "price":"86000",
                "$$hashKey":"03J"
@@ -827,6 +836,7 @@
          "tags":"AMAZING-SPIDER-MAN,CGC.MARVEL",
          "sales":[
             {
+               "venue":"Unknown",
                "sale_date":"2001-01-01",
                "price":"67305",
                "$$hashKey":"0G8"
@@ -887,6 +897,7 @@
          "tags":"archie,pedigree",
          "sales":[
             {
+               "venue":"Unknown",
                "sale_date":"1997-01-01",
                "price":"53",
                "$$hashKey":"052"
@@ -1137,7 +1148,7 @@
          "pedigree":"Church",
          "grade_src":"CGC",
          "grade":"9.6",
-         "tags":"flash,dc,cgc,heritage",
+         "tags":"flash,dc,cgc,heritage,jp-the-mint",
          "sales":[
             {
                "sale_date":"2004-01-01",
@@ -1221,6 +1232,7 @@
          "tags":"batman,overstreet,dc",
          "sales":[
             {
+               "venue":"Unknown",
                "sale_date":"2001-01-01",
                "price":"150000",
                "$$hashKey":"0O9"
@@ -1406,18 +1418,21 @@
          "tags":"cgc,pedigree,captain-america,timely,marvel",
          "sales":[
             {
+               "venue":"Unknown",
                "sale_date":"2001-01-01",
                "sellers_notes":"os32",
                "price":"95000",
                "$$hashKey":"37L"
             },
             {
+               "venue":"Unknown",
                "sale_date":"1994-01-01",
                "price":"36800",
                "sellers_notes":"os25",
                "$$hashKey":"37J"
             },
             {
+               "venue":"Unknown",
                "sale_date":"2005-10-14",
                "price":"63250",
                "$$hashKey":"37N"
@@ -1450,12 +1465,14 @@
          "tags":"captain-america,marvel,timely,cgc,pedigree",
          "sales":[
             {
+               "venue":"Unknown",
                "sale_date":"2001-01-01",
                "price":"166750",
                "sellers_notes":"os32",
                "$$hashKey":"3LW"
             },
             {
+               "venue":"Unknown",
                "sellers_notes":"os25",
                "sale_date":"1994-01-01",
                "price":"82500",
@@ -1473,11 +1490,13 @@
          "tags":"captain-america,cgc,pedigree,marvel,timely",
          "sales":[
             {
+               "venue":"Unknown",
                "sale_date":"2001-01-01",
                "price":"260000",
                "$$hashKey":"3T9"
             },
             {
+               "venue":"Unknown",
                "sale_date":"1994-01-01",
                "price":"82500",
                "$$hashKey":"3T7"
@@ -1508,6 +1527,7 @@
          "tags":"detective-comics,pedigree,dc",
          "sales":[
             {
+               "venue":"Unknown",
                "sale_date":"1995-01-01",
                "price":"90000",
                "sellers_notes":"os26",
@@ -1538,6 +1558,7 @@
          "tags":"detective-comics,batman,dc",
          "sales":[
             {
+               "venue":"Unknown",
                "sale_date":"1990-01-01",
                "sellers_notes":"os21",
                "price":"80000",
@@ -1555,12 +1576,14 @@
          "tags":"detective-comics,dc,batman,pedigree",
          "sales":[
             {
+               "venue":"Unknown",
                "sale_date":"1994-01-01",
                "sellers_notes":"os25",
                "price":"125000",
                "$$hashKey":"12X"
             },
             {
+               "venue":"Unknown",
                "sellers_notes":"os22",
                "sale_date":"1991-01-01",
                "price":"72000",
@@ -1612,6 +1635,7 @@
          "tags":"detective-comics,batman,dc,restored",
          "sales":[
             {
+               "venue":"Unknown",
                "sellers_notes":"os33",
                "sale_date":"2002-01-01",
                "price":"100000",
@@ -1627,12 +1651,14 @@
          "tags":"detective-comics,batman,dc",
          "sales":[
             {
+               "venue":"Unknown",
                "sellers_notes":"OS24",
                "sale_date":"1993-01-01",
                "price":"81000",
                "$$hashKey":"0OQ"
             },
             {
+               "venue":"Unknown",
                "sellers_notes":"OS24",
                "sale_date":"1993-01-02",
                "price":"101000",
@@ -1723,6 +1749,7 @@
          "tags":"detective-comics,dc,batman,pedigree",
          "sales":[
             {
+               "venue":"Unknown",
                "sale_date":"1900-01-01",
                "price":"115000",
                "$$hashKey":"0I1"
@@ -1844,6 +1871,7 @@
          "tags":"detective-comics,dc,batman",
          "sales":[
             {
+               "venue":"Unknown",
                "sale_date":"1998-01-01",
                "price":"57000",
                "sellers_notes":"OS29",
@@ -1941,6 +1969,7 @@
          "tags":"green-lantern,dc",
          "sales":[
             {
+               "venue":"Unknown",
                "sellers_notes":"OS21",
                "sale_date":"1990-01-01",
                "price":"25000",
@@ -2100,10 +2129,16 @@
          "provenance":"Pay Copy",
          "grade_src":"CGC",
          "grade":"9.0",
-         "tags":"marvel,timely",
+         "tags":"marvel,timely,jp-the-mint",
          "sales":[
             {
-               "sale_date":"1900-01-01",
+               "venue":"Private Sale",
+               "sale_date":"1993-01-01",
+               "price":"40000",
+               "$$hashKey":"87E"
+            },{
+               "venue":"Private Sale",
+               "sale_date":"2003-01-01",
                "price":"350000",
                "$$hashKey":"87E"
             },
@@ -2166,6 +2201,7 @@
          "tags":"marvel-comics,marvel,timely",
          "sales":[
             {
+            "venue":"Unknown",
                "sale_date":"1998-01-01",
                "price":"48000",
                "sellers_notes":"os29",
@@ -2250,6 +2286,7 @@
          "tags":"more-fun,pedigree,dc,church",
          "sales":[
             {
+               "venue":"Unknown",
                "sale_date":"2001-01-01",
                "price":"207000",
                "$$hashKey":"1VW"
@@ -2266,6 +2303,7 @@
          "tags":"more-fun,dc,pedigree,larson",
          "sales":[
             {
+               "venue":"Unknown",
                "sale_date":"1995-01-01",
                "price":"65000",
                "sellers_notes":"\"nm\" in OS26",
@@ -2367,6 +2405,7 @@
          "tags":"more-fun,dc,pedigree",
          "sales":[
             {
+               "venue":"Unknown",
                "sale_date":"1995-01-01",
                "sellers_notes":"os26",
                "price":"66000",
@@ -2384,6 +2423,7 @@
          "tags":"archie,pep-comics",
          "sales":[
             {
+               "venue":"Unknown",
                "sale_date":"1997-01-01",
                "sellers_notes":"os28",
                "price":"47000",
@@ -2399,12 +2439,14 @@
          "tags":"wonder-woman,dc,pedigree",
          "sales":[
             {
+               "venue":"Unknown",
                "sale_date":"1996-01-01",
                "price":"90000",
                "sellers_notes":"TRADE",
                "$$hashKey":"0DI"
             },
             {
+               "venue":"Unknown",
                "sale_date":"1995-01-01",
                "price":"60000",
                "$$hashKey":"0DG"
@@ -2420,6 +2462,7 @@
          "tags":"wonder-woman,dc",
          "sales":[
             {
+               "venue":"Unknown",
                "sale_date":"2001-01-01",
                "price":"100000",
                "$$hashKey":"0PM"
@@ -2502,6 +2545,7 @@
          "tags":"superman,dc,pedigree",
          "sales":[
             {
+               "venue":"Unknown",
                "sellers_notes":"os27",
                "sale_date":"1996-01-01",
                "price":"170000",
@@ -2518,6 +2562,7 @@
          "tags":"superman,dc",
          "sales":[
             {
+               "venue":"Unknown",
                "sale_date":"1900-01-01",
                "price":"250000",
                "$$hashKey":"2S7"
@@ -2533,6 +2578,7 @@
          "tags":"dc,superman",
          "sales":[
             {
+               "venue":"Unknown",
                "sellers_notes":"Confirmed private sale",
                "sale_date":"1900-01-01",
                "price":"125000",
@@ -2556,6 +2602,7 @@
                "$$hashKey":"0R1"
             },
             {
+               "venue":"Unknown",
                "sale_date":"2010-01-01",
                "price":"135000",
                "$$hashKey":"0R3"
@@ -2592,13 +2639,11 @@
          "tags":"whiz,captain-marvel",
          "sales":[
             {
+               "venue":"Unknown",
                "sellers_notes":"OS26",
                "sale_date":"1995-01-01",
                "price":"176000",
                "$$hashKey":"1H3"
-            },
-            {
-               "$$hashKey":"1H5"
             }
          ],
          "uid":162
@@ -2624,6 +2669,7 @@
          "tags":"upgrade,x-men,marvel,pedigree",
          "sales":[
             {
+               "venue":"Unknown",
                "sellers_notes":"Sold for $110,000 as a CGC 9.6",
                "$$hashKey":"27H"
             },

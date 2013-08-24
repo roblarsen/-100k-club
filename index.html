@@ -14,13 +14,13 @@
   </div>
   <table>
     <tr>
-      <th>title</th>
-      <th>issue#</th>
-      <th>pedigree</th>
-      <th>grade_src</th>
-      <th>grade</th>
-      <th>general_commentary</th>
-      <th>sales</th>
+      <th>Title</th>
+      <th>Issue #</th>
+      <th>Pedigree</th>
+      <th>Grade Source</th>
+      <th>Grade</th>
+      <th>General Commentary</th>
+      <th>Sales</th>
     </tr>
     <tr data-ng-repeat="it in items | filter:search | orderBy:['title','issue','-grade']">
       <td>{{it.title}}</td>
@@ -28,9 +28,17 @@
       <td>{{it.pedigree}}{{it.collection}}{{it.provenance}}</td>
       <td>{{it.grade_src | srcFilter}}</td>
       <td>{{it.grade}}</td>
-      <td>{{it.general_commentary}}</td>
+      <td>{{it.general_commentary}}
+        <div data-ng-show="it.front_cover" class="image"><a href="{{it.front_cover}}">view</a></div>
+      </td>
+
       <td class="sales">
         <table>
+          <tr data-ng-show="sl.link">
+            <td>Venue</td>
+            <td>Sale Date</td>
+            <td>Price</td> 
+          </tr>
           <tr data-ng-repeat="sl in it.sales | orderBy: 'sale_date'" data-ng-class="{editing: editorEnabled}">
             <td>{{sl.venue|capitalize}}</td>
             <td>{{sl.sale_date}}</td>
@@ -51,99 +59,5 @@
 <script src="js/controllers.js"></script> 
 <script src="js/filters.js"></script> 
 <script src="js/directives.js"></script> 
-<script>
-//'myApp.filters', 'myApp.services', 'myApp.directives', 
-angular.module('comicsApp', ['comicsApp.controllers'])
-angular.module('comicsApp.controllers', ['comicFilters']).
-  controller('comicsCtrl', ["$scope", "$http",
-    function( $scope , $http)  {
-      $http({"method" : "GET", "url" : "data/books.json"}).success(
-        function(data){
-         $scope.items = data.books;
-         var titles = [], pedigrees = [], publishers = [], venues = [];
-         for (var i=0; i < $scope.items.length; i++){
-            if (!_.contains(titles,$scope.items[i].title)){
-              titles.push($scope.items[i].title)
-            }
-            if ($scope.items[i].pedigree){
-              if (!_.contains(pedigrees,$scope.items[i].pedigree)){
-                pedigrees.push($scope.items[i].pedigree)
-              }         
-            }
-            if ($scope.items[i].publisher){
-              if (!_.contains(publishers,$scope.items[i].publisher)){
-                publishers.push($scope.items[i].publisher)
-              }         
-            }
-            if ($scope.items[i].sales.length){
-              for (var j=0; j < $scope.items[i].sales.length; j++){
-
-                if (!_.contains(venues,$scope.items[i].sales[j].venue)){
-                  venues.push($scope.items[i].sales[j].venue)
-                }       
-          
-              }  
-            }  
-         }
-        $scope.titles = titles;
-        $scope.publishers = publishers;
-        $scope.pedigrees = pedigrees; 
-        $scope.venues = venues; 
-        $scope.uid = data.books.length;
-      });
-      $scope.sales = [];
-      $scope.addItem = function(item) { 
-        item.sales = $scope.sales;
-        item.uid = $scope.uid;
-        $scope.uid++;
-        $scope.items.push(item);
-        $scope.item = {};
-        $scope.sales = [];
-        if (item.pedigree){
-          if (!_.contains($scope.pedigrees,item.pedigree)){
-            $scope.pedigrees.push(item.pedigree)
-          }         
-        }
-        if (item.publisher){
-          if (!_.contains($scope.publishers,item.publisher)){
-            $scope.publishers.push(item.publisher)
-          }         
-        }
-        if (!_.contains($scope.titles,item.title)){
-          $scope.titles.push(item.title)
-        }
-        var items = $scope.items,
-          len = items.length;
-        for ( var i = 0; i <len; i++){
-          delete items[i]["$$hashKey"];
-        }
-        $http.post('data/index.php', JSON.stringify(items)).success(function(data){console.log("200");
-        }); 
-      } 
-      $scope.addSale = function(sale) {
-        $scope.sales.push(_.clone(sale));
-        for (var val in sale){
-          delete sale[val];
-        }
-      } 
-  }
-])
-angular.module('comicFilters', []).filter('srcFilter', function() {
-  return function(input) {
-    if (input === 'cgc' || input === 'pgx' ) {
-      input = input.toUpperCase();
-    }
-    return input;
-  };
-}).filter('capitalize', function () {
-    "use strict";
-    return function (input) {
-      if (input){
-        return input.charAt(0).toUpperCase() + input.slice(1);
-      }
-    };
-});;
-
-</script>
 </body>
 </html>

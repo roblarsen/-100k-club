@@ -1,23 +1,149 @@
-<!doctype html>
-<html lang="en" ng-app="myApp">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>$100,000 Club</title>
-  <link rel="stylesheet" href="css/app.css"/>
-   <link rel="stylesheet" href="css/ng-grid.css"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>$100,000 Club Beta</title>
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-  <div ng-view></div>
+<div data-ng-app="comicsApp">
+  <div data-ng-controller="comicsCtrl">
+  <div>
+    <input type="text" data-ng-model="search" class="search-query" placeholder="Search">
+  </div>
+  <table>
+    <tr>
+      <th>title</th>
+      <th>issue#</th>
+      <th>pedigree</th>
+      <th>grade_src</th>
+      <th>grade</th>
+      <th>general_commentary</th>
+      <th>sales</th>
+    </tr>
+    <tr data-ng-repeat="it in items | filter:search | orderBy:['title','issue','-grade']">
+      <td>{{it.title}}</td>
+      <td>{{it.issue}}</td>
+      <td>{{it.pedigree}}{{it.collection}}{{it.provenance}}</td>
+      <td>{{it.grade_src | srcFilter}}</td>
+      <td>{{it.grade}}</td>
+      <td>{{it.general_commentary}}</td>
+      <td class="sales">
+        <table>
+          <tr data-ng-repeat="sl in it.sales | orderBy: 'sale_date'" data-ng-class="{editing: editorEnabled}">
+            <td>{{sl.venue|capitalize}}</td>
+            <td>{{sl.sale_date}}</td>
+            <td data-ng-show="sl.link"><a href="{{sl.link}}">{{sl.price | currency}}</a></td>
+            <td data-ng-hide="sl.link">{{sl.price | currency}}</td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
 
-  <!-- In production use:
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
-  -->
-  <script src="lib/angular/angular.js"></script>
-  <script src="lib/angular/ng-grid-2.0.5.min.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/services.js"></script>
-  <script src="js/controllers.js"></script>
-  <script src="js/filters.js"></script>
-  <script src="js/directives.js"></script>
+</div>
+</div>
+<script src="lib/angular/angular.js"></script> 
+<script src="lib/jquery/2.0.2/jquery.min.js"></script> 
+<script src="lib/lodash/1.2.1/lodash.min.js"></script> 
+<script src="js/app.js"></script> 
+<script src="js/services.js"></script> 
+<script src="js/controllers.js"></script> 
+<script src="js/filters.js"></script> 
+<script src="js/directives.js"></script> 
+<script>
+//'myApp.filters', 'myApp.services', 'myApp.directives', 
+angular.module('comicsApp', ['comicsApp.controllers'])
+angular.module('comicsApp.controllers', ['comicFilters']).
+  controller('comicsCtrl', ["$scope", "$http",
+    function( $scope , $http)  {
+      $http({"method" : "GET", "url" : "data/books.json"}).success(
+        function(data){
+         $scope.items = data.books;
+         var titles = [], pedigrees = [], publishers = [], venues = [];
+         for (var i=0; i < $scope.items.length; i++){
+            if (!_.contains(titles,$scope.items[i].title)){
+              titles.push($scope.items[i].title)
+            }
+            if ($scope.items[i].pedigree){
+              if (!_.contains(pedigrees,$scope.items[i].pedigree)){
+                pedigrees.push($scope.items[i].pedigree)
+              }         
+            }
+            if ($scope.items[i].publisher){
+              if (!_.contains(publishers,$scope.items[i].publisher)){
+                publishers.push($scope.items[i].publisher)
+              }         
+            }
+            if ($scope.items[i].sales.length){
+              for (var j=0; j < $scope.items[i].sales.length; j++){
+
+                if (!_.contains(venues,$scope.items[i].sales[j].venue)){
+                  venues.push($scope.items[i].sales[j].venue)
+                }       
+          
+              }  
+            }  
+         }
+        $scope.titles = titles;
+        $scope.publishers = publishers;
+        $scope.pedigrees = pedigrees; 
+        $scope.venues = venues; 
+        $scope.uid = data.books.length;
+      });
+      $scope.sales = [];
+      $scope.addItem = function(item) { 
+        item.sales = $scope.sales;
+        item.uid = $scope.uid;
+        $scope.uid++;
+        $scope.items.push(item);
+        $scope.item = {};
+        $scope.sales = [];
+        if (item.pedigree){
+          if (!_.contains($scope.pedigrees,item.pedigree)){
+            $scope.pedigrees.push(item.pedigree)
+          }         
+        }
+        if (item.publisher){
+          if (!_.contains($scope.publishers,item.publisher)){
+            $scope.publishers.push(item.publisher)
+          }         
+        }
+        if (!_.contains($scope.titles,item.title)){
+          $scope.titles.push(item.title)
+        }
+        var items = $scope.items,
+          len = items.length;
+        for ( var i = 0; i <len; i++){
+          delete items[i]["$$hashKey"];
+        }
+        $http.post('data/index.php', JSON.stringify(items)).success(function(data){console.log("200");
+        }); 
+      } 
+      $scope.addSale = function(sale) {
+        $scope.sales.push(_.clone(sale));
+        for (var val in sale){
+          delete sale[val];
+        }
+      } 
+  }
+])
+angular.module('comicFilters', []).filter('srcFilter', function() {
+  return function(input) {
+    if (input === 'cgc' || input === 'pgx' ) {
+      input = input.toUpperCase();
+    }
+    return input;
+  };
+}).filter('capitalize', function () {
+    "use strict";
+    return function (input) {
+      if (input){
+        return input.charAt(0).toUpperCase() + input.slice(1);
+      }
+    };
+});;
+
+</script>
 </body>
 </html>

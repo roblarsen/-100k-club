@@ -5,31 +5,34 @@
 <title>$100,000 Club Beta</title>
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 <link rel="stylesheet" type="text/css" href="css/normalize.css">
-<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/display.css">
 </head>
 <body>
 <div data-ng-app="comicsApp">
   <div data-ng-controller="comicsCtrl">
   <div>
-    <input type="text" data-ng-model="search" class="search-query" placeholder="Search">
+    <input type="text" data-ng-model="search" class="search-query" placeholder="Filter">
   </div>
-  <table>
+  <table class="data">
     <tr>
-      <th>Title</th>
-      <th>Issue #</th>
-      <th>Pedigree</th>
-      <th>Grade Source</th>
-      <th>Grade</th>
-      <th>General Commentary</th>
-      <th>Sales</th>
+      <!--data-ng-click="sorter('title')"-->
+      <th class="title">Title</th>
+      <th class="number">#</th>
+       <!--data-ng-click="sorter('pedigree')-->
+       <th class="ped">Pedigree</th>
+      <th class="source">Grade Source</th>
+      <!--data-ng-click="sorter('grade')"-->
+      <th class="grade">Grade</th>
+      <th class="commentary">General Commentary</th>
+      <th class="sales">Sales</th>
     </tr>
     <tr data-ng-repeat="it in items | filter:search | orderBy:['title','issue','-grade']">
-      <td>{{it.title}}</td>
-      <td>{{it.issue}}</td>
-      <td>{{it.pedigree}}{{it.collection}}{{it.provenance}}</td>
-      <td>{{it.grade_src | srcFilter}}</td>
-      <td>{{it.grade}}</td>
-      <td>{{it.general_commentary}}
+      <td class="title">{{it.title}}</td>
+      <td class="number">{{it.issue}}</td>
+      <td class="ped">{{it.pedigree}}{{it.collection}}{{it.provenance}}</td>
+      <td class="source">{{it.grade_src | srcFilter}}</td>
+      <td class="grade">{{it.grade}}</td>
+      <td class="commentary">{{it.general_commentary}}
         <div data-ng-show="it.front_cover" class="image"><a href="{{it.front_cover}}">view</a></div>
       </td>
 
@@ -42,7 +45,7 @@
           </tr>
           <tr data-ng-repeat="sl in it.sales | orderBy: 'sale_date'" data-ng-class="{editing: editorEnabled}">
             <td>{{sl.venue|capitalize}}</td>
-            <td>{{sl.sale_date}}</td>
+            <td>{{sl.sale_date | saneDate }}</td>
             <td data-ng-show="sl.link"><a href="{{sl.link}}">{{sl.price | currency}}</a></td>
             <td data-ng-hide="sl.link">{{sl.price | currency}}</td>
           </tr>

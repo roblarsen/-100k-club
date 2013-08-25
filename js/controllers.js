@@ -40,6 +40,7 @@ angular.module('comicsApp.controllers', ['comicFilters']).
         item.sales = $scope.sales;
         item.uid = $scope.uid;
         $scope.uid++;
+        $scope.sort = ['title','issue','-grade'];
         $scope.items.push(item);
         $scope.item = {};
         $scope.sales = [];
@@ -69,6 +70,13 @@ angular.module('comicsApp.controllers', ['comicFilters']).
         for (var val in sale){
           delete sale[val];
         }
+      }
+      $scope.sorter = function(sort){
+      	if ($scope.sort === sort) {
+      		sort = "-"+sort;
+      	}
+      	
+      	$scope.sort = sort;
       } 
   }
 ])

@@ -9,3 +9,4 @@ data notes:
 - I think you`re missing some recent public sales of TOS 39 and JIM 83 that were above $100K.
 - I can`t disclose the exact price, but the 9.4 Brave and Bold sold in November 2009 for over $100K. 
 - 2002. Geppi paid $40k for the MC #1 Pay Copy + a copy of MPFW in the 80s. I happened to notice awhile back that this happened far enough into the internet era that there's still live links. Here's a fun blast from the past... http://articles.baltimoresun.com/2002-01...ppi-human-torch
+- The 1992 Sothebys 78 Action #1 is the 2 million Nic Cage copy

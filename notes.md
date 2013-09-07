@@ -18,3 +18,4 @@ data notes:
 - Marvel 1 9.0 http://comics.drunkenfist.com.s3.amazonaws.com/wp-content/uploads/2013/09/Marvel_1_CGC9.0-648x1024.jpg
 - Allentown Cap 1 http://comics.drunkenfist.com.s3.amazonaws.com/wp-content/uploads/2013/09/cap1-636x1024.jpg
 - Windy City Cap 1 http://comics.drunkenfist.com.s3.amazonaws.com/wp-content/uploads/2013/09/CAP_1-Windy_City-648x1024.jpg
+- http://scoop.diamondgalleries.com/Home/4/1/73/1012?ArticleID=138972

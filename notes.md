@@ -19,3 +19,4 @@ data notes:
 - Allentown Cap 1 http://comics.drunkenfist.com.s3.amazonaws.com/wp-content/uploads/2013/09/cap1-636x1024.jpg
 - Windy City Cap 1 http://comics.drunkenfist.com.s3.amazonaws.com/wp-content/uploads/2013/09/CAP_1-Windy_City-648x1024.jpg
 - http://scoop.diamondgalleries.com/Home/4/1/73/1012?ArticleID=138972
+- https://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fsearch.asp%3FFocusedOnly%3D1%26where%3Dauctions%26title%3Dshowcase%2B22%26x%3D15%26y%3D14%26ItemType%3DCB%23Item_942194&id=942194

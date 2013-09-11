@@ -915,8 +915,18 @@
          "issue":"1",
          "grade_src":"CGC",
          "grade":"9.6",
-         "tags":"avengers,marvel,cgc",
+         "pedigree":"Pacific Coast",
+         "tags":"avengers,marvel,cgc,pedigre",
          "sales":[
+            {
+               "sale_date":"2012-07-28",
+               "price":"274850",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/prlink.zx?saleNo=7063&lotNo=91001",
+               "$$hashKey":"09G"
+            }
+        
+
 
          ],
          "uid":55
@@ -1001,10 +1011,16 @@
          "tags":"dc,action-comics,heritage,cgc,superman",
          "sales":[
             {
-               "sale_date":"2013-08-01",
+               "sale_date":"2013-08-03",
                "price":"388375",
                "venue":"Heritage",
                "link":"http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91001",
+               "$$hashKey":"0EH"
+            },{
+               "sale_date":"2012-02-24",
+               "price":"298750",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/prlink.zx?saleNo=7054&lotNo=91001",
                "$$hashKey":"0EH"
             }
          ],
@@ -1244,9 +1260,17 @@
          "title":"Batman",
          "issue":"1",
          "grade_src":"CGC",
+  "pedigree":"Billy Wright",
          "grade":"8.5",
          "tags":"cgc,batman,dc",
-         "sales":[
+         "sales":[{
+         	   "sale_date":"2012-02-24",
+               "price":"247850",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/prlink.zx?saleNo=7054&lotNo=91047",
+               "$$hashKey":"2G0"
+         }
+            
 
          ],
          "uid":78
@@ -1663,6 +1687,7 @@
          "tags":"detective-comics,batman,dc",
          "sales":[
 
+
          ],
          "uid":103
       },
@@ -1673,6 +1698,13 @@
          "grade":"6.5",
          "tags":"detective-comics,cgc,dc,batman",
          "sales":[
+            {
+               "sale_date":"2013-02-23",
+               "price":"567625",
+               "venue":"Heritage",
+               "$$hashKey":"1M4",
+               "link":"http://comics.ha.com/c/prlink.zx?saleNo=7073&lotNo=91048"
+            }
 
          ],
          "uid":104
@@ -2459,7 +2491,6 @@
          "issue":"4",
          "grade_src":"CGC",
          "grade":"9.6",
-         "pedigree" : "Newsboy Collection",
          "tags":"flash,silver-age,dc,showcase",
          "sales":[
             {
@@ -2687,12 +2718,6 @@
          "tags":"x-men,marvel",
          "sales":[
             {
-               "sellers_notes":"Sold to Metropolis",
-               "sale_date":"2011-01-01",
-               "price":"175000",
-               "venue":"Vintage Comics",
-               "$$hashKey":"2Y3"
-            },{
                "sale_date":"2011-04-01",
                "price":"200000",
                "venue":"Comic Connect",
@@ -3084,6 +3109,13 @@
          "grade_src":"cgc",
          "tags":"batman,detective-comics,dc",
          "sales":[
+         {
+               "sale_date":"2011-11-19",
+               "price":"492938",
+               "venue":"Heritage",
+               "$$hashKey":"1M4",
+               "link":"http://comics.ha.com/c/prlink.zx?saleNo=7027&lotNo=91063"
+            }
 
          ],
          "uid":192
@@ -3124,10 +3156,18 @@
       {
          "title":"Detective Comics",
          "issue":"27",
+         "pedigree":"Billy Wright",
          "grade_src":"cgc",
          "grade":"6.5",
          "tags":"batman,detective-comics,dc",
          "sales":[
+         {
+               "sale_date":"2012-02-24",
+               "price":"522813",
+               "venue":"Heritage",
+               "$$hashKey":"1M4",
+               "link":"http://comics.ha.com/c/prlink.zx?saleNo=7054&lotNo=91070"
+            }
 
          ],
          "uid":196
@@ -3183,6 +3223,13 @@
          "grade":"2.0",
          "tags":"detective-comics,dc,batman",
          "sales":[
+         {
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7054&lotNo=91305",
+               "price":"116512.50",
+               "sale_date":"2012-02-22",
+               "venue":"Heritage",
+               "$$hashKey":"036"
+            }
 
          ],
          "uid":201
@@ -3901,6 +3948,29 @@
 
          ],
          "uid":257
+      },
+      {
+         "title":"Brave and the Bold",
+         "issue":"28",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "general_commentary":"Sold for more than $100,000 in 2009",
+         "tags":"dc,jla,cgc",
+         "sales":[
+
+         ],
+         "uid":258
+      },
+      {
+         "title":"Brave and the Bold",
+         "issue":"28",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"jla,dc,cgc",
+         "sales":[
+
+         ],
+         "uid":259
       }
    ]
 }

@@ -34,4 +34,5 @@ data notes:
 - http://comics.ha.com/c/item.zx?saleNo=7054&lotNo=91072
 - http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91023
 - http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91206
+- http://www.comiclink.com/itemdetail.asp?back=%2FCGC%2Easp%3Ff1%3Di%2ELastUpdate%26ODire1%3DDESC&id=932964
 

@@ -1,1 +1,3976 @@
-{"books":[{"title":"Action Comics","issue":"1","publisher":"DC Comics","cover_date":"1938-06-01","pedigree":"Church","grade_src":"Anecdote","grade":"9.2","general_commentary":"Best Existing","tags":"church,superman,action,dc,pedigree","sales":[],"uid":0},{"title":"Action Comics","publisher":"DC Comics","issue":"1","cover_date":"1938-04-01","pedigree":"","grade":"8.5","grade_src":"CGC","general_commentary":"","tags":"cgc,action,superman","sales":[{"price":"1500000","sale_date":"2010-03-29","venue":"Comic Connect","link":"http://www.comicconnect.com/bookDetail.php?id=333815","$$hashKey":"00B"}],"uid":1},{"title":"Action Comics","issue":"1","publisher":"DC Comics","cover_date":"1938-04-01","pedigree":"Kansas City","grade_src":"CGC","grade":"8.0","tags":"action,superman,cgc,dc,pedigree","sales":[{"sale_date":"2010-02-22","price":"1000000","venue":"Comic Connect","link":"http://www.comicconnect.com/bookDetail.php?id=330734","$$hashKey":"00F"}],"uid":2},{"title":"Action Comics","issue":"1","publisher":"DC Comics","cover_date":"1938-04-01","grade":"7.5","grade_src":"CGC","sales":[{"venue":"Unknown","sale_date":"2002-01-01","price":"192120.15","$$hashKey":"00J"}],"uid":3},{"title":"Action Comics","issue":"1","cover_date":"1938-04-01","pedigree":"Larson","grade_src":"Anecdote","grade":"VF","sales":[],"uid":4,"tags":"dc,pedigree,superman,action"},{"title":"Action Comics","issue":"1","publisher":"DC Comics","cover_date":"1938-04-01","grade_src":"Sotheby's Grading Commitee","grade":"78","tags":"action,superman,dc","sales":[{"sale_date":"1992-01-01","price":"82500","venue":"Sotheby's","$$hashKey":"00P"}],"uid":5},{"title":"Action Comics","issue":"1","publisher":"DC Comics","cover_date":"1938-04-01","grade_src":"CGC","grade":"6.5","tags":"cgc,superman,action","sales":[{"venue":"Unknown","sale_date":"2006-01-01","price":"250000","$$hashKey":"00T"}],"uid":6},{"title":"Action Comics","issue":"1","publisher":"DC Comics","cover_date":"1938-04-01","grade_src":"CGC","grade":"9.0","tags":"cgc,superman,action","sales":[{"price":"2161000","link":"http://www.comicconnect.com/bookDetail.php?id=432101","sale_date":"2011-11-30","venue":"Comic Connect","$$hashKey":"00X"}],"uid":7},{"title":"Action Comics","issue":"1","publisher":"DC Comics","cover_date":"1938-04-01","grade_src":"CGC","grade":"6.5","general_commentary":"Upgraded from 5.5","tags":"cgc,upgrade,action,superman","sales":[{"venue":"Unknown","sellers_notes":"as 5.5","sale_date":"1900-01-01","price":"120750","$$hashKey":"010"},{"sale_date":"2011-06-01","price":"625000","venue":"Comiclink","$$hashKey":"012"}],"uid":8},{"title":"Action Comics","issue":"1","publisher":"DC Comics","grade_src":"CGC","grade":"6.0","tags":"cgc,action,superman,dc","sales":[{"sale_date":"2010-03-13","price":"317200","venue":"Comic Connect","$$hashKey":"011"}],"uid":9},{"title":"Action Comics","issue":"1","publisher":"DC Comics","grade_src":"PGX","restoration":"Restored","grade":"9.0(r)","sales":[],"uid":10},{"title":"Action Comics","issue":"1","publisher":"DC Comics","grade_src":"CGC","grade":"5.0","tags":"action,superman,dc","sales":[{"sale_date":"2010-09-21","price":"436000","venue":"Comic Connect","$$hashKey":"01A"}],"uid":11},{"title":"Action Comics","issue":"1","publisher":"DC Comics","grade_src":"CGC","grade":"4.0","tags":"cgc,action,superman,dc","sales":[],"uid":12},{"title":"Action Comics","issue":"1","publisher":"DC Comics","grade_src":"CGC","grade":"4.5","tags":"cgc,superman,action,dc","sales":[{"venue":"Unknown","sale_date":"1900-01-01","price":"86250","$$hashKey":"01B"},{"sale_date":"2011-08-09","price":"345000","venue":"Comic Connect","$$hashKey":"01D"}],"uid":13},{"title":"Action Comics","issue":"1","publisher":"DC Comics","grade_src":"CGC","grade":"4.0","tags":"cgc,action,superman,dc","sales":[],"uid":14},{"title":"Action Comics","issue":"1","publisher":"DC Comics","grade_src":"CGC","grade":"3.5","sales":[],"uid":15},{"title":"Action Comics","issue":"1","publisher":"DC Comics","grade_src":"CGC","grade":"3.0","tags":"cgc,superman,action,dc","sales":[{"sale_date":"2010-04-01","price":"300000","venue":"Comic Connect","$$hashKey":"01J"}],"uid":16},{"title":"Action Comics","issue":"1","publisher":"DC Comics","grade_src":"CGC","grade":"3.0","tags":"cgc,action,superman,dc","sales":[],"uid":17},{"title":"Action Comics","issue":"1","publisher":"DC Comics","grade_src":"CGC","grade":"3.0","tags":"cgc,action,superman,dc","sales":[],"uid":18},{"title":"Action Comics","issue":"1","publisher":"DC Comics","grade_src":"CGC","grade":"2.5","tags":"cgc,action,superman,dc","sales":[{"sale_date":"2009-06-19","price":"121000","venue":"Comic Connect","$$hashKey":"01Q"}],"uid":19},{"title":"Action Comics","issue":"1","publisher":"DC Comics","grade_src":"CGC","grade":"2.0","tags":"dc,cgc,superman,action","sales":[],"uid":20},{"title":"Action Comics","issue":"1","publisher":"DC Comics","grade_src":"CGC","grade":"8.5(mp)","restoration":"Moderate Professional","tags":"cgc,restored,superman,action","sales":[{"sale_date":"2008-05-01","price":"116512","venue":"Heritage","$$hashKey":"01V"}],"uid":21},{"cgcid":"","title":"Action Comics","issue":"2","publisher":"DC Comics","pedigree":"Church","grade_src":"","sales":[],"uid":22,"tags":"action,superman,pedigree,dc"},{"title":"Action Comics","issue":"7","publisher":"DC Comics","pedigree":"Church","tags":"dc,pedigree,superman,action","sales":[],"uid":23},{"title":"Action Comics","issue":"7","grade_src":"CGC","grade":"8.0","sales":[{"sale_date":"2008-02-01","price":"143400","venue":"Heritage","$$hashKey":"023"}],"uid":24},{"title":"Amazing Spider-Man","issue":"1","pedigree":"Curator","grade_src":"CGC","grade":"9.6","tags":"marvel,spider-man,cgc","sales":[],"uid":25},{"title":"Action Comics","issue":"10","grade_src":"CGC","grade":"9.0","tags":"cgc,superman,dc,action","sales":[{"sale_date":"2011-08-09","price":"258000","venue":"Comic Connect","$$hashKey":"027"}],"uid":26},{"title":"Action Comics","issue":"13","publisher":"DC Comics","grade_src":"cgc","grade":"9.2","tags":"cgc,action,superman,dc","sales":[{"sale_date":"2011-08-09","price":"185000","venue":"Comic Connect","$$hashKey":"02C"}],"uid":27},{"title":"All American Comics","issue":"16","pedigree":"Church","grade_src":"CGC","grade":"9.4","tags":"all-american-comics,green-lantern,dc,cgc,pedigree","sales":[{"venue":"Unknown","sale_date":"1984-01-01","price":"9000","$$hashKey":"02H"}],"uid":28},{"title":"All American Comics","issue":"16","publisher":"DC Comics","pedigree":"Reilly","grade_src":"Anecdote","grade":"9+","grading_notes":"qualified, coupon out of back cover","tags":"all-american-comics,green-lantern,dc,pedigree","sales":[{"venue":"Unknown","sellers_notes":"OS26 listing","sale_date":"1996-01-01","price":"60000","$$hashKey":"02K"}],"uid":29},{"title":"All Star Comics","issue":"3","publisher":"DC Comics","pedigree":"Church","grade_src":"CGC","grade":"9.6","tags":"all-star-comics,jsa,dc,pedigree,cgc","sales":[{"venue":"Unknown","sale_date":"1901-01-01","price":"126500","$$hashKey":"04W"}],"uid":30},{"title":"All Star Comics","issue":"8","pedigree":"Church","grade_src":"","general_commentary":"Overstreet 26 reported sale","tags":"all-star,dc,church,pedigree","sales":[{"venue":"Unknown","sale_date":"1995-01-01","price":"70000","$$hashKey":"02R"}],"uid":31},{"title":"All Winners Comics","issue":"1","pedigree":"Chicago","grade_src":"CGC","grade":"9.6","tags":"all-winners,timely,marvel","sales":[{"link":"http://www.hakes.com/item.asp?Auction=188&ItemNo=44415","sale_date":"2006-06-29","price":"95200","venue":"Hakes","$$hashKey":"02X"}],"uid":32},{"title":"Amazing Fantasy","issue":"15","grade_src":"CGC","grade":"9.6","general_commentary":"Best Known","tags":"amazing-fantasy,marvel,spider-man,cgc","sales":[{"sale_date":"2011-03-09","price":"1100000","venue":"Comic Connect","link":"http://www.comicconnect.com/load_page.php?page=amazing_fantasy_15","$$hashKey":"032"}],"uid":33},{"title":"Amazing Fantasy","issue":"15","pedigree":"White Mountain","grade_src":"cgc","grade":"9.4","tags":"amazing-fantasy,marvel,spider-man,cgc","sales":[{"sale_date":"1993-01-01","price":"39100","venue":"Sothebys","$$hashKey":"034"},{"link":"http://comics.ha.com/c/item.zx?saleNo=816&lotNo=5272","price":"126500","sale_date":"2005-05-20","venue":"Heritage","$$hashKey":"036"},{"sale_date":"2004-08-01","price":"150000","venue":"Pedigree","link":"http://www.pedigreecomics.com/detail.php?issue_id=719","$$hashKey":"038"},{"sale_date":"2007-10-16","price":"227000","link":"http://www.Comiclink.com/auctions/item.asp?back=%2FComicTrack%2FAdmin%2Fauc…%26SearchSeller%3D%26SearchHighBidder%3D%26Image1%2Ex%3D0%26Image1%2Ey%3D0","venue":"Comiclink","$$hashKey":"03A"}],"uid":34},{"title":"Amazing Fantasy","issue":"15","grade_src":"CGC","grade":"9.4","tags":"amazing-fantasy,marvel,spider-man,cgc","sales":[{"sale_date":"2003-05-07","price":"86250","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=806&lotNo=5073","$$hashKey":"03A"},{"sale_date":"2005-01-01","price":"145000","venue":"PGCMint","$$hashKey":"03C"},{"sale_date":"2007-01-01","price":"210000","venue":"Comiclink","link":"http://www.Comiclink.com/itemdetail.asp?id=706615&next=%2FComicTrack%2FAdmi…D%26TYPE%3D0%26FILTER%3D%26Payment%3D%26Verified%3D%26Shipped%3D%26SPBP%3D","$$hashKey":"03E"}],"uid":35},{"title":"Amazing Fantasy","issue":"15","pedigree":"Diamond Run","grade_src":"CGC","grade":"9.4","tags":"amazing-fantasy,marvel,spider-man,cgc,pedigree","sales":[{"venue":"Unknown","sale_date":"2001-01-01","price":"86000","$$hashKey":"03J"},{"sale_date":"2004-01-01","price":"122000","venue":"Comiclink","$$hashKey":"03L"}],"uid":36},{"title":"Amazing Fantasy","issue":"15","grade_src":"CGC","grade":"9.4","tags":"amazing-fantasy,marvel,spider-man,cgc","sales":[],"uid":37},{"title":"Amazing Fantasy","issue":"15","grade_src":"CGC","grade":"9.4","tags":"amazing-fantasy,marvel,spider-man,cgc","sales":[],"uid":38},{"title":"Amazing Fantasy","grade":"9.4","grade_src":"CGC","issue":"15","tags":"amazing-fantasy,marvel,spider-man,cgc","sales":[],"uid":39},{"title":"Amazing Fantasy","issue":"15","grade_src":"CGC","grade":"9.2","tags":"amazing-fantasy,marvel,spider-man,cgc","sales":[],"uid":40},{"title":"Amazing Fantasy","issue":"15","collection":"","grade_src":"CGC","grade":"9.2","tags":"amazing-fantasy,marvel,spider-man,cgc","sales":[{"sale_date":"2009-02-15","price":"190000","venue":"Pedigree","$$hashKey":"03S"}],"uid":41},{"title":"Amazing Fantasy","issue":"15","pedigree":"Curator","grade_src":"CGC","grade":"9.0","tags":"amazing-fantasy,marvel,spider-man,cgc","sales":[],"uid":42},{"title":"Amazing Fantasy","grade_src":"cgc","issue":"15","grade":"9.0","tags":"amazing-fantasy,marvel,spider-man,cgc","sales":[{"sale_date":"2008-01-01","price":"139000","venue":"Comiclink","$$hashKey":"03X"}],"uid":43},{"title":"Amazing Fantasy","issue":"15","grade_src":"CGC","grade":"8.5","tags":"cgc,amazing-fantasy,spider-man,marvel","sales":[{"sale_date":"2008-01-01","price":"118977","venue":"Comiclink","$$hashKey":"040"}],"uid":44},{"title":"Amazing Fantasy","issue":"15","grade_src":"CGC","grade":"8.5","tags":"marvel,amazing-spider-man,cgc,heritage.a","sales":[{"sale_date":"2009-11-01","price":"104562.50","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=7013&lotNo=92111","$$hashKey":"07K"}],"uid":45},{"title":"Amazing Fantasy","issue":"15","grade_src":"CGC","grade":"8.5","tags":"amazing-spider-man,cgc,marvel,Comiclink","sales":[{"sale_date":"2009-03-20","price":"122000","venue":"Comiclink","$$hashKey":"04D"}],"uid":46},{"title":"Amazing Spider-Man","issue":"1","grade_src":"CGC","grade":"9.8","tags":"amazing-spider-man,marvel,cgc","sales":[],"uid":47},{"title":"Amazing Spider-Man","issue":"1","grade_src":"cgc","grade":"9.6","tags":"amazing-spider-man,cgc,marvel,heritage","sales":[{"venue":"Heritage","sale_date":"2003-03-07","price":"92000","link":"http://comics.ha.com/c/item.zx?saleNo=806&lotNo=5074","$$hashKey":"08A"},{"sale_date":"2005-08-11","price":"97750","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=817&lotNo=1005","$$hashKey":"08C"}],"uid":48},{"title":"Amazing Spider-Man","issue":"1","pedigree":"White Mountain","grade_src":"cgc","grade":"9.6","tags":"AMAZING-SPIDER-MAN,CGC.MARVEL","sales":[{"venue":"Unknown","sale_date":"2001-01-01","price":"67305","$$hashKey":"0G8"},{"sale_date":"1900-01-01","price":"100000","venue":"Comiclink","$$hashKey":"0G6"},{"sale_date":"2009-04-21","price":"130000","venue":"Comiclink","$$hashKey":"0GA"}],"uid":50},{"title":"Amazing Spider-Man","issue":"1","grade":"9.4","tags":"amazing-spider-man,cgc,comiclink,spider-man","sales":[{"sale_date":"2009-03-13","price":"104200","venue":"Comiclink","$$hashKey":"0KH"}],"uid":51},{"title":"Amazing Spider-Man","issue":"5","grade_src":"cgc","grade":"9.8","tags":"amazing-spider-mane,cgc,comiclink,marvel","sales":[{"sale_date":"2009-11-17","price":"97000","venue":"Comiclink","$$hashKey":"0OP"}],"uid":52},{"title":"Archie Comics","issue":"1","pedigree":"Church","grade_src":"Anecdote","grade":"NM","general_commentary":"Reported in Overstreet 28","tags":"archie,pedigree","sales":[{"venue":"Unknown","sale_date":"1997-01-01","price":"53","$$hashKey":"052"}],"uid":53},{"title":"Archie Comics","issue":"1","grade_src":"CGC","grade":"8.5","tags":"Archie,heritage,cgc","sales":[{"sale_date":"2011-02-24","price":"167300","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=7030&lotNo=91252","$$hashKey":"09G"}],"uid":54},{"title":"Avengers","issue":"1","grade_src":"CGC","grade":"9.6","tags":"avengers,marvel,cgc","sales":[],"uid":55},{"title":"Daredevil","issue":"1","grade_src":"CGC","grade":"9.8","tags":"marvel,daredevil,cgc","sales":[],"uid":56},{"title":"Avengers","issue":"1","grade_src":"cgc","grade":"9.6","tags":"avengers,cgc,marvel","sales":[],"uid":57},{"title":"Avengers","issue":"1","grade_src":"CGC","grade":"9.6","tags":"avengers,marvel,cgc","sales":[{"sale_date":"2011-02-01","price":"100000","venue":"Comiclink","$$hashKey":"0W8"}],"uid":58},{"title":"Batman","issue":"1","grade_src":"CGC","grade":"9.2","tags":"batman,cgc,dc,heritage","sales":[{"sale_date":"2013-08-01","price":"567625.00","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91013","$$hashKey":"1FJ"}],"uid":58},{"title":"Batman","issue":"1","grade_src":"CGC","grade":"9.0","tags":"batman,cgc,comiclink,dc","sales":[{"sale_date":"2007-10-01","price":"280000","venue":"Comiclink","$$hashKey":"05N"}],"uid":60},{"title":"Action Comics","issue":"1","pedigree":"Billy Wright","grade_src":"CGC","grade":"3.0","tags":"dc,action-comics,heritage,cgc,superman","sales":[{"sale_date":"2013-08-01","price":"388375","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91001","$$hashKey":"0EH"}],"uid":62},{"title":"All American Comics","issue":"16","pedigree":"Billy Wright","grade_src":"CGC","grade":"8.0","tags":"green-lantern,cgc,pedigree,heritage,dc","sales":[{"sale_date":"2013-08-01","price":"203150","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91004","$$hashKey":"052"}],"uid":63},{"title":"Fantastic Four","issue":"1","grade_src":"CGC","grade":"9.6","tags":"fantastic-four,cgc,marvel","sales":[],"uid":64},{"title":"Fantastic Four","issue":"1","grade_src":"CGC","grade":"9.4","tags":"fantastic-four,cgc,marvel","sales":[{"sale_date":"2002-06-22","price":"111328","venue":"JP The Mint","$$hashKey":"0G8"}],"uid":65},{"title":"Fantastic Four","issue":"1","grade_src":"CGC","grade":"9.4","general_commentary":"Part of a trade for 9.6","tags":"marvel,fantastic-four,cgc","sales":[{"sale_date":"2010-01-01","price":"210000","venue":"Pedigree","$$hashKey":"0LI"}],"uid":66},{"title":"Fantastic Four","issue":"1","grade_src":"CGC","grade":"9.4","tags":"cgc,marvel,fantastic-four","sales":[],"uid":67},{"title":"Fantastic Four","issue":"1","pedigree":"White Mountain","grade_src":"CGC","grade":"9.2","tags":"fantastic-four,cgc,white-mountain,pedigree","sales":[{"sale_date":"1993-01-01","price":"27000","venue":"Sotheby's","$$hashKey":"11O"},{"sale_date":"2007-01-01","price":"100000","venue":"Metropolis","$$hashKey":"11Q"},{"sale_date":"2013-08-01","price":"191200","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91141","$$hashKey":"11S"}],"uid":69},{"title":"Flash Comics","issue":"1","pedigree":"Church","grade_src":"CGC","grade":"9.6","tags":"flash,dc,cgc,heritage,jp-the-mint","sales":[{"sale_date":"2004-01-01","price":"350,000","$$hashKey":"17F"},{"sale_date":"2007-01-01","price":"273,125","venue":"Heritage","$$hashKey":"17H"},{"sale_date":"2010-03-01","price":"450000","venue":"Heritage","$$hashKey":"17J"}],"uid":70},{"title":"Flash Comics","issue":"1","pedigree":"Reilly","general_commentary":"Said to be 9+","tags":"missing,pedigree,dc,flash","sales":[],"uid":71},{"title":"Flash Comics","issue":"1","pedigree":"Kansas City","tags":"dc,flash,pedigree","sales":[],"uid":72},{"title":"Batman","issue":"1","pedigree":"Church","grade_src":"MHC","grade":"NM","tags":"batman,pedigree,dc","sales":[{"sale_date":"1984-01-01","price":"12000","$$hashKey":"0CB"}],"uid":73},{"title":"Batman","issue":"1","pedigree":"Denver","grade_src":"OS32","grade":"NM","tags":"batman,dc,pedigree","sales":[{"sale_date":"2001-01-01","price":"70000","$$hashKey":"0I9"}],"uid":74},{"title":"Batman","issue":"1","collection":"Overstreet","grade_src":"OS32","grade":"VF+","tags":"batman,overstreet,dc","sales":[{"venue":"Unknown","sale_date":"2001-01-01","price":"150000","$$hashKey":"0O9"}],"uid":75},{"title":"Batman","issue":"1","pedigree":"Reilly","grade_src":"Anecdote","grade":"9.+","tags":"pedigree,dc,batman,missing","sales":[],"uid":76},{"title":"Batman","issue":"1","pedigree":"Kansas City","grade_src":"CGC","grade":"8.5","tags":"dc,pedigree,batman,heritage","sales":[{"sale_date":"2001-11-01","price":"107000","venue":"Heritage","$$hashKey":"10M"}],"uid":77},{"title":"Batman","issue":"1","grade_src":"CGC","grade":"8.5","tags":"cgc,batman,dc","sales":[],"uid":78},{"title":"Batman","issue":"1","pedigree":"","grade_src":"CGC","grade":"8.0","tags":"batman,cgc,comiclink,dc","sales":[{"sale_date":"2009-11-17","price":"100000","venue":"Comiclink","$$hashKey":"1D4"}],"uid":79},{"title":"Batman","issue":"1","grade_src":"CGC","grade":"8.0","tags":"dc,batman,cgc","sales":[],"uid":80},{"title":"Batman","issue":"1","grade_src":"CGC","grade":"8.0","tags":"dc,batman,cgc","sales":[],"uid":82},{"title":"Batman","issue":"1","grade_src":"CGC","grade":"7.5","tags":"dc,batman,cgc","sales":[],"uid":83},{"title":"Batman","issue":"1","grade_src":"CGC","grade":"7.5","tags":"dc,batman,cgc","sales":[],"uid":84},{"title":"Batman","issue":"1","grade_src":"CGC","grade":"7.0","tags":"cgc,batman,dc","sales":[{"sale_date":"2009-05-29","price":"98587","venue":"Heritage","link":"http://comics.ha.com/common/view_item.php?Sale_No=7007&Lot_No=91002&src=pr","$$hashKey":"2G0"}],"uid":85},{"title":"Batman","issue":"1","grade_src":"CGC","grade":"8.0","tags":"batman,dc,cgc","sales":[{"sale_date":"2008-06-01","price":"100000","venue":"Metropolis","link":"http://scoop.diamondgalleries.com/public/default.asp?t=1&m=1&c=34&s=262&ai=71029","$$hashKey":"2MQ"}],"uid":86},{"title":"Captain America Comics","issue":"1","pedigree":"Reilly","grade_src":"","tags":"captain-america,marvel,timely,pedigree","sales":[],"uid":87},{"title":"Captain America Comics","issue":"1","pedigree":"Kansas City","grade_src":"CGC","grade":"9.0","tags":"captain-america,cgc,pedigree,timely,marvel","sales":[{"sale_date":"2006-01-19","price":"96,686.25","venue":"Heritage","$$hashKey":"30G"},{"sale_date":"2008-01-01","price":"150000","venue":"Comiclink","$$hashKey":"30I"}],"uid":88},{"title":"Captain America Comics","issue":"1","pedigree":"Windy City","grade_src":"CGC","grade":"8.5","tags":"cgc,pedigree,captain-america,timely,marvel","sales":[{"venue":"Unknown","sale_date":"2001-01-01","sellers_notes":"os32","price":"95000","$$hashKey":"37L"},{"venue":"Unknown","sale_date":"1994-01-01","price":"36800","sellers_notes":"os25","$$hashKey":"37J"},{"venue":"Unknown","sale_date":"2005-10-14","price":"63250","$$hashKey":"37N"}],"uid":89},{"title":"Captain America Comics","issue":"1","grade_src":"CGC","grade":"9.2","tags":"captain-america,cgc,marvel,timely","sales":[{"sale_date":"2011-08-09","price":"343057","venue":"Comic Connect","$$hashKey":"3EN"}],"uid":90},{"title":"Captain America Comics","issue":"1","pedigree":"Denver","grade_src":"CGC","grade":"9.2","tags":"captain-america,marvel,timely,cgc,pedigree","sales":[{"venue":"Unknown","sale_date":"2001-01-01","price":"166750","sellers_notes":"os32","$$hashKey":"3LW"},{"venue":"Unknown","sellers_notes":"os25","sale_date":"1994-01-01","price":"82500","$$hashKey":"3LU"}],"uid":91},{"title":"Captain America Comics","issue":"1","pedigree":"Allentown","grade_src":"CGC","grade":"9.6","tags":"captain-america,cgc,pedigree,marvel,timely","sales":[{"venue":"Unknown","sale_date":"2001-01-01","price":"260000","$$hashKey":"3T9"},{"venue":"Unknown","sale_date":"1994-01-01","price":"82500","$$hashKey":"3T7"}],"uid":92},{"title":"Captain America Comics","issue":"1","grade_src":"CGC","grade":"8.5","tags":"captain-america,cgc,timely,marvel","sales":[{"sale_date":"2009-05-22","price":"95600","venue":"Heritage","$$hashKey":"089"}],"uid":93},{"title":"Detective Comics","issue":"1","pedigree":"Denver","tags":"detective-comics,pedigree,dc","sales":[{"venue":"Unknown","sale_date":"1995-01-01","price":"90000","sellers_notes":"os26","$$hashKey":"0FW"}],"uid":94},{"general_commentary":"OS 27 reported $150,000 trade. To be honest, I'm only now including it for completeness' sake. First off, it's \"trade\" which you have to take with a grain of salt anyway. Secondly, if it's really VG/FN, then is it really a $100,000 book right now, no matter the pedigree?","title":"Detective Comics","issue":"1","pedigree":"Church","grade":"VG/FN","tags":"detective-comics,pedigree,dc","sales":[],"uid":95},{"title":"Detective Comics","issue":"1","pedigree":"Allentown","grade_src":"Anecdote","grade":"NM/MT","general_commentary":"Best Existing","tags":"detective-comics,batman,dc","sales":[{"venue":"Unknown","sale_date":"1990-01-01","sellers_notes":"os21","price":"80000","$$hashKey":"0V4"}],"uid":96},{"title":"Detective Comics","issue":"27","pedigree":"Church","grade_src":"Anecdote","grade":"8.5","tags":"detective-comics,dc,batman,pedigree","sales":[{"venue":"Unknown","sale_date":"1994-01-01","sellers_notes":"os25","price":"125000","$$hashKey":"12X"},{"venue":"Unknown","sellers_notes":"os22","sale_date":"1991-01-01","price":"72000","$$hashKey":"12V"}],"uid":97},{"title":"Detective Comics","issue":"27","grade_src":"CGC","grade":"8.0","general_commentary":"Missing","tags":"detective-comics,dc,missing,batman","sales":[{"sale_date":"2001-01-01","price":"278190","venue":"Mastronet","$$hashKey":"1AS"}],"uid":98},{"title":"Detective Comics","issue":"27","grade_src":"CGC","grade":"8.0","tags":"batman,detective-comics,dc","sales":[{"sale_date":"2010-02-25","price":"1075000","venue":"Heritage","link":"http://comics.ha.com/common/view_item.php?Sale_No=7017&Lot_No=91126&ic=rightcolumn-detective27-121009","$$hashKey":"1IP"}],"uid":99},{"title":"Detective Comics","issue":"27","grade_src":"OS","grade":"7.5","general_commentary":"Slight resto","tags":"detective-comics,batman,dc,restored","sales":[{"venue":"Unknown","sellers_notes":"os33","sale_date":"2002-01-01","price":"100000","$$hashKey":"08Z"}],"uid":100},{"title":"Detective Comics","issue":"27","general_commentary":"The \"Other high grade\" copy","tags":"detective-comics,batman,dc","sales":[{"venue":"Unknown","sellers_notes":"OS24","sale_date":"1993-01-01","price":"81000","$$hashKey":"0OQ"},{"venue":"Unknown","sellers_notes":"OS24","sale_date":"1993-01-02","price":"101000","$$hashKey":"0OS"}],"uid":101},{"title":"Detective Comics","issue":"27","grade_src":"CGC","grade":"7.5","tags":"batman,detective-comics,dc","sales":[{"sale_date":"2010-08-04","price":"657250","venue":"Heritage","link":"http://comics.ha.com/common/view_item.php?Sale_No=7023&Lot_No=91055","$$hashKey":"0X4"}],"uid":102},{"title":"Detective Comics","issue":"27","grade":"7.0","grade_src":"CGC","tags":"detective-comics,batman,dc","sales":[],"uid":103},{"title":"Detective Comics","issue":"27","grade_src":"CGC","grade":"6.5","tags":"detective-comics,cgc,dc,batman","sales":[],"uid":104},{"title":"Detective Comics","issue":"27","grade_src":"CGC","grade":"6.0","tags":"batman,detective-comics,cgc,dc","sales":[{"sale_date":"2007-01-01","price":"158000","venue":"Metropolis","$$hashKey":"1M4"},{"sale_date":"2010-04-01","price":"575000","venue":"Metropolis","$$hashKey":"1M6"}],"uid":105},{"title":"Detective Comics","issue":"27","pedigree":"Reilly","grade_src":"Anecdote","grade":"VF","tags":"detective-comics,dc,pedigree,missing,batman","sales":[],"uid":106},{"title":"Detective Comics","issue":"27","pedigree":"Rockford","grade_src":"CGC","grade":"5.5","tags":"detective-comics,dc,batman,pedigree","sales":[{"venue":"Unknown","sale_date":"1900-01-01","price":"115000","$$hashKey":"0I1"}],"uid":107},{"title":"Detective Comics","issue":"27","grade_src":"CGC","grade":"5.5","tags":"detective-comics,dc,batman","sales":[],"uid":108},{"title":"Detective Comics","issue":"27","grade_src":"CGC","grade":"4.0","tags":"detective-comics,dc,batman","sales":[{"sale_date":"2012-08-14","price":"287000","venue":"Comic Connect","link":"http://www.comicconnect.com/bookDetail.php?id=350383","$$hashKey":"0ZD"}],"uid":109},{"tags":"detective-comics,dc,batman","title":"Detective Comics","issue":"27","grade_src":"CGC","grade":"4.0","sales":[],"uid":110},{"title":"Detective Comics","issue":"27","grade_src":"CGC","grade":"3.0","tags":"detective-comics,dc,batman","sales":[],"uid":111},{"title":"Detective Comics","issue":"27","grade_src":"CGC","grade":"3.5","tags":"detective-comics,dc,batman","sales":[],"uid":112},{"title":"Detective Comics","issue":"27","grade_src":"CGC","grade":"3.0","tags":"detective-comics,dc,batman","sales":[],"uid":113},{"title":"Detective Comics","issue":"27","grade_src":"CGC","grade":"3.0","tags":"detective-comics,dc,batman","sales":[],"uid":115},{"title":"Detective Comics","issue":"27","grade_src":"CGC","grade":"3.0","tags":"detective-comics,dc,batman","sales":[],"uid":116},{"title":"Detective Comics","issue":"27","grade_src":"CGC","grade":"2.5","tags":"detective-comics,dc,batman","sales":[],"uid":117},{"title":"Detective Comics","issue":"29","pedigree":"Allentown","grade_src":"cgc","grade":"9.6","tags":"detective-comics,dc,batman","sales":[{"venue":"Unknown","sale_date":"1998-01-01","price":"57000","sellers_notes":"OS29","$$hashKey":"386"}],"uid":118},{"title":"Detective Comics","issue":"33","grade_src":"CGC","grade":"9.2","tags":"detective-comics,dc,batman","sales":[{"sale_date":"2011-08-09","price":"194000","venue":"Comic Connect","$$hashKey":"3HI"}],"uid":119},{"title":"Detective Comics","issue":"33","pedigree":"Church","tags":"detective-comics,dc,batman,pedigree","sales":[],"uid":120},{"title":"Detective Comics","issue":"38","pedigree":"Allentown","grade_src":"CGC","grade":"9.4","tags":"batman,detective-comics,dc,batman","sales":[{"sale_date":"2009-05-21","price":"107550","link":"http://comics.ha.com/c/item.zx?saleNo=7007&lotNo=91137","venue":"Heritage","$$hashKey":"40G"},{"sale_date":"2005-05-19","price":"126500","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=816&lotNo=3590","$$hashKey":"40E"},{"sale_date":"2002-10-10","price":"120750","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=804&lotNo=5134","$$hashKey":"40C"}],"uid":121},{"title":"Detective Comics","issue":"38","pedigree":"Church","tags":"batman,detective-comics,pedigree,dc","sales":[],"uid":122},{"title":"Flash Comics","issue":"1","pedigree":"Denver","grade_src":"CGC","grade":"8.5","tags":"flash,dc,pedigree","sales":[],"uid":123},{"title":"Green Lantern","issue":"1","pedigree":"Church","grade_src":"Anecdote","grade":"9.4","tags":"green-lantern,dc","sales":[{"venue":"Unknown","sellers_notes":"OS21","sale_date":"1990-01-01","price":"25000","$$hashKey":"4TL"}],"uid":124},{"title":"Incredible Hulk","issue":"1","grade_src":"CGC","provenance":"","grade":"9.4","tags":"hulk,marvel","sales":[],"uid":126},{"title":"Incredible Hulk","issue":"1","pedigree":"Northland","grade_src":"CGC","grade":"9.2","tags":"hulk,marvel","sales":[{"link":"http://www.comiclink.com/itemdetail.asp?id=741566&next=/ComicTrack/Admin/CL/matches.asp?_SORT=YES&TITLE=INCREDIBLE+HULK&ISSUENUMBER=1&SELLER=&ORDERNUMBER=&PEDIGREE=&SELLERCOMMENT=&BUYER=&Payment=&CGCCOMMENT=&TYPE=0&Shipped=&SPBP=&FILTER=&Verified=&SPBP2=&SearchConditionFrom=&SearchConditionTo=&f1=i.Condition&ODire1=DESC&f2=i.Title&ODire2=ASC&f3=i.IssueNumber%2C+i.VolumeNumber&ODire3=ASC","sale_date":"1900-01-01","price":"117500","venue":"Comiclink","$$hashKey":"5N4"}],"uid":127},{"title":"Incredible Hulk","issue":"1","grade_src":"CGC","grade":"9.2","tags":"hulk,marvel","sales":[{"sale_date":"2009-11-19","price":"125475","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=7013&lotNo=92198","$$hashKey":"5X4"}],"uid":128},{"title":"Incredible Hulk","issue":"1","grade_src":"CGC","grade":"9.2","tags":"marvel,hulk","sales":[],"uid":129},{"title":"Incredible Hulk","issue":"181","grade_src":"CGC","grade":"9.9","tags":"hulk,marvel,wolverine,x-men","sales":[{"sale_date":"2011-02-01","price":"150000","venue":"Comiclink","$$hashKey":"6HA"}],"uid":130},{"title":"Journey into Mystery","issue":"83","pedigree":"White Mountain","grade_src":"cgc","grade":"9.6","tags":"thor,marvel","sales":[],"uid":131},{"title":"Marvel Comics","issue":"1","pedigree":"Allentown","grade_src":"cgc","grade":"9.2(SP)","general_commentary":"Listed variously as \"NM\" and \"VF\". Was part of a 25,000 cash/trade deal in 1990. $115,000 trade listed in OS27.","tags":"marvel-comics,timely,marvel,pedigree","sales":[{"sale_date":"2009-05-21","price":"50788","$$hashKey":"0HK"}],"uid":132},{"title":"Marvel Comics","issue":"1","pedigree":"Church","grade_src":"Anecdote","grade":"NM/MT","general_commentary":"OS 20 Trade data- $108,000. John Verzyl said that this deal happened in 1984 and was for $132,000. Can I explain the discrepancy between what he says and the OS notation. No. Is it my job to make sure that all of the results reported here make sense? No (thankfully.) John did also verify the anecdote about this book. It is \"perfect.\" There's nothing wrong with it. It's also supposedly got pretty nice registration.","tags":"marvel-comics,timely,marvel","sales":[],"uid":133},{"title":"Marvel Comics","issue":"1","pedigree":"Denver","grade_src":"CGC","grade":"8.5","tags":"marvel,timely,pedigree","sales":[{"sale_date":"2009-02-26","price":"155350","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=7002&lotNo=91156","$$hashKey":"7MG"},{"sale_date":"2005-08-13","price":"172500","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=817&lotNo=5273","$$hashKey":"7ME"}],"uid":134},{"title":"Marvel Comics","issue":"1","pedigree":"Chicago","tags":"marvel,timely","sales":[],"uid":135},{"title":"Marvel Comics","issue":"1","provenance":"Pay Copy","grade_src":"CGC","grade":"9.0","tags":"marvel,timely,jp-the-mint","sales":[{"venue":"Private Sale","sale_date":"1993-01-01","price":"40000","$$hashKey":"87E"},{"venue":"Private Sale","sale_date":"2003-01-01","price":"350000","$$hashKey":"87E"},{"sale_date":"2010-02-25","price":"227050","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=7017&lotNo=91243","$$hashKey":"87K"},{"sale_date":"2007-08-03","price":"204999.99","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=825&lotNo=42219","$$hashKey":"87I"},{"sale_date":"2006-01-19","price":"201250","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=819&lotNo=2403","$$hashKey":"87G"}],"uid":136},{"title":"Marvel Comics","issue":"1","grade_src":"CGC","grade":"9.0","general_commentary":"UPGRADED from 8.5","tags":"marvel,timely,upgrade","sales":[{"sale_date":"2003-03-06","sellers_notes":"as a CGC 8.5","price":"126500","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=806&lotNo=3194","$$hashKey":"8I6"},{"sale_date":"2005-10-14","price":"161000","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=806&lotNo=3194","$$hashKey":"8I8"}],"uid":137},{"title":"Marvel Comics","issue":"1","pedigree":"Larson","grade_src":"CGC","grade":"8.0","tags":"marvel-comics,marvel,timely","sales":[{"venue":"Unknown","sale_date":"1998-01-01","price":"48000","sellers_notes":"os29","$$hashKey":"0N2"},{"sellers_notes":"os28","sale_date":"1997-01-01","price":"41400","venue":"Sotheby's","$$hashKey":"0N0"},{"sale_date":"2006-11-17","price":"101575","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=822&lotNo=43160","$$hashKey":"0N4"},{"sale_date":"2007-11-15","price":"89625","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=826&lotNo=41328","$$hashKey":"0N6"},{"sale_date":"2009-11-19","price":"89625","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=7013&lotNo=91217","$$hashKey":"0N8"}],"uid":139},{"title":"Marvel Comics","issue":"1","grade_src":"CGC","grade":"9.4","general_commentary":"slight pro","tags":"marvel,timely,marvel-comics,restored","sales":[],"uid":140},{"title":"Marvel Mystery Comics","issue":"9","grade_src":"CGC","grade":"9.4","tags":"marvel-mystery-comics,marvel,timely","sales":[{"sale_date":"2009-05-22","price":"107550","link":"http://comics.ha.com/common/view_item.php?Sale_No=7007&Lot_No=91044&src=pr","venue":"Heritage","$$hashKey":"19F"}],"uid":141},{"title":"More Fun","issue":"52","pedigree":"Reilly","tags":"missing,dc,more-fun","sales":[],"uid":142},{"title":"More Fun","issue":"52","pedigree":"Church","grade_src":"CGC","grade":"9.2","tags":"more-fun,pedigree,dc,church","sales":[{"venue":"Unknown","sale_date":"2001-01-01","price":"207000","$$hashKey":"1VW"}],"uid":143},{"title":"More Fun","issue":"52","pedigree":"Larson","grade_src":"CGC","grade":"9.2","tags":"more-fun,dc,pedigree,larson","sales":[{"venue":"Unknown","sale_date":"1995-01-01","price":"65000","sellers_notes":"\"nm\" in OS26","$$hashKey":"279"},{"sale_date":"2006-08-10","price":"119500","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=821&lotNo=42543","$$hashKey":"27B"},{"sale_date":"2010-02-25","price":"89625","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=7017&lotNo=92022","$$hashKey":"27D"}],"uid":144},{"title":"More Fun","issue":"52","grade_src":"CGC","grade":"7.5","tags":"more-fun,dc","sales":[{"sale_date":"1900-01-01","price":"90000","venue":"Comiclink","link":"http://www.comiclink.com/itemdetail.asp?back=/search_adv.asp?all=y&TITLE=&TITLEOPT=ALL&ISSUE=&Condition=&Pedigree=&PRICEF=500&PRICET=&DESCRIPTION=&DESCRIPTIONOPT=ALL&SearchRemarks=&SearchCGC=&EXCLUDE=&CATEGORIES=-1&WCATEGORIES=-1&SORT=NEW&_where_forsale=y&x=33&y=11&where_forsale=y&id=609125","$$hashKey":"2IV"}],"uid":145},{"title":"More Fun","issue":"53","pedigree":"Reilly","tags":"missing,dc,more-fun","sales":[],"uid":146},{"title":"More Fun","issue":"53","pedigree":"Church","grade_src":"CGC","grade":"9.6","tags":"more-fun,dc,church,pedigree","sales":[{"sale_date":"2005-10-14","price":"77625","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=818&lotNo=2163","$$hashKey":"361"}],"uid":147},{"title":"More Fun","issue":"53","pedigree":"Rockford","grade_src":"CGC","grade":"9.6","tags":"more-fun,dc,pedigree,rockford","sales":[{"sale_date":"2005-08-12","price":"92000","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=817&lotNo=4455","$$hashKey":"0D4"},{"sale_date":"2010-02-25","price":"47800","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=7017&lotNo=92023","$$hashKey":"0D6"}],"uid":148},{"title":"More Fun","issue":"53","pedigree":"Larson","grade_src":"Anecdote","grade":"NM","tags":"more-fun,dc,pedigree","sales":[{"venue":"Unknown","sale_date":"1995-01-01","sellers_notes":"os26","price":"66000","$$hashKey":"0OX"}],"uid":149},{"title":"Pep Comics","issue":"22","pedigree":"Church","grade_src":"Anecdote","grade":"NM","tags":"archie,pep-comics","sales":[{"venue":"Unknown","sale_date":"1997-01-01","sellers_notes":"os28","price":"47000","$$hashKey":"0DC"}],"uid":150},{"title":"Sensation","issue":"1","pedigree":"Church","tags":"wonder-woman,dc,pedigree","sales":[{"venue":"Unknown","sale_date":"1996-01-01","price":"90000","sellers_notes":"TRADE","$$hashKey":"0DI"},{"venue":"Unknown","sale_date":"1995-01-01","price":"60000","$$hashKey":"0DG"}],"uid":151},{"title":"Sensation","issue":"1","grade_src":"CGC","grade":"9.4","tags":"wonder-woman,dc","sales":[{"venue":"Unknown","sale_date":"2001-01-01","price":"100000","$$hashKey":"0PM"},{"sale_date":"2010-02-25","price":"63250","venue":"Heritage","$$hashKey":"0PO"}],"uid":152},{"title":"Showcase","issue":"4","grade_src":"CGC","grade":"9.6","tags":"flash,silver-age,dc,showcase","sales":[{"sale_date":"2009-05-22","price":"179250","venue":"Heritage","link":"http://comics.ha.com/common/view_item.php?Sale_No=7007&Lot_No=91261&src=pr","$$hashKey":"11X"}],"uid":153},{"title":"Showcase","issue":"4","grade_src":"CGC","grade":"9.4","tags":"showcase,flash,dc","sales":[{"sale_date":"2008-09-29","price":"160200","link":"","venue":"Comic Connect","$$hashKey":"1E8"}],"uid":154},{"title":"Showcase","issue":"4","grade_src":"CGC","grade":"9.2","tags":"showcase,dc","sales":[{"sale_date":"2011-05-13","price":"100000","venue":"Esquire Comics/Comic Connect","$$hashKey":"1QM"}],"uid":155},{"title":"Superman","issue":"1","general_commentary":"Best Existing. The \"Dentist's\" copy. Grade range is 8.0-9.2. What we do know is that he had the option to have both this and the Church copy in hand and went with this one.","tags":"superman,dc","sales":[],"uid":156},{"title":"Superman","issue":"1","pedigree":"Church","grade_src":"CGC","grade":"8.0","tags":"superman,dc,pedigree","sales":[{"venue":"Unknown","sellers_notes":"os27","sale_date":"1996-01-01","price":"170000","$$hashKey":"2FL"}],"uid":157},{"title":"Superman","issue":"1","grade_src":"CGC","grade":"7.5","tags":"superman,dc","sales":[{"venue":"Unknown","sale_date":"1900-01-01","price":"250000","$$hashKey":"2S7"}],"uid":158},{"title":"Superman","issue":"1","grade_src":"CGC","grade":"6.0","tags":"dc,superman","sales":[{"venue":"Unknown","sellers_notes":"Confirmed private sale","sale_date":"1900-01-01","price":"125000","$$hashKey":"0E8"}],"uid":159},{"title":"Superman","issue":"1","pedigree":"Nova Scotia","grade_src":"CGC","grade":"5.0","tags":"superman,dc","sales":[{"sale_date":"2008-08-28","price":"121000","venue":"Comiclink","$$hashKey":"0R1"},{"venue":"Unknown","sale_date":"2010-01-01","price":"135000","$$hashKey":"0R3"}],"uid":160},{"title":"Walt Disney's Comics and Stories","issue":"1","grade_src":"CGC","grade":"9.4","tags":"disney","sales":[{"sale_date":"2008-11-12","price":"116512","venue":"Heritage","$$hashKey":"140"},{"$$hashKey":"142"}],"uid":161},{"title":"Whiz","issue":"2","pedigree":"Church","grade_src":"Anecdote","grade":"NM/NM+","general_commentary":"Catalog NM+ Generally ranges from 9.0-9.8. OS 21 lists it as \"MT.\" Changed hands in a cash/trade deal- $74,000 (1990)","tags":"whiz,captain-marvel","sales":[{"venue":"Unknown","sellers_notes":"OS26","sale_date":"1995-01-01","price":"176000","$$hashKey":"1H3"}],"uid":162},{"title":"X-Men","issue":"1","pedigree":"Curator","grade_src":"CGC","grade":"9.8","tags":"x-men,pedigree,marvel","sales":[],"uid":163},{"title":"X-Men","issue":"1","pedigree":"Pacific Coast","grade_src":"CGC","grade":"9.8","tags":"upgrade,x-men,marvel,pedigree","sales":[{"venue":"Unknown","sellers_notes":"Sold for $110,000 as a CGC 9.6","$$hashKey":"27H"},{"sale_date":"2012-07-26","price":"492937.50","venue":"Heritage","link":"http://comics.ha.com/c/item.zx?saleNo=7063&lotNo=91418","$$hashKey":"27F"}],"uid":164},{"title":"X-Men","issue":"1","pedigree":"Pacific Coast","grade_src":"CGC","grade":"9.6","tags":"cgc,pedigree,marvel,x-men,upgrade","sales":[{"sale_date":"1900-01-01","price":"100000","venue":"Pedigree","$$hashKey":"2KR"}],"uid":165},{"title":"X-Men","issue":"1","grade_src":"CGC","grade":"9.6","tags":"x-men,marvel","sales":[{"sale_date":"2011-04-01","price":"200000","venue":"Comic Connect","$$hashKey":"2Y3"},{"sale_date":"2013-07-01","price":"250000","$$hashKey":"2Y3"}],"uid":166},{"title":"X-Men","issue":"1","grade_src":"CGC","grade":"9.4","tags":"x-men,marvel","sales":[{"sellers_notes":"Mound City Auction","sale_date":"2009-08-31","price":"116150","$$hashKey":"3BK"}],"uid":167},{"title":"X-Men","issue":"1","grade_src":"CGC","grade":"9.4","tags":"x-men,marvel","sales":[{"sale_date":"2010-02-18","price":"101002","venue":"Comiclink","$$hashKey":"3P2"}],"uid":168},{"title":"X-Men","issue":"1","grade_src":"CGC","grade":"9.4","tags":"x-men,marvel","sales":[{"sale_date":"2010-05-27","price":"105521","venue":"Comiclink","$$hashKey":"0F1"}],"uid":169},{"title":"Amazing Fantasy","issue":"15","grade_src":"CGC","grade":"9.6","tags":"spider-man,amazing-fantasy,cgc,marvel","sales":[],"uid":170},{"title":"Amazing Fantasy","issue":"15","grade_src":"CGC","grade":"9.6","tags":"spider-man,amazing-fantasy,cgc,marvel","sales":[],"uid":171},{"title":"Amazing Fantasy","issue":"15","grade_src":"CGC","grade":"8.5","tags":"spider-man,amazing-fantasy,cgc,marvel","sales":[],"uid":172},{"title":"Amazing Fantasy","issue":"15","grade_src":"CGC","grade":"8.5","tags":"spider-man,amazing-fantasy,cgc,marvel","sales":[],"uid":173},{"title":"Amazing Fantasy","issue":"15","grade_src":"CGC","grade":"8.5","tags":"spider-man,amazing-fantasy,cgc,marvel","sales":[],"uid":174},{"title":"Amazing Fantasy","issue":"15","grade_src":"CGC","grade":"8.5","tags":"spider-man,amazing-fantasy,cgc,marvel","sales":[],"uid":175},{"title":"Amazing Fantasy","issue":"15","grade_src":"CGC","grade":"8.5","tags":"spider-man,amazing-fantasy,cgc,marvel","sales":[],"uid":176},{"title":"Amazing Fantasy","issue":"15","grade_src":"CGC","grade":"9.0","tags":"spider-man,amazing-fantasy,cgc,marvel","sales":[],"uid":177},{"title":"Amazing Fantasy","issue":"15","grade_src":"CGC","grade":"9.0","tags":"spider-man,amazing-fantasy,cgc,marvel","sales":[],"uid":178},{"title":"Amazing Fantasy","issue":"15","grade_src":"CGC","grade":"9.0","tags":"spider-man,amazing-fantasy,cgc,marvel","sales":[],"uid":179},{"title":"Amazing Fantasy","issue":"15","grade_src":"CGC","grade":"9.0","tags":"spider-man,amazing-fantasy,cgc,marvel","sales":[],"uid":180},{"title":"Amazing Fantasy","issue":"15","grade_src":"CGC","grade":"9.0","tags":"spider-man,amazing-fantasy,cgc,marvel","sales":[],"uid":181},{"title":"Amazing Fantasy","issue":"15","grade_src":"CGC","grade":"8.5","tags":"spider-man,amazing-fantasy,cgc,marvel","sales":[],"uid":182},{"title":"Amazing Spider-Man","issue":"1","grade_src":"CGC","grade":"9.6","tags":"amazing-spider-man,cgc,spider-man","sales":[],"uid":183},{"title":"Amazing Spider-Man","issue":"1","grade_src":"CGC","grade":"9.4","tags":"amazing-spider-man,cgc,spider-man","sales":[],"uid":184},{"title":"Amazing Spider-Man","issue":"1","grade_src":"CGC","grade":"9.4","tags":"amazing-spider-man,cgc,spider-man","sales":[],"uid":185},{"title":"Amazing Spider-Man","issue":"1","grade_src":"CGC","grade":"9.4","tags":"amazing-spider-man,cgc,spider-man","sales":[],"uid":186},{"title":"Amazing Spider-Man","issue":"1","grade_src":"CGC","grade":"9.4","tags":"amazing-spider-man,cgc,spider-man","sales":[],"uid":187},{"title":"Amazing Spider-Man","issue":"1","grade_src":"CGC","grade":"9.4","tags":"amazing-spider-man,cgc,spider-man","sales":[],"uid":188},{"title":"Amazing Spider-Man","issue":"1","grade_src":"CGC","grade":"9.4","tags":"amazing-spider-man,cgc,spider-man","sales":[],"uid":189},{"title":"Amazing Spider-Man","issue":"1","grade_src":"CGC","grade":"9.4","tags":"amazing-spider-man,cgc,spider-man","sales":[],"uid":190},{"title":"Amazing Spider-Man","issue":"1","grade_src":"CGC","grade":"9.4","tags":"amazing-spider-man,cgc,spider-man","sales":[],"uid":191},{"title":"Avengers","issue":"4","grade_src":"CGC","grade":"9.8","tags":"captain-america,marvel,avengers,cgc","sales":[{"sale_date":"2013-01-01","price":"120000","$$hashKey":"0S0"}],"uid":192},{"title":"Avengers","issue":"4","grade_src":"cgc","grade":"9.8","tags":"avengers,cgc,marvel,captain-america","sales":[],"uid":193},{"title":"Avengers","issue":"4","grade_src":"cgc","grade":"9.8","tags":"avengers,cgc,marvel,captain-america","sales":[],"uid":194},{"title":"Batman","issue":"1","grade_src":"CGC","grade":"9.0","tags":"batman,dc,cgc","sales":[],"uid":188},{"title":"Batman","issue":"1","grade_src":"CGC","grade":"8.5","tags":"batman,cgc,dc","sales":[],"uid":189},{"title":"Captain America Comics","issue":"1","grade_src":"cgc","grade":"9.4","tags":"captain-america,marvel,timely,kirby","sales":[],"uid":190},{"title":"Daredevil","issue":"1","grade_src":"cgc","grade":"9.8","tags":"daredevil,marvel","sales":[],"uid":191},{"title":"Detective Comics","issue":"27","grade":"7.0","grade_src":"cgc","tags":"batman,detective-comics,dc","sales":[],"uid":192},{"title":"Detective Comics","issue":"27","grade_src":"CGC","grade":"7.5","tags":"batman,detective-comics,dc","sales":[],"uid":193},{"title":"Detective Comics","issue":"27","grade_src":"cgc","grade":"6.5","tags":"batman,detective-comics,dc","sales":[],"uid":194},{"title":"Detective Comics","issue":"27","grade_src":"cgc","grade":"6.5","tags":"batman,detective-comics,dc","sales":[],"uid":195},{"title":"Detective Comics","issue":"27","grade_src":"cgc","grade":"6.5","tags":"batman,detective-comics,dc","sales":[],"uid":196},{"title":"Detective Comics","issue":"27","grade_src":"cgc","grade":"6.5","tags":"batman,detective-comics,dc","sales":[],"uid":197},{"title":"Detective Comics","issue":"27","grade_src":"cgc","grade":"6.5","tags":"batman,detective-comics,dc","sales":[],"uid":198},{"title":"Detective Comics","issue":"27","grade_src":"CGC","grade":"4.0","tags":"batman,detective-comics,dc","sales":[],"uid":199},{"title":"Detective Comics","issue":"27","grade_src":"cgc","grade":"2.5","tags":"batman,detective-comics,dc","sales":[],"uid":200},{"title":"Detective Comics","issue":"27","grade_src":"cgc","grade":"2.0","tags":"detective-comics,dc,batman","sales":[],"uid":201},{"title":"Fantastic Four","issue":"1","grade_src":"CGC","grade":"9.6","tags":"fantastic-four,cgc,marvel,kirby","sales":[],"uid":202},{"title":"Fantastic Four","issue":"1","grade_src":"cgc","grade":"9.2","tags":"fantastic-four,cgc,marvel","sales":[],"uid":203},{"title":"Fantastic Four","issue":"1","grade_src":"cgc","grade":"9.0","tags":"fantastic-four,cgc,marvel,kirby","sales":[],"uid":204},{"title":"Fantastic Four","issue":"1","grade_src":"CGC","grade":"9.0","tags":"fantastic-four,cgc,marvel,kirby","sales":[],"uid":205},{"title":"Fantastic Four","issue":"1","grade_src":"cgc","grade":"9.0","tags":"fantastic-four,cgc,marvel,kirby","sales":[],"uid":206},{"title":"Incredible Hulk","issue":"1","pedigree":"Bethlehem","grade_src":"CGC","grade":"9.2","tags":"hulk,cgc,marvel,pedigree","sales":[{"sale_date":"2002-08-01","price":"51900","$$hashKey":"1BJ"}],"uid":207},{"title":"Incredible Hulk","issue":"1","grade_src":"CGC","grade":"9.0","tags":"incredible-hulk,marvel,cgc,hulk","sales":[{"sale_date":"2011-11-09","price":"100000","$$hashKey":"1BJ"}],"uid":208},{"title":"Incredible Hulk","issue":"1","grade_src":"CGC","grade":"9.0","tags":"incredible-hulk,cgc,marvel,hulk","sales":[],"uid":209},{"title":"Incredible Hulk","issue":"1","grade_src":"CGC","grade":"9.0","tags":"incredible-hulk,cgc,marvel,hulk","sales":[],"uid":210},{"title":"Incredible Hulk","issue":"1","grade_src":"CGC","grade":"9.0","tags":"incredible-hulk,cgc,marvel,hulk","sales":[],"uid":211},{"title":"Incredible Hulk","issue":"1","grade_src":"CGC","grade":"9.0","tags":"incredible-hulk,cgc,marvel,hulk","sales":[],"uid":212},{"title":"Incredible Hulk","issue":"1","grade_src":"CGC","grade":"9.0","tags":"incredible-hulk,cgc,marvel,hulk","sales":[],"uid":213},{"title":"Incredible Hulk","issue":"1","grade_src":"CGC","grade":"9.0","tags":"incredible-hulk,cgc,marvel,hulk","sales":[],"uid":214},{"title":"Incredible Hulk","issue":"1","grade_src":"CGC","grade":"9.0","tags":"incredible-hulk,cgc,marvel,hulk","sales":[],"uid":215},{"title":"Incredible Hulk","issue":"1","grade_src":"CGC","grade":"9.0","tags":"incredible-hulk,cgc,marvel,hulk","sales":[],"uid":216},{"title":"Journey into Mystery","issue":"83","grade_src":"CGC","grade":"9.4","tags":"thor,journey-into-mystery,marvel,cgc,kirby","sales":[{"sale_date":"2013-03-23","price":"171000","$$hashKey":"0X1"}],"uid":217},{"title":"Journey into Mystery","issue":"83","grade_src":"CGC","grade":"9.4","tags":"thor,journey-into-mystery,marvel,cgc,kirby","sales":[{"sale_date":"2012-02-01","price":"222,200","$$hashKey":"1DG"}],"uid":218},{"title":"Journey into Mystery","issue":"83","grade_src":"cgc","grade":"9.4","tags":"thor,journey-into-mystery,marvel,cgc,kirby","sales":[],"uid":219},{"title":"Journey into Mystery","issue":"83","grade_src":"CGC","grade":"9.2","tags":"journey-into-mystery,cgc,marvel,thor,kirby","sales":[{"sale_date":"2012-06-26","price":"83850","$$hashKey":"2AJ"}],"uid":220},{"title":"Journey into Mystery","issue":"83","grade_src":"CGC","grade":"9.2","tags":"journey-into-mystery,cgc,marvel,thor,kirby","sales":[{"sale_date":"2011-10-22","price":"100000","$$hashKey":"2R7"}],"uid":221},{"title":"Journey into Mystery","issue":"83","grade_src":"CGC","grade":"9.2","tags":"journey-into-mystery,cgc,marvel,thor,kirby","sales":[],"uid":222},{"title":"Journey into Mystery","issue":"83","grade_src":"CGC","grade":"9.2","tags":"journey-into-mystery,cgc,marvel,thor,kirby","sales":[],"uid":223},{"title":"Journey into Mystery","issue":"83","grade_src":"CGC","grade":"9.2","tags":"journey-into-mystery,cgc,marvel,thor,kirby","sales":[],"uid":224},{"title":"Journey into Mystery","issue":"83","grade_src":"CGC","grade":"9.2","tags":"journey-into-mystery,cgc,marvel,thor,kirby","sales":[],"uid":225},{"title":"Journey into Mystery","issue":"83","grade_src":"CGC","grade":"9.2","tags":"journey-into-mystery,cgc,marvel,thor,kirby","sales":[],"uid":226},{"title":"Marvel Comics","issue":"1","pedigree":"Billy Wright","grade_src":"CGC","grade":"7.5","tags":"marvel-comics,timely,marvel","sales":[{"sale_date":"2012-02-22","price":"113525","venue":"Heritage","$$hashKey":"0YR"}],"uid":227},{"title":"Marvel Comics","issue":"1","grade_src":"cgc","grade":"7.5","tags":"marvel,timely,marvel-comics","sales":[{"sale_date":"2012-08-29","price":"112007","$$hashKey":"1FU"}],"uid":228},{"title":"Pep Comics","issue":"22","grade_src":"CGC","grade":"6.5","tags":"archie,pep-comics","sales":[{"sale_date":"2012-12-10","price":"111000","$$hashKey":"0ID"}],"uid":229},{"title":"Showcase","issue":"22","grade_src":"CGC","grade":"9.2","tags":"showcase,dc,green-lantern","sales":[],"uid":230},{"title":"Superman","issue":"1","grade_src":"CGC","grade":"5.5","tags":"superman,dc","sales":[{"sale_date":"2011-12-06","price":"214000","$$hashKey":"1H9"}],"uid":231},{"title":"Superman","issue":"1","grade_src":"CGC","grade":"5.5","tags":"Superman,dc","sales":[{"sale_date":"2005-04-16","$$hashKey":"1YO"}],"uid":232},{"title":"Superman","issue":"1","grade_src":"CGC","grade":"5.0","tags":"superman,dc","sales":[],"uid":233},{"title":"Superman","issue":"1","grade_src":"CGC","grade":"5.0","tags":"superman,dc","sales":[],"uid":234},{"title":"Superman","issue":"1","grade_src":"cgc","grade":"4.5","tags":"superman,dc","sales":[],"uid":235},{"title":"Superman","issue":"1","grade_src":"cgc","grade":"4.5","tags":"superman,dc","sales":[],"uid":236},{"title":"superman","issue":"1","grade_src":"cgc","grade":"4.0","tags":"superman,dc","sales":[],"uid":237},{"sales":[],"uid":238},{"title":"Whiz","issue":"2","grade_src":"CGC","grade":"9.0","tags":"whiz,captain-marvel","sales":[{"sale_date":"2012-12-12","price":"281001","$$hashKey":"5EF"}],"uid":239},{"title":"Whiz","issue":"2","grade_src":"cgc","grade":"6.0","tags":"whiz,captain-marvel","sales":[{"sale_date":"2011-12-06","price":"176007","$$hashKey":"5WD"}],"uid":240},{"title":"Whiz","issue":"2","grade_src":"cgc","grade":"8.5","tags":"cgc,whiz,cgc,captain-marvel","sales":[],"uid":241},{"title":"X-Men","issue":"1","grade_src":"CGC","grade":"9.4","tags":"x-men,marvel,cgc","sales":[{"sale_date":"2013-08-01","price":"83650","$$hashKey":"11W"}],"uid":242},{"title":"X-Men","issue":"1","grade_src":"CGC","grade":"9.4","tags":"x-men,cgc,marvel","sales":[{"sale_date":"2012-11-15","price":"89625","$$hashKey":"1K3"}],"uid":243},{"title":"X-Men","issue":"1","grade_src":"CGC","grade":"9.4","tags":"x-men,cgc,marvel","sales":[{"sale_date":"2012-07-27","price":"89625","$$hashKey":"22F"},{"sale_date":"2011-10-01","price":"137500","$$hashKey":"22D"}],"uid":244},{"title":"X-Men","issue":"1","grade_src":"CGC","grade":"9.4","tags":"marvel,x-men,cgc","sales":[{"sale_date":"2010-05-27","price":"105521","$$hashKey":"2KT"}],"uid":245},{"title":"X-Men","issue":"1","grade_src":"CGC","grade":"9.4","tags":"x-men,cgc,marvel","sales":[{"sale_date":"2010-04-18","price":"100000","$$hashKey":"33A"}],"uid":246},{"title":"X-Men","issue":"1","grade_src":"CGC","grade":"9.4","tags":"marvel,cgc,x-men","sales":[{"sale_date":"2009-11-01","price":"106050","$$hashKey":"3LU"}],"uid":247},{"title":"X-Men","issue":"1","grade_src":"CGC","grade":"9.4","tags":"x-men,marvel,cgc","sales":[],"uid":248},{"title":"X-Men","issue":"1","grade_src":"CGC","grade":"9.4","tags":"marvel,cgc,x-men,kirby","sales":[],"uid":249},{"title":"X-Men","issue":"1","grade_src":"CGC","grade":"9.4","tags":"kirby,x-men,marvel,cgc","sales":[],"uid":250},{"title":"Tales of Suspense","issue":"39","pedigree":"Pacific Coast","grade_src":"CGC","grade":"9.6","tags":"pedigree,iron-man,marvel,cgc","sales":[{"sale_date":"2012-07-26","price":"262900","venue":"Heritage","$$hashKey":"5O1"}],"uid":251},{"title":"Tales of Suspense","issue":"39","grade_src":"CGC","grade":"9.4","tags":"marvel,iron-man,cgc","sales":[{"sale_date":"2013-08-01","price":"83650","$$hashKey":"66X"}],"uid":252},{"title":"Tales of Suspense","issue":"39","grade_src":"CGC","grade":"9.4","tags":"marvel,iron-man,cgc","sales":[{"sale_date":"2011-03-24","price":"147500","$$hashKey":"6PY"},{"sale_date":"2009-11-23","price":"114990","$$hashKey":"6PW"}],"uid":253},{"title":"Tales of Suspense","issue":"39","grade_src":"CGC","grade":"9.6","tags":"marvel,cgc,iron-man","sales":[],"uid":254},{"title":"Tales of Suspense","issue":"39","grade_src":"CGC","grade":"9.6","tags":"marvel,cgc,iron-man","sales":[],"uid":255},{"title":"Tales of Suspense","issue":"39","pedigree":"White Mountain","grade_src":"CGC","grade":"9.6","tags":"marvel,cgc,iron-man","sales":[],"uid":256},{"title":"Tales of Suspense","issue":"39","pedigree":"Bethlehem","grade_src":"CGC","grade":"9.4","tags":"marvel,iron-man,pedigree,cgc","sales":[],"uid":257}]}
+{
+   "books":[
+      {
+         "title":"Action Comics",
+         "issue":"1",
+         "publisher":"DC Comics",
+         "cover_date":"1938-06-01",
+         "pedigree":"Church",
+         "grade_src":"Anecdote",
+         "grade":"9.2",
+         "general_commentary":"Best Existing",
+         "tags":"church,superman,action,dc,pedigree",
+         "sales":[
+
+         ],
+         "uid":0
+      },
+      {
+         "title":"Action Comics",
+         "publisher":"DC Comics",
+         "issue":"1",
+         "cover_date":"1938-04-01",
+         "pedigree":"",
+         "grade":"8.5",
+         "grade_src":"CGC",
+         "general_commentary":"",
+         "tags":"cgc,action,superman",
+         "sales":[
+            {
+               "price":"1500000",
+               "sale_date":"2010-03-29",
+               "venue":"Comic Connect",
+               "link":"http://www.comicconnect.com/bookDetail.php?id=333815",
+               "$$hashKey":"00B"
+            }
+         ],
+         "uid":1
+      },
+      {
+         "title":"Action Comics",
+         "issue":"1",
+         "publisher":"DC Comics",
+         "cover_date":"1938-04-01",
+         "pedigree":"Kansas City",
+         "grade_src":"CGC",
+         "grade":"8.0",
+         "tags":"action,superman,cgc,dc,pedigree",
+         "sales":[
+            {
+               "sale_date":"2010-02-22",
+               "price":"1000000",
+               "venue":"Comic Connect",
+               "link":"http://www.comicconnect.com/bookDetail.php?id=330734",
+               "$$hashKey":"00F"
+            }
+         ],
+         "uid":2
+      },
+      {
+         "title":"Action Comics",
+         "issue":"1",
+         "publisher":"DC Comics",
+         "cover_date":"1938-04-01",
+         "grade":"7.5",
+         "grade_src":"CGC",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"2002-01-01",
+               "price":"192120.15",
+               "$$hashKey":"00J"
+            }
+         ],
+         "uid":3
+      },
+      {
+         "title":"Action Comics",
+         "issue":"1",
+         "cover_date":"1938-04-01",
+         "pedigree":"Larson",
+         "grade_src":"Anecdote",
+         "grade":"VF",
+         "sales":[
+
+         ],
+         "uid":4,
+         "tags":"dc,pedigree,superman,action"
+      },
+      {
+         "title":"Action Comics",
+         "issue":"1",
+         "publisher":"DC Comics",
+         "cover_date":"1938-04-01",
+         "grade_src":"Sotheby's Grading Commitee",
+         "grade":"78",
+         "tags":"action,superman,dc",
+         "sales":[
+            {
+               "sale_date":"1992-01-01",
+               "price":"82500",
+               "venue":"Sotheby's",
+               "$$hashKey":"00P"
+            }
+         ],
+         "uid":5
+      },
+      {
+         "title":"Action Comics",
+         "issue":"1",
+         "publisher":"DC Comics",
+         "cover_date":"1938-04-01",
+         "grade_src":"CGC",
+         "grade":"6.5",
+         "tags":"cgc,superman,action",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"2006-01-01",
+               "price":"250000",
+               "$$hashKey":"00T"
+            }
+         ],
+         "uid":6
+      },
+      {
+         "title":"Action Comics",
+         "issue":"1",
+         "publisher":"DC Comics",
+         "cover_date":"1938-04-01",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "tags":"cgc,superman,action",
+         "sales":[
+            {
+               "price":"2161000",
+               "link":"http://www.comicconnect.com/bookDetail.php?id=432101",
+               "sale_date":"2011-11-30",
+               "venue":"Comic Connect",
+               "$$hashKey":"00X"
+            }
+         ],
+         "uid":7
+      },
+      {
+         "title":"Action Comics",
+         "issue":"1",
+         "publisher":"DC Comics",
+         "cover_date":"1938-04-01",
+         "grade_src":"CGC",
+         "grade":"6.5",
+         "general_commentary":"Upgraded from 5.5",
+         "tags":"cgc,upgrade,action,superman",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sellers_notes":"as 5.5",
+               "sale_date":"1900-01-01",
+               "price":"120750",
+               "$$hashKey":"010"
+            },
+            {
+               "sale_date":"2011-06-01",
+               "price":"625000",
+               "venue":"Comiclink",
+               "$$hashKey":"012"
+            }
+         ],
+         "uid":8
+      },
+      {
+         "title":"Action Comics",
+         "issue":"1",
+         "publisher":"DC Comics",
+         "grade_src":"CGC",
+         "grade":"6.0",
+         "tags":"cgc,action,superman,dc",
+         "sales":[
+            {
+               "sale_date":"2010-03-13",
+               "price":"317200",
+               "venue":"Comic Connect",
+               "$$hashKey":"011"
+            }
+         ],
+         "uid":9
+      },
+      {
+         "title":"Action Comics",
+         "issue":"1",
+         "publisher":"DC Comics",
+         "grade_src":"PGX",
+         "restoration":"Restored",
+         "grade":"9.0(r)",
+         "sales":[
+
+         ],
+         "uid":10
+      },
+      {
+         "title":"Action Comics",
+         "issue":"1",
+         "publisher":"DC Comics",
+         "grade_src":"CGC",
+         "grade":"5.0",
+         "tags":"action,superman,dc",
+         "sales":[
+            {
+               "sale_date":"2010-09-21",
+               "price":"436000",
+               "venue":"Comic Connect",
+               "$$hashKey":"01A"
+            }
+         ],
+         "uid":11
+      },
+      {
+         "title":"Action Comics",
+         "issue":"1",
+         "publisher":"DC Comics",
+         "grade_src":"CGC",
+         "grade":"4.0",
+         "tags":"cgc,action,superman,dc",
+         "sales":[
+
+         ],
+         "uid":12
+      },
+      {
+         "title":"Action Comics",
+         "issue":"1",
+         "publisher":"DC Comics",
+         "grade_src":"CGC",
+         "grade":"4.5",
+         "tags":"cgc,superman,action,dc",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"1900-01-01",
+               "price":"86250",
+               "$$hashKey":"01B"
+            },
+            {
+               "sale_date":"2011-08-09",
+               "price":"345000",
+               "venue":"Comic Connect",
+               "$$hashKey":"01D"
+            }
+         ],
+         "uid":13
+      },
+      {
+         "title":"Action Comics",
+         "issue":"1",
+         "publisher":"DC Comics",
+         "grade_src":"CGC",
+         "grade":"4.0",
+         "tags":"cgc,action,superman,dc",
+         "sales":[
+
+         ],
+         "uid":14
+      },
+      {
+         "title":"Action Comics",
+         "issue":"1",
+         "publisher":"DC Comics",
+         "grade_src":"CGC",
+         "grade":"3.5",
+         "sales":[
+
+         ],
+         "uid":15
+      },
+      {
+         "title":"Action Comics",
+         "issue":"1",
+         "publisher":"DC Comics",
+         "grade_src":"CGC",
+         "grade":"3.0",
+         "tags":"cgc,superman,action,dc",
+         "sales":[
+            {
+               "sale_date":"2010-04-01",
+               "price":"300000",
+               "venue":"Comic Connect",
+               "$$hashKey":"01J"
+            }
+         ],
+         "uid":16
+      },
+      {
+         "title":"Action Comics",
+         "issue":"1",
+         "publisher":"DC Comics",
+         "grade_src":"CGC",
+         "grade":"3.0",
+         "tags":"cgc,action,superman,dc",
+         "sales":[
+
+         ],
+         "uid":17
+      },
+      {
+         "title":"Action Comics",
+         "issue":"1",
+         "publisher":"DC Comics",
+         "grade_src":"CGC",
+         "grade":"3.0",
+         "tags":"cgc,action,superman,dc",
+         "sales":[
+
+         ],
+         "uid":18
+      },
+      {
+         "title":"Action Comics",
+         "issue":"1",
+         "publisher":"DC Comics",
+         "grade_src":"CGC",
+         "grade":"2.5",
+         "tags":"cgc,action,superman,dc",
+         "sales":[
+            {
+               "sale_date":"2009-06-19",
+               "price":"121000",
+               "venue":"Comic Connect",
+               "$$hashKey":"01Q"
+            }
+         ],
+         "uid":19
+      },
+      {
+         "title":"Action Comics",
+         "issue":"1",
+         "publisher":"DC Comics",
+         "grade_src":"CGC",
+         "grade":"2.0",
+         "tags":"dc,cgc,superman,action",
+         "sales":[
+
+         ],
+         "uid":20
+      },
+      {
+         "title":"Action Comics",
+         "issue":"1",
+         "publisher":"DC Comics",
+         "grade_src":"CGC",
+         "grade":"8.5(mp)",
+         "restoration":"Moderate Professional",
+         "tags":"cgc,restored,superman,action",
+         "sales":[
+            {
+               "sale_date":"2008-05-01",
+               "price":"116512",
+               "venue":"Heritage",
+               "$$hashKey":"01V"
+            }
+         ],
+         "uid":21
+      },
+      {
+         "cgcid":"",
+         "title":"Action Comics",
+         "issue":"2",
+         "publisher":"DC Comics",
+         "pedigree":"Church",
+         "grade_src":"",
+         "sales":[
+
+         ],
+         "uid":22,
+         "tags":"action,superman,pedigree,dc"
+      },
+      {
+         "title":"Action Comics",
+         "issue":"7",
+         "publisher":"DC Comics",
+         "pedigree":"Church",
+         "tags":"dc,pedigree,superman,action",
+         "sales":[
+
+         ],
+         "uid":23
+      },
+      {
+         "title":"Action Comics",
+         "issue":"7",
+         "grade_src":"CGC",
+         "grade":"8.0",
+         "sales":[
+            {
+               "sale_date":"2008-02-01",
+               "price":"143400",
+               "venue":"Heritage",
+               "$$hashKey":"023"
+            }
+         ],
+         "uid":24
+      },
+      {
+         "title":"Amazing Spider-Man",
+         "issue":"1",
+         "pedigree":"Curator",
+         "grade_src":"CGC",
+         "grade":"9.6",
+         "tags":"marvel,spider-man,cgc",
+         "sales":[
+
+         ],
+         "uid":25
+      },
+      {
+         "title":"Action Comics",
+         "issue":"10",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "tags":"cgc,superman,dc,action",
+         "sales":[
+            {
+               "sale_date":"2011-08-09",
+               "price":"258000",
+               "venue":"Comic Connect",
+               "$$hashKey":"027"
+            }
+         ],
+         "uid":26
+      },
+      {
+         "title":"Action Comics",
+         "issue":"13",
+         "publisher":"DC Comics",
+         "grade_src":"cgc",
+         "grade":"9.2",
+         "tags":"cgc,action,superman,dc",
+         "sales":[
+            {
+               "sale_date":"2011-08-09",
+               "price":"185000",
+               "venue":"Comic Connect",
+               "$$hashKey":"02C"
+            }
+         ],
+         "uid":27
+      },
+      {
+         "title":"All American Comics",
+         "issue":"16",
+         "pedigree":"Church",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"all-american-comics,green-lantern,dc,cgc,pedigree",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"1984-01-01",
+               "price":"9000",
+               "$$hashKey":"02H"
+            }
+         ],
+         "uid":28
+      },
+      {
+         "title":"All American Comics",
+         "issue":"16",
+         "publisher":"DC Comics",
+         "pedigree":"Reilly",
+         "grade_src":"Anecdote",
+         "grade":"9+",
+         "grading_notes":"qualified, coupon out of back cover",
+         "tags":"all-american-comics,green-lantern,dc,pedigree",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sellers_notes":"OS26 listing",
+               "sale_date":"1996-01-01",
+               "price":"60000",
+               "$$hashKey":"02K"
+            }
+         ],
+         "uid":29
+      },
+      {
+         "title":"All Star Comics",
+         "issue":"3",
+         "publisher":"DC Comics",
+         "pedigree":"Church",
+         "grade_src":"CGC",
+         "grade":"9.6",
+         "tags":"all-star-comics,jsa,dc,pedigree,cgc",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"1901-01-01",
+               "price":"126500",
+               "$$hashKey":"04W"
+            }
+         ],
+         "uid":30
+      },
+      {
+         "title":"All Star Comics",
+         "issue":"8",
+         "pedigree":"Church",
+         "grade_src":"",
+         "general_commentary":"Overstreet 26 reported sale",
+         "tags":"all-star,dc,church,pedigree",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"1995-01-01",
+               "price":"70000",
+               "$$hashKey":"02R"
+            }
+         ],
+         "uid":31
+      },
+      {
+         "title":"All Winners Comics",
+         "issue":"1",
+         "pedigree":"Chicago",
+         "grade_src":"CGC",
+         "grade":"9.6",
+         "tags":"all-winners,timely,marvel",
+         "sales":[
+            {
+               "link":"http://www.hakes.com/item.asp?Auction=188&ItemNo=44415",
+               "sale_date":"2006-06-29",
+               "price":"95200",
+               "venue":"Hakes",
+               "$$hashKey":"02X"
+            }
+         ],
+         "uid":32
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "grade_src":"CGC",
+         "grade":"9.6",
+         "general_commentary":"Best Known",
+         "tags":"amazing-fantasy,marvel,spider-man,cgc",
+         "sales":[
+            {
+               "sale_date":"2011-03-09",
+               "price":"1100000",
+               "venue":"Comic Connect",
+               "link":"http://www.comicconnect.com/load_page.php?page=amazing_fantasy_15",
+               "$$hashKey":"032"
+            }
+         ],
+         "uid":33
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "pedigree":"White Mountain",
+         "grade_src":"cgc",
+         "grade":"9.4",
+         "tags":"amazing-fantasy,marvel,spider-man,cgc",
+         "sales":[
+            {
+               "sale_date":"1993-01-01",
+               "price":"39100",
+               "venue":"Sothebys",
+               "$$hashKey":"034"
+            },
+            {
+               "link":"http://comics.ha.com/c/item.zx?saleNo=816&lotNo=5272",
+               "price":"126500",
+               "sale_date":"2005-05-20",
+               "venue":"Heritage",
+               "$$hashKey":"036"
+            },
+            {
+               "sale_date":"2004-08-01",
+               "price":"150000",
+               "venue":"Pedigree",
+               "link":"http://www.pedigreecomics.com/detail.php?issue_id=719",
+               "$$hashKey":"038"
+            },
+            {
+               "sale_date":"2007-10-16",
+               "price":"227000",
+               "link":"http://www.Comiclink.com/auctions/item.asp?back=%2FComicTrack%2FAdmin%2Fauc…%26SearchSeller%3D%26SearchHighBidder%3D%26Image1%2Ex%3D0%26Image1%2Ey%3D0",
+               "venue":"Comiclink",
+               "$$hashKey":"03A"
+            }
+         ],
+         "uid":34
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"amazing-fantasy,marvel,spider-man,cgc",
+         "sales":[
+            {
+               "sale_date":"2003-05-07",
+               "price":"86250",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=806&lotNo=5073",
+               "$$hashKey":"03A"
+            },
+            {
+               "sale_date":"2005-01-01",
+               "price":"145000",
+               "venue":"PGCMint",
+               "$$hashKey":"03C"
+            },
+            {
+               "sale_date":"2007-01-01",
+               "price":"210000",
+               "venue":"Comiclink",
+               "link":"http://www.Comiclink.com/itemdetail.asp?id=706615&next=%2FComicTrack%2FAdmi…D%26TYPE%3D0%26FILTER%3D%26Payment%3D%26Verified%3D%26Shipped%3D%26SPBP%3D",
+               "$$hashKey":"03E"
+            }
+         ],
+         "uid":35
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "pedigree":"Diamond Run",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"amazing-fantasy,marvel,spider-man,cgc,pedigree",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"2001-01-01",
+               "price":"86000",
+               "$$hashKey":"03J"
+            },
+            {
+               "sale_date":"2004-01-01",
+               "price":"122000",
+               "venue":"Comiclink",
+               "$$hashKey":"03L"
+            }
+         ],
+         "uid":36
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"amazing-fantasy,marvel,spider-man,cgc",
+         "sales":[
+
+         ],
+         "uid":37
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"amazing-fantasy,marvel,spider-man,cgc",
+         "sales":[
+
+         ],
+         "uid":38
+      },
+      {
+         "title":"Amazing Fantasy",
+         "grade":"9.4",
+         "grade_src":"CGC",
+         "issue":"15",
+         "tags":"amazing-fantasy,marvel,spider-man,cgc",
+         "sales":[
+
+         ],
+         "uid":39
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"amazing-fantasy,marvel,spider-man,cgc",
+         "sales":[
+
+         ],
+         "uid":40
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "collection":"",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"amazing-fantasy,marvel,spider-man,cgc",
+         "sales":[
+            {
+               "sale_date":"2009-02-15",
+               "price":"190000",
+               "venue":"Pedigree",
+               "$$hashKey":"03S"
+            }
+         ],
+         "uid":41
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "pedigree":"Curator",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "tags":"amazing-fantasy,marvel,spider-man,cgc",
+         "sales":[
+
+         ],
+         "uid":42
+      },
+      {
+         "title":"Amazing Fantasy",
+         "grade_src":"cgc",
+         "issue":"15",
+         "grade":"9.0",
+         "tags":"amazing-fantasy,marvel,spider-man,cgc",
+         "sales":[
+            {
+               "sale_date":"2008-01-01",
+               "price":"139000",
+               "venue":"Comiclink",
+               "$$hashKey":"03X"
+            }
+         ],
+         "uid":43
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "grade_src":"CGC",
+         "grade":"8.5",
+         "tags":"cgc,amazing-fantasy,spider-man,marvel",
+         "sales":[
+            {
+               "sale_date":"2008-01-01",
+               "price":"118977",
+               "venue":"Comiclink",
+               "$$hashKey":"040"
+            }
+         ],
+         "uid":44
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "grade_src":"CGC",
+         "grade":"8.5",
+         "tags":"marvel,amazing-spider-man,cgc,heritage.a",
+         "sales":[
+            {
+               "sale_date":"2009-11-01",
+               "price":"104562.50",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7013&lotNo=92111",
+               "$$hashKey":"07K"
+            }
+         ],
+         "uid":45
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "grade_src":"CGC",
+         "grade":"8.5",
+         "tags":"amazing-spider-man,cgc,marvel,Comiclink",
+         "sales":[
+            {
+               "sale_date":"2009-03-20",
+               "price":"122000",
+               "venue":"Comiclink",
+               "$$hashKey":"04D"
+            }
+         ],
+         "uid":46
+      },
+      {
+         "title":"Amazing Spider-Man",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.8",
+         "tags":"amazing-spider-man,marvel,cgc",
+         "sales":[
+
+         ],
+         "uid":47
+      },
+      {
+         "title":"Amazing Spider-Man",
+         "issue":"1",
+         "grade_src":"cgc",
+         "grade":"9.6",
+         "tags":"amazing-spider-man,cgc,marvel,heritage",
+         "sales":[
+            {
+               "venue":"Heritage",
+               "sale_date":"2003-03-07",
+               "price":"92000",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=806&lotNo=5074",
+               "$$hashKey":"08A"
+            },
+            {
+               "sale_date":"2005-08-11",
+               "price":"97750",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=817&lotNo=1005",
+               "$$hashKey":"08C"
+            }
+         ],
+         "uid":48
+      },
+      {
+         "title":"Amazing Spider-Man",
+         "issue":"1",
+         "pedigree":"White Mountain",
+         "grade_src":"cgc",
+         "grade":"9.6",
+         "tags":"AMAZING-SPIDER-MAN,CGC.MARVEL",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"2001-01-01",
+               "price":"67305",
+               "$$hashKey":"0G8"
+            },
+            {
+               "sale_date":"1900-01-01",
+               "price":"100000",
+               "venue":"Comiclink",
+               "$$hashKey":"0G6"
+            },
+            {
+               "sale_date":"2009-04-21",
+               "price":"130000",
+               "venue":"Comiclink",
+               "$$hashKey":"0GA"
+            }
+         ],
+         "uid":50
+      },
+      {
+         "title":"Amazing Spider-Man",
+         "issue":"1",
+         "grade":"9.4",
+         "tags":"amazing-spider-man,cgc,comiclink,spider-man",
+         "sales":[
+            {
+               "sale_date":"2009-03-13",
+               "price":"104200",
+               "venue":"Comiclink",
+               "$$hashKey":"0KH"
+            }
+         ],
+         "uid":51
+      },
+      {
+         "title":"Amazing Spider-Man",
+         "issue":"5",
+         "grade_src":"cgc",
+         "grade":"9.8",
+         "tags":"amazing-spider-mane,cgc,comiclink,marvel",
+         "sales":[
+            {
+               "sale_date":"2009-11-17",
+               "price":"97000",
+               "venue":"Comiclink",
+               "$$hashKey":"0OP"
+            }
+         ],
+         "uid":52
+      },
+      {
+         "title":"Archie Comics",
+         "issue":"1",
+         "pedigree":"Church",
+         "grade_src":"Anecdote",
+         "grade":"NM",
+         "general_commentary":"Reported in Overstreet 28",
+         "tags":"archie,pedigree",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"1997-01-01",
+               "price":"53",
+               "$$hashKey":"052"
+            }
+         ],
+         "uid":53
+      },
+      {
+         "title":"Archie Comics",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"8.5",
+         "tags":"Archie,heritage,cgc",
+         "sales":[
+            {
+               "sale_date":"2011-02-24",
+               "price":"167300",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7030&lotNo=91252",
+               "$$hashKey":"09G"
+            }
+         ],
+         "uid":54
+      },
+      {
+         "title":"Avengers",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.6",
+         "pedigree":"Pacific Coast",
+         "tags":"avengers,marvel,cgc,pedigre",
+         "sales":[
+            {
+               "sale_date":"2012-07-28",
+               "price":"274850",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/prlink.zx?saleNo=7063&lotNo=91001",
+               "$$hashKey":"09G"
+            }
+        
+
+
+         ],
+         "uid":55
+      },
+      {
+         "title":"Daredevil",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.8",
+         "tags":"marvel,daredevil,cgc",
+         "sales":[
+
+         ],
+         "uid":56
+      },
+      {
+         "title":"Avengers",
+         "issue":"1",
+         "grade_src":"cgc",
+         "grade":"9.6",
+         "tags":"avengers,cgc,marvel",
+         "sales":[
+
+         ],
+         "uid":57
+      },
+      {
+         "title":"Avengers",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.6",
+         "tags":"avengers,marvel,cgc",
+         "sales":[
+            {
+               "sale_date":"2011-02-01",
+               "price":"100000",
+               "venue":"Comiclink",
+               "$$hashKey":"0W8"
+            }
+         ],
+         "uid":58
+      },
+      {
+         "title":"Batman",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"batman,cgc,dc,heritage",
+         "sales":[
+            {
+               "sale_date":"2013-08-01",
+               "price":"567625.00",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91013",
+               "$$hashKey":"1FJ"
+            }
+         ],
+         "uid":58
+      },
+      {
+         "title":"Batman",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "tags":"batman,cgc,comiclink,dc",
+         "sales":[
+            {
+               "sale_date":"2007-10-01",
+               "price":"280000",
+               "venue":"Comiclink",
+               "$$hashKey":"05N"
+            }
+         ],
+         "uid":60
+      },
+      {
+         "title":"Action Comics",
+         "issue":"1",
+         "pedigree":"Billy Wright",
+         "grade_src":"CGC",
+         "grade":"3.0",
+         "tags":"dc,action-comics,heritage,cgc,superman",
+         "sales":[
+            {
+               "sale_date":"2013-08-03",
+               "price":"388375",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91001",
+               "$$hashKey":"0EH"
+            },{
+               "sale_date":"2012-02-24",
+               "price":"298750",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/prlink.zx?saleNo=7054&lotNo=91001",
+               "$$hashKey":"0EH"
+            }
+         ],
+         "uid":62
+      },
+      {
+         "title":"All American Comics",
+         "issue":"16",
+         "pedigree":"Billy Wright",
+         "grade_src":"CGC",
+         "grade":"8.0",
+         "tags":"green-lantern,cgc,pedigree,heritage,dc",
+         "sales":[
+            {
+               "sale_date":"2013-08-01",
+               "price":"203150",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91004",
+               "$$hashKey":"052"
+            }
+         ],
+         "uid":63
+      },
+      {
+         "title":"Fantastic Four",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.6",
+         "tags":"fantastic-four,cgc,marvel",
+         "sales":[
+
+         ],
+         "uid":64
+      },
+      {
+         "title":"Fantastic Four",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"fantastic-four,cgc,marvel",
+         "sales":[
+            {
+               "sale_date":"2002-06-22",
+               "price":"111328",
+               "venue":"JP The Mint",
+               "$$hashKey":"0G8"
+            }
+         ],
+         "uid":65
+      },
+      {
+         "title":"Fantastic Four",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "general_commentary":"Part of a trade for 9.6",
+         "tags":"marvel,fantastic-four,cgc",
+         "sales":[
+            {
+               "sale_date":"2010-01-01",
+               "price":"210000",
+               "venue":"Pedigree",
+               "$$hashKey":"0LI"
+            }
+         ],
+         "uid":66
+      },
+      {
+         "title":"Fantastic Four",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"cgc,marvel,fantastic-four",
+         "sales":[
+
+         ],
+         "uid":67
+      },
+      {
+         "title":"Fantastic Four",
+         "issue":"1",
+         "pedigree":"White Mountain",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"fantastic-four,cgc,white-mountain,pedigree",
+         "sales":[
+            {
+               "sale_date":"1993-01-01",
+               "price":"27000",
+               "venue":"Sotheby's",
+               "$$hashKey":"11O"
+            },
+            {
+               "sale_date":"2007-01-01",
+               "price":"100000",
+               "venue":"Metropolis",
+               "$$hashKey":"11Q"
+            },
+            {
+               "sale_date":"2013-08-01",
+               "price":"191200",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91141",
+               "$$hashKey":"11S"
+            }
+         ],
+         "uid":69
+      },
+      {
+         "title":"Flash Comics",
+         "issue":"1",
+         "pedigree":"Church",
+         "grade_src":"CGC",
+         "grade":"9.6",
+         "tags":"flash,dc,cgc,heritage,jp-the-mint",
+         "sales":[
+            {
+               "sale_date":"2004-01-01",
+               "price":"350,000",
+               "$$hashKey":"17F"
+            },
+            {
+               "sale_date":"2007-01-01",
+               "price":"273,125",
+               "venue":"Heritage",
+               "$$hashKey":"17H"
+            },
+            {
+               "sale_date":"2010-03-01",
+               "price":"450000",
+               "venue":"Heritage",
+               "$$hashKey":"17J"
+            }
+         ],
+         "uid":70
+      },
+      {
+         "title":"Flash Comics",
+         "issue":"1",
+         "pedigree":"Reilly",
+         "general_commentary":"Said to be 9+",
+         "tags":"missing,pedigree,dc,flash",
+         "sales":[
+
+         ],
+         "uid":71
+      },
+      {
+         "title":"Flash Comics",
+         "issue":"1",
+         "pedigree":"Kansas City",
+         "tags":"dc,flash,pedigree",
+         "sales":[
+
+         ],
+         "uid":72
+      },
+      {
+         "title":"Batman",
+         "issue":"1",
+         "pedigree":"Church",
+         "grade_src":"MHC",
+         "grade":"NM",
+         "tags":"batman,pedigree,dc",
+         "sales":[
+            {
+               "sale_date":"1984-01-01",
+               "price":"12000",
+               "$$hashKey":"0CB"
+            }
+         ],
+         "uid":73
+      },
+      {
+         "title":"Batman",
+         "issue":"1",
+         "pedigree":"Denver",
+         "grade_src":"OS32",
+         "grade":"NM",
+         "tags":"batman,dc,pedigree",
+         "sales":[
+            {
+               "sale_date":"2001-01-01",
+               "price":"70000",
+               "$$hashKey":"0I9"
+            }
+         ],
+         "uid":74
+      },
+      {
+         "title":"Batman",
+         "issue":"1",
+         "collection":"Overstreet",
+         "grade_src":"OS32",
+         "grade":"VF+",
+         "tags":"batman,overstreet,dc",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"2001-01-01",
+               "price":"150000",
+               "$$hashKey":"0O9"
+            }
+         ],
+         "uid":75
+      },
+      {
+         "title":"Batman",
+         "issue":"1",
+         "pedigree":"Reilly",
+         "grade_src":"Anecdote",
+         "grade":"9.+",
+         "tags":"pedigree,dc,batman,missing",
+         "sales":[
+
+         ],
+         "uid":76
+      },
+      {
+         "title":"Batman",
+         "issue":"1",
+         "pedigree":"Kansas City",
+         "grade_src":"CGC",
+         "grade":"8.5",
+         "tags":"dc,pedigree,batman,heritage",
+         "sales":[
+            {
+               "sale_date":"2001-11-01",
+               "price":"107000",
+               "venue":"Heritage",
+               "$$hashKey":"10M"
+            }
+         ],
+         "uid":77
+      },
+      {
+         "title":"Batman",
+         "issue":"1",
+         "grade_src":"CGC",
+  "pedigree":"Billy Wright",
+         "grade":"8.5",
+         "tags":"cgc,batman,dc",
+         "sales":[{
+         	   "sale_date":"2012-02-24",
+               "price":"247850",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/prlink.zx?saleNo=7054&lotNo=91047",
+               "$$hashKey":"2G0"
+         }
+            
+
+         ],
+         "uid":78
+      },
+      {
+         "title":"Batman",
+         "issue":"1",
+         "pedigree":"",
+         "grade_src":"CGC",
+         "grade":"8.0",
+         "tags":"batman,cgc,comiclink,dc",
+         "sales":[
+            {
+               "sale_date":"2009-11-17",
+               "price":"100000",
+               "venue":"Comiclink",
+               "$$hashKey":"1D4"
+            }
+         ],
+         "uid":79
+      },
+      {
+         "title":"Batman",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"8.0",
+         "tags":"dc,batman,cgc",
+         "sales":[
+
+         ],
+         "uid":80
+      },
+      {
+         "title":"Batman",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"8.0",
+         "tags":"dc,batman,cgc",
+         "sales":[
+
+         ],
+         "uid":82
+      },
+      {
+         "title":"Batman",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"7.5",
+         "tags":"dc,batman,cgc",
+         "sales":[
+
+         ],
+         "uid":83
+      },
+      {
+         "title":"Batman",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"7.5",
+         "tags":"dc,batman,cgc",
+         "sales":[
+
+         ],
+         "uid":84
+      },
+      {
+         "title":"Batman",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"7.0",
+         "tags":"cgc,batman,dc",
+         "sales":[
+            {
+               "sale_date":"2009-05-29",
+               "price":"98587",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/common/view_item.php?Sale_No=7007&Lot_No=91002&src=pr",
+               "$$hashKey":"2G0"
+            }
+         ],
+         "uid":85
+      },
+      {
+         "title":"Batman",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"8.0",
+         "tags":"batman,dc,cgc",
+         "sales":[
+            {
+               "sale_date":"2008-06-01",
+               "price":"100000",
+               "venue":"Metropolis",
+               "link":"http://scoop.diamondgalleries.com/public/default.asp?t=1&m=1&c=34&s=262&ai=71029",
+               "$$hashKey":"2MQ"
+            }
+         ],
+         "uid":86
+      },
+      {
+         "title":"Captain America Comics",
+         "issue":"1",
+         "pedigree":"Reilly",
+         "grade_src":"",
+         "tags":"captain-america,marvel,timely,pedigree",
+         "sales":[
+
+         ],
+         "uid":87
+      },
+      {
+         "title":"Captain America Comics",
+         "issue":"1",
+         "pedigree":"Kansas City",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "tags":"captain-america,cgc,pedigree,timely,marvel",
+         "sales":[
+            {
+               "sale_date":"2006-01-19",
+               "price":"96,686.25",
+               "venue":"Heritage",
+               "$$hashKey":"30G"
+            },
+            {
+               "sale_date":"2008-01-01",
+               "price":"150000",
+               "venue":"Comiclink",
+               "$$hashKey":"30I"
+            }
+         ],
+         "uid":88
+      },
+      {
+         "title":"Captain America Comics",
+         "issue":"1",
+         "pedigree":"Windy City",
+         "grade_src":"CGC",
+         "grade":"8.5",
+         "tags":"cgc,pedigree,captain-america,timely,marvel",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"2001-01-01",
+               "sellers_notes":"os32",
+               "price":"95000",
+               "$$hashKey":"37L"
+            },
+            {
+               "venue":"Unknown",
+               "sale_date":"1994-01-01",
+               "price":"36800",
+               "sellers_notes":"os25",
+               "$$hashKey":"37J"
+            },
+            {
+               "venue":"Unknown",
+               "sale_date":"2005-10-14",
+               "price":"63250",
+               "$$hashKey":"37N"
+            }
+         ],
+         "uid":89
+      },
+      {
+         "title":"Captain America Comics",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"captain-america,cgc,marvel,timely",
+         "sales":[
+            {
+               "sale_date":"2011-08-09",
+               "price":"343057",
+               "venue":"Comic Connect",
+               "$$hashKey":"3EN"
+            }
+         ],
+         "uid":90
+      },
+      {
+         "title":"Captain America Comics",
+         "issue":"1",
+         "pedigree":"Denver",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"captain-america,marvel,timely,cgc,pedigree",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"2001-01-01",
+               "price":"166750",
+               "sellers_notes":"os32",
+               "$$hashKey":"3LW"
+            },
+            {
+               "venue":"Unknown",
+               "sellers_notes":"os25",
+               "sale_date":"1994-01-01",
+               "price":"82500",
+               "$$hashKey":"3LU"
+            }
+         ],
+         "uid":91
+      },
+      {
+         "title":"Captain America Comics",
+         "issue":"1",
+         "pedigree":"Allentown",
+         "grade_src":"CGC",
+         "grade":"9.6",
+         "tags":"captain-america,cgc,pedigree,marvel,timely",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"2001-01-01",
+               "price":"260000",
+               "$$hashKey":"3T9"
+            },
+            {
+               "venue":"Unknown",
+               "sale_date":"1994-01-01",
+               "price":"82500",
+               "$$hashKey":"3T7"
+            }
+         ],
+         "uid":92
+      },
+      {
+         "title":"Captain America Comics",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"8.5",
+         "tags":"captain-america,cgc,timely,marvel",
+         "sales":[
+            {
+               "sale_date":"2009-05-22",
+               "price":"95600",
+               "venue":"Heritage",
+               "$$hashKey":"089"
+            }
+         ],
+         "uid":93
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"1",
+         "pedigree":"Denver",
+         "tags":"detective-comics,pedigree,dc",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"1995-01-01",
+               "price":"90000",
+               "sellers_notes":"os26",
+               "$$hashKey":"0FW"
+            }
+         ],
+         "uid":94
+      },
+      {
+         "general_commentary":"OS 27 reported $150,000 trade. To be honest, I'm only now including it for completeness' sake. First off, it's \"trade\" which you have to take with a grain of salt anyway. Secondly, if it's really VG/FN, then is it really a $100,000 book right now, no matter the pedigree?",
+         "title":"Detective Comics",
+         "issue":"1",
+         "pedigree":"Church",
+         "grade":"VG/FN",
+         "tags":"detective-comics,pedigree,dc",
+         "sales":[
+
+         ],
+         "uid":95
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"1",
+         "pedigree":"Allentown",
+         "grade_src":"Anecdote",
+         "grade":"NM/MT",
+         "general_commentary":"Best Existing",
+         "tags":"detective-comics,batman,dc",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"1990-01-01",
+               "sellers_notes":"os21",
+               "price":"80000",
+               "$$hashKey":"0V4"
+            }
+         ],
+         "uid":96
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "pedigree":"Church",
+         "grade_src":"Anecdote",
+         "grade":"8.5",
+         "tags":"detective-comics,dc,batman,pedigree",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"1994-01-01",
+               "sellers_notes":"os25",
+               "price":"125000",
+               "$$hashKey":"12X"
+            },
+            {
+               "venue":"Unknown",
+               "sellers_notes":"os22",
+               "sale_date":"1991-01-01",
+               "price":"72000",
+               "$$hashKey":"12V"
+            }
+         ],
+         "uid":97
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"8.0",
+         "general_commentary":"Missing",
+         "tags":"detective-comics,dc,missing,batman",
+         "sales":[
+            {
+               "sale_date":"2001-01-01",
+               "price":"278190",
+               "venue":"Mastronet",
+               "$$hashKey":"1AS"
+            }
+         ],
+         "uid":98
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"8.0",
+         "tags":"batman,detective-comics,dc",
+         "sales":[
+            {
+               "sale_date":"2010-02-25",
+               "price":"1075000",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/common/view_item.php?Sale_No=7017&Lot_No=91126&ic=rightcolumn-detective27-121009",
+               "$$hashKey":"1IP"
+            }
+         ],
+         "uid":99
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"OS",
+         "grade":"7.5",
+         "general_commentary":"Slight resto",
+         "tags":"detective-comics,batman,dc,restored",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sellers_notes":"os33",
+               "sale_date":"2002-01-01",
+               "price":"100000",
+               "$$hashKey":"08Z"
+            }
+         ],
+         "uid":100
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "general_commentary":"The \"Other high grade\" copy",
+         "tags":"detective-comics,batman,dc",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sellers_notes":"OS24",
+               "sale_date":"1993-01-01",
+               "price":"81000",
+               "$$hashKey":"0OQ"
+            },
+            {
+               "venue":"Unknown",
+               "sellers_notes":"OS24",
+               "sale_date":"1993-01-02",
+               "price":"101000",
+               "$$hashKey":"0OS"
+            }
+         ],
+         "uid":101
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"7.5",
+         "tags":"batman,detective-comics,dc",
+         "sales":[
+            {
+               "sale_date":"2010-08-04",
+               "price":"657250",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/common/view_item.php?Sale_No=7023&Lot_No=91055",
+               "$$hashKey":"0X4"
+            }
+         ],
+         "uid":102
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade":"7.0",
+         "grade_src":"CGC",
+         "tags":"detective-comics,batman,dc",
+         "sales":[
+
+
+         ],
+         "uid":103
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"6.5",
+         "tags":"detective-comics,cgc,dc,batman",
+         "sales":[
+            {
+               "sale_date":"2013-02-23",
+               "price":"567625",
+               "venue":"Heritage",
+               "$$hashKey":"1M4",
+               "link":"http://comics.ha.com/c/prlink.zx?saleNo=7073&lotNo=91048"
+            }
+
+         ],
+         "uid":104
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"6.0",
+         "tags":"batman,detective-comics,cgc,dc",
+         "sales":[
+            {
+               "sale_date":"2007-01-01",
+               "price":"158000",
+               "venue":"Metropolis",
+               "$$hashKey":"1M4"
+            },
+            {
+               "sale_date":"2010-04-01",
+               "price":"575000",
+               "venue":"Metropolis",
+               "$$hashKey":"1M6"
+            }
+         ],
+         "uid":105
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "pedigree":"Reilly",
+         "grade_src":"Anecdote",
+         "grade":"VF",
+         "tags":"detective-comics,dc,pedigree,missing,batman",
+         "sales":[
+
+         ],
+         "uid":106
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "pedigree":"Rockford",
+         "grade_src":"CGC",
+         "grade":"5.5",
+         "tags":"detective-comics,dc,batman,pedigree",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"1900-01-01",
+               "price":"115000",
+               "$$hashKey":"0I1"
+            }
+         ],
+         "uid":107
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"5.5",
+         "tags":"detective-comics,dc,batman",
+         "sales":[
+
+         ],
+         "uid":108
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"4.0",
+         "tags":"detective-comics,dc,batman",
+         "sales":[
+            {
+               "sale_date":"2012-08-14",
+               "price":"287000",
+               "venue":"Comic Connect",
+               "link":"http://www.comicconnect.com/bookDetail.php?id=350383",
+               "$$hashKey":"0ZD"
+            }
+         ],
+         "uid":109
+      },
+      {
+         "tags":"detective-comics,dc,batman",
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"4.0",
+         "sales":[
+
+         ],
+         "uid":110
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"3.0",
+         "tags":"detective-comics,dc,batman",
+         "sales":[
+
+         ],
+         "uid":111
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"3.5",
+         "tags":"detective-comics,dc,batman",
+         "sales":[
+
+         ],
+         "uid":112
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"3.0",
+         "tags":"detective-comics,dc,batman",
+         "sales":[
+
+         ],
+         "uid":113
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"3.0",
+         "tags":"detective-comics,dc,batman",
+         "sales":[
+
+         ],
+         "uid":115
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"3.0",
+         "tags":"detective-comics,dc,batman",
+         "sales":[
+
+         ],
+         "uid":116
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"2.5",
+         "tags":"detective-comics,dc,batman",
+         "sales":[
+
+         ],
+         "uid":117
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"29",
+         "pedigree":"Allentown",
+         "grade_src":"cgc",
+         "grade":"9.6",
+         "tags":"detective-comics,dc,batman",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"1998-01-01",
+               "price":"57000",
+               "sellers_notes":"OS29",
+               "$$hashKey":"386"
+            }
+         ],
+         "uid":118
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"33",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"detective-comics,dc,batman",
+         "sales":[
+            {
+               "sale_date":"2011-08-09",
+               "price":"194000",
+               "venue":"Comic Connect",
+               "$$hashKey":"3HI"
+            }
+         ],
+         "uid":119
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"33",
+         "pedigree":"Church",
+         "tags":"detective-comics,dc,batman,pedigree",
+         "sales":[
+
+         ],
+         "uid":120
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"38",
+         "pedigree":"Allentown",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"batman,detective-comics,dc,batman",
+         "sales":[
+            {
+               "sale_date":"2009-05-21",
+               "price":"107550",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7007&lotNo=91137",
+               "venue":"Heritage",
+               "$$hashKey":"40G"
+            },
+            {
+               "sale_date":"2005-05-19",
+               "price":"126500",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=816&lotNo=3590",
+               "$$hashKey":"40E"
+            },
+            {
+               "sale_date":"2002-10-10",
+               "price":"120750",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=804&lotNo=5134",
+               "$$hashKey":"40C"
+            }
+         ],
+         "uid":121
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"38",
+         "pedigree":"Church",
+         "tags":"batman,detective-comics,pedigree,dc",
+         "sales":[
+
+         ],
+         "uid":122
+      },
+      {
+         "title":"Flash Comics",
+         "issue":"1",
+         "pedigree":"Denver",
+         "grade_src":"CGC",
+         "grade":"8.5",
+         "tags":"flash,dc,pedigree",
+         "sales":[
+
+         ],
+         "uid":123
+      },
+      {
+         "title":"Green Lantern",
+         "issue":"1",
+         "pedigree":"Church",
+         "grade_src":"Anecdote",
+         "grade":"9.4",
+         "tags":"green-lantern,dc",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sellers_notes":"OS21",
+               "sale_date":"1990-01-01",
+               "price":"25000",
+               "$$hashKey":"4TL"
+            }
+         ],
+         "uid":124
+      },
+      {
+         "title":"Incredible Hulk",
+         "issue":"1",
+         "grade_src":"CGC",
+         "provenance":"",
+         "grade":"9.4",
+         "tags":"hulk,marvel",
+         "sales":[
+
+         ],
+         "uid":126
+      },
+      {
+         "title":"Incredible Hulk",
+         "issue":"1",
+         "pedigree":"Northland",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"hulk,marvel",
+         "sales":[
+            {
+               "link":"http://www.comiclink.com/itemdetail.asp?id=741566&next=/ComicTrack/Admin/CL/matches.asp?_SORT=YES&TITLE=INCREDIBLE+HULK&ISSUENUMBER=1&SELLER=&ORDERNUMBER=&PEDIGREE=&SELLERCOMMENT=&BUYER=&Payment=&CGCCOMMENT=&TYPE=0&Shipped=&SPBP=&FILTER=&Verified=&SPBP2=&SearchConditionFrom=&SearchConditionTo=&f1=i.Condition&ODire1=DESC&f2=i.Title&ODire2=ASC&f3=i.IssueNumber%2C+i.VolumeNumber&ODire3=ASC",
+               "sale_date":"1900-01-01",
+               "price":"117500",
+               "venue":"Comiclink",
+               "$$hashKey":"5N4"
+            }
+         ],
+         "uid":127
+      },
+      {
+         "title":"Incredible Hulk",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"hulk,marvel",
+         "sales":[
+            {
+               "sale_date":"2009-11-19",
+               "price":"125475",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7013&lotNo=92198",
+               "$$hashKey":"5X4"
+            }
+         ],
+         "uid":128
+      },
+      {
+         "title":"Incredible Hulk",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"marvel,hulk",
+         "sales":[
+
+         ],
+         "uid":129
+      },
+      {
+         "title":"Incredible Hulk",
+         "issue":"181",
+         "grade_src":"CGC",
+         "grade":"9.9",
+         "tags":"hulk,marvel,wolverine,x-men",
+         "sales":[
+            {
+               "sale_date":"2011-02-01",
+               "price":"150000",
+               "venue":"Comiclink",
+               "$$hashKey":"6HA"
+            }
+         ],
+         "uid":130
+      },
+      {
+         "title":"Journey into Mystery",
+         "issue":"83",
+         "pedigree":"White Mountain",
+         "grade_src":"cgc",
+         "grade":"9.6",
+         "tags":"thor,marvel",
+         "sales":[
+
+         ],
+         "uid":131
+      },
+      {
+         "title":"Marvel Comics",
+         "issue":"1",
+         "pedigree":"Allentown",
+         "grade_src":"cgc",
+         "grade":"9.2(SP)",
+         "general_commentary":"Listed variously as \"NM\" and \"VF\". Was part of a 25,000 cash/trade deal in 1990. $115,000 trade listed in OS27.",
+         "tags":"marvel-comics,timely,marvel,pedigree",
+         "sales":[
+            {
+               "sale_date":"2009-05-21",
+               "price":"50788",
+               "$$hashKey":"0HK"
+            }
+         ],
+         "uid":132
+      },
+      {
+         "title":"Marvel Comics",
+         "issue":"1",
+         "pedigree":"Church",
+         "grade_src":"Anecdote",
+         "grade":"NM/MT",
+         "general_commentary":"OS 20 Trade data- $108,000. John Verzyl said that this deal happened in 1984 and was for $132,000. Can I explain the discrepancy between what he says and the OS notation. No. Is it my job to make sure that all of the results reported here make sense? No (thankfully.) John did also verify the anecdote about this book. It is \"perfect.\" There's nothing wrong with it. It's also supposedly got pretty nice registration.",
+         "tags":"marvel-comics,timely,marvel",
+         "sales":[
+
+         ],
+         "uid":133
+      },
+      {
+         "title":"Marvel Comics",
+         "issue":"1",
+         "pedigree":"Denver",
+         "grade_src":"CGC",
+         "grade":"8.5",
+         "tags":"marvel,timely,pedigree",
+         "sales":[
+            {
+               "sale_date":"2009-02-26",
+               "price":"155350",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7002&lotNo=91156",
+               "$$hashKey":"7MG"
+            },
+            {
+               "sale_date":"2005-08-13",
+               "price":"172500",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=817&lotNo=5273",
+               "$$hashKey":"7ME"
+            }
+         ],
+         "uid":134
+      },
+      {
+         "title":"Marvel Comics",
+         "issue":"1",
+         "pedigree":"Chicago",
+         "tags":"marvel,timely",
+         "sales":[
+
+         ],
+         "uid":135
+      },
+      {
+         "title":"Marvel Comics",
+         "issue":"1",
+         "provenance":"Pay Copy",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "tags":"marvel,timely,jp-the-mint",
+         "sales":[
+            {
+               "venue":"Private Sale",
+               "sale_date":"1993-01-01",
+               "price":"40000",
+               "$$hashKey":"87E"
+            },
+            {
+               "venue":"Private Sale",
+               "sale_date":"2003-01-01",
+               "price":"350000",
+               "$$hashKey":"87E"
+            },
+            {
+               "sale_date":"2010-02-25",
+               "price":"227050",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7017&lotNo=91243",
+               "$$hashKey":"87K"
+            },
+            {
+               "sale_date":"2007-08-03",
+               "price":"204999.99",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=825&lotNo=42219",
+               "$$hashKey":"87I"
+            },
+            {
+               "sale_date":"2006-01-19",
+               "price":"201250",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=819&lotNo=2403",
+               "$$hashKey":"87G"
+            }
+         ],
+         "uid":136
+      },
+      {
+         "title":"Marvel Comics",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "general_commentary":"UPGRADED from 8.5",
+         "tags":"marvel,timely,upgrade",
+         "sales":[
+            {
+               "sale_date":"2003-03-06",
+               "sellers_notes":"as a CGC 8.5",
+               "price":"126500",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=806&lotNo=3194",
+               "$$hashKey":"8I6"
+            },
+            {
+               "sale_date":"2005-10-14",
+               "price":"161000",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=806&lotNo=3194",
+               "$$hashKey":"8I8"
+            }
+         ],
+         "uid":137
+      },
+      {
+         "title":"Marvel Comics",
+         "issue":"1",
+         "pedigree":"Larson",
+         "grade_src":"CGC",
+         "grade":"8.0",
+         "tags":"marvel-comics,marvel,timely",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"1998-01-01",
+               "price":"48000",
+               "sellers_notes":"os29",
+               "$$hashKey":"0N2"
+            },
+            {
+               "sellers_notes":"os28",
+               "sale_date":"1997-01-01",
+               "price":"41400",
+               "venue":"Sotheby's",
+               "$$hashKey":"0N0"
+            },
+            {
+               "sale_date":"2006-11-17",
+               "price":"101575",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=822&lotNo=43160",
+               "$$hashKey":"0N4"
+            },
+            {
+               "sale_date":"2007-11-15",
+               "price":"89625",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=826&lotNo=41328",
+               "$$hashKey":"0N6"
+            },
+            {
+               "sale_date":"2009-11-19",
+               "price":"89625",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7013&lotNo=91217",
+               "$$hashKey":"0N8"
+            }
+         ],
+         "uid":139
+      },
+      {
+         "title":"Marvel Comics",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "general_commentary":"slight pro",
+         "tags":"marvel,timely,marvel-comics,restored",
+         "sales":[
+
+         ],
+         "uid":140
+      },
+      {
+         "title":"Marvel Mystery Comics",
+         "issue":"9",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"marvel-mystery-comics,marvel,timely",
+         "sales":[
+            {
+               "sale_date":"2009-05-22",
+               "price":"107550",
+               "link":"http://comics.ha.com/common/view_item.php?Sale_No=7007&Lot_No=91044&src=pr",
+               "venue":"Heritage",
+               "$$hashKey":"19F"
+            }
+         ],
+         "uid":141
+      },
+      {
+         "title":"More Fun",
+         "issue":"52",
+         "pedigree":"Reilly",
+         "tags":"missing,dc,more-fun",
+         "sales":[
+
+         ],
+         "uid":142
+      },
+      {
+         "title":"More Fun",
+         "issue":"52",
+         "pedigree":"Church",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"more-fun,pedigree,dc,church",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"2001-01-01",
+               "price":"207000",
+               "$$hashKey":"1VW"
+            }
+         ],
+         "uid":143
+      },
+      {
+         "title":"More Fun",
+         "issue":"52",
+         "pedigree":"Larson",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"more-fun,dc,pedigree,larson",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"1995-01-01",
+               "price":"65000",
+               "sellers_notes":"\"nm\" in OS26",
+               "$$hashKey":"279"
+            },
+            {
+               "sale_date":"2006-08-10",
+               "price":"119500",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=821&lotNo=42543",
+               "$$hashKey":"27B"
+            },
+            {
+               "sale_date":"2010-02-25",
+               "price":"89625",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7017&lotNo=92022",
+               "$$hashKey":"27D"
+            }
+         ],
+         "uid":144
+      },
+      {
+         "title":"More Fun",
+         "issue":"52",
+         "grade_src":"CGC",
+         "grade":"7.5",
+         "tags":"more-fun,dc",
+         "sales":[
+            {
+               "sale_date":"1900-01-01",
+               "price":"90000",
+               "venue":"Comiclink",
+               "link":"http://www.comiclink.com/itemdetail.asp?back=/search_adv.asp?all=y&TITLE=&TITLEOPT=ALL&ISSUE=&Condition=&Pedigree=&PRICEF=500&PRICET=&DESCRIPTION=&DESCRIPTIONOPT=ALL&SearchRemarks=&SearchCGC=&EXCLUDE=&CATEGORIES=-1&WCATEGORIES=-1&SORT=NEW&_where_forsale=y&x=33&y=11&where_forsale=y&id=609125",
+               "$$hashKey":"2IV"
+            }
+         ],
+         "uid":145
+      },
+      {
+         "title":"More Fun",
+         "issue":"53",
+         "pedigree":"Reilly",
+         "tags":"missing,dc,more-fun",
+         "sales":[
+
+         ],
+         "uid":146
+      },
+      {
+         "title":"More Fun",
+         "issue":"53",
+         "pedigree":"Church",
+         "grade_src":"CGC",
+         "grade":"9.6",
+         "tags":"more-fun,dc,church,pedigree",
+         "sales":[
+            {
+               "sale_date":"2005-10-14",
+               "price":"77625",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=818&lotNo=2163",
+               "$$hashKey":"361"
+            }
+         ],
+         "uid":147
+      },
+      {
+         "title":"More Fun",
+         "issue":"53",
+         "pedigree":"Rockford",
+         "grade_src":"CGC",
+         "grade":"9.6",
+         "tags":"more-fun,dc,pedigree,rockford",
+         "sales":[
+            {
+               "sale_date":"2005-08-12",
+               "price":"92000",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=817&lotNo=4455",
+               "$$hashKey":"0D4"
+            },
+            {
+               "sale_date":"2010-02-25",
+               "price":"47800",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7017&lotNo=92023",
+               "$$hashKey":"0D6"
+            }
+         ],
+         "uid":148
+      },
+      {
+         "title":"More Fun",
+         "issue":"53",
+         "pedigree":"Larson",
+         "grade_src":"Anecdote",
+         "grade":"NM",
+         "tags":"more-fun,dc,pedigree",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"1995-01-01",
+               "sellers_notes":"os26",
+               "price":"66000",
+               "$$hashKey":"0OX"
+            }
+         ],
+         "uid":149
+      },
+      {
+         "title":"Pep Comics",
+         "issue":"22",
+         "pedigree":"Church",
+         "grade_src":"Anecdote",
+         "grade":"NM",
+         "tags":"archie,pep-comics",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"1997-01-01",
+               "sellers_notes":"os28",
+               "price":"47000",
+               "$$hashKey":"0DC"
+            }
+         ],
+         "uid":150
+      },
+      {
+         "title":"Sensation",
+         "issue":"1",
+         "pedigree":"Church",
+         "tags":"wonder-woman,dc,pedigree",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"1996-01-01",
+               "price":"90000",
+               "sellers_notes":"TRADE",
+               "$$hashKey":"0DI"
+            },
+            {
+               "venue":"Unknown",
+               "sale_date":"1995-01-01",
+               "price":"60000",
+               "$$hashKey":"0DG"
+            }
+         ],
+         "uid":151
+      },
+      {
+         "title":"Sensation",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"wonder-woman,dc",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"2001-01-01",
+               "price":"100000",
+               "$$hashKey":"0PM"
+            },
+            {
+               "sale_date":"2010-02-25",
+               "price":"63250",
+               "venue":"Heritage",
+               "$$hashKey":"0PO"
+            }
+         ],
+         "uid":152
+      },
+      {
+         "title":"Showcase",
+         "issue":"4",
+         "grade_src":"CGC",
+         "grade":"9.6",
+         "tags":"flash,silver-age,dc,showcase",
+         "sales":[
+            {
+               "sale_date":"2009-05-22",
+               "price":"179250",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/common/view_item.php?Sale_No=7007&Lot_No=91261&src=pr",
+               "$$hashKey":"11X"
+            }
+         ],
+         "uid":153
+      },
+      {
+         "title":"Showcase",
+         "issue":"4",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"showcase,flash,dc",
+         "sales":[
+            {
+               "sale_date":"2008-09-29",
+               "price":"160200",
+               "link":"",
+               "venue":"Comic Connect",
+               "$$hashKey":"1E8"
+            }
+         ],
+         "uid":154
+      },
+      {
+         "title":"Showcase",
+         "issue":"4",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"showcase,dc",
+         "sales":[
+            {
+               "sale_date":"2011-05-13",
+               "price":"100000",
+               "venue":"Esquire Comics/Comic Connect",
+               "$$hashKey":"1QM"
+            }
+         ],
+         "uid":155
+      },
+      {
+         "title":"Superman",
+         "issue":"1",
+         "general_commentary":"Best Existing. The \"Dentist's\" copy. Grade range is 8.0-9.2. What we do know is that he had the option to have both this and the Church copy in hand and went with this one.",
+         "tags":"superman,dc",
+         "sales":[
+
+         ],
+         "uid":156
+      },
+      {
+         "title":"Superman",
+         "issue":"1",
+         "pedigree":"Church",
+         "grade_src":"CGC",
+         "grade":"8.0",
+         "tags":"superman,dc,pedigree",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sellers_notes":"os27",
+               "sale_date":"1996-01-01",
+               "price":"170000",
+               "$$hashKey":"2FL"
+            }
+         ],
+         "uid":157
+      },
+      {
+         "title":"Superman",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"7.5",
+         "tags":"superman,dc",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"1900-01-01",
+               "price":"250000",
+               "$$hashKey":"2S7"
+            }
+         ],
+         "uid":158
+      },
+      {
+         "title":"Superman",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"6.0",
+         "tags":"dc,superman",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sellers_notes":"Confirmed private sale",
+               "sale_date":"1900-01-01",
+               "price":"125000",
+               "$$hashKey":"0E8"
+            }
+         ],
+         "uid":159
+      },
+      {
+         "title":"Superman",
+         "issue":"1",
+         "pedigree":"Nova Scotia",
+         "grade_src":"CGC",
+         "grade":"5.0",
+         "tags":"superman,dc",
+         "sales":[
+            {
+               "sale_date":"2008-08-28",
+               "price":"121000",
+               "venue":"Comiclink",
+               "$$hashKey":"0R1"
+            },
+            {
+               "venue":"Unknown",
+               "sale_date":"2010-01-01",
+               "price":"135000",
+               "$$hashKey":"0R3"
+            }
+         ],
+         "uid":160
+      },
+      {
+         "title":"Walt Disney's Comics and Stories",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"disney",
+         "sales":[
+            {
+               "sale_date":"2008-11-12",
+               "price":"116512",
+               "venue":"Heritage",
+               "$$hashKey":"140"
+            },
+            {
+               "$$hashKey":"142"
+            }
+         ],
+         "uid":161
+      },
+      {
+         "title":"Whiz",
+         "issue":"2",
+         "pedigree":"Church",
+         "grade_src":"Anecdote",
+         "grade":"NM/NM+",
+         "general_commentary":"Catalog NM+ Generally ranges from 9.0-9.8. OS 21 lists it as \"MT.\" Changed hands in a cash/trade deal- $74,000 (1990)",
+         "tags":"whiz,captain-marvel",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sellers_notes":"OS26",
+               "sale_date":"1995-01-01",
+               "price":"176000",
+               "$$hashKey":"1H3"
+            }
+         ],
+         "uid":162
+      },
+      {
+         "title":"X-Men",
+         "issue":"1",
+         "pedigree":"Curator",
+         "grade_src":"CGC",
+         "grade":"9.8",
+         "tags":"x-men,pedigree,marvel",
+         "sales":[
+
+         ],
+         "uid":163
+      },
+      {
+         "title":"X-Men",
+         "issue":"1",
+         "pedigree":"Pacific Coast",
+         "grade_src":"CGC",
+         "grade":"9.8",
+         "tags":"upgrade,x-men,marvel,pedigree",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sellers_notes":"Sold for $110,000 as a CGC 9.6",
+               "$$hashKey":"27H"
+            },
+            {
+               "sale_date":"2012-07-26",
+               "price":"492937.50",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7063&lotNo=91418",
+               "$$hashKey":"27F"
+            }
+         ],
+         "uid":164
+      },
+      {
+         "title":"X-Men",
+         "issue":"1",
+         "pedigree":"Pacific Coast",
+         "grade_src":"CGC",
+         "grade":"9.6",
+         "tags":"cgc,pedigree,marvel,x-men,upgrade",
+         "sales":[
+            {
+               "sale_date":"1900-01-01",
+               "price":"100000",
+               "venue":"Pedigree",
+               "$$hashKey":"2KR"
+            }
+         ],
+         "uid":165
+      },
+      {
+         "title":"X-Men",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.6",
+         "tags":"x-men,marvel",
+         "sales":[
+            {
+               "sale_date":"2011-04-01",
+               "price":"200000",
+               "venue":"Comic Connect",
+               "$$hashKey":"2Y3"
+            },
+            {
+               "sale_date":"2013-07-01",
+               "price":"250000",
+               "$$hashKey":"2Y3"
+            }
+         ],
+         "uid":166
+      },
+      {
+         "title":"X-Men",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"x-men,marvel",
+         "sales":[
+            {
+               "sellers_notes":"Mound City Auction",
+               "sale_date":"2009-08-31",
+               "price":"116150",
+               "$$hashKey":"3BK"
+            }
+         ],
+         "uid":167
+      },
+      {
+         "title":"X-Men",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"x-men,marvel",
+         "sales":[
+            {
+               "sale_date":"2010-02-18",
+               "price":"101002",
+               "venue":"Comiclink",
+               "$$hashKey":"3P2"
+            }
+         ],
+         "uid":168
+      },
+      {
+         "title":"X-Men",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"x-men,marvel",
+         "sales":[
+            {
+               "sale_date":"2010-05-27",
+               "price":"105521",
+               "venue":"Comiclink",
+               "$$hashKey":"0F1"
+            }
+         ],
+         "uid":169
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "grade_src":"CGC",
+         "grade":"9.6",
+         "tags":"spider-man,amazing-fantasy,cgc,marvel",
+         "sales":[
+
+         ],
+         "uid":170
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "grade_src":"CGC",
+         "grade":"9.6",
+         "tags":"spider-man,amazing-fantasy,cgc,marvel",
+         "sales":[
+
+         ],
+         "uid":171
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "grade_src":"CGC",
+         "grade":"8.5",
+         "tags":"spider-man,amazing-fantasy,cgc,marvel",
+         "sales":[
+
+         ],
+         "uid":172
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "grade_src":"CGC",
+         "grade":"8.5",
+         "tags":"spider-man,amazing-fantasy,cgc,marvel",
+         "sales":[
+
+         ],
+         "uid":173
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "grade_src":"CGC",
+         "grade":"8.5",
+         "tags":"spider-man,amazing-fantasy,cgc,marvel",
+         "sales":[
+
+         ],
+         "uid":174
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "grade_src":"CGC",
+         "grade":"8.5",
+         "tags":"spider-man,amazing-fantasy,cgc,marvel",
+         "sales":[
+
+         ],
+         "uid":175
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "grade_src":"CGC",
+         "grade":"8.5",
+         "tags":"spider-man,amazing-fantasy,cgc,marvel",
+         "sales":[
+
+         ],
+         "uid":176
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "tags":"spider-man,amazing-fantasy,cgc,marvel",
+         "sales":[
+
+         ],
+         "uid":177
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "tags":"spider-man,amazing-fantasy,cgc,marvel",
+         "sales":[
+
+         ],
+         "uid":178
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "tags":"spider-man,amazing-fantasy,cgc,marvel",
+         "sales":[
+
+         ],
+         "uid":179
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "tags":"spider-man,amazing-fantasy,cgc,marvel",
+         "sales":[
+
+         ],
+         "uid":180
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "tags":"spider-man,amazing-fantasy,cgc,marvel",
+         "sales":[
+
+         ],
+         "uid":181
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "grade_src":"CGC",
+         "grade":"8.5",
+         "tags":"spider-man,amazing-fantasy,cgc,marvel",
+         "sales":[
+
+         ],
+         "uid":182
+      },
+      {
+         "title":"Amazing Spider-Man",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.6",
+         "tags":"amazing-spider-man,cgc,spider-man",
+         "sales":[
+
+         ],
+         "uid":183
+      },
+      {
+         "title":"Amazing Spider-Man",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"amazing-spider-man,cgc,spider-man",
+         "sales":[
+
+         ],
+         "uid":184
+      },
+      {
+         "title":"Amazing Spider-Man",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"amazing-spider-man,cgc,spider-man",
+         "sales":[
+
+         ],
+         "uid":185
+      },
+      {
+         "title":"Amazing Spider-Man",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"amazing-spider-man,cgc,spider-man",
+         "sales":[
+
+         ],
+         "uid":186
+      },
+      {
+         "title":"Amazing Spider-Man",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"amazing-spider-man,cgc,spider-man",
+         "sales":[
+
+         ],
+         "uid":187
+      },
+      {
+         "title":"Amazing Spider-Man",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"amazing-spider-man,cgc,spider-man",
+         "sales":[
+
+         ],
+         "uid":188
+      },
+      {
+         "title":"Amazing Spider-Man",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"amazing-spider-man,cgc,spider-man",
+         "sales":[
+
+         ],
+         "uid":189
+      },
+      {
+         "title":"Amazing Spider-Man",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"amazing-spider-man,cgc,spider-man",
+         "sales":[
+
+         ],
+         "uid":190
+      },
+      {
+         "title":"Amazing Spider-Man",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"amazing-spider-man,cgc,spider-man",
+         "sales":[
+
+         ],
+         "uid":191
+      },
+      {
+         "title":"Avengers",
+         "issue":"4",
+         "grade_src":"CGC",
+         "grade":"9.8",
+         "tags":"captain-america,marvel,avengers,cgc",
+         "sales":[
+            {
+               "sale_date":"2013-01-01",
+               "price":"120000",
+               "$$hashKey":"0S0"
+            }
+         ],
+         "uid":192
+      },
+      {
+         "title":"Avengers",
+         "issue":"4",
+         "grade_src":"cgc",
+         "grade":"9.8",
+         "tags":"avengers,cgc,marvel,captain-america",
+         "sales":[
+
+         ],
+         "uid":193
+      },
+      {
+         "title":"Avengers",
+         "issue":"4",
+         "grade_src":"cgc",
+         "grade":"9.8",
+         "tags":"avengers,cgc,marvel,captain-america",
+         "sales":[
+
+         ],
+         "uid":194
+      },
+      {
+         "title":"Batman",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "tags":"batman,dc,cgc",
+         "sales":[
+
+         ],
+         "uid":188
+      },
+      {
+         "title":"Batman",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"8.5",
+         "tags":"batman,cgc,dc",
+         "sales":[
+
+         ],
+         "uid":189
+      },
+      {
+         "title":"Captain America Comics",
+         "issue":"1",
+         "grade_src":"cgc",
+         "grade":"9.4",
+         "tags":"captain-america,marvel,timely,kirby",
+         "sales":[
+
+         ],
+         "uid":190
+      },
+      {
+         "title":"Daredevil",
+         "issue":"1",
+         "grade_src":"cgc",
+         "grade":"9.8",
+         "tags":"daredevil,marvel",
+         "sales":[
+
+         ],
+         "uid":191
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade":"7.0",
+         "grade_src":"cgc",
+         "tags":"batman,detective-comics,dc",
+         "sales":[
+         {
+               "sale_date":"2011-11-19",
+               "price":"492938",
+               "venue":"Heritage",
+               "$$hashKey":"1M4",
+               "link":"http://comics.ha.com/c/prlink.zx?saleNo=7027&lotNo=91063"
+            }
+
+         ],
+         "uid":192
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"7.5",
+         "tags":"batman,detective-comics,dc",
+         "sales":[
+
+         ],
+         "uid":193
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"cgc",
+         "grade":"6.5",
+         "tags":"batman,detective-comics,dc",
+         "sales":[
+
+         ],
+         "uid":194
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"cgc",
+         "grade":"6.5",
+         "tags":"batman,detective-comics,dc",
+         "sales":[
+
+         ],
+         "uid":195
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "pedigree":"Billy Wright",
+         "grade_src":"cgc",
+         "grade":"6.5",
+         "tags":"batman,detective-comics,dc",
+         "sales":[
+         {
+               "sale_date":"2012-02-24",
+               "price":"522813",
+               "venue":"Heritage",
+               "$$hashKey":"1M4",
+               "link":"http://comics.ha.com/c/prlink.zx?saleNo=7054&lotNo=91070"
+            }
+
+         ],
+         "uid":196
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"cgc",
+         "grade":"6.5",
+         "tags":"batman,detective-comics,dc",
+         "sales":[
+
+         ],
+         "uid":197
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"cgc",
+         "grade":"6.5",
+         "tags":"batman,detective-comics,dc",
+         "sales":[
+
+         ],
+         "uid":198
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"4.0",
+         "tags":"batman,detective-comics,dc",
+         "sales":[
+
+         ],
+         "uid":199
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"cgc",
+         "grade":"2.5",
+         "tags":"batman,detective-comics,dc",
+         "sales":[
+
+         ],
+         "uid":200
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"cgc",
+         "grade":"2.0",
+         "tags":"detective-comics,dc,batman",
+         "sales":[
+         {
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7054&lotNo=91305",
+               "price":"116512.50",
+               "sale_date":"2012-02-22",
+               "venue":"Heritage",
+               "$$hashKey":"036"
+            }
+
+         ],
+         "uid":201
+      },
+      {
+         "title":"Fantastic Four",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.6",
+         "tags":"fantastic-four,cgc,marvel,kirby",
+         "sales":[
+
+         ],
+         "uid":202
+      },
+      {
+         "title":"Fantastic Four",
+         "issue":"1",
+         "grade_src":"cgc",
+         "grade":"9.2",
+         "tags":"fantastic-four,cgc,marvel",
+         "sales":[
+
+         ],
+         "uid":203
+      },
+      {
+         "title":"Fantastic Four",
+         "issue":"1",
+         "grade_src":"cgc",
+         "grade":"9.0",
+         "tags":"fantastic-four,cgc,marvel,kirby",
+         "sales":[
+
+         ],
+         "uid":204
+      },
+      {
+         "title":"Fantastic Four",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "tags":"fantastic-four,cgc,marvel,kirby",
+         "sales":[
+
+         ],
+         "uid":205
+      },
+      {
+         "title":"Fantastic Four",
+         "issue":"1",
+         "grade_src":"cgc",
+         "grade":"9.0",
+         "tags":"fantastic-four,cgc,marvel,kirby",
+         "sales":[
+
+         ],
+         "uid":206
+      },
+      {
+         "title":"Incredible Hulk",
+         "issue":"1",
+         "pedigree":"Bethlehem",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"hulk,cgc,marvel,pedigree",
+         "sales":[
+            {
+               "sale_date":"2002-08-01",
+               "price":"51900",
+               "$$hashKey":"1BJ"
+            }
+         ],
+         "uid":207
+      },
+      {
+         "title":"Incredible Hulk",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "tags":"incredible-hulk,marvel,cgc,hulk",
+         "sales":[
+            {
+               "sale_date":"2011-11-09",
+               "price":"100000",
+               "$$hashKey":"1BJ"
+            }
+         ],
+         "uid":208
+      },
+      {
+         "title":"Incredible Hulk",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "tags":"incredible-hulk,cgc,marvel,hulk",
+         "sales":[
+
+         ],
+         "uid":209
+      },
+      {
+         "title":"Incredible Hulk",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "tags":"incredible-hulk,cgc,marvel,hulk",
+         "sales":[
+
+         ],
+         "uid":210
+      },
+      {
+         "title":"Incredible Hulk",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "tags":"incredible-hulk,cgc,marvel,hulk",
+         "sales":[
+
+         ],
+         "uid":211
+      },
+      {
+         "title":"Incredible Hulk",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "tags":"incredible-hulk,cgc,marvel,hulk",
+         "sales":[
+
+         ],
+         "uid":212
+      },
+      {
+         "title":"Incredible Hulk",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "tags":"incredible-hulk,cgc,marvel,hulk",
+         "sales":[
+
+         ],
+         "uid":213
+      },
+      {
+         "title":"Incredible Hulk",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "tags":"incredible-hulk,cgc,marvel,hulk",
+         "sales":[
+
+         ],
+         "uid":214
+      },
+      {
+         "title":"Incredible Hulk",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "tags":"incredible-hulk,cgc,marvel,hulk",
+         "sales":[
+
+         ],
+         "uid":215
+      },
+      {
+         "title":"Incredible Hulk",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "tags":"incredible-hulk,cgc,marvel,hulk",
+         "sales":[
+
+         ],
+         "uid":216
+      },
+      {
+         "title":"Journey into Mystery",
+         "issue":"83",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"thor,journey-into-mystery,marvel,cgc,kirby",
+         "sales":[
+            {
+               "sale_date":"2013-03-23",
+               "price":"171000",
+               "$$hashKey":"0X1"
+            }
+         ],
+         "uid":217
+      },
+      {
+         "title":"Journey into Mystery",
+         "issue":"83",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"thor,journey-into-mystery,marvel,cgc,kirby",
+         "sales":[
+            {
+               "sale_date":"2012-02-01",
+               "price":"222,200",
+               "$$hashKey":"1DG"
+            }
+         ],
+         "uid":218
+      },
+      {
+         "title":"Journey into Mystery",
+         "issue":"83",
+         "grade_src":"cgc",
+         "grade":"9.4",
+         "tags":"thor,journey-into-mystery,marvel,cgc,kirby",
+         "sales":[
+
+         ],
+         "uid":219
+      },
+      {
+         "title":"Journey into Mystery",
+         "issue":"83",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"journey-into-mystery,cgc,marvel,thor,kirby",
+         "sales":[
+            {
+               "sale_date":"2012-06-26",
+               "price":"83850",
+               "$$hashKey":"2AJ"
+            }
+         ],
+         "uid":220
+      },
+      {
+         "title":"Journey into Mystery",
+         "issue":"83",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"journey-into-mystery,cgc,marvel,thor,kirby",
+         "sales":[
+            {
+               "sale_date":"2011-10-22",
+               "price":"100000",
+               "$$hashKey":"2R7"
+            }
+         ],
+         "uid":221
+      },
+      {
+         "title":"Journey into Mystery",
+         "issue":"83",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"journey-into-mystery,cgc,marvel,thor,kirby",
+         "sales":[
+
+         ],
+         "uid":222
+      },
+      {
+         "title":"Journey into Mystery",
+         "issue":"83",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"journey-into-mystery,cgc,marvel,thor,kirby",
+         "sales":[
+
+         ],
+         "uid":223
+      },
+      {
+         "title":"Journey into Mystery",
+         "issue":"83",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"journey-into-mystery,cgc,marvel,thor,kirby",
+         "sales":[
+
+         ],
+         "uid":224
+      },
+      {
+         "title":"Journey into Mystery",
+         "issue":"83",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"journey-into-mystery,cgc,marvel,thor,kirby",
+         "sales":[
+
+         ],
+         "uid":225
+      },
+      {
+         "title":"Journey into Mystery",
+         "issue":"83",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"journey-into-mystery,cgc,marvel,thor,kirby",
+         "sales":[
+
+         ],
+         "uid":226
+      },
+      {
+         "title":"Marvel Comics",
+         "issue":"1",
+         "pedigree":"Billy Wright",
+         "grade_src":"CGC",
+         "grade":"7.5",
+         "tags":"marvel-comics,timely,marvel",
+         "sales":[
+            {
+               "sale_date":"2012-02-22",
+               "price":"113525",
+               "venue":"Heritage",
+               "$$hashKey":"0YR"
+            }
+         ],
+         "uid":227
+      },
+      {
+         "title":"Marvel Comics",
+         "issue":"1",
+         "grade_src":"cgc",
+         "grade":"7.5",
+         "tags":"marvel,timely,marvel-comics",
+         "sales":[
+            {
+               "sale_date":"2012-08-29",
+               "price":"112007",
+               "$$hashKey":"1FU"
+            }
+         ],
+         "uid":228
+      },
+      {
+         "title":"Pep Comics",
+         "issue":"22",
+         "grade_src":"CGC",
+         "grade":"6.5",
+         "tags":"archie,pep-comics",
+         "sales":[
+            {
+               "sale_date":"2012-12-10",
+               "price":"111000",
+               "$$hashKey":"0ID"
+            }
+         ],
+         "uid":229
+      },
+      {
+         "title":"Showcase",
+         "issue":"22",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"showcase,dc,green-lantern",
+         "sales":[
+
+         ],
+         "uid":230
+      },
+      {
+         "title":"Superman",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"5.5",
+         "tags":"superman,dc",
+         "sales":[
+            {
+               "sale_date":"2011-12-06",
+               "price":"214000",
+               "$$hashKey":"1H9"
+            }
+         ],
+         "uid":231
+      },
+      {
+         "title":"Superman",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"5.5",
+         "tags":"Superman,dc",
+         "sales":[
+            {
+               "sale_date":"2005-04-16",
+               "$$hashKey":"1YO"
+            }
+         ],
+         "uid":232
+      },
+      {
+         "title":"Superman",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"5.0",
+         "tags":"superman,dc",
+         "sales":[
+
+         ],
+         "uid":233
+      },
+      {
+         "title":"Superman",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"5.0",
+         "tags":"superman,dc",
+         "sales":[
+
+         ],
+         "uid":234
+      },
+      {
+         "title":"Superman",
+         "issue":"1",
+         "grade_src":"cgc",
+         "grade":"4.5",
+         "tags":"superman,dc",
+         "sales":[
+
+         ],
+         "uid":235
+      },
+      {
+         "title":"Superman",
+         "issue":"1",
+         "grade_src":"cgc",
+         "grade":"4.5",
+         "tags":"superman,dc",
+         "sales":[
+
+         ],
+         "uid":236
+      },
+      {
+         "title":"superman",
+         "issue":"1",
+         "grade_src":"cgc",
+         "grade":"4.0",
+         "tags":"superman,dc",
+         "sales":[
+
+         ],
+         "uid":237
+      },
+      {
+         "sales":[
+
+         ],
+         "uid":238
+      },
+      {
+         "title":"Whiz",
+         "issue":"2",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "tags":"whiz,captain-marvel",
+         "sales":[
+            {
+               "sale_date":"2012-12-12",
+               "price":"281001",
+               "$$hashKey":"5EF"
+            }
+         ],
+         "uid":239
+      },
+      {
+         "title":"Whiz",
+         "issue":"2",
+         "grade_src":"cgc",
+         "grade":"6.0",
+         "tags":"whiz,captain-marvel",
+         "sales":[
+            {
+               "sale_date":"2011-12-06",
+               "price":"176007",
+               "$$hashKey":"5WD"
+            }
+         ],
+         "uid":240
+      },
+      {
+         "title":"Whiz",
+         "issue":"2",
+         "grade_src":"cgc",
+         "grade":"8.5",
+         "tags":"cgc,whiz,cgc,captain-marvel",
+         "sales":[
+
+         ],
+         "uid":241
+      },
+      {
+         "title":"X-Men",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"x-men,marvel,cgc",
+         "sales":[
+            {
+               "sale_date":"2013-08-01",
+               "price":"83650",
+               "$$hashKey":"11W"
+            }
+         ],
+         "uid":242
+      },
+      {
+         "title":"X-Men",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"x-men,cgc,marvel",
+         "sales":[
+            {
+               "sale_date":"2012-11-15",
+               "price":"89625",
+               "$$hashKey":"1K3"
+            }
+         ],
+         "uid":243
+      },
+      {
+         "title":"X-Men",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"x-men,cgc,marvel",
+         "sales":[
+            {
+               "sale_date":"2012-07-27",
+               "price":"89625",
+               "$$hashKey":"22F"
+            },
+            {
+               "sale_date":"2011-10-01",
+               "price":"137500",
+               "$$hashKey":"22D"
+            }
+         ],
+         "uid":244
+      },
+      {
+         "title":"X-Men",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"marvel,x-men,cgc",
+         "sales":[
+            {
+               "sale_date":"2010-05-27",
+               "price":"105521",
+               "$$hashKey":"2KT"
+            }
+         ],
+         "uid":245
+      },
+      {
+         "title":"X-Men",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"x-men,cgc,marvel",
+         "sales":[
+            {
+               "sale_date":"2010-04-18",
+               "price":"100000",
+               "$$hashKey":"33A"
+            }
+         ],
+         "uid":246
+      },
+      {
+         "title":"X-Men",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"marvel,cgc,x-men",
+         "sales":[
+            {
+               "sale_date":"2009-11-01",
+               "price":"106050",
+               "$$hashKey":"3LU"
+            }
+         ],
+         "uid":247
+      },
+      {
+         "title":"X-Men",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"x-men,marvel,cgc",
+         "sales":[
+
+         ],
+         "uid":248
+      },
+      {
+         "title":"X-Men",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"marvel,cgc,x-men,kirby",
+         "sales":[
+
+         ],
+         "uid":249
+      },
+      {
+         "title":"X-Men",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"kirby,x-men,marvel,cgc",
+         "sales":[
+
+         ],
+         "uid":250
+      },
+      {
+         "title":"Tales of Suspense",
+         "issue":"39",
+         "pedigree":"Pacific Coast",
+         "grade_src":"CGC",
+         "grade":"9.6",
+         "tags":"pedigree,iron-man,marvel,cgc",
+         "sales":[
+            {
+               "sale_date":"2012-07-26",
+               "price":"262900",
+               "venue":"Heritage",
+               "$$hashKey":"5O1"
+            }
+         ],
+         "uid":251
+      },
+      {
+         "title":"Tales of Suspense",
+         "issue":"39",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"marvel,iron-man,cgc",
+         "sales":[
+            {
+               "sale_date":"2013-08-01",
+               "price":"83650",
+               "$$hashKey":"66X"
+            }
+         ],
+         "uid":252
+      },
+      {
+         "title":"Tales of Suspense",
+         "issue":"39",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"marvel,iron-man,cgc",
+         "sales":[
+            {
+               "sale_date":"2011-03-24",
+               "price":"147500",
+               "$$hashKey":"6PY"
+            },
+            {
+               "sale_date":"2009-11-23",
+               "price":"114990",
+               "$$hashKey":"6PW"
+            }
+         ],
+         "uid":253
+      },
+      {
+         "title":"Tales of Suspense",
+         "issue":"39",
+         "grade_src":"CGC",
+         "grade":"9.6",
+         "tags":"marvel,cgc,iron-man",
+         "sales":[
+
+         ],
+         "uid":254
+      },
+      {
+         "title":"Tales of Suspense",
+         "issue":"39",
+         "grade_src":"CGC",
+         "grade":"9.6",
+         "tags":"marvel,cgc,iron-man",
+         "sales":[
+
+         ],
+         "uid":255
+      },
+      {
+         "title":"Tales of Suspense",
+         "issue":"39",
+         "pedigree":"White Mountain",
+         "grade_src":"CGC",
+         "grade":"9.6",
+         "tags":"marvel,cgc,iron-man",
+         "sales":[
+
+         ],
+         "uid":256
+      },
+      {
+         "title":"Tales of Suspense",
+         "issue":"39",
+         "pedigree":"Bethlehem",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"marvel,iron-man,pedigree,cgc",
+         "sales":[
+
+         ],
+         "uid":257
+      },
+      {
+         "title":"Brave and the Bold",
+         "issue":"28",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "general_commentary":"Sold for more than $100,000 in 2009",
+         "tags":"dc,jla,cgc",
+         "sales":[
+
+         ],
+         "uid":258
+      },
+      {
+         "title":"Brave and the Bold",
+         "issue":"28",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"jla,dc,cgc",
+         "sales":[
+
+         ],
+         "uid":259
+      }
+   ]
+}

@@ -29,6 +29,7 @@ angular.module('comicsApp.controllers', ['comicFilters']).
               }  
             }  
          }
+        $scope.sort = ['title','issue','-grade']; 
         $scope.titles = titles;
         $scope.publishers = publishers;
         $scope.pedigrees = pedigrees; 
@@ -40,7 +41,7 @@ angular.module('comicsApp.controllers', ['comicFilters']).
         item.sales = $scope.sales;
         item.uid = $scope.uid;
         $scope.uid++;
-        $scope.sort = ['title','issue','-grade'];
+
         $scope.items.push(item);
         $scope.item = {};
         $scope.sales = [];
@@ -72,9 +73,18 @@ angular.module('comicsApp.controllers', ['comicFilters']).
         }
       }
       $scope.sorter = function(sort){
-      	if ($scope.sort === sort) {
-      		sort = "-"+sort;
-      	}
+        console.log($scope);
+      	if ($scope.sort[0] === sort) {
+      		$scope.sort[0] = "-"+sort;
+      	} else {
+          var tmp = [];
+          tmp[0] = sort;
+          for (var i=0; i < $scope.sort[0].length; i++ ) {
+            if ($scope.sort[i] !== sort) {
+              tmp.push($scope.sort[i]);
+            }
+          }
+        }
       	
       	$scope.sort = sort;
       } 

@@ -115,6 +115,18 @@ th {
     color: #000;
     border:1px solid #999;
 }
+th.sortable {
+  padding-right:25px;
+  background:#aaa url(img/arrows.png) 100% 5px no-repeat;
+}
+th.sortable.up {
+
+  background:#aaa url(img/arrows.png) 100% -95px no-repeat;
+}
+th.sortable.down {
+
+  background:#aaa url(img/arrows.png) 100% -197px no-repeat;
+}
 td { border:1px solid #ccc; padding:5px; border-collapse: collapse; }
 
 tr:nth-child(1n){

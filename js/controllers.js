@@ -73,10 +73,17 @@ angular.module('comicsApp.controllers', ['comicFilters']).
         }
       }
       $scope.sorter = function(sort){
-        console.log($scope);
-      	if ($scope.sort[0] === sort) {
-      		$scope.sort[0] = "-"+sort;
-      	} else {
+       
+       if ($scope.sort[0].indexOf(sort) >-1 && $scope.sort[0].charAt(0) === "-" ) {
+          
+            $scope.sort[0] = sort.slice(1);
+          
+      	}
+        if ($scope.sort[0].indexOf(sort) >-1 && $scope.sort[0].indexOf("-") == -1 ) {
+          
+            $scope.sort[0] = "-"+sort;
+          
+        } else {
           var tmp = [];
           tmp[0] = sort;
           for (var i=0; i < $scope.sort[0].length; i++ ) {
@@ -84,9 +91,10 @@ angular.module('comicsApp.controllers', ['comicFilters']).
               tmp.push($scope.sort[i]);
             }
           }
+          $scope.sort = tmp;
         }
       	
-      	$scope.sort = sort;
+      	
       } 
   }
 ])

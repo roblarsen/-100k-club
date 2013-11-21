@@ -16,13 +16,13 @@
   <table class="data">
     <tr>
       <!---->
-      <th class="title" data-ng-click="sorter('title')">Title</th>
+      <th class="title sortable" data-ng-class="{up:sort[0]=='title', down:sort[0]=='-title'}"data-ng-click="sorter('title')">Title</th>
       <th class="number">#</th>
        <!--)-->
-      <th class="ped" data-ng-click="sorter('pedigree')">Pedigree</th>
+      <th class="ped sortable" data-ng-class="{up:sort[0]=='pedigree', down:sort[0]=='-pedigree'}" data-ng-click="sorter('pedigree')">Pedigree</th>
       <th class="source">Grade Source</th>
       <!---->
-      <th class="grade" data-ng-click="sorter('grade')">Grade</th>
+      <th class="grade sortable" data-ng-class="{up:sort[0]=='grade', down:sort[0]=='-grade'}" data-ng-click="sorter('grade')">Grade</th>
       <th class="commentary">General Commentary</th>
       <th class="sales">Sales</th>
     </tr>

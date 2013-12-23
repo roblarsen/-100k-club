@@ -29,8 +29,7 @@
                "price":"1500000",
                "sale_date":"2010-03-29",
                "venue":"Comic Connect",
-               "link":"http://www.comicconnect.com/bookDetail.php?id=333815",
-               "$$hashKey":"00B"
+               "link":"http://www.comicconnect.com/bookDetail.php?id=333815"
             }
          ],
          "uid":1
@@ -49,8 +48,7 @@
                "sale_date":"2010-02-22",
                "price":"1000000",
                "venue":"Comic Connect",
-               "link":"http://www.comicconnect.com/bookDetail.php?id=330734",
-               "$$hashKey":"00F"
+               "link":"http://www.comicconnect.com/bookDetail.php?id=330734"
             }
          ],
          "uid":2
@@ -66,8 +64,7 @@
             {
                "venue":"Unknown",
                "sale_date":"2002-01-01",
-               "price":"192120.15",
-               "$$hashKey":"00J"
+               "price":"192120.15"
             }
          ],
          "uid":3
@@ -97,8 +94,7 @@
             {
                "sale_date":"1992-01-01",
                "price":"82500",
-               "venue":"Sotheby's",
-               "$$hashKey":"00P"
+               "venue":"Sotheby's"
             }
          ],
          "uid":5
@@ -115,8 +111,7 @@
             {
                "venue":"Unknown",
                "sale_date":"2006-01-01",
-               "price":"250000",
-               "$$hashKey":"00T"
+               "price":"250000"
             }
          ],
          "uid":6
@@ -134,8 +129,7 @@
                "price":"2161000",
                "link":"http://www.comicconnect.com/bookDetail.php?id=432101",
                "sale_date":"2011-11-30",
-               "venue":"Comic Connect",
-               "$$hashKey":"00X"
+               "venue":"Comic Connect"
             }
          ],
          "uid":7
@@ -154,14 +148,12 @@
                "venue":"Unknown",
                "sellers_notes":"as 5.5",
                "sale_date":"1900-01-01",
-               "price":"120750",
-               "$$hashKey":"010"
+               "price":"120750"
             },
             {
                "sale_date":"2011-06-01",
                "price":"625000",
-               "venue":"Comiclink",
-               "$$hashKey":"012"
+               "venue":"Comiclink"
             }
          ],
          "uid":8
@@ -177,8 +169,7 @@
             {
                "sale_date":"2010-03-13",
                "price":"317200",
-               "venue":"Comic Connect",
-               "$$hashKey":"011"
+               "venue":"Comic Connect"
             }
          ],
          "uid":9
@@ -206,8 +197,7 @@
             {
                "sale_date":"2010-09-21",
                "price":"436000",
-               "venue":"Comic Connect",
-               "$$hashKey":"01A"
+               "venue":"Comic Connect"
             }
          ],
          "uid":11
@@ -235,14 +225,12 @@
             {
                "venue":"Unknown",
                "sale_date":"1900-01-01",
-               "price":"86250",
-               "$$hashKey":"01B"
+               "price":"86250"
             },
             {
                "sale_date":"2011-08-09",
                "price":"345000",
-               "venue":"Comic Connect",
-               "$$hashKey":"01D"
+               "venue":"Comic Connect"
             }
          ],
          "uid":13
@@ -281,8 +269,7 @@
             {
                "sale_date":"2010-04-01",
                "price":"300000",
-               "venue":"Comic Connect",
-               "$$hashKey":"01J"
+               "venue":"Comic Connect"
             }
          ],
          "uid":16
@@ -322,8 +309,7 @@
             {
                "sale_date":"2009-06-19",
                "price":"121000",
-               "venue":"Comic Connect",
-               "$$hashKey":"01Q"
+               "venue":"Comic Connect"
             }
          ],
          "uid":19
@@ -352,8 +338,7 @@
             {
                "sale_date":"2008-05-01",
                "price":"116512",
-               "venue":"Heritage",
-               "$$hashKey":"01V"
+               "venue":"Heritage"
             }
          ],
          "uid":21
@@ -391,8 +376,7 @@
             {
                "sale_date":"2008-02-01",
                "price":"143400",
-               "venue":"Heritage",
-               "$$hashKey":"023"
+               "venue":"Heritage"
             }
          ],
          "uid":24
@@ -419,8 +403,7 @@
             {
                "sale_date":"2011-08-09",
                "price":"258000",
-               "venue":"Comic Connect",
-               "$$hashKey":"027"
+               "venue":"Comic Connect"
             }
          ],
          "uid":26
@@ -436,8 +419,7 @@
             {
                "sale_date":"2011-08-09",
                "price":"185000",
-               "venue":"Comic Connect",
-               "$$hashKey":"02C"
+               "venue":"Comic Connect"
             }
          ],
          "uid":27
@@ -453,8 +435,7 @@
             {
                "venue":"Unknown",
                "sale_date":"1984-01-01",
-               "price":"9000",
-               "$$hashKey":"02H"
+               "price":"9000"
             }
          ],
          "uid":28
@@ -473,8 +454,7 @@
                "venue":"Unknown",
                "sellers_notes":"OS26 listing",
                "sale_date":"1996-01-01",
-               "price":"60000",
-               "$$hashKey":"02K"
+               "price":"60000"
             }
          ],
          "uid":29
@@ -491,8 +471,7 @@
             {
                "venue":"Unknown",
                "sale_date":"1901-01-01",
-               "price":"126500",
-               "$$hashKey":"04W"
+               "price":"126500"
             }
          ],
          "uid":30
@@ -508,8 +487,7 @@
             {
                "venue":"Unknown",
                "sale_date":"1995-01-01",
-               "price":"70000",
-               "$$hashKey":"02R"
+               "price":"70000"
             }
          ],
          "uid":31
@@ -526,8 +504,7 @@
                "link":"http://www.hakes.com/item.asp?Auction=188&ItemNo=44415",
                "sale_date":"2006-06-29",
                "price":"95200",
-               "venue":"Hakes",
-               "$$hashKey":"02X"
+               "venue":"Hakes"
             }
          ],
          "uid":32
@@ -544,8 +521,7 @@
                "sale_date":"2011-03-09",
                "price":"1100000",
                "venue":"Comic Connect",
-               "link":"http://www.comicconnect.com/load_page.php?page=amazing_fantasy_15",
-               "$$hashKey":"032"
+               "link":"http://www.comicconnect.com/load_page.php?page=amazing_fantasy_15"
             }
          ],
          "uid":33
@@ -561,29 +537,25 @@
             {
                "sale_date":"1993-01-01",
                "price":"39100",
-               "venue":"Sothebys",
-               "$$hashKey":"034"
+               "venue":"Sothebys"
             },
             {
                "link":"http://comics.ha.com/c/item.zx?saleNo=816&lotNo=5272",
                "price":"126500",
                "sale_date":"2005-05-20",
-               "venue":"Heritage",
-               "$$hashKey":"036"
+               "venue":"Heritage"
             },
             {
                "sale_date":"2004-08-01",
                "price":"150000",
                "venue":"Pedigree",
-               "link":"http://www.pedigreecomics.com/detail.php?issue_id=719",
-               "$$hashKey":"038"
+               "link":"http://www.pedigreecomics.com/detail.php?issue_id=719"
             },
             {
                "sale_date":"2007-10-16",
                "price":"227000",
                "link":"http://www.Comiclink.com/auctions/item.asp?back=%2FComicTrack%2FAdmin%2Fauc…%26SearchSeller%3D%26SearchHighBidder%3D%26Image1%2Ex%3D0%26Image1%2Ey%3D0",
-               "venue":"Comiclink",
-               "$$hashKey":"03A"
+               "venue":"Comiclink"
             }
          ],
          "uid":34
@@ -599,21 +571,18 @@
                "sale_date":"2003-05-07",
                "price":"86250",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=806&lotNo=5073",
-               "$$hashKey":"03A"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=806&lotNo=5073"
             },
             {
                "sale_date":"2005-01-01",
                "price":"145000",
-               "venue":"PGCMint",
-               "$$hashKey":"03C"
+               "venue":"PGCMint"
             },
             {
                "sale_date":"2007-01-01",
                "price":"210000",
                "venue":"Comiclink",
-               "link":"http://www.Comiclink.com/itemdetail.asp?id=706615&next=%2FComicTrack%2FAdmi…D%26TYPE%3D0%26FILTER%3D%26Payment%3D%26Verified%3D%26Shipped%3D%26SPBP%3D",
-               "$$hashKey":"03E"
+               "link":"http://www.Comiclink.com/itemdetail.asp?id=706615&next=%2FComicTrack%2FAdmi…D%26TYPE%3D0%26FILTER%3D%26Payment%3D%26Verified%3D%26Shipped%3D%26SPBP%3D"
             }
          ],
          "uid":35
@@ -629,14 +598,12 @@
             {
                "venue":"Unknown",
                "sale_date":"2001-01-01",
-               "price":"86000",
-               "$$hashKey":"03J"
+               "price":"86000"
             },
             {
                "sale_date":"2004-01-01",
                "price":"122000",
-               "venue":"Comiclink",
-               "$$hashKey":"03L"
+               "venue":"Comiclink"
             }
          ],
          "uid":36
@@ -696,8 +663,7 @@
             {
                "sale_date":"2009-02-15",
                "price":"190000",
-               "venue":"Pedigree",
-               "$$hashKey":"03S"
+               "venue":"Pedigree"
             }
          ],
          "uid":41
@@ -724,8 +690,7 @@
             {
                "sale_date":"2008-01-01",
                "price":"139000",
-               "venue":"Comiclink",
-               "$$hashKey":"03X"
+               "venue":"Comiclink"
             }
          ],
          "uid":43
@@ -740,8 +705,7 @@
             {
                "sale_date":"2008-01-01",
                "price":"118977",
-               "venue":"Comiclink",
-               "$$hashKey":"040"
+               "venue":"Comiclink"
             }
          ],
          "uid":44
@@ -757,8 +721,7 @@
                "sale_date":"2009-11-01",
                "price":"104562.50",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=7013&lotNo=92111",
-               "$$hashKey":"07K"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7013&lotNo=92111"
             }
          ],
          "uid":45
@@ -773,8 +736,7 @@
             {
                "sale_date":"2009-03-20",
                "price":"122000",
-               "venue":"Comiclink",
-               "$$hashKey":"04D"
+               "venue":"Comiclink"
             }
          ],
          "uid":46
@@ -801,15 +763,13 @@
                "venue":"Heritage",
                "sale_date":"2003-03-07",
                "price":"92000",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=806&lotNo=5074",
-               "$$hashKey":"08A"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=806&lotNo=5074"
             },
             {
                "sale_date":"2005-08-11",
                "price":"97750",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=817&lotNo=1005",
-               "$$hashKey":"08C"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=817&lotNo=1005"
             }
          ],
          "uid":48
@@ -825,20 +785,17 @@
             {
                "venue":"Unknown",
                "sale_date":"2001-01-01",
-               "price":"67305",
-               "$$hashKey":"0G8"
+               "price":"67305"
             },
             {
                "sale_date":"1900-01-01",
                "price":"100000",
-               "venue":"Comiclink",
-               "$$hashKey":"0G6"
+               "venue":"Comiclink"
             },
             {
                "sale_date":"2009-04-21",
                "price":"130000",
-               "venue":"Comiclink",
-               "$$hashKey":"0GA"
+               "venue":"Comiclink"
             }
          ],
          "uid":50
@@ -852,8 +809,7 @@
             {
                "sale_date":"2009-03-13",
                "price":"104200",
-               "venue":"Comiclink",
-               "$$hashKey":"0KH"
+               "venue":"Comiclink"
             }
          ],
          "uid":51
@@ -868,8 +824,7 @@
             {
                "sale_date":"2009-11-17",
                "price":"97000",
-               "venue":"Comiclink",
-               "$$hashKey":"0OP"
+               "venue":"Comiclink"
             }
          ],
          "uid":52
@@ -886,8 +841,7 @@
             {
                "venue":"Unknown",
                "sale_date":"1997-01-01",
-               "price":"53",
-               "$$hashKey":"052"
+               "price":"53"
             }
          ],
          "uid":53
@@ -903,8 +857,7 @@
                "sale_date":"2011-02-24",
                "price":"167300",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=7030&lotNo=91252",
-               "$$hashKey":"09G"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7030&lotNo=91252"
             }
          ],
          "uid":54
@@ -921,8 +874,7 @@
                "sale_date":"2012-07-28",
                "price":"274850",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/prlink.zx?saleNo=7063&lotNo=91001",
-               "$$hashKey":"09G"
+               "link":"http://comics.ha.com/c/prlink.zx?saleNo=7063&lotNo=91001"
             }
         
 
@@ -962,8 +914,7 @@
             {
                "sale_date":"2011-02-01",
                "price":"100000",
-               "venue":"Comiclink",
-               "$$hashKey":"0W8"
+               "venue":"Comiclink"
             }
          ],
          "uid":58
@@ -979,8 +930,7 @@
                "sale_date":"2013-08-01",
                "price":"567625.00",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91013",
-               "$$hashKey":"1FJ"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91013"
             }
          ],
          "uid":58
@@ -995,8 +945,7 @@
             {
                "sale_date":"2007-10-01",
                "price":"280000",
-               "venue":"Comiclink",
-               "$$hashKey":"05N"
+               "venue":"Comiclink"
             }
          ],
          "uid":60
@@ -1013,14 +962,12 @@
                "sale_date":"2013-08-03",
                "price":"388375",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91001",
-               "$$hashKey":"0EH"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91001"
             },{
                "sale_date":"2012-02-24",
                "price":"298750",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/prlink.zx?saleNo=7054&lotNo=91001",
-               "$$hashKey":"0EH"
+               "link":"http://comics.ha.com/c/prlink.zx?saleNo=7054&lotNo=91001"
             }
          ],
          "uid":62
@@ -1037,8 +984,7 @@
                "sale_date":"2013-08-01",
                "price":"203150",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91004",
-               "$$hashKey":"052"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91004"
             }
          ],
          "uid":63
@@ -1064,8 +1010,7 @@
             {
                "sale_date":"2002-06-22",
                "price":"111328",
-               "venue":"JP The Mint",
-               "$$hashKey":"0G8"
+               "venue":"JP The Mint"
             }
          ],
          "uid":65
@@ -1081,8 +1026,7 @@
             {
                "sale_date":"2010-01-01",
                "price":"210000",
-               "venue":"Pedigree",
-               "$$hashKey":"0LI"
+               "venue":"Pedigree"
             }
          ],
          "uid":66
@@ -1109,21 +1053,18 @@
             {
                "sale_date":"1993-01-01",
                "price":"27000",
-               "venue":"Sotheby's",
-               "$$hashKey":"11O"
+               "venue":"Sotheby's"
             },
             {
                "sale_date":"2007-01-01",
                "price":"100000",
-               "venue":"Metropolis",
-               "$$hashKey":"11Q"
+               "venue":"Metropolis"
             },
             {
                "sale_date":"2013-08-01",
                "price":"191200",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91141",
-               "$$hashKey":"11S"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91141"
             }
          ],
          "uid":69
@@ -1138,20 +1079,17 @@
          "sales":[
             {
                "sale_date":"2004-01-01",
-               "price":"350,000",
-               "$$hashKey":"17F"
+               "price":"350,000"
             },
             {
                "sale_date":"2007-01-01",
                "price":"273,125",
-               "venue":"Heritage",
-               "$$hashKey":"17H"
+               "venue":"Heritage"
             },
             {
                "sale_date":"2010-03-01",
                "price":"450000",
-               "venue":"Heritage",
-               "$$hashKey":"17J"
+               "venue":"Heritage"
             }
          ],
          "uid":70
@@ -1187,8 +1125,7 @@
          "sales":[
             {
                "sale_date":"1984-01-01",
-               "price":"12000",
-               "$$hashKey":"0CB"
+               "price":"12000"
             }
          ],
          "uid":73
@@ -1203,8 +1140,7 @@
          "sales":[
             {
                "sale_date":"2001-01-01",
-               "price":"70000",
-               "$$hashKey":"0I9"
+               "price":"70000"
             }
          ],
          "uid":74
@@ -1220,8 +1156,7 @@
             {
                "venue":"Unknown",
                "sale_date":"2001-01-01",
-               "price":"150000",
-               "$$hashKey":"0O9"
+               "price":"150000"
             }
          ],
          "uid":75
@@ -1249,8 +1184,7 @@
             {
                "sale_date":"2001-11-01",
                "price":"107000",
-               "venue":"Heritage",
-               "$$hashKey":"10M"
+               "venue":"Heritage"
             }
          ],
          "uid":77
@@ -1266,8 +1200,7 @@
          	   "sale_date":"2012-02-24",
                "price":"247850",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/prlink.zx?saleNo=7054&lotNo=91047",
-               "$$hashKey":"2G0"
+               "link":"http://comics.ha.com/c/prlink.zx?saleNo=7054&lotNo=91047"
          }
             
 
@@ -1284,8 +1217,7 @@
             {
                "sale_date":"2009-11-17",
                "price":"100000",
-               "venue":"Comiclink",
-               "$$hashKey":"1D4"
+               "venue":"Comiclink"
             }
          ],
          "uid":79
@@ -1345,8 +1277,7 @@
                "sale_date":"2009-05-29",
                "price":"98587",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/common/view_item.php?Sale_No=7007&Lot_No=91002&src=pr",
-               "$$hashKey":"2G0"
+               "link":"http://comics.ha.com/common/view_item.php?Sale_No=7007&Lot_No=91002&src=pr"
             }
          ],
          "uid":85
@@ -1362,8 +1293,7 @@
                "sale_date":"2008-06-01",
                "price":"100000",
                "venue":"Metropolis",
-               "link":"http://scoop.diamondgalleries.com/public/default.asp?t=1&m=1&c=34&s=262&ai=71029",
-               "$$hashKey":"2MQ"
+               "link":"http://scoop.diamondgalleries.com/public/default.asp?t=1&m=1&c=34&s=262&ai=71029"
             }
          ],
          "uid":86
@@ -1390,14 +1320,12 @@
             {
                "sale_date":"2006-01-19",
                "price":"96,686.25",
-               "venue":"Heritage",
-               "$$hashKey":"30G"
+               "venue":"Heritage"
             },
             {
                "sale_date":"2008-01-01",
                "price":"150000",
-               "venue":"Comiclink",
-               "$$hashKey":"30I"
+               "venue":"Comiclink"
             }
          ],
          "uid":88
@@ -1414,21 +1342,18 @@
                "venue":"Unknown",
                "sale_date":"2001-01-01",
                "sellers_notes":"os32",
-               "price":"95000",
-               "$$hashKey":"37L"
+               "price":"95000"
             },
             {
                "venue":"Unknown",
                "sale_date":"1994-01-01",
                "price":"36800",
-               "sellers_notes":"os25",
-               "$$hashKey":"37J"
+               "sellers_notes":"os25"
             },
             {
                "venue":"Unknown",
                "sale_date":"2005-10-14",
-               "price":"63250",
-               "$$hashKey":"37N"
+               "price":"63250"
             }
          ],
          "uid":89
@@ -1443,8 +1368,7 @@
             {
                "sale_date":"2011-08-09",
                "price":"343057",
-               "venue":"Comic Connect",
-               "$$hashKey":"3EN"
+               "venue":"Comic Connect"
             }
          ],
          "uid":90
@@ -1461,15 +1385,13 @@
                "venue":"Unknown",
                "sale_date":"2001-01-01",
                "price":"166750",
-               "sellers_notes":"os32",
-               "$$hashKey":"3LW"
+               "sellers_notes":"os32"
             },
             {
                "venue":"Unknown",
                "sellers_notes":"os25",
                "sale_date":"1994-01-01",
-               "price":"82500",
-               "$$hashKey":"3LU"
+               "price":"82500"
             }
          ],
          "uid":91
@@ -1485,14 +1407,12 @@
             {
                "venue":"Unknown",
                "sale_date":"2001-01-01",
-               "price":"260000",
-               "$$hashKey":"3T9"
+               "price":"260000"
             },
             {
                "venue":"Unknown",
                "sale_date":"1994-01-01",
-               "price":"82500",
-               "$$hashKey":"3T7"
+               "price":"82500"
             }
          ],
          "uid":92
@@ -1507,8 +1427,7 @@
             {
                "sale_date":"2009-05-22",
                "price":"95600",
-               "venue":"Heritage",
-               "$$hashKey":"089"
+               "venue":"Heritage"
             }
          ],
          "uid":93
@@ -1523,8 +1442,7 @@
                "venue":"Unknown",
                "sale_date":"1995-01-01",
                "price":"90000",
-               "sellers_notes":"os26",
-               "$$hashKey":"0FW"
+               "sellers_notes":"os26"
             }
          ],
          "uid":94
@@ -1554,8 +1472,7 @@
                "venue":"Unknown",
                "sale_date":"1990-01-01",
                "sellers_notes":"os21",
-               "price":"80000",
-               "$$hashKey":"0V4"
+               "price":"80000"
             }
          ],
          "uid":96
@@ -1572,15 +1489,13 @@
                "venue":"Unknown",
                "sale_date":"1994-01-01",
                "sellers_notes":"os25",
-               "price":"125000",
-               "$$hashKey":"12X"
+               "price":"125000"
             },
             {
                "venue":"Unknown",
                "sellers_notes":"os22",
                "sale_date":"1991-01-01",
-               "price":"72000",
-               "$$hashKey":"12V"
+               "price":"72000"
             }
          ],
          "uid":97
@@ -1596,8 +1511,7 @@
             {
                "sale_date":"2001-01-01",
                "price":"278190",
-               "venue":"Mastronet",
-               "$$hashKey":"1AS"
+               "venue":"Mastronet"
             }
          ],
          "uid":98
@@ -1613,8 +1527,7 @@
                "sale_date":"2010-02-25",
                "price":"1075000",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/common/view_item.php?Sale_No=7017&Lot_No=91126&ic=rightcolumn-detective27-121009",
-               "$$hashKey":"1IP"
+               "link":"http://comics.ha.com/common/view_item.php?Sale_No=7017&Lot_No=91126&ic=rightcolumn-detective27-121009"
             }
          ],
          "uid":99
@@ -1631,8 +1544,7 @@
                "venue":"Unknown",
                "sellers_notes":"os33",
                "sale_date":"2002-01-01",
-               "price":"100000",
-               "$$hashKey":"08Z"
+               "price":"100000"
             }
          ],
          "uid":100
@@ -1647,15 +1559,13 @@
                "venue":"Unknown",
                "sellers_notes":"OS24",
                "sale_date":"1993-01-01",
-               "price":"81000",
-               "$$hashKey":"0OQ"
+               "price":"81000"
             },
             {
                "venue":"Unknown",
                "sellers_notes":"OS24",
                "sale_date":"1993-01-02",
-               "price":"101000",
-               "$$hashKey":"0OS"
+               "price":"101000"
             }
          ],
          "uid":101
@@ -1671,8 +1581,7 @@
                "sale_date":"2010-08-04",
                "price":"657250",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/common/view_item.php?Sale_No=7023&Lot_No=91055",
-               "$$hashKey":"0X4"
+               "link":"http://comics.ha.com/common/view_item.php?Sale_No=7023&Lot_No=91055"
             }
          ],
          "uid":102
@@ -1700,7 +1609,6 @@
                "sale_date":"2013-02-23",
                "price":"567625",
                "venue":"Heritage",
-               "$$hashKey":"1M4",
                "link":"http://comics.ha.com/c/prlink.zx?saleNo=7073&lotNo=91048"
             }
 
@@ -1717,14 +1625,12 @@
             {
                "sale_date":"2007-01-01",
                "price":"158000",
-               "venue":"Metropolis",
-               "$$hashKey":"1M4"
+               "venue":"Metropolis"
             },
             {
                "sale_date":"2010-04-01",
                "price":"575000",
-               "venue":"Metropolis",
-               "$$hashKey":"1M6"
+               "venue":"Metropolis"
             }
          ],
          "uid":105
@@ -1752,8 +1658,7 @@
             {
                "venue":"Unknown",
                "sale_date":"1900-01-01",
-               "price":"115000",
-               "$$hashKey":"0I1"
+               "price":"115000"
             }
          ],
          "uid":107
@@ -1780,8 +1685,7 @@
                "sale_date":"2012-08-14",
                "price":"287000",
                "venue":"Comic Connect",
-               "link":"http://www.comicconnect.com/bookDetail.php?id=350383",
-               "$$hashKey":"0ZD"
+               "link":"http://www.comicconnect.com/bookDetail.php?id=350383"
             }
          ],
          "uid":109
@@ -1875,8 +1779,7 @@
                "venue":"Unknown",
                "sale_date":"1998-01-01",
                "price":"57000",
-               "sellers_notes":"OS29",
-               "$$hashKey":"386"
+               "sellers_notes":"OS29"
             }
          ],
          "uid":118
@@ -1891,8 +1794,7 @@
             {
                "sale_date":"2011-08-09",
                "price":"194000",
-               "venue":"Comic Connect",
-               "$$hashKey":"3HI"
+               "venue":"Comic Connect"
             }
          ],
          "uid":119
@@ -1919,22 +1821,19 @@
                "sale_date":"2009-05-21",
                "price":"107550",
                "link":"http://comics.ha.com/c/item.zx?saleNo=7007&lotNo=91137",
-               "venue":"Heritage",
-               "$$hashKey":"40G"
+               "venue":"Heritage"
             },
             {
                "sale_date":"2005-05-19",
                "price":"126500",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=816&lotNo=3590",
-               "$$hashKey":"40E"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=816&lotNo=3590"
             },
             {
                "sale_date":"2002-10-10",
                "price":"120750",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=804&lotNo=5134",
-               "$$hashKey":"40C"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=804&lotNo=5134"
             }
          ],
          "uid":121
@@ -1973,8 +1872,7 @@
                "venue":"Unknown",
                "sellers_notes":"OS21",
                "sale_date":"1990-01-01",
-               "price":"25000",
-               "$$hashKey":"4TL"
+               "price":"25000"
             }
          ],
          "uid":124
@@ -2003,8 +1901,7 @@
                "link":"http://www.comiclink.com/itemdetail.asp?id=741566&next=/ComicTrack/Admin/CL/matches.asp?_SORT=YES&TITLE=INCREDIBLE+HULK&ISSUENUMBER=1&SELLER=&ORDERNUMBER=&PEDIGREE=&SELLERCOMMENT=&BUYER=&Payment=&CGCCOMMENT=&TYPE=0&Shipped=&SPBP=&FILTER=&Verified=&SPBP2=&SearchConditionFrom=&SearchConditionTo=&f1=i.Condition&ODire1=DESC&f2=i.Title&ODire2=ASC&f3=i.IssueNumber%2C+i.VolumeNumber&ODire3=ASC",
                "sale_date":"1900-01-01",
                "price":"117500",
-               "venue":"Comiclink",
-               "$$hashKey":"5N4"
+               "venue":"Comiclink"
             }
          ],
          "uid":127
@@ -2020,8 +1917,7 @@
                "sale_date":"2009-11-19",
                "price":"125475",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=7013&lotNo=92198",
-               "$$hashKey":"5X4"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7013&lotNo=92198"
             }
          ],
          "uid":128
@@ -2047,8 +1943,7 @@
             {
                "sale_date":"2011-02-01",
                "price":"150000",
-               "venue":"Comiclink",
-               "$$hashKey":"6HA"
+               "venue":"Comiclink"
             }
          ],
          "uid":130
@@ -2076,8 +1971,7 @@
          "sales":[
             {
                "sale_date":"2009-05-21",
-               "price":"50788",
-               "$$hashKey":"0HK"
+               "price":"50788"
             }
          ],
          "uid":132
@@ -2107,15 +2001,13 @@
                "sale_date":"2009-02-26",
                "price":"155350",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=7002&lotNo=91156",
-               "$$hashKey":"7MG"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7002&lotNo=91156"
             },
             {
                "sale_date":"2005-08-13",
                "price":"172500",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=817&lotNo=5273",
-               "$$hashKey":"7ME"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=817&lotNo=5273"
             }
          ],
          "uid":134
@@ -2141,35 +2033,30 @@
             {
                "venue":"Private Sale",
                "sale_date":"1993-01-01",
-               "price":"40000",
-               "$$hashKey":"87E"
+               "price":"40000"
             },
             {
                "venue":"Private Sale",
                "sale_date":"2003-01-01",
-               "price":"350000",
-               "$$hashKey":"87E"
+               "price":"350000"
             },
             {
                "sale_date":"2010-02-25",
                "price":"227050",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=7017&lotNo=91243",
-               "$$hashKey":"87K"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7017&lotNo=91243"
             },
             {
                "sale_date":"2007-08-03",
                "price":"204999.99",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=825&lotNo=42219",
-               "$$hashKey":"87I"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=825&lotNo=42219"
             },
             {
                "sale_date":"2006-01-19",
                "price":"201250",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=819&lotNo=2403",
-               "$$hashKey":"87G"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=819&lotNo=2403"
             }
          ],
          "uid":136
@@ -2187,15 +2074,13 @@
                "sellers_notes":"as a CGC 8.5",
                "price":"126500",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=806&lotNo=3194",
-               "$$hashKey":"8I6"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=806&lotNo=3194"
             },
             {
                "sale_date":"2005-10-14",
                "price":"161000",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=806&lotNo=3194",
-               "$$hashKey":"8I8"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=806&lotNo=3194"
             }
          ],
          "uid":137
@@ -2212,36 +2097,31 @@
                "venue":"Unknown",
                "sale_date":"1998-01-01",
                "price":"48000",
-               "sellers_notes":"os29",
-               "$$hashKey":"0N2"
+               "sellers_notes":"os29"
             },
             {
                "sellers_notes":"os28",
                "sale_date":"1997-01-01",
                "price":"41400",
-               "venue":"Sotheby's",
-               "$$hashKey":"0N0"
+               "venue":"Sotheby's"
             },
             {
                "sale_date":"2006-11-17",
                "price":"101575",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=822&lotNo=43160",
-               "$$hashKey":"0N4"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=822&lotNo=43160"
             },
             {
                "sale_date":"2007-11-15",
                "price":"89625",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=826&lotNo=41328",
-               "$$hashKey":"0N6"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=826&lotNo=41328"
             },
             {
                "sale_date":"2009-11-19",
                "price":"89625",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=7013&lotNo=91217",
-               "$$hashKey":"0N8"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7013&lotNo=91217"
             }
          ],
          "uid":139
@@ -2269,8 +2149,7 @@
                "sale_date":"2009-05-22",
                "price":"107550",
                "link":"http://comics.ha.com/common/view_item.php?Sale_No=7007&Lot_No=91044&src=pr",
-               "venue":"Heritage",
-               "$$hashKey":"19F"
+               "venue":"Heritage"
             }
          ],
          "uid":141
@@ -2296,8 +2175,7 @@
             {
                "venue":"Unknown",
                "sale_date":"2001-01-01",
-               "price":"207000",
-               "$$hashKey":"1VW"
+               "price":"207000"
             }
          ],
          "uid":143
@@ -2314,22 +2192,19 @@
                "venue":"Unknown",
                "sale_date":"1995-01-01",
                "price":"65000",
-               "sellers_notes":"\"nm\" in OS26",
-               "$$hashKey":"279"
+               "sellers_notes":"\"nm\" in OS26"
             },
             {
                "sale_date":"2006-08-10",
                "price":"119500",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=821&lotNo=42543",
-               "$$hashKey":"27B"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=821&lotNo=42543"
             },
             {
                "sale_date":"2010-02-25",
                "price":"89625",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=7017&lotNo=92022",
-               "$$hashKey":"27D"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7017&lotNo=92022"
             }
          ],
          "uid":144
@@ -2345,8 +2220,7 @@
                "sale_date":"1900-01-01",
                "price":"90000",
                "venue":"Comiclink",
-               "link":"http://www.comiclink.com/itemdetail.asp?back=/search_adv.asp?all=y&TITLE=&TITLEOPT=ALL&ISSUE=&Condition=&Pedigree=&PRICEF=500&PRICET=&DESCRIPTION=&DESCRIPTIONOPT=ALL&SearchRemarks=&SearchCGC=&EXCLUDE=&CATEGORIES=-1&WCATEGORIES=-1&SORT=NEW&_where_forsale=y&x=33&y=11&where_forsale=y&id=609125",
-               "$$hashKey":"2IV"
+               "link":"http://www.comiclink.com/itemdetail.asp?back=/search_adv.asp?all=y&TITLE=&TITLEOPT=ALL&ISSUE=&Condition=&Pedigree=&PRICEF=500&PRICET=&DESCRIPTION=&DESCRIPTIONOPT=ALL&SearchRemarks=&SearchCGC=&EXCLUDE=&CATEGORIES=-1&WCATEGORIES=-1&SORT=NEW&_where_forsale=y&x=33&y=11&where_forsale=y&id=609125"
             }
          ],
          "uid":145
@@ -2373,8 +2247,7 @@
                "sale_date":"2005-10-14",
                "price":"77625",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=818&lotNo=2163",
-               "$$hashKey":"361"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=818&lotNo=2163"
             }
          ],
          "uid":147
@@ -2391,15 +2264,13 @@
                "sale_date":"2005-08-12",
                "price":"92000",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=817&lotNo=4455",
-               "$$hashKey":"0D4"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=817&lotNo=4455"
             },
             {
                "sale_date":"2010-02-25",
                "price":"47800",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=7017&lotNo=92023",
-               "$$hashKey":"0D6"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7017&lotNo=92023"
             }
          ],
          "uid":148
@@ -2416,8 +2287,7 @@
                "venue":"Unknown",
                "sale_date":"1995-01-01",
                "sellers_notes":"os26",
-               "price":"66000",
-               "$$hashKey":"0OX"
+               "price":"66000"
             }
          ],
          "uid":149
@@ -2434,8 +2304,7 @@
                "venue":"Unknown",
                "sale_date":"1997-01-01",
                "sellers_notes":"os28",
-               "price":"47000",
-               "$$hashKey":"0DC"
+               "price":"47000"
             }
          ],
          "uid":150
@@ -2450,14 +2319,12 @@
                "venue":"Unknown",
                "sale_date":"1996-01-01",
                "price":"90000",
-               "sellers_notes":"TRADE",
-               "$$hashKey":"0DI"
+               "sellers_notes":"TRADE"
             },
             {
                "venue":"Unknown",
                "sale_date":"1995-01-01",
-               "price":"60000",
-               "$$hashKey":"0DG"
+               "price":"60000"
             }
          ],
          "uid":151
@@ -2472,14 +2339,12 @@
             {
                "venue":"Unknown",
                "sale_date":"2001-01-01",
-               "price":"100000",
-               "$$hashKey":"0PM"
+               "price":"100000"
             },
             {
                "sale_date":"2010-02-25",
                "price":"63250",
-               "venue":"Heritage",
-               "$$hashKey":"0PO"
+               "venue":"Heritage"
             }
          ],
          "uid":152
@@ -2495,8 +2360,7 @@
                "sale_date":"2009-05-22",
                "price":"179250",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/common/view_item.php?Sale_No=7007&Lot_No=91261&src=pr",
-               "$$hashKey":"11X"
+               "link":"http://comics.ha.com/common/view_item.php?Sale_No=7007&Lot_No=91261&src=pr"
             }
          ],
          "uid":153
@@ -2512,8 +2376,7 @@
                "sale_date":"2008-09-29",
                "price":"160200",
                "link":"",
-               "venue":"Comic Connect",
-               "$$hashKey":"1E8"
+               "venue":"Comic Connect"
             }
          ],
          "uid":154
@@ -2528,8 +2391,7 @@
             {
                "sale_date":"2011-05-13",
                "price":"100000",
-               "venue":"Esquire Comics/Comic Connect",
-               "$$hashKey":"1QM"
+               "venue":"Esquire Comics/Comic Connect"
             }
          ],
          "uid":155
@@ -2556,8 +2418,7 @@
                "venue":"Unknown",
                "sellers_notes":"os27",
                "sale_date":"1996-01-01",
-               "price":"170000",
-               "$$hashKey":"2FL"
+               "price":"170000"
             }
          ],
          "uid":157
@@ -2572,8 +2433,7 @@
             {
                "venue":"Unknown",
                "sale_date":"1900-01-01",
-               "price":"250000",
-               "$$hashKey":"2S7"
+               "price":"250000"
             }
          ],
          "uid":158
@@ -2589,8 +2449,7 @@
                "venue":"Unknown",
                "sellers_notes":"Confirmed private sale",
                "sale_date":"1900-01-01",
-               "price":"125000",
-               "$$hashKey":"0E8"
+               "price":"125000"
             }
          ],
          "uid":159
@@ -2606,14 +2465,12 @@
             {
                "sale_date":"2008-08-28",
                "price":"121000",
-               "venue":"Comiclink",
-               "$$hashKey":"0R1"
+               "venue":"Comiclink"
             },
             {
                "venue":"Unknown",
                "sale_date":"2010-01-01",
-               "price":"135000",
-               "$$hashKey":"0R3"
+               "price":"135000"
             }
          ],
          "uid":160
@@ -2628,8 +2485,7 @@
             {
                "sale_date":"2008-11-12",
                "price":"116512",
-               "venue":"Heritage",
-               "$$hashKey":"140"
+               "venue":"Heritage"
             },
             {
                "$$hashKey":"142"
@@ -2650,8 +2506,7 @@
                "venue":"Unknown",
                "sellers_notes":"OS26",
                "sale_date":"1995-01-01",
-               "price":"176000",
-               "$$hashKey":"1H3"
+               "price":"176000"
             }
          ],
          "uid":162
@@ -2678,15 +2533,13 @@
          "sales":[
             {
                "venue":"Unknown",
-               "sellers_notes":"Sold for $110,000 as a CGC 9.6",
-               "$$hashKey":"27H"
+               "sellers_notes":"Sold for $110,000 as a CGC 9.6"
             },
             {
                "sale_date":"2012-07-26",
                "price":"492937.50",
                "venue":"Heritage",
-               "link":"http://comics.ha.com/c/item.zx?saleNo=7063&lotNo=91418",
-               "$$hashKey":"27F"
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7063&lotNo=91418"
             }
          ],
          "uid":164
@@ -2702,8 +2555,7 @@
             {
                "sale_date":"1900-01-01",
                "price":"100000",
-               "venue":"Pedigree",
-               "$$hashKey":"2KR"
+               "venue":"Pedigree"
             }
          ],
          "uid":165
@@ -2718,13 +2570,11 @@
             {
                "sale_date":"2011-04-01",
                "price":"200000",
-               "venue":"Comic Connect",
-               "$$hashKey":"2Y3"
+               "venue":"Comic Connect"
             },
             {
                "sale_date":"2013-07-01",
-               "price":"250000",
-               "$$hashKey":"2Y3"
+               "price":"250000"
             }
          ],
          "uid":166
@@ -2739,8 +2589,7 @@
             {
                "sellers_notes":"Mound City Auction",
                "sale_date":"2009-08-31",
-               "price":"116150",
-               "$$hashKey":"3BK"
+               "price":"116150"
             }
          ],
          "uid":167
@@ -2755,8 +2604,7 @@
             {
                "sale_date":"2010-02-18",
                "price":"101002",
-               "venue":"Comiclink",
-               "$$hashKey":"3P2"
+               "venue":"Comiclink"
             }
          ],
          "uid":168
@@ -2771,8 +2619,7 @@
             {
                "sale_date":"2010-05-27",
                "price":"105521",
-               "venue":"Comiclink",
-               "$$hashKey":"0F1"
+               "venue":"Comiclink"
             }
          ],
          "uid":169
@@ -3028,8 +2875,7 @@
          "sales":[
             {
                "sale_date":"2013-01-01",
-               "price":"120000",
-               "$$hashKey":"0S0"
+               "price":"120000"
             }
          ],
          "uid":192
@@ -3111,7 +2957,6 @@
                "sale_date":"2011-11-19",
                "price":"492938",
                "venue":"Heritage",
-               "$$hashKey":"1M4",
                "link":"http://comics.ha.com/c/prlink.zx?saleNo=7027&lotNo=91063"
             }
 
@@ -3163,7 +3008,6 @@
                "sale_date":"2012-02-24",
                "price":"522813",
                "venue":"Heritage",
-               "$$hashKey":"1M4",
                "link":"http://comics.ha.com/c/prlink.zx?saleNo=7054&lotNo=91070"
             }
 
@@ -3225,8 +3069,7 @@
                "link":"http://comics.ha.com/c/item.zx?saleNo=7054&lotNo=91305",
                "price":"116512.50",
                "sale_date":"2012-02-22",
-               "venue":"Heritage",
-               "$$hashKey":"036"
+               "venue":"Heritage"
             }
 
          ],
@@ -3297,8 +3140,7 @@
          "sales":[
             {
                "sale_date":"2002-08-01",
-               "price":"51900",
-               "$$hashKey":"1BJ"
+               "price":"51900"
             }
          ],
          "uid":207
@@ -3312,8 +3154,7 @@
          "sales":[
             {
                "sale_date":"2011-11-09",
-               "price":"100000",
-               "$$hashKey":"1BJ"
+               "price":"100000"
             }
          ],
          "uid":208
@@ -3415,8 +3256,7 @@
          "sales":[
             {
                "sale_date":"2013-03-23",
-               "price":"171000",
-               "$$hashKey":"0X1"
+               "price":"171000"
             }
          ],
          "uid":217
@@ -3430,8 +3270,7 @@
          "sales":[
             {
                "sale_date":"2012-02-01",
-               "price":"222,200",
-               "$$hashKey":"1DG"
+               "price":"222,200"
             }
          ],
          "uid":218
@@ -3456,8 +3295,7 @@
          "sales":[
             {
                "sale_date":"2012-06-26",
-               "price":"83850",
-               "$$hashKey":"2AJ"
+               "price":"83850"
             }
          ],
          "uid":220
@@ -3471,8 +3309,7 @@
          "sales":[
             {
                "sale_date":"2011-10-22",
-               "price":"100000",
-               "$$hashKey":"2R7"
+               "price":"100000"
             }
          ],
          "uid":221
@@ -3543,8 +3380,7 @@
             {
                "sale_date":"2012-02-22",
                "price":"113525",
-               "venue":"Heritage",
-               "$$hashKey":"0YR"
+               "venue":"Heritage"
             }
          ],
          "uid":227
@@ -3558,8 +3394,7 @@
          "sales":[
             {
                "sale_date":"2012-08-29",
-               "price":"112007",
-               "$$hashKey":"1FU"
+               "price":"112007"
             }
          ],
          "uid":228
@@ -3573,8 +3408,7 @@
          "sales":[
             {
                "sale_date":"2012-12-10",
-               "price":"111000",
-               "$$hashKey":"0ID"
+               "price":"111000"
             }
          ],
          "uid":229
@@ -3599,8 +3433,7 @@
          "sales":[
             {
                "sale_date":"2011-12-06",
-               "price":"214000",
-               "$$hashKey":"1H9"
+               "price":"214000"
             }
          ],
          "uid":231
@@ -3613,8 +3446,7 @@
          "tags":"Superman,dc",
          "sales":[
             {
-               "sale_date":"2005-04-16",
-               "$$hashKey":"1YO"
+               "sale_date":"2005-04-16"
             }
          ],
          "uid":232
@@ -3689,8 +3521,7 @@
          "sales":[
             {
                "sale_date":"2012-12-12",
-               "price":"281001",
-               "$$hashKey":"5EF"
+               "price":"281001"
             }
          ],
          "uid":239
@@ -3704,8 +3535,7 @@
          "sales":[
             {
                "sale_date":"2011-12-06",
-               "price":"176007",
-               "$$hashKey":"5WD"
+               "price":"176007"
             }
          ],
          "uid":240
@@ -3730,8 +3560,7 @@
          "sales":[
             {
                "sale_date":"2013-08-01",
-               "price":"83650",
-               "$$hashKey":"11W"
+               "price":"83650"
             }
          ],
          "uid":242
@@ -3745,8 +3574,7 @@
          "sales":[
             {
                "sale_date":"2012-11-15",
-               "price":"89625",
-               "$$hashKey":"1K3"
+               "price":"89625"
             }
          ],
          "uid":243
@@ -3760,13 +3588,11 @@
          "sales":[
             {
                "sale_date":"2012-07-27",
-               "price":"89625",
-               "$$hashKey":"22F"
+               "price":"89625"
             },
             {
                "sale_date":"2011-10-01",
-               "price":"137500",
-               "$$hashKey":"22D"
+               "price":"137500"
             }
          ],
          "uid":244
@@ -3780,8 +3606,7 @@
          "sales":[
             {
                "sale_date":"2010-05-27",
-               "price":"105521",
-               "$$hashKey":"2KT"
+               "price":"105521"
             }
          ],
          "uid":245
@@ -3795,8 +3620,7 @@
          "sales":[
             {
                "sale_date":"2010-04-18",
-               "price":"100000",
-               "$$hashKey":"33A"
+               "price":"100000"
             }
          ],
          "uid":246
@@ -3810,8 +3634,7 @@
          "sales":[
             {
                "sale_date":"2009-11-01",
-               "price":"106050",
-               "$$hashKey":"3LU"
+               "price":"106050"
             }
          ],
          "uid":247
@@ -3860,8 +3683,7 @@
             {
                "sale_date":"2012-07-26",
                "price":"262900",
-               "venue":"Heritage",
-               "$$hashKey":"5O1"
+               "venue":"Heritage"
             }
          ],
          "uid":251
@@ -3875,8 +3697,7 @@
          "sales":[
             {
                "sale_date":"2013-08-01",
-               "price":"83650",
-               "$$hashKey":"66X"
+               "price":"83650"
             }
          ],
          "uid":252
@@ -3890,13 +3711,11 @@
          "sales":[
             {
                "sale_date":"2011-03-24",
-               "price":"147500",
-               "$$hashKey":"6PY"
+               "price":"147500"
             },
             {
                "sale_date":"2009-11-23",
-               "price":"114990",
-               "$$hashKey":"6PW"
+               "price":"114990"
             }
          ],
          "uid":253

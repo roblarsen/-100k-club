@@ -1,44 +1,41 @@
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
 
-div, fieldset { margin-left:10px;}
-legend {font-weight:bold;}
+.clearfix:after {
+    clear: both;
+}
 
-form { border:1px solid #666; padding:10px;margin-bottom:10px;}
-form div {
-margin:4px 10px;    
-}
-form fieldset div {
-    margin-left:20px;
-}
-div label {
-    display:inline-block;width:200px;
-}
+
 table.data {margin:10px 0; width:95%; background:#fff;}
-th {
+.data th {
     background: #aaa;
     height:40px;
     text-transform: uppercase;
     color: #000;
     border:1px solid #999;
 }
-th.sortable {
+.data th.sortable {
   padding-right:25px;
-  background:#aaa url(img/arrows.png) 100% 5px no-repeat;
+  background:#aaa url(img/arrows.png) 97% 15px no-repeat;
 }
-th.sortable.up {
+.data th.sortable.up {
 
-  background:#aaa url(img/arrows.png) 100% -95px no-repeat;
+  background:#aaa url(img/arrows.png) 97% -85px no-repeat;
 }
-th.sortable.down {
+.data th.sortable.down {
 
-  background:#aaa url(img/arrows.png) 100% -197px no-repeat;
+  background:#aaa url(img/arrows.png) 97% -187px no-repeat;
 }
-td { border:1px solid #ccc; padding:5px; border-collapse: collapse; }
+.data td { border:1px solid #ccc; padding:5px; border-collapse: collapse; }
 
-tr:nth-child(1n){
+.data tr:nth-child(1n){
     background:#fff;
 } 
 
-tr:nth-child(2n){
+.data tr:nth-child(2n){
     background:#eee;
 } 
 .sales tr:nth-child(1n){
@@ -94,4 +91,11 @@ tr:nth-child(2n){
     background:url(img/edit.png) no-repeat;
     border:0;
     text-indent:-9999px;
+}
+#filter-box {
+    margin-bottom: 20px;
+    height: 30px;
+}
+#filter-box label {
+    font-size: 14px;
 }

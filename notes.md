@@ -5,7 +5,7 @@ data notes:
 
 - ~~Vintage Comics X-men #1 CGC 9.6 OWW for $175,000 in 2011 to Metro. That book subsequently resold about a year or maybe less for $200,000.~~
 - ~~WM FF 1 just sold again on Heritage (although I`m too lazy to look it up).~~
-- ~~The 9.6 Showcase #4 was from the Newsboy collection.~~
+- The 9.6 Showcase #4 was from the Newsboy collection.
 - ~~I think you`re missing some recent public sales of TOS 39 and JIM 83 that were above $100K.~~
 - ~~I can`t disclose the exact price, but the 9.4 Brave and Bold sold in November 2009 for over $100K.~~
 - ~~2002. Geppi paid $40k for the MC #1 Pay Copy + a copy of MPFW in the 80s. I happened to notice awhile back that this happened far enough into the internet era that there's still live links. Here's a fun blast from the past... http://articles.baltimoresun.com/2002-01...ppi-human-torch~~
@@ -37,4 +37,5 @@ data notes:
 -  ~~http://www.comiclink.com/itemdetail.asp?back=%2FCGC%2Easp%3Ff1%3Di%2ELastUpdate%26ODire1%3DDESC&id=932964~~
 - The Carson City All Select 1 would undoubtedly grade 9.6 or 9.8, which could make it a $100k+ book if it ever sold.
 - Private sale: CLINK Action 1 6.5 previously sold for $575000 August 2010
+- I believe the MC#1 SP 9.4 you have noted was the Allentown 9.2? There are two 9.4 sp now. One is the Allentown.
 

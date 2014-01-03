@@ -63,7 +63,7 @@ angular.module('comicsApp.controllers', ['comicFilters']).
         for ( var i = 0; i <len; i++){
           delete items[i]["$$hashKey"];
         }
-        $http.post('data/index.php', JSON.stringify(items)).success(function(data){console.log("200");
+        $http.post('data/index.php', angular.toJson(items)).success(function(data){console.log("200");
         }); 
       } 
       $scope.addSale = function(sale) {

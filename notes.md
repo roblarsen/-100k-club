@@ -9,9 +9,9 @@ data notes:
 - ~~I think you`re missing some recent public sales of TOS 39 and JIM 83 that were above $100K.~~
 - ~~I can`t disclose the exact price, but the 9.4 Brave and Bold sold in November 2009 for over $100K.~~
 - ~~2002. Geppi paid $40k for the MC #1 Pay Copy + a copy of MPFW in the 80s. I happened to notice awhile back that this happened far enough into the internet era that there's still live links. Here's a fun blast from the past... http://articles.baltimoresun.com/2002-01...ppi-human-torch~~
--  The Diamond Run 9.4 got upgraded to a 9.6. http://comics.drunkenfist.com.s3.amazonaws.com/wp-content/uploads/2013/09/diamond-run-af15.jpg
+-  ~~The Diamond Run 9.4 got upgraded to a 9.6. http://comics.drunkenfist.com.s3.amazonaws.com/wp-content/uploads/2013/09/diamond-run-af15.jpg~~
 -  ~~zombie action 1 5.5~~
--  Hello, I don't see on your list the Action Comics #1- Court Copy, cgc 6.5 Mod(P), which sold on Heritage at 140K. The highest restored comic book sale in history and it carry's a historical significance and provenance. http://comics.ha.com/c/item.zx?saleNo=7027&lotNo=91001
+-  ~~Hello, I don't see on your list the Action Comics #1- Court Copy, cgc 6.5 Mod(P), which sold on Heritage at 140K. The highest restored comic book sale in history and it carry's a historical significance and provenance. http://comics.ha.com/c/item.zx?saleNo=7027&lotNo=91001~~
 -  ~~Superman 7.5 images http://comics.drunkenfist.com.s3.amazonaws.com/wp-content/uploads/2013/09/superman1cgc75-662x1024.jpg~~
 -  ~~Larson Marvel 1 http://comics.drunkenfist.com.s3.amazonaws.com/wp-content/uploads/2013/09/marvel1.jpg~~
 -  ~~Denver MArvel 1 http://comics.drunkenfist.com.s3.amazonaws.com/wp-content/uploads/2013/09/Marvel_1_Denver-647x1024.jpg~~
@@ -35,7 +35,7 @@ data notes:
 -  ~~http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91023~~
 -  ~~http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91206~~
 -  ~~http://www.comiclink.com/itemdetail.asp?back=%2FCGC%2Easp%3Ff1%3Di%2ELastUpdate%26ODire1%3DDESC&id=932964~~
-- The Carson City All Select 1 would undoubtedly grade 9.6 or 9.8, which could make it a $100k+ book if it ever sold.
+- ~~The Carson City All Select 1 would undoubtedly grade 9.6 or 9.8, which could make it a $100k+ book if it ever sold.~~
 - Private sale: CLINK Action 1 6.5 previously sold for $575000 August 2010
-- I believe the MC#1 SP 9.4 you have noted was the Allentown 9.2? There are two 9.4 sp now. One is the Allentown.
+- ~~I believe the MC#1 SP 9.4 you have noted was the Allentown 9.2? There are two 9.4 sp now. One is the Allentown.~~
 

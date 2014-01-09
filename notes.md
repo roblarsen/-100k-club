@@ -38,5 +38,5 @@ data notes:
 - ~~The Carson City All Select 1 would undoubtedly grade 9.6 or 9.8, which could make it a $100k+ book if it ever sold.~~
 - Private sale: CLINK Action 1 6.5 previously sold for $575000 August 2010
 - ~~I believe the MC#1 SP 9.4 you have noted was the Allentown 9.2? There are two 9.4 sp now. One is the Allentown.~~
-- PGX Action #1 9.0 (sp)
-
+- ~~PGX Action #1 9.0 (sp)~~ 
+- The Action 1 PGX 9.0(r) was purchased in 1980 for $6,000 from a mail auction (sealed bids) run by Collector's Showcase.

@@ -1,4 +1,4 @@
-A$100,000 Club
+$100,000 Club notes
 ==========
 
 data notes:

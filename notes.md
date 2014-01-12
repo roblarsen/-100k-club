@@ -43,4 +43,4 @@ data notes:
 - Surely the MH copy of Sub-Mariner #1 that Verzyl said is a 9.8 needs to be on the $100K+ list
 - http://www.comiclink.com/itemdetail.asp?back=%2Fsearch_adv.asp%3Fall%3Dy%26TITLE%3D%26TITLEOPT%3DALL%26ISSUE%3D%26Condition%3D%26Pedigree%3D%26PRICEF%3D500%26PRICET%3D%26DESCRIPTION%3D%26DESCRIPTIONOPT%3DALL%26SearchRemarks%3D%26SearchCGC%3D%26EXCLUDE%3D%26CATEGORIES%3D-1%26WCATEGORIES%3D-1%26SORT%3DNEW%26_where_forsale%3Dy%26x%3D33%26y%3D11%26where_forsale%3Dy&id=998698
 - http://www.metropoliscomics.com/load_bookDetails.php?id=419784&set=0
-- Action 1 CGC 5.0 sold for $427,111 Sep-30-2013 (Cr-OW) 3 books in that grade
+- Action 1 CGC 5.0 sold for $427,111 Sep-30-2013 (Cr-OW) 3 books in that grade comicconnect

@@ -15,18 +15,18 @@
   </div>
   <table class="data">
     <tr>
-      <!--data-ng-click="sorter('title')"-->
-      <th class="title">Title</th>
+      <!---->
+      <th class="title sortable" data-ng-class="{up:sort[0]=='title', down:sort[0]=='-title'}"data-ng-click="sorter('title')">Title</th>
       <th class="number">#</th>
-       <!--data-ng-click="sorter('pedigree')-->
-       <th class="ped">Pedigree</th>
+       <!--)-->
+      <th class="ped sortable" data-ng-class="{up:sort[0]=='pedigree', down:sort[0]=='-pedigree'}" data-ng-click="sorter('pedigree')">Pedigree</th>
       <th class="source">Grade Source</th>
-      <!--data-ng-click="sorter('grade')"-->
-      <th class="grade">Grade</th>
+      <!---->
+      <th class="grade sortable" data-ng-class="{up:sort[0]=='grade', down:sort[0]=='-grade'}" data-ng-click="sorter('grade')">Grade</th>
       <th class="commentary">General Commentary</th>
       <th class="sales">Sales</th>
     </tr>
-    <tr data-ng-repeat="it in items | filter:search | orderBy:['title','issue','-grade']">
+    <tr data-ng-repeat="it in items | filter:search | orderBy:sort">
       <td class="title">{{it.title}}</td>
       <td class="number">{{it.issue}}</td>
       <td class="ped">{{it.pedigree}}{{it.collection}}{{it.provenance}}</td>

@@ -29,6 +29,7 @@ angular.module('comicsApp.controllers', ['comicFilters']).
               }  
             }  
          }
+        $scope.sort = ['title','issue','-grade']; 
         $scope.titles = titles;
         $scope.publishers = publishers;
         $scope.pedigrees = pedigrees; 
@@ -40,7 +41,7 @@ angular.module('comicsApp.controllers', ['comicFilters']).
         item.sales = $scope.sales;
         item.uid = $scope.uid;
         $scope.uid++;
-        $scope.sort = ['title','issue','-grade'];
+
         $scope.items.push(item);
         $scope.item = {};
         $scope.sales = [];
@@ -62,7 +63,7 @@ angular.module('comicsApp.controllers', ['comicFilters']).
         for ( var i = 0; i <len; i++){
           delete items[i]["$$hashKey"];
         }
-        $http.post('data/index.php', JSON.stringify(items)).success(function(data){console.log("200");
+        $http.post('data/index.php', angular.toJson(items)).success(function(data){console.log("200");
         }); 
       } 
       $scope.addSale = function(sale) {
@@ -72,11 +73,56 @@ angular.module('comicsApp.controllers', ['comicFilters']).
         }
       }
       $scope.sorter = function(sort){
-      	if ($scope.sort === sort) {
-      		sort = "-"+sort;
+       
+       if ($scope.sort[0].indexOf(sort) >-1 && $scope.sort[0].charAt(0) === "-" ) {
+          
+            $scope.sort[0] = sort.slice(1);
+          
       	}
+        if ($scope.sort[0].indexOf(sort) >-1 && $scope.sort[0].indexOf("-") == -1 ) {
+          
+            $scope.sort[0] = "-"+sort;
+          
+        } else {
+          var tmp = [];
+          tmp[0] = sort;
+          for (var i=0; i < $scope.sort[0].length; i++ ) {
+            if ($scope.sort[i] !== sort) {
+              tmp.push($scope.sort[i]);
+            }
+          }
+          $scope.sort = tmp;
+        }
       	
-      	$scope.sort = sort;
+      	
       } 
   }
-])
+]).controller('recordCtrl', ["$scope", "$http",
+    function( $scope , $http)  {
+      $http({"method" : "GET", "url" : "data/books.json"}).success(
+        function(data){
+			var records = [];
+         	for (var i = 0, len = data.books.length; i < len; i++){
+				if (data.books[i].sales.length){
+					for (var j = 0, l = data.books[i].sales.length; j < l; j++){
+						if (parseFloat(data.books[i].sales[j].price) >= 100000){
+							records.push({
+								"title":data.books[i].title,
+								"issue": data.books[i].issue, 
+								"grade": data.books[i].grade,
+								"grade_src":data.books[i].grade_src,
+								"uid": data.books[i].uid,
+								"date":data.books[i].sales[j].sale_date,
+								"venue":data.books[i].sales[j].venue,
+								"price": parseFloat(data.books[i].sales[j].price),
+								"link":data.books[i].sales[j].link
+							})
+						}
+					}
+				}
+			}
+			$scope.items = records;
+			console.log($scope.items);
+		});
+	}
+]);

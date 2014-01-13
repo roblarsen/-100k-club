@@ -105,17 +105,19 @@ angular.module('comicsApp.controllers', ['comicFilters']).
          	for (var i = 0, len = data.books.length; i < len; i++){
 				if (data.books[i].sales.length){
 					for (var j = 0, l = data.books[i].sales.length; j < l; j++){
-					records.push({
-						"title":data.books[i].title,
-						"issue": data.books[i].issue, 
-						"grade": data.books[i].grade,
-						"grade_src":data.books[i].grade_src,
-						"uid": data.books[i].uid,
-						"date":data.books[i].sales[j].sale_date,
-						"venue":data.books[i].sales[j].venue,
-						"price": data.books[i].sales[j].price,
-						"link":data.books[i].sales[j].link
-					})
+						if (parseFloat(data.books[i].sales[j].price) >= 100000){
+							records.push({
+								"title":data.books[i].title,
+								"issue": data.books[i].issue, 
+								"grade": data.books[i].grade,
+								"grade_src":data.books[i].grade_src,
+								"uid": data.books[i].uid,
+								"date":data.books[i].sales[j].sale_date,
+								"venue":data.books[i].sales[j].venue,
+								"price": parseFloat(data.books[i].sales[j].price),
+								"link":data.books[i].sales[j].link
+							})
+						}
 					}
 				}
 			}

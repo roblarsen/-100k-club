@@ -16,3 +16,4 @@ data notes:
 - AF15 8.5 May-30-2010	$105,000	 	 
 - AF15 8.5 Nov-19-2009	$104,563	Cert# 0956962002	 
 - AF15 8.5 Oct-31-2008	$118,977	
+- The 1992 Sothebys 78 Action #1 is the 2 million Nic Cage copy

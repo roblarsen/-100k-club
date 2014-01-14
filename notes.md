@@ -17,3 +17,5 @@ data notes:
 - AF15 8.5 Nov-19-2009	$104,563	Cert# 0956962002	 
 - AF15 8.5 Oct-31-2008	$118,977	
 - The 1992 Sothebys 78 Action #1 is the 2 million Nic Cage copy
+- Both Billy Wright AA 16 sales 2013 $203,150 2012 $203,150	
+- Superman #1 8.0	 1, 7.5	 1, 6.0	 1, 5.5	 2, 5.0	 3, 4.5	 2, 4.0	 1, 3.5	 3, 3.0	 3

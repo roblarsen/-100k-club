@@ -85,16 +85,17 @@
       <div data-ng-controller="recordCtrl">
         <table class="data">
           <tr>
-            <th>Title</th>
-            <th>Issue#</th>
+            <th class="title sortable" data-ng-class="{up:sort=='title', down:sort=='-title'}"data-ng-click="sorter('title')">Title</th>
+            <th>Issue#</th> 
+            <th class="pedigree sortable" data-ng-class="{up:sort=='pedigee', down:sort=='-pedigree'}"data-ng-click="sorter('pedigree')">Pedigree</th>
             <th>Grade</th>
-            <th>Pedigree</th>
-            <th>ID</th>
-            <th>Date</th>
-            <th>Venue</th>
-            <th>Price</th>
+           
+           <th class="id sortable" data-ng-class="{up:sort=='id', down:sort=='-id'}"data-ng-click="sorter('id')">ID</th>
+          <th class="date sortable" data-ng-class="{up:sort=='date', down:sort=='-date'}"data-ng-click="sorter('date')">Date</th>
+            <th class="venue sortable" data-ng-class="{up:sort=='venue', down:sort=='-venue'}"data-ng-click="sorter('venue')">Venue</th>
+            <th class="price sortable" data-ng-class="{up:sort=='price', down:sort=='-price'}"data-ng-click="sorter('price')">Price</th>
           </tr>
-           <tr data-ng-repeat="it in items | orderBy:'-price'">
+           <tr data-ng-repeat="it in items | orderBy:sort">
            
       <td class="title">{{it.title}}</td>
       <td class="number">{{it.issue}}</td>

@@ -109,9 +109,12 @@ angular.module('comicsApp.controllers', ['comicFilters']).
 							records.push({
 								"title":data.books[i].title,
 								"issue": data.books[i].issue, 
+								"pedigree": data.books[i].pedigree,
+								"collection": data.books[i].collection,
+								"provenance": data.books[i].provenance,
 								"grade": data.books[i].grade,
 								"grade_src":data.books[i].grade_src,
-								"uid": data.books[i].uid,
+								"uid": parseInt(data.books[i].uid),
 								"date":data.books[i].sales[j].sale_date,
 								"venue":data.books[i].sales[j].venue,
 								"price": parseFloat(data.books[i].sales[j].price),
@@ -122,7 +125,26 @@ angular.module('comicsApp.controllers', ['comicFilters']).
 				}
 			}
 			$scope.items = records;
-			console.log($scope.items);
+			
 		});
+		$scope.sort = "-price";
+		$scope.sorter = function(sort){
+       
+       if ($scope.sort.indexOf(sort) >-1 && $scope.sort.charAt(0) === "-" ) {
+          
+            $scope.sort = sort.slice(1);
+          
+      	}
+        if ($scope.sort.indexOf(sort) >-1 && $scope.sort.indexOf("-") == -1 ) {
+          
+            $scope.sort = "-"+sort;
+          
+        } else {
+         $scope.sort = sort;
+        }
+      	
+      	
+      } 
 	}
+	
 ]);

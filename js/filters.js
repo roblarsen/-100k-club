@@ -19,6 +19,24 @@ angular.module('comicFilters', []).filter('srcFilter', function() {
         return input.replace(/-/g,"/");
       }
     };
+}).filter('xDate', function () {
+    "use strict";
+    return function (input) {
+        if (input !== undefined) {
+          var date = input.split("-");
+          var years = 20 - (2013 - date[0]);
+          var months = (years * 12) + parseInt(date[1]);
+          return 90 + months * 3.3333;
+          
+        }
+    };
+}).filter('yPrice', function () {
+    "use strict";
+    return function (input) {
+      if (input){
+        return 575 - (input/4699.248120300752);
+      }
+    };
 });
 
 /*!

@@ -1,4 +1,4 @@
-angular.module('comicsApp.controllers', ['comicFilters']).
+angular.module('comicsApp.controllers', ['comicFilters','comicsFactories']).
   controller('comicsCtrl', ["$scope", "$http",
     function( $scope , $http)  {
       $http({"method" : "GET", "url" : "data/books.json"}).success(
@@ -97,36 +97,9 @@ angular.module('comicsApp.controllers', ['comicFilters']).
       	
       } 
   }
-]).controller('recordCtrl', ["$scope", "$http",
-    function( $scope , $http)  {
-      $http({"method" : "GET", "url" : "data/books.json"}).success(
-        function(data){
-			var records = [];
-         	for (var i = 0, len = data.books.length; i < len; i++){
-				if (data.books[i].sales.length){
-					for (var j = 0, l = data.books[i].sales.length; j < l; j++){
-						if (parseFloat(data.books[i].sales[j].price) >= 100000){
-							records.push({
-								"title":data.books[i].title,
-								"issue": data.books[i].issue, 
-								"pedigree": data.books[i].pedigree,
-								"collection": data.books[i].collection,
-								"provenance": data.books[i].provenance,
-								"grade": data.books[i].grade,
-								"grade_src":data.books[i].grade_src,
-								"uid": parseInt(data.books[i].uid),
-								"date":data.books[i].sales[j].sale_date,
-								"venue":data.books[i].sales[j].venue,
-								"price": parseFloat(data.books[i].sales[j].price),
-								"link":data.books[i].sales[j].link
-							})
-						}
-					}
-				}
-			}
-			$scope.items = records;
-			
-		});
+]).controller('recordCtrl', ["$scope",'dataService',
+    function( $scope, dataService )  {
+		$scope.items = dataService;
 		$scope.sort = "-price";
 		$scope.sorter = function(sort){
        
@@ -147,4 +120,35 @@ angular.module('comicsApp.controllers', ['comicFilters']).
       } 
 	}
 	
+]).controller('chartCtrl', ["$scope",'dataService',
+    function( $scope, dataService )  {
+    $scope.items = dataService;
+    $scope.colorPicker= function( venue ){
+      console.log(venue)
+      switch (venue) {
+        case "Heritage":
+          return $scope.colors[0];
+        case  "Comic Connect":
+          return $scope.colors[1];
+        case "Comiclink":
+          return $scope.colors[2];
+        case  "Pedigree":
+          return $scope.colors[3];
+        case "Metropolis":
+          return $scope.colors[4];
+        case  "JP The Mint":
+          return $scope.colors[5];
+        case "Mastronet":
+          return $scope.colors[6];
+        case  "PGCMint":
+          return $scope.colors[7];
+        default:
+          return $scope.colors[8];
+       }
+     
+    }
+    $scope.colors = ["#ECD078","#D95B43","#C02942","#542437","#53777A","#69D2E7","#FA6900", "#FE4365","#666666"];
+    
+  }
+  
 ]);

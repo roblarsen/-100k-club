@@ -34,7 +34,7 @@ angular.module('comicFilters', []).filter('srcFilter', function() {
     "use strict";
     return function (input) {
       if (input){
-        return 575 - (input/4699.248120300752);
+        return 579 - (input/4699.248120300752);
       }
     };
 });

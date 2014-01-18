@@ -86,7 +86,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
    width="960px" height="600px" viewBox="0 0 960 600" enable-background="new 0 0 960 600" xml:space="preserve">
 
-<circle opacity="0.7" data-ng-attr-fill="{{colorPicker(it.venue)}}" data-ng-repeat="it in items" data-ng-attr-cx="{{it.date | xDate}}" data-ng-attr-cy="{{it.price | yPrice}}" r="7" title="{{it.date}} price: {{it.price}}" />
+
 
 <line fill="none" stroke="#000000" stroke-miterlimit="10" x1="90.828" y1="-8" x2="90.828" y2="579.297"/>
 <line fill="none" stroke="#B5B5B6" stroke-miterlimit="10" x1="-5.934" y1="579.297" x2="981.996" y2="579.297"/>
@@ -147,6 +147,10 @@
 <text transform="matrix(1 0 0 1 65.8276 574.3799)" font-family="'MyriadPro-Regular'" font-size="12">$0</text>
 
 <text transform="matrix(1 0 0 1 480.0005 595)" font-family="'MyriadPro-Regular'" font-size="12">2003</text>
+<g data-ng-repeat="it in items" > 
+<circle opacity="0.8" data-ng-attr-fill="{{colorPicker(it.venue)}}" data-ng-attr-cx="{{it.date | xDate}}" data-ng-mouseover="focused=true" data-ng-mouseout="focused=false"  data-ng-attr-cy="{{it.price | yPrice}}" r="7" />
+<text data-ng-show="focused" data-ng-attr-x="{{it.date | xDate }}" data-ng-attr-y="{{it.price | yPrice}}" width="200" font-family="'MyriadPro-Regular'" font-size="12">{{it.price|currency}}</text>
+</g>
 </svg>
 
       </div>

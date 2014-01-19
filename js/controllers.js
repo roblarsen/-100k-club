@@ -123,8 +123,20 @@ angular.module('comicsApp.controllers', ['comicFilters','comicsFactories']).
 ]).controller('chartCtrl', ["$scope",'dataService',
     function( $scope, dataService )  {
     $scope.items = dataService;
+    $scope.tooltip = {
+      price:0,
+      venue:"",
+      date:""
+    }
+    $scope.updateTooltip = function(price,date,venue,x,y) {
+      $scope.tooltip = {
+        price:price,
+        venue:venue,
+        date:date
+      } 
+    }
     $scope.colorPicker= function( venue ){
-      console.log(venue)
+
       switch (venue) {
         case "Heritage":
           return $scope.colors[0];

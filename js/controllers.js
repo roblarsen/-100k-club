@@ -124,15 +124,20 @@ angular.module('comicsApp.controllers', ['comicFilters','comicsFactories']).
     function( $scope, dataService )  {
     $scope.items = dataService;
     $scope.tooltip = {
-      price:0,
-      venue:"",
-      date:""
+      price:0
     }
-    $scope.updateTooltip = function(price,date,venue,x,y) {
+    $scope.updateTooltip = function(it) {
       $scope.tooltip = {
-        price:price,
-        venue:venue,
-        date:date
+        price:it.price || 0,
+        venue:it.venue,
+        date:it.date,
+		title:it.title,
+		issue:it.issue,
+		pedigree:it.pedigree,
+		collection:it.collection,
+		provenance:it.provenance,
+		grade_src: it.grade_src,
+		grade : it.grade
       } 
     }
     $scope.colorPicker= function( venue ){

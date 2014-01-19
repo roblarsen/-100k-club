@@ -83,7 +83,7 @@
   <div class="entry-content">
     <div data-ng-app="comicsApp">
       <div data-ng-controller="chartCtrl"> <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-   width="960px" height="600px" viewBox="0 0 960 600" enable-background="new 0 0 960 600" xml:space="preserve">
+   width="980px" height="600px" viewBox="0 0 980 600" enable-background="new 0 0 980 600" xml:space="preserve">
  <filter id="drop-shadow"> 
     <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
     <feOffset in="blur" dx="4" dy="4" result="offsetBlur"/>
@@ -150,11 +150,15 @@
         <line fill="none" stroke="#7BC791" stroke-miterlimit="10" x1="-5.934" y1="69.715" x2="982" y2="69.715"/>
         <text transform="matrix(1 0 0 1 65.8276 574.3799)" font-family="'MyriadPro-Regular'" font-size="12">$0</text>
         <text transform="matrix(1 0 0 1 480.0005 595)" font-family="'MyriadPro-Regular'" font-size="12">2003</text>
-        <circle  data-ng-repeat="it in items" opacity="0.8" data-ng-attr-fill="{{colorPicker(it.venue)}}" data-ng-attr-cx="{{it.date | xDate}}" data-ng-mouseover="updateTooltip(it.price,it.date,it.venue)" data-ng-mouseout="updateTooltip(0)"  data-ng-attr-cy="{{it.price | yPrice}}" r="7" />
-         <rect data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-50,-60)" data-ng-attr-x="{{tooltip.date | xDate}}" data-ng-attr-y="{{tooltip.price | yPrice}}" width="100" height="50" fill="white" stroke=""  style="filter:url(#drop-shadow)" /> 
-        <text data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-45,-45)" data-ng-attr-x="{{tooltip.date | xDate}}" data-ng-attr-y="{{tooltip.price | yPrice}}" font-family="'MyriadPro-Regular'" font-size="12">{{tooltip.price|currency}}</text>
-        <text data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-45,-30)" data-ng-attr-x="{{tooltip.date | xDate}}" data-ng-attr-y="{{tooltip.price | yPrice}}" font-family="'MyriadPro-Regular'" font-size="12">{{tooltip.date}}</text>
-        <text data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-45,-15)" data-ng-attr-x="{{tooltip.date | xDate}}" data-ng-attr-y="{{tooltip.price | yPrice}}" font-family="'MyriadPro-Regular'" font-size="12">{{tooltip.venue}}</text>
+        <circle  data-ng-repeat="it in items" opacity="0.8" data-ng-attr-fill="{{colorPicker(it.venue)}}" data-ng-attr-cx="{{it.date | xDate}}" data-ng-mouseover="updateTooltip(it)" data-ng-mouseout="updateTooltip(0)"  data-ng-attr-cy="{{it.price | yPrice}}" r="7" />
+         <rect data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-55,-100)" data-ng-attr-x="{{tooltip.date | xDate}}" data-ng-attr-y="{{tooltip.price | yPrice}}" width="150" height="80" fill="white" stroke=""  style="filter:url(#drop-shadow)" />
+		  
+        <text data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-45,-90)" data-ng-attr-x="{{tooltip.date | xDate}}" data-ng-attr-y="{{tooltip.price | yPrice}}" font-family="'MyriadPro-Regular'" font-size="12">{{tooltip.title}} {{tooltip.issue}}</text> 
+		  
+        <text data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-45,-75)" data-ng-attr-x="{{tooltip.date | xDate}}" data-ng-attr-y="{{tooltip.price | yPrice}}" font-family="'MyriadPro-Regular'" font-size="12">{{tooltip.pedigree}}{{tooltip.collection}}{{tooltip.provenance}} {{tooltip.grade_src | srcFilter}} {{tooltip.grade}}</text> 
+        <text data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-45,-60)" data-ng-attr-x="{{tooltip.date | xDate}}" data-ng-attr-y="{{tooltip.price | yPrice}}" font-family="'MyriadPro-Regular'" font-size="12">{{tooltip.price|currency}}</text>
+        <text data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-45,-45)" data-ng-attr-x="{{tooltip.date | xDate}}" data-ng-attr-y="{{tooltip.price | yPrice}}" font-family="'MyriadPro-Regular'" font-size="12">{{tooltip.date}}</text>
+        <text data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-45,-30)" data-ng-attr-x="{{tooltip.date | xDate}}" data-ng-attr-y="{{tooltip.price | yPrice}}" font-family="'MyriadPro-Regular'" font-size="12">{{tooltip.venue}}</text>
        
         </svg> </div>
       <div data-ng-controller="recordCtrl">
@@ -173,7 +177,8 @@
             <td class="title">{{it.title}}</td>
             <td class="number">{{it.issue}}</td>
             <td class="ped">{{it.pedigree}}{{it.collection}}{{it.provenance}}</td>
-            <td class="grade">{{it.grade_src | srcFilter}} {{it.grade}}</td>
+            <td class="grade"><p>&nbsp;</p>
+            <p>&nbsp;</p></td>
             <td class="uid">{{it.uid}}</td>
             <td>{{it.date | saneDate }}</td>
             <td>{{it.venue|capitalize}}</td>

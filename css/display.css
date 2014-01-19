@@ -99,3 +99,11 @@ table.data {margin:10px 0; width:95%; background:#fff;}
 #filter-box label {
     font-size: 14px;
 }
+
+text {
+	font-family:Verdana,Geneva,'DejaVu Sans',sans-serif;
+	font-size:12px;
+}
+text.legend {
+	font-size:10px;
+}

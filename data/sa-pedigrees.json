@@ -15,490 +15,418 @@
     "wm":"white mountain",
     "wp":"winnipeg"
  
+    },
+    "books" : [
+    {"Title":"Adventure #247",
+        "bet":"9.4",
+        "mv":"9.2",
+        "tc":"6.5",
+        "pub":"dc"
+    },
+    {"Title":"Amazing Fantasy #15",
+        "cur":"9.0",
+        "oh":"8.5",
+        "pc":"6.5",
+        "tc":"6.0",
+        "wm":"9.4",
+        "pub":"mar"
+    },
+    {"title":"Amazing Spider-Man #1",
+        "bet":"9.4 (SP)",
+        "cur":"9.6",
+        "ma":"9.2",
+        "oh":"8.5",
+        "pc":"8.5",
+        "tc":"9.0",
+        "wm":"9.6",
+        "win":"8.5",
+        "pub":"mar"
+    },{
+    "title":"Avengers #1",
+        "cur":"9.4",
+        "ma":"8.5",
+        "nor":"9.2",
+        "pc":"9.6",
+        "tc":"8.5",
+        "pub":"mar"
+    },{
+    "title":"Avengers #4",
+        "bos":"9.0/ 9.2",
+        "cur":"9.2",
+        
+        "nor":"9.4",
+        "oh":"9.2",
+        "pc":"9.6",
+        "tc":"9.4",
+        "wm":"9.2",
+        "win":"8.5",
+        "pub":"mar"
+    },{
+    "title":"Brave and the Bold #28",
+        "sav":"8.0",
+        "tc":"6.5",
+        "pub":"dc"
+    },
+    {
+    "title":"Brave and the Bold #34",
+        "bet":"FN+",
+        "sav":"9.4",
+        "wp":"9.4",
+        "win":"8.0",
+        "pub":"dc"
+    },
+    {"title":"Daredevil #1",
+    "cur":"9.6",
+    "pc":"9.4/9.4",
+    "sav":"5.0",
+    "tc":"9.4",
+    "wm":"X",
+    "pub":"mar"
     }
-}
-/*,
-books : [
+]}
+/*
 
- 
-    {"Title":"Adventure #247"
-      
-    }
 
-]
-<td>9.4</td>
-<td></td>
-<td></td>
-<td></td>
-<td>9.2</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>6.5</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-"Amazing Fantasy #15"
-<td></td>
-<td></td>
-<td>9.0</td>
-<td></td>
-<td></td>
-<td></td>
-<td>8.5</td>
-<td>6.5</td>
-<td></td>
-<td></td>
-<td>6.0</td>
-<td></td>
-<td>9.4</td>
-<td></td>
-</tr>
-<tr>
-"Amazing Spider-Man #1"
-<td>9.4 (SP)</td>
-<td></td>
-<td>9.6</td>
-<td>9.2</td>
-<td></td>
-<td></td>
-<td>8.5</td>
-<td>8.5</td>
-<td></td>
-<td></td>
-<td>9.0</td>
-<td></td>
-<td>9.6</td>
-<td>8.5</td>
-</tr>
-<tr>
-"Avengers #1"
-<td></td>
-<td></td>
-<td>9.4</td>
-<td>8.9</td>
-<td></td>
-<td>9.2</td>
-<td></td>
-<td>9.6</td>
-<td></td>
-<td></td>
-<td>8.5</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-"Avengers #4"
-<td></td>
-<td>9.0/ 9.2</td>
-<td>9.2</td>
-<td></td>
-<td></td>
-<td>9.4</td>
-<td>9.2</td>
-<td>9.6</td>
-<td></td>
-<td></td>
-<td>9.4</td>
-<td></td>
-<td>9.2</td>
-<td>8.5</td>
-</tr>
-<tr>
-"Brave and the Bold #28"
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>8.0</td>
-<td></td>
-<td>6.5</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-"Brave and the Bold #34"
-<td>FN+</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>9.4</td>
-<td></td>
-<td></td>
-<td>9.4</td>
-<td></td>
-<td>8.0</td>
-</tr>
-<tr>
-"Daredevil #1"
-<td></td>
-<td></td>
-<td>9.6</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>9.4/ 9.4</td>
-<td>5.0</td>
-<td></td>
-<td>9.4</td>
-<td></td>
-<td>X</td>
-<td></td>
 </tr>
 <tr>
 "Daredevil #7"
-<td></td>
-<td></td>
-<td>&nbsp;</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>9.2/ 9.6</td>
-<td>&nbsp;</td>
-<td></td>
-<td>9.2</td>
-<td>8.5/ 9.4</td>
-<td></td>
-<td></td>
+":"",
+":"",
+":"&nbsp;",
+":"",
+":"",
+":"",
+":"",
+":"9.2/ 9.6",
+":"&nbsp;",
+":"",
+":"9.2",
+":"8.5/ 9.4",
+":"",
+":"",
 </tr>
 <tr>
 "Fantastic Four #1"
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>8.0</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>6.5</td>
-<td></td>
-<td>9.2</td>
-<td></td>
+":"",
+":"",
+":"",
+":"",
+":"",
+":"8.0",
+":"",
+":"",
+":"",
+":"",
+":"6.5",
+":"",
+":"9.2",
+":"",
 </tr>
 <tr>
 "Fantastic Four #2"
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>7.5</td>
-<td></td>
-<td>9.4</td>
-<td></td>
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"7.5",
+":"",
+":"9.4",
+":"",
 </tr>
 <tr>
 "Fantastic Four #5"
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>8.0</td>
-<td></td>
-<td>9.4</td>
-<td></td>
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"8.0",
+":"",
+":"9.4",
+":"",
 </tr>
 <tr>
 "Flash #105"
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>7.5</td>
-<td></td>
-<td></td>
-<td></td>
-<td>8.0</td>
-<td>9.2</td>
-<td>4.5</td>
-<td></td>
-<td></td>
-<td></td>
+":"",
+":"",
+":"",
+":"",
+":"7.5",
+":"",
+":"",
+":"",
+":"8.0",
+":"9.2",
+":"4.5",
+":"",
+":"",
+":"",
 </tr>
 <tr>
 "Flash #123"
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>8.0 (SP)</td>
-<td></td>
-<td></td>
-<td></td>
-<td>8.5</td>
-<td></td>
-<td></td>
-<td>9.2</td>
-<td></td>
-<td></td>
+":"",
+":"",
+":"",
+":"",
+":"8.0 (SP)",
+":"",
+":"",
+":"",
+":"8.5",
+":"",
+":"",
+":"9.2",
+":"",
+":"",
 </tr>
 <tr>
 "Green Lantern #1"
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>4.5</td>
-<td>9.2</td>
-<td></td>
-<td>6.5</td>
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"4.5",
+":"9.2",
+":"",
+":"6.5",
 </tr>
 <tr>
 "Incredible Hulk #1"
-<td>9.2</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>9.2</td>
-<td></td>
-<td>8.0</td>
-<td></td>
-<td></td>
-<td>4.5</td>
-<td></td>
-<td>8.0</td>
-<td></td>
+":"9.2",
+":"",
+":"",
+":"",
+":"",
+":"9.2",
+":"",
+":"8.0",
+":"",
+":"",
+":"4.5",
+":"",
+":"8.0",
+":"",
 </tr>
 <tr>
 "JLA #1"
-<td>8.0</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>7.5</td>
-<td></td>
-<td>6.0</td>
-<td></td>
-<td></td>
-<td></td>
+":"8.0",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"7.5",
+":"",
+":"6.0",
+":"",
+":"",
+":"",
 </tr>
 <tr>
 "Journey into Mystery #83"
-<td></td>
-<td></td>
-<td></td>
-<td>9.0</td>
-<td></td>
-<td></td>
-<td></td>
-<td>9.0</td>
-<td></td>
-<td></td>
-<td>8.5</td>
-<td></td>
-<td>9.6</td>
-<td></td>
+":"",
+":"",
+":"",
+":"9.0",
+":"",
+":"",
+":"",
+":"9.0",
+":"",
+":"",
+":"8.5",
+":"",
+":"9.6",
+":"",
 </tr>
 <tr>
 "My Greatest Adventure #80"
-<td></td>
-<td></td>
-<td>9.6</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>9.6</td>
-<td></td>
-<td></td>
-<td></td>
-<td>9.6</td>
-<td></td>
-<td></td>
+":"",
+":"",
+":"9.6",
+":"",
+":"",
+":"",
+":"",
+":"9.6",
+":"",
+":"",
+":"",
+":"9.6",
+":"",
+":"",
 </tr>
 <tr>
 "Showcase #4"
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>VF</td>
-<td>8.5</td>
-<td>8.0</td>
-<td></td>
-<td></td>
-<td></td>
-<td>3.0</td>
-<td>X</td>
-<td></td>
-<td></td>
+":"",
+":"",
+":"",
+":"",
+":"VF",
+":"8.5",
+":"8.0",
+":"",
+":"",
+":"",
+":"3.0",
+":"X",
+":"",
+":"",
 </tr>
 <tr>
 "Showcase #8"
-<td>8.0</td>
-<td></td>
-<td></td>
-<td></td>
-<td>FN+</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+":"8.0",
+":"",
+":"",
+":"",
+":"FN+",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
 </tr>
 <tr>
 "Showcase #9"
-<td>8.0</td>
-<td></td>
-<td></td>
-<td></td>
-<td>VF-</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+":"8.0",
+":"",
+":"",
+":"",
+":"VF-",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
 </tr>
 <tr>
 "Showcase #13"
-<td>9.0</td>
-<td></td>
-<td></td>
-<td></td>
-<td>VF</td>
-<td></td>
-<td></td>
-<td></td>
-<td>6.0</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+":"9.0",
+":"",
+":"",
+":"",
+":"VF",
+":"",
+":"",
+":"",
+":"6.0",
+":"",
+":"",
+":"",
+":"",
+":"",
 </tr>
 <tr>
 "Showcase #22"
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>VF</td>
-<td></td>
-<td></td>
-<td></td>
-<td>8.0</td>
-<td></td>
-<td>3.0</td>
-<td>NM/ M</td>
-<td></td>
-<td></td>
+":"",
+":"",
+":"",
+":"",
+":"VF",
+":"",
+":"",
+":"",
+":"8.0",
+":"",
+":"3.0",
+":"NM/ M",
+":"",
+":"",
 </tr>
 <tr>
 "Showcase #34"
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>VF</td>
-<td></td>
-<td></td>
-<td></td>
-<td>8.0</td>
-<td>9.4</td>
-<td>8.5</td>
-<td>9.4</td>
-<td></td>
-<td></td>
+":"",
+":"",
+":"",
+":"",
+":"VF",
+":"",
+":"",
+":"",
+":"8.0",
+":"9.4",
+":"8.5",
+":"9.4",
+":"",
+":"",
 </tr>
 <tr>
 "Tales of Suspense #39"
-<td>9.2/ 9.4</td>
-<td></td>
-<td></td>
-<td>9.2</td>
-<td></td>
-<td></td>
-<td></td>
-<td>9.6</td>
-<td></td>
-<td></td>
-<td>9.2</td>
-<td></td>
-<td>9.6</td>
-<td>8.5</td>
+":"9.2/ 9.4",
+":"",
+":"",
+":"9.2",
+":"",
+":"",
+":"",
+":"9.6",
+":"",
+":"",
+":"9.2",
+":"",
+":"9.6",
+":"8.5",
 </tr>
 <tr>
 "Tales to Astonish #27"
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>6.0</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"6.0",
+":"",
+":"",
+":"",
+":"",
+":"",
+":"",
 </tr>
 <tr>
 "X-Men #1"
-<td>9.4</td>
-<td></td>
-<td>9.8</td>
-<td>9.2</td>
-<td></td>
-<td></td>
-<td></td>
-<td>9.6/ 9.8</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>9.0 (SP)</td>
-<td></td>
+":"9.4",
+":"",
+":"9.8",
+":"9.2",
+":"",
+":"",
+":"",
+":"9.6/ 9.8",
+":"",
+":"",
+":"",
+":"",
+":"9.0 (SP)",
+":"",
 </tr>
 </tbody>
 </table>*/

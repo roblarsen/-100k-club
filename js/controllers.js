@@ -1,7 +1,7 @@
 angular.module('comicsApp.controllers', ['comicFilters','comicsFactories']).
   controller('comicsCtrl', ["$scope", "$http",
     function( $scope , $http)  {
-      $http({"method" : "GET", "url" : "data/books.json"}).success(
+      $http({"method" : "GET", "url" : "/data/books.json"}).success(
         function(data){
          $scope.items = data.books;
          var titles = [], pedigrees = [], publishers = [], venues = [];
@@ -168,4 +168,37 @@ angular.module('comicsApp.controllers', ['comicFilters','comicsFactories']).
     
   }
   
+]).controller('recordCtrl', ["$scope",'dataService',
+    function( $scope, dataService )  {
+    $scope.items = dataService;
+    $scope.sort = "-price";
+    $scope.sorter = function(sort){
+       
+       if ($scope.sort.indexOf(sort) >-1 && $scope.sort.charAt(0) === "-" ) {
+          
+            $scope.sort = sort.slice(1);
+          
+        }
+        if ($scope.sort.indexOf(sort) >-1 && $scope.sort.indexOf("-") == -1 ) {
+          
+            $scope.sort = "-"+sort;
+          
+        } else {
+         $scope.sort = sort;
+        }
+        
+        
+      } 
+  }
+  
+]).controller('saCtrl', ["$scope", "$http",
+    function( $scope , $http)  {
+      $http({"method" : "GET", "url" : "/data/sa-pedigrees.json"}).success(
+        function(data){
+          console.log(data)
+         $scope.items = data.books;
+         $scope.keys = data.keys;
+         console.log($scope.keys)
+    });     
+  }
 ]);

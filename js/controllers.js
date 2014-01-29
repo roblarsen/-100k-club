@@ -150,4 +150,14 @@ angular.module('comicsApp.controllers', ['comicFilters','comicsFactories']).
     }
     $scope.colors = ["#ECD078","#D95B43","#C02942","#542437","#53777A","#69D2E7","#FA6900", "#FE4365","#666666"];
   }
-]);
+]).controller('saCtrl', ["$scope", "$http",
+    function( $scope , $http)  {
+      $http({"method" : "GET", "url" : "/data/sa-pedigrees.json"}).success(
+        function(data){
+          console.log(data)
+         $scope.items = data.books;
+         $scope.keys = data.keys;
+         console.log($scope.keys)
+    });     
+  }
+]);;

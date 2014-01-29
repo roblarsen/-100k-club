@@ -1,29 +1,30 @@
 
-{ "keys" : {
-    "bet":"bethlehem",
-    "bos":"boston",
-    "cur":"curator",
-    "ma":"massachusetts",
-    "mv":"mohawk Valley",
-    "nor":"northland",
-    "oh":"ohio",
-    "pc":"pacific coast",
-    "sav":"savannah",
-    "slo":"slobodian",
-    "tc":"twin cities",
-    "wp":"western penn",
-    "wm":"white mountain",
-    "wp":"winnipeg" 
-  },
+{ "keys" :[
+    {"short":"bet","full":"bethlehem"},
+    {"short":"bos","full":"boston"},
+    {"short":"cur","full":"curator"},
+    {"short":"ma","full":"massachusetts"},
+    {"short":"mv","full":"mohawk Valley"},
+    {"short":"nor","full":"northland"},
+    {"short":"oh","full":"ohio"},
+    {"short":"pc","full":"pacific coast"},
+    {"short":"sav","full":"savannah"},
+    {"short":"slo","full":"slobodian"},
+    {"short":"tc","full":"twin cities"},
+    {"short":"wp","full":"western penn"},
+    {"short":"wm","full":"white mountain"},
+    {"short":"wp","full":"winnipeg"}
+ 
+    ],
     "books" : [
         {
-            "Title":"Adventure #247",
+            "title":"Adventure #247",
             "bet":"9.4",
             "mv":"9.2",
             "tc":"6.5",
             "pub":"dc"
         },{
-            "Title":"Amazing Fantasy #15",
+            "title":"Amazing Fantasy #15",
             "cur":"9.0",
             "oh":"8.5",
             "pc":"6.5",

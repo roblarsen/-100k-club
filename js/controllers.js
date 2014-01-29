@@ -201,4 +201,14 @@ angular.module('comicsApp.controllers', ['comicFilters','comicsFactories']).
          console.log($scope.keys)
     });     
   }
-]);
+]).controller('saCtrl', ["$scope", "$http",
+    function( $scope , $http)  {
+      $http({"method" : "GET", "url" : "/data/sa-pedigrees.json"}).success(
+        function(data){
+          console.log(data)
+         $scope.items = data.books;
+         $scope.keys = data.keys;
+         console.log($scope.keys)
+    });     
+  }
+]);;

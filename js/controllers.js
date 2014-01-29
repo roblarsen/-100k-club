@@ -1,7 +1,7 @@
 angular.module('comicsApp.controllers', ['comicFilters','comicsFactories']).
   controller('comicsCtrl', ["$scope", "$http",
     function( $scope , $http)  {
-      $http({"method" : "GET", "url" : "data/books.json"}).success(
+      $http({"method" : "GET", "url" : "/data/books.json"}).success(
         function(data){
          $scope.items = data.books;
          var titles = [], pedigrees = [], publishers = [], venues = [];
@@ -75,10 +75,14 @@ angular.module('comicsApp.controllers', ['comicFilters','comicsFactories']).
       $scope.sorter = function(sort){
        
        if ($scope.sort[0].indexOf(sort) >-1 && $scope.sort[0].charAt(0) === "-" ) {
+          
             $scope.sort[0] = sort.slice(1);
+          
       	}
         if ($scope.sort[0].indexOf(sort) >-1 && $scope.sort[0].indexOf("-") == -1 ) {
-            $scope.sort[0] = "-"+sort; 
+          
+            $scope.sort[0] = "-"+sort;
+          
         } else {
           var tmp = [];
           tmp[0] = sort;
@@ -88,7 +92,9 @@ angular.module('comicsApp.controllers', ['comicFilters','comicsFactories']).
             }
           }
           $scope.sort = tmp;
-        }   	
+        }
+      	
+      	
       } 
   }
 ]).controller('recordCtrl', ["$scope",'dataService',
@@ -96,16 +102,24 @@ angular.module('comicsApp.controllers', ['comicFilters','comicsFactories']).
 		$scope.items = dataService;
 		$scope.sort = "-price";
 		$scope.sorter = function(sort){
-      if ($scope.sort.indexOf(sort) >-1 && $scope.sort.charAt(0) === "-" ) {
-        $scope.sort = sort.slice(1);
-      }
-      if ($scope.sort.indexOf(sort) >-1 && $scope.sort.indexOf("-") == -1 ) {
-        $scope.sort = "-"+sort;
-      } else {
+       
+       if ($scope.sort.indexOf(sort) >-1 && $scope.sort.charAt(0) === "-" ) {
+          
+            $scope.sort = sort.slice(1);
+          
+      	}
+        if ($scope.sort.indexOf(sort) >-1 && $scope.sort.indexOf("-") == -1 ) {
+          
+            $scope.sort = "-"+sort;
+          
+        } else {
          $scope.sort = sort;
-      }
-    } 
+        }
+      	
+      	
+      } 
 	}
+	
 ]).controller('chartCtrl', ["$scope",'dataService',
     function( $scope, dataService )  {
     $scope.items = dataService;
@@ -117,16 +131,17 @@ angular.module('comicsApp.controllers', ['comicFilters','comicsFactories']).
         price:it.price || 0,
         venue:it.venue,
         date:it.date,
-    	 	title:it.title,
-    		issue:it.issue,
-    		pedigree:it.pedigree,
-    		collection:it.collection,
-    		provenance:it.provenance,
-    		grade_src: it.grade_src,
-    		grade : it.grade
+		title:it.title,
+		issue:it.issue,
+		pedigree:it.pedigree,
+		collection:it.collection,
+		provenance:it.provenance,
+		grade_src: it.grade_src,
+		grade : it.grade
       } 
     }
     $scope.colorPicker= function( venue ){
+
       switch (venue) {
         case "Heritage":
           return $scope.colors[0];
@@ -147,7 +162,43 @@ angular.module('comicsApp.controllers', ['comicFilters','comicsFactories']).
         default:
           return $scope.colors[8];
        }
+     
     }
     $scope.colors = ["#ECD078","#D95B43","#C02942","#542437","#53777A","#69D2E7","#FA6900", "#FE4365","#666666"];
+    
+  }
+  
+]).controller('recordCtrl', ["$scope",'dataService',
+    function( $scope, dataService )  {
+    $scope.items = dataService;
+    $scope.sort = "-price";
+    $scope.sorter = function(sort){
+       
+       if ($scope.sort.indexOf(sort) >-1 && $scope.sort.charAt(0) === "-" ) {
+          
+            $scope.sort = sort.slice(1);
+          
+        }
+        if ($scope.sort.indexOf(sort) >-1 && $scope.sort.indexOf("-") == -1 ) {
+          
+            $scope.sort = "-"+sort;
+          
+        } else {
+         $scope.sort = sort;
+        }
+        
+        
+      } 
+  }
+  
+]).controller('saCtrl', ["$scope", "$http",
+    function( $scope , $http)  {
+      $http({"method" : "GET", "url" : "/data/sa-pedigrees.json"}).success(
+        function(data){
+          console.log(data)
+         $scope.items = data.books;
+         $scope.keys = data.keys;
+         console.log($scope.keys)
+    });     
   }
 ]);

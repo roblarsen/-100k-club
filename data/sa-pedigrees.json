@@ -9,11 +9,10 @@
     {"short":"oh","full":"ohio"},
     {"short":"pc","full":"pacific coast"},
     {"short":"sav","full":"savannah"},
-    {"short":"slo","full":"slobodian"},
     {"short":"tc","full":"twin cities"},
     {"short":"wp","full":"western penn"},
     {"short":"wm","full":"white mountain"},
-    {"short":"wp","full":"winnipeg"}
+    {"short":"win","full":"winnipeg"}
  
     ],
     "books" : [
@@ -108,7 +107,6 @@
             "title":"Flash #105",
             "mv":"7.5",
             "sav":"8.0",
-            "slo":"9.2",
             "tc":"4.5",
             "pub":"dc"
         },{
@@ -192,7 +190,6 @@
             "title":"Showcase #34",
             "mv":"VF",
             "sav":"8.0",
-            "slo":"9.4",
             "tc":"8.5",
             "wp":"9.4",
             "pub":"dc"

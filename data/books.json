@@ -1970,6 +1970,11 @@
             {
                "sale_date":"2009-05-21",
                "price":"50788"
+            },{
+               "sale_date":"2014-1-31",
+               "price":"111000",
+               "venue":"pedigree",
+               "link":"http://www.pedigreecomics.com/detail.php?issue_id=40571"
             }
          ],
          "uid":132

@@ -3,4 +3,4 @@ $100,000 Club notes
 
 data notes:
 
-- ~~http://www.pedigreecomics.com/detail.php?issue_id=40571~~
+- Detective 27 CGC 9.2 EP

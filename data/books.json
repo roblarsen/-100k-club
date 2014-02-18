@@ -4050,7 +4050,18 @@
          "grade":"9.2 (EP)",
          "tags":"batman,dc,restored",
          "sales":[
-
+         {
+               "sale_date":"2012-05-10",
+               "price":"113525",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7059&lotNo=91107"
+            },
+            {
+               "sale_date":"2012-11-15",
+               "price":"80662.50",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7066&lotNo=91067"
+            }
          ],
          "uid":274
       },
@@ -4119,6 +4130,24 @@
 
          ],
          "uid":280
-      }
+      },
+      {
+         "title":"Action Comics",
+         "issue":"1",
+         "publisher":"DC Comics",
+         "grade_src":"CGC",
+         "grade":"8.0(MP)",
+         "restoration":"Moderate Professional",
+         "tags":"cgc,restored,superman,action",
+         "sales":[
+            {
+               "sale_date":"2011-08-17",
+               "price":"149375",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7036&lotNo=91227"
+            }
+         ],
+         "uid":281
+      }   
    ]
 }

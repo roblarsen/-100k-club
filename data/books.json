@@ -4042,6 +4042,83 @@
 
          ],
          "uid":274
+      },
+      {
+         "title":"Detective",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"9.2 (EP)",
+         "tags":"batman,dc,restored",
+         "sales":[
+
+         ],
+         "uid":274
+      },
+      {
+         "title":"Detective",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"9.0 (MP)",
+         "tags":"batman,dc,restored",
+         "sales":[
+
+         ],
+         "uid":275
+      },
+      {
+         "title":"Detective",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"8.5 (MP)",
+         "tags":"batman,dc,restored",
+         "sales":[
+
+         ],
+         "uid":276
+      },
+      {
+         "title":"Detective",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"8.5 (EP)",
+         "tags":"batman,dc,restored",
+         "sales":[
+
+         ],
+         "uid":277
+      },
+      {
+         "title":"Detective",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"8.5 (EP)",
+         "tags":"batman,dc,restored",
+         "sales":[
+
+         ],
+         "uid":278
+      },
+      {
+         "title":"Detective",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"8.0 (MP)",
+         "tags":"batman,dc,restored",
+         "sales":[
+
+         ],
+         "uid":279
+      },
+      {
+         "title":"Detective",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"8.0 (MP)",
+         "tags":"batman,dc,restored",
+         "sales":[
+
+         ],
+         "uid":280
       }
    ]
 }

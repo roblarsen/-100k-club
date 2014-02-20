@@ -2743,6 +2743,13 @@
          "grade":"9.0",
          "tags":"spider-man,amazing-fantasy,cgc,marvel",
          "sales":[
+            {
+               "sale_date":"2014-02-20",
+               "price":"191200",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7087&lotNo=91077"
+            }
+            
 
          ],
          "uid":178

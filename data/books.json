@@ -3318,6 +3318,11 @@
          "grade":"9.4",
          "tags":"thor,journey-into-mystery,marvel,cgc,kirby",
          "sales":[
+            {
+               "sale_date":"2014-02-24",
+               "price":"275000",
+               "venue":"comiclink"
+            }
 
          ],
          "uid":219

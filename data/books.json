@@ -1069,6 +1069,12 @@
                "price":"191200",
                "venue":"Heritage",
                "link":"http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91141"
+            },
+            {
+               "sale_date":"2014-02-25",
+               "price":"145000",
+               "venue":"Comiclink",
+               "link":"http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91141"
             }
          ],
          "uid":69
@@ -4366,6 +4372,22 @@
          "sales":[
          ],
          "uid":299
-      }       
+      },
+      {
+         "title":"Brave and the Bold",
+         "issue":"28",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"dc,jla,cgc",
+         "sales":[
+            {
+               "sale_date":"2014-02-25",
+               "price":"100000",
+               "venue":"Comiclink",
+               "link":"https://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fsearch%2Easp%3FFocusedOnly%3D1%26where%3Dauctions%26title%3Dbrave%2Band%2Bthe%2Bbold%2B28%26x%3D0%26y%3D0%26ItemType%3DCB%23Item_996687&id=996687"
+            }
+         ],
+         "uid":300
+      },       
    ]
 }

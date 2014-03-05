@@ -1,4 +1,4 @@
-angular.module('comicsApp', ['comicsApp.controllers'])
+angular.module('comicsApp', ['comicsApp.controllers']);
 
 
 

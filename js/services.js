@@ -1,6 +1,3 @@
-'use strict';
-
-/* Services */
 angular.module('comicsFactories', [])
     .factory('dataService', function ($http) {
       var records = [];

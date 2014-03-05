@@ -3,7 +3,7 @@ module.exports = function (grunt) {
         pkg: grunt.file.readJSON('package.json'),
         concat: {
             js: {
-                src: ['js/*'],
+                src: ['app/*'],
                 dest: 'js/100k.full.js'
             }
         },
@@ -30,7 +30,7 @@ module.exports = function (grunt) {
             }
         },
         watch: {
-          files: ['data/*', 'js/*'],
+          files: ['data/*', 'app/*'],
           tasks: ['concat', 'ngmin', 'minjson', 'uglify']
        },
        shell: {

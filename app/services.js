@@ -1,5 +1,6 @@
 angular.module('comicsFactories', [])
     .factory('dataService', function ($http) {
+      "use strict";
       var records = [];
          $http({"method" : "GET", "url" : "data/books.json"}).success(
             function(data){
@@ -20,7 +21,7 @@ angular.module('comicsFactories', [])
                       "venue":data.books[i].sales[j].venue,
                       "price": Math.floor(data.books[i].sales[j].price),
                       "link":data.books[i].sales[j].link
-                    })
+                    });
                   }
                 }
               }

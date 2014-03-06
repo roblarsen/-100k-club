@@ -6,31 +6,31 @@ angular.module('comicsApp', ['comicsApp.controllers']);
 angular.module('comicsApp.controllers', ['comicFilters','comicsFactories']).
   controller('comicsCtrl', ["$scope", "$http",
     function( $scope , $http)  {
+      "use strict";
       $http({"method" : "GET", "url" : "/data/books.json"}).success(
         function(data){
          $scope.items = data.books;
          var titles = [], pedigrees = [], publishers = [], venues = [];
          for (var i=0; i < $scope.items.length; i++){
             if (!_.contains(titles,$scope.items[i].title)){
-              titles.push($scope.items[i].title)
+              titles.push($scope.items[i].title);
             }
             if ($scope.items[i].pedigree){
               if (!_.contains(pedigrees,$scope.items[i].pedigree)){
-                pedigrees.push($scope.items[i].pedigree)
+                pedigrees.push($scope.items[i].pedigree);
               }         
             }
             if ($scope.items[i].publisher){
               if (!_.contains(publishers,$scope.items[i].publisher)){
-                publishers.push($scope.items[i].publisher)
+                publishers.push($scope.items[i].publisher);
               }         
             }
             if ($scope.items[i].sales.length){
               for (var j=0; j < $scope.items[i].sales.length; j++){
 
                 if (!_.contains(venues,$scope.items[i].sales[j].venue)){
-                  venues.push($scope.items[i].sales[j].venue)
+                  venues.push($scope.items[i].sales[j].venue);
                 }       
-          
               }  
             }  
          }
@@ -52,16 +52,16 @@ angular.module('comicsApp.controllers', ['comicFilters','comicsFactories']).
         $scope.sales = [];
         if (item.pedigree){
           if (!_.contains($scope.pedigrees,item.pedigree)){
-            $scope.pedigrees.push(item.pedigree)
+            $scope.pedigrees.push(item.pedigree);
           }         
         }
         if (item.publisher){
           if (!_.contains($scope.publishers,item.publisher)){
-            $scope.publishers.push(item.publisher)
+            $scope.publishers.push(item.publisher);
           }         
         }
         if (!_.contains($scope.titles,item.title)){
-          $scope.titles.push(item.title)
+          $scope.titles.push(item.title);
         }
         var items = $scope.items,
           len = items.length;
@@ -70,18 +70,17 @@ angular.module('comicsApp.controllers', ['comicFilters','comicsFactories']).
         }
         $http.post('data/index.php', angular.toJson(items)).success(function(data){
         }); 
-      } 
+      }; 
       $scope.addSale = function(sale) {
         $scope.sales.push(_.clone(sale));
         for (var val in sale){
           delete sale[val];
         }
-      }
+      };
       $scope.sorter = function(sort){
-       
        if ($scope.sort[0].indexOf(sort) >-1 && $scope.sort[0].charAt(0) === "-" ) {
             $scope.sort[0] = sort.slice(1);
-      	}
+        }
         if ($scope.sort[0].indexOf(sort) >-1 && $scope.sort[0].indexOf("-") == -1 ) {
             $scope.sort[0] = "-"+sort; 
         } else {
@@ -93,14 +92,14 @@ angular.module('comicsApp.controllers', ['comicFilters','comicsFactories']).
             }
           }
           $scope.sort = tmp;
-        }   	
-      } 
+        }     
+      }; 
   }
 ]).controller('recordCtrl', ["$scope",'dataService',
     function( $scope, dataService )  {
-		$scope.items = dataService;
-		$scope.sort = "-price";
-		$scope.sorter = function(sort){
+    $scope.items = dataService;
+    $scope.sort = "-price";
+    $scope.sorter = function(sort){
       if ($scope.sort.indexOf(sort) >-1 && $scope.sort.charAt(0) === "-" ) {
         $scope.sort = sort.slice(1);
       }
@@ -109,29 +108,29 @@ angular.module('comicsApp.controllers', ['comicFilters','comicsFactories']).
       } else {
          $scope.sort = sort;
       }
-    } 
-	}
-	
+    }; 
+  }
+  
 ]).controller('chartCtrl', ["$scope",'dataService',
     function( $scope, dataService )  {
     $scope.items = dataService;
     $scope.tooltip = {
       price:0
-    }
+    };
     $scope.updateTooltip = function(it) {
       $scope.tooltip = {
         price:it.price || 0,
         venue:it.venue,
         date:it.date,
-		title:it.title,
-		issue:it.issue,
-		pedigree:it.pedigree,
-		collection:it.collection,
-		provenance:it.provenance,
-		grade_src: it.grade_src,
-		grade : it.grade
-      } 
-    }
+        title:it.title,
+        issue:it.issue,
+        pedigree:it.pedigree,
+        collection:it.collection,
+        provenance:it.provenance,
+        grade_src: it.grade_src,
+        grade: it.grade
+      }; 
+    };
     $scope.colorPicker= function( venue ){
 
       switch (venue) {
@@ -155,7 +154,7 @@ angular.module('comicsApp.controllers', ['comicFilters','comicsFactories']).
           return $scope.colors[8];
        }
      
-    }
+    };
     $scope.colors = ["#ECD078","#D95B43","#C02942","#542437","#53777A","#69D2E7","#FA6900", "#FE4365","#666666"];
     
   }
@@ -165,47 +164,25 @@ angular.module('comicsApp.controllers', ['comicFilters','comicsFactories']).
     $scope.items = dataService;
     $scope.sort = "-price";
     $scope.sorter = function(sort){
-       
        if ($scope.sort.indexOf(sort) >-1 && $scope.sort.charAt(0) === "-" ) {
-          
             $scope.sort = sort.slice(1);
-          
         }
         if ($scope.sort.indexOf(sort) >-1 && $scope.sort.indexOf("-") == -1 ) {
-          
             $scope.sort = "-"+sort;
-          
         } else {
-         $scope.sort = sort;
+            $scope.sort = sort;
         }
-        
-        
-      } 
+      };
   }
-  
 ]).controller('saCtrl', ["$scope", "$http",
     function( $scope , $http)  {
       $http({"method" : "GET", "url" : "data/sa-pedigrees.json"}).success(
         function(data){
-          console.log(data)
          $scope.items = data.books;
          $scope.keys = data.keys;
-         console.log($scope.keys)
     });     
   }
 ]);
-
-'use strict';
-
-/* Directives */
-
-
-angular.module('myApp.directives', []).
-  directive('appVersion', ['version', function(version) {
-    return function(scope, elm, attrs) {
-      elm.text(version);
-    };
-  }]);
 
 angular.module('comicFilters', []).filter('srcFilter', function() {
   return function(input) {
@@ -360,6 +337,7 @@ angular.module("naturalSort", [])
 
 angular.module('comicsFactories', [])
     .factory('dataService', function ($http) {
+      "use strict";
       var records = [];
          $http({"method" : "GET", "url" : "data/books.json"}).success(
             function(data){
@@ -380,7 +358,7 @@ angular.module('comicsFactories', [])
                       "venue":data.books[i].sales[j].venue,
                       "price": Math.floor(data.books[i].sales[j].price),
                       "link":data.books[i].sales[j].link
-                    })
+                    });
                   }
                 }
               }

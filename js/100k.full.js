@@ -67,7 +67,7 @@ angular.module("comicsApp.controllers", ["comicFilters","comicsFactories"]).
         for ( var i = 0; i <len; i++){
           delete items[i]["$$hashKey"];
         }
-        $http.post("data/index.php", angular.toJson(items)).success(function(){
+        $http.post("/data/index.php", angular.toJson(items)).success(function(){
           return;
         }); 
       }; 
@@ -178,7 +178,7 @@ angular.module("comicsApp.controllers", ["comicFilters","comicsFactories"]).
   ]).controller("saCtrl", ["$scope", "$http",
     function( $scope , $http)  {
       "use strict";
-      $http({"method" : "GET", "url" : "data/sa-pedigrees.json"}).success(
+      $http({"method" : "GET", "url" : "/data/sa-pedigrees.json"}).success(
         function(data){
           $scope.items = data.books;
           $scope.keys = data.keys;
@@ -229,7 +229,7 @@ angular.module("comicsFactories", [])
   .factory("dataService", function ($http) {
     "use strict";
     var records = [];
-    $http({"method" : "GET", "url" : "data/books.json"}).success(
+    $http({"method" : "GET", "url" : "/data/books.json"}).success(
         function(data){
         for (var i = 0, len = data.books.length; i < len; i++){
           if (data.books[i].sales.length){

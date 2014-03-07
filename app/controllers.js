@@ -1,12 +1,12 @@
-angular.module('comicsApp.controllers', ['comicFilters','comicsFactories']).
-  controller('comicsCtrl', ["$scope", "$http",
+angular.module("comicsApp.controllers", ["comicFilters","comicsFactories"]).
+  controller("comicsCtrl", ["$scope", "$http",
     function( $scope , $http)  {
       "use strict";
       $http({"method" : "GET", "url" : "/data/books.json"}).success(
         function(data){
-         $scope.items = data.books;
-         var titles = [], pedigrees = [], publishers = [], venues = [];
-         for (var i=0; i < $scope.items.length; i++){
+          $scope.items = data.books;
+          var titles = [], pedigrees = [], publishers = [], venues = [];
+          for (var i=0; i < $scope.items.length; i++){
             if (!_.contains(titles,$scope.items[i].title)){
               titles.push($scope.items[i].title);
             }
@@ -28,20 +28,19 @@ angular.module('comicsApp.controllers', ['comicFilters','comicsFactories']).
                 }       
               }  
             }  
-         }
-        $scope.sort = ['title','issue','-grade']; 
-        $scope.titles = titles;
-        $scope.publishers = publishers;
-        $scope.pedigrees = pedigrees; 
-        $scope.venues = venues; 
-        $scope.uid = data.books.length;
-      });
+          }
+          $scope.sort = ["title","issue","-grade"]; 
+          $scope.titles = titles;
+          $scope.publishers = publishers;
+          $scope.pedigrees = pedigrees; 
+          $scope.venues = venues; 
+          $scope.uid = data.books.length;
+        });
       $scope.sales = [];
       $scope.addItem = function(item) { 
         item.sales = $scope.sales;
         item.uid = $scope.uid;
         $scope.uid++;
-
         $scope.items.push(item);
         $scope.item = {};
         $scope.sales = [];
@@ -59,25 +58,28 @@ angular.module('comicsApp.controllers', ['comicFilters','comicsFactories']).
           $scope.titles.push(item.title);
         }
         var items = $scope.items,
-          len = items.length;
+            len = items.length;
         for ( var i = 0; i <len; i++){
           delete items[i]["$$hashKey"];
         }
-        $http.post('data/index.php', angular.toJson(items)).success(function(data){
+        $http.post("data/index.php", angular.toJson(items)).success(function(){
+          return;
         }); 
       }; 
       $scope.addSale = function(sale) {
         $scope.sales.push(_.clone(sale));
         for (var val in sale){
-          delete sale[val];
+          if (sale.hasOwnProperty(val)){
+            delete sale[val];  
+          }
         }
       };
       $scope.sorter = function(sort){
-       if ($scope.sort[0].indexOf(sort) >-1 && $scope.sort[0].charAt(0) === "-" ) {
-            $scope.sort[0] = sort.slice(1);
+        if ($scope.sort[0].indexOf(sort) >-1 && $scope.sort[0].charAt(0) === "-" ) {
+          $scope.sort[0] = sort.slice(1);
         }
-        if ($scope.sort[0].indexOf(sort) >-1 && $scope.sort[0].indexOf("-") == -1 ) {
-            $scope.sort[0] = "-"+sort; 
+        if ($scope.sort[0].indexOf(sort) >-1 && $scope.sort[0].indexOf("-") === -1 ) {
+          $scope.sort[0] = "-"+sort; 
         } else {
           var tmp = [];
           tmp[0] = sort;
@@ -89,96 +91,92 @@ angular.module('comicsApp.controllers', ['comicFilters','comicsFactories']).
           $scope.sort = tmp;
         }     
       }; 
-  }
-]).controller('recordCtrl', ["$scope",'dataService',
+    }
+  ]).controller("recordCtrl", ["$scope","dataService",
     function( $scope, dataService )  {
-    "use strict"; 
-    $scope.items = dataService;
-    $scope.sort = "-price";
-    $scope.sorter = function(sort){
-      if ($scope.sort.indexOf(sort) >-1 && $scope.sort.charAt(0) === "-" ) {
-        $scope.sort = sort.slice(1);
-      }
-      if ($scope.sort.indexOf(sort) >-1 && $scope.sort.indexOf("-") == -1 ) {
-        $scope.sort = "-"+sort;
-      } else {
-         $scope.sort = sort;
-      }
-    }; 
-  }
-  
-]).controller('chartCtrl', ["$scope",'dataService',
-    function( $scope, dataService )  {
-    "use strict";    
-    $scope.items = dataService;
-    $scope.tooltip = {
-      price:0
-    };
-    $scope.updateTooltip = function(it) {
-      $scope.tooltip = {
-        price:it.price || 0,
-        venue:it.venue,
-        date:it.date,
-        title:it.title,
-        issue:it.issue,
-        pedigree:it.pedigree,
-        collection:it.collection,
-        provenance:it.provenance,
-        grade_src: it.grade_src,
-        grade: it.grade
+      "use strict"; 
+      $scope.items = dataService;
+      $scope.sort = "-price";
+      $scope.sorter = function(sort){
+        if ($scope.sort.indexOf(sort) >-1 && $scope.sort.charAt(0) === "-" ) {
+          $scope.sort = sort.slice(1);
+        }
+        if ($scope.sort.indexOf(sort) >-1 && $scope.sort.indexOf("-") === -1 ) {
+          $scope.sort = "-"+sort;
+        } else {
+          $scope.sort = sort;
+        }
       }; 
-    };
-    $scope.colorPicker= function( venue ){
+    }
+  ]).controller("chartCtrl", ["$scope","dataService",
+    function( $scope, dataService )  {
+      "use strict";    
+      $scope.items = dataService;
+      $scope.tooltip = {
+        price:0
+      };
+      $scope.updateTooltip = function(it) {
+        $scope.tooltip = {
+          price:it.price || 0,
+          venue:it.venue,
+          date:it.date,
+          title:it.title,
+          issue:it.issue,
+          pedigree:it.pedigree,
+          collection:it.collection,
+          provenance:it.provenance,
+          grade_src: it.grade_src,
+          grade: it.grade
+        }; 
+      };
+      $scope.colorPicker= function( venue ){
 
-      switch (venue) {
-        case "Heritage":
-          return $scope.colors[0];
-        case  "Comic Connect":
-          return $scope.colors[1];
-        case "Comiclink":
-          return $scope.colors[2];
-        case  "Pedigree":
-          return $scope.colors[3];
-        case "Metropolis":
-          return $scope.colors[4];
-        case  "JP The Mint":
-          return $scope.colors[5];
-        case "Mastronet":
-          return $scope.colors[6];
-        case  "PGCMint":
-          return $scope.colors[7];
-        default:
-          return $scope.colors[8];
-       }
-     
-    };
-    $scope.colors = ["#ECD078","#D95B43","#C02942","#542437","#53777A","#69D2E7","#FA6900", "#FE4365","#666666"];
-    
-  }
-  
-]).controller('recordCtrl', ["$scope",'dataService',
+        switch (venue) {
+          case "Heritage":
+            return $scope.colors[0];
+          case  "Comic Connect":
+            return $scope.colors[1];
+          case "Comiclink":
+            return $scope.colors[2];
+          case  "Pedigree":
+            return $scope.colors[3];
+          case "Metropolis":
+            return $scope.colors[4];
+          case  "JP The Mint":
+            return $scope.colors[5];
+          case "Mastronet":
+            return $scope.colors[6];
+          case  "PGCMint":
+            return $scope.colors[7];
+          default:
+            return $scope.colors[8];
+        } 
+      };
+      $scope.colors = ["#ECD078","#D95B43","#C02942","#542437","#53777A","#69D2E7","#FA6900", "#FE4365","#666666"];
+    }
+  ]).controller("recordCtrl", ["$scope","dataService",
     function( $scope, dataService )  {
       "use strict";
       $scope.items = dataService;
       $scope.sort = "-price";
       $scope.sorter = function(sort){
-         if ($scope.sort.indexOf(sort) >-1 && $scope.sort.charAt(0) === "-" ) {
-              $scope.sort = sort.slice(1);
-          }
-          if ($scope.sort.indexOf(sort) >-1 && $scope.sort.indexOf("-") == -1 ) {
-              $scope.sort = "-"+sort;
-          } else {
-              $scope.sort = sort;
-          }
+        if ($scope.sort.indexOf(sort) >-1 && $scope.sort.charAt(0) === "-" ) {
+          $scope.sort = sort.slice(1);
+        }
+        if ($scope.sort.indexOf(sort) >-1 && $scope.sort.indexOf("-") === -1 ) {
+          $scope.sort = "-"+sort;
+        } else {
+          $scope.sort = sort;
+        }
       };
-  }
-]).controller('saCtrl', ["$scope", "$http",
+    }
+  ]).controller("saCtrl", ["$scope", "$http",
     function( $scope , $http)  {
       "use strict";
       $http({"method" : "GET", "url" : "data/sa-pedigrees.json"}).success(
         function(data){
-         $scope.items = data.books;
-         $scope.keys = data.keys;
-    });     
-  }
-]);
+          $scope.items = data.books;
+          $scope.keys = data.keys;
+        });     
+    } 
+  ]);

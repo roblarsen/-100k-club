@@ -42,6 +42,13 @@ module.exports = function (grunt) {
             files: ['gruntfile.js', 'app/*.js'],
             options: {
                 sub:true,
+                curly:true,
+                eqeqeq:true,
+                forin:true,
+                freeze:true,
+                indent:4,
+                quotmark:true,
+                unused:true,
                 globals: {
                     jQuery: true,
                     console: true,

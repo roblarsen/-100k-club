@@ -29,14 +29,15 @@ module.exports = function (grunt) {
       }
     },
     watch: {
-      files: ["data/*", "app/*"],
-      tasks: ["concat", "ngmin", "minjson", "uglify"]
+      files: ["data/books.dev.json","data/sa-pedigrees.dev.json", "app/*"],
+      tasks: ["concat", "ngmin", "minjson", "uglify","clean"]
     },
     shell: {
       server: {
         command: "node ./web-server.js &"
       }
     },
+    clean: ["js/100k.full.js"],
     jshint: {
       files: ["gruntfile.js", "app/*.js"],
       options: {
@@ -59,9 +60,10 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks("grunt-shell");
   grunt.loadNpmTasks("grunt-minjson");
   grunt.loadNpmTasks("grunt-ngmin");
+  grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks("grunt-contrib-jshint");
   grunt.loadNpmTasks("grunt-contrib-concat");
   grunt.loadNpmTasks("grunt-contrib-uglify");
   grunt.loadNpmTasks("grunt-contrib-watch");
-  grunt.registerTask("default", ["concat:js", "ngmin:js", "uglify:js","minjson:data"]);
+  grunt.registerTask("default", ["concat:js", "ngmin:js", "uglify:js","clean","minjson:data"]);
 };

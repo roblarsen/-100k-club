@@ -3,6 +3,7 @@
   "version": "1.0.0",
  "devDependencies": {
         "grunt": "~0.4.2",
+        "grunt-contrib-clean":"~0.5.0",
         "grunt-shell":"~0.6.4",
         "grunt-ngmin":"~0.0.3",
         "grunt-minjson":"~0.1.1",

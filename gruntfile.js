@@ -22,9 +22,9 @@ module.exports = function (grunt) {
     },
     minjson: {
       data: {
-        files: { 
+        files: {
           "data/books.json":"data/books.dev.json",
-          "data/sa-pedigrees.json":"data/sa-pedigrees.dev.json"    
+          "data/sa-pedigrees.json":"data/sa-pedigrees.dev.json"
         }
       }
     },
@@ -41,6 +41,17 @@ module.exports = function (grunt) {
     jshint: {
       files: ["gruntfile.js", "app/*.js"],
       options: {
+        passfail:false,
+        maxerr: 100,
+        browser: true,
+        jquery: true,
+        predef: [
+          "angular"
+        ],
+        devel: true,
+        bitwise: true,
+        boss:false,
+        trailing:true,
         sub:true,
         curly:true,
         eqeqeq:true,
@@ -48,19 +59,14 @@ module.exports = function (grunt) {
         freeze:true,
         indent:2,
         quotmark:"double",
-        unused:true,
-        globals: {
-          jQuery: true,
-          console: true,
-          angular: true
-        }
+        unused:true
       }
     }
   });
   grunt.loadNpmTasks("grunt-shell");
   grunt.loadNpmTasks("grunt-minjson");
   grunt.loadNpmTasks("grunt-ngmin");
-  grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks("grunt-contrib-clean");
   grunt.loadNpmTasks("grunt-contrib-jshint");
   grunt.loadNpmTasks("grunt-contrib-concat");
   grunt.loadNpmTasks("grunt-contrib-uglify");

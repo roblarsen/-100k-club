@@ -10,7 +10,7 @@ angular.module("comicsFactories", [])
               if (parseFloat(data.books[i].sales[j].price) >= 100000){
                 records.push({
                   "title":data.books[i].title,
-                  "issue": data.books[i].issue, 
+                  "issue": data.books[i].issue,
                   "pedigree": data.books[i].pedigree,
                   "collection": data.books[i].collection,
                   "provenance": data.books[i].provenance,

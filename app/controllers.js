@@ -13,31 +13,31 @@ angular.module("comicsApp.controllers", ["comicFilters","comicsFactories"]).
             if ($scope.items[i].pedigree){
               if (!_.contains(pedigrees,$scope.items[i].pedigree)){
                 pedigrees.push($scope.items[i].pedigree);
-              }         
+              }
             }
             if ($scope.items[i].publisher){
               if (!_.contains(publishers,$scope.items[i].publisher)){
                 publishers.push($scope.items[i].publisher);
-              }         
+              }
             }
             if ($scope.items[i].sales.length){
               for (var j=0; j < $scope.items[i].sales.length; j++){
 
                 if (!_.contains(venues,$scope.items[i].sales[j].venue)){
                   venues.push($scope.items[i].sales[j].venue);
-                }       
-              }  
-            }  
+                }
+              }
+            }
           }
-          $scope.sort = ["title","issue","-grade"]; 
+          $scope.sort = ["title","issue","-grade"];
           $scope.titles = titles;
           $scope.publishers = publishers;
-          $scope.pedigrees = pedigrees; 
-          $scope.venues = venues; 
+          $scope.pedigrees = pedigrees;
+          $scope.venues = venues;
           $scope.uid = data.books.length;
         });
       $scope.sales = [];
-      $scope.addItem = function(item) { 
+      $scope.addItem = function(item) {
         item.sales = $scope.sales;
         item.uid = $scope.uid;
         $scope.uid++;
@@ -47,12 +47,12 @@ angular.module("comicsApp.controllers", ["comicFilters","comicsFactories"]).
         if (item.pedigree){
           if (!_.contains($scope.pedigrees,item.pedigree)){
             $scope.pedigrees.push(item.pedigree);
-          }         
+          }
         }
         if (item.publisher){
           if (!_.contains($scope.publishers,item.publisher)){
             $scope.publishers.push(item.publisher);
-          }         
+          }
         }
         if (!_.contains($scope.titles,item.title)){
           $scope.titles.push(item.title);
@@ -64,13 +64,13 @@ angular.module("comicsApp.controllers", ["comicFilters","comicsFactories"]).
         }
         $http.post("/data/index.php", angular.toJson(items)).success(function(){
           return;
-        }); 
-      }; 
+        });
+      };
       $scope.addSale = function(sale) {
         $scope.sales.push(_.clone(sale));
         for (var val in sale){
           if (sale.hasOwnProperty(val)){
-            delete sale[val];  
+            delete sale[val];
           }
         }
       };
@@ -79,7 +79,7 @@ angular.module("comicsApp.controllers", ["comicFilters","comicsFactories"]).
           $scope.sort[0] = sort.slice(1);
         }
         if ($scope.sort[0].indexOf(sort) >-1 && $scope.sort[0].indexOf("-") === -1 ) {
-          $scope.sort[0] = "-"+sort; 
+          $scope.sort[0] = "-"+sort;
         } else {
           var tmp = [];
           tmp[0] = sort;
@@ -89,12 +89,12 @@ angular.module("comicsApp.controllers", ["comicFilters","comicsFactories"]).
             }
           }
           $scope.sort = tmp;
-        }     
-      }; 
+        }
+      };
     }
   ]).controller("recordCtrl", ["$scope","dataService",
     function( $scope, dataService )  {
-      "use strict"; 
+      "use strict";
       $scope.items = dataService;
       $scope.sort = "-price";
       $scope.sorter = function(sort){
@@ -106,11 +106,11 @@ angular.module("comicsApp.controllers", ["comicFilters","comicsFactories"]).
         } else {
           $scope.sort = sort;
         }
-      }; 
+      };
     }
   ]).controller("chartCtrl", ["$scope","dataService",
     function( $scope, dataService )  {
-      "use strict";    
+      "use strict";
       $scope.items = dataService;
       $scope.tooltip = {
         price:0
@@ -127,7 +127,7 @@ angular.module("comicsApp.controllers", ["comicFilters","comicsFactories"]).
           provenance:it.provenance,
           grade_src: it.grade_src,
           grade: it.grade
-        }; 
+        };
       };
       $scope.colorPicker= function( venue ){
 
@@ -150,7 +150,7 @@ angular.module("comicsApp.controllers", ["comicFilters","comicsFactories"]).
             return $scope.colors[7];
           default:
             return $scope.colors[8];
-        } 
+        }
       };
       $scope.colors = ["#ECD078","#D95B43","#C02942","#542437","#53777A","#69D2E7","#FA6900", "#FE4365","#666666"];
     }
@@ -177,6 +177,6 @@ angular.module("comicsApp.controllers", ["comicFilters","comicsFactories"]).
         function(data){
           $scope.items = data.books;
           $scope.keys = data.keys;
-        });     
-    } 
+        });
+    }
   ]);

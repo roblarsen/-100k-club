@@ -1,5 +1,7 @@
 
 { "keys" :[
+
+    {"short":"ba","full":"big apple"} ,
     {"short":"bet","full":"bethlehem"},
     {"short":"bos","full":"boston"},
     {"short":"cur","full":"curator"},
@@ -14,7 +16,7 @@
     {"short":"wp","full":"western penn"},
     {"short":"wm","full":"white mountain"},
     {"short":"win","full":"winnipeg"}
- 
+
     ],
     "books" : [
         {
@@ -30,6 +32,7 @@
             "pc":"6.5",
             "tc":"6.0",
             "wm":"9.4",
+            "ba":"FN/VF",
             "pub":"mar"
         },{
             "title":"Amazing Spider-Man #1",
@@ -114,7 +117,8 @@
             "mv":"7.5",
             "sav":"8.0",
             "tc":"4.5",
-            "pub":"dc"
+            "pub":"dc",
+            "ba":"NM"
         },{
             "title":"Flash #123",
             "mv":"8.0 (SP)",
@@ -139,7 +143,8 @@
             "tc":"4.5",
             "wm":"8.0",
             "pub":"mar",
-            "dmt":"8.5"
+            "dmt":"8.5",
+            "ba":"VF-"
         },{
             "title":"JLA #1",
             "bet":"8.0",
@@ -184,8 +189,8 @@
             "bet":"8.0",
             "mv":"FN+",
             "pub":"dc",
-
-        "sav":"4.5"
+            "ba":"VF-",
+            "sav":"4.5"
         }, {
             "title":"Showcase #9",
             "bet":"8.0",
@@ -196,13 +201,15 @@
             "bet":"9.0",
             "mv":"VF",
             "sav":"6.0",
-            "pub":"dc"
+            "pub":"dc",
+            "ba":"VG+"
         }, {
             "title":"Showcase #22",
             "mv":"VF",
             "sav":"8.0",
             "tc":"3.0",
             "wp":"NM/M",
+            "ba":"X",
             "pub":"dc"
         }, {
             "title":"Showcase #34",

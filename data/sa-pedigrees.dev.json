@@ -99,7 +99,7 @@
             "nor":"8.0",
             "tc":"6.5",
             "wm":"9.2",
-            "ma":"9.2"
+            "ma":"9.2",
             "pub":"mar"
         },{
             "title":"Fantastic Four #2",
@@ -223,6 +223,21 @@
             "pub":"dc",
             "cur":"9.0"
         }, {
+            "title":"Strange Tales 101",
+            "pub":"mar",
+            "pc":"9.4",
+            "nor":"9.2",
+            "dmt":"8.0",
+            "tc":"7.5",
+            "wp":"9.6"
+        }, {
+            "title":"Strange Tales 110",
+            "pub":"mar",
+            "pc":"9.6",
+            "nor":"9.4",
+            "tc":"9.4",
+            "dmt":"8.0"
+        }, {
             "title":"Tales of Suspense #39",
             "bet":"9.2/9.4",
             "ma":"9.2",
@@ -235,6 +250,16 @@
         },{
             "title":"Tales to Astonish #27",
             "pc":"6.0",
+            "pub":"mar"
+        },{
+            "title":"Tales to Astonish #35",
+            "dmt":"9.0",
+            "ma":"9.0",
+            "nor":"9.0",
+            "win":"8.0",
+            "tc":"7.5",
+            "wm":"7.0",
+            "wp":"9.6",
             "pub":"mar"
         },{
             "title":"X-Men #1",

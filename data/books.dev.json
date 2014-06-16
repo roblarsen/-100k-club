@@ -1927,6 +1927,11 @@
                "price":"125475",
                "venue":"Heritage",
                "link":"http://comics.ha.com/c/item.zx?saleNo=7013&lotNo=92198"
+            },
+            {
+               "sale_date":"2014-06-13",
+               "price":"320000",
+               "venue":"Comic Connect"
             }
          ],
          "uid":128
@@ -2148,6 +2153,12 @@
          "general_commentary":"slight pro",
          "tags":"marvel,timely,marvel-comics,restored",
          "sales":[
+            {
+               "sale_date":"2014-06-03",
+               "price":"95000",
+               "venue":"Comic Connect",
+               "link":"http://www.comicconnect.com/bookDetail.php?referral=EAlist&id=539348"
+            }
 
          ],
          "uid":140
@@ -4136,6 +4147,12 @@
          "grade":"8.0 (MP)",
          "tags":"batman,dc,restored",
          "sales":[
+            {
+               "sale_date":"2014-06-04",
+               "price":"137000",
+               "venue":"comic connect",
+               "link":"http://www.comicconnect.com/bookDetail.php?referral=EAlist&id=539303"
+            }
 
          ],
          "uid":280
@@ -4287,6 +4304,13 @@
          "grade":"7.0 (MP)",
          "tags":"cgc,restored,superman,action",
          "sales":[
+         {
+               "sale_date":"2014-06-03",
+               "price":"172000",
+               "venue":"Comic Connect",
+               "link":"http://www.comicconnect.com/bookDetail.php?referral=EAlist&id=544821"
+            }
+
          ],
          "uid":291
       },
@@ -4389,6 +4413,39 @@
             }
          ],
          "uid":300
-      },       
+      },
+      {
+         "title":"Flash Comics",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"dc,flash,cgc",
+         "sales":[
+            {
+               "sale_date":"2014-06-03",
+               "price":"182000",
+               "venue":"comicconnect" ,
+               "link":"http://www.comicconnect.com/bookDetail.php?id=539338"
+            }
+         ],
+         "uid":301
+      },      
+      {
+         "title":"Flash Comics",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"dc,flash,cgc",
+         "sales":[
+            {
+               "sale_date":"2014-06-03",
+               "price":"182000",
+               "venue":"comicconnect" ,
+               "link":"http://www.comicconnect.com/bookDetail.php?id=539338"
+            }
+         ],
+         "uid":302
+      }
+               
    ]
 }

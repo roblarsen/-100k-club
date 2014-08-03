@@ -4445,6 +4445,19 @@
             }
          ],
          "uid":302
+      },
+      {
+         "title":"Action Comics",
+         "issue":"1",
+         "publisher":"DC Comics",
+         "cover_date":"1938-04-01",
+         "grade_src":"CGC",
+         "grade":"9.0",
+         "general_commentary":"",
+         "tags":"cgc,superman,action",
+         "sales":[
+         ],
+         "uid":303
       }
                
    ]

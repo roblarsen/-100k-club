@@ -24,16 +24,18 @@ angular.module("comicFilters", []).filter("srcFilter", function() {
   return function (input) {
     if (input !== undefined) {
       var date = input.split("-");
-      var years = date[0] - 1993;
+      var years = date[0] - 1990;
+	  console.log(years);
       var months = (years * 12) + parseInt(date[1]);
-      return 90 + months * 3.3333;
+	  console.log(months);
+      return 64 + (months * 3);
     }
   };
 }).filter("yPrice", function () {
   "use strict";
   return function (input) {
     if (input){
-      return 579 - (input/4699.248120300752);
+      return 673 - (input/5263.15789473684);
     }
   };
 });

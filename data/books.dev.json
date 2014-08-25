@@ -3869,6 +3869,7 @@
          "title":"Tales of Suspense",
          "issue":"39",
          "grade_src":"cgc",
+         "grade":"9.6",
          "tags":"iron-man,marvel,cgc,comiclink",
          "sales":[
             {
@@ -4456,8 +4457,31 @@
          "general_commentary":"",
          "tags":"cgc,superman,action",
          "sales":[
+            {
+               "sale_date":"2014-08-24",
+               "price":"3207852",
+               "venue":"eBay",
+               "link":"http://rover.ebay.com/rover/1/711-53200-19255-0/1?icep_ff3=2&pub=5574761181&toolid=10001&campid=5336141966&customid=&icep_item=311050328393&ipn=psmain&icep_vectorid=229466&kwid=902099&mtid=824&kw=lg"
+            }
          ],
          "uid":303
+      },{
+         "title":"Action Comics",
+         "issue":"1",
+         "publisher":"DC Comics",
+         "grade_src":"CGC",
+         "grade":"8.0 M/E(A-4)",
+         "restoration":"Moderate/Extensive (A-4)",
+         "tags":"cgc,restored,superman,action",
+         "sales":[
+            {
+               "sale_date":"2014-07-07",
+               "price":"167300",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/itm/golden-age-1938-1955-/action-comics-1-dc-1938-cgc-apparent-vf-80-moderate-extensive-a-4-cream-to-off-white-pages/a/7097-91255.s"
+            }
+         ],
+         "uid":304
       }
                
    ]

@@ -3229,7 +3229,11 @@
          "grade":"9.0",
          "tags":"incredible-hulk,cgc,marvel,hulk",
          "sales":[
-
+            {
+               "sale_date":"2014-09-01",
+               "price":"180000",
+               "venue":"High Grade Comics"
+            }
          ],
          "uid":210
       },
@@ -4323,6 +4327,14 @@
          "grade":"6.5 (EP)",
          "tags":"cgc,restored,superman,action",
          "sales":[
+         {
+               "sale_date":"2014-09-09",
+               "price":"130000",
+               "venue":"ComicLink",
+               "link":"http://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F_SORT%3DYES%26Focused%3D1%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2EMaxBid%26ODire3%3DASC%23Item_1023032&id=1023032
+"
+            }
+
          ],
          "uid":292
       },
@@ -4482,6 +4494,31 @@
             }
          ],
          "uid":304
+      },
+      {
+         "title":"Brave and the Bold",
+         "issue":"28",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"dc,jla,cgc",
+         "sales":[
+            {
+               "sale_date":"2014-09-09",
+               "price":"120000",
+               "venue":"Comiclink",
+               "link":"https://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F_SORT%3DYES%26Focused%3D1%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2EMaxBid%26ODire3%3DASC%23Item_1024795&id=1024795"
+            }
+         ],
+         "uid":305
+      },{
+         "title":"Brave and the Bold",
+         "issue":"28",
+         "grade_src":"CGC",
+         "grade":"9.2",
+         "tags":"dc,jla,cgc",
+         "sales":[
+         ],
+         "uid":306
       }
                
    ]

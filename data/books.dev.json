@@ -4519,7 +4519,18 @@
          "sales":[
          ],
          "uid":306
-      }
+      },
+      {
+         "title":"Fantastic Four",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"cgc,marvel,fantastic-four",
+         "sales":[
+
+         ],
+         "uid":307
+      },
                
    ]
 }

@@ -283,6 +283,12 @@
          "grade":"3.0",
          "tags":"cgc,action,superman,dc",
          "sales":[
+            {
+               "sale_date":"2014-11-20",
+               "price":"310000",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/itm/golden-age-1938-1955-/action-comics-1-dc-1938-cgc-gd-vg-30-cream-to-off-white-pages/a/7099-91003.s"
+            }
 
          ],
          "uid":17
@@ -3244,6 +3250,12 @@
          "grade":"9.0",
          "tags":"incredible-hulk,cgc,marvel,hulk",
          "sales":[
+            {
+               "sale_date":"2014-12-08",
+               "price":"178000",
+               "venue":"comic connect",
+               "link":"http://www.comicconnect.com/bookDetail.php?id=536370"   
+            }
 
          ],
          "uid":211
@@ -4531,6 +4543,80 @@
          ],
          "uid":307
       },
-               
+      {
+         "title":"Journey into Mystery",
+         "issue":"83",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"journey-into-mystery,cgc,marvel,thor,kirby",
+         "sales":[
+            {
+               "sale_date":"2014-11-20",
+               "price":"179250.00",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/itm/silver-age-1956-1969-/journey-into-mystery-83-marvel-1962-cgc-nm-94-white-pages/a/7099-91484.s"
+            }
+         ],
+         "uid":308
+      },
+      {
+         "title":"Journey into Mystery",
+         "issue":"83",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"journey-into-mystery,cgc,marvel,thor,kirby",
+         "sales":[
+         ],
+         "uid":309
+      },{
+         "title":"Pep Comics",
+         "issue":"22",
+         "grade_src":"CGC",
+         "grade":"7.0",
+         "tags":"archie,pep-comics",
+         "sales":[
+            {
+               "sale_date":"2014-11-20",
+               "price":"143400",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/itm/golden-age-1938-1955-/pep-comics-22-mlj-1941-cgc-fn-vf-70-off-white-to-white-pages/a/7099-91216.s"
+            }
+         ],
+       "uid":310
+      },
+      {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"6.5 (B-5)",
+         "tags":"batman,dc,restored",
+         "sales":[
+            {
+               "sale_date":"2014-11-20",
+               "price":"107550",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/itm/golden-age-1938-1955-/detective-comics-27-dc-1939-cgc-apparent-fn-65-extensive-b-5-off-white-to-white-pages/a/7099-91118.s"
+            }
+
+         ],
+         "uid":311
+      },
+      {
+         "title":"Captain America Comics",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"6.5",
+         "tags":"captain-america,marvel,timely,golden-age",
+         "sales":[
+            {
+               "sale_date":"2014-11-20",
+               "price":"107550",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/itm/golden-age-1938-1955-/captain-america-comics-1-timely-1941-cgc-fn-65-off-white-to-white-pages/a/7099-91066.s"
+            }
+
+         ],
+         "uid":312
+      }       
    ]
 }

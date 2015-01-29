@@ -317,6 +317,11 @@
                "sale_date":"2009-06-19",
                "price":"121000",
                "venue":"Comic Connect"
+            },
+            {
+               "sale_date":"2015-01-1",
+               "price":"275000",
+               "venue":"ComicLink"
             }
          ],
          "uid":19
@@ -1917,6 +1922,11 @@
                "sale_date":"1900-01-01",
                "price":"117500",
                "venue":"Comiclink"
+            },
+            {
+               "sale_date":"2014-08-01",
+               "price":"326000",
+               "venue":"Comic Connect"
             }
          ],
          "uid":127
@@ -2906,6 +2916,11 @@
          "grade":"9.4",
          "tags":"amazing-spider-man,cgc,spider-man",
          "sales":[
+            {
+               "sale_date":"2014-09-01",
+               "price":"115000",
+               "venue":"Unknown"
+            }
 
          ],
          "uid":190
@@ -2917,6 +2932,11 @@
          "grade":"9.4",
          "tags":"amazing-spider-man,cgc,spider-man",
          "sales":[
+            {
+               "sale_date":"2014-03-01",
+               "price":"119222",
+               "venue":"Unknown"
+            }
 
          ],
          "uid":191
@@ -2943,7 +2963,11 @@
          "grade":"9.8",
          "tags":"avengers,cgc,marvel,captain-america",
          "sales":[
-
+            {
+               "sale_date":"2014-09-01",
+               "price":"115000",
+               "venue":"Unknown"
+            }
          ],
          "uid":193
       },
@@ -4617,6 +4641,83 @@
 
          ],
          "uid":312
-      }       
+      },
+      {
+         "title":"Archie Comics",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"8.0",
+         "tags":"archie",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"2014-8-01",
+               "price":"122567"
+            }
+         ],
+         "uid":313
+      },{
+          "title":"Action Comics",
+         "publisher":"DC Comics",
+         "issue":"1",
+         "cover_date":"1938-04-01",
+         "grade":"6.5",
+         "grade_src":"CBCS",
+         "general_commentary":"",
+         "tags":"cbcs,action,superman",
+         "sales":[],
+         "uid":314
+      },{
+         "title":"Superman",
+         "issue":"1",
+         "grade_src":"CBCS",
+         "grade":"2.5",
+         "tags":"cbcs,superman,dc",
+         "sales":[
+            
+         ],
+         "uid":315
+      },{
+         "title":"Batman",
+         "issue":"1",
+         "grade_src":"CBCS",
+         "grade":"7.5",
+         "tags":"batman,cbcs,dc",
+         "sales":[
+            
+         ],
+         "uid":316
+      },{
+         "title":"Suspense Comics",
+         "issue":"3",
+         "grade_src":"CBCS",
+         "pedigree":"Penn",
+         "grade":"9.0",
+         "tags":"cbcs,pedigree",
+         "sales":[
+            
+         ],
+         "uid":317
+      },{
+         "title":"Journey into Mystery",
+         "issue":"83",
+         "grade_src":"CBCS",
+         "grade":"9.6",
+         "tags":"thor,marvel,cbcs",
+         "sales":[
+
+         ],
+         "uid":318
+      },{
+         "title":"Tales of Suspense",
+         "issue":"39",
+         "grade_src":"CBCS",
+         "grade":"9.4",
+         "tags":"pedigree,iron-man,marvel,cgc",
+         "sales":[
+           
+         ],
+         "uid":319
+      }     
    ]
 }

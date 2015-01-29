@@ -1,6 +1,6 @@
 angular.module("comicFilters", []).filter("srcFilter", function() {
   return function(input) {
-    if (input === "cgc" || input === "pgx" ) {
+    if (input === "cgc" || input === "pgx" || input === "cbcs" ) {
       input = input.toUpperCase();
     }
     return input;

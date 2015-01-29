@@ -196,6 +196,9 @@
        
         </svg> </div>
       <div data-ng-controller="recordCtrl">
+        <div id="filter-box">
+    <label for="filter" class="columns two">Filter the table</label><input type="text" data-ng-model="search" name="filter" class="search-query columns five ng-valid ng-dirty" placeholder="try cgc, batman, heritage or marvel"> <button ng-click="search=''">Reset Filter</button>
+  </div>
         <table class="data">
           <tr>
             <th class="title sortable" data-ng-class="{up:sort=='title', down:sort=='-title'}"data-ng-click="sorter('title')">Title</th>

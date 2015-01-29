@@ -25,10 +25,8 @@ angular.module("comicFilters", []).filter("srcFilter", function() {
     if (input !== undefined) {
       var date = input.split("-");
       var years = date[0] - 1990;
-	  console.log(years);
-      var months = (years * 12) + parseInt(date[1]);
-	  console.log(months);
-      return 64 + (months * 3);
+	    var months = (years * 12) + parseInt(date[1]);
+	    return 64 + (months * 3);
     }
   };
 }).filter("yPrice", function () {

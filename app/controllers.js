@@ -29,6 +29,9 @@ angular.module("comicsApp.controllers", ["comicFilters","comicsFactories"]).
               }
             }
           }
+          if (document.location.search != null){
+            $scope.search = document.location.search.slice(1,document.location.search.length);
+          }
           $scope.sort = ["title","issue","-grade"];
           $scope.titles = titles;
           $scope.publishers = publishers;

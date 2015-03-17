@@ -4684,7 +4684,12 @@
          "grade":"7.5",
          "tags":"batman,cbcs,dc",
          "sales":[
-            
+            {
+               "venue":"Philip Weiss",
+               "sale_date":"2014-1-15",
+               "price":"237000",
+               "link":"http://scoop.diamondgalleries.com/Home/4/1/73/1014?articleID=160584"
+            }
          ],
          "uid":316
       },{

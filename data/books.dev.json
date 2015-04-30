@@ -4772,6 +4772,27 @@
             }
          ],
          "uid":321
+      },
+      {
+         "title":"Avengers",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"cgc,avengers,marvel",
+         "sales":[
+            {
+               "venue":"Unknown",
+               "sale_date":"2013-1-1",
+               "price":"130000"
+            },
+            {
+               "venue":"ComicLink",
+               "sale_date":"2015-4-1",
+               "price":"125000",
+               "link":"http://www.comiclink.com/itemdetail.asp?back=%2Fitems.asp%3Fid%3D4006%26FROM%3D%26TO%3D&id=1056990"
+            }
+         ],
+         "uid":322
       }     
    ]
 }

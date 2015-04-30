@@ -199,6 +199,12 @@
                "sale_date":"2010-09-21",
                "price":"436000",
                "venue":"Comic Connect"
+            },
+            {
+               "sale_date":"2015-03-24",
+               "price":"658000",
+               "venue":"Comic Connect",
+               "link":"http://www.comicconnect.com/bookDetail.php?id=588439"  
             }
          ],
          "uid":11
@@ -1997,7 +2003,7 @@
          "grade_src":"cgc",
          "grade":"9.2 (SP)",
          "general_commentary":"Listed variously as \"NM\" and \"VF\". Was part of a 25,000 cash/trade deal in 1990. $115,000 trade listed in OS27.",
-         "tags":"marvel-comics,timely,marvel,pedigree",
+         "tags":"marvel-comics,timely,restored,marvel,pedigree",
          "sales":[
             {
                "sale_date":"2009-05-21",
@@ -2007,6 +2013,11 @@
                "price":"111000",
                "venue":"pedigree",
                "link":"http://www.pedigreecomics.com/detail.php?issue_id=40571"
+            },{
+               "sale_date":"2015-3-26",
+               "price":"117939",
+               "venue":"comic connect",
+               "link":"http://www.comicconnect.com/bookDetail.php?id=598368"
             }
          ],
          "uid":132
@@ -3513,6 +3524,13 @@
                "sale_date":"2012-12-10",
                "price":"111000",
                "venue":"Unknown"
+            },
+            {
+               "link":"http://www.comicconnect.com/bookDetail.php?id=592448",
+               "sale_date":"2015-26-2015",
+               "price":"135000",
+               "venue":"Comic Connect"
+
             }
          ],
          "uid":229
@@ -4017,7 +4035,6 @@
          "grade_src":"CGC",
          "grade":"5.0",
          "tags":"action,superman,dc",
-          "general_commentary":"Listed for $660000 at Metropolis.",
          "sales":[
          ],
          "uid":268
@@ -4686,7 +4703,7 @@
          "sales":[
             {
                "venue":"Philip Weiss",
-               "sale_date":"2014-1-15",
+               "sale_date":"2015-1-15",
                "price":"237000",
                "link":"http://scoop.diamondgalleries.com/Home/4/1/73/1014?articleID=160584"
             }
@@ -4723,6 +4740,38 @@
            
          ],
          "uid":319
+      },
+      {
+         "title":"Action Comics",
+         "issue":"2",
+         "grade_src":"CGC",
+         "grade":"9.4(C)",
+         "tags":"cgc,action-comics,conserved,dc",
+         "sales":[
+            {
+               "venue":"Comic Connect",
+               "sale_date":"2015-3-24",
+               "price":"237000",
+               "link":"http://www.comicconnect.com/bookDetail.php?id=592806"
+            }
+         ],
+         "uid":320
+      },
+      {
+         "title":"Action Comics",
+         "issue":"13",
+         "grade_src":"CGC",
+         "grade":"8.0",
+         "tags":"cgc,action-comics,dc",
+         "sales":[
+            {
+               "venue":"Comic Connect",
+               "sale_date":"2015-3-24",
+               "price":"102001",
+               "link":"http://www.comicconnect.com/bookDetail.php?id=592797"
+            }
+         ],
+         "uid":321
       }     
    ]
 }

@@ -3110,12 +3110,12 @@
          "grade":"6.5",
          "tags":"batman,detective-comics,dc",
          "sales":[
-           /* {
+           {
                "sale_date":"2015-04-29",
                "price":"725000",
                "venue":"Comic Connect",
                "link":"http://www.comicconnect.com/bookDetail.php?id=419786"
-            }*/
+            }
          ],
          "uid":197
       },

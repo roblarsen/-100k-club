@@ -28,7 +28,7 @@
             {
                "price":"1500000",
                "sale_date":"2010-03-29",
-               "venue":"Comic Connect",
+               "venue":"ComicConnect",
                "link":"http://www.comicconnect.com/bookDetail.php?id=333815"
             }
          ],
@@ -47,7 +47,7 @@
             {
                "sale_date":"2010-02-22",
                "price":"1000000",
-               "venue":"Comic Connect",
+               "venue":"ComicConnect",
                "link":"http://www.comicconnect.com/bookDetail.php?id=330734"
             }
          ],
@@ -113,7 +113,7 @@
                "price":"2161000",
                "link":"http://www.comicconnect.com/bookDetail.php?id=432101",
                "sale_date":"2011-11-30",
-               "venue":"Comic Connect"
+               "venue":"ComicConnect"
             },
             {
                "sale_date":"1992-01-01",
@@ -166,7 +166,7 @@
             {
                "sale_date":"2010-03-13",
                "price":"317200",
-               "venue":"Comic Connect"
+               "venue":"ComicConnect"
             }
          ],
          "uid":9
@@ -198,12 +198,12 @@
             {
                "sale_date":"2010-09-21",
                "price":"436000",
-               "venue":"Comic Connect"
+               "venue":"ComicConnect"
             },
             {
                "sale_date":"2015-03-24",
                "price":"658000",
-               "venue":"Comic Connect",
+               "venue":"ComicConnect",
                "link":"http://www.comicconnect.com/bookDetail.php?id=588439"  
             }
          ],
@@ -237,7 +237,7 @@
             {
                "sale_date":"2011-08-09",
                "price":"345000",
-               "venue":"Comic Connect"
+               "venue":"ComicConnect"
             }
          ],
          "uid":13
@@ -276,7 +276,7 @@
             {
                "sale_date":"2010-04-01",
                "price":"300000",
-               "venue":"Comic Connect"
+               "venue":"ComicConnect"
             }
          ],
          "uid":16
@@ -322,7 +322,7 @@
             {
                "sale_date":"2009-06-19",
                "price":"121000",
-               "venue":"Comic Connect"
+               "venue":"ComicConnect"
             },
             {
                "sale_date":"2015-01-1",
@@ -421,7 +421,7 @@
             {
                "sale_date":"2011-08-09",
                "price":"258000",
-               "venue":"Comic Connect"
+               "venue":"ComicConnect"
             }
          ],
          "uid":26
@@ -437,7 +437,7 @@
             {
                "sale_date":"2011-08-09",
                "price":"185000",
-               "venue":"Comic Connect"
+               "venue":"ComicConnect"
             }
          ],
          "uid":27
@@ -538,7 +538,7 @@
             {
                "sale_date":"2011-03-09",
                "price":"1100000",
-               "venue":"Comic Connect",
+               "venue":"ComicConnect",
                "link":"http://www.comicconnect.com/load_page.php?page=amazing_fantasy_15"
             }
          ],
@@ -1395,7 +1395,7 @@
             {
                "sale_date":"2011-08-09",
                "price":"343057",
-               "venue":"Comic Connect"
+               "venue":"ComicConnect"
             }
          ],
          "uid":90
@@ -1710,7 +1710,7 @@
             {
                "sale_date":"2012-08-14",
                "price":"287000",
-               "venue":"Comic Connect",
+               "venue":"ComicConnect",
                "link":"http://www.comicconnect.com/bookDetail.php?id=350383"
             }
          ],
@@ -1820,7 +1820,7 @@
             {
                "sale_date":"2011-08-09",
                "price":"194000",
-               "venue":"Comic Connect"
+               "venue":"ComicConnect"
             }
          ],
          "uid":119
@@ -1932,7 +1932,7 @@
             {
                "sale_date":"2014-08-01",
                "price":"326000",
-               "venue":"Comic Connect"
+               "venue":"ComicConnect"
             }
          ],
          "uid":127
@@ -1953,7 +1953,7 @@
             {
                "sale_date":"2014-06-13",
                "price":"320000",
-               "venue":"Comic Connect"
+               "venue":"ComicConnect"
             }
          ],
          "uid":128
@@ -2016,7 +2016,7 @@
             },{
                "sale_date":"2015-3-26",
                "price":"117939",
-               "venue":"comic connect",
+               "venue":"ComicConnect",
                "link":"http://www.comicconnect.com/bookDetail.php?id=598368"
             }
          ],
@@ -2183,7 +2183,7 @@
             {
                "sale_date":"2014-06-03",
                "price":"95000",
-               "venue":"Comic Connect",
+               "venue":"ComicConnect",
                "link":"http://www.comicconnect.com/bookDetail.php?referral=EAlist&id=539348"
             }
 
@@ -2429,7 +2429,7 @@
                "sale_date":"2008-09-29",
                "price":"160200",
                "link":"",
-               "venue":"Comic Connect"
+               "venue":"ComicConnect"
             }
          ],
          "uid":154
@@ -2620,7 +2620,7 @@
             {
                "sale_date":"2011-04-01",
                "price":"200000",
-               "venue":"Comic Connect"
+               "venue":"ComicConnect"
             },
             {
                "sale_date":"2013-07-01",
@@ -3111,9 +3111,9 @@
          "tags":"batman,detective-comics,dc",
          "sales":[
            {
-               "sale_date":"2015-04-29",
+               "sale_date":"2015-06-1",
                "price":"725000",
-               "venue":"Comic Connect",
+               "venue":"ComicConnect",
                "link":"http://www.comicconnect.com/bookDetail.php?id=419786"
             }
          ],
@@ -3137,7 +3137,11 @@
          "grade":"4.0",
          "tags":"batman,detective-comics,dc",
          "sales":[
-
+          {
+            "sale_date":"2015-05-1",
+            "price":"475000",
+            "venue":"ComicConnect",
+           }
          ],
          "uid":199
       },
@@ -3293,7 +3297,7 @@
             {
                "sale_date":"2014-12-08",
                "price":"178000",
-               "venue":"comic connect",
+               "venue":"ComicConnect",
                "link":"http://www.comicconnect.com/bookDetail.php?id=536370"   
             }
 
@@ -3534,7 +3538,7 @@
                "link":"http://www.comicconnect.com/bookDetail.php?id=592448",
                "sale_date":"2015-26-2015",
                "price":"135000",
-               "venue":"Comic Connect"
+               "venue":"ComicConnect"
 
             }
          ],
@@ -4055,7 +4059,7 @@
             {
                "sale_date":"2013-9-13",
                "price":"427111",
-               "venue":"Comic Connect"
+               "venue":"ComicConnect"
             }
          ],
          "uid":268
@@ -4213,7 +4217,7 @@
             {
                "sale_date":"2014-06-04",
                "price":"137000",
-               "venue":"comic connect",
+               "venue":"ComicConnect",
                "link":"http://www.comicconnect.com/bookDetail.php?referral=EAlist&id=539303"
             }
 
@@ -4370,7 +4374,7 @@
          {
                "sale_date":"2014-06-03",
                "price":"172000",
-               "venue":"Comic Connect",
+               "venue":"ComicConnect",
                "link":"http://www.comicconnect.com/bookDetail.php?referral=EAlist&id=544821"
             }
 
@@ -4754,7 +4758,7 @@
          "tags":"cgc,action-comics,conserved,dc",
          "sales":[
             {
-               "venue":"Comic Connect",
+               "venue":"ComicConnect",
                "sale_date":"2015-3-24",
                "price":"92111",
                "link":"http://www.comicconnect.com/bookDetail.php?id=592806"
@@ -4770,7 +4774,7 @@
          "tags":"cgc,action-comics,dc",
          "sales":[
             {
-               "venue":"Comic Connect",
+               "venue":"ComicConnect",
                "sale_date":"2015-3-24",
                "price":"102001",
                "link":"http://www.comicconnect.com/bookDetail.php?id=592797"
@@ -4798,6 +4802,33 @@
             }
          ],
          "uid":322
-      }     
+      },
+            {
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"cgc",
+         "grade":"9.2",
+         "tags":"batman,detective-comics,dc",
+          "general_commentary": "Of uncertain origin. Potentially two other books on this list (the FN68 copy or the 8.0 Mastro copy) or potentially a new copy.",
+         "sales":[
+
+         ],
+         "uid":323
+      },{
+         "title":"Detective Comics",
+         "issue":"27",
+         "grade_src":"CBCS",
+         "grade":"3.0",
+         "tags":"cbcs,batman,detective-comics,dc",
+         "sales":[
+           {
+               "venue":"ComicConnect",
+               "sale_date":"2015-6-3",
+               "price":"305000",
+               "link":"http://www.comicconnect.com/bookDetail.php?referral=EAlist&id=611297&title=DETECTIVECOMICS"
+            } 
+         ],
+         "uid":324
+      }    
    ]
 }

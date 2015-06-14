@@ -121,7 +121,7 @@ angular.module("comicsApp.controllers", ["comicFilters","comicsFactories"]).
         switch (venue) {
           case "Heritage":
             return $scope.colors[0];
-          case  "Comic Connect":
+          case  "ComicConnect":
             return $scope.colors[1];
           case "Comiclink":
             return $scope.colors[2];

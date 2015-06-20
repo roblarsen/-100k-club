@@ -39,8 +39,17 @@ angular.module("comicFilters", []).filter("srcFilter", function() {
 }).filter("gradeFilter", function () {
   "use strict";
   return function (input) {
+    console.log(input)
+
     if (input){
-      return input * 2;
+    ///  if (input >= 9) {
+        return input * 2
+     // } else if ( input >= 6 < 9){
+       // return input * 1.5
+      //}
+      //else {
+      //  return input * 1.3
+      }
     }
   };
 });

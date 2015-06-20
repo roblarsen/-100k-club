@@ -36,4 +36,11 @@ angular.module("comicFilters", []).filter("srcFilter", function() {
       return 673 - (input/5263.15789473684);
     }
   };
+}).filter("gradeFilter", function () {
+  "use strict";
+  return function (input) {
+    if (input){
+      return input * 2;
+    }
+  };
 });

@@ -169,4 +169,35 @@ angular.module("comicsApp.controllers", ["comicFilters","comicsFactories"]).
           $scope.keys = data.keys;
         });
     }
+  ]).controller("actionTecChartCtrl", ["$scope","tecService",
+    function( $scope, tecService ) {
+      "use strict";
+      $scope.items = tecService;
+      $scope.tooltip = {
+        price:0
+      };
+      $scope.updateTooltip = function(it) {
+        $scope.tooltip = {
+          price:it.price || 0,
+          venue:it.venue,
+          date:it.date,
+          title:it.title,
+          issue:it.issue,
+          pedigree:it.pedigree,
+          collection:it.collection,
+          provenance:it.provenance,
+          grade_src: it.grade_src,
+          grade: it.grade
+        };
+      };
+      $scope.colorPicker= function( title ){
+        switch (title) {
+          case "Action Comics":
+            return $scope.colors[0];
+          case  "Detective Comics":
+            return $scope.colors[1];
+        }
+      };
+      $scope.colors = ["#D95B43","#3A05FA"];
+    }
   ]);

@@ -29,6 +29,16 @@ angular.module("comicFilters", []).filter("srcFilter", function() {
 	    return 64 + (months * 3);
     }
   };
+}).filter("xxDate", function () {
+  "use strict";
+  return function (input) {
+    if (input !== undefined) {
+      var date = input.split("-");
+      var years = date[0] - 2010;
+      var months = (years * 12) + parseInt(date[1]); 
+      return 64 + (months * 12);
+    }
+  };
 }).filter("yPrice", function () {
   "use strict";
   return function (input) {
@@ -39,8 +49,6 @@ angular.module("comicFilters", []).filter("srcFilter", function() {
 }).filter("gradeFilter", function () {
   "use strict";
   return function (input) {
-    console.log(input)
-
     if (input){
     ///  if (input >= 9) {
         return input * 2
@@ -49,7 +57,7 @@ angular.module("comicFilters", []).filter("srcFilter", function() {
       //}
       //else {
       //  return input * 1.3
-      }
+      //}
     }
   };
 });

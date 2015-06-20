@@ -34,7 +34,7 @@ angular.module("comicsFactories", [])
     $http({"method" : "GET", "url" : "/data/books.json"}).success(
         function(data){
         for (var i = 0, len = data.books.length; i < len; i++){
-          if (data.books[i].sales.length && ((data.books[i].title == "Detective Comics" && data.books[i].issue == "27") || (data.books[i].title == "Action Comics" && data.books[i].issue == "1"))){
+          if (data.books[i].sales.length && data.books[i].grade && ((data.books[i].title == "Detective Comics" && data.books[i].issue == "27") || (data.books[i].title == "Action Comics" && data.books[i].issue == "1"))){
             for (var j = 0, l = data.books[i].sales.length; j < l; j++){
               if (parseFloat(data.books[i].sales[j].price) >= 100000){
                 records.push({

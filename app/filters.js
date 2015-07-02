@@ -36,7 +36,7 @@ angular.module("comicFilters", []).filter("srcFilter", function() {
       var date = input.split("-");
       var years = date[0] - 2010;
       var months = (years * 12) + parseInt(date[1]); 
-      return 64 + (months * 12);
+      return 86 + (months * 12);
     }
   };
 }).filter("yPrice", function () {

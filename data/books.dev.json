@@ -78,7 +78,7 @@
          "sales":[
 
          ],
-         "uid":4,
+         "uid":"0004",
          "tags":"dc,pedigree,superman,action"
       },
       {
@@ -370,7 +370,7 @@
          "sales":[
 
          ],
-         "uid":22,
+         "uid":"0022",
          "tags":"action,superman,pedigree,dc"
       },
       {

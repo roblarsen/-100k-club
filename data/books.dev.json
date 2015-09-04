@@ -2759,7 +2759,12 @@
          "grade_src":"CGC",
          "grade":"9.0",
          "tags":"spider-man,amazing-fantasy,cgc,marvel",
-         "sales":[
+         "sales":[{
+               "sale_date":"2015-07-01",
+               "price":"200000",
+               "venue":"ComicLink",
+               "link":"http://www.comiclink.com/itemdetail.asp?id=1068632&showprice=1&next=%2FComicTrack%2FAdmin%2FCL%2Fmatches%2Easp%3FTITLE%3DAMAZING%2BFANTASY%26ISSUENUMBER%3D15%26Artist1%3D%26Artist2%3D%26PRICEFROM%3D%26ORDERNUMBER%3D%26DATEFROM%3D%26DATETO%3D%26SELLER%3D%26SELLERID%3D%26BUYER%3D%26BUYERID%3D%26BUYERSTATE%3D--%26PEDIGREE%3D%26CGCCOMMENT%3D%26SELLERCOMMENT%3D%26TYPE%3D0%26FILTER%3D%26Payment%3D%26Verified%3D%26Shipped%3D%26SPBP%3D%26SPBP2%3D%26SearchConditionFrom%3D09%2E0%26SearchConditionTo%3D"
+            }
 
          ],
          "uid":"0177"

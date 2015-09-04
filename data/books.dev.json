@@ -2943,10 +2943,17 @@
          "tags":"captain-america,marvel,avengers,cgc",
          "sales":[
             {
-               "sale_date":"2013-01-01",
+               "sale_date":"2013-09-14",
                "price":"120000",
-               "venue":"Unknown"
+               "venue":"Pedigree"
+            },
+             {
+               "sale_date":"2012-08-14",
+               "price":"120000",
+               "venue":"ComicConnect",
+               "link":"http://www.comicconnect.com/bookDetail.php?id=462509"
             }
+            
          ],
          "uid":"0192"
       },

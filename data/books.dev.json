@@ -3519,7 +3519,7 @@
             },
             {
                "link":"http://www.comicconnect.com/bookDetail.php?id=592448",
-               "sale_date":"2015-26-2015",
+               "sale_date":"2015-03-26",
                "price":"135000",
                "venue":"ComicConnect"
 
@@ -4709,6 +4709,12 @@
          "grade":"9.0",
          "tags":"cbcs,pedigree",
          "sales":[
+         {
+               "venue":"Heritage",
+               "sale_date":"2015-08-27",
+               "price":"173275",
+               "link":"http://comics.ha.com/itm/golden-age-1938-1955-/suspense-comics-3-pennsylvania-pedigree-continental-magazines-1944-cbcs-vf-nm-90-white-pages/a/7147-91014.s?ic4=ListView-ShortDescription-071515"
+            }
             
          ],
          "uid":"0317"
@@ -4779,7 +4785,7 @@
             },
             {
                "venue":"ComicLink",
-               "sale_date":"2015-04-1",
+               "sale_date":"2015-04-01",
                "price":"125000",
                "link":"http://www.comiclink.com/itemdetail.asp?back=%2Fitems.asp%3Fid%3D4006%26FROM%3D%26TO%3D&id=1056990"
             }
@@ -4806,7 +4812,7 @@
          "sales":[
            {
                "venue":"ComicConnect",
-               "sale_date":"2015-06-3",
+               "sale_date":"2015-06-03",
                "price":"305000",
                "link":"http://www.comicconnect.com/bookDetail.php?referral=EAlist&id=611297&title=DETECTIVECOMICS"
             } 
@@ -4828,7 +4834,23 @@
             }
          ],
          "uid":"0325"
-      }
+      },
+      {
+         "title":"All American Comics",
+         "issue":"16",
+         "grade_src":"CGC",
+         "grade":"6.5",
+         "tags":"green-lantern,cgc,pedigree,heritage,dc",
+         "sales":[
+            {
+               "sale_date":"2015-08-27",
+               "price":"110537.50",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/itm/golden-age-1938-1955-/all-american-comics-16-dc-1940-cgc-fn-65-cream-to-off-white-pages/a/7147-91029.s?ic4=ListView-ShortDescription-071515"
+            }
+        ],
+         "uid":"0326"
+      },
    ]
 
 }

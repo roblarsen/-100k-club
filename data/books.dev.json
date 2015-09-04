@@ -4869,7 +4869,31 @@
             }
         ],
          "uid":"0326"
-      },
+      },{
+         "title":"Tales to Astonish",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"marvel,ant-man,tales-to-astonish,silver-age",
+         "sales":[
+            {
+               "sale_date":"2015-01-01",
+               "price":"200000",
+               "venue":"Unknown"
+            }
+        ],
+         "uid":"0327"
+      },{
+         "title":"Tales to Astonish",
+         "issue":"27",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"marvel,ant-man,tales-to-astonish,silver-age",
+         "sales":[
+         
+        ],
+         "uid":"0328"
+      }
    ]
 
 }

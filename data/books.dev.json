@@ -914,6 +914,12 @@
          "grade":"9.6",
          "tags":"avengers,cgc,marvel",
          "sales":[
+         {
+               "venue":"Heritage",
+               "sale_date":"2015-11-19",
+               "price":"215100",
+               "link":"http://comics.ha.com/itm/silver-age-1956-1969-/the-avengers-1-marvel-1963-cgc-nm-96-off-white-to-white-pages/a/7152-91210.s?ic4=ListView-ShortDescription-071515"
+            }
 
          ],
          "uid":"0057"
@@ -3207,7 +3213,12 @@
          "grade":"9.0",
          "tags":"fantastic-four,cgc,marvel,kirby",
          "sales":[
-
+            {
+               "sale_date":"2015-11-19",
+               "price":"143400",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/itm/silver-age-1956-1969-/fantastic-four-1-marvel-1961-cgc-vf-nm-90-off-white-to-white-pages/a/7152-91240.s"   
+            }
          ],
          "uid":"0205"
       },
@@ -3218,6 +3229,12 @@
          "grade":"9.0",
          "tags":"fantastic-four,cgc,marvel,kirby",
          "sales":[
+            {
+               "sale_date":"2012-12-06",
+               "price":"145400",
+               "link":"http://www.comicconnect.com/bookDetail.php?id=474144",
+               "venue":"ComicConnect"
+            }
 
          ],
          "uid":"0206"
@@ -4744,7 +4761,13 @@
          "grade":"9.6",
          "tags":"thor,marvel,cbcs",
          "sales":[
-
+{
+               "venue":"Heritage",
+               "sale_date":"2015-11-19",
+               "price":"215100",
+               "link":"http://comics.ha.com/itm/silver-age-1956-1969-/journey-into-mystery-83-marvel-1962-cbcs-nm-96-white-pages/a/7152-91288.s?ic4=ListView-ShortDescription-071515"
+            }
+         
          ],
          "uid":"0318"
       },{
@@ -4752,7 +4775,7 @@
          "issue":"39",
          "grade_src":"CBCS",
          "grade":"9.4",
-         "tags":"pedigree,iron-man,marvel,cgc",
+         "tags":"iron-man,marvel,cgc",
          "sales":[
            
          ],
@@ -4893,6 +4916,22 @@
          
         ],
          "uid":"0328"
+      },
+      {
+         "title":"Tales of Suspense",
+         "issue":"39",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"iron-man,marvel,cgc",
+         "sales":[      {
+               "venue":"Heritage",
+               "sale_date":"2015-11-19",
+               "price":"89625",
+               "link":"http://comics.ha.com/itm/silver-age-1956-1969-/tales-of-suspense-39-marvel-1963-cgc-nm-94-off-white-to-white-pages/a/7152-91319.s?ic4=ListView-ShortDescription-071515"
+            }
+           
+         ],
+         "uid":"0329"
       }
    ]
 

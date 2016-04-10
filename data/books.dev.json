@@ -629,39 +629,6 @@
          "title":"Amazing Fantasy",
          "issue":"15",
          "grade_src":"CGC",
-         "grade":"9.4",
-         "tags":"amazing-fantasy,marvel,spider-man,cgc",
-         "sales":[
-
-         ],
-         "uid":"0037"
-      },
-      {
-         "title":"Amazing Fantasy",
-         "issue":"15",
-         "grade_src":"CGC",
-         "grade":"9.4",
-         "tags":"amazing-fantasy,marvel,spider-man,cgc",
-         "sales":[
-
-         ],
-         "uid":"0038"
-      },
-      {
-         "title":"Amazing Fantasy",
-         "grade":"9.4",
-         "grade_src":"CGC",
-         "issue":"15",
-         "tags":"amazing-fantasy,marvel,spider-man,cgc",
-         "sales":[
-
-         ],
-         "uid":"0039"
-      },
-      {
-         "title":"Amazing Fantasy",
-         "issue":"15",
-         "grade_src":"CGC",
          "grade":"9.2",
          "tags":"amazing-fantasy,marvel,spider-man,cgc",
          "sales":[
@@ -2854,9 +2821,12 @@
          "grade_src":"CGC",
          "grade":"9.4",
          "tags":"amazing-spider-man,cgc,spider-man",
-         "sales":[
-
-         ],
+         "sales":[{
+               "sale_date":"2016-02-18",
+               "price":"110537.50",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/itm/silver-age-1956-1969-/the-amazing-spider-man-1-marvel-1963-cgc-nm-94-off-white-pages/a/7124-91115.s"
+         }],
          "uid":"0184"
       },
       {
@@ -4959,7 +4929,88 @@
          "sales":[
          ],
          "uid":"0331"
-      }
+      },
+      {
+         "title":"X-Men",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.6",
+         "tags":"x-men,marvel",
+         "sales":[
+            {
+               "sale_date":"2016-02-24",
+               "price":"350000",
+               "venue":"Comiclink"
+            },
+            {
+               "sale_date":"2013-07-01",
+               "price":"250000",
+               "venue":"Unknown"
+            }
+         ],
+         "uid":"0332"
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "tags":"amazing-fantasy,marvel,spider-man,cgc",
+         "sales":[
+            {
+               "sale_date":"2016-02-18",
+               "price":"454100",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/itm/silver-age-1956-1969-/amazing-fantasy-15-marvel-1962-cgc-nm-94-off-white-pages/a/7124-91113.s"
+            }
+         ],
+         "uid":"0333"
+      },
+            {
+         "title":"Detective Comics",
+         "grade":"4.5",
+         "grade_src":"CBCS",
+         "issue":"27",
+         "tags":"detective-comics,batman,dc,cbcs",
+         "restoration":"Moderate/Extensive (A-4)",
+         "restoration":"EA",
+         "sales":[
+         {
+               "sale_date":"2016-02-18",
+               "price":"167300",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/itm/golden-age-1938-1955-/detective-comics-27-dc-1939-cbcs-restored-vg-45-extensive-amateur-off-white-pages/a/7124-91043.s"
+            }
+
+         ],
+         "uid":"0037"
+      },
+      {
+         "tags":"avengers,marvel,cgc",
+         "title":"Avengers",
+         "issue":"1",
+         "grade_src":"CGC",
+         "grade":"9.4",
+         "sales":[{
+               "sale_date":"2016-02-18",
+               "price":"98588",
+               "venue":"Heritage",
+               "link":"http://comics.ha.com/itm/silver-age-1956-1969-/the-amazing-spider-man-1-marvel-1963-cgc-nm-94-off-white-pages/a/7124-91115.s"
+         }
+         ],
+         "uid":"0038"
+      }/*,
+            {
+         "title":"Amazing Fantasy",
+         "grade":"9.4",
+         "grade_src":"CGC",
+         "issue":"15",
+         "tags":"amazing-fantasy,marvel,spider-man,cgc",
+         "sales":[
+
+         ],
+         "uid":"0039"
+      },*/
    ]
 
 }

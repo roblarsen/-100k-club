@@ -3610,13 +3610,16 @@
          "uid":"0236"
       },
       {
-         "title":"superman",
+         "title":"Superman",
          "issue":"1",
          "grade_src":"cgc",
          "grade":"4.0",
          "tags":"superman,dc",
-         "sales":[
-
+         "sales":[{
+            "sale_date":"2013-08-15",
+            "price":"145000",
+            "venue":"Unknown",
+            }
          ],
          "uid":"0237"
       },
@@ -4972,7 +4975,6 @@
          "grade_src":"CBCS",
          "issue":"27",
          "tags":"detective-comics,batman,dc,cbcs",
-         "restoration":"Moderate/Extensive (A-4)",
          "restoration":"EA",
          "sales":[
          {
@@ -4999,18 +5001,19 @@
          }
          ],
          "uid":"0038"
-      }/*,
-            {
-         "title":"Amazing Fantasy",
-         "grade":"9.4",
-         "grade_src":"CGC",
-         "issue":"15",
-         "tags":"amazing-fantasy,marvel,spider-man,cgc",
-         "sales":[
-
+      }, {
+         "title":"Superman",
+         "issue":"1",
+         "grade_src":"cgc",
+         "grade":"4.0",
+         "tags":"superman,dc",
+         "sales":[{
+               "sale_date":"2016-01-22",
+               "price":"295000",
+               "venue":"Heritage"
+            }
          ],
          "uid":"0039"
-      },*/
+         }
    ]
-
 }

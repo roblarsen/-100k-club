@@ -4929,10 +4929,26 @@
                "price":"89625",
                "link":"http://comics.ha.com/itm/silver-age-1956-1969-/tales-of-suspense-39-marvel-1963-cgc-nm-94-off-white-to-white-pages/a/7152-91319.s?ic4=ListView-ShortDescription-071515"
             }
-           
          ],
          "uid":"0329"
-      }
+      },
+      {
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "grade_src":"CBCS",
+         "grade":"9.0",
+         "general_commentary":"",
+         "tags":"amazing-fantasy,marvel,spider-man,cbcs",
+         "sales":[
+            {
+               "sale_date":"2016-03-28",
+               "price":"237000",
+               "venue":"ComicConnect",
+               "link":"http://www.comicconnect.com/bookDetail.php?id=651409"
+            }
+         ],
+         "uid":"0330"
+      },
    ]
 
 }

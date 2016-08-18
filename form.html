@@ -277,6 +277,9 @@ angular.module('comicsApp.controllers', ['comicFilters']).
           len = items.length;
         for ( var i = 0; i <len; i++){
           delete items[i]["$$hashKey"];
+					for ( var j = 0; j <items[i].sales.length; i++){
+						delete items[i].sales[j]["$$hashKey"];
+					}
         }
         $http.post('data/index.php', JSON.stringify(items)).success(function(data){console.log("200");
         }); 

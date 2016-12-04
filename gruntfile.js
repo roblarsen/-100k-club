@@ -3,20 +3,20 @@ module.exports = function (grunt) {
     pkg: grunt.file.readJSON("package.json"),
     concat: {
       js: {
-        src: ["app/*"],
-        dest: "js/100k.full.js"
+        src: ["_assets/app/*"],
+        dest: "_assets/js/100k.full.js"
       }
     },
     ngmin: {
       js: {
-        src: "js/100k.full.js",
-        dest: "js/100k.js"
+        src: "_assets/js/100k.full.js",
+        dest: "_assets/js/100k.js"
       }
     },
     uglify: {
       js: {
         files: {
-          "js/100k.js": ["js/100k.js"]
+          "_assets/js/100k.js": ["_assets/js/100k.js"]
         }
       }
     },
@@ -29,17 +29,12 @@ module.exports = function (grunt) {
       }
     },
     watch: {
-      files: ["data/books.dev.json","data/sa-pedigrees.dev.json", "app/*"],
+      files: ["data/books.dev.json","data/sa-pedigrees.dev.json", "_assets/app/*"],
       tasks: ["concat", "ngmin", "minjson", "uglify","clean"]
     },
-    shell: {
-      server: {
-        command: "node ./web-server.js &"
-      }
-    },
-    clean: ["js/100k.full.js"],
+    clean: ["_assets/js/100k.full.js"],
     jshint: {
-      files: ["gruntfile.js", "app/*.js"],
+      files: ["gruntfile.js", "_assets/app/*.js"],
       options: {
         passfail:false,
         maxerr: 100,

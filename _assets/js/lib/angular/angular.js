@@ -1591,7 +1591,7 @@ function JQLite(element) {
     var div = document.createElement('div');
     // Read about the NoScope elements here:
     // http://msdn.microsoft.com/en-us/library/ms533897(VS.85).aspx
-    div.innerHTML = '<div>&#160;</div>' + element; // IE insanity to make NoScope elements work!
+    div.innerHTML = '<div> </div>' + element; // IE insanity to make NoScope elements work!
     div.removeChild(div.firstChild); // remove the superfluous div
     JQLiteAddNodes(this, div.childNodes);
     this.remove(); // detach the elements from the temporary DOM div.
@@ -7191,11 +7191,11 @@ function $RouteProvider(){
        <file name="index.html">
          <div ng-controller="MainCntl">
            Choose:
-           <a href="Book/Moby">Moby</a> |
-           <a href="Book/Moby/ch/1">Moby: Ch1</a> |
-           <a href="Book/Gatsby">Gatsby</a> |
-           <a href="Book/Gatsby/ch/4?key=value">Gatsby: Ch4</a> |
-           <a href="Book/Scarlet">Scarlet Letter</a><br/>
+           <a href="../../../../lib/angular/Book/Moby">Moby</a> |
+           <a href="../../../../lib/angular/Book/Moby/ch/1">Moby: Ch1</a> |
+           <a href="../../../../lib/angular/Book/Gatsby">Gatsby</a> |
+           <a href="../../../../lib/angular/Book/Gatsby/ch/4?key=value">Gatsby: Ch4</a> |
+           <a href="../../../../lib/angular/Book/Scarlet">Scarlet Letter</a><br/>
 
            <div ng-view></div>
            <hr />
@@ -12711,7 +12711,7 @@ var ngClassOddDirective = classDirective('Odd', 0);
         <ol ng-init="names=['John', 'Mary', 'Cate', 'Suz']">
           <li ng-repeat="name in names">
            <span ng-class-odd="'odd'" ng-class-even="'even'">
-             {{name}} &nbsp; &nbsp; &nbsp;
+             {{name}}      
            </span>
           </li>
         </ol>
@@ -14067,11 +14067,11 @@ var ngTranscludeDirective = ngDirective({
       <file name="index.html">
         <div ng-controller="MainCntl">
           Choose:
-          <a href="Book/Moby">Moby</a> |
-          <a href="Book/Moby/ch/1">Moby: Ch1</a> |
-          <a href="Book/Gatsby">Gatsby</a> |
-          <a href="Book/Gatsby/ch/4?key=value">Gatsby: Ch4</a> |
-          <a href="Book/Scarlet">Scarlet Letter</a><br/>
+          <a href="../../../../lib/angular/Book/Moby">Moby</a> |
+          <a href="../../../../lib/angular/Book/Moby/ch/1">Moby: Ch1</a> |
+          <a href="../../../../lib/angular/Book/Gatsby">Gatsby</a> |
+          <a href="../../../../lib/angular/Book/Gatsby/ch/4?key=value">Gatsby: Ch4</a> |
+          <a href="../../../../lib/angular/Book/Scarlet">Scarlet Letter</a><br/>
 
           <div ng-view></div>
           <hr />

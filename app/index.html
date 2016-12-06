@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>$100,000 Club Beta</title>
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    <!-- build:css(app) _assets/styles/styles.css -->
+    <link rel="stylesheet" href="styles/styles.css">
+		<!-- endbuild -->
+
+<link rel="stylesheet" type="text/css" href="_assets/styles/normalize.css">
+<link rel="stylesheet" type="text/css" href="_assets/styles/display.css">
+</head>
+<body>
+<div data-ng-app="comicsApp">
+  <div data-ng-controller="comicsCtrl">
+  <div>
+    <input type="text" data-ng-model="search" class="search-query" placeholder="Filter">
+  </div>
+  <table class="data">
+    <tr>
+      <!---->
+      <th class="title sortable" data-ng-class="{up:sort[0]=='title', down:sort[0]=='-title'}"data-ng-click="sorter('title')">Title</th>
+      <th class="number">#</th>
+       <!--)-->
+      <th class="ped sortable" data-ng-class="{up:sort[0]=='pedigree', down:sort[0]=='-pedigree'}" data-ng-click="sorter('pedigree')">Pedigree</th>
+      <th class="source">Grade Source</th>
+      <!---->
+      <th class="grade sortable" data-ng-class="{up:sort[0]=='grade', down:sort[0]=='-grade'}" data-ng-click="sorter('grade')">Grade</th>
+      <th class="commentary">General Commentary</th>
+      <th class="sales">Sales</th>
+    </tr>
+    <tr data-ng-repeat="it in items | filter:search | orderBy:sort">
+      <td class="title">{{it.title}}</td>
+      <td class="number">{{it.issue}}</td>
+      <td class="ped">{{it.pedigree}}{{it.collection}}{{it.provenance}}</td>
+      <td class="source">{{it.grade_src | srcFilter}}</td>
+      <td class="grade">{{it.grade}}</td>
+      <td class="commentary">{{it.general_commentary}}
+        <div data-ng-show="it.front_cover" class="image"><a href="{{it.front_cover}}">view</a></div>
+      </td>
+
+      <td class="sales">
+        <table>
+          <tr data-ng-show="sl.link">
+            <td>Venue</td>
+            <td>Sale Date</td>
+            <td>Price</td> 
+          </tr>
+          <tr data-ng-repeat="sl in it.sales | orderBy: 'sale_date'" data-ng-class="{editing: editorEnabled}">
+            <td>{{sl.venue|capitalize}}</td>
+            <td>{{sl.sale_date | saneDate }}</td>
+            <td data-ng-show="sl.link"><a href="{{sl.link}}">{{sl.price | currency}}</a></td>
+            <td data-ng-hide="sl.link">{{sl.price | currency}}</td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+
+</div>
+</div>
+<!-- build:js(app) scripts/vendor.js -->
+<script src="_assets/scripts/lib/angular/angular.min.js"></script> 
+<script src="_assets/scripts/lib/jquery/jquery.min.js"></script> 
+<script src="_assets/scripts/lib/lodash/lodash.min.js"></script> 
+<!-- endbuild -->
+    <!-- build:js(app) scripts/scripts.js -->
+<script src="_assets/scripts/app.js"></script> 
+<script src="_assets/scripts/services.js"></script> 
+<script src="_assets/scripts/controllers.js"></script> 
+<script src="_assets/scripts/filters.js"></script> 
+<script src="_assets/scripts/directives.js"></script> 
+<!-- endbuild -->
+
+</body>
+</html>

@@ -15,9 +15,9 @@ angular.module("comicsFactories", [])
                   "collection": data.books[i].collection,
                   "provenance": data.books[i].provenance,
                   "grade": data.books[i].grade,
-                  "grade_src":data.books[i].grade_src,
+                  "gradeSrc":data.books[i].gradeSrc,
                   "uid": data.books[i].uid,
-                  "date":data.books[i].sales[j].sale_date,
+                  "date":data.books[i].sales[j].salesDate,
                   "venue":data.books[i].sales[j].venue,
                   "price": Math.floor(data.books[i].sales[j].price),
                   "link":data.books[i].sales[j].link

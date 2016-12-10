@@ -34,9 +34,9 @@
       <td class="title">{{it.title}}</td>
       <td class="number">{{it.issue}}</td>
       <td class="ped">{{it.pedigree}}{{it.collection}}{{it.provenance}}</td>
-      <td class="source">{{it.grade_src | srcFilter}}</td>
+      <td class="source">{{it.gradeSrc | srcFilter}}</td>
       <td class="grade">{{it.grade}}</td>
-      <td class="commentary">{{it.general_commentary}}
+      <td class="commentary">{{it.generalCommentary}}
         <div data-ng-show="it.front_cover" class="image"><a href="{{it.front_cover}}">view</a></div>
       </td>
 
@@ -45,11 +45,11 @@
           <tr data-ng-show="sl.link">
             <td>Venue</td>
             <td>Sale Date</td>
-            <td>Price</td> 
+            <td>Price</td>
           </tr>
-          <tr data-ng-repeat="sl in it.sales | orderBy: 'sale_date'" data-ng-class="{editing: editorEnabled}">
+          <tr data-ng-repeat="sl in it.sales | orderBy: 'salesDate'" data-ng-class="{editing: editorEnabled}">
             <td>{{sl.venue|capitalize}}</td>
-            <td>{{sl.sale_date | saneDate }}</td>
+            <td>{{sl.salesDate | saneDate }}</td>
             <td data-ng-show="sl.link"><a href="{{sl.link}}">{{sl.price | currency}}</a></td>
             <td data-ng-hide="sl.link">{{sl.price | currency}}</td>
           </tr>
@@ -60,16 +60,16 @@
 </div>
 </div>
 <!-- build:js(app) scripts/vendor.js -->
-<script src="_assets/scripts/lib/angular/angular.min.js"></script> 
-<script src="_assets/scripts/lib/jquery/jquery.min.js"></script> 
-<script src="_assets/scripts/lib/lodash/lodash.min.js"></script> 
+<script src="_assets/scripts/vendor/angular/angular.min.js"></script>
+<script src="_assets/scripts/vendor/jquery/jquery.min.js"></script>
+<script src="_assets/scripts/vendor/lodash/lodash.min.js"></script>
 <!-- endbuild -->
     <!-- build:js(app) scripts/scripts.js -->
-<script src="_assets/scripts/app.js"></script> 
-<script src="_assets/scripts/services.js"></script> 
-<script src="_assets/scripts/controllers.js"></script> 
-<script src="_assets/scripts/filters.js"></script> 
-<script src="_assets/scripts/directives.js"></script> 
+<script src="_assets/scripts/app/app.js"></script>
+<script src="_assets/scripts/app/services.js"></script>
+<script src="_assets/scripts/app/controllers.js"></script>
+<script src="_assets/scripts/app/filters.js"></script>
+<script src="_assets/scripts/app/directives.js"></script>
 <!-- endbuild -->
 
 </body>

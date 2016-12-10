@@ -29,7 +29,7 @@ angular.module("comicsApp.controllers", ["comicFilters","comicsFactories"]).
               }
             }
           }
-          if (document.location.search != null){
+          if (document.location.search !== null){
             $scope.search = document.location.search.slice(1,document.location.search.length);
           }
           $scope.sort = ["title","issue","-grade"];
@@ -112,7 +112,7 @@ angular.module("comicsApp.controllers", ["comicFilters","comicsFactories"]).
           pedigree:it.pedigree,
           collection:it.collection,
           provenance:it.provenance,
-          grade_src: it.grade_src,
+          gradeSrc: it.gradeSrc,
           grade: it.grade
         };
       };
@@ -146,7 +146,7 @@ angular.module("comicsApp.controllers", ["comicFilters","comicsFactories"]).
       "use strict";
       $scope.items = dataService;
       $scope.sort = "-price";
-      if (document.location.search != null){
+      if (document.location.search !== null){
         $scope.search = document.location.search.slice(1,document.location.search.length);
       }
       $scope.sorter = function(sort){

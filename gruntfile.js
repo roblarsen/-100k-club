@@ -1,25 +1,25 @@
-'use strict';
+"use strict";
 module.exports = function (grunt) {
 
   // Automatically load required Grunt tasks
-  require('jit-grunt')(grunt, {
-    useminPrepare: 'grunt-usemin',
-    ngtemplates: 'grunt-angular-templates',
-    sass:'grunt-sass',
-    stringReplace: 'grunt-string-replace'
+  require("jit-grunt")(grunt, {
+    useminPrepare: "grunt-usemin",
+    ngtemplates: "grunt-angular-templates",
+    sass:"grunt-sass",
+    stringReplace: "grunt-string-replace"
   });
   grunt.initConfig({
 
     // Watches files for changes and runs tasks based on the changed files
     watch: {
       js: {
-        files: ['app/_assets/scripts/{,*/}*.js'],
-        tasks: ['concurrent:lint']
+        files: ["app/_assets/scripts/{,*/}*.js"],
+        tasks: ["concurrent:lint"]
 
       },
       sass: {
-        files: ['app/styles/scss/**'],
-        tasks: ['sass']
+        files: ["app/styles/scss/**"],
+        tasks: ["sass"]
 
       }
     },
@@ -27,8 +27,8 @@ module.exports = function (grunt) {
     connect: {
       options: {
         port: 9000,
-        // Change this to '0.0.0.0' to access the server from outside.
-        hostname: 'localhost'
+        // Change this to "0.0.0.0" to access the server from outside.
+        hostname: "localhost"
       }
     },
     sass: {
@@ -37,20 +37,20 @@ module.exports = function (grunt) {
         },
         dist: {
             files: {
-                'app/_assets/styles/styles.css': 'app/_assets/styles/scss/styles.scss'
+                "app/_assets/styles/styles.css": "app/_assets/styles/scss/styles.scss"
             }
         }
     },
     // Make sure there are no obvious mistakes
     jshint: {
       options: {
-        jshintrc: '.jshintrc',
-        reporter: require('jshint-stylish')
+        jshintrc: ".jshintrc",
+        reporter: require("jshint-stylish")
       },
       all: {
         src: [
-          'Gruntfile.js',
-          'app/_assets/scripts/{,*/}*.js'
+          "Gruntfile.js",
+          "app/_assets/scripts/{,*/}*.js"
         ]
       }
 		},
@@ -58,13 +58,13 @@ module.exports = function (grunt) {
     // Make sure code styles are up to par
     jscs: {
       options: {
-        config: '.jscsrc',
+        config: ".jscsrc",
         verbose: true
       },
       all: {
         src: [
-          'Gruntfile.js',
-          'app/_assets/scripts/{,*/}*.js'
+          "Gruntfile.js",
+          "app/_assets/scripts/{,*/}*.js"
         ]
       }
     },
@@ -75,19 +75,19 @@ module.exports = function (grunt) {
         files: [{
           dot: true,
           src: [
-            '.tmp',
-            'dist/{,*/}*',
-            '!dist/.git{,*/}*'
+            ".tmp",
+            "dist/{,*/}*",
+            "!dist/.git{,*/}*"
           ]
         }]
       },
-      server: '.tmp'
+      server: ".tmp"
     },
     // Add vendor prefixed styles
     postcss: {
       options: {
         processors: [
-          require('autoprefixer-core')({browsers: ['last 1 version']})
+          require("autoprefixer-core")({browsers: ["last 1 version"]})
         ]
       },
       server: {
@@ -96,17 +96,17 @@ module.exports = function (grunt) {
         },
         files: [{
           expand: true,
-          cwd: '.tmp/concat/styles/',
-          src: '{,*/}*.css',
-          dest: '.tmp/concat/styles/'
+          cwd: ".tmp/concat/styles/",
+          src: "{,*/}*.css",
+          dest: ".tmp/concat/styles/"
         }]
       },
       dist: {
         files: [{
           expand: true,
-          cwd: '.tmp/concat/styles/',
-          src: '{,*/}*.css',
-          dest: '.tmp/concat/styles/'
+          cwd: ".tmp/concat/styles/",
+          src: "{,*/}*.css",
+          dest: ".tmp/concat/styles/"
         }]
       }
     },
@@ -114,10 +114,10 @@ module.exports = function (grunt) {
     filerev: {
       dist: {
         src: [
-          'dist/_assets/scripts/{,*/}*.js',
-          'dist/_assets/styles/{,*/}*.css',
-          'dist/img/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
-          'dist/_assets/styles/fonts/*'
+          "dist/_assets/scripts/{,*/}*.js",
+          "dist/_assets/styles/{,*/}*.css",
+          "dist/img/{,*/}*.{png,jpg,jpeg,gif,webp,svg}",
+          "dist/_assets/styles/fonts/*"
         ]
       }
     },
@@ -126,14 +126,14 @@ module.exports = function (grunt) {
     // concat, minify and revision files. Creates configurations in memory so
     // additional tasks can operate on them
     useminPrepare: {
-      html: ['app/*.html'],
+      html: ["app/*.html"],
       options: {
-        dest: 'dist',
+        dest: "dist",
         flow: {
           html: {
             steps: {
-              js: ['concat', 'uglify'],
-              css: ['concat', 'cssmin']
+              js: ["concat", "uglify"],
+              css: ["concat", "cssmin"]
             },
             post: {}
           }
@@ -143,18 +143,18 @@ module.exports = function (grunt) {
 
     // Performs rewrites based on filerev and the useminPrepare configuration
     usemin: {
-      html: ['dist/{,*/}*.html'],
-      css: ['dist/styles/{,*/}*.css'],
-      js: ['dist/scripts/{,*/}*.js'],
+      html: ["dist/{,*/}*.html"],
+      css: ["dist/styles/{,*/}*.css"],
+      js: ["dist/scripts/{,*/}*.js"],
       options: {
         assetsDirs: [
-          'dist',
-          'dist/images',
-          'dist/styles',
-          'dist/scripts'
+          "dist",
+          "dist/images",
+          "dist/styles",
+          "dist/scripts"
         ],
         patterns: {
-          js: [[/(img\/[^''""]*\.(png|jpg|jpeg|gif|webp|svg))/g, 'Replacing references to images']]
+          js: [[/(img\/[^""""]*\.(png|jpg|jpeg|gif|webp|svg))/g, "Replacing references to images"]]
         }
       }
     },
@@ -162,9 +162,9 @@ module.exports = function (grunt) {
       dist: {
         files: [{
           expand: true,
-          cwd: 'app/_assets/img',
-          src: '{,*/}*.{png,jpg,jpeg,gif}',
-          dest: '.tmp/img'
+          cwd: "app/_assets/img",
+          src: "{,*/}*.{png,jpg,jpeg,gif}",
+          dest: ".tmp/img"
         }]
       }
     },
@@ -173,9 +173,9 @@ module.exports = function (grunt) {
       dist: {
         files: [{
           expand: true,
-          cwd: 'app/_assets/img',
-          src: '{,*/}*.svg',
-          dest: 'dist/_assets/img'
+          cwd: "app/_assets/img",
+          src: "{,*/}*.svg",
+          dest: "dist/_assets/img"
         }]
       }
     },
@@ -190,9 +190,9 @@ module.exports = function (grunt) {
         },
         files: [{
           expand: true,
-          cwd: 'dist',
-          src: ['*.html'],
-          dest: 'dist'
+          cwd: "dist",
+          src: ["*.html"],
+          dest: "dist"
         }]
       }
     },
@@ -200,13 +200,13 @@ module.exports = function (grunt) {
     ngtemplates: {
       dist: {
         options: {
-          module: 'comicsApp',
-          htmlmin: '<%= htmlmin.dist.options %>',
-          usemin: '_assets/scripts/scripts.js'
+          module: "comicsApp",
+          htmlmin: "<%= htmlmin.dist.options %>",
+          usemin: "_assets/scripts/scripts.js"
         },
-        cwd: 'app',
-        src: '_assets/views/**/*.html',
-        dest: '.tmp/templateCache.js'
+        cwd: "app",
+        src: "_assets/views/**/*.html",
+        dest: ".tmp/templateCache.js"
       }
     },
 
@@ -216,9 +216,9 @@ module.exports = function (grunt) {
       dist: {
         files: [{
           expand: true,
-          cwd: '.tmp/concat/scripts',
-          src: '*.js',
-          dest: '.tmp/concat/scripts'
+          cwd: ".tmp/concat/scripts",
+          src: "*.js",
+          dest: ".tmp/concat/scripts"
         }]
       }
     },
@@ -238,80 +238,80 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           dot: true,
-          cwd: 'app',
-          dest: 'dist',
+          cwd: "app",
+          dest: "dist",
           src: [
-            '*.{ico,png,txt}',
-            '*.html',
-            '_assets/img/{,*/}*.{webp}',
-            '_assets/styles/fonts/{,*/}*.*'
+            "*.{ico,png,txt}",
+            "*.html",
+            "_assets/img/{,*/}*.{webp}",
+            "_assets/styles/fonts/{,*/}*.*"
           ]
         }, {
           expand: true,
-          cwd: '.tmp/img',
-          dest: 'dist/img',
-          src: ['**']
+          cwd: ".tmp/img",
+          dest: "dist/img",
+          src: ["**"]
         },{
           // special copy for angular-ui-grid fonts not in common fonts dir
           expand: true,
           flatten: true,
-          cwd: '_assets/app/scripts/vendor',
-          dest: 'dist/styles',
-          src: ['{,*/}*.{svg,ttf,woff,eot}']
+          cwd: "_assets/app/scripts/vendor",
+          dest: "dist/styles",
+          src: ["{,*/}*.{svg,ttf,woff,eot}"]
         }, {
           expand: true,
-          cwd: '.tmp/concat',
-          dest: 'dist',
-          src: '**'
+          cwd: ".tmp/concat",
+          dest: "dist",
+          src: "**"
         },
         {
-          src: 'package.json',
-          dest: 'dist/package.json'
+          src: "package.json",
+          dest: "dist/package.json"
         }
   ]
       },
       styles: {
         expand: true,
-        cwd: 'app/_assets/styles',
-        dest: '.tmp/styles/',
-        src: '{,*/}*.css'
+        cwd: "app/_assets/styles",
+        dest: ".tmp/styles/",
+        src: "{,*/}*.css"
       }
     },
 
     compress: {
       dist: {
         options: {
-          mode: 'tgz',
-          archive: 'dist.tgz'
+          mode: "tgz",
+          archive: "dist.tgz"
         },
         expand: true,
-        cwd: 'dist/',
-        src: ['**/*'],
-        dest: 'dist'
+        cwd: "dist/",
+        src: ["**/*"],
+        dest: "dist"
       }
     },
 
-    'string-replace': {
+    "string-replace": {
       version: {
         files: [{
           expand: true,
-          src: ['dist/*.html', 'dist/scripts/*.js']
+          src: ["dist/*.html", "dist/scripts/*.js"]
         }],
         options: {
           replacements: [{
-            pattern: '{{version}}',
-            replacement: '<%= pkg.version %>'
+            pattern: "{{version}}",
+            replacement: "<%= pkg.version %>"
           }]
         }
       }
     },
-    pkg: grunt.file.readJSON('package.json'),
+    pkg: grunt.file.readJSON("package.json"),
 
-    'json_generator': {
+    "json_generator": {
       version: {
-        dest: 'dist/version.json',
+        dest: "dist/version.json",
         options: {
-          version: '<%= pkg.version %>',
+          version: "<%= pkg.version %>",
           buildDate: new Date()
         }
       }
@@ -320,70 +320,70 @@ module.exports = function (grunt) {
     // Run some tasks in parallel to speed up the build process
     concurrent: {
       lint: [
-        'newer:jshint',
-        'newer:jscs'
+        "newer:jshint",
+        "newer:jscs"
       ],
       server: [
-        'copy:styles'
+        "copy:styles"
       ],
       test: [
-        'copy:styles'
+        "copy:styles"
       ],
       dist: [
-        'copy:styles',
-        'imagemin',
-        'svgmin'
+        "copy:styles",
+        "imagemin",
+        "svgmin"
       ]
     },
 
   });
 
-  grunt.registerTask('test', [
-    'clean:server',
-    'concurrent:test',
-    'postcss:server',
-    'connect:test',
-    'karma'
+  grunt.registerTask("test", [
+    "clean:server",
+    "concurrent:test",
+    "postcss:server",
+    "connect:test",
+    "karma"
   ]);
 
-  grunt.registerTask('build', [
-    'concurrent:lint',
-    'sass',
-    'clean:dist',
-    'useminPrepare',
-    'concurrent:dist',
-    'postcss:dist',
-    'ngtemplates',
-    'concat',
-    'ngAnnotate',
-    'copy:dist',
-    'uglify',
-    'cssmin',
-    'filerev',
-    'usemin',
-    'htmlmin',
-    'string-replace:version',
-    'json_generator:version'
+  grunt.registerTask("build", [
+    "concurrent:lint",
+    "sass",
+    "clean:dist",
+    "useminPrepare",
+    "concurrent:dist",
+    "postcss:dist",
+    "ngtemplates",
+    "concat",
+    "ngAnnotate",
+    "copy:dist",
+    "uglify",
+    "cssmin",
+    "filerev",
+    "usemin",
+    "htmlmin",
+    "string-replace:version",
+    "json_generator:version"
   ]);
 
-  grunt.registerTask('dev', '', function() {
+  grunt.registerTask("dev", "", function() {
     var tasks = [
-			'sass',
-      'concurrent:lint',
-      'connect: dev',
-      'watch'];
+			"sass",
+      "concurrent:lint",
+      "connect: dev",
+      "watch"];
     grunt.task.run(tasks);
   });
 
-  grunt.registerTask('dist', [
-    'build',
-    'compress'
+  grunt.registerTask("dist", [
+    "build",
+    "compress"
   ]);
 
-  grunt.registerTask('default', [
-    'concurrent:lint',
-    'test',
-    'build'
+  grunt.registerTask("default", [
+    "concurrent:lint",
+    "test",
+    "build"
   ]);
 };
 

@@ -29,6 +29,29 @@ module.exports = function (grunt) {
         port: 9000,
         // Change this to "0.0.0.0" to access the server from outside.
         hostname: "localhost"
+      },
+      test: {
+        options: {
+          port: 9001,
+          middleware: function (connect) {
+            return [
+              connect.static(".tmp"),
+              connect.static("test"),
+            ];
+          }
+        }
+      },
+      dist: {
+        options: {
+          open: true,
+          base: "dist"
+        }
+      },
+      dev: {
+        options: {
+          open: true,
+          base: "app"
+        }
       }
     },
     sass: {
@@ -338,6 +361,7 @@ module.exports = function (grunt) {
 
   });
 
+
   grunt.registerTask("test", [
     "clean:server",
     "concurrent:test",
@@ -370,7 +394,7 @@ module.exports = function (grunt) {
     var tasks = [
 			"sass",
       "concurrent:lint",
-      "connect: dev",
+      "connect:dev",
       "watch"];
     grunt.task.run(tasks);
   });

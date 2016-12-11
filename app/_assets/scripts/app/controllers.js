@@ -7,23 +7,23 @@ angular.module("comicsApp.controllers", ["comicFilters","comicsFactories"]).
           $scope.items = data.books;
           var titles = [], pedigrees = [], publishers = [], venues = [];
           for (var i=0; i < $scope.items.length; i++){
-            if (!_.contains(titles,$scope.items[i].title)){
+            if (!_.includes(titles,$scope.items[i].title)){
               titles.push($scope.items[i].title);
             }
             if ($scope.items[i].pedigree){
-              if (!_.contains(pedigrees,$scope.items[i].pedigree)){
+              if (!_.includes(pedigrees,$scope.items[i].pedigree)){
                 pedigrees.push($scope.items[i].pedigree);
               }
             }
             if ($scope.items[i].publisher){
-              if (!_.contains(publishers,$scope.items[i].publisher)){
+              if (!_.includes(publishers,$scope.items[i].publisher)){
                 publishers.push($scope.items[i].publisher);
               }
             }
             if ($scope.items[i].sales.length){
               for (var j=0; j < $scope.items[i].sales.length; j++){
 
-                if (!_.contains(venues,$scope.items[i].sales[j].venue)){
+                if (!_.includes(venues,$scope.items[i].sales[j].venue)){
                   venues.push($scope.items[i].sales[j].venue);
                 }
               }
@@ -48,16 +48,16 @@ angular.module("comicsApp.controllers", ["comicFilters","comicsFactories"]).
         $scope.item = {};
         $scope.sales = [];
         if (item.pedigree){
-          if (!_.contains($scope.pedigrees,item.pedigree)){
+          if (!_.includes($scope.pedigrees,item.pedigree)){
             $scope.pedigrees.push(item.pedigree);
           }
         }
         if (item.publisher){
-          if (!_.contains($scope.publishers,item.publisher)){
+          if (!_.includes($scope.publishers,item.publisher)){
             $scope.publishers.push(item.publisher);
           }
         }
-        if (!_.contains($scope.titles,item.title)){
+        if (!_.includes($scope.titles,item.title)){
           $scope.titles.push(item.title);
         }
         var items = $scope.items,

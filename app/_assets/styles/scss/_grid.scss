@@ -1,38 +1,44 @@
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
+#the-club {
+  table.data {
+    margin: rem(10) 0;
+    width:95%;
+    background:$white;
+    td,th{
+      padding: rem(3) rem(5);
+      border-collapse: collapse;
+    }
+    td {
+      font-family: $roboto-condensed;
+    }
+    th {
+      font-family: $lato;
+      background: $lightest-orange;
+      height: rem(40);
+      text-transform: uppercase;
+      color: $darkest-blue;
+      border-bottom:1px solid $darkest-blue;
+      position: relative;
+      text-align:left;
+    }
+    th.sortable {
+    }
+    th.sortable.up:after,
+    th.sortable.up:before {
+      position:absolute;
+      right:rem(10);
+    }
+    th.sortable.up:after {
+      content:"▲";
+    }
+    th.sortable.down:after {
+      content:"▼";
+    }
+  }
 
-.clearfix:after {
-    clear: both;
-}
-
-
-table.data {margin:10px 0; width:95%; background:#fff;}
-.data th {
-    background: #aaa;
-    height:40px;
-    text-transform: uppercase;
-    color: #000;
-    border:1px solid #999;
-}
-.data th.sortable {
-  padding-right:25px;
-  background:#aaa url(img/arrows.png) 97% 15px no-repeat;
-}
-.data th.sortable.up {
-
-  background:#aaa url(img/arrows.png) 97% -85px no-repeat;
-}
-.data th.sortable.down {
-
-  background:#aaa url(img/arrows.png) 97% -187px no-repeat;
-}
 .data td { border:1px solid #ccc; padding:5px; border-collapse: collapse; }
 
 .data tr:nth-child(1n){
-    background:#fff;
+    background:$white;
 } 
 
 .data tr:nth-child(2n){
@@ -43,7 +49,7 @@ table.data {margin:10px 0; width:95%; background:#fff;}
 } 
 
 .sales tr:nth-child(2n){
-    background:#fff;
+    background:$white;
 } 
 .title{
     width:20%;
@@ -76,7 +82,7 @@ table.data {margin:10px 0; width:95%; background:#fff;}
   -webkit-box-shadow: 0px 3px 5px 6px #000;
   box-shadow:         20px 10px 10px 5px #000;
   width:750px;
-  background:#fff;
+  background:$white;
 }
 
 .editing td{
@@ -101,9 +107,10 @@ table.data {margin:10px 0; width:95%; background:#fff;}
 }
 
 text {
-	font-family:Verdana,Geneva,'DejaVu Sans',sans-serif;
-	font-size:12px;
+  font-family:Verdana,Geneva,'DejaVu Sans',sans-serif;
+  font-size:12px;
 }
 text.legend {
-	font-size:10px;
+  font-size:10px;
+}
 }

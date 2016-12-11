@@ -1,0 +1,40 @@
+$browser-context: 16; // Default
+
+@function rem($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}rem;
+}
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em;
+}
+$roboto-condensed: 'Roboto Condensed', sans-serif;
+$lato: 'Lato', sans-serif;
+
+/*colors*/
+
+$white: #ffffff;
+// SASS style sheet */
+// Palette color codes */
+// Palette URL: http://paletton.com/#uid=63N0u0kwi++bu++hX++++rd++kX */
+
+// Feel free to copy&paste color codes to your application */
+
+
+// As hex codes */
+
+$lightest-blue:#AEC3FF;
+$light-blue:  #80A2FF;
+$medium-blue: #1C59FF;
+$dark-blue: #002792;
+$darkest-blue: #001E70;
+
+$lightest-aqua: #03EAFF;
+$light-aqua: #A5F7FF;
+$medium-aqua: #72F3FF;
+$dark-aqua: #007984;
+$darkest-aqua: #005D66;
+
+$lightest-orange: #FFE2A4;
+$light-orange: #FFD170;
+$medium-orange: #FFAD00;
+$dark-orange: #D99300;
+$darkest-orange: #A77100;

@@ -6,25 +6,27 @@ angular.module("comicsApp.controllers", ["comicFilters","comicsFactories"]).
         function(data){
           $scope.items = data.books;
           var titles = [], pedigrees = [], publishers = [], venues = [];
+          var item;
           for (var i=0; i < $scope.items.length; i++){
-            if (!_.includes(titles,$scope.items[i].title)){
-              titles.push($scope.items[i].title);
+            item = $scope.items[i];
+            if (!_.includes(titles,item.title)){
+              titles.push(item.title);
             }
-            if ($scope.items[i].pedigree){
-              if (!_.includes(pedigrees,$scope.items[i].pedigree)){
-                pedigrees.push($scope.items[i].pedigree);
+            if (item.pedigree){
+              if (!_.includes(pedigrees,item.pedigree)){
+                pedigrees.push(item.pedigree);
               }
             }
-            if ($scope.items[i].publisher){
-              if (!_.includes(publishers,$scope.items[i].publisher)){
-                publishers.push($scope.items[i].publisher);
+            if (item.publisher){
+              if (!_.includes(publishers,item.publisher)){
+                publishers.push(item.publisher);
               }
             }
-            if ($scope.items[i].sales.length){
-              for (var j=0; j < $scope.items[i].sales.length; j++){
+            if (item.sales.length){
+              for (var j=0; j < item.sales.length; j++){
 
-                if (!_.includes(venues,$scope.items[i].sales[j].venue)){
-                  venues.push($scope.items[i].sales[j].venue);
+                if (!_.includes(venues,item.sales[j].venue)){
+                  venues.push(item.sales[j].venue);
                 }
               }
             }

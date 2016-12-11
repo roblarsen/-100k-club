@@ -1,6 +1,6 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
 /*
- * HTML5 Boilerplate
- *
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
@@ -10,21 +10,16 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html,
-button,
-input,
-select,
-textarea {
+html {
     color: #222;
-}
-
-body {
     font-size: 1em;
     line-height: 1.4;
 }
 
 /*
- * Remove text-shadow in selection highlight: h5bp.com/i
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
@@ -53,10 +48,17 @@ hr {
 }
 
 /*
- * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
  */
 
-img {
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
     vertical-align: middle;
 }
 
@@ -79,10 +81,10 @@ textarea {
 }
 
 /* ==========================================================================
-   Chrome Frame prompt
+   Browser Upgrade Prompt
    ========================================================================== */
 
-.chromeframe {
+.browserupgrade {
     margin: 0.2em 0;
     background: #ccc;
     color: #000;
@@ -94,52 +96,19 @@ textarea {
    ========================================================================== */
 
 
-div, fieldset { margin-left:10px;}
-legend {font-weight:bold;}
-
-form { border:1px solid #666; padding:10px;margin-bottom:10px;}
-form div {
-margin:4px 10px;    
-}
-form fieldset div {
-    margin-left:20px;
-}
-div label {
-    display:inline-block;width:200px;
-}
-table{margin:10px 0; width:95%;}
-td { border:1px solid #666; padding:3px; border-collapse: collapse; background:#fff;}
 
 
-.tags {max-width: 50px; overflow:scroll}
 
-.sales {padding:0}    
 
-.editing {
-    position:fixed;
-    top:0;
-    left:0;
-    display:block;
-    -moz-box-shadow:    0px 3px 5px 6px #000;
-  -webkit-box-shadow: 0px 3px 5px 6px #000;
-  box-shadow:         20px 10px 10px 5px #000;
-  width:750px;
-  background:#fff;
-}
 
-.editing td{
-    float:left;
-    width:242px;
-    height:50px;
-}
 
-.edit {
-    width :24px;
-    height:24px;
-    background:url(img/edit.png) no-repeat;
-    border:0;
-    text-indent:-9999px;
-}
+
+
+
+
+
+
+
 
 
 /* ==========================================================================
@@ -147,35 +116,20 @@ td { border:1px solid #666; padding:3px; border-collapse: collapse; background:#
    ========================================================================== */
 
 /*
- * Image replacement
- */
-
-.ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    /* IE 6/7 fallback */
-    *text-indent: -9999px;
-}
-
-.ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 150%;
-}
-
-/*
- * Hide from both screenreaders and browsers: h5bp.com/u
+ * Hide visually and from screen readers
  */
 
 .hidden {
     display: none !important;
-    visibility: hidden;
 }
 
 /*
- * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
  */
 
 .visuallyhidden {
@@ -187,11 +141,13 @@ td { border:1px solid #666; padding:3px; border-collapse: collapse; background:#
     padding: 0;
     position: absolute;
     width: 1px;
+    white-space: nowrap; /* 1 */
 }
 
 /*
- * Extends the .visuallyhidden class to allow the element to be focusable
- * when navigated to via the keyboard: h5bp.com/p
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
  */
 
 .visuallyhidden.focusable:active,
@@ -202,10 +158,11 @@ td { border:1px solid #666; padding:3px; border-collapse: collapse; background:#
     overflow: visible;
     position: static;
     width: auto;
+    white-space: inherit;
 }
 
 /*
- * Hide visually and from screenreaders, but maintain layout
+ * Hide visually and from screen readers, but maintain layout
  */
 
 .invisible {
@@ -234,15 +191,6 @@ td { border:1px solid #666; padding:3px; border-collapse: collapse; background:#
     clear: both;
 }
 
-/*
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-
-.clearfix {
-    *zoom: 1;
-}
-
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -254,21 +202,33 @@ td { border:1px solid #666; padding:3px; border-collapse: collapse; background:#
 }
 
 @media print,
-       (-o-min-device-pixel-ratio: 5/4),
        (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
        (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
    Print styles.
-   Inlined to avoid required HTTP connection: h5bp.com/r
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
 @media print {
-    * {
+    *,
+    *:before,
+    *:after,
+    p:first-letter,
+    div:first-letter,
+    blockquote:first-letter,
+    li:first-letter,
+    p:first-line,
+    div:first-line,
+    blockquote:first-line,
+    li:first-line {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
         box-shadow: none !important;
         text-shadow: none !important;
     }
@@ -287,36 +247,36 @@ td { border:1px solid #666; padding:3px; border-collapse: collapse; background:#
     }
 
     /*
-     * Don't show links for images, or javascript/internal links
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
      */
 
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
         content: "";
     }
 
+    pre {
+        white-space: pre-wrap !important;
+    }
     pre,
     blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
 
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
     thead {
-        display: table-header-group; /* h5bp.com/t */
+        display: table-header-group;
     }
 
     tr,
     img {
         page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    @page {
-        margin: 0.5cm;
     }
 
     p,

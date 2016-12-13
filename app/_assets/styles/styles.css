@@ -3,10 +3,11 @@
 #the-club table.data {
   margin: 0.625rem 0;
   width: 95%;
-  background: #ffffff; }
+  background: #ffffff;
+  border-collapse: collapse; }
   #the-club table.data td, #the-club table.data th {
     padding: 0.1875rem 0.3125rem;
-    border-collapse: collapse; }
+    border: 1px solid #001E70; }
   #the-club table.data td {
     font-family: "Roboto Condensed", sans-serif; }
   #the-club table.data th {
@@ -15,7 +16,7 @@
     height: 2.5rem;
     text-transform: uppercase;
     color: #001E70;
-    border-bottom: 1px solid #001E70;
+    border: 1px solid #001E70;
     position: relative;
     text-align: left; }
   #the-club table.data th.sortable.up:after,
@@ -26,44 +27,26 @@
     content: "▲"; }
   #the-club table.data th.sortable.down:after {
     content: "▼"; }
-
-#the-club .data td {
-  border: 1px solid #ccc;
-  padding: 5px;
-  border-collapse: collapse; }
-
-#the-club .data tr:nth-child(1n) {
-  background: #ffffff; }
-
-#the-club .data tr:nth-child(2n) {
-  background: #eee; }
-
-#the-club .sales tr:nth-child(1n) {
-  background: #eee; }
-
-#the-club .sales tr:nth-child(2n) {
-  background: #ffffff; }
-
-#the-club .title {
-  width: 20%; }
-
-#the-club .number, #the-club .grade {
-  width: 5%; }
-
-#the-club .pedigree,
-#the-club .source {
-  width: 15%; }
-
-#the-club .commentary {
-  width: 20%; }
-
-#the-club .sales {
-  width: 20%; }
-
-#the-club .sales table {
-  width: 90%;
-  padding: 0;
-  margin: 6px auto; }
+  #the-club table.data tr:nth-child(1n) {
+    background: #ffffff; }
+  #the-club table.data tr:nth-child(2n) {
+    background: #eeeeee; }
+  #the-club table.data .sales tr:nth-child(1n) {
+    background: #FFE2A4; }
+  #the-club table.data .sales tr:nth-child(2n) {
+    background: #AEC3FF; }
+  #the-club table.data .title {
+    width: 20%; }
+  #the-club table.data .number, #the-club table.data .grade {
+    width: 5%; }
+  #the-club table.data .pedigree,
+  #the-club table.data .source {
+    width: 15%; }
+  #the-club table.data .commentary {
+    width: 20%; }
+  #the-club table.data .sales {
+    width: 20%;
+    padding: 0; }
 
 #the-club .editing {
   position: fixed;
@@ -94,12 +77,5 @@
 
 #the-club #filter-box label {
   font-size: 14px; }
-
-#the-club text {
-  font-family: Verdana,Geneva,'DejaVu Sans',sans-serif;
-  font-size: 12px; }
-
-#the-club text.legend {
-  font-size: 10px; }
 
 /*# sourceMappingURL=styles.css.map */

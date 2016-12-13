@@ -3,9 +3,10 @@
     margin: rem(10) 0;
     width:95%;
     background:$white;
-    td,th{
+    border-collapse: collapse;
+    td,th {
       padding: rem(3) rem(5);
-      border-collapse: collapse;
+      border:1px solid $darkest-blue;
     }
     td {
       font-family: $roboto-condensed;
@@ -16,7 +17,7 @@
       height: rem(40);
       text-transform: uppercase;
       color: $darkest-blue;
-      border-bottom:1px solid $darkest-blue;
+      border:1px solid $darkest-blue;
       position: relative;
       text-align:left;
     }
@@ -33,45 +34,36 @@
     th.sortable.down:after {
       content:"▼";
     }
+    tr:nth-child(1n){
+      background:$white;
+    }
+    tr:nth-child(2n){
+      background:$lightest-grey;
+    }
+    .sales tr:nth-child(1n){
+      background:$lightest-orange;
+    }
+    .sales tr:nth-child(2n){
+      background:$lightest-blue;
+    }
+    .title{
+      width:20%;
+    }
+    .number,.grade {
+      width:5%
+    }
+    .pedigree,
+    .source{
+      width:15%;
+    }
+    .commentary {
+      width:20%;
+    }
+    .sales {
+      width:20%;
+      padding:0;
+    }
   }
-
-.data td { border:1px solid #ccc; padding:5px; border-collapse: collapse; }
-
-.data tr:nth-child(1n){
-    background:$white;
-} 
-
-.data tr:nth-child(2n){
-    background:#eee;
-} 
-.sales tr:nth-child(1n){
-    background:#eee;
-} 
-
-.sales tr:nth-child(2n){
-    background:$white;
-} 
-.title{
-    width:20%;
-}
-.number,.grade {
-    width:5%
-}
-.pedigree,
-.source{
-    width:15%;
-}
-.commentary {
-    width:20%;
-}
-.sales {
-    width:20%;
-}
-.sales table{
-    width:90%;
-    padding:0;
-    margin:6px auto;
-}    
 
 .editing {
     position:fixed;
@@ -104,13 +96,5 @@
 }
 #filter-box label {
     font-size: 14px;
-}
-
-text {
-  font-family:Verdana,Geneva,'DejaVu Sans',sans-serif;
-  font-size:12px;
-}
-text.legend {
-  font-size:10px;
 }
 }

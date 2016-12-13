@@ -45,8 +45,8 @@
       <fieldset>
         <legend ng-toggle>Sales [{{sales.length}} so far]</legend>
         <div>
-          <label>sellers_notes</label>
-          <textarea data-ng-model="sale.sellers_notes" ></textarea>
+          <label>sellersNotes</label>
+          <textarea data-ng-model="sale.sellersNotes" ></textarea>
         </div>
         <div>
           <label>salesDate</label>
@@ -142,8 +142,8 @@
               </span> <span ng-show="editorEnabled">
               <button data-ng-click="editorEnabled=!editorEnabled">Save</button>
               </span></td>
-            <td ng-show="editorEnabled"><label>sellers_notes</label>
-              <textarea data-ng-model="sl.sellers_notes" ></textarea></td>
+            <td ng-show="editorEnabled"><label>sellersNotes</label>
+              <textarea data-ng-model="sl.sellersNotes" ></textarea></td>
             <td ng-show="editorEnabled"><label>link</label>
               <input type="text" data-ng-model="sl.link" ></td>
             <td ng-show="editorEnabled"><label>front_cover</label>

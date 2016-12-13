@@ -14,8 +14,10 @@ angular.module("comicFilters", []).filter("srcFilter", function() {
   };
 }).filter("saneDate", function () {
   return function (input) {
-    if (input){
+    if (input && input.indexOf("1900") === -1){
       return input.replace(/-/g,"/");
+    } else { 
+      return "date unknown";
     }
   };
 }).filter("xDate", function () {

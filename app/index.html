@@ -39,19 +39,15 @@
       </td>
 
       <td class="sales">
-        <table>
-          <tr data-ng-show="sl.link">
-            <td>Venue</td>
-            <td>Sale Date</td>
-            <td>Price</td>
-          </tr>
-          <tr data-ng-repeat="sl in it.sales | orderBy: 'salesDate'" data-ng-class="{editing: editorEnabled}">
-            <td>{{sl.venue|capitalize}}</td>
-            <td>{{sl.salesDate | saneDate }}</td>
-            <td data-ng-show="sl.link"><a href="{{sl.link}}">{{sl.price | currency}}</a></td>
-            <td data-ng-hide="sl.link">{{sl.price | currency}}</td>
-          </tr>
-        </table></td>
+        <ol>
+          <li data-ng-repeat="sl in it.sales | orderBy: 'salesDate'">
+            
+            <span data-ng-show="sl.link"><a href="{{sl.link}}">{{sl.price | currency}}</a></span>
+            <span data-ng-hide="sl.link">{{sl.price | currency}}</span>
+            at {{sl.venue|capitalize}} on {{sl.salesDate | saneDate }}
+          </li>
+        </ol>
+      </td>
     </tr>
   </table>
 
@@ -61,6 +57,7 @@
 <script src="_assets/scripts/vendor/angular/angular.min.js"></script>
 <script src="_assets/scripts/vendor/jquery/jquery.min.js"></script>
 <script src="_assets/scripts/vendor/lodash/lodash.min.js"></script>
+<script src="_assets/scripts/vendor/moment.min.js"></script>
 <!-- endbuild -->
     <!-- build:js(app) scripts/scripts.js -->
 <script src="_assets/scripts/app/app.js"></script>

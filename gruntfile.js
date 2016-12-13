@@ -21,6 +21,10 @@ module.exports = function (grunt) {
         files: ["app/_assets/styles/scss/**"],
         tasks: ["sass"]
 
+      },
+      json: {
+        files: ["app/data/books.dev.json","app/data/sa-pedigrees.dev.json"],
+        tasks: ["minjson"]
       }
     },
     // The actual grunt server settings
@@ -87,7 +91,7 @@ module.exports = function (grunt) {
       all: {
         src: [
           "Gruntfile.js",
-          "app/_assets/scripts/{,*/}*.js"
+          "app/_assets/scripts/app/{,*/}*.js"
         ]
       }
     },
@@ -254,7 +258,14 @@ module.exports = function (grunt) {
         }
       }
     },
-
+    minjson: {
+      data: {
+        files: {
+          "app/data/books.json":"app/data/books.dev.json",
+          "app/data/sa-pedigrees.json":"app/data/sa-pedigrees.dev.json"
+        }
+      }
+    },
     // Copies remaining files to places other tasks can use
     copy: {
       dist: {
@@ -393,6 +404,7 @@ module.exports = function (grunt) {
   grunt.registerTask("dev", "", function() {
     var tasks = [
 			"sass",
+      "minjson",
       "concurrent:lint",
       "connect:dev",
       "watch"];
@@ -441,14 +453,7 @@ module.exports = function (grunt) {
         }
       }
     },
-    minjson: {
-      data: {
-        files: {
-          "data/books.json":"data/books.dev.json",
-          "data/sa-pedigrees.json":"data/sa-pedigrees.dev.json"
-        }
-      }
-    },
+
     watch: {
       files: ["data/books.dev.json","data/sa-pedigrees.dev.json", "_assets/app/*"],
       tasks: ["concat", "ngmin", "minjson", "uglify","clean"]

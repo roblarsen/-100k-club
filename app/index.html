@@ -40,11 +40,9 @@
 
       <td class="sales">
         <ol>
-          <li data-ng-repeat="sl in it.sales | orderBy: 'salesDate'">
+          <li data-ng-repeat="sl in it.sales | orderBy: 'salesDate'"
+            data-ng-include="'_assets/partials/sale.html'">
             
-            <span data-ng-show="sl.link"><a href="{{sl.link}}">{{sl.price | currency}}</a></span>
-            <span data-ng-hide="sl.link">{{sl.price | currency}}</span>
-            at {{sl.venue|capitalize}} on {{sl.salesDate | saneDate }}
           </li>
         </ol>
       </td>

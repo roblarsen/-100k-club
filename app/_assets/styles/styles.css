@@ -1,81 +1,58 @@
 @charset "UTF-8";
 /*colors*/
-#the-club table.data {
-  margin: 0.625rem 0;
-  width: 95%;
-  background: #ffffff;
-  border-collapse: collapse; }
-  #the-club table.data td, #the-club table.data th {
-    padding: 0.1875rem 0.3125rem;
-    border: 1px solid #001E70; }
-  #the-club table.data td {
-    font-family: "Roboto Condensed", sans-serif; }
-  #the-club table.data th {
-    font-family: "Lato", sans-serif;
-    background: #FFE2A4;
-    height: 2.5rem;
-    text-transform: uppercase;
-    color: #001E70;
-    border: 1px solid #001E70;
-    position: relative;
-    text-align: left; }
-  #the-club table.data th.sortable.up:after,
-  #the-club table.data th.sortable.up:before {
-    position: absolute;
-    right: 0.625rem; }
-  #the-club table.data th.sortable.up:after {
-    content: "▲"; }
-  #the-club table.data th.sortable.down:after {
-    content: "▼"; }
-  #the-club table.data tr:nth-child(1n) {
-    background: #ffffff; }
-  #the-club table.data tr:nth-child(2n) {
-    background: #eeeeee; }
-  #the-club table.data .sales tr:nth-child(1n) {
-    background: #FFE2A4; }
-  #the-club table.data .sales tr:nth-child(2n) {
-    background: #AEC3FF; }
-  #the-club table.data .title {
-    width: 20%; }
-  #the-club table.data .number, #the-club table.data .grade {
-    width: 5%; }
-  #the-club table.data .pedigree,
-  #the-club table.data .source {
-    width: 15%; }
-  #the-club table.data .commentary {
-    width: 20%; }
-  #the-club table.data .sales {
-    width: 20%;
-    padding: 0; }
+#the-club {
+  padding-left: 0.625em; }
+  #the-club table.data {
+    margin: 0.625rem 0;
+    width: 95%;
+    background: #ffffff;
+    border-collapse: collapse; }
+    #the-club table.data td, #the-club table.data th {
+      padding: 0.1875rem 0.3125rem;
+      border: 1px solid #001E70; }
+    #the-club table.data td {
+      font-family: "Roboto Condensed", sans-serif; }
+    #the-club table.data th {
+      font-family: "Lato", sans-serif;
+      background: #FFE2A4;
+      height: 2.5rem;
+      text-transform: uppercase;
+      color: #001E70;
+      border: 1px solid #001E70;
+      position: relative;
+      text-align: left; }
+    #the-club table.data th.sortable.up:after,
+    #the-club table.data th.sortable.up:before {
+      position: absolute;
+      right: 0.625rem; }
+    #the-club table.data th.sortable.up:after {
+      content: "▲"; }
+    #the-club table.data th.sortable.down:after {
+      content: "▼"; }
+    #the-club table.data tr:nth-child(1n) {
+      background: #ffffff; }
+    #the-club table.data tr:nth-child(2n) {
+      background: #eeeeee; }
+    #the-club table.data .sales tr:nth-child(1n) {
+      background: #FFE2A4; }
+    #the-club table.data .sales tr:nth-child(2n) {
+      background: #AEC3FF; }
+    #the-club table.data .title {
+      width: 20%; }
+    #the-club table.data .number, #the-club table.data .grade {
+      width: 5%; }
+    #the-club table.data .pedigree,
+    #the-club table.data .source {
+      width: 15%; }
+    #the-club table.data .commentary {
+      width: 20%; }
+    #the-club table.data .sales {
+      width: 20%; }
+      #the-club table.data .sales ol {
+        padding-left: 0.9375em; }
 
-#the-club .editing {
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: block;
-  -moz-box-shadow: 0px 3px 5px 6px #000;
-  -webkit-box-shadow: 0px 3px 5px 6px #000;
-  box-shadow: 20px 10px 10px 5px #000;
-  width: 750px;
-  background: #ffffff; }
-
-#the-club .editing td {
-  float: left;
-  width: 242px;
-  height: 50px; }
-
-#the-club .edit {
-  width: 24px;
-  height: 24px;
-  background: url(img/edit.png) no-repeat;
-  border: 0;
-  text-indent: -9999px; }
-
-#the-club #filter-box {
-  margin-bottom: 20px;
-  height: 30px; }
-
-#the-club #filter-box label {
-  font-size: 14px; }
+.search-query {
+  margin: 0.625em 0;
+  height: 1.875em; }
 
 /*# sourceMappingURL=styles.css.map */

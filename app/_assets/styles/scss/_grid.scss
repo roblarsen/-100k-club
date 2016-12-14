@@ -1,4 +1,5 @@
 #the-club {
+  padding-left: em(10);
   table.data {
     margin: rem(10) 0;
     width:95%;
@@ -61,40 +62,13 @@
     }
     .sales {
       width:20%;
-      padding:0;
+      ol {
+        padding-left:em(15);
+      }
     }
   }
-
-.editing {
-    position:fixed;
-    top:0;
-    left:0;
-    display:block;
-    -moz-box-shadow:    0px 3px 5px 6px #000;
-  -webkit-box-shadow: 0px 3px 5px 6px #000;
-  box-shadow:         20px 10px 10px 5px #000;
-  width:750px;
-  background:$white;
 }
-
-.editing td{
-    float:left;
-    width:242px;
-    height:50px;
-}
-
-.edit {
-    width :24px;
-    height:24px;
-    background:url(img/edit.png) no-repeat;
-    border:0;
-    text-indent:-9999px;
-}
-#filter-box {
-    margin-bottom: 20px;
-    height: 30px;
-}
-#filter-box label {
-    font-size: 14px;
-}
+.search-query {
+    margin: em(10) 0;
+    height: em(30);
 }

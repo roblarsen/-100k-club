@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>$100,000 Club 2.0</title>
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="_assets/styles/vendor/normalize.css">
+<link rel="stylesheet" type="text/css" href="_assets/styles/vendor/main.css">
+<link rel="stylesheet" href="_assets/styles/styles.css">
+</head>
+<body>
+<div data-ng-controller="chartCtrl"> <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   width="100%" viewBox="0 0 1024 700" enable-background="new 0 0 1024 700" xml:space="preserve">
+        <filter id="drop-shadow">
+          <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+          <feOffset in="blur" dx="4" dy="4" result="offsetBlur"/>
+          <feMerge>
+            <feMergeNode in="offsetBlur"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        <g id="lines">
+        
+        </g>
+        <g id="text">
+        </g>
+     <g id="legend">
+          <rect x="125" y="0" width="15" height="15" fill="#D95B43" data-ng-mouseover="venues='comic connect'" data-ng-mouseout="venues=''"></rect>
+          <text x="145" y="10" class="legend">Comic Connect</text>
+          <rect x="245" y="0" width="15" height="15" fill="#ECD078" data-ng-mouseover="venues='heritage'" data-ng-mouseout="venues=''"></rect>
+          <text x="265" y="10" class="legend">Heritage</text>
+          <rect x="325" y="0" width="15" height="15" fill="#C02942" data-ng-mouseover="venues='comiclink'" data-ng-mouseout="venues=''"></rect>
+          <text x="345" y="10" class="legend">ComicLink</text>
+          <rect x="405" y="0" width="15" height="15" fill="#542437" data-ng-mouseover="venues='pedigree'" data-ng-mouseout="venues=''"></rect>
+          <text x="425" y="10" class="legend">Pedigree</text>
+          <rect x="485" y="0" width="15" height="15" fill="#53777A" data-ng-mouseover="venues='metropolis'" data-ng-mouseout="venues=''"></rect>
+          <text x="505" y="10" class="legend">Metropolis</text>
+          <rect x="565" y="0" width="15" height="15" fill="#69D2E7" data-ng-mouseover="venues='jp'" data-ng-mouseout="venues=''"></rect>
+          <text x="585" y="10" class="legend">JP/Mint</text>
+          <rect x="645" y="0" width="15" height="15" fill="#FA6900" data-ng-mouseover="venues='mastronet'" data-ng-mouseout="venues=''"></rect>
+          <text x="665" y="10" class="legend">Mastronet</text>
+          <rect x="725" y="0" width="15" height="15" fill="#FE4365" data-ng-mouseover="venues='pgc'" data-ng-mouseout="venues=''"></rect>
+          <text x="745" y="10" class="legend">PGCMint</text>
+          <rect x="805" y="0" width="15" height="15" fill="#666666" data-ng-mouseover="venues='unknown'" data-ng-mouseout="venues=''"></rect>
+          <text x="825" y="10" class="legend">Other/Unknown</text>
+        </g>
+        <g id="dynamic">
+          <circle  data-ng-repeat="it in items | filter : venues" opacity="0.8" data-ng-attr-fill="{{colorPicker(it.venue)}}" data-ng-attr-cx="{{it.date | xDate}}" data-ng-mouseover="updateTooltip(it)" data-ng-mouseout="updateTooltip(0)"  data-ng-attr-cy="{{it.price | yPrice}}" r="7" />
+          <rect data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-180,-60)" data-ng-attr-x="{{tooltip.date | xDate}}" data-ng-attr-y="{{tooltip.price | yPrice}}" width="150" height="80" fill="white" stroke=""  style="filter:url(#drop-shadow)" />
+          <text data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-170,-50)" data-ng-attr-x="{{tooltip.date | xDate}}" data-ng-attr-y="{{tooltip.price | yPrice}}" >{{tooltip.title}} {{tooltip.issue}}</text>
+          <text data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-170,-35)" data-ng-attr-x="{{tooltip.date | xDate}}" data-ng-attr-y="{{tooltip.price | yPrice}}" >{{tooltip.pedigree}}{{tooltip.collection}}{{tooltip.provenance}} {{tooltip.gradeSrc | srcFilter}} {{tooltip.grade}}</text>
+          <text data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-170,-20)" data-ng-attr-x="{{tooltip.date | xDate}}" data-ng-attr-y="{{tooltip.price | yPrice}}" >{{tooltip.price|currency}}</text>
+          <text data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-170,-5)" data-ng-attr-x="{{tooltip.date | xDate}}" data-ng-attr-y="{{tooltip.price | yPrice}}" >{{tooltip.date}}</text>
+          <text data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-170,10)" data-ng-attr-x="{{tooltip.date | xDate}}" data-ng-attr-y="{{tooltip.price | yPrice}}" >{{tooltip.venue}}</text>
+        </g>
+        </svg> 
+      </div>
+      
+<!-- build:js(app) scripts/vendor.js -->
+<script src="_assets/scripts/vendor/angular/angular.min.js"></script>
+<script src="_assets/scripts/vendor/jquery/jquery.min.js"></script>
+<script src="_assets/scripts/vendor/lodash/lodash.min.js"></script>
+<script src="_assets/scripts/vendor/moment.min.js"></script>
+<!-- endbuild -->
+    <!-- build:js(app) scripts/scripts.js -->
+<script src="_assets/scripts/app/app.js"></script>
+<script src="_assets/scripts/app/services.js"></script>
+<script src="_assets/scripts/app/controllers.js"></script>
+<script src="_assets/scripts/app/filters.js"></script>
+<!-- endbuild -->
+
+</body>
+</html>

@@ -16,9 +16,12 @@ angular.module("comicFilters", []).filter("srcFilter", function() {
   return function (input) {
     if (input) {
       if (input === "1900-01-01") {
+        return " on an unknown date ";
       }
       else if (input.indexOf("01-01") > -1){
+        return "in " + input.substring(0,4);
       } else { 
+        return "on " + input.replace(/-/g,"/");
       }
     }
   };

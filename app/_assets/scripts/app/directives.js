@@ -23,10 +23,15 @@ angular.module("comicsApp")
     var prices = priceRange/100000;
     var increment = 650 / prices;
     scope.newYs = [];
+    var strokeWidth = 1;
     for (var i = 0; i < prices; i++){
-      scope.newYs.push((i * increment) + 25);
+      if (i%5 === 0 ) {
+        strokeWidth = 3;
+      } else {
+        strokeWidth = 1;
+      }
+      scope.newYs.push({y:(i * increment) + 25, strokeWidth:strokeWidth});
     }
-    console.log(scope.newYs);
   }
 
   return {

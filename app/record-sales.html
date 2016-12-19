@@ -24,33 +24,22 @@
         </filter>
         
         <g id="base-lines">
-          <line fill="none" stroke="#000000" stroke-miterlimit="10" x1="75" y1="27" x2="75" y2="680"></line>
-          <line fill="none" stroke="#B5B5B6" stroke-miterlimit="10" x1="0" y1="673" x2="987" y2="673"></line>
+          <line fill="none" stroke="#000000" stroke-miterlimit="10" x1="75" y1="25" x2="75" y2="675"></line>
+          <line fill="none" stroke="#000000" stroke-miterlimit="10" x1="0" y1="675" x2="990" y2="675"></line>
         </g>
 
         <g id="horizontal-lines" horizontal-lines data-baseline="0" data-max-price="3500000">
           
         </g>
-        <g id="vertical-lines" vertical-lines data-start-year="1990" data-end-year="2017">
+        <g id="vertical-lines" vertical-lines data-start-year="1990" data-end-year="2018">
           
         </g>
-        <g id="text">
-          <text x="0" y="10" fill="#666666" style="font-size:10px;">price in USD</text>
-          <text x="56" y="692" fill="#666666" style="font-size:10px;">1990</text>
-          <text x="234" y="692" fill="#666666" style="font-size:10px;">1995</text>
-          <text x="412" y="692" fill="#666666" style="font-size:10px;">2000</text>
-          <text x="591" y="692" fill="#666666" style="font-size:10px;">2005</text>
-          <text x="768" y="692" fill="#666666" style="font-size:10px;">2010</text>
-          <text x="953" y="692" fill="#666666" style="font-size:10px;">2015</text>
-          <text x="0" y="649" fill="#666666" style="font-size:10px;">$100,000</text>
-          <text x="0" y="576" fill="#666666" style="font-size:10px;">$500,000</text>
-          <text x="0" y="481" fill="#666666" style="font-size:10px;">$1,000,000</text>
-          <text x="0" y="386" fill="#666666" style="font-size:10px;">$1,500,000</text>
-          <text x="0" y="291" fill="#666666" style="font-size:10px;">$2,000,000</text>
-          <text x="0" y="196" fill="#666666" style="font-size:10px;">$2,500,000</text>
-          <text x="0" y="101" fill="#666666" style="font-size:10px;">$3,000,000</text>
+        
+        <g id="years" year-labels data-start-year="1990" data-end-year="2018">
+         </g>
+        <g id="text" dollar-labels data-baseline="0" data-max-price="3500000">
         </g>
-     <g id="legend">
+        <g id="legend">
           <rect x="125" y="0" width="15" height="15" fill="#D95B43" data-ng-mouseover="venues='comic connect'" data-ng-mouseout="venues=''"></rect>
           <text x="145" y="10" class="legend">Comic Connect</text>
           <rect x="245" y="0" width="15" height="15" fill="#ECD078" data-ng-mouseover="venues='heritage'" data-ng-mouseout="venues=''"></rect>
@@ -70,16 +59,10 @@
           <rect x="805" y="0" width="15" height="15" fill="#666666" data-ng-mouseover="venues='unknown'" data-ng-mouseout="venues=''"></rect>
           <text x="825" y="10" class="legend">Other/Unknown</text>
         </g>
-        <g id="dynamic">
-          <circle  data-ng-repeat="it in items | filter : venues" opacity="0.8" data-ng-attr-fill="{{colorPicker(it.venue)}}" data-ng-attr-cx="{{it.date | xDate}}" data-ng-mouseover="updateTooltip(it)" data-ng-mouseout="updateTooltip(0)"  data-ng-attr-cy="{{it.price | yPrice}}" r="7" />
-          <rect data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-180,-60)" data-ng-attr-x="{{tooltip.date | xDate}}" data-ng-attr-y="{{tooltip.price | yPrice}}" width="150" height="80" fill="white" stroke=""  style="filter:url(#drop-shadow)" />
-          <text data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-170,-50)" data-ng-attr-x="{{tooltip.date | xDate}}" data-ng-attr-y="{{tooltip.price | yPrice}}" >{{tooltip.title}} {{tooltip.issue}}</text>
-          <text data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-170,-35)" data-ng-attr-x="{{tooltip.date | xDate}}" data-ng-attr-y="{{tooltip.price | yPrice}}" >{{tooltip.pedigree}}{{tooltip.collection}}{{tooltip.provenance}} {{tooltip.gradeSrc | srcFilter}} {{tooltip.grade}}</text>
-          <text data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-170,-20)" data-ng-attr-x="{{tooltip.date | xDate}}" data-ng-attr-y="{{tooltip.price | yPrice}}" >{{tooltip.price|currency}}</text>
-          <text data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-170,-5)" data-ng-attr-x="{{tooltip.date | xDate}}" data-ng-attr-y="{{tooltip.price | yPrice}}" >{{tooltip.date}}</text>
-          <text data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-170,10)" data-ng-attr-x="{{tooltip.date | xDate}}" data-ng-attr-y="{{tooltip.price | yPrice}}" >{{tooltip.venue}}</text>
+        <g id="dynamic" sales-points  data-start-year="1990" data-end-year="2018" data-baseline="0" data-max-price="3500000">
         </g>
-        </svg> </div>
+      </svg>
+      </div>
       <div data-ng-controller="recordCtrl">
         <div id="filter-box">
     <label for="filter" class="columns two">Filter the table</label><input type="text" data-ng-model="search" name="filter" class="search-query columns five ng-valid ng-dirty" placeholder="try cgc, batman, heritage or marvel"> <button ng-click="search=''">Reset Filter</button>
@@ -123,6 +106,7 @@
 <script src="_assets/scripts/app/comicsController.js"></script>
 <script src="_assets/scripts/app/recordController.js"></script>
 <script src="_assets/scripts/app/directives.js"></script>
+<script src="_assets/scripts/app/sales-points.js"></script>
 <script src="_assets/scripts/app/filters.js"></script>
 <!-- endbuild -->
 

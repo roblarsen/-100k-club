@@ -39,7 +39,7 @@ angular.module("comicsApp" ).
         "comiclink":"#C02942",
         "pedigreecomics":"#542437",
         "metropolis":"#53777A",
-        "default":"#666666"
+        "default":"#4286f4"
       };
     }
   ]);

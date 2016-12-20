@@ -51,7 +51,7 @@
          "grade": "7.5",
          "gradeSrc": "CGC",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "2002-01-01",
             "price": "192120.15"
          }],
@@ -77,7 +77,7 @@
          "grade": "6.5",
          "tags": "cgc,superman,action",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "2006-01-01",
             "price": "250000"
          }],
@@ -112,7 +112,7 @@
          "generalCommentary": "Upgraded from 5.5",
          "tags": "cgc,upgrade,action,superman",
          "sales": [{
-               "venue": "Seller unknown",
+               "venue": "unknown",
                "sellersNotes": "as 5.5",
                "salesDate": "1900-01-01",
                "price": "120750"
@@ -197,7 +197,7 @@
          "grade": "4.5",
          "tags": "cgc,superman,action,dc",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "1900-01-01",
             "price": "86250"
          }, {
@@ -386,7 +386,7 @@
          "grade": "9.4",
          "tags": "all-american-comics,green-lantern,dc,cgc,pedigree",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "1984-01-01",
             "price": "9000"
          }],
@@ -401,7 +401,7 @@
          "gradingNotes": "qualified, coupon out of back cover",
          "tags": "all-american-comics,green-lantern,dc,pedigree",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "sellersNotes": "OS26 listing",
             "salesDate": "1996-01-01",
             "price": "60000"
@@ -416,7 +416,7 @@
          "grade": "9.6",
          "tags": "all-star-comics,jsa,dc,pedigree,cgc",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "1900-01-01",
             "price": "126500"
          }],
@@ -429,7 +429,7 @@
          "generalCommentary": "Overstreet 26 reported sale",
          "tags": "all-star,dc,church,pedigree",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "1995-01-01",
             "price": "70000"
          }],
@@ -472,7 +472,7 @@
          "sales": [{
             "salesDate": "1993-01-01",
             "price": "39100",
-            "venue": "Sothebys"
+            "venue": "Sotheby's"
          }, {
             "link": "http://comics.ha.com/c/item.zx?saleNo=816&lotNo=5272",
             "price": "126500",
@@ -481,7 +481,7 @@
          }, {
             "salesDate": "2004-08-01",
             "price": "150000",
-            "venue": "Pedigree",
+            "venue": "pedigreecomics",
             "link": "http://www.pedigreecomics.com/detail.php?issue_id=719"
          }, {
             "salesDate": "2007-10-16",
@@ -520,7 +520,7 @@
          "grade": "9.4",
          "tags": "amazing-fantasy,marvel,spider-man,cgc,pedigree",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "2001-01-01",
             "price": "86000"
          }, {
@@ -549,7 +549,7 @@
          "sales": [{
             "salesDate": "2009-02-15",
             "price": "190000",
-            "venue": "Pedigree"
+            "venue": "pedigreecomics"
          }],
          "uid": "0041"
       }, {
@@ -648,7 +648,7 @@
          "grade": "9.6",
          "tags": "AMAZING-SPIDER-MAN,CGC.MARVEL",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "2001-01-01",
             "price": "67305"
          }, {
@@ -693,7 +693,7 @@
          "generalCommentary": "Reported in Overstreet 28",
          "tags": "archie,pedigree",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "1997-01-01",
             "price": "53000"
          }],
@@ -844,7 +844,7 @@
          "sales": [{
             "salesDate": "2010-01-01",
             "price": "210000",
-            "venue": "Pedigree"
+            "venue": "pedigreecomics"
          }],
          "uid": "0066"
       }, {
@@ -894,7 +894,7 @@
          "sales": [{
             "salesDate": "2004-01-01",
             "price": "350000",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }, {
             "salesDate": "2007-01-01",
             "price": "273125",
@@ -956,7 +956,7 @@
          "grade": "8.5",
          "tags": "batman,overstreet,dc",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "2001-01-01",
             "price": "150000"
          }],
@@ -1112,17 +1112,17 @@
          "grade": "8.5",
          "tags": "cgc,pedigree,captain-america,timely,marvel",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "2001-01-01",
             "sellersNotes": "os32",
             "price": "95000"
          }, {
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "1994-01-01",
             "price": "36800",
             "sellersNotes": "os25"
          }, {
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "2005-10-14",
             "price": "63250"
          }],
@@ -1147,12 +1147,12 @@
          "grade": "9.2",
          "tags": "captain-america,marvel,timely,cgc,pedigree",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "2001-01-01",
             "price": "166750",
             "sellersNotes": "os32"
          }, {
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "sellersNotes": "os25",
             "salesDate": "1994-01-01",
             "price": "82500"
@@ -1167,11 +1167,11 @@
          "generalCommentary": "upgraded",
          "tags": "captain-america,cgc,pedigree,marvel,timely",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "2001-01-01",
             "price": "260000"
          }, {
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "1994-01-01",
             "price": "82500"
          }],
@@ -1194,7 +1194,7 @@
          "pedigree": "Denver",
          "tags": "detective-comics,pedigree,dc",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "1995-01-01",
             "price": "90000",
             "sellersNotes": "os26"
@@ -1220,7 +1220,7 @@
          "generalCommentary": "Best Existing",
          "tags": "detective-comics,batman,dc",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "1990-01-01",
             "sellersNotes": "os21",
             "price": "80000"
@@ -1234,12 +1234,12 @@
          "grade": "8.5",
          "tags": "detective-comics,dc,batman,pedigree",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "1994-01-01",
             "sellersNotes": "os25",
             "price": "125000"
          }, {
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "sellersNotes": "os22",
             "salesDate": "1991-01-01",
             "price": "72000"
@@ -1279,7 +1279,7 @@
          "generalCommentary": "Slight resto",
          "tags": "detective-comics,batman,dc,restored",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "sellersNotes": "os33",
             "salesDate": "2002-01-01",
             "price": "100000"
@@ -1291,12 +1291,12 @@
          "generalCommentary": "The \"Other high grade\" copy",
          "tags": "detective-comics,batman,dc",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "sellersNotes": "OS24",
             "salesDate": "1993-01-01",
             "price": "81000"
          }, {
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "sellersNotes": "OS24",
             "salesDate": "1993-01-02",
             "price": "101000"
@@ -1373,7 +1373,7 @@
          "grade": "5.5",
          "tags": "detective-comics,dc,batman,pedigree",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "1900-01-01",
             "price": "115000"
          }],
@@ -1479,7 +1479,7 @@
          "grade": "9.6",
          "tags": "detective-comics,dc,batman",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "1998-01-01",
             "price": "57000",
             "sellersNotes": "OS29"
@@ -1558,7 +1558,7 @@
          "grade": "9.4",
          "tags": "green-lantern,dc",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "sellersNotes": "OS21",
             "salesDate": "1990-01-01",
             "price": "25000"
@@ -1657,7 +1657,7 @@
          }, {
             "salesDate": "2014-01-31",
             "price": "111000",
-            "venue": "pedigree",
+            "venue": "pedigreecomics",
             "link": "http://www.pedigreecomics.com/detail.php?issue_id=40571"
          }, {
             "salesDate": "2015-03-26",
@@ -1766,7 +1766,7 @@
          "grade": "8.0",
          "tags": "marvel-comics,marvel,timely",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "1998-01-01",
             "price": "48000",
             "sellersNotes": "os29"
@@ -1838,7 +1838,7 @@
          "grade": "9.2",
          "tags": "more-fun,pedigree,dc,church",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "2001-01-01",
             "price": "207000"
          }],
@@ -1851,7 +1851,7 @@
          "grade": "9.2",
          "tags": "more-fun,dc,pedigree,larson",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "1995-01-01",
             "price": "65000",
             "sellersNotes": "\"nm\" in OS26"
@@ -1930,7 +1930,7 @@
          "grade": "NM",
          "tags": "more-fun,dc,pedigree",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "1995-01-01",
             "sellersNotes": "os26",
             "price": "66000"
@@ -1944,7 +1944,7 @@
          "grade": "NM",
          "tags": "archie,pep-comics",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "1997-01-01",
             "sellersNotes": "os28",
             "price": "47000"
@@ -1956,12 +1956,12 @@
          "pedigree": "Church",
          "tags": "wonder-woman,dc,pedigree",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "1996-01-01",
             "price": "90000",
             "sellersNotes": "TRADE"
          }, {
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "1995-01-01",
             "price": "60000"
          }],
@@ -1973,7 +1973,7 @@
          "grade": "9.4",
          "tags": "wonder-woman,dc",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "2001-01-01",
             "price": "100000"
          }, {
@@ -2038,7 +2038,7 @@
          "grade": "8.0",
          "tags": "superman,dc,pedigree",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "sellersNotes": "os27",
             "salesDate": "1996-01-01",
             "price": "170000"
@@ -2051,7 +2051,7 @@
          "grade": "7.5",
          "tags": "superman,dc",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "1900-01-01",
             "price": "250000"
          }],
@@ -2063,7 +2063,7 @@
          "grade": "6.0",
          "tags": "dc,superman",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "sellersNotes": "Confirmed private sale",
             "salesDate": "1900-01-01",
             "price": "125000"
@@ -2081,7 +2081,7 @@
             "price": "121000",
             "venue": "Comiclink"
          }, {
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "2010-01-01",
             "price": "135000"
          }],
@@ -2107,7 +2107,7 @@
          "generalCommentary": "Catalog NM+ Generally ranges from 9.0-9.8. OS 21 lists it as \"MT.\" Changed hands in a cash/trade deal- $74,000 (1990)",
          "tags": "whiz,captain-marvel",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "sellersNotes": "OS26",
             "salesDate": "1995-01-01",
             "price": "176000"
@@ -2132,7 +2132,7 @@
          "grade": "9.8",
          "tags": "upgrade,x-men,marvel,pedigree",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "sellersNotes": "Sold for $110,000 as a CGC 9.6"
          }, {
             "salesDate": "2012-07-26",
@@ -2151,7 +2151,7 @@
          "sales": [{
             "salesDate": "1900-01-01",
             "price": "100000",
-            "venue": "Pedigree"
+            "venue": "pedigreecomics"
          }],
          "uid": "0165"
       }, {
@@ -2167,7 +2167,7 @@
          }, {
             "salesDate": "2013-07-01",
             "price": "250000",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }],
          "uid": "0166"
       }, {
@@ -2180,7 +2180,7 @@
             "sellersNotes": "Mound City Auction",
             "salesDate": "2009-08-31",
             "price": "116150",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }],
          "uid": "0167"
       }, {
@@ -2237,7 +2237,7 @@
          "sales": [{
             "salesDate": "2011-10-19",
             "price": "107300",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }],
          "uid": "0172"
       }, {
@@ -2249,7 +2249,7 @@
          "sales": [{
             "salesDate": "2011-07-21",
             "price": "110000",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }],
          "uid": "0173"
       }, {
@@ -2261,7 +2261,7 @@
          "sales": [{
                "salesDate": "2010-09-20",
                "price": "108000",
-               "venue": "Seller unknown"
+               "venue": "unknown"
             }
 
          ],
@@ -2275,7 +2275,7 @@
          "sales": [{
             "salesDate": "2010-05-30",
             "price": "105000",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }],
          "uid": "0175"
       }, {
@@ -2441,7 +2441,7 @@
          "sales": [{
                "salesDate": "2014-09-01",
                "price": "115000",
-               "venue": "Seller unknown"
+               "venue": "unknown"
             }
 
          ],
@@ -2455,7 +2455,7 @@
          "sales": [{
                "salesDate": "2014-03-01",
                "price": "119222",
-               "venue": "Seller unknown"
+               "venue": "unknown"
             }
 
          ],
@@ -2469,7 +2469,7 @@
          "sales": [{
                "salesDate": "2013-09-14",
                "price": "120000",
-               "venue": "Pedigree"
+               "venue": "pedigreecomics"
             }, {
                "salesDate": "2012-08-14",
                "price": "120000",
@@ -2488,7 +2488,7 @@
          "sales": [{
             "salesDate": "2014-09-01",
             "price": "115000",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }],
          "uid": "0193"
       }, {
@@ -2735,7 +2735,7 @@
          "sales": [{
             "salesDate": "2011-11-09",
             "price": "100000",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }],
          "uid": "0208"
       }, {
@@ -2836,7 +2836,7 @@
          "sales": [{
             "salesDate": "2013-03-23",
             "price": "171000",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }],
          "uid": "0217"
       }, {
@@ -2848,7 +2848,7 @@
          "sales": [{
             "salesDate": "2012-02-01",
             "price": "222200",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }],
          "uid": "0218"
       }, {
@@ -2875,7 +2875,7 @@
          "sales": [{
             "salesDate": "2012-06-26",
             "price": "83850",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }],
          "uid": "0220"
       }, {
@@ -2887,7 +2887,7 @@
          "sales": [{
             "salesDate": "2011-10-22",
             "price": "100000",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }],
          "uid": "0221"
       }, {
@@ -2962,7 +2962,7 @@
          "sales": [{
             "salesDate": "2012-08-29",
             "price": "112007",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }],
          "uid": "0228"
       }, {
@@ -2974,7 +2974,7 @@
          "sales": [{
             "salesDate": "2012-12-10",
             "price": "111000",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }, {
             "link": "http://www.comicconnect.com/bookDetail.php?id=592448",
             "salesDate": "2015-03-26",
@@ -3002,7 +3002,7 @@
          "sales": [{
             "salesDate": "2011-12-06",
             "price": "214000",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }],
          "uid": "0231"
       }, {
@@ -3064,7 +3064,7 @@
          "sales": [{
             "salesDate": "2013-08-15",
             "price": "145000",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }],
          "uid": "0237"
       }, {
@@ -3081,7 +3081,7 @@
          "sales": [{
             "salesDate": "2012-12-12",
             "price": "281001",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }],
          "uid": "0239"
       }, {
@@ -3093,7 +3093,7 @@
          "sales": [{
             "salesDate": "2011-12-06",
             "price": "176007",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }],
          "uid": "0240"
       }, {
@@ -3115,7 +3115,7 @@
          "sales": [{
             "salesDate": "2013-08-01",
             "price": "83650",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }],
          "uid": "0242"
       }, {
@@ -3127,7 +3127,7 @@
          "sales": [{
             "salesDate": "2012-11-15",
             "price": "89625",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }],
          "uid": "0243"
       }, {
@@ -3139,11 +3139,11 @@
          "sales": [{
             "salesDate": "2012-07-27",
             "price": "89625",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }, {
             "salesDate": "2011-10-01",
             "price": "137500",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }],
          "uid": "0244"
       }, {
@@ -3155,7 +3155,7 @@
          "sales": [{
             "salesDate": "2010-05-27",
             "price": "105521",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }],
          "uid": "0245"
       }, {
@@ -3167,7 +3167,7 @@
          "sales": [{
             "salesDate": "2010-04-18",
             "price": "100000",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }],
          "uid": "0246"
       }, {
@@ -3179,7 +3179,7 @@
          "sales": [{
             "salesDate": "2009-11-01",
             "price": "106050",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }],
          "uid": "0247"
       }, {
@@ -3245,11 +3245,11 @@
          "sales": [{
             "salesDate": "2011-03-24",
             "price": "147500",
-            "venue": "pedigree"
+            "venue": "pedigreecomics"
          }, {
             "salesDate": "2009-11-23",
             "price": "114990",
-            "venue": "pedigree"
+            "venue": "pedigreecomics"
          }],
          "uid": "0253"
       }, {
@@ -3958,7 +3958,7 @@
          "grade": "8.0",
          "tags": "archie",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "2014-08-01",
             "price": "122567"
          }],
@@ -4071,7 +4071,7 @@
          "grade": "9.4",
          "tags": "cgc,avengers,marvel",
          "sales": [{
-            "venue": "Seller unknown",
+            "venue": "unknown",
             "salesDate": "2013-01-01",
             "price": "130000"
          }, {
@@ -4140,7 +4140,7 @@
          "sales": [{
             "salesDate": "2015-01-01",
             "price": "200000",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }],
          "uid": "0327"
       }, {
@@ -4202,7 +4202,7 @@
          }, {
             "salesDate": "2013-07-01",
             "price": "250000",
-            "venue": "Seller unknown"
+            "venue": "unknown"
          }],
          "uid": "0332"
       }, {

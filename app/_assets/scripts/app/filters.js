@@ -12,6 +12,26 @@ angular.module("comicFilters", []).filter("srcFilter", function() {
       return input.charAt(0).toUpperCase() + input.slice(1);
     }
   };
+}).filter("sellers", function () {
+  var sellers = {
+        "heritage": "Heritage",
+        "comicconnect": "ComicConnect",
+        "comiclink": "ComicLink",
+        "pedigreecomics": "Pedigree",
+        "metropolis": "Metropolis",
+        "ebay": "eBay",
+        "unknown": "Seller unknown"
+  };
+  return function (input) {
+    if (input){
+      var key = input.toLowerCase();
+      if (sellers[key]){ 
+        return sellers[key];
+      } else {
+        return input.charAt(0).toUpperCase() + input.slice(1);
+      }
+    }
+  };
 }).filter("saneDate", function () {
   return function (input) {
     if (input) {

@@ -3,10 +3,13 @@ angular.module("comicsApp" ).
     function( $rootScope, $scope, dataService )  {
       "use strict";
       $scope.items = dataService.getRecords();
-      console.log($rootScope);
       $scope.tooltip = {
         price:0
       };
+      $scope.startYear = 1990;
+      $scope.endYear = moment().add(1,"year").year();
+      $scope.baseline = 0;
+      $scope.maxPrice = 3500000;
       $scope.updateTooltip = function(it) {
         $scope.tooltip = {
           price:it.price || 0,
@@ -22,28 +25,21 @@ angular.module("comicsApp" ).
         };
       };
       $scope.colorPicker= function( venue ){
-
-        switch (venue) {
-          case "Heritage":
-            return $scope.colors[0];
-          case  "ComicConnect":
-            return $scope.colors[1];
-          case "Comiclink":
-            return $scope.colors[2];
-          case  "Pedigree":
-            return $scope.colors[3];
-          case "Metropolis":
-            return $scope.colors[4];
-          case  "JP The Mint":
-            return $scope.colors[5];
-          case "Mastronet":
-            return $scope.colors[6];
-          case  "PGCMint":
-            return $scope.colors[7];
-          default:
-            return $scope.colors[8];
+        venue = venue.toLowerCase();
+        if ($scope.colors[venue]){
+          return $scope.colors[venue];
+        }
+        else {
+          return $scope.colors.default;
         }
       };
-      $scope.colors = ["#ECD078","#D95B43","#C02942","#542437","#53777A","#69D2E7","#FA6900", "#FE4365","#666666"];
+      $scope.colors = {
+        "heritage":"#ECD078",
+        "comicconnect":"#D95B43",
+        "comiclink":"#C02942",
+        "pedigreecomics":"#542437",
+        "metropolis":"#53777A",
+        "default":"#666666"
+      };
     }
   ]);

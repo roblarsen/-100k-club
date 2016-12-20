@@ -23,6 +23,7 @@
       text-align:left;
     }
     th.sortable {
+      cursor:pointer;
     }
     th.sortable.up:after,
     th.sortable.up:before {
@@ -71,4 +72,7 @@
 .search-query {
     margin: em(10) 0;
     height: em(30);
+}
+.pointer {
+  cursor:pointer;
 }

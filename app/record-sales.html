@@ -28,38 +28,32 @@
           <line fill="none" stroke="#000000" stroke-miterlimit="10" x1="0" y1="675" x2="990" y2="675"></line>
         </g>
 
-        <g id="horizontal-lines" horizontal-lines data-baseline="0" data-max-price="3500000">
+        <g id="horizontal-lines" horizontal-lines data-baseline="{{baseline}}" data-max-price="{{maxPrice}}">
           
         </g>
-        <g id="vertical-lines" vertical-lines data-start-year="1990" data-end-year="2018">
+        <g id="vertical-lines" vertical-lines data-start-year="{{startYear}}" data-end-year="{{endYear}}">
           
         </g>
         
-        <g id="years" year-labels data-start-year="1990" data-end-year="2018">
+        <g id="years" year-labels data-start-year="{{startYear}}" data-end-year="{{endYear}}">
          </g>
-        <g id="text" dollar-labels data-baseline="0" data-max-price="3500000">
+        <g id="text" dollar-labels data-baseline="{{baseline}}" data-max-price="{{maxPrice}}">
         </g>
         <g id="legend">
-          <rect x="125" y="0" width="15" height="15" fill="#D95B43" data-ng-mouseover="venues='comic connect'" data-ng-mouseout="venues=''"></rect>
+          <rect x="125" y="0" width="15" height="15" fill="#D95B43" data-ng-mouseover="venues='comicconnect'" data-ng-mouseout="venues=''"></rect>
           <text x="145" y="10" class="legend">Comic Connect</text>
-          <rect x="245" y="0" width="15" height="15" fill="#ECD078" data-ng-mouseover="venues='heritage'" data-ng-mouseout="venues=''"></rect>
+          <rect x="245" y="0" width="15" height="15" fill="{{colors.heritage}}" data-ng-mouseover="venues='heritage'" data-ng-mouseout="venues=''"></rect>
           <text x="265" y="10" class="legend">Heritage</text>
-          <rect x="325" y="0" width="15" height="15" fill="#C02942" data-ng-mouseover="venues='comiclink'" data-ng-mouseout="venues=''"></rect>
+          <rect x="325" y="0" width="15" height="15" fill="{{colors.comiclink}}" data-ng-mouseover="venues='comiclink'" data-ng-mouseout="venues=''"></rect>
           <text x="345" y="10" class="legend">ComicLink</text>
-          <rect x="405" y="0" width="15" height="15" fill="#542437" data-ng-mouseover="venues='pedigree'" data-ng-mouseout="venues=''"></rect>
+          <rect x="405" y="0" width="15" height="15" fill="{{colors.pedigreecomics}}" data-ng-mouseover="venues='pedigreecomics'" data-ng-mouseout="venues=''"></rect>
           <text x="425" y="10" class="legend">Pedigree</text>
-          <rect x="485" y="0" width="15" height="15" fill="#53777A" data-ng-mouseover="venues='metropolis'" data-ng-mouseout="venues=''"></rect>
+          <rect x="485" y="0" width="15" height="15" data-ng-attr-fill="{{colors.metropolis}}" data-ng-mouseover="venues='metropolis'" data-ng-mouseout="venues=''"></rect>
           <text x="505" y="10" class="legend">Metropolis</text>
-          <rect x="565" y="0" width="15" height="15" fill="#69D2E7" data-ng-mouseover="venues='jp'" data-ng-mouseout="venues=''"></rect>
-          <text x="585" y="10" class="legend">JP/Mint</text>
-          <rect x="645" y="0" width="15" height="15" fill="#FA6900" data-ng-mouseover="venues='mastronet'" data-ng-mouseout="venues=''"></rect>
-          <text x="665" y="10" class="legend">Mastronet</text>
-          <rect x="725" y="0" width="15" height="15" fill="#FE4365" data-ng-mouseover="venues='pgc'" data-ng-mouseout="venues=''"></rect>
-          <text x="745" y="10" class="legend">PGCMint</text>
-          <rect x="805" y="0" width="15" height="15" fill="#666666" data-ng-mouseover="venues='unknown'" data-ng-mouseout="venues=''"></rect>
-          <text x="825" y="10" class="legend">Other/Unknown</text>
+          <rect x="575" y="0" width="15" height="15" data-ng-attr-fill="{{colors.default}}"></rect>
+          <text x="595" y="10" class="legend">Other/Unknown</text>
         </g>
-        <g id="dynamic" sales-points  data-start-year="1990" data-end-year="2018" data-baseline="0" data-max-price="3500000">
+        <g id="dynamic" sales-points  data-start-year="{{startYear}}" data-end-year="{{endYear}}" data-baseline="{{baseline}}" data-max-price="{{maxPrice}}">
         </g>
       </svg>
       </div>
@@ -85,7 +79,7 @@
             <td class="grade">{{it.grade}}</td>
             <td class="uid">{{it.uid}}</td>
             <td>{{it.date | saneDate }}</td>
-            <td>{{it.venue|capitalize}}</td>
+            <td>{{it.venue| sellers}}</td>
             <td data-ng-show="it.link"><a href="{{it.link}}">{{it.price | currency}}</a></td>
             <td data-ng-hide="it.link">{{it.price | currency}}</td>
           </tr>

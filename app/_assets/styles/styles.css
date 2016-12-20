@@ -36,6 +36,8 @@
       border: 1px solid #001E70;
       position: relative;
       text-align: left; }
+    #the-club table.data th.sortable {
+      cursor: pointer; }
     #the-club table.data th.sortable.up:after,
     #the-club table.data th.sortable.up:before {
       position: absolute;
@@ -69,5 +71,8 @@
 .search-query {
   margin: 0.625em 0;
   height: 1.875em; }
+
+.pointer {
+  cursor: pointer; }
 
 /*# sourceMappingURL=styles.css.map */

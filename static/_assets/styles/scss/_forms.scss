@@ -1,0 +1,17 @@
+#the-club {
+  text {
+    font-family:Verdana,Geneva,'DejaVu Sans',sans-serif;
+    font-size:12px;
+  }
+  text.legend {
+    font-size:10px;
+  }
+  text.years{
+    font-size:10px; 
+    transform: translate(-5px,0);
+  }
+  text.dollars {
+    font-size:10px; 
+    transform: translate(0,-3px);
+  }
+}

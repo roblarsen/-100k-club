@@ -13,49 +13,18 @@ module.exports = function (grunt) {
     // Watches files for changes and runs tasks based on the changed files
     watch: {
       js: {
-        files: ["app/_assets/scripts/{,*/}*.js"],
+        files: ["static/_assets/scripts/{,*/}*.js"],
         tasks: ["concurrent:lint"]
 
       },
       sass: {
-        files: ["app/_assets/styles/scss/**"],
+        files: ["static/_assets/styles/scss/**"],
         tasks: ["sass"]
 
       },
       json: {
-        files: ["app/data/books.dev.json","app/data/sa-pedigrees.dev.json"],
+        files: ["static/data/books.dev.json","static/data/sa-pedigrees.dev.json"],
         tasks: ["minjson"]
-      }
-    },
-    // The actual grunt server settings
-    connect: {
-      options: {
-        port: 9000,
-        // Change this to "0.0.0.0" to access the server from outside.
-        hostname: "localhost"
-      },
-      test: {
-        options: {
-          port: 9001,
-          middleware: function (connect) {
-            return [
-              connect.static(".tmp"),
-              connect.static("test"),
-            ];
-          }
-        }
-      },
-      dist: {
-        options: {
-          open: true,
-          base: "dist"
-        }
-      },
-      dev: {
-        options: {
-          open: true,
-          base: "app"
-        }
       }
     },
     sass: {
@@ -64,7 +33,8 @@ module.exports = function (grunt) {
         },
         dist: {
             files: {
-                "app/_assets/styles/styles.css": "app/_assets/styles/scss/styles.scss"
+                "static/_assets/styles/styles.css": "static/_assets/styles/scss/styles.scss",
+                "static/_assets/styles/form.css": "static/_assets/styles/scss/form.scss"
             }
         }
     },
@@ -77,7 +47,7 @@ module.exports = function (grunt) {
       all: {
         src: [
           "Gruntfile.js",
-          "app/_assets/scripts/{,*/}*.js"
+          "static/_assets/scripts/{,*/}*.js"
         ]
       }
 		},
@@ -91,7 +61,7 @@ module.exports = function (grunt) {
       all: {
         src: [
           "Gruntfile.js",
-          "app/_assets/scripts/app/{,*/}*.js"
+          "static/_assets/scripts/static/{,*/}*.js"
         ]
       }
     },
@@ -153,7 +123,7 @@ module.exports = function (grunt) {
     // concat, minify and revision files. Creates configurations in memory so
     // additional tasks can operate on them
     useminPrepare: {
-      html: ["app/*.html"],
+      html: ["static/*.html"],
       options: {
         dest: "dist",
         flow: {
@@ -189,7 +159,7 @@ module.exports = function (grunt) {
       dist: {
         files: [{
           expand: true,
-          cwd: "app/_assets/img",
+          cwd: "static/_assets/img",
           src: "{,*/}*.{png,jpg,jpeg,gif}",
           dest: ".tmp/img"
         }]
@@ -200,7 +170,7 @@ module.exports = function (grunt) {
       dist: {
         files: [{
           expand: true,
-          cwd: "app/_assets/img",
+          cwd: "static/_assets/img",
           src: "{,*/}*.svg",
           dest: "dist/_assets/img"
         }]
@@ -231,7 +201,7 @@ module.exports = function (grunt) {
           htmlmin: "<%= htmlmin.dist.options %>",
           usemin: "_assets/scripts/scripts.js"
         },
-        cwd: "app",
+        cwd: "static",
         src: "_assets/views/**/*.html",
         dest: ".tmp/templateCache.js"
       }
@@ -261,8 +231,8 @@ module.exports = function (grunt) {
     minjson: {
       data: {
         files: {
-          "app/data/books.json":"app/data/books.dev.json",
-          "app/data/sa-pedigrees.json":"app/data/sa-pedigrees.dev.json"
+          "static/data/books.json":"static/data/books.dev.json",
+          "static/data/sa-pedigrees.json":"static/data/sa-pedigrees.dev.json"
         }
       }
     },
@@ -272,7 +242,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           dot: true,
-          cwd: "app",
+          cwd: "static",
           dest: "dist",
           src: [
             "*.{ico,png,txt}",
@@ -289,7 +259,7 @@ module.exports = function (grunt) {
           // special copy for angular-ui-grid fonts not in common fonts dir
           expand: true,
           flatten: true,
-          cwd: "_assets/app/scripts/vendor",
+          cwd: "_assets/static/scripts/vendor",
           dest: "dist/styles",
           src: ["{,*/}*.{svg,ttf,woff,eot}"]
         }, {
@@ -306,7 +276,7 @@ module.exports = function (grunt) {
       },
       styles: {
         expand: true,
-        cwd: "app/_assets/styles",
+        cwd: "static/_assets/styles",
         dest: ".tmp/styles/",
         src: "{,*/}*.css"
       }
@@ -406,7 +376,6 @@ module.exports = function (grunt) {
 			"sass",
       "minjson",
       "concurrent:lint",
-      "connect:dev",
       "watch"];
     grunt.task.run(tasks);
   });
@@ -436,7 +405,7 @@ module.exports = function (grunt) {
     pkg: grunt.file.readJSON("package.json"),
     concat: {
       js: {
-        src: ["_assets/app/*"],
+        src: ["_assets/static/*"],
         dest: "_assets/js/100k.full.js"
       }
     },
@@ -455,12 +424,12 @@ module.exports = function (grunt) {
     },
 
     watch: {
-      files: ["data/books.dev.json","data/sa-pedigrees.dev.json", "_assets/app/*"],
+      files: ["data/books.dev.json","data/sa-pedigrees.dev.json", "_assets/static/*"],
       tasks: ["concat", "ngmin", "minjson", "uglify","clean"]
     },
     clean: ["_assets/js/100k.full.js"],
     jshint: {
-      files: ["gruntfile.js", "_assets/app/*.js"],
+      files: ["gruntfile.js", "_assets/static/*.js"],
       options: {
         passfail:false,
         maxerr: 100,

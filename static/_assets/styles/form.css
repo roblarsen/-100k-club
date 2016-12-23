@@ -1,0 +1,16 @@
+#the-club text {
+  font-family: Verdana,Geneva,'DejaVu Sans',sans-serif;
+  font-size: 12px; }
+
+#the-club text.legend {
+  font-size: 10px; }
+
+#the-club text.years {
+  font-size: 10px;
+  transform: translate(-5px, 0); }
+
+#the-club text.dollars {
+  font-size: 10px;
+  transform: translate(0, -3px); }
+
+/*# sourceMappingURL=form.css.map */

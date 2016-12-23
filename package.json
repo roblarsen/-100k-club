@@ -42,5 +42,8 @@
     "jshint-stylish": "^1.0.0",
     "minjson": "0.0.2",
     "time-grunt": "^1.0.0"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
   }
 }

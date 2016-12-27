@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>$100,000 Club Form</title>
+<link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed|Droid+Sans" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="_assets/styles/vendor/normalize.css">
+<link rel="stylesheet" type="text/css" href="_assets/styles/vendor/main.css">
+<link rel="stylesheet" type="text/css" href="_assets/styles/vendor/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="_assets/styles/styles.css">
+<link rel="stylesheet" type="text/css" href="_assets/styles/form.css">
+</head>
+<body>
+<div data-ng-app="comicsApp"  id="the-club">
+  <div data-ng-controller="comicsCtrl">
+  <form class="form">
+    <div class="form-group row">
+      <label class="col-xs-1">title</label>
+      <div class="col-xs-6">
+        <input type="text" class="form-control" data-ng-model="item.title" list="comicstitle">
+      </div>
+      <label class="col-xs-1">issue #</label>
+      <div class="col-xs-1">
+        <input type="text" class="form-control" data-ng-model="item.issue" >
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-xs-1">pedigree</label>
+      <input type="text" class="form-control" data-ng-model="item.pedigree" list="comicspedigree">
+      <label class="col-xs-1">collection</label>
+      <input type="text" class="form-control" data-ng-model="item.collection" >
+      <label class="col-xs-1">provenance</label>
+      <input type="text" class="form-control" data-ng-model="item.provenance" >
+    </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-xs-1">grade Src</label>
+      <input type="text" class="form-control" data-ng-model="item.gradeSrc" >
+      <label class="col-xs-1">grade</label>
+      <input type="text" class="form-control" data-ng-model="item.grade" list="comicsgrades" >
+    </div>
+    <div class="form-group row">
+      <label class="col-xs-1">general Commentary</label>
+      <textarea class="form-control" data-ng-model="item.generalCommentary" ></textarea>
+    </div>
+    <div class="form-group row">
+      <fieldset>
+        <legend ng-toggle>Sales [{{sales.length}} so far]</legend>
+        <div class="form-group">
+          <label class="col-xs-1">sellersNotes</label>
+          <textarea  class="form-control" data-ng-model="sale.sellersNotes" ></textarea>
+        </div>
+        <div class="form-group">
+          <label class="col-xs-1">sales Date</label>
+          <input type="text" class="form-control" data-ng-model="sale.salesDate" >
+        </div>
+        <div class="form-group">
+          <label class="col-xs-1">price</label>
+          <input type="text" class="form-control" data-ng-model="sale.price" >
+        </div>
+        <div class="form-group">
+          <label class="col-xs-1">venue</label>
+          <input type="text" class="form-control" data-ng-model="sale.venue"  list="comicsvenues">
+        </div>
+        <div class="form-group">
+          <label class="col-xs-1">link</label>
+          <input type="text" class="form-control" data-ng-model="sale.link" >
+        </div>
+        <div class="form-group">
+          <input type="Button" class="btn btn-primary" value="Add" ng-click="addSale(sale)">
+        </div>
+      </fieldset>
+    </div>
+    <div class="form-group row">
+        <label class="col-xs-1">tags</label>
+        <input type="text" class="form-control" data-ng-model="item.tags" >
+    </div>
+    <div class="form-group row">
+      <input type="Button"  class="btn btn-primary"  value="Add" data-ng-click="addItem(item)">
+    </div>
+    </form>
+
+  </div>
+  <div class="row">
+    <div class="form-group">
+      <input type="text" class="form-control" data-ng-model="search" class="search-query" placeholder="Search">
+    </div>
+  </div>
+  <div class="scroller">
+    <table class="data">
+      <tr>
+        <th>title</th>
+        <th>issue#</th>
+        <th>pedigree</th>
+        <th>gradeSrc</th>
+        <th>grade</th>
+        <th>generalCommentary</th>
+        <th>sales</th>
+      </tr>
+      <tr data-ng-repeat="it in items | filter:search | orderBy:['title','issue','-grade']">
+        <td>{{it.title}}</td>
+        <td>{{it.issue}}</td>
+        <td>{{it.pedigree}}{{it.collection}}{{it.provenance}}</td>
+        <td>{{it.gradeSrc | srcFilter}}</td>
+        <td>{{it.grade}}</td>
+        <td>{{it.generalCommentary}}</td>
+        <td class="sales">
+          <table>
+            <tr data-ng-repeat="sl in it.sales | orderBy: 'salesDate'">
+              <td>
+                <button class="edit btn btn-sm btn-primary" data-ng-click="editorEnabled=!editorEnabled">edit</button>
+              </td>
+              <td>{{sl.venue|capitalize}}</td>
+              <td>{{sl.salesDate}}</td>
+              <td data-ng-show="sl.link"><a href="{{sl.link}}">{{sl.price | currency}}</a></td>
+              <td data-ng-hide="sl.link">{{sl.price | currency}}</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <datalist id="comicstitle">
+    <option  data-ng-repeat="ttl in titles" value="{{ttl}}"> 
+  </datalist>
+  <datalist id="comicspedigree" >
+    <option data-ng-repeat="ped in pedigrees" value="{{ped}}"> 
+  </datalist>
+  <datalist id="comicsvenues" >
+    <option data-ng-repeat="ven in venues" value="{{ven}}"> 
+  </datalist>
+  <datalist id="comicspublisher">
+    <option  data-ng-repeat="pub in publishers" value="{{pub}}"> 
+  </datalist>
+  <datalist id="comicsgrades">
+    <option value="10.0">
+    <option value="9.9">
+    <option value="9.8">
+    <option value="9.6">
+    <option value="9.4">
+    <option value="9.2">
+    <option value="9.0">
+    <option value="8.5">
+    <option value="8.0">
+    <option value="7.5">
+    <option value="7.0">
+    <option value="6.5">
+    <option value="6.0">
+    <option value="5.5">
+    <option value="5.0">
+    <option value="4.5">
+    <option value="4.0">
+    <option value="3.5">
+    <option value="3.0">
+    <option value="2.5">
+    <option value="2.0">
+    <option value="1.8">
+    <option value="1.5">
+    <option value="1.0">
+    <option value=".5">
+  </datalist>
+
+</div>
+</div>
+
+
+<script src="_assets/scripts/vendor/angular/angular.min.js"></script>
+<script src="_assets/scripts/vendor/jquery/jquery.min.js"></script>
+<script src="_assets/scripts/vendor/lodash/lodash.min.js"></script>
+<script src="_assets/scripts/vendor/moment.min.js"></script>
+<script src="_assets/scripts/app/forms.js"></script>
+</body>
+</html>

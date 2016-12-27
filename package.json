@@ -44,6 +44,8 @@
     "time-grunt": "^1.0.0"
   },
   "dependencies": {
-    "express": "^4.14.0"
+    "cssmin": "^0.4.3",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.16"
   }
 }

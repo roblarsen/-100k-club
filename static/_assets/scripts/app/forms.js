@@ -76,6 +76,9 @@ angular.module('comicsApp.controllers', ['comicFilters']).
           delete sale[val];
         }
       };
+      $scope.edit = function(book){
+        $scope.item = book;
+      };
   }
 ]);
 angular.module('comicFilters', []).filter('srcFilter', function() {

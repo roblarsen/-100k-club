@@ -14,4 +14,16 @@
     font-size:10px; 
     transform: translate(0,-3px);
   }
+  .scroller {
+    width:100%;
+    height:500px;
+    overflow:scroll;
+  }
+  label {
+    text-transform:capitalize;
+    font-weight:bold;
+    font-family:'Droid Sans';
+    font-size:18px;
+    text-align:right;
+  }
 }

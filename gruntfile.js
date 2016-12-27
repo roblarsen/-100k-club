@@ -130,10 +130,20 @@ module.exports = function (grunt) {
           html: {
             steps: {
               js: ["concat", "uglify"],
-              css: ["concat", "cssmin"]
+              css: ["concat", "uglify"]
             },
             post: {}
           }
+        }
+      }
+    },
+    cssmin: {
+      options: {
+        shorthandCompacting: false
+      },
+      target: {
+        files: {
+          "_assets/styles/styles.css": ["_assets/styles/styles.css"]
         }
       }
     },
@@ -223,7 +233,6 @@ module.exports = function (grunt) {
     uglify: {
       generated: {
         options: {
-          // mangled has an issue in resolving the $injector dependency, specifically the $uibModal
           mangle: false
         }
       }
@@ -363,7 +372,6 @@ module.exports = function (grunt) {
     "ngAnnotate",
     "copy:dist",
     "uglify",
-    "cssmin",
     "filerev",
     "usemin",
     "htmlmin",

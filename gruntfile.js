@@ -123,14 +123,14 @@ module.exports = function (grunt) {
     // concat, minify and revision files. Creates configurations in memory so
     // additional tasks can operate on them
     useminPrepare: {
-      html: ["static/*.html"],
+      html: ["static/index.html"],
       options: {
         dest: "dist",
         flow: {
           html: {
             steps: {
               js: ["concat", "uglify"],
-              css: ["concat", "uglify"]
+              css: ["concat", "cssmin"]
             },
             post: {}
           }
@@ -138,16 +138,16 @@ module.exports = function (grunt) {
       }
     },
     cssmin: {
-      options: {
-        shorthandCompacting: false
-      },
       target: {
-        files: {
-          "_assets/styles/styles.css": ["_assets/styles/styles.css"]
-        }
+        files: [{
+          expand: true,
+          cwd: "dist/_assets/styles",
+          src: ["*.css", "!*.min.css"],
+          dest: "dist/_assets/styles",
+          ext: ".min.css"
+        }]
       }
     },
-
     // Performs rewrites based on filerev and the useminPrepare configuration
     usemin: {
       html: ["dist/{,*/}*.html"],
@@ -186,7 +186,6 @@ module.exports = function (grunt) {
         }]
       }
     },
-
     htmlmin: {
       dist: {
         options: {
@@ -212,7 +211,7 @@ module.exports = function (grunt) {
           usemin: "_assets/scripts/scripts.js"
         },
         cwd: "static",
-        src: "_assets/views/**/*.html",
+        src: "_assets/partials/**/*.html",
         dest: ".tmp/templateCache.js"
       }
     },
@@ -256,6 +255,7 @@ module.exports = function (grunt) {
           src: [
             "*.{ico,png,txt}",
             "*.html",
+            "_assets/partials/{,*/}*.*",
             "_assets/img/{,*/}*.{webp}",
             "_assets/styles/fonts/{,*/}*.*"
           ]
@@ -264,13 +264,6 @@ module.exports = function (grunt) {
           cwd: ".tmp/img",
           dest: "dist/img",
           src: ["**"]
-        },{
-          // special copy for angular-ui-grid fonts not in common fonts dir
-          expand: true,
-          flatten: true,
-          cwd: "_assets/static/scripts/vendor",
-          dest: "dist/styles",
-          src: ["{,*/}*.{svg,ttf,woff,eot}"]
         }, {
           expand: true,
           cwd: ".tmp/concat",
@@ -278,55 +271,18 @@ module.exports = function (grunt) {
           src: "**"
         },
         {
-          src: "package.json",
-          dest: "dist/package.json"
+          expand: true,
+          cwd: "data",
+          dest: "dist/data",
+          src: "**"
         }
-  ]
+      ] 
       },
       styles: {
         expand: true,
         cwd: "static/_assets/styles",
-        dest: ".tmp/styles/",
+        dest: "dist/_assets/styles",
         src: "{,*/}*.css"
-      }
-    },
-
-    compress: {
-      dist: {
-        options: {
-          mode: "tgz",
-          archive: "dist.tgz"
-        },
-        expand: true,
-        cwd: "dist/",
-        src: ["**/*"],
-        dest: "dist"
-      }
-    },
-
-    "string-replace": {
-      version: {
-        files: [{
-          expand: true,
-          src: ["dist/*.html", "dist/scripts/*.js"]
-        }],
-        options: {
-          replacements: [{
-            pattern: "{{version}}",
-            replacement: "<%= pkg.version %>"
-          }]
-        }
-      }
-    },
-    pkg: grunt.file.readJSON("package.json"),
-
-    "json_generator": {
-      version: {
-        dest: "dist/version.json",
-        options: {
-          version: "<%= pkg.version %>",
-          buildDate: new Date()
-        }
       }
     },
 
@@ -375,8 +331,6 @@ module.exports = function (grunt) {
     "filerev",
     "usemin",
     "htmlmin",
-    "string-replace:version",
-    "json_generator:version"
   ]);
 
   grunt.registerTask("dev", "", function() {
@@ -387,11 +341,6 @@ module.exports = function (grunt) {
       "watch"];
     grunt.task.run(tasks);
   });
-
-  grunt.registerTask("dist", [
-    "build",
-    "compress"
-  ]);
 
   grunt.registerTask("default", [
     "concurrent:lint",

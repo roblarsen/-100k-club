@@ -3,7 +3,7 @@ angular.module("comicsFactories", [])
     "use strict";
     function getRecords() {
       var records = [];
-      $http({"method" : "GET", "url" : "/books"}).success(
+      $http({"method" : "GET", "url" : "/data/books.json"}).success(
         function(data){
           for (var i = 0, len = data.books.length; i < len; i++){
             if (data.books[i].sales.length){

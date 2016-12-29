@@ -3,7 +3,7 @@ var app = express();
 
 app.use(express.static('static'));
 
-app.get('/books', function (req, res, next) {
+app.get('/data/books.json', function (req, res, next) {
 
   var options = {
     root: __dirname,
@@ -26,7 +26,7 @@ app.get('/books', function (req, res, next) {
   });
 
 });
-app.get('/pedigrees', function (req, res, next) {
+app.get('/data/sa-pedigrees.json', function (req, res, next) {
 
   var options = {
     root: __dirname,

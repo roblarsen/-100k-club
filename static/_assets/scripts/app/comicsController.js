@@ -2,7 +2,7 @@ angular.module("comicsApp" ).
   controller("comicsCtrl", ["$scope", "$http",
     function($scope , $http)  {
       "use strict";
-      $http({"method" : "GET", "url" : "/books"}).success(
+      $http({"method" : "GET", "url" : "/data/books.json"}).success(
         function(data){
           $scope.items = data.books;
           var titles = [], pedigrees = [], publishers = [], venues = [];

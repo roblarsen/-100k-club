@@ -2168,6 +2168,11 @@
             "salesDate": "2013-07-01",
             "price": "250000",
             "venue": "unknown"
+         },{
+            "salesDate": "2016-02-19",
+            "price": "350000",
+            "venue": "Comiclink",
+            "link": "http://www.comiclink.com/itemdetail.asp?id=1102274&showprice=1&next=%2FComicTrack%2FAdmin%2FCL%2Fmatches%2Easp%3FTITLE%3Dx-men%26ISSUENUMBER%3D1%26Artist1%3D%26Artist2%3D%26PRICEFROM%3D%26ORDERNUMBER%3D%26DATEFROM%3D%26DATETO%3D%26SELLER%3D%26SELLERID%3D%26BUYER%3D%26BUYERID%3D%26BUYERSTATE%3D--%26PEDIGREE%3D%26CGCCOMMENT%3D%26SELLERCOMMENT%3D%26TYPE%3D0%26FILTER%3D%26Payment%3D%26Verified%3D%26Shipped%3D%26SPBP%3D%26SPBP2%3D%26SearchConditionFrom%3D09%2E6%26SearchConditionTo%3D09%2E6"
          }],
          "uid": "0166"
       }, {
@@ -2783,8 +2788,12 @@
          "gradeSrc": "CGC",
          "grade": "9.0",
          "tags": "incredible-hulk,cgc,marvel,hulk",
-         "sales": [
-
+         "sales": [{
+               "salesDate": "2016-08-16",
+               "price": "275000",
+               "venue": "ComicLink",
+               "link": "http://www.comiclink.com/itemdetail.asp?id=1134017&showprice=1&next=%2FComicTrack%2FAdmin%2FCL%2Fmatches%2Easp%3FTITLE%3DHULK%26ISSUENUMBER%3D1%26Artist1%3D%26Artist2%3D%26PRICEFROM%3D%26ORDERNUMBER%3D%26DATEFROM%3D%26DATETO%3D%26SELLER%3D%26SELLERID%3D%26BUYER%3D%26BUYERID%3D%26BUYERSTATE%3D--%26PEDIGREE%3D%26CGCCOMMENT%3D%26SELLERCOMMENT%3D%26TYPE%3D0%26FILTER%3D%26Payment%3D%26Verified%3D%26Shipped%3D%26SPBP%3D%26SPBP2%3D%26SearchConditionFrom%3D09%2E0%26SearchConditionTo%3D09%2E0"
+            }
          ],
          "uid": "0212"
       }, {
@@ -3906,7 +3915,12 @@
          "gradeSrc": "CGC",
          "grade": "9.4",
          "tags": "journey-into-mystery,cgc,marvel,thor,kirby",
-         "sales": [],
+         "sales": [{
+            "salesDate": "2016-12-07",
+            "price": "195000",
+            "venue": "ComicLink",
+            "link": "http://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fsearch%2Easp%3FPreviewCode%3D2016nov%26where%3Dauctions%26title%3DJOURNEY%2BINTO%2BMYSTERY%2B83%26GO%3DGO%26ItemType%3DCB%23Item_1150697&id=1150697#detail"
+         }],
          "uid": "0309"
       }, {
          "title": "Pep Comics",
@@ -4149,9 +4163,13 @@
          "gradeSrc": "CGC",
          "grade": "9.4",
          "tags": "marvel,ant-man,tales-to-astonish,silver-age",
-         "sales": [
+         "sales": [{
+            "salesDate": "2016-12-08",
+            "price": "205501",
+            "venue": "Comiclink",
+            "link": "http://comics.ha.com/itm/golden-age-1938-1955-/all-american-comics-16-dc-1940-cgc-fn-65-cream-to-off-white-pages/a/7147-91029.s?ic4=ListView-ShortDescription-071515"
 
-         ],
+         }],
          "uid": "0328"
       }, {
          "title": "Tales of Suspense",

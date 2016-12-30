@@ -4426,6 +4426,82 @@
             "link":"http://www.comicconnect.com/bookDetail.php?id=677327"
          }],
          "uid": "0344"
+      },
+      {
+         "title": "Fantastic Four",
+         "issue": "1",
+         "gradeSrc": "cgc",
+         "grade": "9.0",
+         "tags": "fantastic-four,cgc,marvel,kirby",
+         "sales": [{
+               "salesDate": "2016-08-30",
+               "price": "132000",
+               "link": "http://www.comicconnect.com/bookDetail.php?id=560291",
+               "venue": "ComicConnect"
+            }
+
+         ],
+         "uid": "0345"
+      },
+      {
+         "title": "Fantastic Four",
+         "issue": "1",
+         "gradeSrc": "cgc",
+         "grade": "9.0",
+         "tags": "fantastic-four,cgc,marvel,kirby",
+         "sales": [
+         ],
+         "uid": "0346"
+      },
+      {
+         "title": "Fantastic Four",
+         "issue": "1",
+         "gradeSrc": "cgc",
+         "grade": "9.0",
+         "tags": "fantastic-four,cgc,marvel,kirby",
+         "sales": [
+         ],
+         "uid": "0347"
+      },
+      {
+         "title": "Fantastic Four",
+         "issue": "1",
+         "gradeSrc": "cgc",
+         "grade": "9.0",
+         "tags": "fantastic-four,cgc,marvel,kirby",
+         "sales": [
+         ],
+         "uid": "0348"
+      },
+      {
+         "title": "Fantastic Four",
+         "issue": "1",
+         "gradeSrc": "cgc",
+         "grade": "9.0",
+         "tags": "fantastic-four,cgc,marvel,kirby",
+         "sales": [
+         ],
+         "uid": "0349"
+      },
+      {
+         "title": "Fantastic Four",
+         "issue": "1",
+         "gradeSrc": "cgc",
+         "grade": "9.0",
+         "tags": "fantastic-four,cgc,marvel,kirby",
+         "sales": [
+         ],
+         "uid": "0350"
+      },
+      {
+         "title": "Fantastic Four",
+         "issue": "1",
+         "gradeSrc": "cgc",
+         "grade": "9.0",
+         "tags": "fantastic-four,cgc,marvel,kirby",
+         "sales": [
+         ],
+         "uid": "0351"
       }
    ]
 }

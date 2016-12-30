@@ -1,10 +1,10 @@
 {
   "name": "100000Club",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "An interactive interface to the $100,000 Club data set",
   "author": "Rob Larsen",
-  "license": "SEE LICENSE IN LICENSE",
-  "main": "index.js",
+  "license": "MIT",
+  "main": "app.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/roblarsen/-100k-club"

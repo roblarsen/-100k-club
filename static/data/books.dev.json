@@ -1021,9 +1021,12 @@
          "gradeSrc": "CGC",
          "grade": "8.0",
          "tags": "dc,batman,cgc",
-         "sales": [
-
-         ],
+         "sales": [{
+            "salesDate": "2016-12-13",
+            "price": "390000",
+            "venue": "comicconnect",
+            "link": "http://www.comicconnect.com/bookDetail.php?id=682290"
+         }],
          "uid": "0080"
       }, {
          "title": "Batman",
@@ -4327,6 +4330,102 @@
             "link": "https://comics.ha.com/itm/golden-age-1938-1955-/more-fun-comics-73-dc-1941-cgc-vf-80-white-pages/a/7141-91141.s?ic4=ListView-ShortDescription-071515"
          }],
          "uid": "0335"
+      },
+
+      {
+         "title": "Batman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "6.5",
+         "tags": "cgc,batman,dc",
+         "sales": [{
+            "salesDate": "2016-12-14",
+            "price": "180000",
+            "venue": "ComicConnect",
+            "link": "http://www.comicconnect.com/bookDetail.php?id=689897"
+         }],
+         "uid": "0336"
+      },
+      {
+         "title": "Incredible Hulk",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "8.5",
+         "tags": "hulk,marvel",
+         "sales": [{
+            "salesDate": "2016-12-14",
+            "price": "132000",
+            "venue": "comicconnect",
+            "link": "http://www.comicconnect.com/bookDetail.php?id=682667"
+         }],
+         "uid": "0337"
+      },
+      {
+         "title": "Incredible Hulk",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "8.5",
+         "tags": "hulk,marvel",
+         "sales": [],
+         "uid": "0338"
+      },
+      {
+         "title": "Incredible Hulk",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "8.5",
+         "tags": "hulk,marvel",
+         "sales": [],
+         "uid": "0339"
+      },
+      {
+         "title": "Incredible Hulk",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "8.5",
+         "tags": "hulk,marvel",
+         "sales": [],
+         "uid": "0340"
+      },
+      {
+         "title": "Incredible Hulk",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "8.5",
+         "tags": "hulk,marvel",
+         "sales": [],
+         "uid": "0341"
+      },
+      {
+         "title": "Incredible Hulk",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "8.5",
+         "tags": "hulk,marvel",
+         "sales": [],
+         "uid": "0342"
+      },
+      {
+         "title": "Incredible Hulk",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "8.5",
+         "tags": "hulk,marvel",
+         "sales": [],
+         "uid": "0343"
+      },{
+         "title": "Wonder Woman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "9.0",
+         "tags": "wonder-woman,dc",
+         "sales": [{
+            "venue": "unknown",
+            "salesDate": "2016-12-13",
+            "price": "291000",
+            "link":"http://www.comicconnect.com/bookDetail.php?id=677327"
+         }],
+         "uid": "0344"
       }
    ]
 }

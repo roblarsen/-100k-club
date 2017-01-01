@@ -4502,6 +4502,37 @@
          "sales": [
          ],
          "uid": "0351"
+      },
+      {
+         "title": "Startling Comcs",
+         "issue": "49",
+         "gradeSrc": "cgc",
+         "grade": "9.6",
+         "pedigree": "Church",
+         "tags": "startling,schomburg,nedor",
+         "sales": [{
+               "salesDate": "2016-08-4",
+               "price": "101575",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/startling-comics-49-mile-high-pedigree-better-publications-1948-cgc-nm-96-off-white-to-white-pages/a/7139-91129.s?ic4=ListView-ShortDescription-071515",
+               "venue": "heritage"
+            }
+
+         ],
+         "uid": "0352"
+      },{
+         "title": "Action Comics",
+         "issue": "1",
+         "publisher": "DC Comics",
+         "gradeSrc": "CGC",
+         "grade": "5.5",
+         "tags": "cgc,superman,action,dc",
+         "sales": [{
+            "venue": "heritage",
+            "salesDate": "2006-08-04",
+            "price": "956000",
+            "link":"https://comics.ha.com/itm/golden-age-1938-1955-/action-comics-1-dc-1938-cgc-fn-55-cream-to-off-white-pages/a/7139-91001.s?ic4=ListView-ShortDescription-071515"
+         }],
+         "uid": "0006"
       }
    ]
 }

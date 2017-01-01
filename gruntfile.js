@@ -107,17 +107,6 @@ module.exports = function (grunt) {
         }]
       }
     },
-    // Renames files for browser caching purposes
-    filerev: {
-      dist: {
-        src: [
-          "dist/_assets/scripts/{,*/}*.js",
-          "dist/_assets/styles/{,*/}*.css",
-          "dist/img/{,*/}*.{png,jpg,jpeg,gif,webp,svg}",
-          "dist/_assets/styles/fonts/*"
-        ]
-      }
-    },
 
     // Reads HTML for usemin blocks to enable smart builds that automatically
     // concat, minify and revision files. Creates configurations in memory so
@@ -255,6 +244,7 @@ module.exports = function (grunt) {
           src: [
             "*.{ico,png,txt}",
             "*.html",
+            "data/*.*",
             "_assets/partials/{,*/}*.*",
             "_assets/img/{,*/}*.{webp}",
             "_assets/styles/fonts/{,*/}*.*"
@@ -268,12 +258,6 @@ module.exports = function (grunt) {
           expand: true,
           cwd: ".tmp/concat",
           dest: "dist",
-          src: "**"
-        },
-        {
-          expand: true,
-          cwd: "data",
-          dest: "dist/data",
           src: "**"
         }
       ] 
@@ -328,7 +312,6 @@ module.exports = function (grunt) {
     "ngAnnotate",
     "copy:dist",
     "uglify",
-    "filerev",
     "usemin",
     "htmlmin",
   ]);

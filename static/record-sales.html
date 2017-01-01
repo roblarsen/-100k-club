@@ -74,7 +74,7 @@
             <th class="venue sortable" data-ng-class="{up:sort=='venue', down:sort=='-venue'}"data-ng-click="sorter('venue')">Venue</th>
             <th class="price sortable" data-ng-class="{up:sort=='price', down:sort=='-price'}"data-ng-click="sorter('price')">Price</th>
           </tr>
-          <tr data-ng-repeat="it in items | orderBy:sort">
+          <tr data-ng-repeat="it in items | filter:search | orderBy:sort">
             <td class="title">{{it.title}}</td>
             <td class="number">{{it.issue}}</td>
             <td class="ped">{{it.pedigree}}{{it.collection}}{{it.provenance}}</td>

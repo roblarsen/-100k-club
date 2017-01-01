@@ -1,7 +1,7 @@
 
-          <circle  data-ng-repeat="it in items | filter : venues" opacity="0.8" data-ng-attr-fill="{{colorPicker(it.venue)}}" data-ng-attr-cx="{{xDate(it.date)}}" data-ng-mouseover="updateTooltip(it)" data-ng-mouseout="updateTooltip(0)"  data-ng-attr-cy="{{yPrice(it.price)}}" r="7" />
+          <circle  data-ng-repeat="it in items | filter : venues" opacity="0.8" data-ng-attr-fill="{{colorPicker(it.venue)}}" data-ng-attr-cx="{{xDate(it.date)}}" data-ng-mouseover="updateTooltip(it)" data-ng-mouseout="updateTooltip(0)"  data-ng-attr-cy="{{yPrice(it.price)}}" r="7"></circle>
 
-          <rect data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-180,-60)" data-ng-attr-x="{{xDate(tooltip.date)}}" data-ng-attr-y="{{yPrice(tooltip.price)}}" width="150" height="80" fill="white" stroke=""  style="filter:url(#drop-shadow)" />
+          <rect data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-180,-60)" data-ng-attr-x="{{xDate(tooltip.date)}}" data-ng-attr-y="{{yPrice(tooltip.price)}}" width="150" height="80" fill="white" stroke=""  style="filter:url(#drop-shadow)"></rect>
           <text data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-170,-50)" data-ng-attr-x="{{xDate(tooltip.date)}}" data-ng-attr-y="{{yPrice(tooltip.price)}}" >{{tooltip.title}} {{tooltip.issue}}</text>
           <text data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-170,-35)" data-ng-attr-x="{{xDate(tooltip.date)}}" data-ng-attr-y="{{yPrice(tooltip.price)}}" >{{tooltip.pedigree}}{{tooltip.collection}}{{tooltip.provenance}} {{tooltip.gradeSrc | srcFilter}} {{tooltip.grade}}</text>
           <text data-ng-show="tooltip.price" data-ng-model="tooltip" transform="translate(-170,-20)" data-ng-attr-x="{{xDate(tooltip.date)}}" data-ng-attr-y="{{yPrice(tooltip.price)}}" >{{tooltip.price|currency}}</text>

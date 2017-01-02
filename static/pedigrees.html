@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>$100,000 Club 2.0</title>
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+
+<link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed" rel="stylesheet">
+<!-- build:css _assets/styles/100k.css -->
+<link rel="stylesheet" type="text/css" href="_assets/styles/vendor/normalize.css">
+<link rel="stylesheet" type="text/css" href="_assets/styles/vendor/main.css">
+<link rel="stylesheet" href="_assets/styles/styles.css">
+<!-- endbuild -->
+</head>
+<body>
+<div data-ng-app="comicsApp" id="the-club">
+      <div data-ng-controller="saCtrl">
+        <table class="data">
+          <tr>
+            <th>Title</th>
+            <th  data-ng-repeat="key in keys"><abbr title="{{key.full}}">{{key.short}}</abbr></th>
+          </tr>
+          <tr data-ng-repeat="it in items">
+            <td>{{it.title}}</td>
+            <td>{{it.ba}}</td>
+            <td>{{it.bet}}</td>
+            <td>{{it.bos}}</td>
+            <td>{{it.cur}}</td>
+            <td>{{it.dmt}}</td>
+            <td>{{it.ma}}</td>
+            <td>{{it.mv}}</td>
+            <td>{{it.nor}}</td>
+            <td>{{it.oh}}</td>
+            <td>{{it.pc}}</td>
+            <td>{{it.sav}}</td>
+            <td>{{it.sn}}</td>
+            <td>{{it.tc}}</td>
+            <td>{{it.wp}}</td>
+            <td>{{it.wm}}</td>
+            <td>{{it.win}}</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+<!-- build:js _assets/scripts/vendor.js -->
+<script src="_assets/scripts/vendor/angular/angular.min.js"></script>
+<script src="_assets/scripts/vendor/jquery/jquery.min.js"></script>
+<script src="_assets/scripts/vendor/lodash/lodash.min.js"></script>
+<script src="_assets/scripts/vendor/moment.min.js"></script>
+<!-- endbuild -->
+
+<!-- build:js _assets/scripts/scripts.js -->
+<script src="_assets/scripts/app/app.js"></script>
+<script src="_assets/scripts/app/services.js"></script>
+<script src="_assets/scripts/app/chartController.js"></script>
+<script src="_assets/scripts/app/silverAgeController.js"></script>
+<script src="_assets/scripts/app/comicsController.js"></script>
+<script src="_assets/scripts/app/recordController.js"></script>
+<script src="_assets/scripts/app/silverAgeController.js"></script>
+<script src="_assets/scripts/app/directives.js"></script>
+<script src="_assets/scripts/app/sales-points.js"></script>
+<script src="_assets/scripts/app/filters.js"></script>
+<!-- endbuild -->
+
+</body>
+</html>
+gr

@@ -12,6 +12,7 @@
     {"short":"oh","full":"ohio"},
     {"short":"pc","full":"pacific coast"},
     {"short":"sav","full":"savannah"},
+    {"short":"sn","full":"suscha news"},
     {"short":"tc","full":"twin cities"},
     {"short":"wp","full":"western penn"},
     {"short":"wm","full":"white mountain"},
@@ -33,6 +34,7 @@
             "tc":"6.0",
             "wm":"9.4",
             "ba":"FN/VF",
+            "sn":"3.0",
             "pub":"mar"
         },{
             "title":"Amazing Spider-Man #1",
@@ -53,7 +55,8 @@
             "pc":"9.6",
             "tc":"8.5",
             "pub":"mar",
-            "dmt":"9.4"
+            "dmt":"9.4",
+            "sn":"5.5"
         },{
             "title":"Avengers #4",
             "bos":"9.0/ 9.2/ 9.4",
@@ -86,14 +89,16 @@
             "tc":"9.6",
             "wm":"X",
             "pub":"mar",
-            "dmt":"9.2"
+            "dmt":"9.2",
+            "sn":"5.0"
         },{
             "title":"Daredevil #7",
             "pc":"9.2/ 9.6",
             "tc":"9.2",
             "wp":"8.5/ 9.4",
             "pub":"mar",
-            "dmt":"8.0"
+            "dmt":"8.0",
+            "sn":"9.0"
         },{
             "title":"Fantastic Four #1",
             "nor":"8.0",
@@ -269,7 +274,8 @@
             "pc":"9.6/ 9.8",
             "wm":"9.0 (SP)",
             "tc":"8.0",
-            "sav":"7.0"
+            "sav":"7.0",
+            "sn":"4.5"
         }
     ]
 }

@@ -533,16 +533,21 @@
             "venue": "Comiclink"
          }],
          "uid": "0036"
-      }, {
-         "title": "Amazing Fantasy",
-         "issue": "15",
-         "gradeSrc": "CGC",
-         "grade": "9.2",
-         "tags": "amazing-fantasy,marvel,spider-man,cgc",
-         "sales": [
-
+      },       {  
+         "title":"Amazing Fantasy",
+         "issue":"15",
+         "collection":"",
+         "gradeSrc":"CGC",
+         "grade":"9.2",
+         "tags":"amazing-fantasy,marvel,spider-man,cgc",
+         "sales":[  
+            {  
+               "salesDate":"2016-01-16",
+               "price":"460000", 
+               "venue":"comiclink"
+            }
          ],
-         "uid": "0040"
+         "uid":"0041"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",

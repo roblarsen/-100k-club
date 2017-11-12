@@ -4572,6 +4572,19 @@
                "link":"https://www.ebay.com/itm/Sensation-Comics-1-CGC-9-6-SINGLE-HIGHEST-Graded-Copy-CGC-1208691001/253099667535?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2055119.m1438.l2649&rmvSB=true"
             }],
             "uid": "0355"
+         },{
+            "title": "Wonder Woman",
+            "issue": "1",
+            "gradeSrc": "CGC",
+            "grade": "8.5",
+            "tags": "wonder-woman,dc",
+            "sales": [{
+               "venue": "comicconnect",
+               "salesDate": "2017-09-15",
+               "price": "163000",
+               "link":"https://www.comicconnect.com/bookDetail.php?id=726448"
+            }],
+            "uid": "0356"
          }
 
    ]

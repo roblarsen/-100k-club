@@ -4585,6 +4585,19 @@
                "link":"https://www.comicconnect.com/bookDetail.php?id=726448"
             }],
             "uid": "0356"
+         },{
+            "title": "Pep Comics",
+            "issue": "22",
+            "gradeSrc": "CGC",
+            "grade": "8.0",
+            "tags": "archie,pep-comics",
+            "sales": [{
+               "salesDate": "2017-9-15",
+               "price": "252100",
+               "venue": "comicconnect",
+               "link": "https://www.comicconnect.com/bookDetail.php?id=732549"
+            }],
+            "uid": "0229"
          }
 
    ]

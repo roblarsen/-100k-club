@@ -4425,10 +4425,16 @@
          "grade": "9.0",
          "tags": "wonder-woman,dc",
          "sales": [{
-            "venue": "unknown",
+            "venue": "comicconnect",
             "salesDate": "2016-12-13",
             "price": "291000",
             "link":"http://www.comicconnect.com/bookDetail.php?id=677327"
+         },
+         {
+            "venue": "ebay",
+            "salesDate": "2017-08-27",
+            "price": "226877.77",
+            "link":"https://www.ebay.com/itm/Wonder-Woman-1-CGC-9-0-PERFECT-WHITE-PAGES-1-COPY-IN-THE-WORLD-CGC-1212173003/272808455428?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2055119.m1438.l2649&rmvSB=true"
          }],
          "uid": "0344"
       },
@@ -4533,11 +4539,40 @@
          "tags": "cgc,superman,action,dc",
          "sales": [{
             "venue": "heritage",
-            "salesDate": "2006-08-04",
+            "salesDate": "2016-08-04",
             "price": "956000",
             "link":"https://comics.ha.com/itm/golden-age-1938-1955-/action-comics-1-dc-1938-cgc-fn-55-cream-to-off-white-pages/a/7139-91001.s?ic4=ListView-ShortDescription-071515"
          }],
-         "uid": "0006"
-      }
+         "uid": "0353"
+      },{
+            "title": "All Star Comics",
+            "issue": "8",
+            "publisher": "DC Comics",
+            "gradeSrc": "CGC",
+            "grade": "9.4",
+            "tags": "cgc,wonder-woman,dc",
+            "sales": [{
+               "venue": "ebay",
+               "salesDate": "2017-08-27",
+               "price": "936223",
+               "link":"https://www.ebay.com/itm/ALL-STAR-COMICS-8-CGC-9-4-OWW-SINGLE-HIGHEST-GRADED-COPY-CGC-1341502001/253099656149?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2055119.m1438.l2649&rmvSB=true"
+            }],
+            "uid": "0354"
+         },{
+            "title": "Sensation Comics",
+            "issue": "1",
+            "publisher": "DC Comics",
+            "gradeSrc": "CGC",
+            "grade": "9.6",
+            "tags": "cgc,wonder-woman,dc",
+            "sales": [{
+               "venue": "ebay",
+               "salesDate": "2017-08-27",
+               "price": "399100",
+               "link":"https://www.ebay.com/itm/Sensation-Comics-1-CGC-9-6-SINGLE-HIGHEST-Graded-Copy-CGC-1208691001/253099667535?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2055119.m1438.l2649&rmvSB=true"
+            }],
+            "uid": "0355"
+         }
+
    ]
 }

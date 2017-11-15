@@ -2808,17 +2808,20 @@
             }
          ],
          "uid": "0212"
-      }, {
-         "title": "Incredible Hulk",
-         "issue": "1",
-         "gradeSrc": "CGC",
-         "grade": "9.0",
-         "tags": "incredible-hulk,cgc,marvel,hulk",
-         "sales": [
-
-         ],
-         "uid": "0213"
-      }, {
+      },{
+            "title": "Incredible Hulk",
+            "issue": "1",
+            "gradeSrc": "CGC",
+            "grade": "9.0",
+            "tags": "incredible-hulk,cgc,marvel,hulk",
+            "sales": [{
+               "salesDate": "2017-06-01",
+               "price": "300000",
+               "venue": "ComicConnect"
+            }
+            ],
+            "uid": "0213"
+         }, {
          "title": "Incredible Hulk",
          "issue": "1",
          "gradeSrc": "CGC",

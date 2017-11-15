@@ -4608,10 +4608,23 @@
             "sales": [{
                "salesDate": "2017-08-01",
                "price": "108000",
-               "venue": "GregReece",
+               "venue": "Greg Reece Comics",
                "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F_SORT%3DYES%26Focused%3D1%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2EMaxBid%26ODire3%3DASC%23Item_1024795&id=1024795"
             }],
             "uid": "0358"
+         },{
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "8.0",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [{
+               "salesDate": "2017-05-30",
+               "price": "261000",
+               "venue": "ComicLink",
+               "link": "http://www.comiclink.com/auctions/item.asp?back=%2FComicTrack%2FAdmin%2FCL%2Fauctions%2Easp&id=1178499&next=%2FComicTrack%2FAdmin%2FCL%2Fauctions%2Easp"
+            }],
+            "uid": "0359"
          }
 
    ]

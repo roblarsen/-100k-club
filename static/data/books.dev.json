@@ -2514,7 +2514,12 @@
          "gradeSrc": "cgc",
          "grade": "9.8",
          "tags": "avengers,cgc,marvel,captain-america",
-         "sales": [
+         "sales": [{
+            "salesDate": "2017-05-18",
+            "price": "143400",
+            "venue": "Heritage",
+            "link":  "https://comics.ha.com/itm/silver-age-1956-1969-/the-avengers-4-marvel-1964-cgc-nm-mt-98-off-white-to-white-pages/a/7163-91005.s?ic4=ListView-ShortDescription-071515"
+         }
 
          ],
          "uid": "0194"
@@ -3324,7 +3329,13 @@
          "gradeSrc": "CGC",
          "grade": "9.4",
          "tags": "marvel,iron-man,pedigree,cgc",
-         "sales": [
+         "sales": [{
+            "venue": "Heritage",
+            "salesDate": "2017-05-18",
+            "price": "95600",
+            "link": "https://comics.ha.com/itm/silver-age-1956-1969-/tales-of-suspense-39-bethlehem-pedigree-marvel-1963-cgc-nm-94-off-white-pages/a/7163-91015.s?ic4=ListView-ShortDescription-071515"
+         }
+
 
          ],
          "uid": "0257"
@@ -4628,7 +4639,42 @@
                "link": "http://www.comiclink.com/auctions/item.asp?back=%2FComicTrack%2FAdmin%2FCL%2Fauctions%2Easp&id=1178499&next=%2FComicTrack%2FAdmin%2FCL%2Fauctions%2Easp"
             }],
             "uid": "0359"
+         },
+         {
+            "title": "Suspense Comics",
+            "issue": "3",
+            "gradeSrc": "CGC",
+            "pedigree": "Edgar Church",
+            "grade": "9.2",
+            "tags": "cbcs,pedigree",
+            "sales": [{
+                  "venue": "Heritage",
+                  "salesDate": "2017-05-18",
+                  "price": "262900",
+                  "link": "https://comics.ha.com/itm/golden-age-1938-1955-/suspense-comics-3-mile-high-pedigree-continental-magazines-1944-cbcs-nm-92-white-pages/a/7163-91014.s?ic4=ListView-ShortDescription-071515"
+               }
+   
+            ],
+            "uid": "0360"
+         },
+         {
+            "title": "Amazing Spider-Man",
+            "issue": "1",
+            "gradeSrc": "CGC",
+            "grade": "9.2",
+            "pedigree": "Massachusetts",
+            "tags": "amazing-spider-man,pedigree,cgc,spider-man",
+            "sales": [{
+                  "venue": "Heritage",
+                  "salesDate": "2017-05-18",
+                  "price": "95600",
+                  "link": "https://comics.ha.com/itm/silver-age-1956-1969-/the-amazing-spider-man-1-massachusetts-pedigree-marvel-1963-cgc-nm-92-white-pages/a/7163-91003.s?ic4=ListView-ShortDescription-071515"
+               }
+   
+            ],
+            "uid": "0361"
          }
 
    ]
 }
+

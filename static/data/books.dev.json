@@ -678,7 +678,8 @@
          "sales": [{
             "salesDate": "2009-03-13",
             "price": "104200",
-            "venue": "Comiclink"
+            "venue": "ComicConnect",
+            "link":"https://www.comicconnect.com/bookDetail.php?id=296777"
          }],
          "uid": "0051"
       }, {
@@ -2041,7 +2042,8 @@
          "sales": [{
             "salesDate": "2011-05-13",
             "price": "100000",
-            "venue": "Esquire Comics/Comic Connect"
+            "venue": "Esquire Comics/Comic Connect",
+            "link": "https://www.comicconnect.com/bookDetail.php?id=291295"
          }],
          "uid": "0155"
       }, {
@@ -2313,8 +2315,12 @@
          "gradeSrc": "CGC",
          "grade": "8.5",
          "tags": "spider-man,amazing-fantasy,cgc,marvel",
-         "sales": [
-
+         "sales": [ {
+               "salesDate": "1900-01-01",
+                  "price": "100000",
+                  "venue": "ComicConnect",
+                  "link": "https://www.comicconnect.com/bookDetail.php?id=307661"
+         }
          ],
          "uid": "0176"
       }, {
@@ -3616,7 +3622,12 @@
          "gradeSrc": "CGC",
          "grade": "8.5 (EP)",
          "tags": "batman,dc,restored",
-         "sales": [
+         "sales": [{
+            "salesDate": "2011-12-01",
+            "price": "105000",
+            "venue": "ComicConnect",
+            "link": "https://www.comicconnect.com/bookDetail.php?id=431989"
+         }
 
          ],
          "uid": "0278"

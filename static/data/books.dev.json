@@ -2832,7 +2832,12 @@
          "gradeSrc": "CGC",
          "grade": "9.0",
          "tags": "incredible-hulk,cgc,marvel,hulk",
-         "sales": [
+         "sales": [{
+                  "salesDate": "2017-05-31",
+                  "price": "230000",
+                  "venue": "ComicLink",
+                  "link": "http://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F_SORT%3DYES%26Focused%3D1%26ItemType%3D0%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2EMaxBid%26ODire3%3DDESC%23Item_1181820&id=1181820"
+                  }
 
          ],
          "uid": "0214"
@@ -4673,6 +4678,21 @@
    
             ],
             "uid": "0361"
+         },
+         {
+            "title": "Fantastic Four",
+            "issue": "1",
+            "gradeSrc": "CGC",
+            "grade": "9.0",
+            "tags": "fantastic-four,cgc,marvel,kirby",
+            "sales": [{
+               "salesDate": "2017-05-31",
+               "price": "128000",
+               "pedigree": "JOHN G. FANTUCCHIO",
+               "venue": "ComicLink",
+               "link": "http://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F_SORT%3DYES%26Focused%3D1%26ItemType%3D0%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2EMaxBid%26ODire3%3DDESC%23Item_1171253&id=1171253"
+            }],
+            "uid": "0362"
          }
 
    ]

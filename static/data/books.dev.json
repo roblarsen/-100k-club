@@ -1026,6 +1026,7 @@
          "gradeSrc": "CGC",
          "grade": "8.0",
          "tags": "dc,batman,cgc",
+         "pedigree": "Larson",
          "sales": [{
             "salesDate": "2016-12-13",
             "price": "390000",
@@ -1039,7 +1040,12 @@
          "gradeSrc": "CGC",
          "grade": "8.0",
          "tags": "dc,batman,cgc",
-         "sales": [
+         "sales": [{
+            "salesDate": "2012-04-17",
+            "price": "175365",
+            "venue": "comicconnect",
+            "link": "https://www.comicconnect.com/bookDetail.php?id=439804"
+         }
 
          ],
          "uid": "0082"
@@ -1429,7 +1435,12 @@
          "gradeSrc": "CGC",
          "grade": "3.0",
          "tags": "detective-comics,dc,batman",
-         "sales": [
+         "sales": [{
+            "salesDate": "2012-04-18",
+            "price": "201000",
+            "venue": "ComicConnect",
+            "link": "https://www.comicconnect.com/bookDetail.php?id=448090"
+         }
 
          ],
          "uid": "0111"
@@ -2278,7 +2289,8 @@
          "sales": [{
                "salesDate": "2010-09-20",
                "price": "108000",
-               "venue": "unknown"
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/bookDetail.php?id=366407"
             }
 
          ],
@@ -2352,7 +2364,12 @@
          "gradeSrc": "CGC",
          "grade": "9.0",
          "tags": "spider-man,amazing-fantasy,cgc,marvel",
-         "sales": [
+         "sales": [{
+            "salesDate": "2011-11-30",
+            "price": "151555",
+            "venue": "ComicConnect",
+            "link": "https://www.comicconnect.com/bookDetail.php?id=371059"
+         }
 
          ],
          "uid": "0180"
@@ -2592,7 +2609,12 @@
          "gradeSrc": "cgc",
          "grade": "6.5",
          "tags": "batman,detective-comics,dc",
-         "sales": [
+         "sales": [{
+            "salesDate": "2012-04-18",
+            "price": "414000",
+            "venue": "ComicConnect",
+            "link": "https://www.comicconnect.com/bookDetail.php?id=415277"
+         }
 
          ],
          "uid": "0194"
@@ -3034,9 +3056,10 @@
          "grade": "5.5",
          "tags": "superman,dc",
          "sales": [{
-            "salesDate": "2011-12-06",
+            "salesDate": "2011-12-02",
             "price": "214000",
-            "venue": "unknown"
+            "venue": "ComicConnect",
+            "link":"https://www.comicconnect.com/bookDetail.php?id=433858"
          }],
          "uid": "0231"
       }, {
@@ -3129,9 +3152,10 @@
          "grade": "6.0",
          "tags": "whiz,captain-marvel",
          "sales": [{
-            "salesDate": "2011-12-06",
+            "salesDate": "2011-12-03",
             "price": "176007",
-            "venue": "unknown"
+            "venue": "ComicConnect",
+            "link": "https://www.comicconnect.com/bookDetail.php?id=413818"
          }],
          "uid": "0240"
       }, {
@@ -4707,6 +4731,21 @@
                "link": "https://www.comicconnect.com/bookDetail.php?id=693838"
             }],
             "uid": "0363"
+         },{
+            "title": "Action Comics",
+            "issue": "1",
+            "publisher": "DC Comics",
+            "gradeSrc": "CGC",
+            "grade": "1.8",
+            "tags": "cgc,action,superman,dc",
+            "sales": [
+            {
+                  "salesDate": "1900-01-01",
+                  "price": "110000",
+                  "venue": "ComicConnect",
+                  "link": "https://www.comicconnect.com/bookDetail.php?id=433712"
+               }],
+            "uid": "0365"
          }
 
    ]

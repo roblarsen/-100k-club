@@ -2463,7 +2463,16 @@
          "gradeSrc": "CGC",
          "grade": "9.4",
          "tags": "amazing-spider-man,cgc,spider-man",
-         "sales": [
+         "sales": [{
+            "salesDate": "2015-03-15",
+            "price": "135000",
+            "venue": "unknown"
+         },{
+            "salesDate": "2017-11-16",
+            "price": "131450",
+            "venue": "Heritage",
+            "link":"https://comics.ha.com/itm/silver-age-1956-1969-/the-amazing-spider-man-1-marvel-1963-cgc-nm-94-off-white-to-white-pages/a/7169-91011.s?ic3=ViewItem-Auction-Archive-SearchResults-120115&lotPosition=4|0#"
+         }
 
          ],
          "uid": "0188"
@@ -2737,7 +2746,12 @@
          "gradeSrc": "cgc",
          "grade": "9.0",
          "tags": "fantastic-four,cgc,marvel,kirby",
-         "sales": [
+         "sales": [{
+            "salesDate": "2017-11-17",
+            "price": "161325",
+            "venue": "Heritage",
+            "link": "https://comics.ha.com/itm/silver-age-1956-1969-/fantastic-four-1-marvel-1961-cgc-vf-nm-90-off-white-to-white-pages/a/7169-91031.s?ic4=ListView-ShortDescription-071515#"
+         }
 
          ],
          "uid": "0204"
@@ -3056,7 +3070,12 @@
          "gradeSrc": "CGC",
          "grade": "9.2",
          "tags": "showcase,dc,green-lantern",
-         "sales": [
+         "sales": [{
+            "salesDate": "2017-11-16",
+            "price": "149375",
+            "venue": "heritage",
+            "link":"https://comics.ha.com/itm/silver-age-1956-1969-/showcase-22-green-lantern-dc-1959-cgc-nm-92-cream-to-off-white-pages/a/7169-91050.s?ic3=ViewItem-Auction-Archive-SearchResults-120115&lotPosition=3|0"
+         }
 
          ],
          "uid": "0230"
@@ -4793,6 +4812,135 @@
             ],
             "uid": "0367"
          },
+         {
+            "title": "Journey into Mystery",
+            "issue": "83",
+            "gradeSrc": "CGC",
+            "grade": "9.4",
+            "tags": "journey-into-mystery,cgc,marvel,thor,kirby",
+            "sales": [{
+               "salesDate": "2017-11-16",
+               "price": "191200",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/journey-into-mystery-83-marvel-1962-cgc-nm-94-white-pages/a/7169-91042.s?ic4=ListView-ShortDescription-071515#"
+            }],
+            "uid": "0368"
+         },{
+            "title": "Journey into Mystery",
+            "issue": "83",
+            "gradeSrc": "CGC",
+            "grade": "9.4",
+            "tags": "journey-into-mystery,cgc,marvel,thor,kirby",
+            "sales": [],
+            "uid": "0369"
+         },{
+            "title": "Journey into Mystery",
+            "issue": "83",
+            "gradeSrc": "CGC",
+            "grade": "9.4",
+            "tags": "journey-into-mystery,cgc,marvel,thor,kirby",
+            "sales": [],
+            "uid": "0370"
+         },{
+            "title": "Tales of Suspense",
+            "issue": "39",
+            "gradeSrc": "CBCS",
+            "grade": "9.6",
+            "tags": "iron-man,marvel,cgc",
+            "sales": [{
+               "salesDate": "2017-11-16",
+               "price": "155350",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/tales-of-suspense-39-marvel-1963-cbcs-nm-96-white-pages/a/7169-91058.s?ic3=ViewItem-Auction-Archive-SearchResults-120115&lotPosition=2|0"
+            }],
+            "uid": "0371"
+         },
+         {
+            "title": "Showcase",
+            "issue": "4",
+           "gradeSrc": "CGC",
+            "grade": "8.5",
+            "tags": "flash,silver-age,dc,showcase",
+            "sales": [{
+               "salesDate": "2017-11-16",
+               "price": "155350",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/showcase-4-the-flash-dc-1956-cgc-vf-85-white-pages/a/7169-91049.s?ic3=ViewItem-Auction-Archive-SearchResults-120115&lotPosition=5|0"
+            }],
+            "uid": "0372"
+         },
+         {
+            "title": "Showcase",
+            "issue": "4",
+           "gradeSrc": "CGC",
+            "grade": "8.5",
+            "tags": "flash,silver-age,dc,showcase",
+            "sales": [],
+            "uid": "0373"
+         },
+         {
+            "title": "Showcase",
+            "issue": "4",
+           "gradeSrc": "CGC",
+            "grade": "8.5",
+            "tags": "flash,silver-age,dc,showcase",
+            "sales": [],
+            "uid": "0374"
+         },{
+            "title": "Showcase",
+            "issue": "4",
+           "gradeSrc": "CGC",
+            "grade": "8.5",
+            "tags": "flash,silver-age,dc,showcase",
+            "sales": [],
+            "uid": "0375"
+         }
+         ,
+         {
+            "title": "Showcase",
+            "issue": "4",
+           "gradeSrc": "CGC",
+            "grade": "9.0",
+            "tags": "flash,silver-age,dc,showcase",
+            "sales": [],
+            "uid": "0376"
+         },
+         {
+            "title": "Showcase",
+            "issue": "4",
+           "gradeSrc": "CGC",
+            "grade": "9.0",
+            "tags": "flash,silver-age,dc,showcase",
+            "sales": [],
+            "uid": "0377"
+         },{
+            "title": "Showcase",
+            "issue": "4",
+           "gradeSrc": "CGC",
+            "grade": "9.0",
+            "tags": "flash,silver-age,dc,showcase",
+            "sales": [],
+            "uid": "0378"
+         },
+         {
+            "title": "Showcase",
+            "issue": "4",
+           "gradeSrc": "CGC",
+            "grade": "9.4",
+            "tags": "flash,silver-age,dc,showcase",
+            "sales": [],
+            "uid": "0379"
+         },{
+            "title": "Showcase",
+            "issue": "4",
+           "gradeSrc": "CGC",
+            "grade": "9.2",
+            "tags": "flash,silver-age,dc,showcase",
+            "sales": [],
+            "uid": "0380"
+         }
+
+
 
    ]
 }

@@ -4939,7 +4939,39 @@
             "sales": [],
             "uid": "0380"
          }
-
+         ,
+         {
+            "title": "Detective Comics",
+            "grade": "8.0",
+            "gradeSrc": "CGC",
+            "issue": "33",
+            "tags": "detective-comics,batman,dc,cbcs",
+            "sales": [{
+                  "salesDate": "2017-11-17",
+                  "price": "167300",
+                  "venue": "Heritage",
+                  "link": "https://comics.ha.com/itm/golden-age-1938-1955-/detective-comics-33-dc-1939-cgc-vf-80-cream-to-off-white-pages/a/7169-91029.s?ic4=ListView-ShortDescription-071515"
+               }
+   
+            ],
+            "uid": "0381"
+         },
+         {
+            "title": "Detective Comics",
+            "grade": "5.0",
+            "gradeSrc": "CGC",
+            "issue": "31",
+            "tags": "detective-comics,batman,dc,cbcs",
+            "sales": [{
+                  "salesDate": "2017-11-17",
+                  "price": "131450",
+                  "venue": "Heritage",
+                  "link": "https://comics.ha.com/itm/golden-age-1938-1955-/detective-comics-31-dc-1939-cgc-vg-fn-50-off-white-to-white-pages/a/7169-91028.s?ic4=ListView-ShortDescription-071515"
+               }
+   
+            ],
+            "uid": "0382"
+         }
 
 
    ]

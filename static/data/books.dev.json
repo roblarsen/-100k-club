@@ -1447,8 +1447,12 @@
             "price": "201000",
             "venue": "ComicConnect",
             "link": "https://www.comicconnect.com/bookDetail.php?id=448090"
-         }
-
+         },{
+            "salesDate": "2012-12-04",
+            "price": "194543",
+            "venue": "ComicConnect",
+            "link": "https://www.comicconnect.com/bookDetail.php?id=471759"
+         }         
          ],
          "uid": "0111"
       }, {
@@ -1497,7 +1501,16 @@
          "gradeSrc": "CGC",
          "grade": "2.5",
          "tags": "detective-comics,dc,batman",
-         "sales": [
+         "sales": [{
+            "salesDate": "2017-01-01",
+            "price": "38000",
+            "venue": "ComicLink",
+            "link": "http://www.comiclink.com/auctions/item.asp?id=1205443"
+         },{
+            "salesDate": "2015-01-01",
+            "price": "270000",
+            "venue": "ComicLink"
+         }
 
          ],
          "uid": "0117"

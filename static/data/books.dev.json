@@ -1389,12 +1389,18 @@
          "issue": "27",
          "pedigree": "Rockford",
          "gradeSrc": "CGC",
-         "grade": "5.5",
+         "grade": "6.0",
          "tags": "detective-comics,dc,batman,pedigree",
          "sales": [{
             "venue": "unknown",
             "salesDate": "1900-01-01",
-            "price": "115000"
+            "price": "115000",
+            "sellersNotes": "as a CGC 5.5"
+         },
+         {
+            "venue": "comicconnect",
+            "salesDate": "2018-03-21",
+            "price": "732000"
          }],
          "uid": "0107"
       }, {
@@ -3530,6 +3536,17 @@
             "salesDate": "2013-09-13",
             "price": "427111",
             "venue": "ComicConnect"
+         },
+         {
+            "salesDate": "2015-07-12",
+            "price": "675000",
+            "venue": "unknown"
+         },
+         {
+            "salesDate": "2018-03-20",
+            "price": "815000",
+            "venue": "comicconnect",
+            "link":"https://www.comicconnect.com/bookDetail.php?id=748655"
          }],
          "uid": "0268"
       }, {
@@ -4996,7 +5013,21 @@
                   "venue": "Hakes",
                   "link": "https://www.hakes.com/Auction/ItemDetail/220413/ACTION-COMICS-7-DECEMBER-1938-CGC-40-VG-SECOND-SUPERMAN-COVER"
                }],
-            "uid": "0024"
+            "uid": "0385"
+         },{
+            "title": "Sensation Comics",
+            "issue": "1",
+            "publisher": "DC Comics",
+            "gradeSrc": "CGC",
+            "grade": "8.5",
+            "tags": "cgc,wonder-woman,dc",
+            "sales": [{
+                  "salesDate": "2018-03-22",
+                  "price": "124023.90",
+                  "venue": "comicconnect",
+                  "link": "https://www.comicconnect.com/bookDetail.php?id=748663"
+               }],
+            "uid": "0386"
          }
 
 

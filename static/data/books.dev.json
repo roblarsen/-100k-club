@@ -4971,6 +4971,32 @@
    
             ],
             "uid": "0382"
+         },
+         {
+            "title": "Detective Comics",
+            "issue": "27",
+            "gradeSrc": "CGC",
+            "grade": "5.0",
+            "tags": "detective-comics,dc,batman,hakes",
+            "sales": [{
+               "salesDate": "2018-03-18",
+               "price": "569273.61",
+               "venue": "Hakes",
+               "link": "https://www.hakes.com/Auction/ItemDetail/220412/DETECTIVE-COMICS-27-MAY-1939-CGC-50-VGFINE-FIRST-BATMAN"
+            }],
+            "uid": "0383"
+         }, {
+            "title": "Action Comics",
+            "issue": "7",
+            "gradeSrc": "CGC",
+            "grade": "4.0",
+            "sales": [{
+                  "salesDate": "2018-03-18",
+                  "price": "124023.90",
+                  "venue": "Hakes",
+                  "link": "https://www.hakes.com/Auction/ItemDetail/220413/ACTION-COMICS-7-DECEMBER-1938-CGC-40-VG-SECOND-SUPERMAN-COVER"
+               }],
+            "uid": "0024"
          }
 
 

@@ -25,6 +25,11 @@
             "salesDate": "2010-03-29",
             "venue": "ComicConnect",
             "link": "http://www.comicconnect.com/bookDetail.php?id=333815"
+         },{
+            "price": "2052000",
+            "salesDate": "2018-06-13",
+            "venue": "ComicConnect",
+            "link": "https://www.comicconnect.com/bookDetail.php?id=755769"
          }],
          "uid": "0001"
       }, {

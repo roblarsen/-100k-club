@@ -5068,7 +5068,24 @@
    
             ],
             "uid": "0387"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "7.0",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [{
+                  "salesDate": "2018-03-06",
+                  "price": "105000",
+                  "venue": "ComicLink",
+                  "link": "http://comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FPREVIEW%2EASP%3F_SORT%3DYES%26code%3D2018feb%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2EType%252C%2Bi%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Di%2ECondition%26ODire3%3DDESC%23Item_1238211&id=1238211&itemType=0"
+               }
+   
+            ],
+            "uid": "0388"
          }
+
 
 
    ]

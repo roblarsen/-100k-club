@@ -5171,7 +5171,37 @@
                "salesDate": "https://www.comicconnect.com/bookDetail.php?id=752902",
                "price": "112000"
             }],
-            "id": "0158"
+            "id": "0394"
+         },{
+            "title": "Fantastic Four",
+            "issue": "1",
+            "gradeSrc": "cgc",
+            "grade": "9.0",
+            "tags": "fantastic-four,cgc,marvel,kirby",
+            "sales": [{
+               "salesDate": "2018-08-15",
+               "price": "165000",
+               "venue": "ComicLink",
+               "link": "http://comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FALLSUB%2EASP%3F_SORT%3DYES%26Focused%3D1%26id%3D1052%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%252C%2Bi%2EVolumeNumber%26ODire2%3DASC%26f3%3Da%2EMaxBid%26ODire3%3DDESC%23Item_1253333&id=1253333&itemType=0"
+            }
+   
+            ],
+            "id": "0395"
+         },{
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "7.0",
+            "tags": "spider-man,amazing-fantasy,cgc,marvel",
+            "sales": [{
+               "salesDate": "2018-08-15",
+               "price": "116553",
+               "venue": "ComicLink",
+               "link": "http://comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FALLSUB%2EASP%3F%5FSORT%3DYES%26Focused%3D1%26id%3D1052%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%252C%2Bi%2EVolumeNumber%26ODire2%3DASC%26f3%3Da%2EMaxBid%26ODire3%3DDESC%23Item%5F1259966&id=1259966&itemType=0"
+            }
+   
+            ],
+            "id": "0396"
          }
 
 

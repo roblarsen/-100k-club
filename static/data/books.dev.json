@@ -10,7 +10,7 @@
          "generalCommentary": "Best Existing",
          "tags": "church,superman,action,dc,pedigree",
          "sales": [],
-         "uid": "0000"
+         "id": "0000"
       }, {
          "title": "Action Comics",
          "publisher": "DC Comics",
@@ -31,7 +31,7 @@
             "venue": "ComicConnect",
             "link": "https://www.comicconnect.com/bookDetail.php?id=755769"
          }],
-         "uid": "0001"
+         "id": "0001"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -47,7 +47,7 @@
             "venue": "ComicConnect",
             "link": "http://www.comicconnect.com/bookDetail.php?id=330734"
          }],
-         "uid": "0002"
+         "id": "0002"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -60,7 +60,7 @@
             "salesDate": "2002-01-01",
             "price": "192120.15"
          }],
-         "uid": "0003"
+         "id": "0003"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -71,7 +71,7 @@
          "sales": [
 
          ],
-         "uid": "0004",
+         "id": "0004",
          "tags": "dc,pedigree,superman,action"
       }, {
          "title": "Action Comics",
@@ -86,7 +86,7 @@
             "salesDate": "2006-01-01",
             "price": "250000"
          }],
-         "uid": "0006"
+         "id": "0006"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -106,7 +106,7 @@
             "price": "82500",
             "venue": "Sotheby's"
          }],
-         "uid": "0007"
+         "id": "0007"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -135,7 +135,7 @@
 
             }
          ],
-         "uid": "0008"
+         "id": "0008"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -148,7 +148,7 @@
             "price": "317200",
             "venue": "ComicConnect"
          }],
-         "uid": "0009"
+         "id": "0009"
       },
 
       {
@@ -164,7 +164,7 @@
             }
 
          ],
-         "uid": "0010"
+         "id": "0010"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -182,7 +182,7 @@
             "venue": "ComicConnect",
             "link": "http://www.comicconnect.com/bookDetail.php?id=588439"
          }],
-         "uid": "0011"
+         "id": "0011"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -193,7 +193,7 @@
          "sales": [
 
          ],
-         "uid": "0012"
+         "id": "0012"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -210,7 +210,7 @@
             "price": "345000",
             "venue": "ComicConnect"
          }],
-         "uid": "0013"
+         "id": "0013"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -221,7 +221,7 @@
          "sales": [
 
          ],
-         "uid": "0014"
+         "id": "0014"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -231,7 +231,7 @@
          "sales": [
 
          ],
-         "uid": "0015"
+         "id": "0015"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -244,7 +244,7 @@
             "price": "300000",
             "venue": "ComicConnect"
          }],
-         "uid": "0016"
+         "id": "0016"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -260,7 +260,7 @@
             }
 
          ],
-         "uid": "0017"
+         "id": "0017"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -271,7 +271,7 @@
          "sales": [
 
          ],
-         "uid": "0018"
+         "id": "0018"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -288,7 +288,7 @@
             "price": "275000",
             "venue": "ComicLink"
          }],
-         "uid": "0019"
+         "id": "0019"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -299,7 +299,7 @@
          "sales": [
 
          ],
-         "uid": "0020"
+         "id": "0020"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -313,7 +313,7 @@
             "price": "116512",
             "venue": "Heritage"
          }],
-         "uid": "0021"
+         "id": "0021"
       }, {
          "cgcid": "",
          "title": "Action Comics",
@@ -324,7 +324,7 @@
          "sales": [
 
          ],
-         "uid": "0022",
+         "id": "0022",
          "tags": "action,superman,pedigree,dc"
       }, {
          "title": "Action Comics",
@@ -335,7 +335,7 @@
          "sales": [
 
          ],
-         "uid": "0023"
+         "id": "0023"
       }, {
          "title": "Action Comics",
          "issue": "7",
@@ -346,7 +346,7 @@
             "price": "143400",
             "venue": "Heritage"
          }],
-         "uid": "0024"
+         "id": "0024"
       }, {
          "title": "Amazing Spider-Man",
          "issue": "1",
@@ -361,7 +361,7 @@
                "venue": "Heritage"
             }
          ],
-         "uid": "0025"
+         "id": "0025"
       }, {
          "title": "Action Comics",
          "issue": "10",
@@ -373,7 +373,7 @@
             "price": "258000",
             "venue": "ComicConnect"
          }],
-         "uid": "0026"
+         "id": "0026"
       }, {
          "title": "Action Comics",
          "issue": "13",
@@ -386,7 +386,7 @@
             "price": "185000",
             "venue": "ComicConnect"
          }],
-         "uid": "0027"
+         "id": "0027"
       }, {
          "title": "All American Comics",
          "issue": "16",
@@ -399,7 +399,7 @@
             "salesDate": "1984-01-01",
             "price": "9000"
          }],
-         "uid": "0028"
+         "id": "0028"
       }, {
          "title": "All American Comics",
          "issue": "16",
@@ -415,7 +415,7 @@
             "salesDate": "1996-01-01",
             "price": "60000"
          }],
-         "uid": "0029"
+         "id": "0029"
       }, {
          "title": "All Star Comics",
          "issue": "3",
@@ -429,7 +429,7 @@
             "salesDate": "1900-01-01",
             "price": "126500"
          }],
-         "uid": "0030"
+         "id": "0030"
       }, {
          "title": "All Star Comics",
          "issue": "8",
@@ -442,7 +442,7 @@
             "salesDate": "1995-01-01",
             "price": "70000"
          }],
-         "uid": "0031"
+         "id": "0031"
       }, {
          "title": "All Winners Comics",
          "issue": "1",
@@ -456,7 +456,7 @@
             "price": "95200",
             "venue": "Hakes"
          }],
-         "uid": "0032"
+         "id": "0032"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -470,7 +470,7 @@
             "venue": "ComicConnect",
             "link": "http://www.comicconnect.com/load_page.php?page=amazing_fantasy_15"
          }],
-         "uid": "0033"
+         "id": "0033"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -498,7 +498,7 @@
             "link": "http://www.Comiclink.com/auctions/item.asp?back=%2FComicTrack%2FAdmin%2Fauc…%26SearchSeller%3D%26SearchHighBidder%3D%26Image1%2Ex%3D0%26Image1%2Ey%3D0",
             "venue": "Comiclink"
          }],
-         "uid": "0034"
+         "id": "0034"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -520,7 +520,7 @@
             "venue": "Comiclink",
             "link": "http://www.Comiclink.com/itemdetail.asp?id=706615&next=%2FComicTrack%2FAdmi…D%26TYPE%3D0%26FILTER%3D%26Payment%3D%26Verified%3D%26Shipped%3D%26SPBP%3D"
          }],
-         "uid": "0035"
+         "id": "0035"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -537,7 +537,7 @@
             "price": "122000",
             "venue": "Comiclink"
          }],
-         "uid": "0036"
+         "id": "0036"
       },       {  
          "title":"Amazing Fantasy",
          "issue":"15",
@@ -552,7 +552,7 @@
                "venue":"comiclink"
             }
          ],
-         "uid":"0041"
+         "id":"0041"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -565,7 +565,7 @@
             "price": "190000",
             "venue": "pedigreecomics"
          }],
-         "uid": "0041"
+         "id": "0041"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -576,7 +576,7 @@
          "sales": [
 
          ],
-         "uid": "0042"
+         "id": "0042"
       }, {
          "title": "Amazing Fantasy",
          "gradeSrc": "cgc",
@@ -588,7 +588,7 @@
             "price": "139000",
             "venue": "Comiclink"
          }],
-         "uid": "0043"
+         "id": "0043"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -600,7 +600,7 @@
             "price": "118977",
             "venue": "Comiclink"
          }],
-         "uid": "0044"
+         "id": "0044"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -613,7 +613,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/c/item.zx?saleNo=7013&lotNo=92111"
          }],
-         "uid": "0045"
+         "id": "0045"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -625,7 +625,7 @@
             "price": "122000",
             "venue": "Comiclink"
          }],
-         "uid": "0046"
+         "id": "0046"
       }, {
          "title": "Amazing Spider-Man",
          "issue": "1",
@@ -635,7 +635,7 @@
          "sales": [
 
          ],
-         "uid": "0047"
+         "id": "0047"
       }, {
          "title": "Amazing Spider-Man",
          "issue": "1",
@@ -653,7 +653,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/c/item.zx?saleNo=817&lotNo=1005"
          }],
-         "uid": "0048"
+         "id": "0048"
       }, {
          "title": "Amazing Spider-Man",
          "issue": "1",
@@ -674,7 +674,7 @@
             "price": "130000",
             "venue": "Comiclink"
          }],
-         "uid": "0050"
+         "id": "0050"
       }, {
          "title": "Amazing Spider-Man",
          "issue": "1",
@@ -686,7 +686,7 @@
             "venue": "ComicConnect",
             "link":"https://www.comicconnect.com/bookDetail.php?id=296777"
          }],
-         "uid": "0051"
+         "id": "0051"
       }, {
          "title": "Amazing Spider-Man",
          "issue": "5",
@@ -698,7 +698,7 @@
             "price": "97000",
             "venue": "Comiclink"
          }],
-         "uid": "0052"
+         "id": "0052"
       }, {
          "title": "Archie Comics",
          "issue": "1",
@@ -712,7 +712,7 @@
             "salesDate": "1997-01-01",
             "price": "53000"
          }],
-         "uid": "0053"
+         "id": "0053"
       }, {
          "title": "Archie Comics",
          "issue": "1",
@@ -725,7 +725,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/c/item.zx?saleNo=7030&lotNo=91252"
          }],
-         "uid": "0054"
+         "id": "0054"
       }, {
          "title": "Avengers",
          "issue": "1",
@@ -739,7 +739,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/c/prlink.zx?saleNo=7063&lotNo=91001"
          }],
-         "uid": "0055"
+         "id": "0055"
       }, {
          "title": "Daredevil",
          "issue": "1",
@@ -749,7 +749,7 @@
          "sales": [
 
          ],
-         "uid": "0056"
+         "id": "0056"
       }, {
          "title": "Avengers",
          "issue": "1",
@@ -764,7 +764,7 @@
             }
 
          ],
-         "uid": "0057"
+         "id": "0057"
       }, {
          "title": "Avengers",
          "issue": "1",
@@ -776,7 +776,7 @@
             "price": "100000",
             "venue": "Comiclink"
          }],
-         "uid": "0058"
+         "id": "0058"
       }, {
          "title": "Batman",
          "issue": "1",
@@ -788,7 +788,7 @@
             "price": "280000",
             "venue": "Comiclink"
          }],
-         "uid": "0060"
+         "id": "0060"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -807,7 +807,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/c/prlink.zx?saleNo=7054&lotNo=91001"
          }],
-         "uid": "0062"
+         "id": "0062"
       }, {
          "title": "All American Comics",
          "issue": "16",
@@ -826,7 +826,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91004"
          }],
-         "uid": "0063"
+         "id": "0063"
       }, {
          "title": "Fantastic Four",
          "issue": "1",
@@ -836,7 +836,7 @@
          "sales": [
 
          ],
-         "uid": "0064"
+         "id": "0064"
       }, {
          "title": "Fantastic Four",
          "issue": "1",
@@ -848,7 +848,7 @@
             "price": "111328",
             "venue": "JP The Mint"
          }],
-         "uid": "0065"
+         "id": "0065"
       }, {
          "title": "Fantastic Four",
          "issue": "1",
@@ -861,7 +861,7 @@
             "price": "210000",
             "venue": "pedigreecomics"
          }],
-         "uid": "0066"
+         "id": "0066"
       }, {
          "title": "Fantastic Four",
          "issue": "1",
@@ -871,7 +871,7 @@
          "sales": [
 
          ],
-         "uid": "0067"
+         "id": "0067"
       }, {
          "title": "Fantastic Four",
          "issue": "1",
@@ -898,7 +898,7 @@
             "venue": "Comiclink",
             "link": "http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91141"
          }],
-         "uid": "0069"
+         "id": "0069"
       }, {
          "title": "Flash Comics",
          "issue": "1",
@@ -919,7 +919,7 @@
             "price": "450000",
             "venue": "Heritage"
          }],
-         "uid": "0070"
+         "id": "0070"
       }, {
          "title": "Flash Comics",
          "issue": "1",
@@ -929,7 +929,7 @@
          "sales": [
 
          ],
-         "uid": "0071"
+         "id": "0071"
       }, {
          "title": "Flash Comics",
          "issue": "1",
@@ -938,7 +938,7 @@
          "sales": [
 
          ],
-         "uid": "0072"
+         "id": "0072"
       }, {
          "title": "Batman",
          "issue": "1",
@@ -950,7 +950,7 @@
             "salesDate": "1984-01-01",
             "price": "12000"
          }],
-         "uid": "0073"
+         "id": "0073"
       }, {
          "title": "Batman",
          "issue": "1",
@@ -962,7 +962,7 @@
             "salesDate": "2001-01-01",
             "price": "70000"
          }],
-         "uid": "0074"
+         "id": "0074"
       }, {
          "title": "Batman",
          "issue": "1",
@@ -975,7 +975,7 @@
             "salesDate": "2001-01-01",
             "price": "150000"
          }],
-         "uid": "0075"
+         "id": "0075"
       }, {
          "title": "Batman",
          "issue": "1",
@@ -986,7 +986,7 @@
          "sales": [
 
          ],
-         "uid": "0076"
+         "id": "0076"
       }, {
          "title": "Batman",
          "issue": "1",
@@ -999,7 +999,7 @@
             "price": "107000",
             "venue": "Heritage"
          }],
-         "uid": "0077"
+         "id": "0077"
       }, {
          "title": "Batman",
          "issue": "1",
@@ -1013,7 +1013,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/c/prlink.zx?saleNo=7054&lotNo=91047"
          }],
-         "uid": "0078"
+         "id": "0078"
       }, {
          "title": "Batman",
          "issue": "1",
@@ -1025,7 +1025,7 @@
             "price": "100000",
             "venue": "Comiclink"
          }],
-         "uid": "0079"
+         "id": "0079"
       }, {
          "title": "Batman",
          "issue": "1",
@@ -1039,7 +1039,7 @@
             "venue": "comicconnect",
             "link": "http://www.comicconnect.com/bookDetail.php?id=682290"
          }],
-         "uid": "0080"
+         "id": "0080"
       }, {
          "title": "Batman",
          "issue": "1",
@@ -1054,7 +1054,7 @@
          }
 
          ],
-         "uid": "0082"
+         "id": "0082"
       }, {
          "title": "Batman",
          "issue": "1",
@@ -1064,7 +1064,7 @@
          "sales": [
 
          ],
-         "uid": "0083"
+         "id": "0083"
       }, {
          "title": "Batman",
          "issue": "1",
@@ -1074,7 +1074,7 @@
          "sales": [
 
          ],
-         "uid": "0084"
+         "id": "0084"
       }, {
          "title": "Batman",
          "issue": "1",
@@ -1087,7 +1087,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/common/view_item.php?Sale_No=7007&Lot_No=91002&src=pr"
          }],
-         "uid": "0085"
+         "id": "0085"
       }, {
          "title": "Batman",
          "issue": "1",
@@ -1100,7 +1100,7 @@
             "venue": "Metropolis",
             "link": "http://scoop.diamondgalleries.com/public/default.asp?t=1&m=1&c=34&s=262&ai=71029"
          }],
-         "uid": "0086"
+         "id": "0086"
       }, {
          "title": "Captain America Comics",
          "issue": "1",
@@ -1110,7 +1110,7 @@
          "sales": [
 
          ],
-         "uid": "0087"
+         "id": "0087"
       }, {
          "title": "Captain America Comics",
          "issue": "1",
@@ -1127,7 +1127,7 @@
             "price": "150000",
             "venue": "Comiclink"
          }],
-         "uid": "0088"
+         "id": "0088"
       }, {
          "title": "Captain America Comics",
          "issue": "1",
@@ -1150,7 +1150,7 @@
             "salesDate": "2005-10-14",
             "price": "63250"
          }],
-         "uid": "0089"
+         "id": "0089"
       }, {
          "title": "Captain America Comics",
          "issue": "1",
@@ -1162,7 +1162,7 @@
             "price": "343057",
             "venue": "ComicConnect"
          }],
-         "uid": "0090"
+         "id": "0090"
       }, {
          "title": "Captain America Comics",
          "issue": "1",
@@ -1181,7 +1181,7 @@
             "salesDate": "1994-01-01",
             "price": "82500"
          }],
-         "uid": "0091"
+         "id": "0091"
       }, {
          "title": "Captain America Comics",
          "issue": "1",
@@ -1199,7 +1199,7 @@
             "salesDate": "1994-01-01",
             "price": "82500"
          }],
-         "uid": "0092"
+         "id": "0092"
       }, {
          "title": "Captain America Comics",
          "issue": "1",
@@ -1211,7 +1211,7 @@
             "price": "95600",
             "venue": "Heritage"
          }],
-         "uid": "0093"
+         "id": "0093"
       }, {
          "title": "Detective Comics",
          "issue": "1",
@@ -1223,7 +1223,7 @@
             "price": "90000",
             "sellersNotes": "os26"
          }],
-         "uid": "0094"
+         "id": "0094"
       }, {
          "generalCommentary": "OS 27 reported $150,000 trade. To be honest, I'm only now including it for completeness' sake. First off, it's \"trade\" which you have to take with a grain of salt anyway. Secondly, if it's really VG/FN, then is it really a $100,000 book right now, no matter the pedigree?",
          "title": "Detective Comics",
@@ -1234,7 +1234,7 @@
          "sales": [
 
          ],
-         "uid": "0095"
+         "id": "0095"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -1249,7 +1249,7 @@
             "sellersNotes": "os21",
             "price": "80000"
          }],
-         "uid": "0096"
+         "id": "0096"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -1268,7 +1268,7 @@
             "salesDate": "1991-01-01",
             "price": "72000"
          }],
-         "uid": "0097"
+         "id": "0097"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -1281,7 +1281,7 @@
             "price": "278190",
             "venue": "Mastronet"
          }],
-         "uid": "0098"
+         "id": "0098"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -1294,7 +1294,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/common/view_item.php?Sale_No=7017&Lot_No=91126&ic=rightcolumn-detective27-121009"
          }],
-         "uid": "0099"
+         "id": "0099"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -1308,7 +1308,7 @@
             "salesDate": "2002-01-01",
             "price": "100000"
          }],
-         "uid": "0100"
+         "id": "0100"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -1325,7 +1325,7 @@
             "salesDate": "1993-01-02",
             "price": "101000"
          }],
-         "uid": "0101"
+         "id": "0101"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -1338,7 +1338,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/common/view_item.php?Sale_No=7023&Lot_No=91055"
          }],
-         "uid": "0102"
+         "id": "0102"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -1348,7 +1348,7 @@
          "sales": [
 
          ],
-         "uid": "0103"
+         "id": "0103"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -1361,7 +1361,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/c/prlink.zx?saleNo=7073&lotNo=91048"
          }],
-         "uid": "0104"
+         "id": "0104"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -1377,7 +1377,7 @@
             "price": "575000",
             "venue": "Metropolis"
          }],
-         "uid": "0105"
+         "id": "0105"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -1388,7 +1388,7 @@
          "sales": [
 
          ],
-         "uid": "0106"
+         "id": "0106"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -1407,7 +1407,7 @@
             "salesDate": "2018-03-21",
             "price": "732000"
          }],
-         "uid": "0107"
+         "id": "0107"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -1417,7 +1417,7 @@
          "sales": [
 
          ],
-         "uid": "0108"
+         "id": "0108"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -1430,7 +1430,7 @@
             "venue": "ComicConnect",
             "link": "http://www.comicconnect.com/bookDetail.php?id=350383"
          }],
-         "uid": "0109"
+         "id": "0109"
       }, {
          "tags": "detective-comics,dc,batman",
          "title": "Detective Comics",
@@ -1440,7 +1440,7 @@
          "sales": [
 
          ],
-         "uid": "0110"
+         "id": "0110"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -1459,7 +1459,7 @@
             "link": "https://www.comicconnect.com/bookDetail.php?id=471759"
          }         
          ],
-         "uid": "0111"
+         "id": "0111"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -1469,7 +1469,7 @@
          "sales": [
 
          ],
-         "uid": "0112"
+         "id": "0112"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -1479,7 +1479,7 @@
          "sales": [
 
          ],
-         "uid": "0113"
+         "id": "0113"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -1489,7 +1489,7 @@
          "sales": [
 
          ],
-         "uid": "0115"
+         "id": "0115"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -1499,7 +1499,7 @@
          "sales": [
 
          ],
-         "uid": "0116"
+         "id": "0116"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -1518,7 +1518,7 @@
          }
 
          ],
-         "uid": "0117"
+         "id": "0117"
       }, {
          "title": "Detective Comics",
          "issue": "29",
@@ -1532,7 +1532,7 @@
             "price": "57000",
             "sellersNotes": "OS29"
          }],
-         "uid": "0118"
+         "id": "0118"
       }, {
          "title": "Detective Comics",
          "issue": "33",
@@ -1544,7 +1544,7 @@
             "price": "194000",
             "venue": "ComicConnect"
          }],
-         "uid": "0119"
+         "id": "0119"
       }, {
          "title": "Detective Comics",
          "issue": "33",
@@ -1553,7 +1553,7 @@
          "sales": [
 
          ],
-         "uid": "0120"
+         "id": "0120"
       }, {
          "title": "Detective Comics",
          "issue": "38",
@@ -1577,7 +1577,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/c/item.zx?saleNo=804&lotNo=5134"
          }],
-         "uid": "0121"
+         "id": "0121"
       }, {
          "title": "Detective Comics",
          "issue": "38",
@@ -1586,7 +1586,7 @@
          "sales": [
 
          ],
-         "uid": "0122"
+         "id": "0122"
       }, {
          "title": "Flash Comics",
          "issue": "1",
@@ -1597,7 +1597,7 @@
          "sales": [
 
          ],
-         "uid": "0123"
+         "id": "0123"
       }, {
          "title": "Green Lantern",
          "issue": "1",
@@ -1611,7 +1611,7 @@
             "salesDate": "1990-01-01",
             "price": "25000"
          }],
-         "uid": "0124"
+         "id": "0124"
       }, {
          "title": "Incredible Hulk",
          "issue": "1",
@@ -1622,7 +1622,7 @@
          "sales": [
 
          ],
-         "uid": "0126"
+         "id": "0126"
       }, {
          "title": "Incredible Hulk",
          "issue": "1",
@@ -1640,7 +1640,7 @@
             "price": "326000",
             "venue": "ComicConnect"
          }],
-         "uid": "0127"
+         "id": "0127"
       }, {
          "title": "Incredible Hulk",
          "issue": "1",
@@ -1657,7 +1657,7 @@
             "price": "320000",
             "venue": "ComicConnect"
          }],
-         "uid": "0128"
+         "id": "0128"
       }, {
          "title": "Incredible Hulk",
          "issue": "1",
@@ -1667,7 +1667,7 @@
          "sales": [
 
          ],
-         "uid": "0129"
+         "id": "0129"
       }, {
          "title": "Incredible Hulk",
          "issue": "181",
@@ -1679,7 +1679,7 @@
             "price": "150000",
             "venue": "Comiclink"
          }],
-         "uid": "0130"
+         "id": "0130"
       }, {
          "title": "Journey into Mystery",
          "issue": "83",
@@ -1690,7 +1690,7 @@
          "sales": [
 
          ],
-         "uid": "0131"
+         "id": "0131"
       }, {
          "title": "Marvel Comics",
          "issue": "1",
@@ -1713,7 +1713,7 @@
             "venue": "ComicConnect",
             "link": "http://www.comicconnect.com/bookDetail.php?id=598368"
          }],
-         "uid": "0132"
+         "id": "0132"
       }, {
          "title": "Marvel Comics",
          "issue": "1",
@@ -1725,7 +1725,7 @@
          "sales": [
 
          ],
-         "uid": "0133"
+         "id": "0133"
       }, {
          "title": "Marvel Comics",
          "issue": "1",
@@ -1744,7 +1744,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/c/item.zx?saleNo=817&lotNo=5273"
          }],
-         "uid": "0134"
+         "id": "0134"
       }, {
          "title": "Marvel Comics",
          "issue": "1",
@@ -1753,7 +1753,7 @@
          "sales": [
 
          ],
-         "uid": "0135"
+         "id": "0135"
       }, {
          "title": "Marvel Comics",
          "issue": "1",
@@ -1785,7 +1785,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/c/item.zx?saleNo=819&lotNo=2403"
          }],
-         "uid": "0136"
+         "id": "0136"
       }, {
          "title": "Marvel Comics",
          "issue": "1",
@@ -1805,7 +1805,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/c/item.zx?saleNo=806&lotNo=3194"
          }],
-         "uid": "0137"
+         "id": "0137"
       }, {
          "title": "Marvel Comics",
          "issue": "1",
@@ -1839,7 +1839,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/c/item.zx?saleNo=7013&lotNo=91217"
          }],
-         "uid": "0139"
+         "id": "0139"
       }, {
          "title": "Marvel Comics",
          "issue": "1",
@@ -1855,7 +1855,7 @@
             }
 
          ],
-         "uid": "0140"
+         "id": "0140"
       }, {
          "title": "Marvel Mystery Comics",
          "issue": "9",
@@ -1868,7 +1868,7 @@
             "link": "http://comics.ha.com/common/view_item.php?Sale_No=7007&Lot_No=91044&src=pr",
             "venue": "Heritage"
          }],
-         "uid": "0141"
+         "id": "0141"
       }, {
          "title": "More Fun",
          "issue": "52",
@@ -1877,7 +1877,7 @@
          "sales": [
 
          ],
-         "uid": "0142"
+         "id": "0142"
       }, {
          "title": "More Fun",
          "issue": "52",
@@ -1890,7 +1890,7 @@
             "salesDate": "2001-01-01",
             "price": "207000"
          }],
-         "uid": "0143"
+         "id": "0143"
       }, {
          "title": "More Fun",
          "issue": "52",
@@ -1914,7 +1914,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/c/item.zx?saleNo=7017&lotNo=92022"
          }],
-         "uid": "0144"
+         "id": "0144"
       }, {
          "title": "More Fun",
          "issue": "52",
@@ -1927,7 +1927,7 @@
             "venue": "Comiclink",
             "link": "http://www.comiclink.com/itemdetail.asp?back=/search_adv.asp?all=y&TITLE=&TITLEOPT=ALL&ISSUE=&Condition=&Pedigree=&PRICEF=500&PRICET=&DESCRIPTION=&DESCRIPTIONOPT=ALL&SearchRemarks=&SearchCGC=&EXCLUDE=&CATEGORIES=-1&WCATEGORIES=-1&SORT=NEW&_where_forsale=y&x=33&y=11&where_forsale=y&id=609125"
          }],
-         "uid": "0145"
+         "id": "0145"
       }, {
          "title": "More Fun",
          "issue": "53",
@@ -1936,7 +1936,7 @@
          "sales": [
 
          ],
-         "uid": "0146"
+         "id": "0146"
       }, {
          "title": "More Fun",
          "issue": "53",
@@ -1950,7 +1950,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/c/item.zx?saleNo=818&lotNo=2163"
          }],
-         "uid": "0147"
+         "id": "0147"
       }, {
          "title": "More Fun",
          "issue": "53",
@@ -1969,7 +1969,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/c/item.zx?saleNo=7017&lotNo=92023"
          }],
-         "uid": "0148"
+         "id": "0148"
       }, {
          "title": "More Fun",
          "issue": "53",
@@ -1983,7 +1983,7 @@
             "sellersNotes": "os26",
             "price": "66000"
          }],
-         "uid": "0149"
+         "id": "0149"
       }, {
          "title": "Pep Comics",
          "issue": "22",
@@ -1997,7 +1997,7 @@
             "sellersNotes": "os28",
             "price": "47000"
          }],
-         "uid": "0150"
+         "id": "0150"
       }, {
          "title": "Sensation",
          "issue": "1",
@@ -2013,7 +2013,7 @@
             "salesDate": "1995-01-01",
             "price": "60000"
          }],
-         "uid": "0151"
+         "id": "0151"
       }, {
          "title": "Sensation",
          "issue": "1",
@@ -2029,7 +2029,7 @@
             "price": "63250",
             "venue": "Heritage"
          }],
-         "uid": "0152"
+         "id": "0152"
       }, {
          "title": "Showcase",
          "issue": "4",
@@ -2043,7 +2043,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/common/view_item.php?Sale_No=7007&Lot_No=91261&src=pr"
          }],
-         "uid": "0153"
+         "id": "0153"
       }, {
          "title": "Showcase",
          "issue": "4",
@@ -2056,7 +2056,7 @@
             "link": "",
             "venue": "ComicConnect"
          }],
-         "uid": "0154"
+         "id": "0154"
       }, {
          "title": "Showcase",
          "issue": "4",
@@ -2069,7 +2069,7 @@
             "venue": "Esquire Comics/Comic Connect",
             "link": "https://www.comicconnect.com/bookDetail.php?id=291295"
          }],
-         "uid": "0155"
+         "id": "0155"
       }, {
          "title": "Superman",
          "issue": "1",
@@ -2078,7 +2078,7 @@
          "sales": [
 
          ],
-         "uid": "0156"
+         "id": "0156"
       }, {
          "title": "Superman",
          "issue": "1",
@@ -2092,7 +2092,7 @@
             "salesDate": "1996-01-01",
             "price": "170000"
          }],
-         "uid": "0157"
+         "id": "0157"
       }, {
          "title": "Superman",
          "issue": "1",
@@ -2104,7 +2104,7 @@
             "salesDate": "1900-01-01",
             "price": "250000"
          }],
-         "uid": "0158"
+         "id": "0158"
       }, {
          "title": "Superman",
          "issue": "1",
@@ -2117,7 +2117,7 @@
             "salesDate": "1900-01-01",
             "price": "125000"
          }],
-         "uid": "0159"
+         "id": "0159"
       }, {
          "title": "Superman",
          "issue": "1",
@@ -2134,7 +2134,7 @@
             "salesDate": "2010-01-01",
             "price": "135000"
          }],
-         "uid": "0160"
+         "id": "0160"
       }, {
          "title": "Walt Disney's Comics and Stories",
          "issue": "1",
@@ -2146,7 +2146,7 @@
             "price": "116512",
             "venue": "Heritage"
          }],
-         "uid": "0161"
+         "id": "0161"
       }, {
          "title": "Whiz",
          "issue": "2",
@@ -2161,7 +2161,7 @@
             "salesDate": "1995-01-01",
             "price": "176000"
          }],
-         "uid": "0162"
+         "id": "0162"
       }, {
          "title": "X-Men",
          "issue": "1",
@@ -2172,7 +2172,7 @@
          "sales": [
 
          ],
-         "uid": "0163"
+         "id": "0163"
       }, {
          "title": "X-Men",
          "issue": "1",
@@ -2189,7 +2189,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/c/item.zx?saleNo=7063&lotNo=91418"
          }],
-         "uid": "0164"
+         "id": "0164"
       }, {
          "title": "X-Men",
          "issue": "1",
@@ -2202,7 +2202,7 @@
             "price": "100000",
             "venue": "pedigreecomics"
          }],
-         "uid": "0165"
+         "id": "0165"
       }, {
          "title": "X-Men",
          "issue": "1",
@@ -2223,7 +2223,7 @@
             "venue": "Comiclink",
             "link": "http://www.comiclink.com/itemdetail.asp?id=1102274&showprice=1&next=%2FComicTrack%2FAdmin%2FCL%2Fmatches%2Easp%3FTITLE%3Dx-men%26ISSUENUMBER%3D1%26Artist1%3D%26Artist2%3D%26PRICEFROM%3D%26ORDERNUMBER%3D%26DATEFROM%3D%26DATETO%3D%26SELLER%3D%26SELLERID%3D%26BUYER%3D%26BUYERID%3D%26BUYERSTATE%3D--%26PEDIGREE%3D%26CGCCOMMENT%3D%26SELLERCOMMENT%3D%26TYPE%3D0%26FILTER%3D%26Payment%3D%26Verified%3D%26Shipped%3D%26SPBP%3D%26SPBP2%3D%26SearchConditionFrom%3D09%2E6%26SearchConditionTo%3D09%2E6"
          }],
-         "uid": "0166"
+         "id": "0166"
       }, {
          "title": "X-Men",
          "issue": "1",
@@ -2236,7 +2236,7 @@
             "price": "116150",
             "venue": "unknown"
          }],
-         "uid": "0167"
+         "id": "0167"
       }, {
          "title": "X-Men",
          "issue": "1",
@@ -2248,7 +2248,7 @@
             "price": "101002",
             "venue": "Comiclink"
          }],
-         "uid": "0168"
+         "id": "0168"
       }, {
          "title": "X-Men",
          "issue": "1",
@@ -2260,7 +2260,7 @@
             "price": "105521",
             "venue": "Comiclink"
          }],
-         "uid": "0169"
+         "id": "0169"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -2270,7 +2270,7 @@
          "sales": [
 
          ],
-         "uid": "0170"
+         "id": "0170"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -2280,7 +2280,7 @@
          "sales": [
 
          ],
-         "uid": "0171"
+         "id": "0171"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -2293,7 +2293,7 @@
             "price": "107300",
             "venue": "unknown"
          }],
-         "uid": "0172"
+         "id": "0172"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -2305,7 +2305,7 @@
             "price": "110000",
             "venue": "unknown"
          }],
-         "uid": "0173"
+         "id": "0173"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -2320,7 +2320,7 @@
             }
 
          ],
-         "uid": "0174"
+         "id": "0174"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -2332,7 +2332,7 @@
             "price": "105000",
             "venue": "unknown"
          }],
-         "uid": "0175"
+         "id": "0175"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -2346,7 +2346,7 @@
                   "link": "https://www.comicconnect.com/bookDetail.php?id=307661"
          }
          ],
-         "uid": "0176"
+         "id": "0176"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -2361,7 +2361,7 @@
             }
 
          ],
-         "uid": "0177"
+         "id": "0177"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -2377,7 +2377,7 @@
 
 
          ],
-         "uid": "0178"
+         "id": "0178"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -2387,7 +2387,7 @@
          "sales": [
 
          ],
-         "uid": "0179"
+         "id": "0179"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -2402,7 +2402,7 @@
          }
 
          ],
-         "uid": "0180"
+         "id": "0180"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -2417,7 +2417,7 @@
          }
 
          ],
-         "uid": "0181"
+         "id": "0181"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -2432,7 +2432,7 @@
          }
 
          ],
-         "uid": "0182"
+         "id": "0182"
       }, {
          "title": "Amazing Spider-Man",
          "issue": "1",
@@ -2442,7 +2442,7 @@
          "sales": [
 
          ],
-         "uid": "0183"
+         "id": "0183"
       }, {
          "title": "Amazing Spider-Man",
          "issue": "1",
@@ -2455,7 +2455,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/itm/silver-age-1956-1969-/the-amazing-spider-man-1-marvel-1963-cgc-nm-94-off-white-pages/a/7124-91115.s"
          }],
-         "uid": "0184"
+         "id": "0184"
       }, {
          "title": "Amazing Spider-Man",
          "issue": "1",
@@ -2465,7 +2465,7 @@
          "sales": [
 
          ],
-         "uid": "0185"
+         "id": "0185"
       }, {
          "title": "Amazing Spider-Man",
          "issue": "1",
@@ -2475,7 +2475,7 @@
          "sales": [
 
          ],
-         "uid": "0186"
+         "id": "0186"
       }, {
          "title": "Amazing Spider-Man",
          "issue": "1",
@@ -2485,7 +2485,7 @@
          "sales": [
 
          ],
-         "uid": "0187"
+         "id": "0187"
       }, {
          "title": "Amazing Spider-Man",
          "issue": "1",
@@ -2504,7 +2504,7 @@
          }
 
          ],
-         "uid": "0188"
+         "id": "0188"
       }, {
          "title": "Amazing Spider-Man",
          "issue": "1",
@@ -2514,7 +2514,7 @@
          "sales": [
 
          ],
-         "uid": "0189"
+         "id": "0189"
       }, {
          "title": "Amazing Spider-Man",
          "issue": "1",
@@ -2528,7 +2528,7 @@
             }
 
          ],
-         "uid": "0190"
+         "id": "0190"
       }, {
          "title": "Amazing Spider-Man",
          "issue": "1",
@@ -2542,7 +2542,7 @@
             }
 
          ],
-         "uid": "0191"
+         "id": "0191"
       }, {
          "title": "Avengers",
          "issue": "4",
@@ -2561,7 +2561,7 @@
             }
 
          ],
-         "uid": "0192"
+         "id": "0192"
       }, {
          "title": "Avengers",
          "issue": "4",
@@ -2573,7 +2573,7 @@
             "price": "115000",
             "venue": "unknown"
          }],
-         "uid": "0193"
+         "id": "0193"
       }, {
          "title": "Avengers",
          "issue": "4",
@@ -2588,7 +2588,7 @@
          }
 
          ],
-         "uid": "0194"
+         "id": "0194"
       }, {
          "title": "Batman",
          "issue": "1",
@@ -2598,7 +2598,7 @@
          "sales": [
 
          ],
-         "uid": "0188"
+         "id": "0188"
       }, {
          "title": "Batman",
          "issue": "1",
@@ -2608,7 +2608,7 @@
          "sales": [
 
          ],
-         "uid": "0189"
+         "id": "0189"
       }, {
          "title": "Captain America Comics",
          "issue": "1",
@@ -2618,7 +2618,7 @@
          "sales": [
 
          ],
-         "uid": "0190"
+         "id": "0190"
       }, {
          "title": "Daredevil",
          "issue": "1",
@@ -2628,7 +2628,7 @@
          "sales": [
 
          ],
-         "uid": "0191"
+         "id": "0191"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -2641,7 +2641,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/c/prlink.zx?saleNo=7027&lotNo=91063"
          }],
-         "uid": "0192"
+         "id": "0192"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -2651,7 +2651,7 @@
          "sales": [
 
          ],
-         "uid": "0193"
+         "id": "0193"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -2666,7 +2666,7 @@
          }
 
          ],
-         "uid": "0194"
+         "id": "0194"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -2676,7 +2676,7 @@
          "sales": [
 
          ],
-         "uid": "0195"
+         "id": "0195"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -2690,7 +2690,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/c/prlink.zx?saleNo=7054&lotNo=91070"
          }],
-         "uid": "0196"
+         "id": "0196"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -2703,7 +2703,7 @@
             "venue": "ComicConnect",
             "link": "http://www.comicconnect.com/bookDetail.php?id=419786"
          }],
-         "uid": "0197"
+         "id": "0197"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -2713,7 +2713,7 @@
          "sales": [
 
          ],
-         "uid": "0198"
+         "id": "0198"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -2725,7 +2725,7 @@
             "price": "475000",
             "venue": "ComicConnect"
          }],
-         "uid": "0199"
+         "id": "0199"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -2735,7 +2735,7 @@
          "sales": [
 
          ],
-         "uid": "0200"
+         "id": "0200"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -2748,7 +2748,7 @@
             "salesDate": "2012-02-22",
             "venue": "Heritage"
          }],
-         "uid": "0201"
+         "id": "0201"
       }, {
          "title": "Fantastic Four",
          "issue": "1",
@@ -2758,7 +2758,7 @@
          "sales": [
 
          ],
-         "uid": "0202"
+         "id": "0202"
       }, {
          "title": "Fantastic Four",
          "issue": "1",
@@ -2768,7 +2768,7 @@
          "sales": [
 
          ],
-         "uid": "0203"
+         "id": "0203"
       }, {
          "title": "Fantastic Four",
          "issue": "1",
@@ -2783,7 +2783,7 @@
          }
 
          ],
-         "uid": "0204"
+         "id": "0204"
       }, {
          "title": "Fantastic Four",
          "issue": "1",
@@ -2796,7 +2796,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/itm/silver-age-1956-1969-/fantastic-four-1-marvel-1961-cgc-vf-nm-90-off-white-to-white-pages/a/7152-91240.s"
          }],
-         "uid": "0205"
+         "id": "0205"
       }, {
          "title": "Fantastic Four",
          "issue": "1",
@@ -2811,7 +2811,7 @@
             }
 
          ],
-         "uid": "0206"
+         "id": "0206"
       }, {
          "title": "Incredible Hulk",
          "issue": "1",
@@ -2823,7 +2823,7 @@
             "salesDate": "2002-08-01",
             "price": "51900"
          }],
-         "uid": "0207"
+         "id": "0207"
       }, {
          "title": "Incredible Hulk",
          "issue": "1",
@@ -2835,7 +2835,7 @@
             "price": "100000",
             "venue": "unknown"
          }],
-         "uid": "0208"
+         "id": "0208"
       }, {
          "title": "Incredible Hulk",
          "issue": "1",
@@ -2847,7 +2847,7 @@
             "price": "120000",
             "venue": "Comiclink"
          }],
-         "uid": "0209"
+         "id": "0209"
       }, {
          "title": "Incredible Hulk",
          "issue": "1",
@@ -2859,7 +2859,7 @@
             "price": "180000",
             "venue": "High Grade Comics"
          }],
-         "uid": "0210"
+         "id": "0210"
       }, {
          "title": "Incredible Hulk",
          "issue": "1",
@@ -2874,7 +2874,7 @@
             }
 
          ],
-         "uid": "0211"
+         "id": "0211"
       }, {
          "title": "Incredible Hulk",
          "issue": "1",
@@ -2888,7 +2888,7 @@
                "link": "http://www.comiclink.com/itemdetail.asp?id=1134017&showprice=1&next=%2FComicTrack%2FAdmin%2FCL%2Fmatches%2Easp%3FTITLE%3DHULK%26ISSUENUMBER%3D1%26Artist1%3D%26Artist2%3D%26PRICEFROM%3D%26ORDERNUMBER%3D%26DATEFROM%3D%26DATETO%3D%26SELLER%3D%26SELLERID%3D%26BUYER%3D%26BUYERID%3D%26BUYERSTATE%3D--%26PEDIGREE%3D%26CGCCOMMENT%3D%26SELLERCOMMENT%3D%26TYPE%3D0%26FILTER%3D%26Payment%3D%26Verified%3D%26Shipped%3D%26SPBP%3D%26SPBP2%3D%26SearchConditionFrom%3D09%2E0%26SearchConditionTo%3D09%2E0"
             }
          ],
-         "uid": "0212"
+         "id": "0212"
       },{
             "title": "Incredible Hulk",
             "issue": "1",
@@ -2901,7 +2901,7 @@
                "venue": "ComicConnect"
             }
             ],
-            "uid": "0213"
+            "id": "0213"
          }, {
          "title": "Incredible Hulk",
          "issue": "1",
@@ -2916,7 +2916,7 @@
                   }
 
          ],
-         "uid": "0214"
+         "id": "0214"
       }, {
          "title": "Incredible Hulk",
          "issue": "1",
@@ -2926,7 +2926,7 @@
          "sales": [
 
          ],
-         "uid": "0215"
+         "id": "0215"
       }, {
          "title": "Incredible Hulk",
          "issue": "1",
@@ -2936,7 +2936,7 @@
          "sales": [
 
          ],
-         "uid": "0216"
+         "id": "0216"
       }, {
          "title": "Journey into Mystery",
          "issue": "83",
@@ -2948,7 +2948,7 @@
             "price": "171000",
             "venue": "unknown"
          }],
-         "uid": "0217"
+         "id": "0217"
       }, {
          "title": "Journey into Mystery",
          "issue": "83",
@@ -2960,7 +2960,7 @@
             "price": "222200",
             "venue": "unknown"
          }],
-         "uid": "0218"
+         "id": "0218"
       }, {
          "title": "Journey into Mystery",
          "issue": "83",
@@ -2975,7 +2975,7 @@
             }
 
          ],
-         "uid": "0219"
+         "id": "0219"
       }, {
          "title": "Journey into Mystery",
          "issue": "83",
@@ -2987,7 +2987,7 @@
             "price": "83850",
             "venue": "unknown"
          }],
-         "uid": "0220"
+         "id": "0220"
       }, {
          "title": "Journey into Mystery",
          "issue": "83",
@@ -2999,7 +2999,7 @@
             "price": "100000",
             "venue": "unknown"
          }],
-         "uid": "0221"
+         "id": "0221"
       }, {
          "title": "Journey into Mystery",
          "issue": "83",
@@ -3009,7 +3009,7 @@
          "sales": [
 
          ],
-         "uid": "0222"
+         "id": "0222"
       }, {
          "title": "Journey into Mystery",
          "issue": "83",
@@ -3019,7 +3019,7 @@
          "sales": [
 
          ],
-         "uid": "0223"
+         "id": "0223"
       }, {
          "title": "Journey into Mystery",
          "issue": "83",
@@ -3029,7 +3029,7 @@
          "sales": [
 
          ],
-         "uid": "0224"
+         "id": "0224"
       }, {
          "title": "Journey into Mystery",
          "issue": "83",
@@ -3039,7 +3039,7 @@
          "sales": [
 
          ],
-         "uid": "0225"
+         "id": "0225"
       }, {
          "title": "Journey into Mystery",
          "issue": "83",
@@ -3049,7 +3049,7 @@
          "sales": [
 
          ],
-         "uid": "0226"
+         "id": "0226"
       }, {
          "title": "Marvel Comics",
          "issue": "1",
@@ -3062,7 +3062,7 @@
             "price": "113525",
             "venue": "Heritage"
          }],
-         "uid": "0227"
+         "id": "0227"
       }, {
          "title": "Marvel Comics",
          "issue": "1",
@@ -3074,7 +3074,7 @@
             "price": "112007",
             "venue": "unknown"
          }],
-         "uid": "0228"
+         "id": "0228"
       }, {
          "title": "Pep Comics",
          "issue": "22",
@@ -3092,7 +3092,7 @@
             "venue": "ComicConnect"
 
          }],
-         "uid": "0229"
+         "id": "0229"
       }, {
          "title": "Showcase",
          "issue": "22",
@@ -3107,7 +3107,7 @@
          }
 
          ],
-         "uid": "0230"
+         "id": "0230"
       }, {
          "title": "Superman",
          "issue": "1",
@@ -3120,7 +3120,7 @@
             "venue": "ComicConnect",
             "link":"https://www.comicconnect.com/bookDetail.php?id=433858"
          }],
-         "uid": "0231"
+         "id": "0231"
       }, {
          "title": "Superman",
          "issue": "1",
@@ -3130,7 +3130,7 @@
          "sales": [{
             "salesDate": "2005-04-16"
          }],
-         "uid": "0232"
+         "id": "0232"
       }, {
          "title": "Superman",
          "issue": "1",
@@ -3140,7 +3140,7 @@
          "sales": [
 
          ],
-         "uid": "0233"
+         "id": "0233"
       }, {
          "title": "Superman",
          "issue": "1",
@@ -3150,7 +3150,7 @@
          "sales": [
 
          ],
-         "uid": "0234"
+         "id": "0234"
       }, {
          "title": "Superman",
          "issue": "1",
@@ -3160,7 +3160,7 @@
          "sales": [
 
          ],
-         "uid": "0235"
+         "id": "0235"
       }, {
          "title": "Superman",
          "issue": "1",
@@ -3174,7 +3174,7 @@
                "venue": "Heritage"
             }
          ],
-         "uid": "0236"
+         "id": "0236"
       }, {
          "title": "Superman",
          "issue": "1",
@@ -3186,12 +3186,12 @@
             "price": "145000",
             "venue": "unknown"
          }],
-         "uid": "0237"
+         "id": "0237"
       }, {
          "sales": [
 
          ],
-         "uid": "0238"
+         "id": "0238"
       }, {
          "title": "Whiz",
          "issue": "2",
@@ -3203,7 +3203,7 @@
             "price": "281001",
             "venue": "unknown"
          }],
-         "uid": "0239"
+         "id": "0239"
       }, {
          "title": "Whiz",
          "issue": "2",
@@ -3216,7 +3216,7 @@
             "venue": "ComicConnect",
             "link": "https://www.comicconnect.com/bookDetail.php?id=413818"
          }],
-         "uid": "0240"
+         "id": "0240"
       }, {
          "title": "Whiz",
          "issue": "2",
@@ -3226,7 +3226,7 @@
          "sales": [
 
          ],
-         "uid": "0241"
+         "id": "0241"
       }, {
          "title": "X-Men",
          "issue": "1",
@@ -3238,7 +3238,7 @@
             "price": "83650",
             "venue": "unknown"
          }],
-         "uid": "0242"
+         "id": "0242"
       }, {
          "title": "X-Men",
          "issue": "1",
@@ -3250,7 +3250,7 @@
             "price": "89625",
             "venue": "unknown"
          }],
-         "uid": "0243"
+         "id": "0243"
       }, {
          "title": "X-Men",
          "issue": "1",
@@ -3266,7 +3266,7 @@
             "price": "137500",
             "venue": "unknown"
          }],
-         "uid": "0244"
+         "id": "0244"
       }, {
          "title": "X-Men",
          "issue": "1",
@@ -3278,7 +3278,7 @@
             "price": "105521",
             "venue": "unknown"
          }],
-         "uid": "0245"
+         "id": "0245"
       }, {
          "title": "X-Men",
          "issue": "1",
@@ -3290,7 +3290,7 @@
             "price": "100000",
             "venue": "unknown"
          }],
-         "uid": "0246"
+         "id": "0246"
       }, {
          "title": "X-Men",
          "issue": "1",
@@ -3302,7 +3302,7 @@
             "price": "106050",
             "venue": "unknown"
          }],
-         "uid": "0247"
+         "id": "0247"
       }, {
          "title": "X-Men",
          "issue": "1",
@@ -3312,7 +3312,7 @@
          "sales": [
 
          ],
-         "uid": "0248"
+         "id": "0248"
       }, {
          "title": "X-Men",
          "issue": "1",
@@ -3322,7 +3322,7 @@
          "sales": [
 
          ],
-         "uid": "0249"
+         "id": "0249"
       }, {
          "title": "X-Men",
          "issue": "1",
@@ -3332,7 +3332,7 @@
          "sales": [
 
          ],
-         "uid": "0250"
+         "id": "0250"
       }, {
          "title": "Tales of Suspense",
          "issue": "39",
@@ -3345,7 +3345,7 @@
             "price": "262900",
             "venue": "Heritage"
          }],
-         "uid": "0251"
+         "id": "0251"
       }, {
          "title": "Tales of Suspense",
          "issue": "39",
@@ -3356,7 +3356,7 @@
             "salesDate": "2013-08-01",
             "price": "83650"
          }],
-         "uid": "0252"
+         "id": "0252"
       }, {
          "title": "Tales of Suspense",
          "issue": "39",
@@ -3372,7 +3372,7 @@
             "price": "114990",
             "venue": "pedigreecomics"
          }],
-         "uid": "0253"
+         "id": "0253"
       }, {
          "title": "Tales of Suspense",
          "issue": "39",
@@ -3382,7 +3382,7 @@
          "sales": [
 
          ],
-         "uid": "0254"
+         "id": "0254"
       }, {
          "title": "Tales of Suspense",
          "issue": "39",
@@ -3398,7 +3398,7 @@
 
 
          ],
-         "uid": "0255"
+         "id": "0255"
       }, {
          "title": "Tales of Suspense",
          "issue": "39",
@@ -3409,7 +3409,7 @@
          "sales": [
 
          ],
-         "uid": "0256"
+         "id": "0256"
       }, {
          "title": "Tales of Suspense",
          "issue": "39",
@@ -3426,7 +3426,7 @@
 
 
          ],
-         "uid": "0257"
+         "id": "0257"
       }, {
          "title": "Brave and the Bold",
          "issue": "28",
@@ -3437,7 +3437,7 @@
          "sales": [
 
          ],
-         "uid": "0258"
+         "id": "0258"
       }, {
          "title": "Brave and the Bold",
          "issue": "28",
@@ -3447,7 +3447,7 @@
          "sales": [
 
          ],
-         "uid": "0259"
+         "id": "0259"
       }, {
          "title": "Tales of Suspense",
          "issue": "39",
@@ -3460,7 +3460,7 @@
             "salesDate": "2012-04-01",
             "link": "http://www.comiclink.com/image/ironman.pdf"
          }],
-         "uid": "0260"
+         "id": "0260"
       }, {
          "tags": "avengers,marvel,cgc",
          "title": "Avengers",
@@ -3473,7 +3473,7 @@
             "link": "http://www.comiclink.com/itemdetail.asp?back=%2Fitems%2Easp%3Fid%3D4006%26FROM%3D%26TO%3D&id=980046",
             "venue": "ComicLink"
          }],
-         "uid": "0261"
+         "id": "0261"
       }, {
          "title": "All Star Comics",
          "issue": "8",
@@ -3483,7 +3483,7 @@
          "sales": [
 
          ],
-         "uid": "0262"
+         "id": "0262"
       }, {
          "title": "All Select Comics",
          "issue": "1",
@@ -3492,7 +3492,7 @@
          "sales": [
 
          ],
-         "uid": "0263"
+         "id": "0263"
       }, {
          "title": "Marvel Comics",
          "issue": "1",
@@ -3501,7 +3501,7 @@
          "sales": [
 
          ],
-         "uid": "0264"
+         "id": "0264"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3517,7 +3517,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/c/item.zx?saleNo=7027&lotNo=91001"
          }],
-         "uid": "0265"
+         "id": "0265"
       }, {
          "title": "Marvel Comics",
          "issue": "1",
@@ -3527,7 +3527,7 @@
          "sales": [
 
          ],
-         "uid": "0266"
+         "id": "0266"
       }, {
          "title": "Sub Mariner Comics",
          "issue": "1",
@@ -3538,7 +3538,7 @@
          "sales": [
 
          ],
-         "uid": "0267"
+         "id": "0267"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3547,7 +3547,7 @@
          "grade": "5.0",
          "tags": "action,superman,dc",
          "sales": [],
-         "uid": "0268"
+         "id": "0268"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3571,7 +3571,7 @@
             "venue": "comicconnect",
             "link":"https://www.comicconnect.com/bookDetail.php?id=748655"
          }],
-         "uid": "0268"
+         "id": "0268"
       }, {
          "title": "Superman",
          "issue": "1",
@@ -3581,7 +3581,7 @@
          "sales": [
 
          ],
-         "uid": "0269"
+         "id": "0269"
       }, {
          "title": "Superman",
          "issue": "1",
@@ -3591,7 +3591,7 @@
          "sales": [
 
          ],
-         "uid": "0270"
+         "id": "0270"
       }, {
          "title": "Superman",
          "issue": "1",
@@ -3601,7 +3601,7 @@
          "sales": [
 
          ],
-         "uid": "0271"
+         "id": "0271"
       }, {
          "title": "Superman",
          "issue": "1",
@@ -3611,7 +3611,7 @@
          "sales": [
 
          ],
-         "uid": "0272"
+         "id": "0272"
       }, {
          "title": "Superman",
          "issue": "1",
@@ -3621,7 +3621,7 @@
          "sales": [
 
          ],
-         "uid": "0273"
+         "id": "0273"
       }, {
          "title": "Superman",
          "issue": "1",
@@ -3631,7 +3631,7 @@
          "sales": [
 
          ],
-         "uid": "0274"
+         "id": "0274"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -3649,7 +3649,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/c/item.zx?saleNo=7066&lotNo=91067"
          }],
-         "uid": "0274"
+         "id": "0274"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -3659,7 +3659,7 @@
          "sales": [
 
          ],
-         "uid": "0275"
+         "id": "0275"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -3669,7 +3669,7 @@
          "sales": [
 
          ],
-         "uid": "0276"
+         "id": "0276"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -3679,7 +3679,7 @@
          "sales": [
 
          ],
-         "uid": "0277"
+         "id": "0277"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -3694,7 +3694,7 @@
          }
 
          ],
-         "uid": "0278"
+         "id": "0278"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -3704,7 +3704,7 @@
          "sales": [
 
          ],
-         "uid": "0279"
+         "id": "0279"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -3719,7 +3719,7 @@
             }
 
          ],
-         "uid": "0280"
+         "id": "0280"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3734,7 +3734,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/c/item.zx?saleNo=7036&lotNo=91227"
          }],
-         "uid": "0281"
+         "id": "0281"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3743,7 +3743,7 @@
          "grade": "9.0 (MP)",
          "tags": "cgc,restored,superman,action",
          "sales": [],
-         "uid": "0282"
+         "id": "0282"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3752,7 +3752,7 @@
          "grade": "8.5 (MP)",
          "tags": "cgc,restored,superman,action",
          "sales": [],
-         "uid": "0283"
+         "id": "0283"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3761,7 +3761,7 @@
          "grade": "8.5 (MP)",
          "tags": "cgc,restored,superman,action",
          "sales": [],
-         "uid": "0283"
+         "id": "0283"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3770,7 +3770,7 @@
          "grade": "8.5 (MP)",
          "tags": "cgc,restored,superman,action",
          "sales": [],
-         "uid": "0284"
+         "id": "0284"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3779,7 +3779,7 @@
          "grade": "7.5 (MP)",
          "tags": "cgc,restored,superman,action",
          "sales": [],
-         "uid": "0285"
+         "id": "0285"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3788,7 +3788,7 @@
          "grade": "7.5 (MP)",
          "tags": "cgc,restored,superman,action",
          "sales": [],
-         "uid": "0285"
+         "id": "0285"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3797,7 +3797,7 @@
          "grade": "7.5 (MP)",
          "tags": "cgc,restored,superman,action",
          "sales": [],
-         "uid": "0286"
+         "id": "0286"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3806,7 +3806,7 @@
          "grade": "7.5 (SP)",
          "tags": "cgc,restored,superman,action",
          "sales": [],
-         "uid": "0287"
+         "id": "0287"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3815,7 +3815,7 @@
          "grade": "7.0 (EP)",
          "tags": "cgc,restored,superman,action",
          "sales": [],
-         "uid": "0288"
+         "id": "0288"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3824,7 +3824,7 @@
          "grade": "7.0 (EP)",
          "tags": "cgc,restored,superman,action",
          "sales": [],
-         "uid": "0289"
+         "id": "0289"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3833,7 +3833,7 @@
          "grade": "7.0 (EP)",
          "tags": "cgc,restored,superman,action",
          "sales": [],
-         "uid": "0290"
+         "id": "0290"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3849,7 +3849,7 @@
             }
 
          ],
-         "uid": "0291"
+         "id": "0291"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3865,7 +3865,7 @@
             }
 
          ],
-         "uid": "0292"
+         "id": "0292"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3874,7 +3874,7 @@
          "grade": "6.5 (EP)",
          "tags": "cgc,restored,superman,action",
          "sales": [],
-         "uid": "0293"
+         "id": "0293"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3883,7 +3883,7 @@
          "grade": "6.5 (MP)",
          "tags": "cgc,restored,superman,action",
          "sales": [],
-         "uid": "0294"
+         "id": "0294"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3892,7 +3892,7 @@
          "grade": "6.5 (SP)",
          "tags": "cgc,restored,superman,action",
          "sales": [],
-         "uid": "0295"
+         "id": "0295"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3901,7 +3901,7 @@
          "grade": "5.5 (EP)",
          "tags": "cgc,restored,superman,action",
          "sales": [],
-         "uid": "0296"
+         "id": "0296"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3910,7 +3910,7 @@
          "grade": "5.0 (EP)",
          "tags": "cgc,restored,superman,action",
          "sales": [],
-         "uid": "0297"
+         "id": "0297"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3919,7 +3919,7 @@
          "grade": "4.5 (EP)",
          "tags": "cgc,restored,superman,action",
          "sales": [],
-         "uid": "0298"
+         "id": "0298"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3928,7 +3928,7 @@
          "grade": "2.0 (EA)",
          "tags": "cgc,restored,superman,action",
          "sales": [],
-         "uid": "0299"
+         "id": "0299"
       }, {
          "title": "Brave and the Bold",
          "issue": "28",
@@ -3941,7 +3941,7 @@
             "venue": "Comiclink",
             "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fsearch%2Easp%3FFocusedOnly%3D1%26where%3Dauctions%26title%3Dbrave%2Band%2Bthe%2Bbold%2B28%26x%3D0%26y%3D0%26ItemType%3DCB%23Item_996687&id=996687"
          }],
-         "uid": "0300"
+         "id": "0300"
       }, {
          "title": "Flash Comics",
          "issue": "1",
@@ -3954,7 +3954,7 @@
             "venue": "comicconnect",
             "link": "http://www.comicconnect.com/bookDetail.php?id=539338"
          }],
-         "uid": "0301"
+         "id": "0301"
       }, {
          "title": "Flash Comics",
          "issue": "1",
@@ -3967,7 +3967,7 @@
             "venue": "comicconnect",
             "link": "http://www.comicconnect.com/bookDetail.php?id=539338"
          }],
-         "uid": "0302"
+         "id": "0302"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3983,7 +3983,7 @@
             "venue": "eBay",
             "link": "http://rover.ebay.com/rover/1/711-53200-19255-0/1?icep_ff3=2&pub=5574761181&toolid=10001&campid=5336141966&customid=&icep_item=311050328393&ipn=psmain&icep_vectorid=229466&kwid=902099&mtid=824&kw=lg"
          }],
-         "uid": "0303"
+         "id": "0303"
       }, {
          "title": "Action Comics",
          "issue": "1",
@@ -3998,7 +3998,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/itm/golden-age-1938-1955-/action-comics-1-dc-1938-cgc-apparent-vf-80-moderate-extensive-a-4-cream-to-off-white-pages/a/7097-91255.s"
          }],
-         "uid": "0304"
+         "id": "0304"
       }, {
          "title": "Brave and the Bold",
          "issue": "28",
@@ -4011,7 +4011,7 @@
             "venue": "Comiclink",
             "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F_SORT%3DYES%26Focused%3D1%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2EMaxBid%26ODire3%3DASC%23Item_1024795&id=1024795"
          }],
-         "uid": "0305"
+         "id": "0305"
       }, {
          "title": "Brave and the Bold",
          "issue": "28",
@@ -4019,7 +4019,7 @@
          "grade": "9.2",
          "tags": "dc,jla,cgc",
          "sales": [],
-         "uid": "0306"
+         "id": "0306"
       }, {
          "title": "Fantastic Four",
          "issue": "1",
@@ -4029,7 +4029,7 @@
          "sales": [
 
          ],
-         "uid": "0307"
+         "id": "0307"
       }, {
          "title": "Journey into Mystery",
          "issue": "83",
@@ -4042,7 +4042,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/itm/silver-age-1956-1969-/journey-into-mystery-83-marvel-1962-cgc-nm-94-white-pages/a/7099-91484.s"
          }],
-         "uid": "0308"
+         "id": "0308"
       }, {
          "title": "Journey into Mystery",
          "issue": "83",
@@ -4055,7 +4055,7 @@
             "venue": "ComicLink",
             "link": "http://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fsearch%2Easp%3FPreviewCode%3D2016nov%26where%3Dauctions%26title%3DJOURNEY%2BINTO%2BMYSTERY%2B83%26GO%3DGO%26ItemType%3DCB%23Item_1150697&id=1150697#detail"
          }],
-         "uid": "0309"
+         "id": "0309"
       }, {
          "title": "Pep Comics",
          "issue": "22",
@@ -4068,7 +4068,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/itm/golden-age-1938-1955-/pep-comics-22-mlj-1941-cgc-fn-vf-70-off-white-to-white-pages/a/7099-91216.s"
          }],
-         "uid": "0310"
+         "id": "0310"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -4083,7 +4083,7 @@
             }
 
          ],
-         "uid": "0311"
+         "id": "0311"
       }, {
          "title": "Captain America Comics",
          "issue": "1",
@@ -4098,7 +4098,7 @@
             }
 
          ],
-         "uid": "0312"
+         "id": "0312"
       }, {
          "title": "Archie Comics",
          "issue": "1",
@@ -4110,7 +4110,7 @@
             "salesDate": "2014-08-01",
             "price": "122567"
          }],
-         "uid": "0313"
+         "id": "0313"
       }, {
          "title": "Action Comics",
          "publisher": "DC Comics",
@@ -4121,7 +4121,7 @@
          "generalCommentary": "",
          "tags": "cbcs,action,superman",
          "sales": [],
-         "uid": "0314"
+         "id": "0314"
       }, {
          "title": "Superman",
          "issue": "1",
@@ -4131,7 +4131,7 @@
          "sales": [
 
          ],
-         "uid": "0315"
+         "id": "0315"
       }, {
          "title": "Batman",
          "issue": "1",
@@ -4144,7 +4144,7 @@
             "price": "237000",
             "link": "http://scoop.diamondgalleries.com/Home/4/1/73/1014?articleID=160584"
          }],
-         "uid": "0316"
+         "id": "0316"
       }, {
          "title": "Suspense Comics",
          "issue": "3",
@@ -4160,7 +4160,7 @@
             }
 
          ],
-         "uid": "0317"
+         "id": "0317"
       }, {
          "title": "Journey into Mystery",
          "issue": "83",
@@ -4175,7 +4175,7 @@
             }
 
          ],
-         "uid": "0318"
+         "id": "0318"
       }, {
          "title": "Tales of Suspense",
          "issue": "39",
@@ -4185,7 +4185,7 @@
          "sales": [
 
          ],
-         "uid": "0319"
+         "id": "0319"
       }, {
          "title": "Action Comics",
          "issue": "2",
@@ -4198,7 +4198,7 @@
             "price": "92111",
             "link": "http://www.comicconnect.com/bookDetail.php?id=592806"
          }],
-         "uid": "0320"
+         "id": "0320"
       }, {
          "title": "Action Comics",
          "issue": "13",
@@ -4211,7 +4211,7 @@
             "price": "102001",
             "link": "http://www.comicconnect.com/bookDetail.php?id=592797"
          }],
-         "uid": "0321"
+         "id": "0321"
       }, {
          "title": "Avengers",
          "issue": "1",
@@ -4228,7 +4228,7 @@
             "price": "125000",
             "link": "http://www.comiclink.com/itemdetail.asp?back=%2Fitems.asp%3Fid%3D4006%26FROM%3D%26TO%3D&id=1056990"
          }],
-         "uid": "0322"
+         "id": "0322"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -4239,7 +4239,7 @@
          "sales": [
 
          ],
-         "uid": "0323"
+         "id": "0323"
       }, {
          "title": "Detective Comics",
          "issue": "27",
@@ -4252,7 +4252,7 @@
             "price": "305000",
             "link": "http://www.comicconnect.com/bookDetail.php?referral=EAlist&id=611297&title=DETECTIVECOMICS"
          }],
-         "uid": "0324"
+         "id": "0324"
       }, {
          "title": "Batman",
          "issue": "1",
@@ -4265,7 +4265,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91013"
          }],
-         "uid": "0325"
+         "id": "0325"
       }, {
          "title": "All American Comics",
          "issue": "16",
@@ -4278,7 +4278,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/itm/golden-age-1938-1955-/all-american-comics-16-dc-1940-cgc-fn-65-cream-to-off-white-pages/a/7147-91029.s?ic4=ListView-ShortDescription-071515"
          }],
-         "uid": "0326"
+         "id": "0326"
       }, {
          "title": "Tales to Astonish",
          "issue": "27",
@@ -4290,7 +4290,7 @@
             "price": "200000",
             "venue": "unknown"
          }],
-         "uid": "0327"
+         "id": "0327"
       }, {
          "title": "Tales to Astonish",
          "issue": "27",
@@ -4304,7 +4304,7 @@
             "link": "http://comics.ha.com/itm/golden-age-1938-1955-/all-american-comics-16-dc-1940-cgc-fn-65-cream-to-off-white-pages/a/7147-91029.s?ic4=ListView-ShortDescription-071515"
 
          }],
-         "uid": "0328"
+         "id": "0328"
       }, {
          "title": "Tales of Suspense",
          "issue": "39",
@@ -4317,7 +4317,7 @@
             "price": "89625",
             "link": "http://comics.ha.com/itm/silver-age-1956-1969-/tales-of-suspense-39-marvel-1963-cgc-nm-94-off-white-to-white-pages/a/7152-91319.s?ic4=ListView-ShortDescription-071515"
          }],
-         "uid": "0329"
+         "id": "0329"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -4331,7 +4331,7 @@
             "venue": "ComicConnect",
             "link": "http://www.comicconnect.com/bookDetail.php?id=651409"
          }],
-         "uid": "0330"
+         "id": "0330"
       }, {
          "title": "Marvel Comics",
          "issue": "1",
@@ -4340,7 +4340,7 @@
          "grade": "7.5",
          "tags": "marvel,timely,cbcs",
          "sales": [],
-         "uid": "0331"
+         "id": "0331"
       }, {
          "title": "X-Men",
          "issue": "1",
@@ -4356,7 +4356,7 @@
             "price": "250000",
             "venue": "unknown"
          }],
-         "uid": "0332"
+         "id": "0332"
       }, {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -4369,7 +4369,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/itm/silver-age-1956-1969-/amazing-fantasy-15-marvel-1962-cgc-nm-94-off-white-pages/a/7124-91113.s"
          }],
-         "uid": "0333"
+         "id": "0333"
       }, {
          "title": "Detective Comics",
          "grade": "4.5",
@@ -4385,7 +4385,7 @@
             }
 
          ],
-         "uid": "0037"
+         "id": "0037"
       }, {
          "tags": "avengers,marvel,cgc",
          "title": "Avengers",
@@ -4398,7 +4398,7 @@
             "venue": "Heritage",
             "link": "http://comics.ha.com/itm/silver-age-1956-1969-/the-amazing-spider-man-1-marvel-1963-cgc-nm-94-off-white-pages/a/7124-91115.s"
          }],
-         "uid": "0038"
+         "id": "0038"
       }, {
          "title": "Superman",
          "issue": "1",
@@ -4410,7 +4410,7 @@
             "price": "295000",
             "venue": "Heritage"
          }],
-         "uid": "0039"
+         "id": "0039"
       },
       {
          "title": "Batman",
@@ -4424,7 +4424,7 @@
             "venue": "Heritage",
             "link": "https://comics.ha.com/itm/golden-age-1938-1955-/batman-1-dc-1940-cgc-fn-55-off-white-pages/a/7141-91053.s?ic4=ListView-ShortDescription-071515"
          }],
-         "uid": "0334"
+         "id": "0334"
       }, 
       {
          "title": "Flash Comics",
@@ -4438,7 +4438,7 @@
             "venue": "Heritage",
             "link": "https://comics.ha.com/itm/golden-age-1938-1955-/flash-comics-1-dc-1940-cgc-fn-65-off-white-to-white-pages/a/7141-91109.s?ic4=ListView-ShortDescription-071515"
          }],
-         "uid": "0335"
+         "id": "0335"
       }, 
       {
          "title": "More Fun Comics",
@@ -4452,7 +4452,7 @@
             "venue": "Heritage",
             "link": "https://comics.ha.com/itm/golden-age-1938-1955-/more-fun-comics-73-dc-1941-cgc-vf-80-white-pages/a/7141-91141.s?ic4=ListView-ShortDescription-071515"
          }],
-         "uid": "0335"
+         "id": "0335"
       },
 
       {
@@ -4467,7 +4467,7 @@
             "venue": "ComicConnect",
             "link": "http://www.comicconnect.com/bookDetail.php?id=689897"
          }],
-         "uid": "0336"
+         "id": "0336"
       },
       {
          "title": "Incredible Hulk",
@@ -4481,7 +4481,7 @@
             "venue": "comicconnect",
             "link": "http://www.comicconnect.com/bookDetail.php?id=682667"
          }],
-         "uid": "0337"
+         "id": "0337"
       },
       {
          "title": "Incredible Hulk",
@@ -4490,7 +4490,7 @@
          "grade": "8.5",
          "tags": "hulk,marvel",
          "sales": [],
-         "uid": "0338"
+         "id": "0338"
       },
       {
          "title": "Incredible Hulk",
@@ -4499,7 +4499,7 @@
          "grade": "8.5",
          "tags": "hulk,marvel",
          "sales": [],
-         "uid": "0339"
+         "id": "0339"
       },
       {
          "title": "Incredible Hulk",
@@ -4508,7 +4508,7 @@
          "grade": "8.5",
          "tags": "hulk,marvel",
          "sales": [],
-         "uid": "0340"
+         "id": "0340"
       },
       {
          "title": "Incredible Hulk",
@@ -4517,7 +4517,7 @@
          "grade": "8.5",
          "tags": "hulk,marvel",
          "sales": [],
-         "uid": "0341"
+         "id": "0341"
       },
       {
          "title": "Incredible Hulk",
@@ -4526,7 +4526,7 @@
          "grade": "8.5",
          "tags": "hulk,marvel",
          "sales": [],
-         "uid": "0342"
+         "id": "0342"
       },
       {
          "title": "Incredible Hulk",
@@ -4535,7 +4535,7 @@
          "grade": "8.5",
          "tags": "hulk,marvel",
          "sales": [],
-         "uid": "0343"
+         "id": "0343"
       },{
          "title": "Wonder Woman",
          "issue": "1",
@@ -4554,7 +4554,7 @@
             "price": "226877.77",
             "link":"https://www.ebay.com/itm/Wonder-Woman-1-CGC-9-0-PERFECT-WHITE-PAGES-1-COPY-IN-THE-WORLD-CGC-1212173003/272808455428?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2055119.m1438.l2649&rmvSB=true"
          }],
-         "uid": "0344"
+         "id": "0344"
       },
       {
          "title": "Fantastic Four",
@@ -4570,7 +4570,7 @@
             }
 
          ],
-         "uid": "0345"
+         "id": "0345"
       },
       {
          "title": "Fantastic Four",
@@ -4580,7 +4580,7 @@
          "tags": "fantastic-four,cgc,marvel,kirby",
          "sales": [
          ],
-         "uid": "0346"
+         "id": "0346"
       },
       {
          "title": "Fantastic Four",
@@ -4590,7 +4590,7 @@
          "tags": "fantastic-four,cgc,marvel,kirby",
          "sales": [
          ],
-         "uid": "0347"
+         "id": "0347"
       },
       {
          "title": "Fantastic Four",
@@ -4600,7 +4600,7 @@
          "tags": "fantastic-four,cgc,marvel,kirby",
          "sales": [
          ],
-         "uid": "0348"
+         "id": "0348"
       },
       {
          "title": "Fantastic Four",
@@ -4610,7 +4610,7 @@
          "tags": "fantastic-four,cgc,marvel,kirby",
          "sales": [
          ],
-         "uid": "0349"
+         "id": "0349"
       },
       {
          "title": "Fantastic Four",
@@ -4620,7 +4620,7 @@
          "tags": "fantastic-four,cgc,marvel,kirby",
          "sales": [
          ],
-         "uid": "0350"
+         "id": "0350"
       },
       {
          "title": "Fantastic Four",
@@ -4630,7 +4630,7 @@
          "tags": "fantastic-four,cgc,marvel,kirby",
          "sales": [
          ],
-         "uid": "0351"
+         "id": "0351"
       },
       {
          "title": "Startling Comcs",
@@ -4647,7 +4647,7 @@
             }
 
          ],
-         "uid": "0352"
+         "id": "0352"
       },{
          "title": "Action Comics",
          "issue": "1",
@@ -4661,7 +4661,7 @@
             "price": "956000",
             "link":"https://comics.ha.com/itm/golden-age-1938-1955-/action-comics-1-dc-1938-cgc-fn-55-cream-to-off-white-pages/a/7139-91001.s?ic4=ListView-ShortDescription-071515"
          }],
-         "uid": "0353"
+         "id": "0353"
       },{
             "title": "All Star Comics",
             "issue": "8",
@@ -4675,7 +4675,7 @@
                "price": "936223",
                "link":"https://www.ebay.com/itm/ALL-STAR-COMICS-8-CGC-9-4-OWW-SINGLE-HIGHEST-GRADED-COPY-CGC-1341502001/253099656149?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2055119.m1438.l2649&rmvSB=true"
             }],
-            "uid": "0354"
+            "id": "0354"
          },{
             "title": "Sensation Comics",
             "issue": "1",
@@ -4689,7 +4689,7 @@
                "price": "399100",
                "link":"https://www.ebay.com/itm/Sensation-Comics-1-CGC-9-6-SINGLE-HIGHEST-Graded-Copy-CGC-1208691001/253099667535?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2055119.m1438.l2649&rmvSB=true"
             }],
-            "uid": "0355"
+            "id": "0355"
          },{
             "title": "Wonder Woman",
             "issue": "1",
@@ -4702,7 +4702,7 @@
                "price": "163000",
                "link":"https://www.comicconnect.com/bookDetail.php?id=726448"
             }],
-            "uid": "0356"
+            "id": "0356"
          },{
             "title": "Pep Comics",
             "issue": "22",
@@ -4715,7 +4715,7 @@
                "venue": "comicconnect",
                "link": "https://www.comicconnect.com/bookDetail.php?id=732549"
             }],
-            "uid": "0357"
+            "id": "0357"
          },
          {
             "title": "Brave and the Bold",
@@ -4729,7 +4729,7 @@
                "venue": "Greg Reece Comics",
                "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F_SORT%3DYES%26Focused%3D1%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2EMaxBid%26ODire3%3DASC%23Item_1024795&id=1024795"
             }],
-            "uid": "0358"
+            "id": "0358"
          },{
             "title": "Amazing Fantasy",
             "issue": "15",
@@ -4742,7 +4742,7 @@
                "venue": "ComicLink",
                "link": "http://www.comiclink.com/auctions/item.asp?back=%2FComicTrack%2FAdmin%2FCL%2Fauctions%2Easp&id=1178499&next=%2FComicTrack%2FAdmin%2FCL%2Fauctions%2Easp"
             }],
-            "uid": "0359"
+            "id": "0359"
          },
          {
             "title": "Suspense Comics",
@@ -4759,7 +4759,7 @@
                }
    
             ],
-            "uid": "0360"
+            "id": "0360"
          },
          {
             "title": "Amazing Spider-Man",
@@ -4776,7 +4776,7 @@
                }
    
             ],
-            "uid": "0361"
+            "id": "0361"
          },
          {
             "title": "Fantastic Four",
@@ -4791,7 +4791,7 @@
                "venue": "ComicLink",
                "link": "http://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F_SORT%3DYES%26Focused%3D1%26ItemType%3D0%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2EMaxBid%26ODire3%3DDESC%23Item_1171253&id=1171253"
             }],
-            "uid": "0362"
+            "id": "0362"
          },
          {
             "title": "Detective Comics",
@@ -4805,7 +4805,7 @@
                "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/bookDetail.php?id=693838"
             }],
-            "uid": "0363"
+            "id": "0363"
          },{
             "title": "Action Comics",
             "issue": "1",
@@ -4820,7 +4820,7 @@
                   "venue": "ComicConnect",
                   "link": "https://www.comicconnect.com/bookDetail.php?id=433712"
                }],
-            "uid": "0365"
+            "id": "0365"
          },
          {
             "title": "Batman",
@@ -4834,7 +4834,7 @@
                "venue": "Heritage",
                "link": "https://comics.ha.com/itm/golden-age-1938-1955-/batman-1-dc-1940-cgc-fn-55-off-white-pages/a/7141-91053.s?ic4=ListView-ShortDescription-071515"
             }],
-            "uid": "0366"
+            "id": "0366"
          },
          {
             "title": "Detective Comics",
@@ -4850,7 +4850,7 @@
                }
    
             ],
-            "uid": "0367"
+            "id": "0367"
          },
          {
             "title": "Journey into Mystery",
@@ -4864,7 +4864,7 @@
                "venue": "Heritage",
                "link": "https://comics.ha.com/itm/silver-age-1956-1969-/journey-into-mystery-83-marvel-1962-cgc-nm-94-white-pages/a/7169-91042.s?ic4=ListView-ShortDescription-071515#"
             }],
-            "uid": "0368"
+            "id": "0368"
          },{
             "title": "Journey into Mystery",
             "issue": "83",
@@ -4872,7 +4872,7 @@
             "grade": "9.4",
             "tags": "journey-into-mystery,cgc,marvel,thor,kirby",
             "sales": [],
-            "uid": "0369"
+            "id": "0369"
          },{
             "title": "Journey into Mystery",
             "issue": "83",
@@ -4880,7 +4880,7 @@
             "grade": "9.4",
             "tags": "journey-into-mystery,cgc,marvel,thor,kirby",
             "sales": [],
-            "uid": "0370"
+            "id": "0370"
          },{
             "title": "Tales of Suspense",
             "issue": "39",
@@ -4893,7 +4893,7 @@
                "venue": "Heritage",
                "link": "https://comics.ha.com/itm/silver-age-1956-1969-/tales-of-suspense-39-marvel-1963-cbcs-nm-96-white-pages/a/7169-91058.s?ic3=ViewItem-Auction-Archive-SearchResults-120115&lotPosition=2|0"
             }],
-            "uid": "0371"
+            "id": "0371"
          },
          {
             "title": "Showcase",
@@ -4907,7 +4907,7 @@
                "venue": "Heritage",
                "link": "https://comics.ha.com/itm/silver-age-1956-1969-/showcase-4-the-flash-dc-1956-cgc-vf-85-white-pages/a/7169-91049.s?ic3=ViewItem-Auction-Archive-SearchResults-120115&lotPosition=5|0"
             }],
-            "uid": "0372"
+            "id": "0372"
          },
          {
             "title": "Showcase",
@@ -4916,7 +4916,7 @@
             "grade": "8.5",
             "tags": "flash,silver-age,dc,showcase",
             "sales": [],
-            "uid": "0373"
+            "id": "0373"
          },
          {
             "title": "Showcase",
@@ -4925,7 +4925,7 @@
             "grade": "8.5",
             "tags": "flash,silver-age,dc,showcase",
             "sales": [],
-            "uid": "0374"
+            "id": "0374"
          },{
             "title": "Showcase",
             "issue": "4",
@@ -4933,7 +4933,7 @@
             "grade": "8.5",
             "tags": "flash,silver-age,dc,showcase",
             "sales": [],
-            "uid": "0375"
+            "id": "0375"
          }
          ,
          {
@@ -4943,7 +4943,7 @@
             "grade": "9.0",
             "tags": "flash,silver-age,dc,showcase",
             "sales": [],
-            "uid": "0376"
+            "id": "0376"
          },
          {
             "title": "Showcase",
@@ -4952,7 +4952,7 @@
             "grade": "9.0",
             "tags": "flash,silver-age,dc,showcase",
             "sales": [],
-            "uid": "0377"
+            "id": "0377"
          },{
             "title": "Showcase",
             "issue": "4",
@@ -4960,7 +4960,7 @@
             "grade": "9.0",
             "tags": "flash,silver-age,dc,showcase",
             "sales": [],
-            "uid": "0378"
+            "id": "0378"
          },
          {
             "title": "Showcase",
@@ -4969,7 +4969,7 @@
             "grade": "9.4",
             "tags": "flash,silver-age,dc,showcase",
             "sales": [],
-            "uid": "0379"
+            "id": "0379"
          },{
             "title": "Showcase",
             "issue": "4",
@@ -4977,7 +4977,7 @@
             "grade": "9.2",
             "tags": "flash,silver-age,dc,showcase",
             "sales": [],
-            "uid": "0380"
+            "id": "0380"
          }
          ,
          {
@@ -4994,7 +4994,7 @@
                }
    
             ],
-            "uid": "0381"
+            "id": "0381"
          },
          {
             "title": "Detective Comics",
@@ -5010,7 +5010,7 @@
                }
    
             ],
-            "uid": "0382"
+            "id": "0382"
          },
          {
             "title": "Detective Comics",
@@ -5024,7 +5024,7 @@
                "venue": "Hakes",
                "link": "https://www.hakes.com/Auction/ItemDetail/220412/DETECTIVE-COMICS-27-MAY-1939-CGC-50-VGFINE-FIRST-BATMAN"
             }],
-            "uid": "0383"
+            "id": "0383"
          }, {
             "title": "Action Comics",
             "issue": "7",
@@ -5036,7 +5036,7 @@
                   "venue": "Hakes",
                   "link": "https://www.hakes.com/Auction/ItemDetail/220413/ACTION-COMICS-7-DECEMBER-1938-CGC-40-VG-SECOND-SUPERMAN-COVER"
                }],
-            "uid": "0385"
+            "id": "0385"
          },{
             "title": "Sensation Comics",
             "issue": "1",
@@ -5050,7 +5050,7 @@
                   "venue": "comicconnect",
                   "link": "https://www.comicconnect.com/bookDetail.php?id=748663"
                }],
-            "uid": "0386"
+            "id": "0386"
          },
          {
             "title": "Action Comics",
@@ -5067,7 +5067,7 @@
                }
    
             ],
-            "uid": "0387"
+            "id": "0387"
          },
          {
             "title": "Amazing Fantasy",
@@ -5083,8 +5083,97 @@
                }
    
             ],
-            "uid": "0388"
+            "id": "0388"
+         },{
+            "title": "Captain America Comics",
+            "issue": "1",
+            "gradeSrc": "CGC",
+            "grade": "5.5",
+            "tags": "captain-america,cgc,marvel,timely",
+            "sales": [{
+               "salesDate": "2018-12-12",
+               "price": "153000",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/bookDetail.php?id=781934"
+            }
+
+         ],
+            "id": "0389"
+         },{
+            "title": "Planet Comics",
+            "issue": "1",
+            "gradeSrc": "CGC",
+            "grade": "9.4",
+            "pedigree": "Church",
+            "tags": "planet comics, pedigree, church, fiction house",
+            "sales": [{
+               "salesDate": "2018-12-14",
+               "price": "108666",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/bookDetail.php?id=794784"
+            }
+
+         ],
+            "id": "0390"
+         },{
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "7.5",
+            "tags": "spider-man,amazing-fantasy,cgc,marvel",
+            "sales": [{
+                  "salesDate": "2018-12-12",
+                  "price": "134555",
+                  "venue": "ComicConnect",
+                  "link": "https://www.comicconnect.com/bookDetail.php?id=802791"
+               }
+   
+            ],
+            "id": "0391"
+         },
+         {
+            "title": "Action Comics",
+            "issue": "10",
+            "publisher": "DC Comics",
+            "gradeSrc": "CGC",
+            "grade": "3.5",
+            "tags": "action,superman,dc",
+            "sales": [{
+               "salesDate": "2018-12-12",
+               "price": "107000",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/bookDetail.php?id=774946"
+            }],
+            "id": "0392"
+         }, 
+         {
+            "title": "Flash Comics",
+            "issue": "1",
+            "gradeSrc": "CGC",
+            "grade": "6.0",
+            "tags": "dc,flash,cgc",
+            "sales": [{
+               "salesDate": "2018-12-13",
+               "price": "120000",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/bookDetail.php?id=794592"
+            }],
+            "id": "0393"
+         },{
+            "title": "Superman",
+            "issue": "14",
+            "gradeSrc": "CGC",
+            "grade": "9.4",
+            "tags": "superman,dc",
+            "sales": [{
+               "salesDate": "2018-12-14",
+               "venue": "ComicConnect",
+               "salesDate": "https://www.comicconnect.com/bookDetail.php?id=752902",
+               "price": "112000"
+            }],
+            "id": "0158"
          }
+
 
 
 

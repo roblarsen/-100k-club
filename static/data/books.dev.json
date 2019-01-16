@@ -1543,6 +1543,11 @@
             "salesDate": "2011-08-09",
             "price": "194000",
             "venue": "ComicConnect"
+         },{
+            "salesDate": "2018-06-13",
+            "price": "341234",
+            "venue": "ComicConnect",
+            "link":"https://www.comicconnect.com/bookDetail.php?id=756464]"
          }],
          "id": "0119"
       }, {
@@ -5240,6 +5245,25 @@
             }
             ],
             "id": "0398"
+         },{
+            "title": "Captain America Comics",
+            "issue": "1",
+            "cgcid":"1015601001",
+            "gradeSrc": "CGC",
+            "grade": "7.5",
+            "tags": "captain-america,marvel,timely,golden-age",
+            "sales": [{
+               "venue": "ComicConnect",
+               "salesDate": "2018-06-24",
+               "price": "257333",
+               "link":"https://www.comicconnect.com/bookDetail.php?id=755670"
+            },{
+               "venue": "eBay",
+               "salesDate": "2005-03-24",
+               "price": "18600"
+            }
+            ],
+            "id": "0399"
          }
 
 

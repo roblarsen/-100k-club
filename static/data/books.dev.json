@@ -5217,6 +5217,29 @@
                "price": "145655"
             }],
             "id": "0397"
+         }{
+            "title": "Captain America Comics",
+            "issue": "1",
+            "cgcid":"1015601001",
+            "gradeSrc": "CGC",
+            "grade": "6.5",
+            "tags": "captain-america,marvel,timely,golden-age",
+            "sales": [{
+               "venue": "eBay",
+               "salesDate": "2018-06-24",
+               "price": "175200"
+            },
+            {
+               "venue": "eBay",
+               "salesDate": "2012-09-23",
+               "price": "71100"
+            },{
+               "venue": "eBay",
+               "salesDate": "2010-07-222",
+               "price": "23500"
+            }
+            ],
+            "id": "0398"
          }
 
 

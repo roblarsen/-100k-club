@@ -5202,6 +5202,21 @@
    
             ],
             "id": "0396"
+         },
+         {
+            "title": "Action Comics",
+            "issue": "1",
+            "publisher": "DC Comics",
+            "coverDate": "1938-04-01",
+            "grade": "0.5",
+            "gradeSrc": "Raw",
+            "generalCommentary": "Sold raw by Sparkle Ciy on eBay",
+            "sales": [{
+               "venue": "eBay",
+               "salesDate": "2018-06-24",
+               "price": "145655"
+            }],
+            "id": "0397"
          }
 
 

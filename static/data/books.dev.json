@@ -2969,17 +2969,30 @@
          "issue": "83",
          "gradeSrc": "CGC",
          "grade": "9.4",
+         "cgcid":"0713809001",
          "tags": "thor,journey-into-mystery,marvel,cgc,kirby",
          "sales": [{
             "salesDate": "2012-02-01",
             "price": "222200",
             "venue": "unknown"
+         },{
+
+
+            "salesDate": "2013-05-09",
+            "price": "185500",
+            "venue": "unknown"
+         },{
+            "salesDate": "2018-05-23",
+            "price": "215185",
+            "venue": "ComicLink",
+            "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FDEFAULT%2EASP%3F_SORT%3DYES%26Focused%3D1%26ItemType%3D0%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2EMaxBid%26ODire3%3DDESC%23Item_1238152&id=1238152&itemType=0#detail"
          }],
          "id": "0218"
       }, {
          "title": "Journey into Mystery",
          "issue": "83",
          "gradeSrc": "cgc",
+         "cgcid":"0004372001",
          "grade": "9.4",
          "tags": "thor,journey-into-mystery,marvel,cgc,kirby",
          "sales": [{
@@ -2987,6 +3000,10 @@
                "price": "275000",
                "venue": "comiclink",
                "link": "http://www.comiclink.com/itemdetail.asp?back=%2Fsearch_adv.asp%3Fall%3Dy%26TITLE%3D%26TITLEOPT%3DALL%26ISSUE%3D%26Condition%3D%26Pedigree%3D%26PRICEF%3D500%26PRICET%3D%26DESCRIPTION%3D%26DESCRIPTIONOPT%3DALL%26SearchRemarks%3D%26SearchCGC%3D%26EXCLUDE%3D%26CATEGORIES%3D-1%26WCATEGORIES%3D-1%26SORT%3DNEW%26_where_forsale%3Dy%26x%3D33%26y%3D11%26where_forsale%3Dy&id=1004302"
+            },{
+               "salesDate": "2005-06-19",
+               "price": "43125",
+               "venue": "unknown"
             }
 
          ],
@@ -3366,10 +3383,16 @@
          "issue": "39",
          "gradeSrc": "CGC",
          "grade": "9.4",
+         "cgcid":"0917863001",
          "tags": "marvel,iron-man,cgc",
          "sales": [{
             "salesDate": "2013-08-01",
             "price": "83650"
+         },{
+            "salesDate": "2018-05-24",
+            "price": "165555",
+            "venue": "comiclink",
+            "link":"https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FDEFAULT%2EASP%3F_SORT%3DYES%26Focused%3D1%26ItemType%3D0%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2EMaxBid%26ODire3%3DDESC%23Item_1238153&id=1238153&itemType=0#detail"
          }],
          "id": "0252"
       }, {
@@ -5661,8 +5684,23 @@
    
             ],
             "id": "0432"
-         }
+         },
+         {
+            "title": "Fantastic Four",
+            "issue": "1",
+            "gradeSrc": "cbcs",
+            "grade": "9.0",
+            "tags": "fantastic-four,cbcs,marvel,kirby",
+            "sales": [{
+               "salesDate": "2018-05-23",
+               "price": "121259",
+               "venue": "comiclink",
+               "link":"https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FDEFAULT%2EASP%3F_SORT%3DYES%26Focused%3D1%26ItemType%3D0%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2EMaxBid%26ODire3%3DDESC%23Item_1242921&id=1242921&itemType=0"
+            }
 
-   ]
+            ],
+            "id": "0433"
+         }  
+      ]
 }
 

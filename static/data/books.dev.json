@@ -3671,7 +3671,12 @@
          "gradeSrc": "CGC",
          "grade": "8.5 (MP)",
          "tags": "batman,dc,restored",
-         "sales": [
+         "sales": [{
+            "salesDate": "2018-06-13",
+            "price": "242000",
+            "venue": "ComicConnect",
+            "link": "https://www.comicconnect.com/bookDetail.php?id=756550"
+         }
 
          ],
          "id": "0276"
@@ -5264,10 +5269,61 @@
             }
             ],
             "id": "0399"
+         },
+         {
+            "title": "Avengers",
+            "issue": "1",
+            "gradeSrc": "cgc",
+            "grade": "9.6",
+            "tags": "avengers,cgc,marvel",
+            "sales": [
+            ],
+            "id": "0400"
+         },
+         {
+            "title": "Avengers",
+            "issue": "1",
+            "gradeSrc": "cgc",
+            "grade": "9.6",
+            "cgcid":"1054884001",
+            "tags": "avengers,cgc,marvel",
+            "sales": [{
+                  "venue": "Metropolis",
+                  "salesDate": "2011-10-25",
+                  "price": "250000"
+               },
+               {
+                  "venue": "ComicConnect",
+                  "salesDate": "2018-06-11",
+                  "price": "194000",
+                  "link":"https://www.comicconnect.com/bookDetail.php?id=756558"
+               }
+   
+            ],
+            "id": "0401"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "7.5",
+            "tags": "spider-man,amazing-fantasy,cgc,marvel",
+            "sales": [{
+                  "salesDate": "2018-06-11",
+                  "price": "131000",
+                  "venue": "ComicConnect",
+                  "link": "https://www.comicconnect.com/bookDetail.php?id=756690"
+               },
+               {
+                  "salesDate": "2018-06-11",
+                  "price": "43319",
+                  "venue": "heritage",
+                  "link":"https://comics.ha.com/itm/silver-age-1956-1969-/superhero/amazing-fantasy-15-marvel-1962-cgc-vf-75-cream-to-off-white-pages/a/7063-93093.s"
+               }
+   
+            ],
+            "id": "0391"
          }
-
-
-
 
    ]
 }

@@ -564,7 +564,12 @@
             "salesDate": "2009-02-15",
             "price": "190000",
             "venue": "pedigreecomics"
-         }],
+         },{
+            "salesDate": "2016-05-17",
+            "price": "392000",
+            "venue": "pedigreecomics"
+         }
+      ],
          "id": "0041"
       }, {
          "title": "Amazing Fantasy",
@@ -573,7 +578,12 @@
          "gradeSrc": "CGC",
          "grade": "9.0",
          "tags": "amazing-fantasy,marvel,spider-man,cgc",
-         "sales": [
+         "sales": [{
+            "salesDate": "2017-03-20",
+            "price": "395000",
+            "venue": "ComicConnect",
+            "link":"https://www.comicconnect.com/bookDetail.php?id=701480"
+         }
 
          ],
          "id": "0042"
@@ -4372,12 +4382,18 @@
          "issue": "15",
          "gradeSrc": "CGC",
          "grade": "9.4",
+         "cgcid": "1339447001",
          "tags": "amazing-fantasy,marvel,spider-man,cgc",
          "sales": [{
             "salesDate": "2016-02-18",
             "price": "454100",
             "venue": "Heritage",
             "link": "http://comics.ha.com/itm/silver-age-1956-1969-/amazing-fantasy-15-marvel-1962-cgc-nm-94-off-white-pages/a/7124-91113.s"
+         },
+         {
+            "salesDate": "2017-05-02",
+            "price": "705000",
+            "venue": "Heritage"
          }],
          "id": "0333"
       }, {
@@ -5323,6 +5339,328 @@
    
             ],
             "id": "0402"
+         },{
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "9.6",
+            "tags": "spider-man,amazing-fantasy,cgc,marvel",
+            "sales": [
+   
+            ],
+            "id": "0403"
+         },{
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "9.2",
+            "tags": "spider-man,amazing-fantasy,cgc,marvel",
+            "sales": [
+   
+            ],
+            "id": "0404"
+         },{
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "9.2",
+            "tags": "spider-man,amazing-fantasy,cgc,marvel",
+            "sales": [
+   
+            ],
+            "id": "0405"
+         },{
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "9.2",
+            "tags": "spider-man,amazing-fantasy,cgc,marvel",
+            "sales": [
+   
+            ],
+            "id": "0406"
+         },{
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "9.2",
+            "tags": "spider-man,amazing-fantasy,cgc,marvel",
+            "sales": [
+   
+            ],
+            "id": "0407"
+         },{
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "9.2",
+            "tags": "spider-man,amazing-fantasy,cgc,marvel",
+            "sales": [
+   
+            ],
+            "id": "0408"
+         },{
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "9.2",
+            "tags": "spider-man,amazing-fantasy,cgc,marvel",
+            "sales": [
+   
+            ],
+            "id": "0409"
+         },{
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "9.2",
+            "tags": "spider-man,amazing-fantasy,cgc,marvel",
+            "sales": [
+   
+            ],
+            "id": "0410"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "9.0",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+   
+            ],
+            "id": "0411"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "8.5",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+   
+            ],
+            "id": "0412"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "8.5",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+   
+            ],
+            "id": "0413"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "8.5",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+   
+            ],
+            "id": "0414"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "8.0",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+   
+            ],
+            "id": "0415"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "8.0",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+   
+            ],
+            "id": "0416"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "8.0",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+   
+            ],
+            "id": "0417"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "8.0",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+   
+            ],
+            "id": "0418"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "8.0",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+   
+            ],
+            "id": "0419"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "8.0",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+   
+            ],
+            "id": "0420"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "8.0",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+   
+            ],
+            "id": "0421"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "8.0",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+   
+            ],
+            "id": "0422"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "8.0",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+   
+            ],
+            "id": "0423"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "8.0",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+   
+            ],
+            "id": "0424"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "8.0",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+   
+            ],
+            "id": "0425"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "8.0",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+   
+            ],
+            "id": "0426"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "8.0",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+   
+            ],
+            "id": "0427"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "8.0",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+   
+            ],
+            "id": "0428"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "8.0",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+   
+            ],
+            "id": "0429"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "8.0",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+   
+            ],
+            "id": "0430"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "8.0",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+   
+            ],
+            "id": "0431"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "8.0",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+   
+            ],
+            "id": "0432"
          }
 
    ]

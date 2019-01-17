@@ -5706,7 +5706,23 @@
 
             ],
             "id": "0433"
-         }  
+         }  ,
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "grade": "7.5",
+            "tags": "spider-man,amazing-fantasy,cgc,marvel",
+            "sales": [{
+                  "salesDate": "2017-11-16",
+                  "price": "140760",
+                  "venue": "Hakes",
+                  "link": "https://www.hakes.com/Auction/ItemDetail/216543/AMAZING-FANTASY-15-AUGUST-1962-CGC-75-VF-FIRST-SPIDER-MAN"
+               }
+   
+            ],
+            "id": "0434"
+         }
       ]
 }
 

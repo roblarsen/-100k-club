@@ -4314,12 +4314,18 @@
          "issue": "16",
          "gradeSrc": "CGC",
          "grade": "6.5",
+         "cgcid":"1294971001",
          "tags": "green-lantern,cgc,pedigree,heritage,dc",
          "sales": [{
             "salesDate": "2015-08-27",
             "price": "110537.50",
             "venue": "Heritage",
             "link": "http://comics.ha.com/itm/golden-age-1938-1955-/all-american-comics-16-dc-1940-cgc-fn-65-cream-to-off-white-pages/a/7147-91029.s?ic4=ListView-ShortDescription-071515"
+         },{
+            "salesDate": "2018-02-22",
+            "price": "215100",
+            "venue": "Heritage",
+            "link": "https://comics.ha.com/itm/golden-age-1938-1955-/all-american-comics-16-dc-1940-cgc-fn-65-off-white-pages/a/7177-91163.s?ic4=ListView-ShortDescription-071515"
          }],
          "id": "0326"
       }, {

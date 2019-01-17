@@ -5722,7 +5722,39 @@
    
             ],
             "id": "0434"
+         },
+         {
+            "title": "Action Comics",
+            "issue": "1",
+            "publisher": "DC Comics",
+            "gradeSrc": "CGC",
+            "grade": "6.0 (CO)",
+            "tags": "cgc,conserved,superman,action",
+            "sales": [{
+                  "salesDate": "2017-12-06",
+                  "price": "461555",
+                  "venue": "ComicConnect",
+                  "link": "https://www.comicconnect.com/bookDetail.php?id=738730"
+               }
+   
+            ],
+            "id": "0435"
+         },
+         {
+            "title": "Marvel Comics",
+            "issue": "1",
+            "gradeSrc": "CGC",
+            "grade": "6.0",
+            "pedigree":"Twilight",
+            "tags": "marvel,timely,pedigree,marvel-comics",
+            "sales": [{
+                  "salesDate": "2017-12-08",
+                  "price": "215000",
+                  "venue": "ComicConnect",
+                  "link": "https://www.comicconnect.com/bookDetail.php?id=744183"
+               }]
          }
+            
       ]
 }
 

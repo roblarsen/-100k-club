@@ -1746,7 +1746,8 @@
          "issue": "1",
          "pedigree": "Denver",
          "gradeSrc": "CGC",
-         "grade": "8.5",
+         "grade": "9.0",
+         "generalCommentary":"Upgraded from 8.5",
          "tags": "marvel,timely,pedigree",
          "sales": [{
             "salesDate": "2009-02-26",
@@ -5753,6 +5754,69 @@
                   "venue": "ComicConnect",
                   "link": "https://www.comicconnect.com/bookDetail.php?id=744183"
                }]
+         },{
+            "title": "Marvel Comics",
+            "issue": "1",
+            "gradeSrc": "CGC",
+            "grade": "6.5",
+            "tags": "marvel,timely,marvel-comics,restored",
+            "sales": [
+            ],
+            "id": "0436"
+         },{
+            "title": "Marvel Comics",
+            "issue": "1",
+            "gradeSrc": "CGC",
+            "grade": "6.0",
+            "tags": "marvel,timely,marvel-comics,restored",
+            "sales": [
+            ],
+            "id": "0437"
+         },{
+            "title": "Marvel Comics",
+            "issue": "1",
+            "gradeSrc": "CGC",
+            "grade": "6.0",
+            "tags": "marvel,timely,marvel-comics,restored",
+            "sales": [
+            ],
+            "id": "0438"
+         },{
+            "title": "Marvel Comics",
+            "issue": "1",
+            "gradeSrc": "CGC",
+            "grade": "4.5",
+            "tags": "marvel,timely,marvel-comics,restored",
+            "sales": [
+            ],
+            "id": "0440"
+         },{
+            "title": "Marvel Comics",
+            "issue": "1",
+            "gradeSrc": "CGC",
+            "grade": "4.5",
+            "tags": "marvel,timely,marvel-comics,restored",
+            "sales": [
+            ],
+            "id": "0441"
+         },{
+            "title": "Marvel Comics",
+            "issue": "1",
+            "gradeSrc": "CGC",
+            "grade": "4.0",
+            "tags": "marvel,timely,marvel-comics,restored",
+            "sales": [
+            ],
+            "id": "0442"
+         },{
+            "title": "Marvel Comics",
+            "issue": "1",
+            "gradeSrc": "CGC",
+            "grade": "4.0",
+            "tags": "marvel,timely,marvel-comics,restored",
+            "sales": [
+            ],
+            "id": "0443"
          }
             
       ]

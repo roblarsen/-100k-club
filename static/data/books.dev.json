@@ -2896,13 +2896,21 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "9.0",
+         "cgcid":"1417679001",
          "tags": "incredible-hulk,cgc,marvel,hulk",
          "sales": [{
                "salesDate": "2016-08-16",
                "price": "275000",
                "venue": "ComicLink",
                "link": "http://www.comiclink.com/itemdetail.asp?id=1134017&showprice=1&next=%2FComicTrack%2FAdmin%2FCL%2Fmatches%2Easp%3FTITLE%3DHULK%26ISSUENUMBER%3D1%26Artist1%3D%26Artist2%3D%26PRICEFROM%3D%26ORDERNUMBER%3D%26DATEFROM%3D%26DATETO%3D%26SELLER%3D%26SELLERID%3D%26BUYER%3D%26BUYERID%3D%26BUYERSTATE%3D--%26PEDIGREE%3D%26CGCCOMMENT%3D%26SELLERCOMMENT%3D%26TYPE%3D0%26FILTER%3D%26Payment%3D%26Verified%3D%26Shipped%3D%26SPBP%3D%26SPBP2%3D%26SearchConditionFrom%3D09%2E0%26SearchConditionTo%3D09%2E0"
-            }
+            },
+            {
+               "salesDate": "2017-05-31",
+               "price": "230000",
+               "venue": "ComicLink",
+               "link": "http://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F_SORT%3DYES%26Focused%3D1%26ItemType%3D0%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2EMaxBid%26ODire3%3DDESC%23Item_1181820&id=1181820"
+               }
+
          ],
          "id": "0212"
       },{
@@ -2924,13 +2932,7 @@
          "gradeSrc": "CGC",
          "grade": "9.0",
          "tags": "incredible-hulk,cgc,marvel,hulk",
-         "sales": [{
-                  "salesDate": "2017-05-31",
-                  "price": "230000",
-                  "venue": "ComicLink",
-                  "link": "http://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F_SORT%3DYES%26Focused%3D1%26ItemType%3D0%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2EMaxBid%26ODire3%3DDESC%23Item_1181820&id=1181820"
-                  }
-
+         "sales": [
          ],
          "id": "0214"
       }, {
@@ -3159,10 +3161,19 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "5.5",
+         "cgcid":"0038923022",
          "tags": "Superman,dc",
          "sales": [{
-            "salesDate": "2005-04-16"
-         }],
+            "salesDate": "2017-03-09",
+            "price": "507500",
+            "venue": "ComicLink",
+            "link":"https://www.comicconnect.com/bookDetail.php?id=433858"
+         },{
+            "salesDate": "2005-04-16",
+            "price": "130000",
+            "venue": "unknown"
+         }
+       ],
          "id": "0232"
       }, {
          "title": "Superman",

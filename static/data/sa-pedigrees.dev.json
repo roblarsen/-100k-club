@@ -3,9 +3,9 @@
 
     {"short":"ba","full":"big apple"} ,
     {"short":"bet","full":"bethlehem"},
-    {"short":"bos","full":"boston"},
     {"short":"cur","full":"curator"},
     {"short":"dmt","full":"don/maggie thompson"},
+    {"short":"jf","full":"hohn fantucchio"},
     {"short":"ma","full":"massachusetts"},
     {"short":"mv","full":"mohawk Valley"},
     {"short":"nor","full":"northland"},
@@ -17,7 +17,6 @@
     {"short":"wp","full":"western penn"},
     {"short":"wm","full":"white mountain"},
     {"short":"win","full":"winnipeg"}
-
     ],
     "books" : [
         {
@@ -40,6 +39,7 @@
             "title":"Amazing Spider-Man #1",
             "bet":"9.4 (SP)",
             "cur":"9.6",
+            "jf":"9.0",
             "ma":"9.2",
             "oh":"8.5",
             "pc":"8.5",
@@ -50,6 +50,7 @@
         },{
             "title":"Avengers #1",
             "cur":"9.4",
+            "jf":"8.0",
             "ma":"8.5",
             "nor":"9.4",
             "pc":"9.6",
@@ -71,12 +72,14 @@
             "pub":"mar"
         },{
             "title":"Brave and the Bold #28",
+            "jf":"4.5",
             "sav":"8.0",
             "tc":"6.5",
             "pub":"dc"
         },{
             "title":"Brave and the Bold #34",
             "bet":"FN+",
+            "jf":"3.0",
             "sav":"9.4",
             "wp":"9.4",
             "win":"8.0",
@@ -84,6 +87,7 @@
         },{
             "title":"Daredevil #1",
             "cur":"9.6",
+            "jf":"9.0",
             "pc":"9.4/9.4",
             "sav":"5.0",
             "tc":"9.6",
@@ -101,6 +105,7 @@
             "sn":"9.0"
         },{
             "title":"Fantastic Four #1",
+            "jf":"9.0",
             "nor":"8.0",
             "tc":"6.5",
             "wm":"9.2",
@@ -146,6 +151,7 @@
         },{
             "title":"Incredible Hulk #1",
             "bet":"9.2",
+            "jf":"6.0",
             "nor":"9.2",
             "pc":"8.0",
             "tc":"4.5",
@@ -156,12 +162,14 @@
         },{
             "title":"JLA #1",
             "bet":"8.0",
+            "jf":"7.5",
             "sav":"7.5",
             "tc":"6.0",
             "pub":"dc",
             "dmt":"7.5"
         },{
             "title":"Journey into Mystery #83",
+            "jf":"7.5",
             "ma":"9.0",
             "pc":"9.0",
             "tc":"9.0",
@@ -171,6 +179,7 @@
         },{
             "title":"My Greatest Adventure #80",
             "cur":"9.6",
+            "jf":"4.5",
             "pc":"9.6",
             "wp":"9.6",
             "pub":"dc"
@@ -180,6 +189,7 @@
             "title":"Sgt. Fury #1",
             "cur":"9.4",
             "dmt":"9.4",
+            "jf":"3.0",
             "tc":"6.5",
             "oh":"6.0/8.5"
         },{
@@ -214,6 +224,7 @@
         }, {
             "title":"Showcase #22",
             "mv":"VF",
+            "jf":"4.0",
             "sav":"8.0",
             "tc":"3.0",
             "wp":"NM/M",
@@ -222,6 +233,7 @@
         }, {
             "title":"Showcase #34",
             "mv":"VF",
+            "jf":"5.0",
             "sav":"8.0",
             "tc":"8.5",
             "wp":"9.4",
@@ -230,6 +242,7 @@
         }, {
             "title":"Strange Tales 101",
             "pub":"mar",
+            "jf":"3.5",
             "pc":"9.4",
             "nor":"9.2",
             "dmt":"8.0",
@@ -238,6 +251,7 @@
         }, {
             "title":"Strange Tales 110",
             "pub":"mar",
+            "jf":"8.0",
             "pc":"9.6",
             "nor":"9.4",
             "tc":"9.4",
@@ -270,6 +284,7 @@
             "title":"X-Men #1",
             "bet":"9.4",
             "cur":"9.8",
+            "jf":"5.0",
             "ma":"9.2",
             "pc":"9.6/ 9.8",
             "wm":"9.0 (SP)",

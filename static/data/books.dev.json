@@ -5898,6 +5898,40 @@
 
          ],
             "id": "0447"
+         },
+         {
+            "title": "Fantastic Four",
+            "issue": "1",
+            "gradeSrc": "cgc",
+            "cgcid": "1298037001",
+            "grade": "8.5",
+            "tags": "fantastic-four,cgc,marvel,kirby",
+            "sales": [{
+               "salesDate": "2019-08-01",
+               "price": "126000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/fantastic-four-1-marvel-1961-cgc-vf-85-off-white-pages/a/7211-91061.s?ic4=ListView-ShortDescription-071515"
+            }
+
+            ],
+            "id": "0448"
+         },
+         {
+            "title": "Teenage mutant ninja turtles",
+            "issue": "1",
+            "gradeSrc": "cgc",
+            "cgcid": "1199928001",
+            "grade": "9.8",
+            "tags": "tmnt,copper-age,teenage-mutant-ninja-turtles",
+            "sales": [{
+               "salesDate": "2019-08-01",
+               "price": "90000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/modern-age-1980-present-/teenage-mutant-ninja-turtles-1-mirage-studios-1984-cgc-nm-mt-98-white-pages/a/7211-91091.s?ic4=ListView-ShortDescription-071515"
+            }
+
+            ],
+            "id": "0449"
          }
             
       ]

@@ -1046,7 +1046,7 @@
          "sales": [{
             "salesDate": "2016-12-13",
             "price": "390000",
-            "venue": "comicconnect",
+            "venue": "ComicConnect",
             "link": "http://www.comicconnect.com/bookDetail.php?id=682290"
          }],
          "id": "0080"
@@ -1059,7 +1059,7 @@
          "sales": [{
             "salesDate": "2012-04-17",
             "price": "175365",
-            "venue": "comicconnect",
+            "venue": "ComicConnect",
             "link": "https://www.comicconnect.com/bookDetail.php?id=439804"
          }
 
@@ -1419,7 +1419,7 @@
             "sellersNotes": "as a CGC 5.5"
          },
          {
-            "venue": "comicconnect",
+            "venue": "ComicConnect",
             "salesDate": "2018-03-21",
             "price": "732000"
          }],
@@ -2481,10 +2481,17 @@
       }, {
          "title": "Amazing Spider-Man",
          "issue": "1",
+         "cgcid": "1196948001",
          "gradeSrc": "CGC",
          "grade": "9.4",
          "tags": "amazing-spider-man,cgc,spider-man",
          "sales": [
+            {
+               "salesDate": "2019-06-10",
+               "price": "130000",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/bookDetail.php?id=829052"
+            }
 
          ],
          "id": "0185"
@@ -3624,7 +3631,7 @@
          {
             "salesDate": "2018-03-20",
             "price": "815000",
-            "venue": "comicconnect",
+            "venue": "ComicConnect",
             "link":"https://www.comicconnect.com/bookDetail.php?id=748655"
          }],
          "id": "0268"
@@ -3916,6 +3923,7 @@
          "issue": "1",
          "publisher": "DC Comics",
          "gradeSrc": "CGC",
+         "cgcid": "0140351001",
          "grade": "6.5 (EP)",
          "tags": "cgc,restored,superman,action",
          "sales": [{
@@ -3923,7 +3931,15 @@
                "price": "130000",
                "venue": "ComicLink",
                "link": "http://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F_SORT%3DYES%26Focused%3D1%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2EMaxBid%26ODire3%3DASC%23Item_1023032&id=1023032"
+            },
+            {
+               "salesDate": "201-09-10",
+               "price": "220000",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/bookDetail.php?id=813126"
             }
+
+            
 
          ],
          "id": "0292"
@@ -4012,7 +4028,7 @@
          "sales": [{
             "salesDate": "2014-06-03",
             "price": "182000",
-            "venue": "comicconnect",
+            "venue": "ComicConnect",
             "link": "http://www.comicconnect.com/bookDetail.php?id=539338"
          }],
          "id": "0301"
@@ -4025,7 +4041,7 @@
          "sales": [{
             "salesDate": "2014-06-03",
             "price": "182000",
-            "venue": "comicconnect",
+            "venue": "ComicConnect",
             "link": "http://www.comicconnect.com/bookDetail.php?id=539338"
          }],
          "id": "0302"
@@ -4551,7 +4567,7 @@
          "sales": [{
             "salesDate": "2016-12-14",
             "price": "132000",
-            "venue": "comicconnect",
+            "venue": "ComicConnect",
             "link": "http://www.comicconnect.com/bookDetail.php?id=682667"
          }],
          "id": "0337"
@@ -4616,7 +4632,7 @@
          "grade": "9.0",
          "tags": "wonder-woman,dc",
          "sales": [{
-            "venue": "comicconnect",
+            "venue": "ComicConnect",
             "salesDate": "2016-12-13",
             "price": "291000",
             "link":"http://www.comicconnect.com/bookDetail.php?id=677327"
@@ -4770,7 +4786,7 @@
             "grade": "8.5",
             "tags": "wonder-woman,dc",
             "sales": [{
-               "venue": "comicconnect",
+               "venue": "ComicConnect",
                "salesDate": "2017-09-15",
                "price": "163000",
                "link":"https://www.comicconnect.com/bookDetail.php?id=726448"
@@ -4785,7 +4801,7 @@
             "sales": [{
                "salesDate": "2017-9-15",
                "price": "252100",
-               "venue": "comicconnect",
+               "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/bookDetail.php?id=732549"
             }],
             "id": "0357"
@@ -5120,7 +5136,7 @@
             "sales": [{
                   "salesDate": "2018-03-22",
                   "price": "124023.90",
-                  "venue": "comicconnect",
+                  "venue": "ComicConnect",
                   "link": "https://www.comicconnect.com/bookDetail.php?id=748663"
                }],
             "id": "0386"
@@ -5404,6 +5420,13 @@
             "grade": "9.2",
             "tags": "spider-man,amazing-fantasy,cgc,marvel",
             "sales": [
+               {
+                  "salesDate": "2019-06-10",
+                  "price": "598000",
+                  "venue": "ComicConnect",
+                  "link":"https://comics.ha.com/itm/silver-age-1956-1969-/superhero/amazing-fantasy-15-marvel-1962-cgc-vf-75-cream-to-off-white-pages/a/7063-93093.s"
+               }
+   
    
             ],
             "id": "0404"
@@ -5892,7 +5915,7 @@
             "sales": [{
                "salesDate": "2018-08-29",
                "price": "158250",
-               "venue": "comicconnect",
+               "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/bookDetail.php?id=757561"
             }
 
@@ -5932,6 +5955,20 @@
 
             ],
             "id": "0449"
+         },
+         {
+            "title": "Justice League of America",
+            "issue": "1",
+            "gradeSrc": "CGC",
+            "grade": "9.6",
+            "tags": "dc,jla,cgc",
+            "sales": [{
+               "salesDate": "2019-06-12",
+               "price": "131000",
+               "venue": "ComicConnect",
+               "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fsearch%2Easp%3FFocusedOnly%3D1%26where%3Dauctions%26title%3Dbrave%2Band%2Bthe%2Bbold%2B28%26x%3D0%26y%3D0%26ItemType%3DCB%23Item_996687&id=996687"
+            }],
+            "id": "0300"
          }
             
       ]

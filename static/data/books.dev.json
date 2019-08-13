@@ -5968,7 +5968,19 @@
                "venue": "ComicConnect",
                "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fsearch%2Easp%3FFocusedOnly%3D1%26where%3Dauctions%26title%3Dbrave%2Band%2Bthe%2Bbold%2B28%26x%3D0%26y%3D0%26ItemType%3DCB%23Item_996687&id=996687"
             }],
-            "id": "0300"
+            "id": "0450"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "pedigree": "Rocky Mountain",
+            "grade": "7.5",
+            "tags": "spider-man,amazing-fantasy,cgc,marvel",
+            "sales": [
+   
+            ],
+            "id": "0451"
          }
             
       ]

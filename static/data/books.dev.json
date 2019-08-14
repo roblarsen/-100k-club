@@ -3192,9 +3192,15 @@
          "title": "Superman",
          "issue": "1",
          "gradeSrc": "CGC",
+         "cgcid":"2020094001",
          "grade": "5.0",
          "tags": "superman,dc",
-         "sales": [
+         "sales": [{
+            "salesDate": "2019-05-16",
+            "price": "456000",
+            "venue": "Heritage",
+            "link":"https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-dc-1939-cgc-vg-fn-50-cream-to-off-white-pages/a/7209-91087.s"
+         }
 
          ],
          "id": "0233"
@@ -6016,6 +6022,39 @@
                "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/batman-1-dc-1940-cgc-fn-55-cream-to-off-white-pages/a/7209-91064.s?ic16=ViewItem-Auction-Archive-PreviousPricesHeritage-081514"
             }],
             "id": "0452"
+         },
+         {
+            "title": "Captain America Comics",
+            "issue": "1",
+            "gradeSrc": "CGC",
+            "grade": "7.0",
+            "cgcid": "1393613002",
+            "tags": "captain-america,marvel,timely,golden-age",
+            "sales": [{
+                  "salesDate": "2019-03-12",
+                  "price": "243000",
+                  "venue": "ComicConnect",
+                  "link": "https://www.comicconnect.com/bookDetail.php?id=706816"
+               }
+   
+            ],
+            "id": "0453"
+         },{
+            "title": "Captain America Comics",
+            "issue": "1",
+            "gradeSrc": "CGC",
+            "grade": "7.0",
+            "cgcid": "0149889001",
+            "tags": "captain-america,marvel,timely,golden-age",
+            "sales": [{
+                  "salesDate": "2019-05-16",
+                  "price": "228000",
+                  "venue": "Heritage",
+                  "link": "https://comics.ha.com/itm/golden-age-1938-1955-/captain-america-comics-1-timely-1941-cgc-fn-vf-70-cream-to-off-white-pages/a/7209-91066.s?ic4=ListView-ShortDescription-071515"
+               }
+   
+            ],
+            "id": "0454"
          }
             
       ]

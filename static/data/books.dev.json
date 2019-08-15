@@ -6055,6 +6055,19 @@
    
             ],
             "id": "0454"
+         },{
+            "title": "Superman",
+            "issue": "1",
+            "gradeSrc": "CGC",
+            "grade": "1.5",
+            "tags": "superman,dc",
+            "sales": [{
+               "salesDate": "2019-03-15",
+               "price": "120777",
+               "venue": "ComicConnect",
+               "link":"https://www.comicconnect.com/bookDetail.php?id=811033"
+            }],
+            "id": "0455"
          }
             
       ]

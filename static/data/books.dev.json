@@ -2858,6 +2858,7 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "9.0",
+         "cgcid": "0932260005",
          "tags": "incredible-hulk,marvel,cgc,hulk",
          "sales": [{
             "salesDate": "2011-11-09",
@@ -2894,12 +2895,17 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "9.0",
+         "cgcid": "1054767003",
          "tags": "incredible-hulk,cgc,marvel,hulk",
          "sales": [{
                "salesDate": "2014-12-08",
                "price": "178000",
                "venue": "ComicConnect",
                "link": "http://www.comicconnect.com/bookDetail.php?id=536370"
+            },{
+               "salesDate": "2017-06-01",
+               "price": "300000",
+               "venue": "ComicConnect"
             }
 
          ],
@@ -2931,11 +2937,13 @@
             "issue": "1",
             "gradeSrc": "CGC",
             "grade": "9.0",
+            "cgcid": "1618300001",
             "tags": "incredible-hulk,cgc,marvel,hulk",
             "sales": [{
-               "salesDate": "2017-06-01",
-               "price": "300000",
-               "venue": "ComicConnect"
+               "salesDate": "2018-08-02",
+               "price": "264000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/the-incredible-hulk-1-marvel-1962-cgc-vf-nm-90-off-white-to-white-pages/a/7189-91152.s"
             }
             ],
             "id": "0213"
@@ -2944,8 +2952,14 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "9.0",
+         "cgcid": "2007931002",
          "tags": "incredible-hulk,cgc,marvel,hulk",
-         "sales": [
+         "sales": [{
+            "salesDate": "2019-02-23",
+            "price": "216000",
+            "venue": "Heritage",
+            "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/the-incredible-hulk-1-marvel-1962-cgc-vf-nm-90-off-white-to-white-pages/a/7204-91063.s"
+         }
          ],
          "id": "0214"
       }, {
@@ -3219,9 +3233,14 @@
          "issue": "1",
          "gradeSrc": "cgc",
          "grade": "4.5",
+         "cgcid": "0084408001",
          "tags": "superman,dc",
-         "sales": [
-
+         "sales": [{
+              "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superman-1-dc-1939-cgc-vg-45-cream-to-off-white-pages/a/7204-91068.s?ic4=ListView-ShortDescription-071515",
+               "salesDate": "2019-02-21",
+               "price": "336000",
+               "venue": "Heritage"
+            }
          ],
          "id": "0235"
       }, {
@@ -3229,6 +3248,7 @@
          "issue": "1",
          "gradeSrc": "cgc",
          "grade": "4.5",
+         "cgcid": "1212654002",
          "tags": "superman,dc",
          "sales": [{
               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superman-1-dc-1939-cgc-vg-45-cream-to-off-white-pages/a/7141-91196.s?ic4=ListView-ShortDescription-071515",
@@ -4118,10 +4138,11 @@
          "issue": "83",
          "gradeSrc": "CGC",
          "grade": "9.4",
+         "cgcid":"1290106007",
          "tags": "journey-into-mystery,cgc,marvel,thor,kirby",
          "sales": [{
             "salesDate": "2014-11-20",
-            "price": "179250.00",
+            "price": "179250",
             "venue": "Heritage",
             "link": "http://comics.ha.com/itm/silver-age-1956-1969-/journey-into-mystery-83-marvel-1962-cgc-nm-94-white-pages/a/7099-91484.s"
          }],
@@ -4952,6 +4973,7 @@
             "issue": "83",
             "gradeSrc": "CGC",
             "grade": "9.4",
+            "cgcid":"1393788002",
             "tags": "journey-into-mystery,cgc,marvel,thor,kirby",
             "sales": [{
                "salesDate": "2017-11-16",
@@ -4965,16 +4987,28 @@
             "issue": "83",
             "gradeSrc": "CGC",
             "grade": "9.4",
+            "cgcid":"2007930002",
             "tags": "journey-into-mystery,cgc,marvel,thor,kirby",
-            "sales": [],
+            "sales": [{
+               "salesDate": "2019-02-23",
+               "price": "144000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/journey-into-mystery-83-marvel-1962-cgc-nm-94-off-white-to-white-pages/a/7204-91064.s"
+            }],
             "id": "0369"
          },{
             "title": "Journey into Mystery",
             "issue": "83",
             "gradeSrc": "CGC",
             "grade": "9.4",
+            "cgcid":"1200165001",
             "tags": "journey-into-mystery,cgc,marvel,thor,kirby",
-            "sales": [],
+            "sales": [{
+               "salesDate": "2014-12-04",
+               "price": "217000",
+               "venue": "unknown"
+               
+            }],
             "id": "0370"
          },{
             "title": "Tales of Suspense",

@@ -4225,9 +4225,11 @@
          "grade": "8.0",
          "tags": "archie",
          "sales": [{
-            "venue": "unknown",
-            "salesDate": "2014-08-01",
-            "price": "122567"
+            "venue": "ComicConnect",
+            "salesDate": "2014-08-26",
+            "price": "122567",
+            "link": "https://www.comicconnect.com/bookDetail.php?id=568460"
+
          }],
          "id": "0313"
       }, {

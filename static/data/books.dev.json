@@ -5435,7 +5435,7 @@
                   "link": "https://www.comicconnect.com/bookDetail.php?id=756690"
                },
                {
-                  "salesDate": "2018-06-11",
+                  "salesDate": "2012-07-26",
                   "price": "43319",
                   "venue": "heritage",
                   "link":"https://comics.ha.com/itm/silver-age-1956-1969-/superhero/amazing-fantasy-15-marvel-1962-cgc-vf-75-cream-to-off-white-pages/a/7063-93093.s"
@@ -6102,6 +6102,24 @@
                "link":"https://www.comicconnect.com/bookDetail.php?id=811033"
             }],
             "id": "0455"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "pedigree": "Rocky Mountain",
+            "cgcid": "1968636001",
+            "grade": "7.5",
+            "tags": "spider-man,amazing-fantasy,cgc,marvel",
+            "sales": [{
+               "salesDate": "2019-02-21",
+               "price": "120000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/amazing-fantasy-15-marvel-1962-cgc-vf-75-off-white-pages/a/7204-92131.s?ic4=ListView-ShortDescription-071515"
+            }
+   
+            ],
+            "id": "0456"
          }
             
       ]

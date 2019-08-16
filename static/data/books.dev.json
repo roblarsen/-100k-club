@@ -2491,6 +2491,11 @@
                "price": "130000",
                "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/bookDetail.php?id=829052"
+            },{
+               "salesDate": "2014-03-11",
+               "price": "119222",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/bookDetail.php?id=540765"
             }
 
          ],
@@ -2499,9 +2504,19 @@
          "title": "Amazing Spider-Man",
          "issue": "1",
          "gradeSrc": "CGC",
+         "cgcid":"1197541001",
          "grade": "9.4",
          "tags": "amazing-spider-man,cgc,spider-man",
-         "sales": [
+         "sales": [{
+            "salesDate": "2017-01-31",
+            "price": "150000",
+            "venue": "unknown"
+         },{
+            "salesDate": "2015-03-20",
+            "price": "135000",
+            "venue": "ComicConnect",
+            "link": "https://www.comicconnect.com/bookDetail.php?id=657661"
+         }
 
          ],
          "id": "0186"

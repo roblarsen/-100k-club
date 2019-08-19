@@ -3152,12 +3152,14 @@
          "title": "Marvel Comics",
          "issue": "1",
          "gradeSrc": "cgc",
+         "cgcid": "1099503001",
          "grade": "7.5",
          "tags": "marvel,timely,marvel-comics",
          "sales": [{
             "salesDate": "2012-08-29",
             "price": "112007",
-            "venue": "unknown"
+            "venue": "ComicConnect",
+            "link":"https://www.comicconnect.com/bookDetail.php?id=453316"
          }],
          "id": "0228"
       }, {

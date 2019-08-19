@@ -6174,6 +6174,21 @@
    
             ],
             "id": "0457"
+         },
+         {
+            "title": "Flash Comics",
+            "issue": "1",
+            "gradeSrc": "CGC",
+            "grade": "9.6",
+            "cgcid": "1053708009",
+            "tags": "flash,dc,cgc,heritage,jp-the-mint",
+            "sales": [{
+               "salesDate": "2013-03-20",
+               "price": "147000",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/bookDetail.php?id=415264"
+            }],
+            "id": "0070"
          }
             
       ]

@@ -6152,6 +6152,23 @@
    
             ],
             "id": "0456"
+         },
+         {
+            "title": "Incredible Hulk",
+            "issue": "1",
+            "gradeSrc": "CBCS",
+            "grade": "8.5",
+            "cbcsid": "0007055-ac-002",
+            "tags": "incredible-hulk,cgc,marvel,hulk",
+            "sales": [{
+                  "salesDate": "2017-03-22",
+                  "price": "141011",
+                  "venue": "ComicConnect",
+                  "link": "https://www.comicconnect.com/bookDetail.php?id=690868"
+               }
+   
+            ],
+            "id": "0457"
          }
             
       ]

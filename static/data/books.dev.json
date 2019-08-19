@@ -2153,9 +2153,14 @@
          "issue": "1",
          "pedigree": "Nova Scotia",
          "gradeSrc": "CGC",
+         "cgcid": "0720699005",
          "grade": "5.0",
          "tags": "superman,dc",
          "sales": [{
+            "salesDate": "2007-01-18",
+            "price": "83650",
+            "venue": "Comiclink"
+         },{
             "salesDate": "2008-08-28",
             "price": "121000",
             "venue": "Comiclink"
@@ -2163,6 +2168,10 @@
             "venue": "unknown",
             "salesDate": "2010-01-01",
             "price": "135000"
+         }, {
+            "venue": "ComicConnect",
+            "salesDate": "1900-01-01",
+            "price": "148000"
          }],
          "id": "0160"
       }, {
@@ -6192,7 +6201,36 @@
                "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/bookDetail.php?id=415264"
             }],
-            "id": "0070"
+            "id": "0458"
+         },{
+            "title": "Superman",
+            "issue": "1",
+            "gradeSrc": "CGC",
+            "grade": "1.0",
+            "cgcid": "1217019001",
+            "tags": "superman,dc",
+            "sales": [{
+               "salesDate": "2017-09-14",
+               "price": "110000",
+               "venue": "ComicConnect",
+               "link":"https://www.comicconnect.com/bookDetail.php?id=730564"
+            }],
+            "id": "0459"
+         },{
+            "title": "Superman",
+            "issue": "1",
+            "gradeSrc": "CGC",
+            "grade": "8.0",
+            "gradingNotes": "Mod(P)",
+            "cgcid": "0056428009",
+            "tags": "superman,dc",
+            "sales": [{
+               "salesDate": "2017-09-14",
+               "price": "150555",
+               "venue": "ComicConnect",
+               "link":"https://www.comicconnect.com/bookDetail.php?id=730896"
+            }],
+            "id": "0460"
          }
             
       ]

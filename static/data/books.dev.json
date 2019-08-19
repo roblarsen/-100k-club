@@ -3167,11 +3167,13 @@
          "issue": "22",
          "gradeSrc": "CGC",
          "grade": "6.5",
+         "cgcid": "1131171003",
          "tags": "archie,pep-comics",
          "sales": [{
             "salesDate": "2012-12-10",
             "price": "111000",
-            "venue": "unknown"
+            "venue": "ComicConnect",
+            "link":"https://www.comicconnect.com/bookDetail.php?id=480776"
          }, {
             "link": "http://www.comicconnect.com/bookDetail.php?id=592448",
             "salesDate": "2015-03-26",

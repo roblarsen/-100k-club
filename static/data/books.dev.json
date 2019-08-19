@@ -3351,11 +3351,13 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "9.4",
+         "cgcid": "1077985001",
          "tags": "x-men,marvel,cgc",
          "sales": [{
             "salesDate": "2013-08-01",
             "price": "83650",
-            "venue": "unknown"
+            "venue": "Heritage",
+            "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/x-men-1-marvel-1963-cgc-nm-94-off-white-to-white-pages/a/7079-91206.s"
          }],
          "id": "0242"
       }, {
@@ -3363,11 +3365,12 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "9.4",
+         "cgcid":"1109758001",
          "tags": "x-men,cgc,marvel",
          "sales": [{
             "salesDate": "2012-11-15",
             "price": "89625",
-            "venue": "unknown"
+            "venue": "Heritage"
          }],
          "id": "0243"
       }, {
@@ -3379,7 +3382,8 @@
          "sales": [{
             "salesDate": "2012-07-27",
             "price": "89625",
-            "venue": "unknown"
+            "venue": "Heritage",
+            "link":"https://comics.ha.com/itm/silver-age-1956-1969-/superhero/x-men-1-marvel-1963-cgc-nm-94-white-pages/a/7063-93212.s"
          }, {
             "salesDate": "2011-10-01",
             "price": "137500",
@@ -3391,6 +3395,7 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "9.4",
+         "cgcid":"0966559001",
          "tags": "marvel,x-men,cgc",
          "sales": [{
             "salesDate": "2010-05-27",
@@ -3403,6 +3408,7 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "9.4",
+         "cgcid": "0966559001",
          "tags": "x-men,cgc,marvel",
          "sales": [{
             "salesDate": "2010-04-18",
@@ -3415,6 +3421,7 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "9.4",
+         "cgcid":"0161175004",
          "tags": "marvel,cgc,x-men",
          "sales": [{
             "salesDate": "2009-11-01",
@@ -6231,6 +6238,21 @@
                "link":"https://www.comicconnect.com/bookDetail.php?id=730896"
             }],
             "id": "0460"
+         },
+         {
+            "title": "X-Men",
+            "issue": "1",
+            "gradeSrc": "CGC",
+            "grade": "9.4",
+            "cgcid":"1055541001",
+            "tags": "x-men,marvel",
+            "sales": [{
+               "salesDate": "2019-03-23",
+               "price": "153134",
+               "venue": "ComicConnect",
+               "link":"https://www.comicconnect.com/bookDetail.php?id=754537"
+            }],
+            "id": "0461"
          }
             
       ]

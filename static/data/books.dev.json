@@ -2462,6 +2462,7 @@
          "issue": "15",
          "gradeSrc": "CGC",
          "grade": "8.5",
+         "cgcid": "0701478001",
          "tags": "spider-man,amazing-fantasy,cgc,marvel",
          "sales": [{
             "salesDate": "2017-02-23",
@@ -6253,6 +6254,74 @@
                "link":"https://www.comicconnect.com/bookDetail.php?id=754537"
             }],
             "id": "0461"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "cgcid":"0952725001",
+            "grade": "7.5",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+               {
+                  "salesDate": "2017-05-01",
+                  "price": "102001",
+                  "venue": "ComicConnect",
+                  "link":"https://www.comicconnect.com/bookDetail.php?id=719272"
+               }
+            ],
+            "id": "0462"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "cgcid":"1163723001",
+            "grade": "7.0",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+               {
+                  "salesDate": "2018-03-20",
+                  "price": "107006",
+                  "venue": "ComicConnect",
+                  "link":"https://www.comicconnect.com/bookDetail.php?id=719272"
+               }
+            ],
+            "id": "0463"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "cgcid":"1163723001",
+            "grade": "7.0",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+               {
+                  "salesDate": "2017-11-13",
+                  "price": "100199",
+                  "venue": "ComicConnect",
+                  "link":"https://www.comicconnect.com/bookDetail.php?id=750774"
+               }
+            ],
+            "id": "0464"
+         },
+         {
+            "title": "Amazing Fantasy",
+            "issue": "15",
+            "gradeSrc": "CGC",
+            "cgcid":"1394149006",
+            "grade": "7.0",
+            "tags": "amazing-fantasy,marvel,spider-man,cgc",
+            "sales": [
+               {
+                  "salesDate": "2017-11-13",
+                  "price": "100199",
+                  "venue": "ComicConnect",
+                  "link":"https://www.comicconnect.com/bookDetail.php?id=750774"
+               }
+            ],
+            "id": "0464"
          }
             
       ]

@@ -4726,7 +4726,12 @@
          "gradeSrc": "cgc",
          "grade": "9.0",
          "tags": "fantastic-four,cgc,marvel,kirby",
-         "sales": [
+         "sales": [{
+            "salesDate": "2012-12-06",
+            "price": "145450",
+            "link": "https://www.comicconnect.com/bookDetail.php?id=474144",
+            "venue": "ComicConnect"
+         }
          ],
          "id": "0346"
       },

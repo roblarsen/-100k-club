@@ -1964,14 +1964,22 @@
          "issue": "53",
          "pedigree": "Church",
          "gradeSrc": "CGC",
-         "grade": "9.6",
+         "grade": "9.8",
          "tags": "more-fun,dc,church,pedigree",
+         "generalCommentary": "Upgrade from 9.6",
          "sales": [{
             "salesDate": "2005-10-14",
             "price": "77625",
             "venue": "Heritage",
             "link": "http://comics.ha.com/c/item.zx?saleNo=818&lotNo=2163"
-         }],
+         },
+         {
+            "salesDate": "2015-06-04",
+            "price": "141003",
+            "venue": "ComicConnect",
+            "link": "https://www.comicconnect.com/bookDetail.php?id=610854"
+         }
+      ],
          "id": "0147"
       }, {
          "title": "More Fun",

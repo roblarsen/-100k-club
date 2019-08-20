@@ -1350,6 +1350,7 @@
          "title": "Captain America Comics",
          "issue": "1",
          "gradeSrc": "CGC",
+         "cgcid": "1053708005",
          "grade": "9.2",
          "tags": "captain-america,cgc,marvel,timely",
          "sales": [
@@ -1357,6 +1358,11 @@
                "salesDate": "2011-08-09",
                "price": "343057",
                "venue": "ComicConnect"
+            },{
+               "salesDate": "2013-06-12",
+               "price": "306050",
+               "venue": "ComicConnect",
+               "link":"https://www.comicconnect.com/bookDetail.php?id=502876"
             }
          ],
          "id": "0090"
@@ -7095,6 +7101,23 @@
             }
          ],
          "id": "0471"
+      },{
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "8.0",
+         "cgcid":"1254773002",
+         "tags": "cgc,captain-america,timely,marvel",
+         "sales": [
+            {
+               "venue": "ComicConnect",
+               "salesDate": "2016-0-28",
+               "price": "288000",
+               "link":"https://www.comicconnect.com/bookDetail.php?id=650298"
+            }
+         ],
+         "id": "0472"
       }
+
    ]
 }

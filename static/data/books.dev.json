@@ -3443,11 +3443,7 @@
          "grade": "9.4",
          "tags": "thor,journey-into-mystery,marvel,cgc,kirby",
          "sales": [
-            {
-               "salesDate": "2013-03-23",
-               "price": "171000",
-               "venue": "unknown"
-            }
+           
          ],
          "id": "0217"
       },
@@ -3468,6 +3464,12 @@
                "salesDate": "2013-05-09",
                "price": "185500",
                "venue": "unknown"
+            },
+            {
+               "salesDate": "2013-03-23",
+               "price": "171000",
+               "venue": "ComicConnect",
+               "link":"https://www.comicconnect.com/bookDetail.php?id=493272"
             },
             {
                "salesDate": "2018-05-23",

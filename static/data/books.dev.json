@@ -6397,6 +6397,21 @@
                   "link": "https://www.comicconnect.com/bookDetail.php?id=713907"
                }],
             "id": "0469"
+         },{
+            "title": "All Star Comics",
+            "issue": "8",
+            "publisher": "DC Comics",
+            "gradeSrc": "CGC",
+            "grade": "9.0",
+            "cgcid":"1196998001",
+            "tags": "cgc,wonder-woman,dc",
+            "sales": [{
+               "venue": "ComicConnect",
+               "salesDate": "2016-03-28",
+               "price": "411001",
+               "link":"https://www.comicconnect.com/bookDetail.php?id=654651"
+            }],
+            "id": "0470"
          }
       ]
 }

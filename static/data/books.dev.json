@@ -6322,8 +6322,82 @@
                }
             ],
             "id": "0464"
+         },
+         {
+            "title": "Action Comics",
+            "issue": "1",
+            "publisher": "DC Comics",
+            "gradeSrc": "CGC",
+            "grade": "5.5 (C)",
+            "restoration": "Conserved",
+            "cgcid": "1218115001",
+            "tags": "action,superman,dc",
+            "sales": [{
+               "salesDate": "2017-06-12",
+               "price": "393000",
+               "venue": "ComicConnect",
+               "link":"https://www.comicconnect.com/bookDetail.php?id=713120"
+            }],
+            "id": "0465"
+         },
+         {
+            "title": "Action Comics",
+            "issue": "1",
+            "publisher": "DC Comics",
+            "gradeSrc": "CGC",
+            "grade": "4.5",
+            "cgcid": "1053850001",
+            "tags": "cgc,superman,action,dc",
+            "sales": [{
+               "venue": "ComicConnect",
+               "salesDate": "2012-04-16",
+               "price": "323000",
+               "link":"https://www.comicconnect.com/bookDetail.php?id=432392"
+            }],
+            "id": "0466"
+         },
+         {
+            "title": "Action Comics",
+            "issue": "1",
+            "publisher": "DC Comics",
+            "gradeSrc": "CGC",
+            "grade": "1.5",
+            "cgcid": "0965827001",
+            "tags": "cgc,superman,action,dc",
+            "sales": [{
+               "venue": "ComicConnect",
+               "salesDate": "2010-12-2",
+               "price": "116000",
+               "link":"https://www.comicconnect.com/bookDetail.php?id=382133"
+            }],
+            "id": "0467"
+         }, {
+            "title": "Action Comics",
+            "issue": "7",
+            "gradeSrc": "CGC",
+            "cgcid":"1218380001",
+            "grade": "5.5",
+            "sales": [{
+                  "salesDate": "2017-06-20",
+                  "price": "188000",
+                  "venue": "ComicConnect",
+                  "link": "https://www.comicconnect.com/bookDetail.php?id=713118"
+               }],
+            "id": "0468"
+         },{
+            "title": "Action Comics",
+            "issue": "7",
+            "gradeSrc": "CGC",
+            "grade": "4.0",
+            "cgcid":"0718872002",
+            "sales": [{
+                  "salesDate": "2017-05-1",
+                  "price": "125000",
+                  "venue": "ComicConnect",
+                  "link": "https://www.comicconnect.com/bookDetail.php?id=713907"
+               }],
+            "id": "0469"
          }
-            
       ]
 }
 

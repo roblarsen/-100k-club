@@ -7166,6 +7166,24 @@
             }
          ],
          "id": "0474"
+      },
+      {
+         "title": "Fantastic Comics",
+         "issue": "3",
+         "gradeSrc": "CGC",
+         "grade": "9.4",
+         "pedigree":"Edgar Church",
+         "cgcid":"1485124007",
+         "tags": "cgc,fantastic-comics,fox, pedigree",
+         "sales": [
+            {
+               "salesDate": "2017-06-13",
+               "price": "243000",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/bookDetail.php?id=712933"
+            }
+         ],
+         "id": "0475"
       }
 
    ]

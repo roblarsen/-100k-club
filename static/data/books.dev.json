@@ -3762,13 +3762,15 @@
          "title": "Whiz",
          "issue": "2",
          "gradeSrc": "CGC",
+         "cgcid": "1108217001",
          "grade": "9.0",
          "tags": "whiz,captain-marvel",
          "sales": [
             {
                "salesDate": "2012-12-12",
                "price": "281001",
-               "venue": "unknown"
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/bookDetail.php?id=480400"
             }
          ],
          "id": "0239"

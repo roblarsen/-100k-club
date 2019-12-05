@@ -1219,6 +1219,7 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "8.0",
+         "cgcid": "1055448002",
          "tags": "dc,batman,cgc",
          "sales": [
             {
@@ -1226,6 +1227,12 @@
                "price": "175365",
                "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/bookDetail.php?id=439804"
+            },
+            {
+               "salesDate": "2019-09-09",
+               "price": "498000",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/bookDetail.php?id=843695"
             }
          ],
          "id": "0082"
@@ -4517,7 +4524,7 @@
                "link": "http://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F_SORT%3DYES%26Focused%3D1%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2EMaxBid%26ODire3%3DASC%23Item_1023032&id=1023032"
             },
             {
-               "salesDate": "201-09-10",
+               "salesDate": "2019-06-10",
                "price": "220000",
                "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/bookDetail.php?id=813126"
@@ -6924,6 +6931,12 @@
                "price": "102001",
                "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/bookDetail.php?id=719272"
+            },
+            {
+               "salesDate": "2019-09-09",
+               "price": "120000",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/bookDetail.php?id=833900"
             }
          ],
          "id": "0462"
@@ -7186,6 +7199,25 @@
             }
          ],
          "id": "0475"
+      },
+      ,
+      {
+         "title": "Phantom Lady",
+         "issue": "17",
+         "publisher": "Fox",
+         "gradeSrc": "CGC",
+         "grade": "9.4",
+         "cgcid": "2047077001",
+         "tags": "cgc,class-cover",
+         "sales": [
+            {
+               "venue": "ComicConnect",
+               "salesDate": "2010-09-12",
+               "price": "121000",
+               "link": "https://www.comicconnect.com/bookDetail.php?id=839537"
+            }
+         ],
+         "id": "0476"
       }
 
    ]

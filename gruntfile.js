@@ -1,6 +1,6 @@
 "use strict";
 module.exports = function (grunt) {
-
+  var sass = require("node-sass");
   // Automatically load required Grunt tasks
   require("jit-grunt")(grunt, {
     useminPrepare: "grunt-usemin",
@@ -29,6 +29,7 @@ module.exports = function (grunt) {
     },
     sass: {
         options: {
+            implementation: sass,
             sourceMap: true
         },
         dist: {
@@ -150,7 +151,7 @@ module.exports = function (grunt) {
           "dist/scripts"
         ],
         patterns: {
-          js: [[/(img\/[^""""]*\.(png|jpg|jpeg|gif|webp|svg))/g, "Replacing references to images"]]
+          js: [[/(img\/[^'''']*\.(png|jpg|jpeg|gif|webp|svg))/g, "Replacing references to images"]]
         }
       }
     },
@@ -342,41 +343,41 @@ module.exports = function (grunt) {
 
 module.exports = function (grunt) {
   grunt.initConfig({
-    pkg: grunt.file.readJSON("package.json"),
+    pkg: grunt.file.readJSON('package.json'),
     concat: {
       js: {
-        src: ["_assets/static/*"],
-        dest: "_assets/js/100k.full.js"
+        src: ['_assets/static/*'],
+        dest: '_assets/js/100k.full.js'
       }
     },
     ngmin: {
       js: {
-        src: "_assets/js/100k.full.js",
-        dest: "_assets/js/100k.js"
+        src: '_assets/js/100k.full.js',
+        dest: '_assets/js/100k.js'
       }
     },
     uglify: {
       js: {
         files: {
-          "_assets/js/100k.js": ["_assets/js/100k.js"]
+          '_assets/js/100k.js': ['_assets/js/100k.js']
         }
       }
     },
 
     watch: {
-      files: ["data/books.dev.json","data/sa-pedigrees.dev.json", "_assets/static/*"],
-      tasks: ["concat", "ngmin", "minjson", "uglify","clean"]
+      files: ['data/books.dev.json','data/sa-pedigrees.dev.json', '_assets/static/*'],
+      tasks: ['concat', 'ngmin', 'minjson', 'uglify','clean']
     },
-    clean: ["_assets/js/100k.full.js"],
+    clean: ['_assets/js/100k.full.js'],
     jshint: {
-      files: ["gruntfile.js", "_assets/static/*.js"],
+      files: ['gruntfile.js', '_assets/static/*.js'],
       options: {
         passfail:false,
         maxerr: 100,
         browser: true,
         jquery: true,
         predef: [
-          "angular"
+          'angular'
         ],
         devel: true,
         bitwise: true,
@@ -388,18 +389,18 @@ module.exports = function (grunt) {
         forin:true,
         freeze:true,
         indent:2,
-        quotmark:"double",
+        quotmark:'double',
         unused:true
       }
     }
   });
-  grunt.loadNpmTasks("grunt-shell");
-  grunt.loadNpmTasks("grunt-minjson");
-  grunt.loadNpmTasks("grunt-ngmin");
-  grunt.loadNpmTasks("grunt-contrib-clean");
-  grunt.loadNpmTasks("grunt-contrib-jshint");
-  grunt.loadNpmTasks("grunt-contrib-concat");
-  grunt.loadNpmTasks("grunt-contrib-uglify");
-  grunt.loadNpmTasks("grunt-contrib-watch");
-  grunt.registerTask("default", ["concat:js", "ngmin:js", "uglify:js","clean","minjson:data"]);
+  grunt.loadNpmTasks('grunt-shell');
+  grunt.loadNpmTasks('grunt-minjson');
+  grunt.loadNpmTasks('grunt-ngmin');
+  grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.registerTask('default', ['concat:js', 'ngmin:js', 'uglify:js','clean','minjson:data']);
 };*/

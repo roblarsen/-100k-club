@@ -3100,12 +3100,19 @@
          "grade": "7.0",
          "gradeSrc": "cgc",
          "tags": "batman,detective-comics,dc",
+         "cgcid": "0913676001",
          "sales": [
             {
                "salesDate": "2011-11-19",
                "price": "492938",
                "venue": "Heritage",
                "link": "http://comics.ha.com/c/prlink.zx?saleNo=7027&lotNo=91063"
+            },
+            {
+               "salesDate": "2020-11-19",
+               "price": "1500000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/detective-comics-27-dc-1939-cgc-fn-vf-70-off-white-pages/a/7236-91044.s?ic4=ListView-ShortDescription-071515"
             }
          ],
          "id": "0192"
@@ -4218,7 +4225,12 @@
          "gradeSrc": "CGC",
          "grade": "3.5",
          "tags": "superman,dc",
-         "sales": [],
+         "cgcid": "1971270001",
+         "sales": [{
+            "salesDate": "2020-03-05",
+            "price": "288000",
+            "venue": "ComicConnect"
+         }],
          "id": "0269"
       },
       {
@@ -7090,6 +7102,11 @@
                "price": "125000",
                "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/bookDetail.php?id=713907"
+            },{
+               "salesDate": "2020-11-19",
+               "price": "144000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/action-comics-7-dc-1938-cgc-vg-40-off-white-pages/a/7236-91030.s?ic4=ListView-ShortDescription-071515"
             }
          ],
          "id": "0469"
@@ -7389,6 +7406,74 @@
                "venue": "ComicLink"
             }  ],
          "id": "0485"
+      },
+      {
+         "title": "Detective Comics",
+         "grade": "5.0",
+         "gradeSrc": "CGC",
+         "issue": "31",
+         "cgcid":"0700549001",
+         "tags": "detective-comics,batman,dc,cbcs",
+         "sales": [
+            {
+               "salesDate": "2020-11-19",
+               "price": "132000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/detective-comics-31-dc-1939-cgc-vg-fn-50-cream-to-off-white-pages/a/7236-91046.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
+         "id": "0485"
+      },
+      {
+         "title": "Amazing Fantasy",
+         "issue": "15",
+         "gradeSrc": "CGC",
+         "grade": "9.4",
+         "cgcid":"2049900001",
+         "tags": "amazing-fantasy,marvel,spider-man,cgc",
+         "sales": [
+            {
+               "salesDate": "2020-03-05",
+               "price": "795000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/amazing-fantasy-15-marvel-1962-cgc-nm-94-off-white-to-white-pages/a/7224-91050.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
+         "id": "0486"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "7.0",
+         "cgcid": "2085738001",
+         "tags": "captain-america,marvel,timely,golden-age",
+         "sales": [
+            {
+               "salesDate": "2020-03-05",
+               "price": "186000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/captain-america-comics-1-timely-1941-cgc-fn-vf-70-off-white-to-white-pages/a/7224-91054.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
+         "id": "0487"
+      },
+      {
+         "title": "Batman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "4.0",
+         "cgcid": "2067402001",
+         "tags": "batman,cgc,comiclink,dc",
+         "sales": [
+            {
+               "salesDate": "2020-03-05",
+               "price": "117000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/batman-1-dc-1940-cgc-vg-40-off-white-to-white-pages/a/7224-91053.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
+         "id": "0488"
       }
 
    ]

@@ -4230,7 +4230,14 @@
             "salesDate": "2020-03-05",
             "price": "288000",
             "venue": "ComicConnect"
-         }],
+         },{
+            "salesDate":  "2020-07-09",
+            "venue":"Heritage",
+            "price":"360000",
+            "link":"https://comics.ha.com/itm/golden-age-1938-1955-/superman-1-dc-1939-cgc-vg-fn-50-off-white-pages/a/7231-91070.s?ic4=ListView-ShortDescription-071515"
+         }
+         
+         ],
          "id": "0269"
       },
       {
@@ -7474,6 +7481,40 @@
             }
          ],
          "id": "0488"
+      },
+      {
+         "title": "Wonder Woman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "8.0",
+         "tags": "wonder-woman,dc",
+         "sales": [
+            {
+               "venue": "Heritage",
+               "salesDate": "2020-07-09",
+               "price": "120000",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/wonder-woman-1-dc-1942-cgc-vf-80-white-pages/a/7231-91078.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
+         "id": "0489"
+      },
+      {
+         "title": "Tales of Suspense",
+         "issue": "39",
+         "gradeSrc": "CGC",
+         "grade": "9.4",
+         "cgcid": "1165624001",
+         "tags": "marvel,iron-man,cgc",
+         "sales": [
+            
+            {
+               "salesDate": "2020-07-09",
+               "price": "99000",
+               "venue": "Heritage",
+               "link":"https://comics.ha.com/itm/silver-age-1956-1969-/tales-of-suspense-39-marvel-1963-cgc-nm-94-off-white-to-white-pages/a/7231-91075.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
+         "id": "0490"
       }
 
    ]

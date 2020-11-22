@@ -3510,6 +3510,12 @@
          "tags": "thor,journey-into-mystery,marvel,cgc,kirby",
          "sales": [
             {
+               "salesDate": "2020-02-26",
+               "price": "150000",
+               "venue": "comiclink",
+               "link": "https://comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FSEARCH%2EASP%3FPreviewCode%3D2020feb%26where%3Dauctions%26title%3Djourney%2B83%26GO%3DGO%26ItemType%3DCB%23Item%5F1373349&id=1373349&itemType=0#detail"
+            },
+            {
                "salesDate": "2014-02-24",
                "price": "275000",
                "venue": "comiclink",
@@ -7539,6 +7545,7 @@
          "gradeSrc": "CGC",
          "grade": "9.2",
          "tags": "cgc,marvel,x-men,upgrade",
+         "cgcid":"2089099001",
          "sales": [
             {
                "salesDate": "2020-05-23",
@@ -7548,6 +7555,39 @@
             }
          ],
          "id": "0492"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "cgcid": "0065136003",
+         "gradeSrc": "CGC",
+         "grade": "7.5",
+         "tags": "captain-america,marvel,timely,golden-age",
+         "sales": [
+            {
+               "venue": "Comiclink",
+               "salesDate": "2020-02-25",
+               "price": "211000",
+               "link": "https://comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FSEARCH%2EASP%3FPreviewCode%3D2020feb%26where%3Dauctions%26title%3Dcaptain%2B1%26GO%3DGO%26ItemType%3DCB%23Item%5F1372158&id=1372158&itemType=0"
+            }
+         ],
+         "id": "0493"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "5.0",
+         "tags": "captain-america,marvel,timely,golden-age",
+         "sales": [
+            {
+               "salesDate": "2020-02-25",
+               "price": "100000",
+               "venue": "comiclink",
+               "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FDEFAULT%2EASP%3F%5FSORT%3DYES%26Focused%3D1%26ItemType%3D0%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2EMaxBid%26ODire3%3DDESC%23Item%5F1379079&id=1379079&itemType=0#detail"
+            }
+         ],
+         "id": "0494"
       }
 
    ]

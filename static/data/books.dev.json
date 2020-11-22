@@ -5736,6 +5736,12 @@
                "price": "144000",
                "venue": "Heritage",
                "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/journey-into-mystery-83-marvel-1962-cgc-nm-94-off-white-to-white-pages/a/7204-91064.s"
+            },
+            {
+               "salesDate": "2020-05-27",
+               "price": "141778",
+               "venue": "comiclink",
+               "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FSEARCH%2EASP%3FPreviewCode%3D2020may%26where%3Dauctions%26title%3Djourney%2B83%26GO%3DGO%26ItemType%3DCB%23Item%5F1387757&id=1387757&itemType=0#detail"
             }
          ],
          "id": "0369"
@@ -7589,6 +7595,39 @@
             }
          ],
          "id": "0494"
+      },
+      {
+         "title": "Incredible Hulk",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "9.0",
+         "cgcid":"1971527001",
+         "tags": "incredible-hulk,cgc,marvel,hulk",
+         "sales": [
+            {
+               "salesDate": "2020-05-27",
+               "price": "200000",
+               "venue": "Comiclink",
+               "link":"https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FSEARCH%2EASP%3FPreviewCode%3D2020may%26where%3Dauctions%26title%3Dhulk%2B1%26GO%3DGO%26ItemType%3DCB%23Item%5F1401751&id=1401751&itemType=0"
+            }
+         ],
+         "id": "0495"
+      },
+      {
+         "title": "All Star Comics",
+         "issue": "8",
+         "gradeSrc": "CGC",
+         "grade": "7.5",
+         "tags": "golden-age,cgc,wonder-woman",
+         "sales": [
+            {
+               "salesDate": "2020-05-27",
+               "price": "150000",
+               "venue": "Comiclink",
+               "link":"https://comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FSEARCH.ASP%3FPreviewCode%3D2020may%26where%3Dauctions%26title%3Dall%2Bstar%2B8%26GO%3DGO%26ItemType%3DCB%23Item_1387718&id=1387718&itemType=0#detail"
+            }
+         ],
+         "id": "0496"
       }
 
    ]

@@ -7515,6 +7515,39 @@
             }
          ],
          "id": "0490"
+      },
+      {
+         "title": "Amazing Fantasy",
+         "issue": "15",
+         "gradeSrc": "CGC",
+         "grade": "8.0",
+         "cgcid":"0006148001",
+         "tags": "amazing-fantasy,marvel,spider-man,cgc",
+         "sales": [
+            {
+               "salesDate": "2029-05-20",
+               "price": "177000",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/item/854568"
+            }
+         ],
+         "id": "0491"
+      },
+      {
+         "title": "X-Men",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "9.2",
+         "tags": "cgc,marvel,x-men,upgrade",
+         "sales": [
+            {
+               "salesDate": "2020-05-23",
+               "price": "134000",
+               "venue": "ComicConnect",
+               "link":"https://www.comicconnect.com/item/867967"
+            }
+         ],
+         "id": "0492"
       }
 
    ]

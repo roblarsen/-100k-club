@@ -1930,6 +1930,7 @@
          "gradeSrc": "CGC",
          "grade": "9.2",
          "tags": "hulk,marvel",
+         "cgcid":"0956962001",
          "sales": [
             {
                "salesDate": "2009-11-19",
@@ -1950,8 +1951,14 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "9.2",
+         "cgcid":"1996073001",
          "tags": "marvel,hulk",
-         "sales": [],
+         "sales": [{
+            "salesDate": "2018-11-15",
+            "price": "336000",
+            "venue": "Heritage",
+            "link": "https://comics.ha.com/itm/silver-age-1956-1969-/the-incredible-hulk-1-marvel-1962-cgc-nm-92-white-pages/a/7192-91065.s?ic4=ListView-Thumbnail-071515"
+         }],
          "id": "0129"
       },
       {
@@ -5311,7 +5318,22 @@
          "gradeSrc": "CGC",
          "grade": "8.5",
          "tags": "hulk,marvel",
-         "sales": [],
+         "cgcid":"1445333001",
+         "sales": [{
+            "salesDate": "2018-11-15",
+            "price": "108000",
+            "venue": "Heritage",
+            "link": "https://comics.ha.com/itm/silver-age-1956-1969-/the-incredible-hulk-1-marvel-1962-cgc-vf-85-white-pages/a/7192-91066.s?ic4=ListView-ShortDescription-071515"
+         },
+         {
+            "salesDate": "2020-08-26",
+            "price": "122001",
+            "venue": "Heritage",
+            "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FSEARCH.ASP%3FPreviewCode%3D2020aug%26where%3Dauctions%26title%3Dhulk%2B1%26GO%3DGO%26ItemType%3DCB%23Item_1411048&id=1411048&itemType=0#detail"
+         }
+         
+         
+         ],
          "id": "0338"
       },
       {
@@ -7628,6 +7650,46 @@
             }
          ],
          "id": "0496"
+      },
+      ,
+      {
+         "title": "Amazing Fantasy",
+         "issue": "15",
+         "gradeSrc": "CGC",
+         "grade": "7.5",
+         "tags": "amazing-fantasy,marvel,spider-man,cgc",
+         "sales": [
+            {
+               "salesDate": "2020-08-25",
+               "price": "138779",
+               "venue": "ComicLink",
+               "link": "https://comiclink.com/auctions/item.asp?back=%2FCOMICTRACK%2FADMIN%2FAUCTION.ASP%3FImage1.x%3D14%252C%2B33%26Searchissuenumber%3D%26SearchItemID%3D%26Image1.y%3D8%252C%2B8%26SearchOperator%3D%26Searchtitle%3D%26Searchcondition%3D%26SearchPedigree%3D%26SearchSeller%3D%26SearchSession%3D1%26SearchHighBidder%3D%26SearchHighBidderState%3D%26SearchStartDate%3D8%252F13%252F2020%2B8%253A00%253A00%2BPM%26SearchInvi%3D%26SearchShowThumbs%3DY%26x%3D0%26y%3D0%26pg%3D1&id=1420742&next=%2FCOMICTRACK%2FADMIN%2FAUCTION.ASP%3FImage1.x%3D14%252C%2B33%26Searchissuenumber%3D%26SearchItemID%3D%26Image1.y%3D8%252C%2B8%26SearchOperator%3D%26Searchtitle%3D%26Searchcondition%3D%26SearchPedigree%3D%26SearchSeller%3D%26SearchSession%3D1%26SearchHighBidder%3D%26SearchHighBidderState%3D%26SearchStartDate%3D8%252F13%252F2020%2B8%253A00%253A00%2BPM%26SearchInvi%3D%26SearchShowThumbs%3DY%26x%3D0%26y%3D0%26pg%3D1#detail"
+            }
+         ],
+         "id": "0497"
+      },
+      {
+         "title": "Marvel Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "6.0",
+         "cgcid": "0055531007",
+         "provenance":"Nic Cage Copy",
+         "tags": "marvel,timely,marvel-comics,restored",
+         "sales": [ {
+            "salesDate": "2020-08-26",
+            "price": "280500",
+            "venue": "ComicLink",
+            "link": "https://comiclink.com/auctions/item.asp?back=%2FCOMICTRACK%2FADMIN%2FAUCTION.ASP%3FImage1.x%3D14%252C%2B33%26Searchissuenumber%3D%26SearchItemID%3D%26Image1.y%3D8%252C%2B8%26SearchOperator%3D%26Searchtitle%3D%26Searchcondition%3D%26SearchPedigree%3D%26SearchSeller%3D%26SearchSession%3D1%26SearchHighBidder%3D%26SearchHighBidderState%3D%26SearchStartDate%3D8%252F13%252F2020%2B8%253A00%253A00%2BPM%26SearchInvi%3D%26SearchShowThumbs%3DY%26x%3D0%26y%3D0%26pg%3D1&id=1420742&next=%2FCOMICTRACK%2FADMIN%2FAUCTION.ASP%3FImage1.x%3D14%252C%2B33%26Searchissuenumber%3D%26SearchItemID%3D%26Image1.y%3D8%252C%2B8%26SearchOperator%3D%26Searchtitle%3D%26Searchcondition%3D%26SearchPedigree%3D%26SearchSeller%3D%26SearchSession%3D1%26SearchHighBidder%3D%26SearchHighBidderState%3D%26SearchStartDate%3D8%252F13%252F2020%2B8%253A00%253A00%2BPM%26SearchInvi%3D%26SearchShowThumbs%3DY%26x%3D0%26y%3D0%26pg%3D1#detail"
+         },
+         {
+            "salesDate": "2002-10-10",
+            "venue": "Heritage",
+            "price": "36800",
+            "link":"https://comics.ha.com/itm/golden-age-1938-1955-/marvel-comics-1-timely-1939-cgc-fn-60-cream-to-off-white-pages-publisher-martin-goodman-took-a-gamble-when-he-publishe/a/804-5174.s?ic4=ListView-ShortDescription-071515"
+         }
+      ],
+         "id": "0498"
       }
 
    ]

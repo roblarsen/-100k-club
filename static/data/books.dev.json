@@ -5331,8 +5331,6 @@
             "venue": "Heritage",
             "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FSEARCH.ASP%3FPreviewCode%3D2020aug%26where%3Dauctions%26title%3Dhulk%2B1%26GO%3DGO%26ItemType%3DCB%23Item_1411048&id=1411048&itemType=0#detail"
          }
-         
-         
          ],
          "id": "0338"
       },
@@ -7651,7 +7649,6 @@
          ],
          "id": "0496"
       },
-      ,
       {
          "title": "Amazing Fantasy",
          "issue": "15",
@@ -7690,6 +7687,18 @@
          }
       ],
          "id": "0498"
+      },
+      {
+         "title": "Batman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "9.4",
+         "cgcid":"3734252001",
+         "tags": "batman,cgc, heritage,dc",
+         "sales": [
+
+         ],
+         "id": "0499"
       }
 
    ]

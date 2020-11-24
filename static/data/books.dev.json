@@ -7699,7 +7699,112 @@
 
          ],
          "id": "0499"
+      },
+      {
+         "title": "Detective Comics",
+         "issue": "27",
+         "gradeSrc": "CGC",
+         "grade": "9.2 (a5)",
+         "cgcid":"1298036001",
+         "tags": "batman,dc,restored",
+         "sales": [
+            {
+               "salesDate": "2018-11-15",
+               "price": "180000",
+               "venue": "Heritage",
+               "link": " https://comics.ha.com/itm/golden-age-1938-1955-/detective-comics-27-dc-1939-cgc-apparent-nm-92-extensive-a-5-off-white-pages/a/7192-91058.s?ic4=ListView-ShortDescription-071515"
+            }
+        ],
+
+         "id": "0500"
+      },
+      {
+         "title": "Action Comics",
+         "issue": "13",
+         "publisher": "DC Comics",
+         "gradeSrc": "cgc",
+         "grade": "9.0",
+         "cgcid":"0932372001",
+         "tags": "cgc,action,superman,dc",
+         "sales": [
+            {
+               "salesDate": "2018-11-15",
+               "price": "156000",
+               "venue": "Heritage",
+               "link":"https://comics.ha.com/itm/golden-age-1938-1955-/action-comics-13-dc-1939-cgc-vf-nm-90-cream-to-off-white-pages/a/7192-91046.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
+         "id": "0501"
+      },{
+         "title": "Amazing Fantasy",
+         "issue": "15",
+         "gradeSrc": "CGC",
+         "grade": "7.5",
+         "cgcid":"1075776001",
+         "tags": "spider-man,amazing-fantasy,cgc,marvel",
+         "sales": [
+            {
+               "salesDate": "2018-11-15",
+               "price": "144000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/amazing-fantasy-15-marvel-1962-cgc-vf-75-off-white-to-white-pages/a/7192-91048.s?ic4=ListView-Thumbnail-071515"
+            }
+         ],
+         "id": "0502"
+      },{
+         "title": "Superman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "1.8",
+         "tags": "superman,dc",
+         "cgcid":"1968226001",
+         "sales": [
+            {
+               "salesDate": "2018-11-15",
+               "price": "132000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superman-1-dc-1939-cgc-gd-18-off-white-pages/a/7192-91076.s?ic4=ListView-Thumbnail-071515"
+            }
+         ],
+         "id": "0503"
+
+      },
+      {
+         "title": "Amazing Fantasy",
+         "issue": "15",
+         "gradeSrc": "CGC",
+         "grade": "7.0",
+         "cgcid":"1296227001",
+         "tags": "spider-man,amazing-fantasy,cgc,marvel",
+         "sales": [
+            {
+               "salesDate": "2018-11-15",
+               "price": "114000",
+               "venue": "Heritage",
+               "link": "         https://comics.ha.com/itm/silver-age-1956-1969-/amazing-fantasy-15-marvel-1962-cgc-fn-vf-70-off-white-to-white-pages/a/7192-91049.s?ic4=ListView-Thumbnail-071515"
+            }
+         ],
+         "id": "0504"
+
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "3.5",
+         "cgcid":"1968450001",
+         "tags": "captain-america,cgc,timely,marvel",
+         "sales": [
+            {
+               "salesDate": "2009-05-22",
+               "price": "102000",
+               "venue": "Heritage",
+               "link":"https://comics.ha.com/itm/golden-age-1938-1955-/captain-america-comics-1-timely-1941-cgc-vg-35-off-white-to-white-pages/a/7192-91054.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
+         "id": "0505"
       }
+      
 
    ]
 }

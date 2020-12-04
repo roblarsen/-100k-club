@@ -7803,8 +7803,75 @@
             }
          ],
          "id": "0505"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "cgcid": "3736289004",
+         "grade": "5.5",
+         "tags": "captain-america,cgc,marvel,timely",
+         "sales": [
+            {
+               "salesDate": "2020-12-01",
+               "price": "182501",
+               "venue": "comiclink",
+               "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FPREVIEW.ASP%3F_SORT%3DYES%26code%3D2020nov%26session%3D1%26f1%3Da.MaxBid%26ODire1%3DDESC%26f2%3Di.Type%252C%2Bi.Title%252C%2Bi.IssueNumber%26ODire2%3DASC%26f3%3Dsortcond%26ODire3%3DDESC%26pg%3D1%26safilter%3D1%23Item_1445469&id=1445469&itemType=0#detail"
+            }
+         ],
+         "id": "0506"
+      },
+      {
+         "title": "Batman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "3.0",
+         "cgcid":"3736289005",
+         "tags": "batman,cgc,comiclink,dc",
+         "sales": [
+            {
+               "salesDate": "2020-12-01",
+               "price": "133550",
+               "venue": "comiclink",
+               "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FPREVIEW.ASP%3F_SORT%3DYES%26code%3D2020nov%26session%3D1%26f1%3Da.MaxBid%26ODire1%3DDESC%26f2%3Di.Type%252C%2Bi.Title%252C%2Bi.IssueNumber%26ODire2%3DASC%26f3%3Dsortcond%26ODire3%3DDESC%26pg%3D1%26safilter%3D1%23Item_1445466&id=1445466&itemType=0#detail"
+            }
+         ],
+         "id": "0507"
+      },
+      {
+         "title": "Amazing Spider-Man",
+         "issue": "3",
+         "gradeSrc": "CGC",
+         "grade": "9.8",
+         "cgcid":"2095572001",
+         "tags": "marvel,spider-man,cgc",
+         "sales": [
+            {
+               "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FPREVIEW.ASP%3F_SORT%3DYES%26code%3D2020nov%26session%3D1%26f1%3Da.MaxBid%26ODire1%3DDESC%26f2%3Di.Type%252C%2Bi.Title%252C%2Bi.IssueNumber%26ODire2%3DASC%26f3%3Dsortcond%26ODire3%3DDESC%26pg%3D1%26safilter%3D1%23Item_1430895&id=1430895&itemType=0",
+               "salesDate": "2020-12-01",
+               "price": "115000",
+               "venue": "comiclink"
+            }
+         ],
+         "id": "0508"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "pedigree": "Reilly",
+         "gradeSrc": "CGC",
+         "grade": "8.5(SP)",
+         "restoration": "Slight Professional",
+         "tags": "captain-america,marvel,timely,pedigree",
+         "sales": [
+            {
+               "salesDate": "2020-12-01",
+               "price": "105166",
+               "venue": "comiclink",
+               "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FPREVIEW.ASP%3F_SORT%3DYES%26code%3D2020nov%26session%3D1%26f1%3Da.MaxBid%26ODire1%3DDESC%26f2%3Di.Type%252C%2Bi.Title%252C%2Bi.IssueNumber%26ODire2%3DASC%26f3%3Dsortcond%26ODire3%3DDESC%26pg%3D1%26safilter%3D1%23Item_1430806&id=1430806&itemType=0#detail"
+            }
+         ],
+         "id": "0508"
       }
-      
-
    ]
 }

@@ -6094,7 +6094,7 @@
             {
                "salesDate": "2018-12-14",
                "venue": "ComicConnect",
-               "salesDate": "https://www.comicconnect.com/bookDetail.php?id=752902",
+               "link": "https://www.comicconnect.com/bookDetail.php?id=752902",
                "price": "112000"
             }
          ],
@@ -6379,8 +6379,14 @@
          "issue": "15",
          "gradeSrc": "CGC",
          "grade": "8.0",
+         "cgcid": "1971545001",
          "tags": "amazing-fantasy,marvel,spider-man,cgc",
-         "sales": [],
+         "sales": [{
+            "salesDate": "2020-04-30",
+            "price": "180000",
+            "venue": "Heritage",
+            "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/amazing-fantasy-15-marvel-1962-cgc-vf-80-off-white-pages/a/7229-91055.s"
+         }],
          "id": "0416"
       },
       {
@@ -7557,7 +7563,7 @@
          "tags": "amazing-fantasy,marvel,spider-man,cgc",
          "sales": [
             {
-               "salesDate": "2029-05-20",
+               "salesDate": "2020-05-20",
                "price": "177000",
                "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/item/854568"
@@ -7872,6 +7878,46 @@
             }
          ],
          "id": "0508"
+      },
+      {
+         "title": "Batman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "2.5",
+         "cgcid":"1106598001",
+         "tags": "batman,cgc,dc",
+         "sales": [
+            {
+               "salesDate": "2020-09-10",
+               "price": "102000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/batman-1-dc-1940-cgc-gd-25-cream-to-off-white-pages/a/7234-91033.s"
+            },
+            {
+               "salesDate": "2020-09-16",
+               "price": "132600",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/batman-1-dc-1940-cgc-gd-25-cream-to-off-white-pages/a/7234-91033.s"
+            }
+         ],
+         "id": "0509"
+      },
+      {
+         "title": "Detective Comics",
+         "issue": "29",
+         "gradeSrc": "cgc",
+         "grade": "5.5",
+         "cgcid":"3697874001",
+         "tags": "detective-comics,dc,batman",
+         "sales": [
+            {
+               "salesDate": "2020-09-10",
+               "price": "102000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/detective-comics-29-dc-1939-cgc-fn-55-cream-to-off-white-pages/a/7234-91038.s"
+            }
+         ],
+         "id": "0510"
       }
    ]
 }

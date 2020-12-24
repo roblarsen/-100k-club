@@ -3748,8 +3748,14 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "5.0",
+         "cgcid":"1971833001",
          "tags": "superman,dc",
-         "sales": [],
+         "sales": [{
+            "salesDate": "2020-07-09",
+            "price": "360000",
+            "venue": "Heritage",
+            "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-dc-1939-cgc-vg-fn-50-off-white-pages/a/7231-91070.s"
+         }],
          "id": "0234"
       },
       {
@@ -3781,6 +3787,12 @@
                "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superman-1-dc-1939-cgc-vg-45-cream-to-off-white-pages/a/7141-91196.s?ic4=ListView-ShortDescription-071515",
                "salesDate": "2016-11-17",
                "price": "358500",
+               "venue": "Heritage"
+            },
+            {
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-dc-1939-cgc-vg-45-cream-to-off-white-pages/a/7234-91047.s",
+               "salesDate": "2020-09-10",
+               "price": "348000",
                "venue": "Heritage"
             }
          ],
@@ -4281,8 +4293,14 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "3.0",
+         "cgcid":"3702096001",
          "tags": "superman,dc",
-         "sales": [],
+         "sales": [{
+            "salesDate":  "2020-12-18",
+            "venue":"Heritage",
+            "price":"310111",
+            "link":"https://www.comicconnect.com/item/890586"
+         }],
          "id": "0272"
       },
       {
@@ -7923,6 +7941,24 @@
             }
          ],
          "id": "0510"
+      },
+      {
+         "title": "Superman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "6.0 (A2)",
+         "gradingNotes": "Slight/Mod",
+         "cgcid": "2085384003",
+         "tags": "superman,dc",
+         "sales": [
+            {
+               "salesDate": "2020-04-30",
+               "price": "144000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-dc-1939-cgc-apparent-fn-60-slight-to-moderate-a-2-off-white-pages/a/7229-92076.s"
+            }
+         ],
+         "id": "0511"
       }
    ]
 }

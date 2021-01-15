@@ -1430,12 +1430,14 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "8.5",
+         "cgcid":"0912091001",
          "tags": "captain-america,cgc,timely,marvel",
          "sales": [
             {
                "salesDate": "2009-05-22",
                "price": "95600",
-               "venue": "Heritage"
+               "venue": "Heritage",
+               "link":"https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-timely-1941-cgc-vf-85-off-white-to-white-pages/a/7007-91105.s?ic16=ViewItem-Auction-Archive-PreviousPricesHeritage-081514"
             }
          ],
          "id": "0093"
@@ -7725,6 +7727,12 @@
          "cgcid":"3734252001",
          "tags": "batman,cgc, heritage,dc",
          "sales": [
+            {
+               "salesDate": "2021-01-14",
+               "venue": "Heritage",
+               "price": "2200000",
+               "link":"https://comics.ha.com/itm/golden-age-1938-1955-/batman-1-dc-1940-cgc-nm-94-white-pages/a/7239-91027.s?ic4=ListView-ShortDescription-071515"
+            }
 
          ],
          "id": "0499"
@@ -7959,6 +7967,54 @@
             }
          ],
          "id": "0511"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "8.5",
+         "cgcid":"3751865001",
+         "tags": "captain-america,cgc,timely,marvel",
+         "sales": [
+            {
+               "salesDate": "2021-01-14",
+               "price": "384000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/captain-america-comics-1-timely-1941-cgc-vf-85-off-white-pages/a/7239-91029.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
+         "id": "0512"
+      },
+      {
+         "title": "Daredevil",
+         "issue": "1",
+         "gradeSrc": "cgc",
+         "grade": "9.6",
+         "cgcid":"3724927009",
+         "tags": "daredevil,marvel",
+         "sales": [
+            {
+               "salesDate": "2021-01-14",
+               "price": "102000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/daredevil-1-marvel-1964-cgc-nm-96-off-white-to-white-pages/a/7239-91030.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
+         "id": "0513"
+      },
+      {
+         "title": "Detective Comics",
+         "issue": "359",
+         "pedigree":"Boston",
+         "cgcid":"1197792002",
+         "tags": "batman,detective-comics,dc,batgirl, pedigree",
+         "sales": [ {
+            "salesDate": "2021-01-14",
+            "price": "132000",
+            "venue": "Heritage",
+            "link": "https://comics.ha.com/itm/silver-age-1956-1969-/detective-comics-359-boston-pedigree-dc-1967-cgc-nm-mt-98-off-white-to-white-pages/a/7239-91032.s?ic4=ListView-ShortDescription-071515"
+         }],
+         "id": "0514"
       }
    ]
 }

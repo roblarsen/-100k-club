@@ -20,6 +20,7 @@
          "coverDate": "1938-04-01",
          "grade": "8.5",
          "gradeSrc": "CGC",
+         "cgcid":"0010101001",
          "generalCommentary": "",
          "tags": "cgc,action,superman",
          "sales": [
@@ -34,6 +35,12 @@
                "salesDate": "2018-06-13",
                "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/bookDetail.php?id=755769"
+            },
+            {
+               "price": "3250000",
+               "salesDate": "2021-04-06",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/item/916042"
             }
          ],
          "id": "0001"
@@ -4880,13 +4887,21 @@
          "gradeSrc": "CGC",
          "grade": "8.0",
          "tags": "archie",
+         "cgcid":"0234481001",
          "sales": [
             {
                "venue": "ComicConnect",
                "salesDate": "2014-08-26",
                "price": "122567",
                "link": "https://www.comicconnect.com/bookDetail.php?id=568460"
+            },
+            {
+               "venue": "ComicConnect",
+               "salesDate": "2021-04-15",
+               "price": "138000",
+               "link": "https://www.comicconnect.com/item/902222"
             }
+            
          ],
          "id": "0313"
       },
@@ -8016,6 +8031,78 @@
             "link": "https://comics.ha.com/itm/silver-age-1956-1969-/detective-comics-359-boston-pedigree-dc-1967-cgc-nm-mt-98-off-white-to-white-pages/a/7239-91032.s?ic4=ListView-ShortDescription-071515"
          }],
          "id": "0514"
+      },
+      {
+         "title": "Batman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "8.0",
+         "cgcid":"0037246001",
+         "tags": "batman,cgc,comicconect,dc",
+         "sales": [
+            {
+               "salesDate": "2021-04-15",
+               "price": "1207500",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/item/900235"
+            }
+         ],
+         "id": "0515"
+      },
+      {
+         "title": "All Star Comics",
+         "issue": "3",
+         "publisher": "DC Comics",
+         "gradeSrc": "CGC",
+         "grade": "9.4",
+         "cgcid":"0029409001",
+         "tags": "all-star-comics,jsa,dc,cgc",
+         "sales": [
+            {
+               "salesDate": "2021-04-15",
+               "price": "358800",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/item/900255"
+           
+            }
+         ],
+         "id": "0516"
+      },
+      {
+         "title": "Daredevil",
+         "issue": "1",
+         "gradeSrc": "cgc",
+         "grade": "9.6",
+         "cgcid":"1039347003",
+         "pedigree":"Twin Cities",
+         "tags": "daredevil,marvel,pedigree",
+         "sales": [
+            {
+               "salesDate": "2021-04-13",
+               "price": "125000",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/item/898203"
+            }
+         ],
+         "id": "0517"
+      },
+      {
+         "title": "Daredevil",
+         "issue": "1",
+         "gradeSrc": "cgc",
+         "grade": "9.6",
+         "cgcid":"3755326002",
+         "pedigree":"Northland",
+         "tags": "daredevil,marvel,pedigree",
+         "sales": [
+            {
+               "salesDate": "2021-03-07",
+               "price": "125000",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/item/911374#description"
+            }
+         ],
+         "id": "0518"
       }
    ]
 }

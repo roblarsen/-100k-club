@@ -8180,6 +8180,55 @@
             }
          ],
          "id": "0522"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "74",
+         "pedigree":"Promise Collection",
+         "gradeSrc": "CGC",
+         "grade": "9.2",
+         "tags": "captain-america,marvel,timely,pedigree",
+         "sales": [
+            {
+               "salesDate": "2021-06-18",
+               "price": "204000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/captain-america-comics-74-the-promise-collection-pedigree-timely-1949-cgc-nm-92-white-pages/a/7244-93036.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
+         "id": "0523"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "46",
+         "pedigree":"Promise Collection",
+         "gradeSrc": "CGC",
+         "grade": "9.2",
+         "tags": "captain-america,marvel,timely,pedigree",
+         "sales": [
+            {
+               "salesDate": "2021-06-18",
+               "price": "162000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/captain-america-comics-46-the-promise-collection-pedigree-timely-1945-cgc-nm-92-off-white-to-white-pages/a/7244-93034.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
+         "id": "0524"
+      },
+      {
+         "title": "Detective Comics",
+         "issue": "114",
+         "pedigree":"Promise Collection",
+         "cgcid":"1197792002",
+         "tags": "batman,detective-comics,dc,pedigree",
+         "sales": [ {
+            "salesDate": "2021-06-18",
+            "price": "456000",
+            "venue": "Heritage",
+            "link": "https://comics.ha.com/itm/silver-age-1956-1969-/detective-comics-359-boston-pedigree-dc-1967-cgc-nm-mt-98-off-white-to-white-pages/a/7239-91032.s?ic4=ListView-ShortDescription-071515"
+         }],
+         "id": "0525"
       }
+  
    ]
 }

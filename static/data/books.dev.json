@@ -665,6 +665,7 @@
          "pedigree": "Curator",
          "gradeSrc": "CGC",
          "grade": "9.0",
+         "cgcid":"0001885002",
          "tags": "amazing-fantasy,marvel,spider-man,cgc",
          "sales": [
             {
@@ -672,6 +673,12 @@
                "price": "395000",
                "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/bookDetail.php?id=701480"
+            },
+            {
+               "salesDate": "2021-02-23",
+               "price": "566000",
+               "venue": "ComicLink",
+               "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F%5FSORT%3DYES%26Focused%3D1%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2ENoofbids%26ODire3%3DDESC%23Item%5F1457476&id=1457476&itemType=0#detail"
             }
          ],
          "id": "0042"
@@ -7470,6 +7477,12 @@
                "price": "132000",
                "venue": "Heritage",
                "link": "https://comics.ha.com/itm/golden-age-1938-1955-/sensation-comics-1-dc-1942-cgc-vf-85-off-white-to-white-pages/a/7212-91094.s?ic4=ListView-ShortDescription-071515"
+            },
+            {
+               "salesDate": "2021-02-25",
+               "price": "160000",
+               "venue": "ComicLink",
+               "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F%5FSORT%3DYES%26Focused%3D1%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2ENoofbids%26ODire3%3DDESC%23Item%5F1461769&id=1461769&itemType=0"
             }
          ],
          "id": "0483"
@@ -8260,6 +8273,64 @@
             }
          ],
          "id": "0527"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "8.0",
+         "cgcid":"3697682002",
+         "tags": "cgc,captain-america,timely,marvel",
+         "sales": [
+            {
+               "venue": "comiclink",
+               "salesDate": "2021-02-23",
+               "price": "395000",
+               "link":"https://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F%5FSORT%3DYES%26Focused%3D1%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2ENoofbids%26ODire3%3DDESC%23Item%5F1454183&id=1454183&itemType=0"
+            }
+         ],
+         "id": "0528"
+      },
+      {
+         "title": "Detective Comics",
+         "grade": "5.0",
+         "gradeSrc": "CGC",
+         "issue": "38",
+         "cgcid":"0966444001",
+         "tags": "detective-comics,batman,dc,cbcs",
+         "sales": [
+            {
+               "salesDate": "2021-02-24",
+               "price": "180000",
+               "venue": "ComicLink",
+               "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F%5FSORT%3DYES%26Focused%3D1%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2ENoofbids%26ODire3%3DDESC%23Item%5F1458560&id=1458560&itemType=0"
+            }
+         ],
+         "id": "0529"
+      },
+      {
+         "title": "Tales of Suspense",
+         "issue": "39",
+         "gradeSrc": "CGC",
+         "grade": "9.4",
+         "cgcid":"1199062002",
+         "tags": "marvel,iron-man,pedigree,cgc",
+         "sales": [
+            {
+               "venue": "Unknown",
+               "salesDate": "2014-04-10",
+               "price": "80500",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/tales-of-suspense-39-bethlehem-pedigree-marvel-1963-cgc-nm-94-off-white-pages/a/7163-91015.s?ic4=ListView-ShortDescription-071515"
+            },
+            {
+               "venue": "ComicLink",
+               "salesDate": "2021-02-25",
+               "price": "125000",
+               "link": "http://comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F_SORT%3DYES%26Focused%3D1%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2ENoofbids%26ODire3%3DDESC%23Item_1451699&id=1451699&itemType=0"
+            }
+
+         ],
+         "id": "0530"
       }
   
    ]

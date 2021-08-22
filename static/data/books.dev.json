@@ -8228,6 +8228,21 @@
             "link": "https://comics.ha.com/itm/silver-age-1956-1969-/detective-comics-359-boston-pedigree-dc-1967-cgc-nm-mt-98-off-white-to-white-pages/a/7239-91032.s?ic4=ListView-ShortDescription-071515"
          }],
          "id": "0525"
+      },
+      {
+         "title": "Incredible Hulk",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "8.0",
+         "cgcid":"3832523002",
+         "tags": "marvel,hulk",
+         "sales": [{
+            "salesDate": "2021-06-23",
+            "price": "150000",
+            "venue": "comicconnect",
+            "link": "https://www.comicconnect.com/item/918662?tzf=1"
+         }],
+         "id": "0526"
       }
   
    ]

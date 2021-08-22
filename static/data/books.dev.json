@@ -8243,6 +8243,23 @@
             "link": "https://www.comicconnect.com/item/918662?tzf=1"
          }],
          "id": "0526"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "7.0",
+         "cgcid": "1109563001",
+         "tags": "captain-america,marvel,timely,golden-age",
+         "sales": [
+            {
+               "salesDate": "2021-06-30",
+               "price": "325000",
+               "venue": "comicconnect",
+               "link": "https://www.comicconnect.com/item/927182?tzf=1"
+            }
+         ],
+         "id": "0527"
       }
   
    ]

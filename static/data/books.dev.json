@@ -3288,12 +3288,19 @@
          "gradeSrc": "cgc",
          "grade": "9.0",
          "tags": "fantastic-four,cgc,marvel,kirby",
+         "cgcid":"1222223001",
          "sales": [
             {
                "salesDate": "2017-11-17",
                "price": "161325",
                "venue": "Heritage",
                "link": "https://comics.ha.com/itm/silver-age-1956-1969-/fantastic-four-1-marvel-1961-cgc-vf-nm-90-off-white-to-white-pages/a/7169-91031.s?ic4=ListView-ShortDescription-071515#"
+            },
+            {
+               "salesDate": "2021-04-05",
+               "price": "264000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/fantastic-four-1-marvel-1961-cgc-vf-nm-90-off-white-to-white-pages/a/7242-91033.s?ic4=ListView-ShortDescription-071515"
             }
          ],
          "id": "0204"
@@ -8338,6 +8345,23 @@
 
          ],
          "id": "0530"
+      },
+      {
+         "title": "Batman",
+         "issue": "1",
+         "gradeSrc": "cgc",
+         "grade": "5.0",
+         "cgcid": "1972895004",
+         "tags": "batman,detective-comics,dc",
+         "sales": [
+            {
+               "salesDate": "2021-04-05",
+               "price": "360000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/batman-1-dc-1940-cgc-vg-fn-50-off-white-to-white-pages/a/7242-91028.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
+         "id": "0531"
       }
   
    ]

@@ -528,7 +528,7 @@
          "issue": "15",
          "gradeSrc": "CGC",
          "grade": "9.6",
-         "generalCommentary": "Best Known",
+         "generalCommentary": "",
          "tags": "amazing-fantasy,marvel,spider-man,cgc",
          "sales": [
             {
@@ -2726,7 +2726,14 @@
          "gradeSrc": "CGC",
          "grade": "9.6",
          "tags": "spider-man,amazing-fantasy,cgc,marvel",
-         "sales": [],
+         "sales":[
+            {
+                  "salesDate": "2021-09-09",
+                  "price": "3600000",
+                  "venue": "Heritage",
+                  "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/amazing-fantasy-15-marvel-1962-cgc-nm-96-off-white-pages/a/7246-93001.s?ic=Home-FeaturedItems-071515"
+            }
+         ],
          "id": "0171"
       },
       {

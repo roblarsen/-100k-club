@@ -1218,12 +1218,19 @@
          "grade": "8.0",
          "tags": "dc,batman,cgc",
          "pedigree": "Larson",
+         "cgcid":"1419501001",
          "sales": [
             {
                "salesDate": "2016-12-13",
                "price": "390000",
                "venue": "ComicConnect",
                "link": "http://www.comicconnect.com/bookDetail.php?id=682290"
+            },
+            {
+               "salesDate": "2021-09-18",
+               "price": "1440000",
+               "venue": "Goldin Auctions",
+               "link": "https://goldinauctions.com/1940_D_C__Comics__Batman___1___1st_Appearance_of_T-LOT89561.aspx"
             }
          ],
          "id": "0080"
@@ -2749,6 +2756,12 @@
                "salesDate": "2011-10-19",
                "price": "107300",
                "venue": "unknown"
+            },
+            {
+               "salesDate": "2021-09-18",
+               "price": "690000",
+               "venue": "Goldin Auctions",
+               "link": "https://www.goldinauctions.com/item/919598?tzf=1"
             }
          ],
          "id": "0172"
@@ -3515,9 +3528,16 @@
          "issue": "83",
          "gradeSrc": "CGC",
          "grade": "9.4",
+         "cgcid": "2120471001",
          "tags": "thor,journey-into-mystery,marvel,cgc,kirby",
          "sales": [
-           
+            {
+               "salesDate": "2021-09-18",
+               "price": "312000",
+               "venue": "Goldin Auctions",
+               "link": "https://www.goldinauctions.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F_SORT%3DYES%26Focused%3D1%26ItemType%3D0%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2EMaxBid%26ODire3%3DDESC%23Item_1189721&id=1189721"
+
+            }
          ],
          "id": "0217"
       },
@@ -6308,6 +6328,12 @@
                "salesDate": "2018-06-11",
                "price": "194000",
                "link": "https://www.comicconnect.com/bookDetail.php?id=756558"
+            },
+            {
+               "venue": "Goldin Auctions",
+               "salesDate": "2021-09-18",
+               "price": "360000",
+               "link": "https://goldinauctions.com/1963_Marvel_Comics__Avengers___1___Origin___1st_Ap-lot109894.aspx"
             }
          ],
          "id": "0401"
@@ -8510,6 +8536,40 @@
             }
          ],
          "id": "0539"
+      },
+      {
+         "title": "Superman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "1.0",
+         "cgcid": "1449767002",
+         "tags": "superman,dc",
+         "sales": [
+            {
+               "salesDate": "2021-09-18",
+               "price": "134400",
+               "venue": "Goldin Auctions",
+               "link": "https://goldinauctions.com/1939_DC_Comics__Superman___1_Origin_of_Superman___-lot68688.aspx"
+            }
+         ],
+         "id": "0540"
+      },
+      {
+         "title": "X-Men",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "8.5",
+         "cgcid": "1200263001",
+         "tags": "x-men,marvel",
+         "sales": [
+            {
+               "salesDate": "2021-09-18",
+               "price": "158400",
+               "venue": "Goldin Auctions",
+               "link": "https://goldinauctions.com/1963_Marvel_Comics__X_Men___1___Origin___1st_Appea-lot104082.aspx"
+            }
+         ],
+         "id": "0541"
       }
    ]
 }

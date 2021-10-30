@@ -20,7 +20,7 @@
          "coverDate": "1938-04-01",
          "grade": "8.5",
          "gradeSrc": "CGC",
-         "cgcid":"0010101001",
+         "cgcid": "0010101001",
          "generalCommentary": "",
          "tags": "cgc,action,superman",
          "sales": [
@@ -665,7 +665,7 @@
          "pedigree": "Curator",
          "gradeSrc": "CGC",
          "grade": "9.0",
-         "cgcid":"0001885002",
+         "cgcid": "0001885002",
          "tags": "amazing-fantasy,marvel,spider-man,cgc",
          "sales": [
             {
@@ -1218,7 +1218,7 @@
          "grade": "8.0",
          "tags": "dc,batman,cgc",
          "pedigree": "Larson",
-         "cgcid":"1419501001",
+         "cgcid": "1419501001",
          "sales": [
             {
                "salesDate": "2016-12-13",
@@ -1281,7 +1281,7 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "7.0",
-         "cgcid":"0772174002",
+         "cgcid": "0772174002",
          "tags": "cgc,batman,dc",
          "sales": [
             {
@@ -1289,7 +1289,8 @@
                "price": "98587",
                "venue": "Heritage",
                "link": "http://comics.ha.com/common/view_item.php?Sale_No=7007&Lot_No=91002&src=pr"
-            },{
+            },
+            {
                "salesDate": "2012-11-15",
                "price": "107550",
                "venue": "Heritage",
@@ -1392,11 +1393,12 @@
                "salesDate": "2011-08-09",
                "price": "343057",
                "venue": "ComicConnect"
-            },{
+            },
+            {
                "salesDate": "2013-06-12",
                "price": "306050",
                "venue": "ComicConnect",
-               "link":"https://www.comicconnect.com/bookDetail.php?id=502876"
+               "link": "https://www.comicconnect.com/bookDetail.php?id=502876"
             }
          ],
          "id": "0090"
@@ -1451,14 +1453,14 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "8.5",
-         "cgcid":"0912091001",
+         "cgcid": "0912091001",
          "tags": "captain-america,cgc,timely,marvel",
          "sales": [
             {
                "salesDate": "2009-05-22",
                "price": "95600",
                "venue": "Heritage",
-               "link":"https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-timely-1941-cgc-vf-85-off-white-to-white-pages/a/7007-91105.s?ic16=ViewItem-Auction-Archive-PreviousPricesHeritage-081514"
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-timely-1941-cgc-vf-85-off-white-to-white-pages/a/7007-91105.s?ic16=ViewItem-Auction-Archive-PreviousPricesHeritage-081514"
             }
          ],
          "id": "0093"
@@ -1953,7 +1955,7 @@
          "gradeSrc": "CGC",
          "grade": "9.2",
          "tags": "hulk,marvel",
-         "cgcid":"0956962001",
+         "cgcid": "0956962001",
          "sales": [
             {
                "salesDate": "2009-11-19",
@@ -1974,14 +1976,16 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "9.2",
-         "cgcid":"1996073001",
+         "cgcid": "1996073001",
          "tags": "marvel,hulk",
-         "sales": [{
-            "salesDate": "2018-11-15",
-            "price": "336000",
-            "venue": "Heritage",
-            "link": "https://comics.ha.com/itm/silver-age-1956-1969-/the-incredible-hulk-1-marvel-1962-cgc-nm-92-white-pages/a/7192-91065.s?ic4=ListView-Thumbnail-071515"
-         }],
+         "sales": [
+            {
+               "salesDate": "2018-11-15",
+               "price": "336000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/the-incredible-hulk-1-marvel-1962-cgc-nm-92-white-pages/a/7192-91065.s?ic4=ListView-Thumbnail-071515"
+            }
+         ],
          "id": "0129"
       },
       {
@@ -2644,7 +2648,7 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "9.6",
-         "cgcid":"1015521002",
+         "cgcid": "1015521002",
          "tags": "x-men,marvel",
          "sales": [
             {
@@ -2734,12 +2738,12 @@
          "grade": "9.6",
          "tags": "spider-man,amazing-fantasy,cgc,marvel",
          "cgcid": "1071479001",
-         "sales":[
+         "sales": [
             {
-                  "salesDate": "2021-09-09",
-                  "price": "3600000",
-                  "venue": "Heritage",
-                  "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/amazing-fantasy-15-marvel-1962-cgc-nm-96-off-white-pages/a/7246-93001.s?ic=Home-FeaturedItems-071515"
+               "salesDate": "2021-09-09",
+               "price": "3600000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/amazing-fantasy-15-marvel-1962-cgc-nm-96-off-white-pages/a/7246-93001.s?ic=Home-FeaturedItems-071515"
             }
          ],
          "id": "0171"
@@ -3225,7 +3229,7 @@
          "gradeSrc": "cgc",
          "grade": "6.5",
          "tags": "batman,detective-comics,dc",
-         "cgcid":"1099571001",
+         "cgcid": "1099571001",
          "sales": [
             {
                "salesDate": "2015-06-01",
@@ -3308,9 +3312,9 @@
          "issue": "1",
          "gradeSrc": "cgc",
          "grade": "9.0",
-         "cgcid":"1222223001",
+         "cgcid": "1222223001",
          "tags": "fantastic-four,cgc,marvel,kirby",
-         "cgcid":"1222223001",
+         "cgcid": "1222223001",
          "sales": [
             {
                "salesDate": "2021-04-05",
@@ -3536,7 +3540,6 @@
                "price": "312000",
                "venue": "Goldin Auctions",
                "link": "https://www.goldinauctions.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F_SORT%3DYES%26Focused%3D1%26ItemType%3D0%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2EMaxBid%26ODire3%3DDESC%23Item_1189721&id=1189721"
-
             }
          ],
          "id": "0217"
@@ -3563,7 +3566,7 @@
                "salesDate": "2013-03-23",
                "price": "171000",
                "venue": "ComicConnect",
-               "link":"https://www.comicconnect.com/bookDetail.php?id=493272"
+               "link": "https://www.comicconnect.com/bookDetail.php?id=493272"
             },
             {
                "salesDate": "2018-05-23",
@@ -3814,14 +3817,16 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "5.0",
-         "cgcid":"1971833001",
+         "cgcid": "1971833001",
          "tags": "superman,dc",
-         "sales": [{
-            "salesDate": "2020-07-09",
-            "price": "360000",
-            "venue": "Heritage",
-            "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-dc-1939-cgc-vg-fn-50-off-white-pages/a/7231-91070.s"
-         }],
+         "sales": [
+            {
+               "salesDate": "2020-07-09",
+               "price": "360000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-dc-1939-cgc-vg-fn-50-off-white-pages/a/7231-91070.s"
+            }
+         ],
          "id": "0234"
       },
       {
@@ -4322,17 +4327,18 @@
          "grade": "3.5",
          "tags": "superman,dc",
          "cgcid": "1971270001",
-         "sales": [{
-            "salesDate": "2020-03-05",
-            "price": "288000",
-            "venue": "ComicConnect"
-         },{
-            "salesDate":  "2020-07-09",
-            "venue":"Heritage",
-            "price":"360000",
-            "link":"https://comics.ha.com/itm/golden-age-1938-1955-/superman-1-dc-1939-cgc-vg-fn-50-off-white-pages/a/7231-91070.s?ic4=ListView-ShortDescription-071515"
-         }
-         
+         "sales": [
+            {
+               "salesDate": "2020-03-05",
+               "price": "288000",
+               "venue": "ComicConnect"
+            },
+            {
+               "salesDate": "2020-07-09",
+               "venue": "Heritage",
+               "price": "360000",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superman-1-dc-1939-cgc-vg-fn-50-off-white-pages/a/7231-91070.s?ic4=ListView-ShortDescription-071515"
+            }
          ],
          "id": "0269"
       },
@@ -4359,14 +4365,16 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "3.0",
-         "cgcid":"3702096001",
+         "cgcid": "3702096001",
          "tags": "superman,dc",
-         "sales": [{
-            "salesDate":  "2020-12-18",
-            "venue":"ComicConnect",
-            "price":"310111",
-            "link":"https://www.comicconnect.com/item/890586"
-         }],
+         "sales": [
+            {
+               "salesDate": "2020-12-18",
+               "venue": "ComicConnect",
+               "price": "310111",
+               "link": "https://www.comicconnect.com/item/890586"
+            }
+         ],
          "id": "0272"
       },
       {
@@ -4943,7 +4951,7 @@
          "gradeSrc": "CGC",
          "grade": "8.0",
          "tags": "archie",
-         "cgcid":"0234481001",
+         "cgcid": "0234481001",
          "sales": [
             {
                "venue": "ComicConnect",
@@ -4957,7 +4965,6 @@
                "price": "138000",
                "link": "https://www.comicconnect.com/item/902222"
             }
-            
          ],
          "id": "0313"
       },
@@ -4987,7 +4994,7 @@
          "issue": "1",
          "gradeSrc": "CBCS",
          "grade": "7.5",
-         "cbcsid":"0004063-aa-001",
+         "cbcsid": "0004063-aa-001",
          "tags": "batman,cbcs,dc",
          "sales": [
             {
@@ -5415,19 +5422,20 @@
          "gradeSrc": "CGC",
          "grade": "8.5",
          "tags": "hulk,marvel",
-         "cgcid":"1445333001",
-         "sales": [{
-            "salesDate": "2018-11-15",
-            "price": "108000",
-            "venue": "Heritage",
-            "link": "https://comics.ha.com/itm/silver-age-1956-1969-/the-incredible-hulk-1-marvel-1962-cgc-vf-85-white-pages/a/7192-91066.s?ic4=ListView-ShortDescription-071515"
-         },
-         {
-            "salesDate": "2020-08-26",
-            "price": "122001",
-            "venue": "Heritage",
-            "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FSEARCH.ASP%3FPreviewCode%3D2020aug%26where%3Dauctions%26title%3Dhulk%2B1%26GO%3DGO%26ItemType%3DCB%23Item_1411048&id=1411048&itemType=0#detail"
-         }
+         "cgcid": "1445333001",
+         "sales": [
+            {
+               "salesDate": "2018-11-15",
+               "price": "108000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/the-incredible-hulk-1-marvel-1962-cgc-vf-85-white-pages/a/7192-91066.s?ic4=ListView-ShortDescription-071515"
+            },
+            {
+               "salesDate": "2020-08-26",
+               "price": "122001",
+               "venue": "Heritage",
+               "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FSEARCH.ASP%3FPreviewCode%3D2020aug%26where%3Dauctions%26title%3Dhulk%2B1%26GO%3DGO%26ItemType%3DCB%23Item_1411048&id=1411048&itemType=0#detail"
+            }
          ],
          "id": "0338"
       },
@@ -5763,7 +5771,7 @@
          "issue": "27",
          "gradeSrc": "CGC",
          "grade": "5.0",
-         "cgcid":"1203939001",
+         "cgcid": "1203939001",
          "tags": "detective-comics,dc,batman",
          "sales": [
             {
@@ -6060,7 +6068,7 @@
          "publisher": "DC Comics",
          "gradeSrc": "CGC",
          "grade": "8.5",
-         "cgcid":"1139529001",
+         "cgcid": "1139529001",
          "tags": "cgc,wonder-woman,dc",
          "sales": [
             {
@@ -6491,12 +6499,14 @@
          "grade": "8.0",
          "cgcid": "1971545001",
          "tags": "amazing-fantasy,marvel,spider-man,cgc",
-         "sales": [{
-            "salesDate": "2020-04-30",
-            "price": "180000",
-            "venue": "Heritage",
-            "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/amazing-fantasy-15-marvel-1962-cgc-vf-80-off-white-pages/a/7229-91055.s"
-         }],
+         "sales": [
+            {
+               "salesDate": "2020-04-30",
+               "price": "180000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/amazing-fantasy-15-marvel-1962-cgc-vf-80-off-white-pages/a/7229-91055.s"
+            }
+         ],
          "id": "0416"
       },
       {
@@ -7263,7 +7273,8 @@
                "price": "125000",
                "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/bookDetail.php?id=713907"
-            },{
+            },
+            {
                "salesDate": "2020-11-19",
                "price": "144000",
                "venue": "Heritage",
@@ -7324,19 +7335,20 @@
             }
          ],
          "id": "0471"
-      },{
+      },
+      {
          "title": "Captain America Comics",
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "8.0",
-         "cgcid":"1254773002",
+         "cgcid": "1254773002",
          "tags": "cgc,captain-america,timely,marvel",
          "sales": [
             {
                "venue": "ComicConnect",
                "salesDate": "2016-0-28",
                "price": "288000",
-               "link":"https://www.comicconnect.com/bookDetail.php?id=650298"
+               "link": "https://www.comicconnect.com/bookDetail.php?id=650298"
             }
          ],
          "id": "0472"
@@ -7346,7 +7358,7 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "7.0",
-         "cgcid":"0772174002",
+         "cgcid": "0772174002",
          "tags": "cgc,batman,dc",
          "sales": [
             {
@@ -7363,7 +7375,7 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "7.0",
-         "cgcid":"0772174002",
+         "cgcid": "0772174002",
          "tags": "cgc,batman,dc",
          "sales": [
             {
@@ -7380,8 +7392,8 @@
          "issue": "3",
          "gradeSrc": "CGC",
          "grade": "9.4",
-         "pedigree":"Edgar Church",
-         "cgcid":"1485124007",
+         "pedigree": "Edgar Church",
+         "cgcid": "1485124007",
          "tags": "cgc,fantastic-comics,fox, pedigree",
          "sales": [
             {
@@ -7416,7 +7428,7 @@
          "issue": "2",
          "gradeSrc": "cgc",
          "grade": "6.0",
-         "cgcid":"1260700001",
+         "cgcid": "1260700001",
          "tags": "whiz,captain-marvel",
          "sales": [
             {
@@ -7524,7 +7536,7 @@
          "publisher": "DC Comics",
          "gradeSrc": "CGC",
          "grade": "8.5",
-         "cgcid":"1970461002",
+         "cgcid": "1970461002",
          "tags": "cgc,wonder-woman,dc",
          "sales": [
             {
@@ -7571,7 +7583,8 @@
                "salesDate": "2019-08-27",
                "price": "165000",
                "venue": "ComicLink"
-            }  ],
+            }
+         ],
          "id": "0485"
       },
       {
@@ -7579,7 +7592,7 @@
          "grade": "5.0",
          "gradeSrc": "CGC",
          "issue": "31",
-         "cgcid":"0700549001",
+         "cgcid": "0700549001",
          "tags": "detective-comics,batman,dc,cbcs",
          "sales": [
             {
@@ -7596,7 +7609,7 @@
          "issue": "15",
          "gradeSrc": "CGC",
          "grade": "9.4",
-         "cgcid":"2049900001",
+         "cgcid": "2049900001",
          "tags": "amazing-fantasy,marvel,spider-man,cgc",
          "sales": [
             {
@@ -7666,12 +7679,11 @@
          "cgcid": "1165624001",
          "tags": "marvel,iron-man,cgc",
          "sales": [
-            
             {
                "salesDate": "2020-07-09",
                "price": "99000",
                "venue": "Heritage",
-               "link":"https://comics.ha.com/itm/silver-age-1956-1969-/tales-of-suspense-39-marvel-1963-cgc-nm-94-off-white-to-white-pages/a/7231-91075.s?ic4=ListView-ShortDescription-071515"
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/tales-of-suspense-39-marvel-1963-cgc-nm-94-off-white-to-white-pages/a/7231-91075.s?ic4=ListView-ShortDescription-071515"
             }
          ],
          "id": "0490"
@@ -7681,7 +7693,7 @@
          "issue": "15",
          "gradeSrc": "CGC",
          "grade": "8.0",
-         "cgcid":"0006148001",
+         "cgcid": "0006148001",
          "tags": "amazing-fantasy,marvel,spider-man,cgc",
          "sales": [
             {
@@ -7699,13 +7711,13 @@
          "gradeSrc": "CGC",
          "grade": "9.2",
          "tags": "cgc,marvel,x-men,upgrade",
-         "cgcid":"2089099001",
+         "cgcid": "2089099001",
          "sales": [
             {
                "salesDate": "2020-05-23",
                "price": "134000",
                "venue": "ComicConnect",
-               "link":"https://www.comicconnect.com/item/867967"
+               "link": "https://www.comicconnect.com/item/867967"
             }
          ],
          "id": "0492"
@@ -7732,7 +7744,7 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "5.0",
-         "cgcid":"209130901",
+         "cgcid": "209130901",
          "tags": "captain-america,marvel,timely,golden-age",
          "sales": [
             {
@@ -7749,14 +7761,14 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "9.0",
-         "cgcid":"1971527001",
+         "cgcid": "1971527001",
          "tags": "incredible-hulk,cgc,marvel,hulk",
          "sales": [
             {
                "salesDate": "2020-05-27",
                "price": "200000",
                "venue": "Comiclink",
-               "link":"https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FSEARCH%2EASP%3FPreviewCode%3D2020may%26where%3Dauctions%26title%3Dhulk%2B1%26GO%3DGO%26ItemType%3DCB%23Item%5F1401751&id=1401751&itemType=0"
+               "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FSEARCH%2EASP%3FPreviewCode%3D2020may%26where%3Dauctions%26title%3Dhulk%2B1%26GO%3DGO%26ItemType%3DCB%23Item%5F1401751&id=1401751&itemType=0"
             }
          ],
          "id": "0495"
@@ -7772,7 +7784,7 @@
                "salesDate": "2020-05-27",
                "price": "150000",
                "venue": "Comiclink",
-               "link":"https://comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FSEARCH.ASP%3FPreviewCode%3D2020may%26where%3Dauctions%26title%3Dall%2Bstar%2B8%26GO%3DGO%26ItemType%3DCB%23Item_1387718&id=1387718&itemType=0#detail"
+               "link": "https://comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FSEARCH.ASP%3FPreviewCode%3D2020may%26where%3Dauctions%26title%3Dall%2Bstar%2B8%26GO%3DGO%26ItemType%3DCB%23Item_1387718&id=1387718&itemType=0#detail"
             }
          ],
          "id": "0496"
@@ -7799,21 +7811,22 @@
          "gradeSrc": "CGC",
          "grade": "6.0",
          "cgcid": "0055531007",
-         "provenance":"Nic Cage Copy",
+         "provenance": "Nic Cage Copy",
          "tags": "marvel,timely,marvel-comics,restored",
-         "sales": [ {
-            "salesDate": "2020-08-26",
-            "price": "280500",
-            "venue": "ComicLink",
-            "link": "https://comiclink.com/auctions/item.asp?back=%2FCOMICTRACK%2FADMIN%2FAUCTION.ASP%3FImage1.x%3D14%252C%2B33%26Searchissuenumber%3D%26SearchItemID%3D%26Image1.y%3D8%252C%2B8%26SearchOperator%3D%26Searchtitle%3D%26Searchcondition%3D%26SearchPedigree%3D%26SearchSeller%3D%26SearchSession%3D1%26SearchHighBidder%3D%26SearchHighBidderState%3D%26SearchStartDate%3D8%252F13%252F2020%2B8%253A00%253A00%2BPM%26SearchInvi%3D%26SearchShowThumbs%3DY%26x%3D0%26y%3D0%26pg%3D1&id=1420742&next=%2FCOMICTRACK%2FADMIN%2FAUCTION.ASP%3FImage1.x%3D14%252C%2B33%26Searchissuenumber%3D%26SearchItemID%3D%26Image1.y%3D8%252C%2B8%26SearchOperator%3D%26Searchtitle%3D%26Searchcondition%3D%26SearchPedigree%3D%26SearchSeller%3D%26SearchSession%3D1%26SearchHighBidder%3D%26SearchHighBidderState%3D%26SearchStartDate%3D8%252F13%252F2020%2B8%253A00%253A00%2BPM%26SearchInvi%3D%26SearchShowThumbs%3DY%26x%3D0%26y%3D0%26pg%3D1#detail"
-         },
-         {
-            "salesDate": "2002-10-10",
-            "venue": "Heritage",
-            "price": "36800",
-            "link":"https://comics.ha.com/itm/golden-age-1938-1955-/marvel-comics-1-timely-1939-cgc-fn-60-cream-to-off-white-pages-publisher-martin-goodman-took-a-gamble-when-he-publishe/a/804-5174.s?ic4=ListView-ShortDescription-071515"
-         }
-      ],
+         "sales": [
+            {
+               "salesDate": "2020-08-26",
+               "price": "280500",
+               "venue": "ComicLink",
+               "link": "https://comiclink.com/auctions/item.asp?back=%2FCOMICTRACK%2FADMIN%2FAUCTION.ASP%3FImage1.x%3D14%252C%2B33%26Searchissuenumber%3D%26SearchItemID%3D%26Image1.y%3D8%252C%2B8%26SearchOperator%3D%26Searchtitle%3D%26Searchcondition%3D%26SearchPedigree%3D%26SearchSeller%3D%26SearchSession%3D1%26SearchHighBidder%3D%26SearchHighBidderState%3D%26SearchStartDate%3D8%252F13%252F2020%2B8%253A00%253A00%2BPM%26SearchInvi%3D%26SearchShowThumbs%3DY%26x%3D0%26y%3D0%26pg%3D1&id=1420742&next=%2FCOMICTRACK%2FADMIN%2FAUCTION.ASP%3FImage1.x%3D14%252C%2B33%26Searchissuenumber%3D%26SearchItemID%3D%26Image1.y%3D8%252C%2B8%26SearchOperator%3D%26Searchtitle%3D%26Searchcondition%3D%26SearchPedigree%3D%26SearchSeller%3D%26SearchSession%3D1%26SearchHighBidder%3D%26SearchHighBidderState%3D%26SearchStartDate%3D8%252F13%252F2020%2B8%253A00%253A00%2BPM%26SearchInvi%3D%26SearchShowThumbs%3DY%26x%3D0%26y%3D0%26pg%3D1#detail"
+            },
+            {
+               "salesDate": "2002-10-10",
+               "venue": "Heritage",
+               "price": "36800",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/marvel-comics-1-timely-1939-cgc-fn-60-cream-to-off-white-pages-publisher-martin-goodman-took-a-gamble-when-he-publishe/a/804-5174.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
          "id": "0498"
       },
       {
@@ -7821,16 +7834,15 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "9.4",
-         "cgcid":"3734252001",
+         "cgcid": "3734252001",
          "tags": "batman,cgc, heritage,dc",
          "sales": [
             {
                "salesDate": "2021-01-14",
                "venue": "Heritage",
                "price": "2220000",
-               "link":"https://comics.ha.com/itm/golden-age-1938-1955-/batman-1-dc-1940-cgc-nm-94-white-pages/a/7239-91027.s?ic4=ListView-ShortDescription-071515"
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/batman-1-dc-1940-cgc-nm-94-white-pages/a/7239-91027.s?ic4=ListView-ShortDescription-071515"
             }
-
          ],
          "id": "0499"
       },
@@ -7839,7 +7851,7 @@
          "issue": "27",
          "gradeSrc": "CGC",
          "grade": "9.2 (a5)",
-         "cgcid":"1298036001",
+         "cgcid": "1298036001",
          "tags": "batman,dc,restored",
          "sales": [
             {
@@ -7848,8 +7860,7 @@
                "venue": "Heritage",
                "link": " https://comics.ha.com/itm/golden-age-1938-1955-/detective-comics-27-dc-1939-cgc-apparent-nm-92-extensive-a-5-off-white-pages/a/7192-91058.s?ic4=ListView-ShortDescription-071515"
             }
-        ],
-
+         ],
          "id": "0500"
       },
       {
@@ -7858,23 +7869,24 @@
          "publisher": "DC Comics",
          "gradeSrc": "cgc",
          "grade": "9.0",
-         "cgcid":"0932372001",
+         "cgcid": "0932372001",
          "tags": "cgc,action,superman,dc",
          "sales": [
             {
                "salesDate": "2018-11-15",
                "price": "156000",
                "venue": "Heritage",
-               "link":"https://comics.ha.com/itm/golden-age-1938-1955-/action-comics-13-dc-1939-cgc-vf-nm-90-cream-to-off-white-pages/a/7192-91046.s?ic4=ListView-ShortDescription-071515"
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/action-comics-13-dc-1939-cgc-vf-nm-90-cream-to-off-white-pages/a/7192-91046.s?ic4=ListView-ShortDescription-071515"
             }
          ],
          "id": "0501"
-      },{
+      },
+      {
          "title": "Amazing Fantasy",
          "issue": "15",
          "gradeSrc": "CGC",
          "grade": "7.5",
-         "cgcid":"1075776001",
+         "cgcid": "1075776001",
          "tags": "spider-man,amazing-fantasy,cgc,marvel",
          "sales": [
             {
@@ -7885,13 +7897,14 @@
             }
          ],
          "id": "0502"
-      },{
+      },
+      {
          "title": "Superman",
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "1.8",
          "tags": "superman,dc",
-         "cgcid":"1968226001",
+         "cgcid": "1968226001",
          "sales": [
             {
                "salesDate": "2018-11-15",
@@ -7901,14 +7914,13 @@
             }
          ],
          "id": "0503"
-
       },
       {
          "title": "Amazing Fantasy",
          "issue": "15",
          "gradeSrc": "CGC",
          "grade": "7.0",
-         "cgcid":"1296227001",
+         "cgcid": "1296227001",
          "tags": "spider-man,amazing-fantasy,cgc,marvel",
          "sales": [
             {
@@ -7919,21 +7931,20 @@
             }
          ],
          "id": "0504"
-
       },
       {
          "title": "Captain America Comics",
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "3.5",
-         "cgcid":"1968450001",
+         "cgcid": "1968450001",
          "tags": "captain-america,cgc,timely,marvel",
          "sales": [
             {
                "salesDate": "2009-05-22",
                "price": "102000",
                "venue": "Heritage",
-               "link":"https://comics.ha.com/itm/golden-age-1938-1955-/captain-america-comics-1-timely-1941-cgc-vg-35-off-white-to-white-pages/a/7192-91054.s?ic4=ListView-ShortDescription-071515"
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/captain-america-comics-1-timely-1941-cgc-vg-35-off-white-to-white-pages/a/7192-91054.s?ic4=ListView-ShortDescription-071515"
             }
          ],
          "id": "0505"
@@ -7960,7 +7971,7 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "3.0",
-         "cgcid":"3736289005",
+         "cgcid": "3736289005",
          "tags": "batman,cgc,comiclink,dc",
          "sales": [
             {
@@ -7977,7 +7988,7 @@
          "issue": "3",
          "gradeSrc": "CGC",
          "grade": "9.8",
-         "cgcid":"2095572001",
+         "cgcid": "2095572001",
          "tags": "marvel,spider-man,cgc",
          "sales": [
             {
@@ -8012,7 +8023,7 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "2.5",
-         "cgcid":"1106598001",
+         "cgcid": "1106598001",
          "tags": "batman,cgc,dc",
          "sales": [
             {
@@ -8035,7 +8046,7 @@
          "issue": "29",
          "gradeSrc": "cgc",
          "grade": "5.5",
-         "cgcid":"3697874001",
+         "cgcid": "3697874001",
          "tags": "detective-comics,dc,batman",
          "sales": [
             {
@@ -8070,7 +8081,7 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "8.5",
-         "cgcid":"3751865001",
+         "cgcid": "3751865001",
          "tags": "captain-america,cgc,timely,marvel",
          "sales": [
             {
@@ -8087,7 +8098,7 @@
          "issue": "1",
          "gradeSrc": "cgc",
          "grade": "9.6",
-         "cgcid":"3724927009",
+         "cgcid": "3724927009",
          "tags": "daredevil,marvel",
          "sales": [
             {
@@ -8102,15 +8113,17 @@
       {
          "title": "Detective Comics",
          "issue": "359",
-         "pedigree":"Boston",
-         "cgcid":"1197792002",
+         "pedigree": "Boston",
+         "cgcid": "1197792002",
          "tags": "batman,detective-comics,dc,batgirl, pedigree",
-         "sales": [ {
-            "salesDate": "2021-01-14",
-            "price": "132000",
-            "venue": "Heritage",
-            "link": "https://comics.ha.com/itm/silver-age-1956-1969-/detective-comics-359-boston-pedigree-dc-1967-cgc-nm-mt-98-off-white-to-white-pages/a/7239-91032.s?ic4=ListView-ShortDescription-071515"
-         }],
+         "sales": [
+            {
+               "salesDate": "2021-01-14",
+               "price": "132000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/detective-comics-359-boston-pedigree-dc-1967-cgc-nm-mt-98-off-white-to-white-pages/a/7239-91032.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
          "id": "0514"
       },
       {
@@ -8118,7 +8131,7 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "8.0",
-         "cgcid":"0037246001",
+         "cgcid": "0037246001",
          "tags": "batman,cgc,comicconect,dc",
          "sales": [
             {
@@ -8136,7 +8149,7 @@
          "publisher": "DC Comics",
          "gradeSrc": "CGC",
          "grade": "9.4",
-         "cgcid":"0029409001",
+         "cgcid": "0029409001",
          "tags": "all-star-comics,jsa,dc,cgc",
          "sales": [
             {
@@ -8144,7 +8157,6 @@
                "price": "358800",
                "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/item/900255"
-           
             }
          ],
          "id": "0516"
@@ -8154,8 +8166,8 @@
          "issue": "1",
          "gradeSrc": "cgc",
          "grade": "9.6",
-         "cgcid":"1039347003",
-         "pedigree":"Twin Cities",
+         "cgcid": "1039347003",
+         "pedigree": "Twin Cities",
          "tags": "daredevil,marvel,pedigree",
          "sales": [
             {
@@ -8172,8 +8184,8 @@
          "issue": "1",
          "gradeSrc": "cgc",
          "grade": "9.6",
-         "cgcid":"3755326002",
-         "pedigree":"Northland",
+         "cgcid": "3755326002",
+         "pedigree": "Northland",
          "tags": "daredevil,marvel,pedigree",
          "sales": [
             {
@@ -8188,15 +8200,17 @@
       {
          "title": "Detective Comics",
          "issue": "140",
-         "pedigree":"Promise Collection",
-         "cgcid":"1197792002",
+         "pedigree": "Promise Collection",
+         "cgcid": "1197792002",
          "tags": "batman,detective-comics,dc,riddler, pedigree",
-         "sales": [ {
-            "salesDate": "2021-06-18",
-            "price": "456000",
-            "venue": "Heritage",
-            "link": "https://comics.ha.com/itm/silver-age-1956-1969-/detective-comics-359-boston-pedigree-dc-1967-cgc-nm-mt-98-off-white-to-white-pages/a/7239-91032.s?ic4=ListView-ShortDescription-071515"
-         }],
+         "sales": [
+            {
+               "salesDate": "2021-06-18",
+               "price": "456000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/detective-comics-359-boston-pedigree-dc-1967-cgc-nm-mt-98-off-white-to-white-pages/a/7239-91032.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
          "id": "0519"
       },
       {
@@ -8205,16 +8219,15 @@
          "publisher": "Fox",
          "gradeSrc": "CGC",
          "grade": "9.6",
-         "pedigree":"Promise Collection",
+         "pedigree": "Promise Collection",
          "cgcid": "1973736014",
          "tags": "cgc,classic-cover",
          "sales": [
             {
                "salesDate": "2021-06-18",
-            "price": "456000",
-            "venue": "Heritage",
-            "link": "https://comics.ha.com/itm/golden-age-1938-1955-/phantom-lady-17-the-promise-collection-pedigree-fox-features-syndicate-1948-cgc-nm-96-pink-pages/a/7244-93123.s?ic4=ListView-ShortDescription-071515"
-   
+               "price": "456000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/phantom-lady-17-the-promise-collection-pedigree-fox-features-syndicate-1948-cgc-nm-96-pink-pages/a/7244-93123.s?ic4=ListView-ShortDescription-071515"
             }
          ],
          "id": "0520"
@@ -8222,20 +8235,22 @@
       {
          "title": "Marvel Spotlight",
          "issue": "5",
-         "cgcid":"2573239003",
+         "cgcid": "2573239003",
          "tags": "marvel, ghost-rider, bronze-age",
-         "sales": [ {
-            "salesDate": "2021-06-17",
-            "price": "264000",
-            "venue": "Heritage",
-            "link": "https://comics.ha.com/itm/bronze-age-1970-1979-/marvel-spotlight-5-ghost-rider-marvel-1972-cgc-nm-mt-98-white-pages/a/7244-91011.s?ic4=ListView-ShortDescription-071515"
-         }],
+         "sales": [
+            {
+               "salesDate": "2021-06-17",
+               "price": "264000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/bronze-age-1970-1979-/marvel-spotlight-5-ghost-rider-marvel-1972-cgc-nm-mt-98-white-pages/a/7244-91011.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
          "id": "0521"
       },
       {
          "title": "Captain America Comics",
          "issue": "36",
-         "pedigree":"Promise Collection",
+         "pedigree": "Promise Collection",
          "gradeSrc": "CGC",
          "grade": "9.4",
          "tags": "captain-america,marvel,timely,pedigree",
@@ -8252,7 +8267,7 @@
       {
          "title": "Captain America Comics",
          "issue": "74",
-         "pedigree":"Promise Collection",
+         "pedigree": "Promise Collection",
          "gradeSrc": "CGC",
          "grade": "9.2",
          "tags": "captain-america,marvel,timely,pedigree",
@@ -8269,7 +8284,7 @@
       {
          "title": "Captain America Comics",
          "issue": "46",
-         "pedigree":"Promise Collection",
+         "pedigree": "Promise Collection",
          "gradeSrc": "CGC",
          "grade": "9.2",
          "tags": "captain-america,marvel,timely,pedigree",
@@ -8286,15 +8301,17 @@
       {
          "title": "Detective Comics",
          "issue": "114",
-         "pedigree":"Promise Collection",
-         "cgcid":"1197792002",
+         "pedigree": "Promise Collection",
+         "cgcid": "1197792002",
          "tags": "batman,detective-comics,dc,pedigree",
-         "sales": [ {
-            "salesDate": "2021-06-18",
-            "price": "456000",
-            "venue": "Heritage",
-            "link": "https://comics.ha.com/itm/silver-age-1956-1969-/detective-comics-359-boston-pedigree-dc-1967-cgc-nm-mt-98-off-white-to-white-pages/a/7239-91032.s?ic4=ListView-ShortDescription-071515"
-         }],
+         "sales": [
+            {
+               "salesDate": "2021-06-18",
+               "price": "456000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/detective-comics-359-boston-pedigree-dc-1967-cgc-nm-mt-98-off-white-to-white-pages/a/7239-91032.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
          "id": "0525"
       },
       {
@@ -8302,14 +8319,16 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "8.0",
-         "cgcid":"3832523002",
+         "cgcid": "3832523002",
          "tags": "marvel,hulk",
-         "sales": [{
-            "salesDate": "2021-06-23",
-            "price": "150000",
-            "venue": "comicconnect",
-            "link": "https://www.comicconnect.com/item/918662?tzf=1"
-         }],
+         "sales": [
+            {
+               "salesDate": "2021-06-23",
+               "price": "150000",
+               "venue": "comicconnect",
+               "link": "https://www.comicconnect.com/item/918662?tzf=1"
+            }
+         ],
          "id": "0526"
       },
       {
@@ -8334,14 +8353,14 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "8.0",
-         "cgcid":"3697682002",
+         "cgcid": "3697682002",
          "tags": "cgc,captain-america,timely,marvel",
          "sales": [
             {
                "venue": "comiclink",
                "salesDate": "2021-02-23",
                "price": "395000",
-               "link":"https://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F%5FSORT%3DYES%26Focused%3D1%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2ENoofbids%26ODire3%3DDESC%23Item%5F1454183&id=1454183&itemType=0"
+               "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F%5FSORT%3DYES%26Focused%3D1%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2ENoofbids%26ODire3%3DDESC%23Item%5F1454183&id=1454183&itemType=0"
             }
          ],
          "id": "0528"
@@ -8351,7 +8370,7 @@
          "grade": "5.0",
          "gradeSrc": "CGC",
          "issue": "38",
-         "cgcid":"0966444001",
+         "cgcid": "0966444001",
          "tags": "detective-comics,batman,dc,cbcs",
          "sales": [
             {
@@ -8368,7 +8387,7 @@
          "issue": "39",
          "gradeSrc": "CGC",
          "grade": "9.4",
-         "cgcid":"1199062002",
+         "cgcid": "1199062002",
          "tags": "marvel,iron-man,pedigree,cgc",
          "sales": [
             {
@@ -8383,7 +8402,6 @@
                "price": "125000",
                "link": "http://comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F_SORT%3DYES%26Focused%3D1%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2ENoofbids%26ODire3%3DDESC%23Item_1451699&id=1451699&itemType=0"
             }
-
          ],
          "id": "0530"
       },
@@ -8391,7 +8409,7 @@
          "title": "Action Comics Ashcan",
          "issue": "1",
          "gradeSrc": "CGC",
-         "cgcid":"1445945001",
+         "cgcid": "1445945001",
          "grade": "9.2",
          "tags": "dc,superman,cgc",
          "sales": [
@@ -8409,7 +8427,7 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "3.0",
-         "cgcid":"1973212001",
+         "cgcid": "1973212001",
          "tags": "batman,cgc,dc",
          "sales": [
             {
@@ -8426,7 +8444,7 @@
          "issue": "15",
          "gradeSrc": "CGC",
          "grade": "7.5",
-         "cgcid":"0104944005",
+         "cgcid": "0104944005",
          "tags": "spider-man,amazing-fantasy,cgc,marvel",
          "sales": [
             {
@@ -8458,7 +8476,7 @@
          "issue": "1",
          "gradeSrc": "cgc",
          "grade": "9.6",
-         "cgcid":"1197886001",
+         "cgcid": "1197886001",
          "tags": "daredevil,marvel",
          "sales": [
             {
@@ -8482,8 +8500,8 @@
                "salesDate": "2021-04-05",
                "price": "138000",
                "venue": "heritage",
-               "cgcid":"1235237002",
-               "link":"https://comics.ha.com/itm/golden-age-1938-1955-/detective-comics-225-dc-1955-cgc-nm-94-off-white-to-white-pages/a/7242-91032.s?ic4=ListView-ShortDescription-071515"
+               "cgcid": "1235237002",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/detective-comics-225-dc-1955-cgc-nm-94-off-white-to-white-pages/a/7242-91032.s?ic4=ListView-ShortDescription-071515"
             }
          ],
          "id": "0536"
@@ -8570,6 +8588,149 @@
             }
          ],
          "id": "0541"
+      },
+      {
+         "title": "All-American Comics",
+         "issue": "61",
+         "gradeSrc": "CGC",
+         "grade": "9.6",
+         "cgcid": "1973696001",
+         "pedigree": "Promise Collection",
+         "tags": "dc,solomon grundy,",
+         "sales": [
+            {
+               "salesDate": "2021-06-17",
+               "price": "138000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/all-american-comics-61-the-promise-collection-pedigree-dc-1944-cgc-nm-96-off-white-to-white-pages/a/7244-93002.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
+         "id": "0542"
+      },
+      {
+         "title": "Startling Comics",
+         "issue": "49",
+         "gradeSrc": "CGC",
+         "grade": "9.6",
+         "cgcid": "1973701012",
+         "pedigree": "Promise Collection",
+         "tags": "schomburg,better,classic cover",
+         "sales": [
+            {
+               "salesDate": "2021-06-18",
+               "price": "132000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/startling-comics-49-the-promise-collection-pedigree-better-publications-1948-cgc-nm-96-off-white-to-white-pages/a/7244-93146.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
+         "id": "0543"
+      },
+      {
+         "title": "Detective Comics",
+         "issue": "69",
+         "gradeSrc": "CGC",
+         "grade": "9.0",
+         "cgcid": "1973727001",
+         "pedigree": "Promise Collection",
+         "tags": "dc,joker,batman",
+         "sales": [
+            {
+               "salesDate": "2021-06-18",
+               "price": "126000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/detective-comics-69-the-promise-collection-pedigree-dc-1942-cgc-vf-nm-90-off-white-to-white-pages/a/7244-93053.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
+         "id": "0544"
+      },
+      {
+         "title": "Detective Comics",
+         "issue": "124",
+         "gradeSrc": "CGC",
+         "grade": "9.8",
+         "cgcid": "1973696016",
+         "pedigree": "Promise Collection",
+         "tags": "dc,joker,batman",
+         "sales": [
+            {
+               "salesDate": "2021-06-18",
+               "price": "120000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/detective-comics-124-the-promise-collection-pedigree-dc-1947-cgc-nm-mt-98-off-white-to-white-pages/a/7244-93060.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
+         "id": "0545"
+      },
+      {
+         "title": "Fantastic Four",
+         "issue": "48",
+         "gradeSrc": "CGC",
+         "grade": "9.8",
+         "cgcid": "2140231001",
+         "tags": "marvel,fantastic four, silver surfer",
+         "sales": [
+            {
+               "salesDate": "2021-06-18",
+               "price": "108000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/fantastic-four-48-marvel-1966-cgc-nm-mt-98-white-pages/a/7244-91007.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
+         "id": "0546"
+      },
+      {
+         "title": "Phantom Lady",
+         "issue": "23",
+         "gradeSrc": "CGC",
+         "grade": "9.4",
+         "cgcid": "1973736020",
+         "pedigree": "Promise Collection",
+         "tags": "fox, phantom lady,classic cover,bondage",
+         "sales": [
+            {
+               "salesDate": "2021-06-18",
+               "price": "108000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/phantom-lady-23-the-promise-collection-pedigree-fox-features-syndicate-1949-cgc-nm-94-white-pages/a/7244-93129.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
+         "id": "0547"
+      },
+      {
+         "title": "Detective Comics",
+         "issue": "149",
+         "gradeSrc": "CGC",
+         "grade": "9.6",
+         "cgcid": "1973698002",
+         "pedigree": "Promise Collection",
+         "tags": "dc,batman,joker",
+         "sales": [
+            {
+               "salesDate": "2021-06-18",
+               "price": "102000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/detective-comics-149-the-promise-collection-pedigree-dc-1949-cgc-nm-96-off-white-to-white-pages/a/7244-93067.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
+         "id": "0548"
+      },
+      {
+         "title": "Mask Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "8.5",
+         "cgcid": "1973701003",
+         "pedigree": "Promise Collection",
+         "tags": "Rural Home, classic cover",
+         "sales": [
+            {
+               "salesDate": "2021-06-18",
+               "price": "102000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/mask-comics-1-the-promise-collection-pedigree-rural-home-1945-cgc-vf-85-off-white-to-white-pages/a/7244-93106.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
+         "id": "0549"
       }
    ]
 }

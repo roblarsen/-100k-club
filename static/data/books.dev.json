@@ -3314,7 +3314,6 @@
          "grade": "9.0",
          "cgcid": "1222223001",
          "tags": "fantastic-four,cgc,marvel,kirby",
-         "cgcid": "1222223001",
          "sales": [
             {
                "salesDate": "2021-04-05",
@@ -5051,7 +5050,13 @@
          "gradeSrc": "CBCS",
          "grade": "9.4",
          "tags": "iron-man,marvel,cgc",
-         "sales": [],
+         "cbcsid":"17-1c8440e-002",
+         "sales": [ {
+            "salesDate": "2021-04-05",
+            "price": "132000",
+            "venue": "heritage",
+            "link": "https://comics.ha.com/itm/silver-age-1956-1969-/tales-of-suspense-39-marvel-1963-cbcs-nm-94-white-pages/a/7242-91046.s?ic4=ListView-ShortDescription-071515"
+         }],
          "id": "0319"
       },
       {
@@ -5718,7 +5723,7 @@
       {
          "title": "Suspense Comics",
          "issue": "3",
-         "gradeSrc": "CGC",
+         "gradeSrc": "cbcs",
          "pedigree": "Edgar Church",
          "grade": "9.2",
          "tags": "cbcs,pedigree",
@@ -5827,7 +5832,7 @@
          "grade": "7.5",
          "gradeSrc": "CGC",
          "issue": "35",
-         "tags": "detective-comics,batman,dc,cbcs",
+         "tags": "detective-comics,batman,dc",
          "sales": [
             {
                "salesDate": "2017-02-23",
@@ -6004,7 +6009,7 @@
          "gradeSrc": "CGC",
          "issue": "33",
          "cgcid": "1294864001",
-         "tags": "detective-comics,batman,dc,cbcs",
+         "tags": "detective-comics,batman,dc",
          "sales": [
             {
                "salesDate": "2017-11-17",
@@ -6020,7 +6025,7 @@
          "grade": "5.0",
          "gradeSrc": "CGC",
          "issue": "31",
-         "tags": "detective-comics,batman,dc,cbcs",
+         "tags": "detective-comics,batman,dc",
          "sales": [
             {
                "salesDate": "2017-11-17",
@@ -7024,7 +7029,7 @@
          "gradeSrc": "CBCS",
          "grade": "8.5",
          "cbcsid": "0007055-ac-002",
-         "tags": "incredible-hulk,cgc,marvel,hulk",
+         "tags": "incredible-hulk,cbcs,marvel,hulk",
          "sales": [
             {
                "salesDate": "2017-03-22",
@@ -7325,7 +7330,7 @@
          "gradeSrc": "CGC",
          "issue": "33",
          "cgcid": "1212021001",
-         "tags": "detective-comics,batman,dc,cbcs",
+         "tags": "detective-comics,batman,dc",
          "sales": [
             {
                "salesDate": "2017-03-01",
@@ -7593,7 +7598,7 @@
          "gradeSrc": "CGC",
          "issue": "31",
          "cgcid": "0700549001",
-         "tags": "detective-comics,batman,dc,cbcs",
+         "tags": "detective-comics,batman,dc",
          "sales": [
             {
                "salesDate": "2020-11-19",
@@ -8371,7 +8376,7 @@
          "gradeSrc": "CGC",
          "issue": "38",
          "cgcid": "0966444001",
-         "tags": "detective-comics,batman,dc,cbcs",
+         "tags": "detective-comics,batman,dc",
          "sales": [
             {
                "salesDate": "2021-02-24",
@@ -8511,6 +8516,7 @@
          "issue": "5",
          "gradeSrc": "CGC",
          "grade": "9.4",
+         "cgcid":"1009822001",
          "tags": "fantastic-four,cgc,marvel,kirby",
          "sales": [
             {
@@ -8527,6 +8533,7 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "8.5",
+         "cgcid":"1493872001",
          "tags": "fantastic-four,cgc,marvel,kirby",
          "sales": [
             {
@@ -8731,6 +8738,23 @@
             }
          ],
          "id": "0549"
+      },
+      {
+         "title": "More Fun Comics",
+         "issue": "73",
+         "gradeSrc": "CGC",
+         "grade": "7.5",
+         "cgcid":"1973243002",
+         "tags": "dc,aquaman,green-arrow,cgc",
+         "sales": [
+            {
+               "salesDate": "2021-04-05",
+               "price": "111000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/more-fun-comics-73-dc-1941-cgc-vf-75-off-white-to-white-pages/a/7242-91042.s?ic4=ListView-ShortDescription-071515"
+            }
+         ],
+         "id": "0550"
       }
    ]
 }

@@ -7185,6 +7185,12 @@
                "price": "100199",
                "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/bookDetail.php?id=750774"
+            },
+            {
+               "salesDate": "2021-06-22",
+               "price": "191000",
+               "venue": "ComicLink",
+               "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FSEARCH.ASP%3FPreviewCode%3D2021june%26where%3Dauctions%26title%3Damazing%2B15%26GO%3DGO%26ItemType%3DCB%23Item_1491307&id=1491307&itemType=0"
             }
          ],
          "id": "0464"
@@ -7457,7 +7463,7 @@
          "gradeSrc": "CGC",
          "grade": "4.0",
          "cgcid": "1970461001",
-         "tags": "batman,cgc,comiclink,dc",
+         "tags": "batman,cgc,heritage,dc",
          "sales": [
             {
                "salesDate": "2019-11-21",
@@ -8755,6 +8761,91 @@
             }
          ],
          "id": "0550"
+      },
+      {
+         "title": "Batman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "4.0",
+         "cgcid": "914179001",
+         "tags": "batman,cgc,comiclink,dc",
+         "sales": [
+            {
+               "salesDate": "2021-05-21",
+               "price": "246000",
+               "venue": "comiclink",
+               "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault.asp%3F_SORT%3DYES%26Focused%3D1%26ItemType%3D0%26f1%3Da.MaxBid%26ODire1%3DDESC%26f2%3Di.Title%252C%2Bi.IssueNumber%26ODire2%3DASC%26f3%3Da.MaxBid%26ODire3%3DDESC%26safilter%3D1%23Item_1470335&id=1470335&itemType=0"
+            }
+         ],
+         "id": "0551"
+      },
+      {
+         "title": "Amazing Spider-Man",
+         "issue": "4",
+         "pedigree": "Pacific Coast",
+         "gradeSrc": "CGC",
+         "grade": "9.6",
+         "cgcid":"1027892001",
+         "tags": "marvel,spider-man,cgc",
+         "sales": [
+            {
+               "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault.asp%3F_SORT%3DYES%26Focused%3D1%26ItemType%3D0%26f1%3Da.MaxBid%26ODire1%3DDESC%26f2%3Di.Title%252C%2Bi.IssueNumber%26ODire2%3DASC%26f3%3Da.MaxBid%26ODire3%3DDESC%26safilter%3D1%23Item_1482660&id=1482660&itemType=0",
+               "salesDate": "2021-05-21",
+               "price": "105000",
+               "venue": "ComicLink"
+            }
+         ],
+         "id": "0552"
+      },
+      {
+         "title": "Superman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "1.0",
+         "cgcid": "1171509001",
+         "tags": "superman,dc",
+         "sales": [
+            {
+               "salesDate": "2021-05-27",
+               "price": "155000",
+               "venue": "ComicConnect",
+               "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FPREVIEW.ASP%3F_SORT%3DYES%26returning%3D1%26code%3D2021may%26session%3D1%26f1%3Da.MaxBid%26ODire1%3DDESC%26f2%3Di.Type%252C%2Bi.Title%252C%2Bi.IssueNumber%26ODire2%3DASC%26f3%3Dsortcond%26ODire3%3DDESC%26safilter%3D1%23Item_1469683&id=1469683&itemType=0"
+            }
+         ],
+         "id": "0553"
+      },
+      {
+         "title": "Journey into Mystery",
+         "issue": "83",
+         "gradeSrc": "CGC",
+         "grade": "9.0",
+         "cgcid": "0003625001",
+         "tags": "journey-into-mystery,cgc,marvel,thor,kirby",
+         "sales": [
+            {
+               "salesDate": "2021-05-26",
+               "price": "145000",
+               "venue": "ComicLink",
+               "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FPREVIEW.ASP%3F_SORT%3DYES%26returning%3D1%26code%3D2021may%26session%3D1%26f1%3Da.MaxBid%26ODire1%3DDESC%26f2%3Di.Type%252C%2Bi.Title%252C%2Bi.IssueNumber%26ODire2%3DASC%26f3%3Dsortcond%26ODire3%3DDESC%26safilter%3D1%23Item_1479747&id=1479747&itemType=0"
+            }
+         ],
+         "id": "0554"
+      },
+      {
+         "title": "X-Men",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "8.0",
+         "tags": "x-men,marvel",
+         "sales": [
+            {
+               "link": "https://www.comiclink.com/auctions/item.asp?back=%2FComicTrack%2FAdmin%2FCL%2Fauctions%2Easp&id=1481669&next=%2FComicTrack%2FAdmin%2FCL%2Fauctions%2Easp",
+               "salesDate": "2021-06-22",
+               "price": "147000",
+               "venue": "ComicLink"
+            }
+         ],
+         "id": "0555"
       }
    ]
 }

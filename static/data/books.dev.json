@@ -8847,6 +8847,40 @@
             }
          ],
          "id": "0555"
+      },
+      {
+         "title": "Superman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "7.0",
+         "cgcid": "3945284001",
+         "tags": "superman,dc",
+         "sales": [
+            {
+               "salesDate": "2021-12-16",
+               "price": "2604750",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/item/937190"
+            }
+         ],
+         "id": "0556"
+      },
+      {
+         "title": "Teenage mutant ninja turtles",
+         "issue": "1",
+         "gradeSrc": "cgc",
+         "cgcid": "3888170001",
+         "grade": "9.8",
+         "tags": "tmnt,copper-age,teenage-mutant-ninja-turtles",
+         "sales": [
+            {
+               "salesDate": "2021-12-14",
+               "price": "230555",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/item/928850"
+            }
+         ],
+         "id": "0557"
       }
    ]
 }

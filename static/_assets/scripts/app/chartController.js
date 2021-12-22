@@ -9,7 +9,7 @@ angular.module("comicsApp" ).
       $scope.startYear = 1990;
       $scope.endYear = moment().add(1,"year").year();
       $scope.baseline = 0;
-      $scope.maxPrice = 3500000;
+      $scope.maxPrice = 4000000;
       $scope.updateTooltip = function(it) {
         $scope.tooltip = {
           price:it.price || 0,

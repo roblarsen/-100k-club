@@ -85,7 +85,7 @@
          "issue": "1",
          "coverDate": "1938-04-01",
          "pedigree": "Larson",
-         "gradeSrc": "Anecdote",
+         "gradeSrc": "CGC",
          "grade": "8.0",
          "sales": [],
          "id": "0004",
@@ -1512,7 +1512,7 @@
          "title": "Detective Comics",
          "issue": "27",
          "pedigree": "Church",
-         "gradeSrc": "Anecdote",
+         "gradeSrc": "CGC",
          "grade": "8.5",
          "tags": "detective-comics,dc,batman,pedigree",
          "sales": [
@@ -7088,6 +7088,7 @@
          "gradingNotes": "Mod(P)",
          "cgcid": "0056428009",
          "tags": "superman,dc",
+         "restoration":"Mod(P)",
          "sales": [
             {
                "salesDate": "2017-09-14",

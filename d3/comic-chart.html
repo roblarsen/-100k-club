@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>A Timeline of World Record Comic Book Sales</title>
+
+    <link href="_assets/css/normalize.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="_assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 nominal" id="target">
+
+            </div>
+        </div>
+        <div class ="row">
+            <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="inflation" id="inflationValue">
+                    <label class="form-check-label" for="inflationValue">
+                      Show Inflation Adjusted Results
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="nominal" id="nominalValue" checked>
+                    <label class="form-check-label" for="nominalValue">
+                      Show Nominal Results
+                    </label>
+                  </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12" id="data">
+                <h1>The Data</h1>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="node_modules/d3/dist/d3.min.js"></script>
+    <script src="node_modules/d3-fetch/dist/d3-fetch.min.js"></script>
+    <script src="_assets/js/inflation.js"></script>
+    <script src="node_modules/moment/min/moment.min.js"></script>
+    <script src="_assets/js/comics.js"></script>
+
+
+
+</body>
+
+</html>

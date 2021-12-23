@@ -1,0 +1,1 @@
+If you want to run this locally, you can just check out the file and use a utility like `serve` to serve this static directory. To simplify all of this I just checked in `node_modules` so there's no set-up 

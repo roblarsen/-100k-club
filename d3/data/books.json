@@ -1,6 +1,17 @@
 {
   "sales": [
     {
+      "title": "Amazing Fantasy",
+      "issue": "15",
+      "grade": "9.6",
+      "date": "2021-09-09",
+      "price": "3600000",
+      "seller": "Heritage",
+      "buyer": "",
+      "note":"",
+      "goodDate": true 
+   },
+    {
       "title": "Action Comics",
       "issue": "1",
       "grade": "8.5",

@@ -46,7 +46,7 @@
     "jit-grunt": "^0.9.1",
     "jshint-stylish": "^1.0.0",
     "minjson": "0.0.4",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "time-grunt": "^1.0.0"
   },
   "dependencies": {

@@ -47,7 +47,7 @@
     "jshint-stylish": "^2.2.1",
     "minjson": "0.0.4",
     "node-sass": "^7.0.1",
-    "time-grunt": "^1.0.0"
+    "time-grunt": "^2.0.0"
   },
   "dependencies": {
     "cssmin": "^0.4.3"

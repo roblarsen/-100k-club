@@ -9,7 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "d3": "^5.7.0",
+    "d3": "^7.6.1",
     "d3-fetch": "^1.1.2",
     "moment": "^2.22.2"
   },

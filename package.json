@@ -17,7 +17,7 @@
     "autoprefixer-core": "^6.0.1",
     "grunt": "^1.6.1",
     "grunt-angular-templates": "^1.2.0",
-    "grunt-cli": "^1.4.3",
+    "grunt-cli": "^1.5.0",
     "grunt-concurrent": "^3.0.0",
     "grunt-contrib-clean": "^2.0.1",
     "grunt-contrib-compress": "^2.0.0",

@@ -52,14 +52,22 @@
          "coverDate": "1938-04-01",
          "pedigree": "Kansas City",
          "gradeSrc": "CGC",
-         "grade": "8.0",
+         "grade": "8.5",
+         "generalCommentary": "used to be an 8.0",
          "tags": "action,superman,cgc,dc,pedigree",
+         "cgcid":"1012698001",
          "sales": [
             {
                "salesDate": "2010-02-22",
                "price": "1000000",
                "venue": "ComicConnect",
                "link": "http://www.comicconnect.com/bookDetail.php?id=330734"
+            },
+            {
+               "salesDate": "2024-04-24",
+               "price": "6000000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/action-comics-1-kansas-city-pedigree-dc-1938-cgc-vf-85-off-white-to-white-pages/a/7369-91002.s"
             }
          ],
          "id": "0002"
@@ -272,15 +280,19 @@
          "gradeSrc": "CGC",
          "grade": "3.0",
          "tags": "cgc,superman,action,dc",
+         "cgcid":"0004524001",
          "sales": [
             {
                "salesDate": "2010-04-01",
                "price": "300000",
                "venue": "ComicConnect"
+            },
+            {
+               "salesDate": "2021-12-14",
+               "price": "1638759.20",
+               "venue": "ComicConnect",
+               "link":"https://www.comicconnect.com/item/434421"
             }
-         ],
-         "id": "0016"
-      },
       {
          "title": "Action Comics",
          "issue": "1",
@@ -288,12 +300,18 @@
          "gradeSrc": "CGC",
          "grade": "3.0",
          "tags": "cgc,action,superman,dc",
+         "cgcid":"1290207001",
          "sales": [
             {
                "salesDate": "2014-11-20",
                "price": "310000",
                "venue": "Heritage",
                "link": "http://comics.ha.com/itm/golden-age-1938-1955-/action-comics-1-dc-1938-cgc-gd-vg-30-cream-to-off-white-pages/a/7099-91003.s"
+            },
+            {
+               "salesDate": "2016-01-20",
+               "price": "498750",
+               "venue": "unknown"
             }
          ],
          "id": "0017"
@@ -4507,12 +4525,25 @@
          "grade": "8.0 (MP)",
          "restoration": "Moderate Professional",
          "tags": "cgc,restored,superman,action",
+         "cgcid":"1107898001",
          "sales": [
             {
                "salesDate": "2011-08-17",
                "price": "149375",
                "venue": "Heritage",
                "link": "http://comics.ha.com/c/item.zx?saleNo=7036&lotNo=91227"
+            },
+            {
+               "salesDate": "2024-04-24",
+               "price": "576000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/action-comics-1-dc-1938-cgc-apparent-vf-80-moderate-p-cream-to-off-white-pages/a/7369-91003.s"
+            },
+            {
+               "salesDate": "2007-05-03",
+               "price": "65725",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/action-comics-1-dc-1938-cgc-apparent-vf-80-moderate-p-cream-to-off-white-pages/a/824-41013.s"
             }
          ],
          "id": "0281"
@@ -4524,7 +4555,13 @@
          "gradeSrc": "CGC",
          "grade": "9.0 (MP)",
          "tags": "cgc,restored,superman,action",
-         "sales": [],
+         "cgcid":"0058485001",
+         "sales": [ {
+            "salesDate": "2021-06-21",
+            "price": "452000",
+            "venue": "ComicConnect",
+            "link": "https://www.comicconnect.com/item/919278"
+         }],
          "id": "0282"
       },
       {
@@ -4705,7 +4742,13 @@
          "gradeSrc": "CGC",
          "grade": "5.5 (EP)",
          "tags": "cgc,restored,superman,action",
-         "sales": [],
+         "cgcid":"4417840001",
+         "sales": [{
+            "salesDate": "2024-06-24",
+            "price": "379579.35",
+            "venue": "ComicConnect",
+            "link": "https://www.comicconnect.com/item/1035071"
+         }],
          "id": "0296"
       },
       {
@@ -8881,6 +8924,84 @@
             }
          ],
          "id": "0557"
+      },
+      {
+         "title": "Action Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "9.4",
+         "restoration":"EA",
+         "tags": "cgc,action-comics,restored,dc",
+         "cgcid":"1562123001",
+         "sales": [
+            {
+               "venue": "ComicConnect",
+               "salesDate": "2022-06-08",
+               "price": "575000",
+               "link": "https://www.comicconnect.com/item/843603"
+            }
+         ],
+         "id": "0558"
+      },
+      {
+         "title": "Action Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "8.5",
+         "restoration":"A3",
+         "gradingNotes":"trimmed",
+         "tags": "cgc,action-comics,restored,dc",
+         "cgcid":"1260017001",
+         "sales": [
+            {
+               "venue": "ComicConnect",
+               "salesDate": "2022-09-21",
+               "price": "350750",
+               "link": "https://www.comicconnect.com/item/843603"
+            },
+            {
+               "venue": "ComicConnect",
+               "salesDate": "2018-07-21",
+               "price": "261427",
+               "link":"https://www.comicconnect.com/item/755667"
+            }
+         ],
+         "id": "0559"
+      },
+      {
+         "title": "Action Comics",
+         "issue": "1",
+         "collection": "",
+         "gradeSrc": "CGC",
+         "grade": "6.5 (A2)",
+         "tags": "dc,superman,cgc,restored",
+         "sales": [
+            {
+               "salesDate": "2021-11-18",
+               "price": "300000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/action-comics-1-dc-1938-cgc-apparent-fn-65-slight-moderate-a-2-slightly-brittle-pages/a/7248-91032.s"
+            }
+         ],
+         "id": "0560"
+      },
+      {
+         "title": "Action Comics",
+         "issue": "1",
+         "publisher": "DC Comics",
+         "coverDate": "1938-04-01",
+         "grade": "6.0",
+         "gradeSrc": "CGC",
+         "pedigree":"Rocket Copy",
+         "sales": [
+            {
+               "venue": "Hertiage",
+               "salesDate": "2022-01-13",
+               "price": "3180000",
+               "link":"https://comics.ha.com/itm/golden-age-1938-1955-/superhero/action-comics-1-rocket-copy-dc-1938-cgc-fn-60-white-pages/a/7266-91030.s"
+            }
+         ],
+         "id": "0003"
       }
    ]
 }

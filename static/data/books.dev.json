@@ -1501,7 +1501,7 @@
          "id": "0094"
       },
       {
-         "generalCommentary": "OS 27 reported $150,000 trade. To be honest, I'm only now including it for completeness' sake. First off, it's \"trade\" which you have to take with a grain of salt anyway. Secondly, if it's really VG/FN, then is it really a $100,000 book right now, no matter the pedigree?",
+         "generalCommentary": "OS 27 reported $150,000 trade.",
          "title": "Detective Comics",
          "issue": "1",
          "pedigree": "Church",
@@ -1753,6 +1753,7 @@
          "issue": "27",
          "gradeSrc": "CGC",
          "grade": "3.0",
+         "cgcid":"1092339003",
          "tags": "detective-comics,dc,batman",
          "sales": [
             {
@@ -1766,6 +1767,11 @@
                "price": "194543",
                "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/bookDetail.php?id=471759"
+            },
+            {
+               "salesDate": "2013-01-24",
+               "price": "217500",
+               "venue": "unknown"
             }
          ],
          "id": "0111"
@@ -9003,7 +9009,121 @@
                "link":"https://comics.ha.com/itm/golden-age-1938-1955-/superhero/action-comics-1-rocket-copy-dc-1938-cgc-fn-60-white-pages/a/7266-91030.s"
             }
          ],
-         "id": "0003"
+         "id": "0561"
+      },
+      {
+         "title": "Detective Comics",
+         "issue": "27",
+         "gradeSrc": "CGC",
+         "grade": "7.5 (a3)",
+         "tags": "batman,detective-comics,dc,restored",
+         "cgcid":"1615590001",
+         "sales": [
+            {
+               "salesDate": "2021-09-21",
+               "price": "350750",
+               "venue": "comicconnect",
+               "link": "https://www.comicconnect.com/item/961758"
+            },
+            {
+               "salesDate": "2018-09-07",
+               "price": "222000",
+               "venue": "unknown"
+            }
+         ],
+         "id": "0562"
+      },
+      {
+         "title": "Detective Comics",
+         "issue": "27",
+         "gradeSrc": "CGC",
+         "grade": "7.0 (a1)",
+         "tags": "batman,detective-comics,dc,restored",
+         "cgcid":"4085355002",
+         "sales": [
+            {
+               "salesDate": "2022-09-08",
+               "price": "384000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/detective-comics-27-dc-1939-cgc-apparent-fn-vf-70-slight-a-1-off-white-pages/a/7279-91041.s"
+            }
+         ],
+         "id": "0563"
+      },
+      {
+         "title": "Detective Comics",
+         "issue": "27",
+         "gradeSrc": "CGC",
+         "grade": "7.0 (a1)",
+         "tags": "batman,detective-comics,dc,restored",
+         "cgcid":"4085355002",
+         "sales": [
+            {
+               "salesDate": "2022-09-08",
+               "price": "384000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/detective-comics-27-dc-1939-cgc-apparent-fn-vf-70-slight-a-1-off-white-pages/a/7279-91041.s"
+            }
+         ],
+         "id": "0563"
+      },
+      {
+         "title": "Detective Comics",
+         "issue": "27",
+         "gradeSrc": "CGC",
+         "grade": "6.0",
+         "tags": "batman,detective-comics,dc",
+         "generalCommentary":"Signed by Bob Kane to his good friend Robert Crestohl",
+         "cgcid":"4172825003",
+         "sales": [
+            {
+               "salesDate": "2023-03-30",
+               "price": "1740000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/detective-comics-27-dc-1939-cgc-fn-60-off-white-to-white-pages/a/7339-91029.s"
+            }
+         ],
+         "id": "0564"
+      },
+      {
+         "title": "Detective Comics",
+         "issue": "27",
+         "gradeSrc": "CGC",
+         "grade": "4.5",
+         "tags": "batman,detective-comics,dc",
+         "cgcid":"27066790013",
+         "sales": [
+            {
+               "salesDate": "2024-06-24",
+               "price": "675000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/detective-comics-27-dc-1939-cgc-vg-45-tan-to-off-white-pages/a/7374-91006.s"
+            },
+            {
+               "salesDate": "2022-01-13",
+               "price": "1140000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/detective-comics-27-dc-1939-cgc-vg-45-tan-to-off-white-pages/a/7266-91038.s"
+            }
+         ],
+         "id": "0565"
+      },
+      {
+         "title": "Detective Comics",
+         "issue": "27",
+         "gradeSrc": "CGC",
+         "grade": "3.0",
+         "cgcid":"0053003007",
+         "tags": "detective-comics,dc,batman",
+         "sales": [
+            {
+               "salesDate": "2024-06-24",
+               "price": "600000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/detective-comics-27-dc-1939-cgc-gd-vg-30-slightly-brittle-pages/a/7369-91011.s"
+            }
+         ],
+         "id": "0566"
       }
    ]
 }

@@ -2073,7 +2073,7 @@
          "pedigree": "Church",
          "gradeSrc": "Anecdote",
          "grade": "NM/MT",
-         "generalCommentary": "OS 20 Trade data- $108,000. John Verzyl said that this deal happened in 1984 and was for $132,000. Can I explain the discrepancy between what he says and the OS notation. No. Is it my job to make sure that all of the results reported here make sense? No (thankfully.) John did also verify the anecdote about this book. It is \"perfect.\" There's nothing wrong with it. It's also supposedly got pretty nice registration.",
+         "generalCommentary":"OS 20 Trade data- $108,000. John Verzyl said that it was for $132,000. Either case its the earliest $100,000 comic, at least in terms of trade value. John did also verify the anecdote about this book. It is \"perfect.\" There's nothing wrong with it. It's also supposedly got pretty nice registration.",
          "tags": "marvel-comics,timely,marvel",
          "sales": [],
          "id": "0133"
@@ -2115,7 +2115,8 @@
          "issue": "1",
          "provenance": "Pay Copy",
          "gradeSrc": "CGC",
-         "grade": "9.0",
+         "generalCommentary":"used to be a 9.0",
+         "grade": "9.2",
          "tags": "marvel,timely,jp-the-mint",
          "sales": [
             {
@@ -2145,6 +2146,12 @@
                "price": "201250",
                "venue": "Heritage",
                "link": "http://comics.ha.com/c/item.zx?saleNo=819&lotNo=2403"
+            },
+            {
+               "salesDate": "2022-03-17",
+               "price": "2427777.65",
+               "venue": "Heritage",
+               "link": "https://comicconnect.com/item/867184"
             }
          ],
          "id": "0136"
@@ -2225,7 +2232,7 @@
          "title": "Marvel Comics",
          "issue": "1",
          "gradeSrc": "CGC",
-         "grade": "9.4",
+         "grade": "9.4 (SP)",
          "generalCommentary": "slight pro",
          "tags": "marvel,timely,marvel-comics,restored",
          "sales": [
@@ -2518,10 +2525,17 @@
          "tags": "superman,dc,pedigree",
          "sales": [
             {
-               "venue": "unknown",
+               "venue": "Red Beard",
                "sellersNotes": "os27",
                "salesDate": "1996-01-01",
                "price": "170000"
+            },
+            {
+               "venue": "Private Sale",
+               "sellersNotes": "Tony Arnold of TonyeTrade Enterprises, one of the renowned sources for vintage collectibles, and Roy Delic of Vintage Collectibles brokered the deal",
+               "salesDate": "2022-04-13",
+               "price": "5300000"
+               
             }
          ],
          "id": "0157"
@@ -3739,6 +3753,12 @@
                "price": "112007",
                "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/bookDetail.php?id=453316"
+            },
+            {
+               "salesDate": "2023-03-30",
+               "price": "675000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/marvel-comics-1-timely-1939-cgc-vf-75-white-pages/a/7339-91037.s"
             }
          ],
          "id": "0228"
@@ -6806,8 +6826,14 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "4.5",
-         "tags": "marvel,timely,marvel-comics,restored",
-         "sales": [],
+         "cgcid":"0055917018",
+         "tags": "marvel,timely,marvel-comics",
+         "sales": [ {
+            "salesDate": "2024-06-20",
+            "price": "288000",
+            "venue": "heritage",
+            "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/marvel-comics-1-timely-1939-cgc-vg-45-cream-to-off-white-pages/a/7374-91012.s"
+         }],
          "id": "0440"
       },
       {
@@ -6815,8 +6841,14 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "4.5",
-         "tags": "marvel,timely,marvel-comics,restored",
-         "sales": [],
+         "cgcid":"2706903001",
+         "tags": "marvel,timely,marvel-comics",
+         "sales": [ {
+            "salesDate": "2022-01-13",
+            "price": "360000",
+            "venue": "heritage",
+            "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/marvel-comics-1-timely-1939-cgc-vg-45-off-white-to-white-pages/a/7266-91041.s"
+         }],
          "id": "0441"
       },
       {
@@ -7146,7 +7178,15 @@
                "price": "150555",
                "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/bookDetail.php?id=730896"
+            },
+            {
+               "salesDate": "2023-03-30",
+               "price": "168000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-dc-1939-cgc-apparent-vf-80-moderate-p-white-pages/a/7339-91041.s"
             }
+
+            
          ],
          "id": "0460"
       },
@@ -9124,6 +9164,143 @@
             }
          ],
          "id": "0566"
+      },
+      {
+         "title": "Marvel Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "7.0 (A3)",
+         "tags": "marvel,timely,marvel-comics,restored",
+         "sales": [
+            {
+               "salesDate": "2024-06-20",
+               "price": "228000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/marvel-comics-1-october-cover-timely-1939-cgc-apparent-fn-vf-70-moderate-a-3-off-white-to-white-pages/a/7374-91013.s"
+            }
+         ],
+         "id": "0567"
+      },
+      {
+         "title": "Marvel Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "6.0",
+         "pedigree":"Kansas City",
+         "cgcid":"3991444001",
+         "tags": "marvel,timely,marvel-comics",
+         "sales": [
+            {
+               "salesDate": "2022-09-22",
+               "price": "729000",
+               "venue": "comicconnect",
+               "link": "https://www.comicconnect.com/item/962668"
+            }
+         ],
+         "id": "0568"
+      },
+      {
+         "title": "Marvel Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "3.0",
+         "cgcid":"2706903001",
+         "tags": "marvel,timely,marvel-comics",
+         "sales": [ {
+            "salesDate": "2022-11-17",
+            "price": "223200",
+            "venue": "heritage",
+            "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/marvel-comics-1-timely-1939-cgc-gd-vg-30-cream-to-off-white-pages/a/7283-91058.s"
+         }],
+         "id": "0569"
+
+      },
+      
+      {
+         "title": "Marvel Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "3.0",
+         "cgcid":"1212654007",
+         "tags": "marvel,timely,marvel-comics",
+         "sales": [ {
+            "salesDate": "2016-11-17",
+            "price": "77675",
+            "venue": "heritage",
+            "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/marvel-comics-1-timely-1939-cgc-gd-vg-30-off-white-to-white-pages/a/7141-91134.s"
+         }],
+         "id": "0570"
+
+      },
+      {
+         "title": "Marvel Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "2.5",
+         "cgcid":"1564089001",
+         "tags": "marvel,timely,marvel-comics",
+         "sales": [ {
+            "salesDate": "2022-03-17",
+            "price": "363527.65",
+            "venue": "comicconnect",
+            "link": "https://www.comicconnect.com/item/947351"
+         },
+         {
+            "salesDate": "2022-12-15",
+            "price": "293250",
+            "venue": "comicconnect",
+            "link": "https://www.comicconnect.com/item/973125"
+         }],
+         "id": "0571"
+
+      },
+      {
+         "title": "Marvel Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "3.0",
+         "cgcid":"1212654007",
+         "tags": "marvel,timely,marvel-comics",
+         "sales": [ {
+            "salesDate": "2016-11-17",
+            "price": "77675",
+            "venue": "heritage",
+            "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/marvel-comics-1-timely-1939-cgc-gd-vg-30-off-white-to-white-pages/a/7141-91134.s"
+         }],
+         "id": "0572"
+
+      },
+      {
+         "title": "Marvel Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "2.0 (C3)",
+         "cgcid":"1135164001",
+         "tags": "marvel,timely,marvel-comics",
+         "sales": [ {
+            "salesDate": "2021-09-09-17",
+            "price": "156000",
+            "venue": "heritage",
+            "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/marvel-comics-1-timely-1939-cgc-apparent-gd-20-moderate-c-3-cream-to-off-white-pages/a/7246-94065.s"
+         }],
+         "id": "0573"
+
+      },
+      {
+         "title": "Marvel Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "1.0",
+         "cgcid":"1260708001",
+         "tags": "marvel,timely,marvel-comics",
+         "sales": [ {
+            "salesDate": "2024-10-02",
+            "price": "163300",
+            "venue": "comicconnect",
+            "link": "https://www.comicconnect.com/item/801507"
+         }],
+         "id": "0574"
+
       }
    ]
 }

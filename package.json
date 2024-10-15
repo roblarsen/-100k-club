@@ -49,6 +49,7 @@
     "time-grunt": "^2.0.0"
   },
   "dependencies": {
-    "cssmin": "^0.4.3"
+    "cssmin": "^0.4.3",
+    "serve": "^14.2.3"
   }
 }

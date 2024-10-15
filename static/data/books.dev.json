@@ -2583,7 +2583,8 @@
             {
                "salesDate": "2007-01-18",
                "price": "83650",
-               "venue": "Comiclink"
+               "venue": "Heritage",
+               "link":"https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-nova-scotia-pedigree-dc-1939-cgc-vg-fn-50-off-white-pages/a/823-41444.s"
             },
             {
                "salesDate": "2008-08-28",
@@ -2599,6 +2600,12 @@
                "venue": "ComicConnect",
                "salesDate": "1900-01-01",
                "price": "148000"
+            },
+            {
+               "salesDate": "2023-01-12",
+               "price": "675000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-nova-scotia-pedigree-dc-1939-cgc-vg-fn-50-off-white-pages/a/7338-91041.s"
             }
          ],
          "id": "0160"
@@ -3853,6 +3860,18 @@
                "price": "456000",
                "venue": "Heritage",
                "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-dc-1939-cgc-vg-fn-50-cream-to-off-white-pages/a/7209-91087.s"
+            },
+            {
+               "salesDate": "2022-05-12",
+               "price": "720000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-dc-1939-cgc-vg-fn-50-cream-to-off-white-pages/a/40200-83130.s"
+            },
+            {
+               "salesDate": "2024-04-04",
+               "price": "504000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-dc-1939-cgc-vg-fn-50-cream-to-off-white-pages/a/7369-91024.s"
             }
          ],
          "id": "0233"
@@ -8952,7 +8971,15 @@
                "price": "2604750",
                "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/item/937190"
+            },
+            {
+               "salesDate": "2024-01-11",
+               "price": "2340000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-dc-1939-cgc-fn-vf-70-off-white-pages/a/7358-91044.s"
             }
+            
+            
          ],
          "id": "0556"
       },

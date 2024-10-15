@@ -3929,6 +3929,12 @@
                "salesDate": "2020-09-10",
                "price": "348000",
                "venue": "Heritage"
+            },
+            {
+               "link": "https://www.comicconnect.com/item/971701?tzf=1",
+               "salesDate": "2022-12-16",
+               "price": "348000",
+               "venue": "Heritage"
             }
          ],
          "id": "0236"
@@ -3939,18 +3945,15 @@
          "gradeSrc": "cgc",
          "grade": "4.0",
          "tags": "superman,dc",
+         "cgcid":"1626117001",
          "sales": [
             {
-               "salesDate": "2013-08-15",
-               "price": "145000",
-               "venue": "unknown"
+               "salesDate": "2022-06-10",
+               "price": "815000",
+               "venue": "Heritage"
             }
          ],
          "id": "0237"
-      },
-      {
-         "sales": [],
-         "id": "0238"
       },
       {
          "title": "Whiz",
@@ -4446,8 +4449,22 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "3.0",
+         "cgcid":"1055241001",
          "tags": "superman,dc",
-         "sales": [],
+         "sales": [
+            {
+               "salesDate": "2023-11-16",
+               "price": "300000",
+               "venue": "Heritage",
+               "link":"https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-dc-1939-cgc-gd-vg-30-off-white-pages/a/7342-91027.s"
+            },
+            {
+               "salesDate": "2023-06-22",
+               "price": "360000",
+               "venue": "Heritage",
+               "link":"https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-dc-1939-cgc-gd-vg-30-off-white-pages/a/7340-91054.s"
+            }
+         ],
          "id": "0273"
       },
       {
@@ -5421,12 +5438,18 @@
          "issue": "1",
          "gradeSrc": "cgc",
          "grade": "4.0",
+         "cgcid":"0078604001",
          "tags": "superman,dc",
          "sales": [
             {
                "salesDate": "2016-01-22",
                "price": "295000",
                "venue": "Heritage"
+            },
+            {
+               "salesDate": "2013-08-15",
+               "price": "145000",
+               "venue": "unknown"
             }
          ],
          "id": "0039"
@@ -7097,6 +7120,7 @@
          "gradeSrc": "CGC",
          "grade": "1.5",
          "tags": "superman,dc",
+         "cgcid":"1292083002",
          "sales": [
             {
                "salesDate": "2019-03-15",
@@ -7632,6 +7656,12 @@
                "price": "167300",
                "venue": "Heritage",
                "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-dc-1939-cgc-gd-20-cream-to-off-white-pages/a/7187-91084.s?ic16=ViewItem-Auction-Archive-PreviousPricesHeritage-081514"
+            },
+            {
+               "salesDate": "2024-06-29",
+               "price": "196905",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/item/1045396"
             }
          ],
          "id": "0481"
@@ -8689,9 +8719,14 @@
          "sales": [
             {
                "salesDate": "2021-09-18",
-               "price": "134400",
+               "price": "137760",
                "venue": "Goldin Auctions",
                "link": "https://goldinauctions.com/1939_DC_Comics__Superman___1_Origin_of_Superman___-lot68688.aspx"
+            },
+            {
+               "salesDate": "2019-06-13",
+               "price": "71004",
+               "venue": "unknown"
             }
          ],
          "id": "0540"
@@ -9328,6 +9363,202 @@
          }],
          "id": "0574"
 
+      },
+      {
+         "title": "Superman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "2.0",
+         "cgcid": "1449683002",
+         "tags": "superman,dc",
+         "sales": [
+            {
+               "salesDate": "2019-11-21",
+               "price": "260000",
+               "venue": "MyComicShip.com",
+               "link": "https://www.mycomicshop.com/search?ItemID=60030683"
+            }
+         ],
+         "id": "0575"
+      },
+      {
+         "title": "Superman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "1.8",
+         "tags": "superman,dc",
+         "cgcid": "1200915001",
+         "sales": [
+            {
+               "salesDate": "2022-11-17",
+               "price": "288000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-dc-1939-cgc-gd-18-cream-to-off-white-pages/a/7283-91060.s"
+            }
+         ],
+         "id": "0576"
+      },
+      {
+         "title": "Superman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "1.5",
+         "tags": "superman,dc",
+         "cgcid":"1970950001",
+         "sales": [
+            {
+               "salesDate": "2020-03-05",
+               "price": "90000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-dc-1939-cgc-fr-gd-15-cream-to-off-white-pages/a/7224-91071.s"
+            }, {
+               "salesDate": "2022-06-16",
+               "price": "192000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-dc-1939-cgc-fr-gd-15-cream-to-off-white-pages/a/7274-91026.s"
+            }
+         ],
+         "id": "0577"
+      },
+      {
+         "title": "Superman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "1.5",
+         "tags": "superman,dc",
+         "cgcid":"4257343001",
+         "sales": [
+            {
+               "salesDate": "2023-08-25",
+               "price": "132250",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/item/1007412"
+            }
+         ],
+         "id": "0578"
+      },
+      {
+         "title": "Superman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "1.5",
+         "tags": "superman,dc",
+         "cgcid":"1001327001",
+         "sales": [
+            {
+               "salesDate": "2024-06-24",
+               "price": "180000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-dc-1939-cgc-fr-gd-15-off-white-to-white-pages/a/7374-91124.s"
+            }
+         ],
+         "id": "0579"
+      },
+      {
+         "title": "Superman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "1.0",
+         "cgcid": "1294030001",
+         "tags": "superman,dc",
+         "sales": [
+            {
+               "salesDate": "2017-05-19",
+               "price": "83650",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-dc-1939-cgc-fr-10-cream-to-off-white-pages/a/7163-92142.s"
+            },
+            {
+               "salesDate": "2022-03-19",
+               "price": "141450",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/item/947330"
+            },{
+               "salesDate": "2023-03-18",
+               "price": "101111",
+               "venue": "ComicConnect"
+            },
+            {
+               "salesDate": "2024-03-20",
+               "price": "90000",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/item/1036536"
+            }
+         ],
+         "id": "0580"
+      },
+      {
+         "title": "Superman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "1.0",
+         "cgcid": "1171509001",
+         "tags": "superman,dc",
+         "sales": [
+            {
+               "salesDate": "2022-06-22",
+               "price": "108000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-incomplete-dc-1939-cgc-fr-10-cream-to-off-white-pages/a/7340-92117.s"
+            },
+            {
+               "salesDate": "2024-04-04",
+               "price": "138000",
+               "venue": "Heritage",
+               "link":"https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-incomplete-dc-1939-cgc-fr-10-cream-to-off-white-pages/a/7369-91086.s"
+            }
+         ],
+         "id": "0581"
+      },
+      {
+         "title": "Superman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "1.0",
+         "cgcid": "1171509001",
+         "tags": "superman,dc",
+         "sales": [
+            {
+               "salesDate": "2022-06-22",
+               "price": "108000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-incomplete-dc-1939-cgc-fr-10-cream-to-off-white-pages/a/7340-92117.s"
+            }
+         ],
+         "id": "0582"
+      },
+      {
+         "title": "Superman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "1.0",
+         "cgcid": "1171509001",
+         "tags": "superman,dc",
+         "sales": [
+            {
+               "salesDate": "2022-06-22",
+               "price": "108000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-incomplete-dc-1939-cgc-fr-10-cream-to-off-white-pages/a/7340-92117.s"
+            }
+         ],
+         "id": "0583"
+      },      {
+         "title": "Superman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "1.0",
+         "cgcid": "1171509001",
+         "tags": "superman,dc",
+         "sales": [
+            {
+               "salesDate": "2022-06-22",
+               "price": "108000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-incomplete-dc-1939-cgc-fr-10-cream-to-off-white-pages/a/7340-92117.s"
+            }
+         ],
+         "id": "0584"
       }
    ]
 }

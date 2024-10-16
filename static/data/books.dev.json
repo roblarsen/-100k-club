@@ -1341,6 +1341,7 @@
          "pedigree": "Reilly",
          "gradeSrc": "CGC",
          "grade": "9.4",
+         "cgcid":"2041248001",
          "tags": "captain-america,marvel,timely,pedigree",
          "sales": [
             {
@@ -1348,7 +1349,14 @@
                "price": "915000",
                "venue": "Heritage",
                "link": "https://comics.ha.com/itm/golden-age-1938-1955-/captain-america-comics-1-san-francisco-pedigree-timely-1941-cgc-nm-94-off-white-to-white-pages/a/7211-91053.s?ic4=ListView-ShortDescription-071515"
-            }
+            },
+            {
+               "salesDate": "2022-04-07",
+               "price": "3120000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-san-francisco-pedigree-timely-1941-cgc-nm-94-off-white-to-white-pages/a/7270-91053.s"
+            }	
+
          ],
          "id": "0087"
       },
@@ -6235,7 +6243,7 @@
          "title": "Captain America Comics",
          "issue": "1",
          "gradeSrc": "CGC",
-         "cgcid": "115634001",
+         "cgcid": "1615634001",
          "grade": "5.5",
          "tags": "captain-america,cgc,marvel,timely",
          "sales": [
@@ -8093,10 +8101,16 @@
          "tags": "captain-america,cgc,timely,marvel",
          "sales": [
             {
-               "salesDate": "2009-05-22",
+               "salesDate": "2018-05-22",
                "price": "102000",
                "venue": "Heritage",
                "link": "https://comics.ha.com/itm/golden-age-1938-1955-/captain-america-comics-1-timely-1941-cgc-vg-35-off-white-to-white-pages/a/7192-91054.s?ic4=ListView-ShortDescription-071515"
+            },
+            {
+               "salesDate": "2020-07-09",
+               "price": "90000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-timely-1941-cgc-vg-35-off-white-to-white-pages/a/7231-91053.s"
             }
          ],
          "id": "0505"
@@ -8496,6 +8510,12 @@
                "price": "325000",
                "venue": "comicconnect",
                "link": "https://www.comicconnect.com/item/927182?tzf=1"
+            },
+            {
+               "salesDate": "2022-05-12",
+               "price": "312000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-timely-1941-cgc-fn-vf-70-cream-to-off-white-pages/a/40200-83099.s"
             }
          ],
          "id": "0527"
@@ -8602,7 +8622,7 @@
             {
                "salesDate": "2021-04-05",
                "price": "156000",
-               "venue": "Hertiage",
+               "venue": "Heritage",
                "link": "https://comics.ha.com/itm/silver-age-1956-1969-/amazing-fantasy-15-marvel-1962-cgc-vf-75-off-white-to-white-pages/a/7242-91025.s?ic4=ListView-ShortDescription-071515"
             }
          ],
@@ -8617,7 +8637,7 @@
             {
                "salesDate": "2021-04-05",
                "price": "150000",
-               "venue": "hertiage",
+               "venue": "Heritage",
                "link": "https://comics.ha.com/itm/silver-age-1956-1969-/the-amazing-spider-man-1-marvel-1963-cgc-nm-92-off-white-pages/a/7242-91026.s?ic4=ListView-ShortDescription-071515"
             }
          ],
@@ -9105,7 +9125,7 @@
          "pedigree":"Rocket Copy",
          "sales": [
             {
-               "venue": "Hertiage",
+               "venue": "Heritage",
                "salesDate": "2022-01-13",
                "price": "3180000",
                "link":"https://comics.ha.com/itm/golden-age-1938-1955-/superhero/action-comics-1-rocket-copy-dc-1938-cgc-fn-60-white-pages/a/7266-91030.s"
@@ -9514,15 +9534,15 @@
          "title": "Superman",
          "issue": "1",
          "gradeSrc": "CGC",
-         "grade": "1.0",
-         "cgcid": "1171509001",
+         "grade": "0.5",
+         "cgcid": "0280833002",
          "tags": "superman,dc",
          "sales": [
             {
-               "salesDate": "2022-06-22",
-               "price": "108000",
-               "venue": "Heritage",
-               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-incomplete-dc-1939-cgc-fr-10-cream-to-off-white-pages/a/7340-92117.s"
+               "salesDate": "2024-08-01",
+               "price": "84370",
+               "venue": "Hakes",
+               "link": "https://www.hakes.com/Auction/ItemDetail/288811/SUPERMAN-1-SUMMER-1939-CGC-05-POOR-SUPERMAN-ORIGIN"
             }
          ],
          "id": "0582"
@@ -9531,15 +9551,14 @@
          "title": "Superman",
          "issue": "1",
          "gradeSrc": "CGC",
-         "grade": "1.0",
-         "cgcid": "1171509001",
+         "grade": "0.5",
+         "cgcid": "1292695001",
          "tags": "superman,dc",
          "sales": [
             {
-               "salesDate": "2022-06-22",
-               "price": "108000",
-               "venue": "Heritage",
-               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-incomplete-dc-1939-cgc-fr-10-cream-to-off-white-pages/a/7340-92117.s"
+               "salesDate": "2022-09-08",
+               "price": "130000",
+               "venue": "unknown"
             }
          ],
          "id": "0583"
@@ -9547,18 +9566,334 @@
          "title": "Superman",
          "issue": "1",
          "gradeSrc": "CGC",
-         "grade": "1.0",
-         "cgcid": "1171509001",
+         "grade": "0.5",
+         "cgcid": "2706514008",
          "tags": "superman,dc",
          "sales": [
             {
-               "salesDate": "2022-06-22",
-               "price": "108000",
+               "salesDate": "2022-01-13",
+               "price": "96000",
                "venue": "Heritage",
-               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-incomplete-dc-1939-cgc-fr-10-cream-to-off-white-pages/a/7340-92117.s"
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-incomplete-dc-1939-cgc-pr-05-off-white-pages/a/7266-91046.s"
             }
          ],
          "id": "0584"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "cgcid": "4245429001",
+         "grade": "9.2",
+         "tags": "captain-america,cgc,marvel,timely",
+         "sales": [
+            {
+               "salesDate": "2024-04-04",
+               "price": "750000",
+               "venue": "Heritage",
+               "link":"https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-timely-1941-cgc-nm-92-off-white-to-white-pages/a/7369-91009.s"
+            },
+            {
+               "salesDate": "2023-06-22",
+               "price": "810000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-timely-1941-cgc-nm-92-off-white-to-white-pages/a/7340-91039.s"
+            }
+         ],
+         "id": "0585"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "cgcid": "4245429001",
+         "pedigree":"Larson",
+         "grade": "9.2(C)",
+         "tags": "captain-america,cgc,marvel,timely,pedigree",
+         "sales": [
+            {
+               "salesDate": "2022-11-17",
+               "price": "276000",
+               "venue": "Heritage",
+               "link":"https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-larson-pedigree-timely-1941-cgc-conserved-nm-92-white-pages/a/7283-91043.s"
+            }
+         ],
+         "id": "0586"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "cgcid": "1970011001",
+         "grade": "7.5(C)",
+         "tags": "captain-america,cgc,marvel,timely",
+         "sales": [
+            {
+               "salesDate": "2023-09-14",
+               "price": "168000",
+               "venue": "Heritage",
+               "link":"https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-timely-1941-cgc-conserved-vf-75-off-white-pages/a/7341-92042.s"
+            },
+            {
+               "salesDate": "2019-11-21",
+               "price": "96000",
+               "venue": "Heritage",
+               "link":"https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-timely-1941-cgc-conserved-vf-75-off-white-pages/a/7212-91073.s"
+            }
+         ],
+         "id": "0587"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "7.0",
+         "cgcid": "3880623001",
+         "tags": "captain-america,marvel,timely,golden-age",
+         "sales": [
+            {
+               "salesDate": "2022-03-17",
+               "price": "339761",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/item/927823"
+            }
+         ],
+         "id": "0588"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "7.0",
+         "cgcid": "1969638001",
+         "tags": "captain-america,marvel,timely,golden-age",
+         "sales": [
+            {
+               "salesDate": "2023-03-15",
+               "price": "3000150",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/item/988064"
+            }
+         ],
+         "id": "0589"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "cgcid": "1255099001",
+         "grade": "5.5",
+         "tags": "captain-america,cgc,marvel,timely",
+         "sales": [
+            {
+               "salesDate": "2024-07-31",
+               "price": "172221",
+               "venue": "Hakes",
+               "link": "https://www.hakes.com/Auction/ItemDetail/288222/CAPTAIN-AMERICA-COMICS-1-MARCH-1941-CGC-55-FINE-FIRST-CAPTAIN-AMERICABUCKYRED-SKULL"
+            }
+         ],
+         "id": "0590"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "cgcid": "2708675001",
+         "grade": "5.0",
+         "tags": "captain-america,cgc,marvel,timely",
+         "sales": [
+            {
+               "salesDate": "2022-09-08",
+               "price": "180000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-timely-1941-cgc-vg-fn-50-cream-to-off-white-pages/a/7279-91039.s"
+            }
+         ],
+         "id": "0591"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "cgcid": "4177955001",
+         "grade": "5.0",
+         "tags": "captain-america,cgc,marvel,timely",
+         "sales": [
+            {
+               "salesDate": "2024-06-20",
+               "price": "180000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-timely-1941-cgc-vg-fn-50-white-pages/a/7374-91003.s"
+            }
+         ],
+         "id": "0592"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "cgcid": "2709201001",
+         "grade": "4.5",
+         "tags": "captain-america,cgc,marvel,timely",
+         "sales": [
+            {
+               "salesDate": "2022-12-11",
+               "price": "194400",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-timely-1941-cgc-vg-45-off-white-to-white-pages/a/7343-92054.s"
+            }
+         ],
+         "id": "0593"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "cgcid": "3855397002",
+         "grade": "4.0",
+         "tags": "captain-america,cgc,marvel,timely",
+         "sales": [
+            {
+               "salesDate": "2021-09-08",
+               "price": "180000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-timely-1941-cgc-vg-40-off-white-pages/a/7246-91035.s"
+            }
+         ],
+         "id": "0594"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "cgcid": "0984504001",
+         "grade": "3.5",
+         "tags": "captain-america,cgc,marvel,timely",
+         "sales": [
+            {
+               "salesDate": "2018-02-22",
+               "price": "119500",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-timely-1941-cgc-vg-35-light-tan-to-off-white-pages/a/7177-91056.s"
+            }
+         ],
+         "id": "0595"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "cgcid": "1015242001",
+         "grade": "3.5",
+         "tags": "captain-america,cgc,marvel,timely",
+         "sales": [
+            {
+               "salesDate": "2024-10-01",
+               "price": "125000",
+               "venue": "Heritage",
+               "link": "https://www.comicconnect.com/item/1046210"
+            }
+         ],
+         "id": "0596"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "pedigree": "Promise Collection",
+         "gradeSrc": "CGC",
+         "grade": "3.5",
+         "tags": "captain-america,marvel,timely,pedigree",
+         "sales": [
+            {
+               "salesDate": "2021-11-18",
+               "price": "240000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-the-promise-collection-pedigree-timely-1941-cgc-vg-35-cream-to-off-white-pages/a/7248-93060.s"
+            }, 
+            {
+               "salesDate": "2023-06-22",
+               "price": "168000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-the-promise-collection-pedigree-timely-1941-cgc-vg-35-cream-to-off-white-pages/a/7340-91040.s"
+            }
+         ],
+         "id": "0597"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "cgcid": "2708474001",
+         "grade": "3.0",
+         "tags": "captain-america,cgc,marvel,timely",
+         "sales": [
+            {
+               "salesDate": "2022-06-17",
+               "price": "144000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/captain-america-comics-1-timely-1941-cgc-gd-vg-30-cream-to-off-white-pages/a/7274-94019.s"
+            }
+         ],
+         "id": "0598"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "cgcid": "4269601001",
+         "grade": "3.0",
+         "tags": "captain-america,cgc,marvel,timely",
+         "sales": [
+            {
+               "salesDate": "2023-11-16",
+               "price": "126000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-timely-1941-cgc-gd-vg-30-cream-to-off-white-pages/a/7342-91021.s"
+            }
+         ],
+         "id": "0599"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "cgcid": "4363857002",
+         "grade": "3.0",
+         "tags": "captain-america,cgc,marvel,timely",
+         "sales": [
+            {
+               "salesDate": "2024-04-04",
+               "price": "156000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-timely-1941-cgc-gd-vg-30-off-white-pages/a/7369-91046.s"
+            }
+         ],
+         "id": "0600"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "cgcid": "0280290001",
+         "grade": "2.0",
+         "tags": "captain-america,cgc,marvel,timely",
+         "sales": [
+            {
+               "salesDate": "2023-09-14",
+               "price": "114000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-timely-1941-cgc-gd-20-cream-to-off-white-pages/a/7341-91031.s"
+            },
+            {
+               "salesDate": "2020-09-10",
+               "price": "90000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-timely-1941-cgc-gd-20-cream-to-off-white-pages/a/7234-91035.s"
+            }
+
+         ],
+         "id": "0601"
       }
+      
    ]
 }

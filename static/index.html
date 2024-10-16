@@ -45,7 +45,29 @@
       <td class="sales">
         <ol>
           <li data-ng-repeat="sl in it.sales | orderBy: 'salesDate'"
-            data-ng-include="'_assets/partials/sale.html'">
+            >
+            <span class="sales-price" data-ng-show="sl.link">
+              <a href="{{sl.link}}">{{sl.price | currency}}</a>
+            </span>
+            <span class="sales-price" data-ng-hide="sl.link">
+              {{sl.price | currency}}
+            </span>
+            <span class="sales-venue" data-ng-show="sl.venue === 'Seller unknown'">
+              with an unknown seller 
+            </span>
+            <span class="sales-venue" data-ng-show="sl.venue === 'private sale'">
+              in a private sale
+            </span>
+
+            <span class="sales-venue" 
+              data-ng-show="sl.venue !== 'private sale'
+              &&
+              sl.venue !== 'Seller unknown'">
+              at {{sl.venue|capitalize}}
+            </span>
+            <span class="sales-date">
+              {{sl.salesDate | saneDate}}
+            </span>
             
           </li>
         </ol>

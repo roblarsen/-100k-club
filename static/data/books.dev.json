@@ -7008,6 +7008,12 @@
                "price": "126000",
                "venue": "Heritage",
                "link": "https://comics.ha.com/itm/silver-age-1956-1969-/fantastic-four-1-marvel-1961-cgc-vf-85-off-white-pages/a/7211-91061.s?ic4=ListView-ShortDescription-071515"
+            },
+            {
+               "salesDate": "2022-06-08",
+               "price": "350000",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/item/958082?tzf=1"
             }
          ],
          "id": "0448"
@@ -8716,6 +8722,12 @@
                "price": "132000",
                "venue": "Heritage",
                "link": "https://comics.ha.com/itm/silver-age-1956-1969-/fantastic-four-1-marvel-1961-cgc-vf-85-off-white-to-white-pages/a/7242-91034.s?ic4=ListView-ShortDescription-071515"
+            },
+            {
+               "salesDate": "2024-06-20",
+               "price": "144000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/fantastic-four-1-marvel-1961-cgc-vf-85-off-white-to-white-pages/a/7374-91010.s"
             }
          ],
          "id": "0538"
@@ -9952,6 +9964,63 @@
             }
          ],
          "id": "0604"
+      },
+      {
+         "title": "Fantastic Four",
+         "issue": "1",
+         "gradeSrc": "cgc",
+         "cgcid": "0244394001",
+         "grade": "8.5",
+         "tags": "fantastic-four,cgc,marvel,kirby",
+         "sales": [
+            {
+               "salesDate": "2022-06-17",
+               "price": "240000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/fantastic-four-1-marvel-1961-cgc-vf-85-off-white-to-white-pages/a/7274-94140.s"
+            },
+            {
+               "salesDate": "2022-06-23",
+               "price": "117000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/fantastic-four-1-marvel-1961-cgc-vf-85-off-white-to-white-pages/a/7340-91044.s"
+            }
+         ],
+         "id": "0605"
+      },
+      {
+         "title": "Fantastic Four",
+         "issue": "1",
+         "gradeSrc": "cgc",
+         "cgcid": "2707370001",
+         "grade": "8.5",
+         "tags": "fantastic-four,cgc,marvel,kirby",
+         "sales": [
+            {
+               "salesDate": "2022-08-04",
+               "price": "228000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/fantastic-four-1-marvel-1961-cgc-vf-85-white-pages/a/40202-82039.s"
+            }
+         ],
+         "id": "0605"
+      },
+      {
+         "title": "Fantastic Four",
+         "issue": "1",
+         "gradeSrc": "cgc",
+         "cgcid": "4480366001",
+         "grade": "8.5",
+         "tags": "fantastic-four,cgc,marvel,kirby",
+         "sales": [
+            {
+               "salesDate": "2024-10-01",
+               "price": "160000",
+               "venue": "Heritage",
+               "link": "https://www.comicconnect.com/item/1053223"
+            }
+         ],
+         "id": "0606"
       }
    ]
 }

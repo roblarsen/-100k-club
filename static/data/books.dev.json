@@ -699,6 +699,11 @@
                "price": "566000",
                "venue": "ComicLink",
                "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F%5FSORT%3DYES%26Focused%3D1%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2ENoofbids%26ODire3%3DDESC%23Item%5F1457476&id=1457476&itemType=0#detail"
+            },{
+               "salesDate": "2024-09-12",
+               "price": "540000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/amazing-fantasy-15-curator-pedigree-marvel-1962-cgc-vf-nm-90-off-white-to-white-pages/a/7379-91004.s"
             }
          ],
          "id": "0042"
@@ -2824,7 +2829,7 @@
             },
             {
                "salesDate": "2021-09-18",
-               "price": "690000",
+               "price": "707250",
                "venue": "Goldin Auctions",
                "link": "https://www.goldinauctions.com/item/919598?tzf=1"
             }
@@ -7875,7 +7880,14 @@
                "price": "177000",
                "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/item/854568"
+            },
+            {
+               "salesDate": "2021-08-30",
+               "price": "560000",
+               "venue": "ComicConnect",
+               "link": "https://www.comicconnect.com/item/925735"
             }
+            
          ],
          "id": "0491"
       },
@@ -10016,11 +10028,163 @@
             {
                "salesDate": "2024-10-01",
                "price": "160000",
-               "venue": "Heritage",
+               "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/item/1053223"
             }
          ],
          "id": "0606"
+      },
+      {
+         "title": "Fantastic Four",
+         "issue": "1",
+         "gradeSrc": "cgc",
+         "cgcid": "4087336001",
+         "grade": "8.0",
+         "tags": "fantastic-four,cgc,marvel,kirby",
+         "sales": [
+            {
+               "salesDate": "2022-11-17",
+               "price": "120000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/fantastic-four-1-marvel-1961-cgc-vf-80-white-pages/a/7283-91053.s"
+            }
+         ],
+         "id": "0607"
+      },
+      {
+         "title": "Fantastic Four",
+         "issue": "1",
+         "gradeSrc": "cgc",
+         "cgcid": "2707372001",
+         "grade": "7.5",
+         "tags": "fantastic-four,cgc,marvel,kirby",
+         "sales": [
+            {
+               "salesDate": "2022-04-07",
+               "price": "168000",
+               "venue": "Heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/fantastic-four-1-marvel-1961-cgc-vf-75-white-pages/a/7270-91060.s"
+            }
+         ],
+         "id": "0609"
+      },
+      {
+         "title": "Fantastic Four",
+         "issue": "1",
+         "gradeSrc": "cgc",
+         "cgcid": "1975415001",
+         "grade": "7.5",
+         "tags": "fantastic-four,cgc,marvel,kirby",
+         "sales": [
+            {
+               "salesDate": "2021-11-05",
+               "price": "106250",
+               "venue": "Heritage",
+               "link": "https://entertainment.ha.com/itm/movie-tv-memorabilia/memorabilia/fantastic-four-1-marvel-1961-cgc-vf-75-off-white-pages/a/7245-89212.s"
+            }
+         ],
+         "id": "0610"
+      },
+      {
+         "title": "Amazing Fantasy",
+         "issue": "15",
+         "gradeSrc": "CGC",
+         "grade": "9.2",
+         "cgcid":"4121190001",
+         "tags": "amazing-fantasy,marvel,spider-man,cgc",
+         "sales": [
+            {
+               "salesDate": "2023-01-12",
+               "price": "810000",
+               "venue": "Heritage"
+            }
+         ],
+         "id": "0611"
+      },
+      {
+         "title": "Amazing Fantasy",
+         "issue": "15",
+         "gradeSrc": "CGC",
+         "grade": "8.5",
+         "cgcid":"4060306001",
+         "tags": "cgc,amazing-fantasy,spider-man,marvel",
+         "sales": [
+            {
+               "salesDate": "2022-07-02",
+               "price": "875000",
+               "venue": "unknown"
+            }
+         ],
+         "id": "0612"
+      },
+      {
+         "title": "Amazing Fantasy",
+         "issue": "15",
+         "gradeSrc": "CGC",
+         "grade": "8.5",
+         "cgcid":"0915546001",
+         "tags": "cgc,amazing-fantasy,spider-man,marvel",
+         "sales": [
+            {
+               "salesDate": "2022-11-17",
+               "price": "552000",
+               "venue": "Heritage",
+               "link":"https://comics.ha.com/itm/silver-age-1956-1969-/superhero/amazing-fantasy-15-biljo-white-copy-marvel-1962-cgc-vf-85-off-white-to-white-pages/a/7283-92002.s"
+            }
+         ],
+         "id": "0613"
+      },
+      {
+         "title": "Amazing Fantasy",
+         "issue": "15",
+         "gradeSrc": "CGC",
+         "grade": "8.0",
+         "cgcid":"0203810001",	
+         "tags": "cgc,amazing-fantasy,spider-man,marvel",
+         "sales": [
+            {
+               "salesDate": "2021-03-10",
+               "price": "385000",
+               "venue": "unknown"
+            }
+         ],
+         "id": "0614"
+      },
+      {
+         "title": "Amazing Fantasy",
+         "issue": "15",
+         "gradeSrc": "CGC",
+         "grade": "8.0",
+         "cgcid":"2004024008",	
+         "tags": "cgc,amazing-fantasy,spider-man,marvel",
+         "sales": [
+            {
+               "salesDate": "2022-03-15",
+               "price": "520000",
+               "venue":"ComicConnect",
+               "link":"https://www.comicconnect.com/item/946481"
+            }
+         ],
+         "id": "0615"
+      },
+      {
+         "title": "Amazing Fantasy",
+         "issue": "15",
+         "gradeSrc": "CGC",
+         "grade": "8.0",
+         "cgcid":"4009493001",	
+         "tags": "cgc,amazing-fantasy,spider-man,marvel",
+         "sales": [
+            {
+               "salesDate": "2022-06-08",
+               "price": "448500",
+               "venue":"ComicConnect",
+               "link":"https://www.comicconnect.com/item/948562"
+            }
+         ],
+         "id": "0616"
       }
+
+      
    ]
 }

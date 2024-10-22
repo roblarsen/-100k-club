@@ -3,7 +3,7 @@
     {
       "title": "Action Comics",
       "issue": "1",
-      "grade": "8.0",
+      "grade": "8.5",
       "buyer": "",
       "note": "Kansas City",
       "date": "2024-04-07",
@@ -159,9 +159,9 @@
       "issue": "27",
       "grade": "high grade",
       "note": "'other high grade' copy",
-      "buyer": "",
+      "buyer": "Steve Geppi",
       "date": "1993-01-01",
-      "seller": "unknown",
+      "seller": "Dave Anderson (OK)",
       "price": "101000",
       "goodDate": false
     },
@@ -188,13 +188,13 @@
       "goodDate": false
     },
     {
-      "title": "Action Comics",
+      "title": "Marvel Comics",
       "issue": "1",
       "grade": "NM",
-      "buyer": "Dave Anderson",
+      "buyer": "Steve Geppi",
       "note": "Church Copy",
       "seller": "John Snyder",
-      "price": "25000",
+      "price": "35000",
       "date": "1984-01-01",
       "goodDate": false
     },
@@ -203,21 +203,10 @@
       "issue": "1",
       "grade": "",
       "note": "",
-      "buyer": "Steve Geppi",
-      "date": "1979-10-08",
-      "seller": "John Snyder",
-      "price": "17500",
-      "goodDate": true
-    },
-    {
-      "title": "Marvel Comics",
-      "issue": "1",
-      "grade": "",
-      "note": "",
       "buyer": "John Snyder",
       "date": "1979-01-01",
-      "seller": "unknown",
-      "price": "13000",
+      "seller": "MHC through Steve Geppi",
+      "price": "13500",
       "goodDate": false
     },
     {
@@ -240,6 +229,17 @@
       "date": "1976-01-01",
       "seller": "unknown",
       "price": "6300",
+      "goodDate": false
+    },
+    {
+      "title": "Action",
+      "issue": "1",
+      "grade": "",
+      "note": "",
+      "buyer": "",
+      "date": "1975-01-01",
+      "seller": "Mitch Mehdy",
+      "price": "2500",
       "goodDate": false
     },
     {

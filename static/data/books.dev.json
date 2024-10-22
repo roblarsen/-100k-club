@@ -9702,7 +9702,7 @@
          "sales": [
             {
                "salesDate": "2023-03-15",
-               "price": "3000150",
+               "price": "300150",
                "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/item/988064"
             }
@@ -10183,8 +10183,23 @@
             }
          ],
          "id": "0616"
-      }
-
-      
+      },
+      {
+         "title": "Tales of Suspense",
+         "issue": "39",
+         "gradeSrc": "CGC",
+         "grade": "9.8",
+         "cgcid":"1446255001",
+         "tags": "pedigree,iron-man,marvel,cgc",
+         "sales": [
+            {
+               "salesDate": "2023-09-01",
+               "price": "2000000",
+               "venue": "ComicLink",
+               "link":"https://www.comiclink.com/service_text.asp?3673"
+            }
+         ],
+         "id": "0617"
+      } 
    ]
 }

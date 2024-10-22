@@ -121,6 +121,17 @@
       "price": "350000",
       "goodDate": true
     },
+    
+    {
+      "title": "Detective Comics",
+      "issue": "27",
+      "grade": "8.0",
+      "buyer": "",
+      "date": "2001-10-25",
+      "seller": "Mastronet",
+      "price": "278210",
+      "goodDate": false
+    },
     {
       "title": "Captain America Comics",
       "issue": "1",

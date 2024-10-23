@@ -126,6 +126,7 @@
       "title": "Detective Comics",
       "issue": "27",
       "grade": "8.0",
+      "note":"the missing copy",
       "buyer": "",
       "date": "2001-10-25",
       "seller": "Mastronet",
@@ -142,6 +143,17 @@
       "seller": "unknown",
       "price": "260000",
       "goodDate": false
+    },
+    {
+      "title": "Superman",
+      "issue": "1",
+      "grade": "VF",
+      "note": "Church Copy",
+      "buyer": "Bechara Malouf",
+      "date": "1995-07-04",
+      "seller": "Red Beard",
+      "price": "170000",
+      "goodDate": true
     },
     {
       "title": "Action Comics",

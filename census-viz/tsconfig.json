@@ -1,0 +1,16 @@
+{
+
+    "compilerOptions": {
+    "target": "ES6",
+    "module": "es6",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "noImplicitAny": false,
+  },
+  "include": ["scripts/**/*"],
+  "paths" : ["node_modules/**/*"]
+}

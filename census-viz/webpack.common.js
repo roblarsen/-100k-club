@@ -2,11 +2,21 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    app: './js/app.js',
+    app: './scripts/main.ts',
   },
+  resolve: {  extensions: ['.tsx', '.ts', '.js'] },
+  module: {
+    rules: [
+    {
+        test: /\.ts$/,
+        exclude: [/node_modules/],
+        loader: 'ts-loader'
+    }
+  ],
+},
   output: {
     path: path.resolve(__dirname, 'dist'),
     clean: true,
-    filename: './js/app.js',
+    filename: './scripts/main.js',
   },
 };

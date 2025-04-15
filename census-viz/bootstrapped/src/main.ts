@@ -3,34 +3,34 @@ import * as d3 from "d3";
 // Sample data for the bubble chart
 const data = [
   {
-     "title":"Action Comics #1","date":"04/18/1938","average":"4.18", "population":"44", color:"#003366"
+     "title":"Action Comics #1","date":"04/18/1938","average":"4.18", "population":"44", color:"#003366", "id":"action-comics-1"
  },
  {
-     "title":"Detective Comics #27","date":"03/30/1939","average":"4.59", "population":"38", color:"#003366"
+     "title":"Detective Comics #27","date":"03/30/1939","average":"4.59", "population":"38", color:"#003366", "id":"detective-comics-27"
  },
  {
-     "title":"Superman #1","date":"05/18/1939","average":"2.51", "population":"78", color:"#003366"
+     "title":"Superman #1","date":"05/18/1939","average":"2.51", "population":"78"  , "id":"superman-1"
  },
  {
-     "title":"Marvel Comics #1","date":"09/31/39","average":"4.27", "population":"37", color:"#003366"
+     "title":"Marvel Comics #1","date":"09/31/39","average":"4.27", "population":"37"  , "id":"marvel-comics-1"
  },
  {
-     "title":"Batman #1","date":"04/25/1940","average":"3.20", "population":"153", color:"#003366"
+     "title":"Batman #1","date":"04/25/1940","average":"3.20", "population":"153"  , "id":"batman-1"
  },
  {
-     "title":"All American Comics #16","date":"05/17/1940","average":"4.10", "population":"33", color:"#003366"
+     "title":"All American Comics #16","date":"05/17/1940","average":"4.10", "population":"33"  , "id":"all-american-comics-16"
  },
  {
-     "title":"Captain America Comics #1","date":"12/20/1940","average":"5.10", "population":"97", color:"#003366"
+     "title":"Captain America Comics #1","date":"12/20/1940","average":"5.10", "population":"97"  , "id":"captain-america-comics-1"
  },
  {
-     "title":"Action Comics #7","date":"10/25/1938","average":"3.28", "population":"33", color:"#003366"
+     "title":"Action Comics #7","date":"10/25/1938","average":"3.28", "population":"33"  , "id":"action-comics-7"
  },
  {
-     "title":"Detective Comics #31","date":"07/30/1939","average":"2.97", "population":"66", color:"#003366"
+     "title":"Detective Comics #31","date":"07/30/1939","average":"2.97", "population":"66"  , "id":"detective-comics-31"
  },
  {
-     "title":"Whiz Comics #2 (#1)","date":"11/08/1939","average":"3.31", "population":"33", color:"#003366"
+     "title":"Whiz Comics #2 (#1)","date":"11/08/1939","average":"3.31", "population":"33"  , "id":"whiz-2"
  }
 
  ];
@@ -127,10 +127,10 @@ const svg = d3.select("#chart")
       .attr("cx", function (d) { return x(new Date(d.date)) } )
       .attr("cy", function (d) { return y(d.average) } )
       .attr("r", function (d) { return z(d.population) } )
-      .style("fill", "#69b3a2")
-      .style("opacity", "0.7")
-      .attr("stroke", "black")
+      .attr("class", "circle")
+      .attr("id", function (d) { console.log(d.id); return d.id })
       .on("mouseover", showTooltip )
       .on("mousemove", moveTooltip )
       .on("mouseleave", hideTooltip )
+        
 

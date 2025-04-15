@@ -2,7 +2,6 @@
   "name": "bubble-chart-d3-ts",
   "version": "1.0.0",
   "description": "A bubble chart visualization using D3.js and TypeScript",
-  "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"

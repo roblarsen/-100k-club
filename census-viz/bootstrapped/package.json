@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "A bubble chart visualization using D3.js and TypeScript",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "copy-img": "cp -vR ./img ./dist",
+    "start": "npm run copy-img && parcel index.html",
+    "build": "npm run copy-img && parcel build index.html"
   },
   "dependencies": {
     "d3": "^7.8.4"

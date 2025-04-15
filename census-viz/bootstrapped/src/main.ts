@@ -38,7 +38,7 @@ const data = [
 // Set up SVG dimensions
 const margin = {top: 10, right: 20, bottom: 30, left: 50},
     width = 1024 - margin.left - margin.right,
-    height = 728 - margin.top - margin.bottom;
+    height = 660 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 const svg = d3.select("#chart")
@@ -101,11 +101,10 @@ const svg = d3.select("#chart")
 
   // Add Y axis
   const y = d3.scaleLinear()
-    .domain([0, 10])
+    .domain([0, 6])
     .range([  height, 0 ]);
   svg.append("g")
     .call(d3.axisLeft(y));
-
     svg.append("g")
     .attr("transform", "translate(0," + height + ")")
     .call(d3.axisBottom(x));
@@ -116,21 +115,37 @@ const svg = d3.select("#chart")
   // Add a scale for bubble size
   const z = d3.scaleLinear()
     .domain([0, 250])
-    .range([ 1, 125]);
+    .range([ 1, 250]);
 
   // Add dots
   svg.append('g')
     .selectAll("dot")
     .data(data)
     .enter()
-    .append("circle")
-      .attr("cx", function (d) { return x(new Date(d.date)) } )
-      .attr("cy", function (d) { return y(d.average) } )
-      .attr("r", function (d) { return z(d.population) } )
+    .append("image")
+      .attr("x", function (d) { return x(new Date(d.date)) - z(d.population)/2 } )
+      .attr("y", function (d) { return y(d.average) - z(d.population)/2 } )
+      .attr("width", function (d) { return z(d.population) })
+      .attr("height",function (d) { return z(d.population) })
       .attr("class", "circle")
-      .attr("id", function (d) { console.log(d.id); return d.id })
+      .attr("href",function (d) { console.log(d.id); return "/img/"+d.id+".jpg" } )
+      .attr("clip-path",  function(d) {return `url(#${d.id})`})
       .on("mouseover", showTooltip )
       .on("mousemove", moveTooltip )
       .on("mouseleave", hideTooltip )
-        
+
+
+  svg.append("defs")
+      .selectAll("dot")
+      .data(data)
+      .enter()
+      .append("clipPath")
+      .attr("id", function (d) { return d.id })
+      .append("circle")
+      .attr("cx", function (d) { return x(new Date(d.date)) } )
+      .attr("cy",  function (d) { return y(d.average)})
+      .attr("r", function (d) { return z(d.population)/2 })
+      .attr("fill","black")
+    
+
 

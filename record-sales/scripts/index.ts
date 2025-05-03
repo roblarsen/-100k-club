@@ -1,17 +1,51 @@
 import * as d3 from "d3";
+import { drawTable } from "./drawTable";
+import { drawChart } from "./drawChart";
+import { Comic } from "./Comic";
+import { Sale } from "./Sale";
+import { recordSale } from "./recordSale";
 
-//normally svg won't be an unused variablesince you'll continue to use it throughout your code
+let data: Comic[] = [];
+let recordSales: Array<recordSale> = []; 
 
+function salesList(data){
+  data.forEach((d:Comic) => {
+    
+    if (d.sales.length > 0){
+      d.sales.forEach((s:Sale) => {
+        let ped: string,
+        src: string,
+        grade: string;
+        if (d.pedigree === undefined){
+          ped = "";
+        } else {
+          ped = d.pedigree;
+        } 
+        if (d.gradeSrc === undefined){
+          src = "";
+        } else {
+          src = d.gradeSrc;
+        }
+        if (d.grade === undefined){
+          grade = "";
+        } else {
+          grade = d.grade;
+        }
 
-//eslint-disable-next-line @typescript-eslint/no-unused-vars
-const svg = d3.select("#viz")
-    .append("svg")
-    .attr("width", 200)
-    .attr("height", 100)
-    .append("g")
-    .append("text")
-    .attr("x", 50)
-    .attr("y", 50)
-    .attr("text-anchor", "left")
-    .attr("font-size", "20px")
-    .text("Hello, D3.js!")
+        recordSales.push(
+          new recordSale(d.title,d.issue,ped,src,grade,s.price,s.salesDate,s.venue)
+      });
+      console.log(recordSales);
+    }
+  });
+}
+d3.json("data/books.json")
+  .then((d) => {
+    data = d.books;
+
+    salesList(data);
+    drawChart(data);
+    drawTable(data);
+  })
+  .catch((err) => {
+  console.error("Error loading data:", err)});

@@ -1,4 +1,4 @@
-export class recordSale {
+export class RecordSale {
     title: string;
     issue: string;
     pedigree?: string;

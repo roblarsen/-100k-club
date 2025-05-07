@@ -1,17 +1,18 @@
-import * as _ from "lodash";
 import { Comic } from "./Comic";
 import { Sale } from "./Sale";
-import { recordSale } from "./RecordSale";
+import { RecordSale } from "./RecordSale";
 
 
-export function saleList( data: Array<any> ): Array<recordSale> {
-    let recordSales: Array<recordSale> = [];
+export function saleList( data: Array<any> ): Array<RecordSale> {
+    let recordSales: Array<RecordSale> = [];
     data.forEach((d: Comic) => {
         if (d.sales.length > 0) {
             d.sales.forEach((s: Sale) => {
-                let ped: string,
+                if (s.price >= 100000){
+                    let ped: string,
                     src: string,
                     grade: string;
+                    
                 if (d.pedigree === undefined) {
                     ped = "";
                 } else {
@@ -27,14 +28,15 @@ export function saleList( data: Array<any> ): Array<recordSale> {
                 } else {
                     grade = d.grade;
                 }
-                console.log( new recordSale(d.title, d.issue, ped, src, grade, s.price, s.salesDate, s.venue))
+
                 recordSales.push(
-                    new recordSale(d.title, d.issue, ped, src, grade, s.price, s.salesDate, s.venue)
-            );
+                    new RecordSale(d.title, d.issue, ped, src, grade, Number(s.price), s.salesDate, s.venue)
+                );
+                }
             });
+            
         } 
     });
-
-   
-    return recordSales;
+return recordSales;
+  
 }

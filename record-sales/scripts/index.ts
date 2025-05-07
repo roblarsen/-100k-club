@@ -3,10 +3,10 @@ import { drawTable } from "./drawTable";
 import { drawChart } from "./drawChart";
 import { Comic } from "./Comic";
 import { Sale } from "./Sale";
-import { recordSale } from "./RecordSale";
+import { RecordSale } from "./RecordSale";
 import  { books } from "../data/books.json";
 import { saleList } from "./saleList";
 
-let data: Array<recordSale> = saleList(books);
+let data: Array<RecordSale> = saleList(books);
     //drawChart(data);
-    //drawTable(data);
+drawTable(data);

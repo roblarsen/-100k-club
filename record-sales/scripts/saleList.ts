@@ -1,6 +1,7 @@
 import { Comic } from "./Comic";
 import { Sale } from "./Sale";
 import { RecordSale } from "./RecordSale";
+import * as _ from "lodash";
 
 
 export function saleList( data: Array<any> ): Array<RecordSale> {
@@ -21,7 +22,7 @@ export function saleList( data: Array<any> ): Array<RecordSale> {
                 if (d.gradeSrc === undefined) {
                     src = "";
                 } else {
-                    src = d.gradeSrc;
+                    src = d.gradeSrc.toUpperCase();
                 }
                 if (d.grade === undefined) {
                     grade = "";
@@ -37,6 +38,7 @@ export function saleList( data: Array<any> ): Array<RecordSale> {
             
         } 
     });
-return recordSales;
+
+return _.sortBy(recordSales,["price"]).reverse();
   
 }

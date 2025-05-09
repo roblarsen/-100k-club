@@ -153,7 +153,7 @@
             {
                "venue": "unknown",
                "sellersNotes": "as 5.5",
-               "salesDate": "1900-01-01",
+               "salesDate": "",
                "price": "120750"
             },
             {
@@ -243,7 +243,7 @@
          "sales": [
             {
                "venue": "unknown",
-               "salesDate": "1900-01-01",
+               "salesDate": "",
                "price": "86250"
             },
             {
@@ -504,7 +504,7 @@
          "sales": [
             {
                "venue": "unknown",
-               "salesDate": "1900-01-01",
+               "salesDate": "",
                "price": "126500"
             }
          ],
@@ -814,7 +814,7 @@
                "price": "67305"
             },
             {
-               "salesDate": "1900-01-01",
+               "salesDate": "",
                "price": "100000",
                "venue": "Comiclink"
             },
@@ -1721,7 +1721,7 @@
          "sales": [
             {
                "venue": "unknown",
-               "salesDate": "1900-01-01",
+               "salesDate": "",
                "price": "115000",
                "sellersNotes": "as a CGC 5.5"
             },
@@ -1982,7 +1982,7 @@
          "sales": [
             {
                "link": "http://www.comiclink.com/itemdetail.asp?id=741566&next=/ComicTrack/Admin/CL/matches.asp?_SORT=YES&TITLE=INCREDIBLE+HULK&ISSUENUMBER=1&SELLER=&ORDERNUMBER=&PEDIGREE=&SELLERCOMMENT=&BUYER=&Payment=&CGCCOMMENT=&TYPE=0&Shipped=&SPBP=&FILTER=&Verified=&SPBP2=&SearchConditionFrom=&SearchConditionTo=&f1=i.Condition&ODire1=DESC&f2=i.Title&ODire2=ASC&f3=i.IssueNumber%2C+i.VolumeNumber&ODire3=ASC",
-               "salesDate": "1900-01-01",
+               "salesDate": "",
                "price": "117500",
                "venue": "Comiclink"
             },
@@ -2341,7 +2341,7 @@
          "tags": "more-fun,dc",
          "sales": [
             {
-               "salesDate": "1900-01-01",
+               "salesDate": "",
                "price": "90000",
                "venue": "Comiclink",
                "link": "http://www.comiclink.com/itemdetail.asp?back=/search_adv.asp?all=y&TITLE=&TITLEOPT=ALL&ISSUE=&Condition=&Pedigree=&PRICEF=500&PRICET=&DESCRIPTION=&DESCRIPTIONOPT=ALL&SearchRemarks=&SearchCGC=&EXCLUDE=&CATEGORIES=-1&WCATEGORIES=-1&SORT=NEW&_where_forsale=y&x=33&y=11&where_forsale=y&id=609125"
@@ -2568,7 +2568,7 @@
          "sales": [
             {
                "venue": "unknown",
-               "salesDate": "1900-01-01",
+               "salesDate": "",
                "price": "250000"
             }
          ],
@@ -2584,7 +2584,7 @@
             {
                "venue": "unknown",
                "sellersNotes": "Confirmed private sale",
-               "salesDate": "1900-01-01",
+               "salesDate": "",
                "price": "125000"
             }
          ],
@@ -2617,7 +2617,7 @@
             },
             {
                "venue": "ComicConnect",
-               "salesDate": "1900-01-01",
+               "salesDate": "",
                "price": "148000"
             },
             {
@@ -2682,7 +2682,8 @@
          "sales": [
             {
                "venue": "unknown",
-               "sellersNotes": "Sold for $110,000 as a CGC 9.6"
+               "sellersNotes": "Sold for $110,000 as a CGC 9.6",
+               "salesDate":""
             },
             {
                "salesDate": "2012-07-26",
@@ -2702,7 +2703,7 @@
          "tags": "cgc,pedigree,marvel,x-men,upgrade",
          "sales": [
             {
-               "salesDate": "1900-01-01",
+               "salesDate": "",
                "price": "100000",
                "venue": "pedigreecomics"
             }
@@ -2890,7 +2891,7 @@
          "tags": "spider-man,amazing-fantasy,cgc,marvel",
          "sales": [
             {
-               "salesDate": "1900-01-01",
+               "salesDate": "",
                "price": "100000",
                "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/bookDetail.php?id=307661"
@@ -3475,7 +3476,7 @@
          "tags": "incredible-hulk,cgc,marvel,hulk",
          "sales": [
             {
-               "salesDate": "1900-01-01",
+               "salesDate": "",
                "price": "120000",
                "venue": "Comiclink"
             }
@@ -4300,7 +4301,7 @@
          "grade": "9.4",
          "sales": [
             {
-               "salesDate": "1900-01-01",
+               "salesDate": "",
                "price": "120000",
                "link": "http://www.comiclink.com/itemdetail.asp?back=%2Fitems%2Easp%3Fid%3D4006%26FROM%3D%26TO%3D&id=980046",
                "venue": "ComicLink"
@@ -5132,7 +5133,7 @@
             },
             {
                "venue": "ComicConnect",
-               "salesDate": "1900-01-01",
+               "salesDate": "",
                "price": "249165",
                "link": "https://www.comicconnect.com/bookDetail.php?id=604246"
             }
@@ -5937,7 +5938,7 @@
          "tags": "cgc,action,superman,dc",
          "sales": [
             {
-               "salesDate": "1900-01-01",
+               "salesDate": "",
                "price": "110000",
                "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/bookDetail.php?id=433712"

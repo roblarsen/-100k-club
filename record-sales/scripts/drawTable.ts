@@ -1,6 +1,4 @@
-import * as d3 from "d3";
 import * as _ from "lodash";
-import { Comic } from "./Comic";
 import { RecordSale } from "./RecordSale";
 import { AllCommunityModule, ModuleRegistry, createGrid } from 'ag-grid-community'; 
 

@@ -8,5 +8,5 @@ import  { books } from "../data/books.json";
 import { saleList } from "./saleList";
 
 let data: Array<RecordSale> = saleList(books);
-    //drawChart(data);
+drawChart(data);
 drawTable(data);

@@ -13,6 +13,7 @@ const writeMinifiedFile = (filePath: string, data: any) => {
 };
 
 const watchFiles = () => {
+    console.log(booksDevPath);
     fs.watchFile(booksDevPath, (curr, prev) => {
         if (curr.mtime !== prev.mtime) {
             const booksData = JSON.parse(fs.readFileSync(booksDevPath, 'utf8'));

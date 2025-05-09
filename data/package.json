@@ -1,10 +1,10 @@
 {
-  "name": "[project-name]",
+  "name": "data-100k-club",
   "version": "1.0.0",
   "description": "A project to manage and minify comic book and pedigree data.",
   "main": "src/data/watch-and-minify.ts",
   "scripts": {
-    "watch": "tsc --watch"
+    "watch": "ts-node ./data/watch-and-minify.ts"
   },
   "dependencies": {
     "fs-extra": "^10.0.0",

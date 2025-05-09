@@ -73,6 +73,37 @@ let svg = d3.select("#viz")
   svg.append("g")
     .call(d3.axisLeft(y));
 
+const tooltip = d3
+    .select("#viz")
+    .append("div")
+    .style("display", "none")
+    .attr("class", "tooltip");
+
+  const showTooltip = (e: MouseEvent) => {
+    const text = `
+    <h3>${d3.select(e.target).datum().title} ${d3.select(e.target).datum().issue} ${d3.select(e.target).datum().gradeSrc} ${d3.select(e.target).datum().grade}  ${d3.select(e.target).datum().pedigree}</h3>
+    <p>${d3.select(e.target).datum().venue} ${d3.select(e.target).datum().salesDate}</p>
+    <p class="price">$${d3.select(e.target).datum().price.toLocaleString()}</p>
+
+  `;
+    tooltip
+      .style("display", "block")
+      .html(text)
+      .style("left", d3.pointer(e)[0] + 30 + "px")
+      .style("top", d3.pointer(e)[1] + 30 + "px");
+  };
+  const moveTooltip = (e: MouseEvent) => {
+
+    tooltip
+      .style("left", `${d3.pointer(e)[0] + 60}px`)
+      .style("top", d3.pointer(e)[1] + 30 + "px");
+  };
+  const hideTooltip = () => {
+    tooltip.style("display", "none");
+  };
+
+
+
     svg.append('g')
     .selectAll("dot")
     .data(data) 
@@ -89,6 +120,9 @@ let svg = d3.select("#viz")
         }
        })
       .style("opacity", 0.3)
+          .on("mouseover", showTooltip)
+    .on("mousemove", moveTooltip)
+    .on("mouseleave", hideTooltip);
 
 
     

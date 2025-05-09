@@ -88,6 +88,17 @@ textarea {
     width: 90%;
     height:600px;
    }
+    .tooltip{
+    background-color: #036;
+    border-radius : 5px;
+    width: auto;
+    color : #fff;
+    position: absolute;
+    font-family: "Comic Neue";
+    padding: 10px;
+    z-index:1000;
+  }
+ 
 /* ==========================================================================
    Helper classes
    ========================================================================== */

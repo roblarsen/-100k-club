@@ -18,11 +18,15 @@ function dateFormatter(date, locale = 'en-US') {
     month: "short",
     day: "numeric",
   };
-  return date.toLocaleDateString(locale, options);
+  if (date == "Invalid Date") {
+    return "Unknown Date";
+  } else {
+    return date.toLocaleDateString(locale, options);
+  }
+  
 }
 
 export function drawTable(data: Array<RecordSale>) {
- console.log(data)
  createGrid(document.getElementById("datagrid"), {
         columnDefs: [
             { field: "title", headerName: "Title", sortable: true, filter: true },

@@ -4,20 +4,28 @@ import * as d3 from "d3";
 
 export function drawChart(data: Array<RecordSale>) {
 
+  data = data.filter((d: RecordSale) => {
+    const mdy = d.salesDate.split("-");
+    return (
+      Number(mdy[0]) !== 0 
+    )
+  });
+
+
   const colors = {
     "comicconnect":"#3EF77F",
-"heritage":"#F7AF3E",
-"comiclink":"#3EF7E8",
-"pedigreecomics":"#F77A3E",
-"metropolis":"#5FA29D",
-"default":"#5A7864"
+    "heritage":"#F7AF3E",
+    "comiclink":"#3EF7E8",
+    "pedigreecomics":"#F77A3E",
+    "metropolis":"#5FA29D",
+    "default":"#5A7864"
   };
 
    const years = [];
     data.forEach((d: RecordSale) => {
       const mdy = d.salesDate.split("-");
-      console.log(Number(mdy[0]));
-      if (Number(mdy[0])> 1901) {
+      console.log(Number(mdy[0]), mdy[0]);
+      if (Number(mdy[0]) !== 0) {
         years.push(mdy[0]);
       }
       
@@ -63,12 +71,9 @@ let svg = d3.select("#viz")
     .attr("transform", "translate(0," + height + ")")
     .call(d3.axisBottom(x));
 
-
- 
- 
   // Add Y axis
   const y = d3.scaleLinear()
-    .domain([90000, maxPrice+(maxPrice*.1)])
+    .domain([25000, maxPrice+(maxPrice*.1)])
     .range([ height, 0]);
   svg.append("g")
     .call(d3.axisLeft(y));
@@ -86,17 +91,16 @@ const tooltip = d3
     <p class="price">$${d3.select(e.target).datum().price.toLocaleString()}</p>
 
   `;
-    tooltip
+  tooltip
       .style("display", "block")
       .html(text)
-      .style("left", d3.pointer(e)[0] + 30 + "px")
-      .style("top", d3.pointer(e)[1] + 30 + "px");
+      .style("left", `${d3.pointer(e)[0] +30}px}`)
+      .style("top", `${d3.pointer(e)[1] + 30}px}`);
   };
   const moveTooltip = (e: MouseEvent) => {
-
     tooltip
       .style("left", `${d3.pointer(e)[0] + 60}px`)
-      .style("top", d3.pointer(e)[1] + 30 + "px");
+      .style("top", `${d3.pointer(e)[1] + 30}px`);
   };
   const hideTooltip = () => {
     tooltip.style("display", "none");
@@ -105,7 +109,7 @@ const tooltip = d3
 
 
     svg.append('g')
-    .selectAll("dot")
+    .selectAll("sales")
     .data(data) 
     .enter()
     .append("circle")

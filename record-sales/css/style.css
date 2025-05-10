@@ -88,10 +88,11 @@ textarea {
     width: 90%;
     height:600px;
    }
-    .tooltip{
+.tooltip{
     background-color: #036;
     border-radius : 5px;
     width: auto;
+    min-width: 200px;
     color : #fff;
     position: absolute;
     font-family: "Comic Neue";

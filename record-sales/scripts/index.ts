@@ -4,7 +4,7 @@ import { drawChart } from "./drawChart";
 import { Comic } from "./Comic";
 import { Sale } from "./Sale";
 import { RecordSale } from "./RecordSale";
-import  { books } from "../data/books.json";
+import  { books } from "../../data/data//books.json";
 import { saleList } from "./saleList";
 
 let data: Array<RecordSale> = saleList(books);

@@ -12,7 +12,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.prod.ts",
-    "start": "cp ../data/data/books.json data/books.json && webpack serve --config webpack.config.dev.ts",
+    "start": "webpack serve --config webpack.config.dev.ts",
     "lint": "eslint 'scripts/**/*.{ts,tsx}'",
     "lint:fix": "eslint 'scripts/**/*.{ts,tsx}' --fix"
   },

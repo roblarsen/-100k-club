@@ -423,7 +423,14 @@
                "salesDate": "2016-11-17",
                "price": "262900",
                "venue": "Heritage"
+            },
+             {
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/the-amazing-spider-man-1-curator-pedigree-marvel-1963-cgc-nm-mt-98-white-pages/a/7358-91026.s",
+               "salesDate": "2024-01-11",
+               "price": "1380000",
+               "venue": "Heritage"
             }
+            
          ],
          "id": "0025"
       },
@@ -7520,7 +7527,7 @@
          "sales": [
             {
                "venue": "ComicConnect",
-               "salesDate": "2016-0-28",
+               "salesDate": "2016-03-28",
                "price": "288000",
                "link": "https://www.comicconnect.com/bookDetail.php?id=650298"
             }
@@ -9393,7 +9400,7 @@
          "cgcid":"1135164001",
          "tags": "marvel,timely,marvel-comics",
          "sales": [ {
-            "salesDate": "2021-09-09-17",
+            "salesDate": "2021-09-17",
             "price": "156000",
             "venue": "heritage",
             "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/marvel-comics-1-timely-1939-cgc-apparent-gd-20-moderate-c-3-cream-to-off-white-pages/a/7246-94065.s"

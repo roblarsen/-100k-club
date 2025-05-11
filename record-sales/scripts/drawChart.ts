@@ -151,7 +151,11 @@ let legend = d3.select("#viz")
           .style("opacity", 0.1);
       svg.selectAll(`#viz circle.${target.className}`)
           .style("opacity", 1);
-      })  
+      })
+      .on("mouseout", function (e: MouseEvent) {
+       svg.selectAll("#viz circle")
+          .style("opacity", 0.7);
+        
 
     
 }

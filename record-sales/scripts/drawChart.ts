@@ -115,7 +115,8 @@ const tooltip = d3
     .append("circle")
       .attr("cx", function (d:RecordSale) { return x(new Date(d.salesDate)); } )
       .attr("cy", function (d:RecordSale) { return y(d.price); } )
-      .attr("r", 7)
+      .attr("r", 5)
+      .attr("class", function (d:RecordSale) { return d.venue.toLocaleLowerCase(); })
       .style("fill", function (d:RecordSale) { 
         if (d.venue.toLocaleLowerCase() in colors) {
           return colors[d.venue.toLocaleLowerCase()];
@@ -123,11 +124,33 @@ const tooltip = d3
           return colors["default"];
         }
        })
-      .style("opacity", 0.3)
-          .on("mouseover", showTooltip)
-    .on("mousemove", moveTooltip)
-    .on("mouseleave", hideTooltip);
-
+      .style("opacity", 0.7)
+      .on("mouseover", showTooltip)
+      .on("mousemove", moveTooltip)
+      .on("mouseleave", hideTooltip);
+let legend = d3.select("#viz")
+       .append("ul")
+       .selectAll("legend")
+       .data(Object.keys(colors))
+        .enter()
+        .append("li")
+        .attr("class", function (d) { return d; })
+        .style("background-color", function (d) { return colors[d]; })
+        .text(function (d) {
+          if (d === "default") {
+            return "Other";
+          } else {
+            return d.charAt(0).toUpperCase() + d.slice(1);
+          }
+        }
+      )
+      .on("mouseover", function (e: MouseEvent) {
+       console.log(e);
+       svg.selectAll("#viz circle")
+          .style("opacity", 0.1);
+      svg.selectAll(`#viz circle.${e.target.className}`)
+          .style("opacity", 1);
+      })  
 
     
 }

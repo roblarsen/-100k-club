@@ -99,6 +99,10 @@ textarea {
     padding: 10px;
     z-index:1000;
   }
+  .price{
+    font-weight: bold;
+    font-family: 1.2em;
+  }
  
 /* ==========================================================================
    Helper classes

@@ -103,11 +103,12 @@ textarea {
     font-weight: bold;
     font-family: 1.2em;
   }
-/* Style for the unordered list */
+#viz {
+  padding-bottom: 25px;
+}
 #viz ul{
   display: flex;
   flex-wrap: wrap; /* Allow items to wrap to the next row */
-  width: 1440px; /* Set the width of the list */
   list-style: none; /* Remove default list styling */
   padding: 0;
   margin: 0;
@@ -122,7 +123,7 @@ textarea {
   align-items: center;
   background-color: #036; /* Example background color */
   color: #fff; /* Example text color */
-  height: 50px; /* Set a fixed height for the items */
+  min-height: 30px; /* Set a fixed height for the items */
   border-radius: 5px; /* Optional: Add rounded corners */
   text-align: center;
 }

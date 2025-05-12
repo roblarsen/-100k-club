@@ -8,57 +8,56 @@ export function drawChart(data: Array<RecordSale>) {
   data = data.filter((d: RecordSale) => {
     const mdy = d.salesDate.split("-");
     return (
-      Number(mdy[0]) !== 0 
+      Number(mdy[0]) !== 0
     )
   });
 
-const defaultOpacity = 0.7;
-var unique = _.uniq(_.map(data, "venue"));
-console.log(unique);
+  const defaultOpacity = 0.7;
+
   const colors = {
-    "comicconnect":"#3EF77F",
-    "heritage":"#F7AF3E",
-    "comiclink":"#3EF7E8",
-    "pedigreecomics":"#F77A3E",
-    "metropolis":"#5FA29D",
-    "ebay":"#F7D03E",
-    "goldinauctions":"#a6e194",
-    "default":"#5A7864"
+    "comicconnect": "#3EF77F",
+    "heritage": "#F7AF3E",
+    "comiclink": "#3EF7E8",
+    "pedigreecomics": "#F77A3E",
+    "metropolis": "#5FA29D",
+    "ebay": "#F7D03E",
+    "goldinauctions": "#a6e194",
+    "default": "#5A7864"
   };
 
 
-  
-   const years = [];
-    data.forEach((d: RecordSale) => {
-      const mdy = d.salesDate.split("-");
-      if (Number(mdy[0]) !== 0) {
-        years.push(mdy[0]);
-      }
-      
+
+  const years = [];
+  data.forEach((d: RecordSale) => {
+    const mdy = d.salesDate.split("-");
+    if (Number(mdy[0]) !== 0) {
+      years.push(mdy[0]);
+    }
+
   });
   const maxPrice = _.maxBy(data, "price").price;
   const minYear = Math.min(...years) - 1;
   const maxYear = Math.max(...years) + 1;
 
- const margin = {top: 10, right: 30, bottom: 60, left: 60},
+  const margin = { top: 10, right: 30, bottom: 60, left: 60 },
     width = 1440 - margin.left - margin.right,
     height = 800 - margin.top - margin.bottom;
 
-// append the svg object to the body of the page
-let svg = d3.select("#viz")
-  .append("svg")
+  // append the svg object to the body of the page
+  let svg = d3.select("#viz")
+    .append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
-  .append("g")
+    .append("g")
     .attr("transform",
-          "translate(" + margin.left + "," + margin.top + ")");
+      "translate(" + margin.left + "," + margin.top + ")");
 
   // Add X axis
- const x = d3.scaleTime(
+  const x = d3.scaleTime(
     [new Date(minYear, 0, 1), new Date(maxYear, 5, 30)],
     [0, width]
   );
- 
+
   const xGrid = d3
     .axisBottom()
     .scale(x)
@@ -71,7 +70,7 @@ let svg = d3.select("#viz")
     .attr("transform", "translate(0," + height + ")")
     .call(xGrid);
 
-  
+
   svg
     .append("g")
     .attr("transform", "translate(0," + height + ")")
@@ -79,12 +78,17 @@ let svg = d3.select("#viz")
 
   // Add Y axis
   const y = d3.scaleLinear()
-    .domain([25000, maxPrice+(maxPrice*.1)])
-    .range([ height, 0]);
+    .domain([25000, maxPrice + (maxPrice * .1)])
+    .range([height, 0]);
+  const yGrid = d3.axisLeft().scale(y).tickFormat("").ticks(5).tickSizeInner(-width);
   svg.append("g")
-    .call(d3.axisLeft(y));
+    .call(yGrid);
 
-const tooltip = d3
+  svg.append("g")
+
+    .call(d3.axisLeft(y))
+
+  const tooltip = d3
     .select("#viz")
     .append("div")
     .style("display", "none")
@@ -97,10 +101,10 @@ const tooltip = d3
     <p class="price">$${d3.select(e.target).datum().price.toLocaleString()}</p>
 
   `;
-  tooltip
+    tooltip
       .style("display", "block")
       .html(text)
-      .style("left", `${d3.pointer(e)[0] +30}px}`)
+      .style("left", `${d3.pointer(e)[0] + 30}px}`)
       .style("top", `${d3.pointer(e)[1] + 30}px}`);
   };
   const moveTooltip = (e: MouseEvent) => {
@@ -111,63 +115,68 @@ const tooltip = d3
   const hideTooltip = () => {
     tooltip.style("display", "none");
   };
+  svg.selectAll(".tick line")
+    .attr("stroke", "#ccc")
+    .attr("stroke-width", 1)
+    .attr("opacity", 0.7);
 
 
 
-    svg.append('g')
+  svg.append('g')
     .selectAll("sales")
-    .data(data) 
+    .data(data)
     .enter()
     .append("circle")
-      .attr("cx", (d: RecordSale) => x(new Date(d.salesDate)) )
-      .attr("cy", (d: RecordSale) => y(d.price) )
-      .attr("r", 5)
-      .attr("class", (d: RecordSale) => {
-          if (d.venue in colors) {
-            return d.venue;
-          } else {
-            return "default unknown";
-}})
-      .style("fill", (d: RecordSale) => {
-          if (d.venue in colors) {
-            return colors[d.venue];
-          } else {
-            return colors["default"];
-          }
-        })
-      .style("opacity", defaultOpacity)
-      .on("mouseover", showTooltip)
-      .on("mousemove", moveTooltip)
-      .on("mouseleave", hideTooltip);
-let legend = d3.select("#viz")
-       .append("ul")
-       .selectAll("legend")
-       .data(Object.keys(colors))
-        .enter()
-        .append("li")
-        .attr("class", (d) => d)
-        .style("background-color", (d) => colors[d])
-        .text((d) => {
-          if (venues[d]) {
-            return venues[d]
-          } else {
-            return "Other";
-          }
-        }
-      )
-      .on("mouseover", (e: MouseEvent) => {
-          const target = e.target as HTMLElement; // Type assertion
+    .attr("cx", (d: RecordSale) => x(new Date(d.salesDate)))
+    .attr("cy", (d: RecordSale) => y(d.price))
+    .attr("r", 5)
+    .attr("class", (d: RecordSale) => {
+      if (d.venue in colors) {
+        return d.venue;
+      } else {
+        return "default unknown";
+      }
+    })
+    .style("fill", (d: RecordSale) => {
+      if (d.venue in colors) {
+        return colors[d.venue];
+      } else {
+        return colors["default"];
+      }
+    })
+    .style("opacity", defaultOpacity)
+    .on("mouseover", showTooltip)
+    .on("mousemove", moveTooltip)
+    .on("mouseleave", hideTooltip);
+  let legend = d3.select("#viz")
+    .append("ul")
+    .selectAll("legend")
+    .data(Object.keys(colors))
+    .enter()
+    .append("li")
+    .attr("class", (d) => d)
+    .style("background-color", (d) => colors[d])
+    .text((d) => {
+      if (venues[d]) {
+        return venues[d]
+      } else {
+        return "Other";
+      }
+    }
+    )
+    .on("mouseover", (e: MouseEvent) => {
+      const target = e.target as HTMLElement; // Type assertion
 
-          svg.selectAll("#viz circle")
-            .style("opacity", 0.1);
+      svg.selectAll("#viz circle")
+        .style("opacity", 0.1);
 
-          svg.selectAll(`#viz circle.${target.className}`)
-            .style("opacity", 1);
-        })
-      .on("mouseout", (e: MouseEvent) => {
-          svg.selectAll("#viz circle")
-            .style("opacity", defaultOpacity);
-        })
+      svg.selectAll(`#viz circle.${target.className}`)
+        .style("opacity", 1);
+    })
+    .on("mouseout", (e: MouseEvent) => {
+      svg.selectAll("#viz circle")
+        .style("opacity", defaultOpacity);
+    })
 
-    
+
 }

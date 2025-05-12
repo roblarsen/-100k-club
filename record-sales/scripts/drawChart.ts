@@ -1,6 +1,7 @@
 import { RecordSale } from "./RecordSale";
 import * as _ from "lodash";
 import * as d3 from "d3";
+import { venues } from "./venues";
 
 export function drawChart(data: Array<RecordSale>) {
 
@@ -20,17 +21,12 @@ console.log(unique);
     "comiclink":"#3EF7E8",
     "pedigreecomics":"#F77A3E",
     "metropolis":"#5FA29D",
+    "ebay":"#F7D03E",
+    "goldinauctions":"#a6e194",
     "default":"#5A7864"
   };
 
-  const mainVenues = [
-    "comicconnect",
-    "heritage",
-    "comiclink",
-    "pedigreecomics",
-    "metropolis"
-  ];
-  const otherVenues = [];
+
   
    const years = [];
     data.forEach((d: RecordSale) => {
@@ -123,17 +119,22 @@ const tooltip = d3
     .data(data) 
     .enter()
     .append("circle")
-      .attr("cx", function (d:RecordSale) { return x(new Date(d.salesDate)); } )
-      .attr("cy", function (d:RecordSale) { return y(d.price); } )
+      .attr("cx", (d: RecordSale) => x(new Date(d.salesDate)) )
+      .attr("cy", (d: RecordSale) => y(d.price) )
       .attr("r", 5)
-      .attr("class", function (d:RecordSale) { return d.venue.toLocaleLowerCase(); })
-      .style("fill", function (d:RecordSale) { 
-        if (d.venue.toLocaleLowerCase() in colors) {
-          return colors[d.venue.toLocaleLowerCase()];
-        } else {
-          return colors["default"];
-        }
-       })
+      .attr("class", (d: RecordSale) => {
+          if (d.venue in colors) {
+            return d.venue;
+          } else {
+            return "default unknown";
+}})
+      .style("fill", (d: RecordSale) => {
+          if (d.venue in colors) {
+            return colors[d.venue];
+          } else {
+            return colors["default"];
+          }
+        })
       .style("opacity", defaultOpacity)
       .on("mouseover", showTooltip)
       .on("mousemove", moveTooltip)
@@ -144,29 +145,29 @@ let legend = d3.select("#viz")
        .data(Object.keys(colors))
         .enter()
         .append("li")
-        .attr("class", function (d) { return d; })
-        .style("background-color", function (d) { return colors[d]; })
-        .text(function (d) {
-          if (d === "default") {
-            return "Other";
+        .attr("class", (d) => d)
+        .style("background-color", (d) => colors[d])
+        .text((d) => {
+          if (venues[d]) {
+            return venues[d]
           } else {
-            return d.charAt(0).toUpperCase() + d.slice(1);
+            return "Other";
           }
         }
       )
-      .on("mouseover", function (e: MouseEvent) {
-       const target = e.target as HTMLElement; // Type assertion
-      
-       svg.selectAll("#viz circle")
-          .style("opacity", 0.1);
+      .on("mouseover", (e: MouseEvent) => {
+          const target = e.target as HTMLElement; // Type assertion
 
-      svg.selectAll(`#viz circle.${target.className}`)
-          .style("opacity", 1);
-      })
-      .on("mouseout", function (e: MouseEvent) {
-       svg.selectAll("#viz circle")
-          .style("opacity", defaultOpacity);
-      })
+          svg.selectAll("#viz circle")
+            .style("opacity", 0.1);
+
+          svg.selectAll(`#viz circle.${target.className}`)
+            .style("opacity", 1);
+        })
+      .on("mouseout", (e: MouseEvent) => {
+          svg.selectAll("#viz circle")
+            .style("opacity", defaultOpacity);
+        })
 
     
 }

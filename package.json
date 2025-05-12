@@ -4,7 +4,8 @@
   "description": "$100,000 Club ==========",
   "main": "index.js",
   "scripts": {
-    "records": "cd  ./record-sales && npm run start"
+    "records": "cd  ./record-sales && npm run start",
+     "data": "cd  ./data && npm run watch"
   },
   "dependencies": {  },
   "devDependencies": {},

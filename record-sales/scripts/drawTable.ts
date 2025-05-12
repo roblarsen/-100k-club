@@ -1,6 +1,7 @@
 import * as _ from "lodash";
 import { RecordSale } from "./RecordSale";
 import { AllCommunityModule, ModuleRegistry, createGrid } from 'ag-grid-community'; 
+import { venues } from "./venues";
 
 // Register all Community features
 ModuleRegistry.registerModules([AllCommunityModule]);
@@ -26,6 +27,14 @@ function dateFormatter(date, locale = 'en-US') {
   
 }
 
+function getVenueName(venue) {
+  if (venue in venues) {
+    return venues[venue];
+  } else {
+    return "Unknown Venue";
+  }
+}
+
 export function drawTable(data: Array<RecordSale>) {
  createGrid(document.getElementById("datagrid"), {
         columnDefs: [
@@ -34,7 +43,7 @@ export function drawTable(data: Array<RecordSale>) {
             { field: "pedigree", headerName: "Pedigree", sortable: true, filter: true },
             { field: "gradeSrc", headerName: "Grade Source", sortable: true, filter: true },
             { field: "grade", headerName: "Grade", sortable: true, filter: true},
-            { field: "venue", headerName: "Venue", sortable: true, filter: true },
+            { field: "venue", headerName: "Venue", sortable: true, filter: true,  valueFormatter: params => getVenueName(params.data.venue) },
             { field: "salesDate", headerName: "Sales Date", sortable: true, filter: false, valueFormatter: params => dateFormatter(new Date(params.data.salesDate)) },
             { field: "price", headerName: "Price", sortable: true, filter: false, valueFormatter: params => formatCurrency(params.data.price), }
         ],

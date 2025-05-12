@@ -11,7 +11,9 @@ export function drawChart(data: Array<RecordSale>) {
     )
   });
 
-
+const defaultOpacity = 0.7;
+var unique = _.uniq(_.map(data, "venue"));
+console.log(unique);
   const colors = {
     "comicconnect":"#3EF77F",
     "heritage":"#F7AF3E",
@@ -21,10 +23,18 @@ export function drawChart(data: Array<RecordSale>) {
     "default":"#5A7864"
   };
 
+  const mainVenues = [
+    "comicconnect",
+    "heritage",
+    "comiclink",
+    "pedigreecomics",
+    "metropolis"
+  ];
+  const otherVenues = [];
+  
    const years = [];
     data.forEach((d: RecordSale) => {
       const mdy = d.salesDate.split("-");
-      console.log(Number(mdy[0]), mdy[0]);
       if (Number(mdy[0]) !== 0) {
         years.push(mdy[0]);
       }
@@ -124,7 +134,7 @@ const tooltip = d3
           return colors["default"];
         }
        })
-      .style("opacity", 0.7)
+      .style("opacity", defaultOpacity)
       .on("mouseover", showTooltip)
       .on("mousemove", moveTooltip)
       .on("mouseleave", hideTooltip);
@@ -149,13 +159,14 @@ let legend = d3.select("#viz")
       
        svg.selectAll("#viz circle")
           .style("opacity", 0.1);
+
       svg.selectAll(`#viz circle.${target.className}`)
           .style("opacity", 1);
       })
       .on("mouseout", function (e: MouseEvent) {
        svg.selectAll("#viz circle")
-          .style("opacity", 0.7);
-        
+          .style("opacity", defaultOpacity);
+      })
 
     
 }

@@ -97,6 +97,7 @@
          "grade": "8.0",
          "sales": [],
          "id": "0004",
+
          "tags": "dc,pedigree,superman,action"
       },
       {
@@ -164,7 +165,7 @@
             {
                "salesDate": "2011-06-01",
                "price": "625000",
-               "venue": "Comiclink",
+               "venue": "ComicLink",
                "link": "http://www.comiclink.com/service_text.asp?89"
             }
          ],
@@ -596,7 +597,7 @@
                "salesDate": "2007-10-16",
                "price": "227000",
                "link": "http://www.Comiclink.com/auctions/item.asp?back=%2FComicTrack%2FAdmin%2Fauc…%26SearchSeller%3D%26SearchHighBidder%3D%26Image1%2Ex%3D0%26Image1%2Ey%3D0",
-               "venue": "Comiclink"
+               "venue": "ComicLink"
             }
          ],
          "id": "0034"
@@ -622,7 +623,7 @@
             {
                "salesDate": "2007-01-01",
                "price": "210000",
-               "venue": "Comiclink",
+               "venue": "ComicLink",
                "link": "http://www.Comiclink.com/itemdetail.asp?id=706615&next=%2FComicTrack%2FAdmi…D%26TYPE%3D0%26FILTER%3D%26Payment%3D%26Verified%3D%26Shipped%3D%26SPBP%3D"
             }
          ],
@@ -644,7 +645,7 @@
             {
                "salesDate": "2004-01-01",
                "price": "122000",
-               "venue": "Comiclink"
+               "venue": "ComicLink"
             }
          ],
          "id": "0036"
@@ -660,7 +661,7 @@
             {
                "salesDate": "2016-01-16",
                "price": "460000",
-               "venue": "comiclink"
+               "venue": "ComicLink"
             }
          ],
          "id": "0041"
@@ -725,7 +726,7 @@
             {
                "salesDate": "2008-01-01",
                "price": "139000",
-               "venue": "Comiclink"
+               "venue": "ComicLink"
             }
          ],
          "id": "0043"
@@ -740,7 +741,7 @@
             {
                "salesDate": "2008-01-01",
                "price": "118977",
-               "venue": "Comiclink"
+               "venue": "ComicLink"
             }
          ],
          "id": "0044"
@@ -771,7 +772,7 @@
             {
                "salesDate": "2009-03-20",
                "price": "122000",
-               "venue": "Comiclink"
+               "venue": "ComicLink"
             }
          ],
          "id": "0046"
@@ -823,12 +824,12 @@
             {
                "salesDate": "",
                "price": "100000",
-               "venue": "Comiclink"
+               "venue": "ComicLink"
             },
             {
                "salesDate": "2009-04-21",
                "price": "130000",
-               "venue": "Comiclink"
+               "venue": "ComicLink"
             }
          ],
          "id": "0050"
@@ -858,7 +859,7 @@
             {
                "salesDate": "2009-11-17",
                "price": "97000",
-               "venue": "Comiclink"
+               "venue": "ComicLink"
             }
          ],
          "id": "0052"
@@ -948,7 +949,7 @@
             {
                "salesDate": "2011-02-01",
                "price": "100000",
-               "venue": "Comiclink"
+               "venue": "ComicLink"
             }
          ],
          "id": "0058"
@@ -963,7 +964,7 @@
             {
                "salesDate": "2007-10-01",
                "price": "280000",
-               "venue": "Comiclink"
+               "venue": "ComicLink"
             }
          ],
          "id": "0060"
@@ -1096,7 +1097,7 @@
             {
                "salesDate": "2014-02-25",
                "price": "145000",
-               "venue": "Comiclink",
+               "venue": "ComicLink",
                "link": "http://comics.ha.com/c/item.zx?saleNo=7079&lotNo=91141"
             }
          ],
@@ -1244,7 +1245,7 @@
             {
                "salesDate": "2009-11-17",
                "price": "100000",
-               "venue": "Comiclink"
+               "venue": "ComicLink"
             }
          ],
          "id": "0079"
@@ -1394,7 +1395,7 @@
             {
                "salesDate": "2008-01-01",
                "price": "150000",
-               "venue": "Comiclink"
+               "venue": "ComicLink"
             }
          ],
          "id": "0088"
@@ -1991,7 +1992,7 @@
                "link": "http://www.comiclink.com/itemdetail.asp?id=741566&next=/ComicTrack/Admin/CL/matches.asp?_SORT=YES&TITLE=INCREDIBLE+HULK&ISSUENUMBER=1&SELLER=&ORDERNUMBER=&PEDIGREE=&SELLERCOMMENT=&BUYER=&Payment=&CGCCOMMENT=&TYPE=0&Shipped=&SPBP=&FILTER=&Verified=&SPBP2=&SearchConditionFrom=&SearchConditionTo=&f1=i.Condition&ODire1=DESC&f2=i.Title&ODire2=ASC&f3=i.IssueNumber%2C+i.VolumeNumber&ODire3=ASC",
                "salesDate": "",
                "price": "117500",
-               "venue": "Comiclink"
+               "venue": "ComicLink"
             },
             {
                "salesDate": "2014-08-01",
@@ -2050,7 +2051,7 @@
             {
                "salesDate": "2011-02-01",
                "price": "150000",
-               "venue": "Comiclink"
+               "venue": "ComicLink"
             }
          ],
          "id": "0130"
@@ -2350,7 +2351,7 @@
             {
                "salesDate": "",
                "price": "90000",
-               "venue": "Comiclink",
+               "venue": "ComicLink",
                "link": "http://www.comiclink.com/itemdetail.asp?back=/search_adv.asp?all=y&TITLE=&TITLEOPT=ALL&ISSUE=&Condition=&Pedigree=&PRICEF=500&PRICET=&DESCRIPTION=&DESCRIPTIONOPT=ALL&SearchRemarks=&SearchCGC=&EXCLUDE=&CATEGORIES=-1&WCATEGORIES=-1&SORT=NEW&_where_forsale=y&x=33&y=11&where_forsale=y&id=609125"
             }
          ],
@@ -2615,7 +2616,7 @@
             {
                "salesDate": "2008-08-28",
                "price": "121000",
-               "venue": "Comiclink"
+               "venue": "ComicLink"
             },
             {
                "venue": "unknown",
@@ -2738,7 +2739,7 @@
             {
                "salesDate": "2016-02-19",
                "price": "350000",
-               "venue": "Comiclink",
+               "venue": "ComicLink",
                "link": "http://www.comiclink.com/itemdetail.asp?id=1102274&showprice=1&next=%2FComicTrack%2FAdmin%2FCL%2Fmatches%2Easp%3FTITLE%3Dx-men%26ISSUENUMBER%3D1%26Artist1%3D%26Artist2%3D%26PRICEFROM%3D%26ORDERNUMBER%3D%26DATEFROM%3D%26DATETO%3D%26SELLER%3D%26SELLERID%3D%26BUYER%3D%26BUYERID%3D%26BUYERSTATE%3D--%26PEDIGREE%3D%26CGCCOMMENT%3D%26SELLERCOMMENT%3D%26TYPE%3D0%26FILTER%3D%26Payment%3D%26Verified%3D%26Shipped%3D%26SPBP%3D%26SPBP2%3D%26SearchConditionFrom%3D09%2E6%26SearchConditionTo%3D09%2E6"
             },
             {
@@ -2776,7 +2777,7 @@
             {
                "salesDate": "2010-02-18",
                "price": "101002",
-               "venue": "Comiclink"
+               "venue": "ComicLink"
             }
          ],
          "id": "0168"
@@ -2791,7 +2792,7 @@
             {
                "salesDate": "2010-05-27",
                "price": "105521",
-               "venue": "Comiclink"
+               "venue": "ComicLink"
             }
          ],
          "id": "0169"
@@ -3485,7 +3486,7 @@
             {
                "salesDate": "",
                "price": "120000",
-               "venue": "Comiclink"
+               "venue": "ComicLink"
             }
          ],
          "id": "0209"
@@ -3668,13 +3669,13 @@
             {
                "salesDate": "2020-02-26",
                "price": "150000",
-               "venue": "comiclink",
+               "venue": "ComicLink",
                "link": "https://comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FSEARCH%2EASP%3FPreviewCode%3D2020feb%26where%3Dauctions%26title%3Djourney%2B83%26GO%3DGO%26ItemType%3DCB%23Item%5F1373349&id=1373349&itemType=0#detail"
             },
             {
                "salesDate": "2014-02-24",
                "price": "275000",
-               "venue": "comiclink",
+               "venue": "ComicLink",
                "link": "http://www.comiclink.com/itemdetail.asp?back=%2Fsearch_adv.asp%3Fall%3Dy%26TITLE%3D%26TITLEOPT%3DALL%26ISSUE%3D%26Condition%3D%26Pedigree%3D%26PRICEF%3D500%26PRICET%3D%26DESCRIPTION%3D%26DESCRIPTIONOPT%3DALL%26SearchRemarks%3D%26SearchCGC%3D%26EXCLUDE%3D%26CATEGORIES%3D-1%26WCATEGORIES%3D-1%26SORT%3DNEW%26_where_forsale%3Dy%26x%3D33%26y%3D11%26where_forsale%3Dy&id=1004302"
             },
             {
@@ -3832,7 +3833,7 @@
             {
                "salesDate": "2017-11-16",
                "price": "149375",
-               "venue": "heritage",
+               "venue": "Heritage",
                "link": "https://comics.ha.com/itm/silver-age-1956-1969-/showcase-22-green-lantern-dc-1959-cgc-nm-92-cream-to-off-white-pages/a/7169-91050.s?ic3=ViewItem-Auction-Archive-SearchResults-120115&lotPosition=3|0"
             }
          ],
@@ -4187,7 +4188,7 @@
             {
                "salesDate": "2018-05-24",
                "price": "165555",
-               "venue": "comiclink",
+               "venue": "ComicLink",
                "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FDEFAULT%2EASP%3F_SORT%3DYES%26Focused%3D1%26ItemType%3D0%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2EMaxBid%26ODire3%3DDESC%23Item_1238153&id=1238153&itemType=0#detail"
             }
          ],
@@ -4885,13 +4886,13 @@
             {
                "salesDate": "2014-02-25",
                "price": "100000",
-               "venue": "Comiclink",
+               "venue": "ComicLink",
                "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fsearch%2Easp%3FFocusedOnly%3D1%26where%3Dauctions%26title%3Dbrave%2Band%2Bthe%2Bbold%2B28%26x%3D0%26y%3D0%26ItemType%3DCB%23Item_996687&id=996687"
             },
             {
                "salesDate": "2013-10-06",
                "price": "120000",
-               "venue": "Pedigree"
+               "venue": "pedigreecomics"
             }
          ],
          "id": "0300"
@@ -4975,7 +4976,7 @@
             {
                "salesDate": "2014-09-09",
                "price": "120000",
-               "venue": "Comiclink",
+               "venue": "ComicLink",
                "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F_SORT%3DYES%26Focused%3D1%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2EMaxBid%26ODire3%3DASC%23Item_1024795&id=1024795"
             }
          ],
@@ -5190,7 +5191,7 @@
          "sales": [ {
             "salesDate": "2021-04-05",
             "price": "132000",
-            "venue": "heritage",
+            "venue": "Heritage",
             "link": "https://comics.ha.com/itm/silver-age-1956-1969-/tales-of-suspense-39-marvel-1963-cbcs-nm-94-white-pages/a/7242-91046.s?ic4=ListView-ShortDescription-071515"
          }],
          "id": "0319"
@@ -5338,7 +5339,7 @@
             {
                "salesDate": "2016-12-08",
                "price": "205501",
-               "venue": "Comiclink",
+               "venue": "ComicLink",
                "link": "http://comics.ha.com/itm/golden-age-1938-1955-/all-american-comics-16-dc-1940-cgc-fn-65-cream-to-off-white-pages/a/7147-91029.s?ic4=ListView-ShortDescription-071515"
             }
          ],
@@ -5397,7 +5398,7 @@
             {
                "salesDate": "2016-02-24",
                "price": "350000",
-               "venue": "Comiclink"
+               "venue": "ComicLink"
             },
             {
                "salesDate": "2013-07-01",
@@ -5645,7 +5646,7 @@
                "link": "http://www.comicconnect.com/bookDetail.php?id=677327"
             },
             {
-               "venue": "ebay",
+               "venue": "eBay",
                "salesDate": "2017-08-27",
                "price": "226877.77",
                "link": "https://www.ebay.com/itm/Wonder-Woman-1-CGC-9-0-PERFECT-WHITE-PAGES-1-COPY-IN-THE-WORLD-CGC-1212173003/272808455428?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2055119.m1438.l2649&rmvSB=true"
@@ -5742,7 +5743,7 @@
                "salesDate": "2016-08-4",
                "price": "101575",
                "link": "https://comics.ha.com/itm/golden-age-1938-1955-/startling-comics-49-mile-high-pedigree-better-publications-1948-cgc-nm-96-off-white-to-white-pages/a/7139-91129.s?ic4=ListView-ShortDescription-071515",
-               "venue": "heritage"
+               "venue": "Heritage"
             }
          ],
          "id": "0352"
@@ -5756,7 +5757,7 @@
          "tags": "cgc,superman,action,dc",
          "sales": [
             {
-               "venue": "heritage",
+               "venue": "Heritage",
                "salesDate": "2016-08-04",
                "price": "956000",
                "link": "https://comics.ha.com/itm/golden-age-1938-1955-/action-comics-1-dc-1938-cgc-fn-55-cream-to-off-white-pages/a/7139-91001.s?ic4=ListView-ShortDescription-071515"
@@ -5773,7 +5774,7 @@
          "tags": "cgc,wonder-woman,dc",
          "sales": [
             {
-               "venue": "ebay",
+               "venue": "eBay",
                "salesDate": "2017-08-27",
                "price": "936223",
                "link": "https://www.ebay.com/itm/ALL-STAR-COMICS-8-CGC-9-4-OWW-SINGLE-HIGHEST-GRADED-COPY-CGC-1341502001/253099656149?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2055119.m1438.l2649&rmvSB=true"
@@ -5790,7 +5791,7 @@
          "tags": "cgc,wonder-woman,dc",
          "sales": [
             {
-               "venue": "ebay",
+               "venue": "eBay",
                "salesDate": "2017-08-27",
                "price": "399100",
                "link": "https://www.ebay.com/itm/Sensation-Comics-1-CGC-9-6-SINGLE-HIGHEST-Graded-Copy-CGC-1208691001/253099667535?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2055119.m1438.l2649&rmvSB=true"
@@ -6019,7 +6020,7 @@
             {
                "salesDate": "2020-05-27",
                "price": "141778",
-               "venue": "comiclink",
+               "venue": "ComicLink",
                "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FSEARCH%2EASP%3FPreviewCode%3D2020may%26where%3Dauctions%26title%3Djourney%2B83%26GO%3DGO%26ItemType%3DCB%23Item%5F1387757&id=1387757&itemType=0#detail"
             }
          ],
@@ -6509,7 +6510,7 @@
             {
                "salesDate": "2012-07-26",
                "price": "43319",
-               "venue": "heritage",
+               "venue": "Heritage",
                "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/amazing-fantasy-15-marvel-1962-cgc-vf-75-cream-to-off-white-pages/a/7063-93093.s"
             }
          ],
@@ -6810,7 +6811,7 @@
             {
                "salesDate": "2018-05-23",
                "price": "121259",
-               "venue": "comiclink",
+               "venue": "ComicLink",
                "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FDEFAULT%2EASP%3F_SORT%3DYES%26Focused%3D1%26ItemType%3D0%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2EMaxBid%26ODire3%3DDESC%23Item_1242921&id=1242921&itemType=0"
             }
          ],
@@ -6902,7 +6903,7 @@
          "sales": [ {
             "salesDate": "2024-06-20",
             "price": "288000",
-            "venue": "heritage",
+            "venue": "Heritage",
             "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/marvel-comics-1-timely-1939-cgc-vg-45-cream-to-off-white-pages/a/7374-91012.s"
          }],
          "id": "0440"
@@ -6917,7 +6918,7 @@
          "sales": [ {
             "salesDate": "2022-01-13",
             "price": "360000",
-            "venue": "heritage",
+            "venue": "Heritage",
             "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/marvel-comics-1-timely-1939-cgc-vg-45-off-white-to-white-pages/a/7266-91041.s"
          }],
          "id": "0441"
@@ -7260,7 +7261,7 @@
             {
                "salesDate": "2023-03-30",
                "price": "168000",
-               "venue": "heritage",
+               "venue": "Heritage",
                "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-dc-1939-cgc-apparent-vf-80-moderate-p-white-pages/a/7339-91041.s"
             }
 
@@ -7925,7 +7926,7 @@
          "tags": "captain-america,marvel,timely,golden-age",
          "sales": [
             {
-               "venue": "Comiclink",
+               "venue": "ComicLink",
                "salesDate": "2020-02-25",
                "price": "211000",
                "link": "https://comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FSEARCH%2EASP%3FPreviewCode%3D2020feb%26where%3Dauctions%26title%3Dcaptain%2B1%26GO%3DGO%26ItemType%3DCB%23Item%5F1372158&id=1372158&itemType=0"
@@ -7944,7 +7945,7 @@
             {
                "salesDate": "2020-02-25",
                "price": "100000",
-               "venue": "comiclink",
+               "venue": "ComicLink",
                "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FDEFAULT%2EASP%3F%5FSORT%3DYES%26Focused%3D1%26ItemType%3D0%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2EMaxBid%26ODire3%3DDESC%23Item%5F1379079&id=1379079&itemType=0#detail"
             }
          ],
@@ -7961,7 +7962,7 @@
             {
                "salesDate": "2020-05-27",
                "price": "200000",
-               "venue": "Comiclink",
+               "venue": "ComicLink",
                "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FSEARCH%2EASP%3FPreviewCode%3D2020may%26where%3Dauctions%26title%3Dhulk%2B1%26GO%3DGO%26ItemType%3DCB%23Item%5F1401751&id=1401751&itemType=0"
             }
          ],
@@ -7977,7 +7978,7 @@
             {
                "salesDate": "2020-05-27",
                "price": "150000",
-               "venue": "Comiclink",
+               "venue": "ComicLink",
                "link": "https://comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FSEARCH.ASP%3FPreviewCode%3D2020may%26where%3Dauctions%26title%3Dall%2Bstar%2B8%26GO%3DGO%26ItemType%3DCB%23Item_1387718&id=1387718&itemType=0#detail"
             }
          ],
@@ -8160,7 +8161,7 @@
             {
                "salesDate": "2020-12-01",
                "price": "182501",
-               "venue": "comiclink",
+               "venue": "ComicLink",
                "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FPREVIEW.ASP%3F_SORT%3DYES%26code%3D2020nov%26session%3D1%26f1%3Da.MaxBid%26ODire1%3DDESC%26f2%3Di.Type%252C%2Bi.Title%252C%2Bi.IssueNumber%26ODire2%3DASC%26f3%3Dsortcond%26ODire3%3DDESC%26pg%3D1%26safilter%3D1%23Item_1445469&id=1445469&itemType=0#detail"
             }
          ],
@@ -8177,7 +8178,7 @@
             {
                "salesDate": "2020-12-01",
                "price": "133550",
-               "venue": "comiclink",
+               "venue": "ComicLink",
                "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FPREVIEW.ASP%3F_SORT%3DYES%26code%3D2020nov%26session%3D1%26f1%3Da.MaxBid%26ODire1%3DDESC%26f2%3Di.Type%252C%2Bi.Title%252C%2Bi.IssueNumber%26ODire2%3DASC%26f3%3Dsortcond%26ODire3%3DDESC%26pg%3D1%26safilter%3D1%23Item_1445466&id=1445466&itemType=0#detail"
             }
          ],
@@ -8195,7 +8196,7 @@
                "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FPREVIEW.ASP%3F_SORT%3DYES%26code%3D2020nov%26session%3D1%26f1%3Da.MaxBid%26ODire1%3DDESC%26f2%3Di.Type%252C%2Bi.Title%252C%2Bi.IssueNumber%26ODire2%3DASC%26f3%3Dsortcond%26ODire3%3DDESC%26pg%3D1%26safilter%3D1%23Item_1430895&id=1430895&itemType=0",
                "salesDate": "2020-12-01",
                "price": "115000",
-               "venue": "comiclink"
+               "venue": "ComicLink"
             }
          ],
          "id": "0508"
@@ -8212,7 +8213,7 @@
             {
                "salesDate": "2020-12-01",
                "price": "105166",
-               "venue": "comiclink",
+               "venue": "ComicLink",
                "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FPREVIEW.ASP%3F_SORT%3DYES%26code%3D2020nov%26session%3D1%26f1%3Da.MaxBid%26ODire1%3DDESC%26f2%3Di.Type%252C%2Bi.Title%252C%2Bi.IssueNumber%26ODire2%3DASC%26f3%3Dsortcond%26ODire3%3DDESC%26pg%3D1%26safilter%3D1%23Item_1430806&id=1430806&itemType=0#detail"
             }
          ],
@@ -8229,13 +8230,13 @@
             {
                "salesDate": "2020-09-10",
                "price": "102000",
-               "venue": "heritage",
+               "venue": "Heritage",
                "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/batman-1-dc-1940-cgc-gd-25-cream-to-off-white-pages/a/7234-91033.s"
             },
             {
                "salesDate": "2020-09-16",
                "price": "132600",
-               "venue": "heritage",
+               "venue": "Heritage",
                "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/batman-1-dc-1940-cgc-gd-25-cream-to-off-white-pages/a/7234-91033.s"
             }
          ],
@@ -8252,7 +8253,7 @@
             {
                "salesDate": "2020-09-10",
                "price": "102000",
-               "venue": "heritage",
+               "venue": "Heritage",
                "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/detective-comics-29-dc-1939-cgc-fn-55-cream-to-off-white-pages/a/7234-91038.s"
             }
          ],
@@ -8525,7 +8526,7 @@
             {
                "salesDate": "2021-06-23",
                "price": "150000",
-               "venue": "comicconnect",
+               "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/item/918662?tzf=1"
             }
          ],
@@ -8542,7 +8543,7 @@
             {
                "salesDate": "2021-06-30",
                "price": "325000",
-               "venue": "comicconnect",
+               "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/item/927182?tzf=1"
             },
             {
@@ -8563,7 +8564,7 @@
          "tags": "cgc,captain-america,timely,marvel",
          "sales": [
             {
-               "venue": "comiclink",
+               "venue": "ComicLink",
                "salesDate": "2021-02-23",
                "price": "395000",
                "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault%2Easp%3F%5FSORT%3DYES%26Focused%3D1%26f1%3Da%2EMaxBid%26ODire1%3DDESC%26f2%3Di%2ETitle%252C%2Bi%2EIssueNumber%26ODire2%3DASC%26f3%3Da%2ENoofbids%26ODire3%3DDESC%23Item%5F1454183&id=1454183&itemType=0"
@@ -8639,7 +8640,7 @@
             {
                "salesDate": "2021-04-05",
                "price": "192000",
-               "venue": "heritage",
+               "venue": "Heritage",
                "link": "https://comics.ha.com/itm/golden-age-1938-1955-/batman-1-dc-1940-cgc-gd-vg-30-cream-to-off-white-pages/a/7242-92002.s?ic4=ListView-ShortDescription-071515"
             }
          ],
@@ -8705,7 +8706,7 @@
             {
                "salesDate": "2021-04-05",
                "price": "138000",
-               "venue": "heritage",
+               "venue": "Heritage",
                "cgcid": "1235237002",
                "link": "https://comics.ha.com/itm/golden-age-1938-1955-/detective-comics-225-dc-1955-cgc-nm-94-off-white-to-white-pages/a/7242-91032.s?ic4=ListView-ShortDescription-071515"
             }
@@ -8979,7 +8980,7 @@
             {
                "salesDate": "2021-05-21",
                "price": "246000",
-               "venue": "comiclink",
+               "venue": "ComicLink",
                "link": "https://www.comiclink.com/auctions/item.asp?back=%2FAuctions%2Fdefault.asp%3F_SORT%3DYES%26Focused%3D1%26ItemType%3D0%26f1%3Da.MaxBid%26ODire1%3DDESC%26f2%3Di.Title%252C%2Bi.IssueNumber%26ODire2%3DASC%26f3%3Da.MaxBid%26ODire3%3DDESC%26safilter%3D1%23Item_1470335&id=1470335&itemType=0"
             }
          ],
@@ -9184,7 +9185,7 @@
             {
                "salesDate": "2021-09-21",
                "price": "350750",
-               "venue": "comicconnect",
+               "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/item/961758"
             },
             {
@@ -9206,7 +9207,7 @@
             {
                "salesDate": "2022-09-08",
                "price": "384000",
-               "venue": "heritage",
+               "venue": "Heritage",
                "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/detective-comics-27-dc-1939-cgc-apparent-fn-vf-70-slight-a-1-off-white-pages/a/7279-91041.s"
             }
          ],
@@ -9223,7 +9224,7 @@
             {
                "salesDate": "2022-09-08",
                "price": "384000",
-               "venue": "heritage",
+               "venue": "Heritage",
                "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/detective-comics-27-dc-1939-cgc-apparent-fn-vf-70-slight-a-1-off-white-pages/a/7279-91041.s"
             }
          ],
@@ -9241,7 +9242,7 @@
             {
                "salesDate": "2023-03-30",
                "price": "1740000",
-               "venue": "heritage",
+               "venue": "Heritage",
                "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/detective-comics-27-dc-1939-cgc-fn-60-off-white-to-white-pages/a/7339-91029.s"
             }
          ],
@@ -9258,13 +9259,13 @@
             {
                "salesDate": "2024-06-24",
                "price": "675000",
-               "venue": "heritage",
+               "venue": "Heritage",
                "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/detective-comics-27-dc-1939-cgc-vg-45-tan-to-off-white-pages/a/7374-91006.s"
             },
             {
                "salesDate": "2022-01-13",
                "price": "1140000",
-               "venue": "heritage",
+               "venue": "Heritage",
                "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/detective-comics-27-dc-1939-cgc-vg-45-tan-to-off-white-pages/a/7266-91038.s"
             }
          ],
@@ -9281,7 +9282,7 @@
             {
                "salesDate": "2024-06-24",
                "price": "600000",
-               "venue": "heritage",
+               "venue": "Heritage",
                "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/detective-comics-27-dc-1939-cgc-gd-vg-30-slightly-brittle-pages/a/7369-91011.s"
             }
          ],
@@ -9297,7 +9298,7 @@
             {
                "salesDate": "2024-06-20",
                "price": "228000",
-               "venue": "heritage",
+               "venue": "Heritage",
                "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/marvel-comics-1-october-cover-timely-1939-cgc-apparent-fn-vf-70-moderate-a-3-off-white-to-white-pages/a/7374-91013.s"
             }
          ],
@@ -9315,7 +9316,7 @@
             {
                "salesDate": "2022-09-22",
                "price": "729000",
-               "venue": "comicconnect",
+               "venue": "ComicConnect",
                "link": "https://www.comicconnect.com/item/962668"
             }
          ],
@@ -9331,7 +9332,7 @@
          "sales": [ {
             "salesDate": "2022-11-17",
             "price": "223200",
-            "venue": "heritage",
+            "venue": "Heritage",
             "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/marvel-comics-1-timely-1939-cgc-gd-vg-30-cream-to-off-white-pages/a/7283-91058.s"
          }],
          "id": "0569"
@@ -9348,7 +9349,7 @@
          "sales": [ {
             "salesDate": "2016-11-17",
             "price": "77675",
-            "venue": "heritage",
+            "venue": "Heritage",
             "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/marvel-comics-1-timely-1939-cgc-gd-vg-30-off-white-to-white-pages/a/7141-91134.s"
          }],
          "id": "0570"
@@ -9364,13 +9365,13 @@
          "sales": [ {
             "salesDate": "2022-03-17",
             "price": "363527.65",
-            "venue": "comicconnect",
+            "venue": "ComicConnect",
             "link": "https://www.comicconnect.com/item/947351"
          },
          {
             "salesDate": "2022-12-15",
             "price": "293250",
-            "venue": "comicconnect",
+            "venue": "ComicConnect",
             "link": "https://www.comicconnect.com/item/973125"
          }],
          "id": "0571"
@@ -9386,7 +9387,7 @@
          "sales": [ {
             "salesDate": "2016-11-17",
             "price": "77675",
-            "venue": "heritage",
+            "venue": "Heritage",
             "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/marvel-comics-1-timely-1939-cgc-gd-vg-30-off-white-to-white-pages/a/7141-91134.s"
          }],
          "id": "0572"
@@ -9402,7 +9403,7 @@
          "sales": [ {
             "salesDate": "2021-09-17",
             "price": "156000",
-            "venue": "heritage",
+            "venue": "Heritage",
             "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/marvel-comics-1-timely-1939-cgc-apparent-gd-20-moderate-c-3-cream-to-off-white-pages/a/7246-94065.s"
          }],
          "id": "0573"
@@ -9418,7 +9419,7 @@
          "sales": [ {
             "salesDate": "2024-10-02",
             "price": "163300",
-            "venue": "comicconnect",
+            "venue": "ComicConnect",
             "link": "https://www.comicconnect.com/item/801507"
          }],
          "id": "0574"

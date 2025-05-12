@@ -1,0 +1,13 @@
+{
+  "name": "-100k-club",
+  "version": "1.0.0",
+  "description": "$100,000 Club ==========",
+  "main": "index.js",
+  "scripts": {
+    "records": "cd  ./record-sales && npm run start"
+  },
+  "dependencies": {  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}

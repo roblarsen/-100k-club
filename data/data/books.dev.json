@@ -10442,6 +10442,74 @@
            }
          ],
          "id": "0630"
+      },
+       {
+         "title": "Amazing Fantasy",
+         "issue": "15",
+         "gradeSrc": "CGC",
+         "grade": "7.5",
+         "cgcid":"3754186001",
+         "tags": "spider-man,amazing-fantasy,cgc,marvel",
+         "sales": [
+            {
+               "salesDate": "2025-04-03",
+               "price": "144000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/amazing-fantasy-15-marvel-1962-cgc-vf-75-off-white-to-white-pages/a/7413-91003.s?ic4=GalleryView-Thumbnail-071515#"
+            }
+         ],
+         "id": "0631"
+      },
+       {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "7.0 (C1)",
+         "cgcid": "4538283002",
+         "tags": "captain-america,marvel,timely,golden-age",
+         "sales": [
+            {
+  "salesDate": "2025-04-03",
+               "price": "132000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-timely-1941-cgc-apparent-fn-vf-70-slight-c-1-cream-to-off-white-pages/a/7413-91036.s?lotPosition=13&ic16=ViewItem-BrowseTabs-Inventory-BuyNowFromOwner-ArchiveSearchResults-012417"
+            }
+         ],
+         "id": "0632"
+      },
+      {
+         "title": "Silver Surfer",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "9.8",
+         "cgcid": "4184418002",
+         "tags": "marvel,silver-surfer,cgc",
+         "sales": [
+            {
+               "salesDate": "2025-04-03",
+               "price": "132000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/the-silver-surfer-1-marvel-1968-cgc-nm-mt-98-off-white-to-white-pages/a/7413-91210.s?ic4=GalleryView-Thumbnail-071515#"
+            }
+         ],
+         "id": "0633"
+      }, {
+         "title": "X-Men",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "9.0",
+         "cgcid": "0079224001",
+         "tags": "x-men,marvel,cgc",
+         "sales": [
+            {
+               "salesDate": "2025-04-03",
+               "price": "108000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/x-men-1-marvel-1963-cgc-vf-nm-90-cream-to-off-white-pages/a/7413-91018.s?lotPosition=19&ic16=ViewItem-BrowseTabs-Auction-Archive-ArchiveSearchResults-012417"
+            }
+         ],
+         "id": "0634"
       }
+
    ]
 }

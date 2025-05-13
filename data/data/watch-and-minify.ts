@@ -13,18 +13,36 @@ const writeMinifiedFile = (filePath: string, data: any) => {
 };
 
 const watchFiles = () => {
-    console.log(booksDevPath);
-    fs.watchFile(booksDevPath, (curr, prev) => {
-        if (curr.mtime !== prev.mtime) {
-            const booksData = JSON.parse(fs.readFileSync(booksDevPath, 'utf8'));
-            writeMinifiedFile(booksOutputPath, booksData);
+    let booksLastModified = 0;
+    let saPedigreesLastModified = 0;
+
+    fs.watch(booksDevPath, (eventType) => {
+        if (eventType === 'change') {
+            const stats = fs.statSync(booksDevPath);
+            const modifiedTime = stats.mtimeMs;
+
+            if (modifiedTime > booksLastModified) {
+                booksLastModified = modifiedTime;
+                console.log(`Detected save in: ${booksDevPath}`);
+                const booksData = JSON.parse(fs.readFileSync(booksDevPath, 'utf8'));
+                writeMinifiedFile(booksOutputPath, booksData);
+                console.log(`Minified and saved: ${booksOutputPath}`);
+            }
         }
     });
 
-    fs.watchFile(saPedigreesDevPath, (curr, prev) => {
-        if (curr.mtime !== prev.mtime) {
-            const saPedigreesData = JSON.parse(fs.readFileSync(saPedigreesDevPath, 'utf8'));
-            writeMinifiedFile(saPedigreesOutputPath, saPedigreesData);
+    fs.watch(saPedigreesDevPath, (eventType) => {
+        if (eventType === 'change') {
+            const stats = fs.statSync(saPedigreesDevPath);
+            const modifiedTime = stats.mtimeMs;
+
+            if (modifiedTime > saPedigreesLastModified) {
+                saPedigreesLastModified = modifiedTime;
+                console.log(`Detected save in: ${saPedigreesDevPath}`);
+                const saPedigreesData = JSON.parse(fs.readFileSync(saPedigreesDevPath, 'utf8'));
+                writeMinifiedFile(saPedigreesOutputPath, saPedigreesData);
+                console.log(`Minified and saved: ${saPedigreesOutputPath}`);
+            }
         }
     });
 };

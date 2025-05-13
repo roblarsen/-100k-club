@@ -325,8 +325,14 @@
          "publisher": "DC Comics",
          "gradeSrc": "CGC",
          "grade": "3.0",
+         "cgcid": "0008318001",
          "tags": "cgc,action,superman,dc",
-         "sales": [],
+         "sales": [{
+            "venue": "heritage",
+            "salesDate": "2024-11-24",
+            "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/action-comics-1-dc-1938-cgc-gd-vg-30-cream-to-off-white-pages/a/7384-91001.s?ic4=GalleryView-Thumbnail-071515#",
+            "price": "960000"
+         }],
          "id": "0018"
       },
       {
@@ -3592,8 +3598,15 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "9.0",
+         "cgcid": "4532563005",
          "tags": "incredible-hulk,cgc,marvel,hulk",
-         "sales": [],
+         "sales": [ {
+
+         "salesDate": "2025-04-203",
+               "price": "312000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/the-incredible-hulk-1-marvel-1962-cgc-vf-nm-90-off-white-to-white-pages/a/7413-91013.s?ic4=GalleryView-Thumbnail-071515#"
+      }],
          "id": "0215"
       },
       {
@@ -10209,6 +10222,226 @@
             }
          ],
          "id": "0617"
-      } 
+      },
+      {
+         "title": "Detective Comics",
+         "issue": "27",
+         "grade": ".5",
+         "gradeSrc": "CGC",
+         "cgcid":"4468452001",
+         "tags": "detective-comics,batman,dc",
+         "sales": [
+            {
+               "salesDate": "2024-11-24",
+               "price": "312000",
+               "venue": "heritage",
+               "link":"https://comics.ha.com/itm/golden-age-1938-1955-/superhero/detective-comics-27-dc-1939-cgc-pr-05-brittle-pages/a/7384-91059.s?ic4=GalleryView-Thumbnail-071515"
+            }
+         ],
+         "id": "0618"
+      } ,
+      {
+         "title": "Detective Comics",
+         "issue": "27",
+         "grade": "5.0 (E B-5)",
+         "gradeSrc": "CGC",
+         "cgcid":"4492007001",
+         "tags": "detective-comics,batman,dc",
+         "sales": [
+            {
+               "salesDate": "2024-11-24",
+               "price": "228000",
+               "venue": "heritage",
+               "link":"https://comics.ha.com/itm/golden-age-1938-1955-/superhero/detective-comics-27-married-trimmed-dc-1939-cgc-apparent-vg-fn-50-extensive-b-5-off-white-to-white-pages/a/7384-91005.s?ic4=GalleryView-Thumbnail-071515"
+            }
+         ],
+         "id": "0619"
+      },{
+         "title": "Detective Comics",
+         "grade": "4.0",
+         "gradeSrc": "CGC",
+         "issue": "31",
+         "cgcid": "4484120003",
+         "tags": "detective-comics,batman,dc",
+         "sales": [
+            {
+               "salesDate": "2024-11-24",
+               "price": "174000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/detective-comics-31-dc-1939-cgc-vg-40-off-white-pages/a/7384-91007.s?ic4=GalleryView-Thumbnail-071515"
+            }
+         ],
+         "id": "0620"
+      },
+      {
+         "title": "Captain America Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "cgcid": "4477086004",
+         "grade": "5.5",
+         "tags": "captain-america,cgc,marvel,timely",
+         "sales": [
+            {
+                "salesDate": "2024-11-24",
+               "price": "168000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-timely-1941-cgc-fn-55-off-white-pages/a/7384-91004.s?ic4=GalleryView-Thumbnail-071515"
+              }
+
+         ],
+         "id": "0621"
+      },{
+         "title": "More Fun Comics",
+         "issue": "73",
+         "gradeSrc": "CGC",
+         "grade": "8.0",
+         "cgcid":"1304518001",
+         "tags": "dc,aquaman,green-arrow,cgc",
+         "sales": [
+            {
+                "salesDate": "2024-11-24",
+               "price": "144000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/more-fun-comics-73-dc-1941-cgc-vf-80-off-white-to-white-pages/a/7384-91011.s?ic4=GalleryView-Thumbnail-071515"
+              }
+         ],
+         "id": "0622"
+      },
+      {
+         "title": "Batman",
+         "issue": "11",
+         "gradeSrc": "CGC",
+         "grade": "9.4",
+         "cgcid":"0073174007",
+         "tags": "dc,batman,cgc",
+         "sales": [
+            {
+                "salesDate": "2024-11-24",
+               "price": "132000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/batman-11-dc-1942-cgc-nm-94-off-white-to-white-pages/a/7384-91003.s?ic4=GalleryView-Thumbnail-071515"
+              }
+         ],
+         "id": "0623"
+      },
+        {
+         "title": "Detective Comics",
+         "issue": "29",
+         "gradeSrc": "cgc",
+         "grade": "6.5",
+         "cgcid": "4492004002",
+         "tags": "detective-comics,dc,batman",
+         "sales": [
+            {
+              "salesDate": "2024-11-24",
+               "price": "120000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/detective-comics-29-dc-1939-cgc-fn-65-light-tan-to-off-white-pages/a/7384-91006.s?ic4=GalleryView-Thumbnail-071515"
+               }
+         ],
+         "id": "0624"
+      },
+      {
+         "title": "Batman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "1.5",
+         "tags": "cgc,batman,dc",
+         "cgcid": "4458050001",
+         "sales": [
+            {
+                "salesDate": "2024-11-24",
+               "price": "108000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/batman-1-dc-1940-cgc-fr-gd-15-off-white-to-white-pages/a/7384-91035.s?ic4=GalleryView-Thumbnail-071515"
+               }
+         ],
+         "id": "0625"
+      },
+      {
+         "title": "Action Comics",
+         "issue": "1",
+         "collection": "",
+         "gradeSrc": "CGC",
+         "grade": "6.5 (A4)",
+         "cgcid": "0976857001",
+         "tags": "dc,superman,cgc,restored",
+         "sales": [
+            {
+               "salesDate": "2025-01-09",
+               "price": "384000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/action-comics-1-dc-1938-cgc-apparent-fn-65-moderate-extensive-a-4-off-white-to-white-pages/a/7399-91003.s?ic4=GalleryView-Thumbnail-071515"
+            }
+         ],
+         "id": "0626"
+      },
+        {
+         "title": "Suspense Comics",
+         "issue": "3",
+         "gradeSrc": "CGC",
+         "grade": "4.0",
+         "tags": "cgc,classic-cover",
+         "sales": [
+            {
+               "salesDate": "2025-01-09",
+               "price": "156000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/suspense-comics-3-et-es-go-1944-cgc-vg-40-off-white-to-white-pages/a/7399-91018.s?ic4=GalleryView-Thumbnail-071515"
+            }
+         ],
+         "id": "0627"
+      },
+      {
+         "title": "Detective Comics",
+         "grade": "8.0",
+         "gradeSrc": "CGC",
+         "issue": "38",
+         "cgcid": "4502711005",
+         "tags": "detective-comics,batman,dc",
+         "sales": [
+            {
+               "salesDate": "2025-01-09",
+               "price": "132000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/detective-comics-38-dc-1940-cgc-vf-80-white-pages/a/7399-91028.s?ic4=GalleryView-Thumbnail-071515#"
+            }
+         ],
+         "id": "0628"
+      },
+      {
+         "title": "More Fun",
+         "issue": "52",
+         "gradeSrc": "CGC",
+         "grade": "6.5",
+         "tags": "more-fun,dc",
+         "cgcid": "1029734001",
+         "sales": [
+            {
+                "salesDate": "2025-01-09",
+               "price": "108000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/more-fun-comics-52-dc-1940-cgc-fn-65-white-pages/a/7399-91012.s?ic4=GalleryView-Thumbnail-071515"
+           }
+         ],
+         "id": "0629"
+      },
+      {
+         "title": "Detective Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "6.5",
+         "cgcid":"0616169001",
+         "tags": "detective-comics,pedigree,dc",
+         "sales": [
+            {
+                "salesDate": "2025-04-03",
+               "price": "228000",
+               "venue": "heritage",
+               "link": "https://comics.ha.com/itm/platinum-age-1897-1937-/miscellaneous/detective-comics-1-dc-1937-cgc-fn-65-cream-to-off-white-pages/a/7413-91009.s?ic4=GalleryView-Thumbnail-071515"
+           }
+         ],
+         "id": "0630"
+      }
    ]
 }

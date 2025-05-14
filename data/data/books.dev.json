@@ -372,7 +372,6 @@
          "publisher": "DC Comics",
          "gradeSrc": "CGC",
          "grade": "8.5 (MP)",
-         "restoration": "Moderate Professional",
          "tags": "cgc,restored,superman,action",
          "sales": [
             {
@@ -495,7 +494,6 @@
          "pedigree": "Reilly",
          "gradeSrc": "Anecdote",
          "grade": "9+",
-         "gradingNotes": "qualified, coupon out of back cover",
          "tags": "all-american-comics,green-lantern,dc,pedigree",
          "sales": [
             {
@@ -4632,7 +4630,6 @@
          "publisher": "DC Comics",
          "gradeSrc": "CGC",
          "grade": "8.0 (MP)",
-         "restoration": "Moderate Professional",
          "tags": "cgc,restored,superman,action",
          "cgcid":"1107898001",
          "sales": [
@@ -4969,7 +4966,6 @@
          "publisher": "DC Comics",
          "gradeSrc": "CGC",
          "grade": "8.0 M/E(A-4)",
-         "restoration": "Moderate/Extensive (A-4)",
          "tags": "cgc,restored,superman,action",
          "sales": [
             {
@@ -5447,11 +5443,10 @@
       },
       {
          "title": "Detective Comics",
-         "grade": "4.5",
+         "grade": "4.5 (EA)",
          "gradeSrc": "CBCS",
          "issue": "27",
-         "tags": "detective-comics,batman,dc,cbcs",
-         "restoration": "EA",
+         "tags": "detective-comics,batman,dc,cbcs,restored",
          "sales": [
             {
                "salesDate": "2016-02-18",
@@ -7260,10 +7255,8 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "8.0 (MP)",
-         "gradingNotes": "Mod(P)",
          "cgcid": "0056428009",
          "tags": "superman,dc",
-         "restoration":"Mod(P)",
          "sales": [
             {
                "salesDate": "2017-09-14",
@@ -7385,7 +7378,6 @@
          "publisher": "DC Comics",
          "gradeSrc": "CGC",
          "grade": "5.5 (C)",
-         "restoration": "Conserved",
          "cgcid": "1218115001",
          "tags": "action,superman,dc",
          "sales": [
@@ -7502,7 +7494,6 @@
          "gradeSrc": "CGC",
          "grade": "6.5 (A-5)",
          "cgcid": "1218591001",
-         "restoration": " ct, pc re-attached, tr sls, spn splt sld, cvr clnd",
          "tags": "batman,dc,restored",
          "sales": [
             {
@@ -7864,6 +7855,11 @@
          "tags": "wonder-woman,dc",
          "sales": [
             {
+               "venue": "comicconnect",
+               "salesDate": "2025-03-21",
+               "price": "121901.15",
+               "link": "https://www.comicconnect.com/item/1058489"
+            },            {
                "venue": "heritage",
                "salesDate": "2020-07-09",
                "price": "120000",
@@ -8219,8 +8215,7 @@
          "issue": "1",
          "pedigree": "Reilly",
          "gradeSrc": "CGC",
-         "grade": "8.5(SP)",
-         "restoration": "Slight Professional",
+         "grade": "8.5 (SP)",
          "tags": "captain-america,marvel,timely,pedigree",
          "sales": [
             {
@@ -8277,7 +8272,6 @@
          "issue": "1",
          "gradeSrc": "CGC",
          "grade": "6.0 (A2)",
-         "gradingNotes": "Slight/Mod",
          "cgcid": "2085384003",
          "tags": "superman,dc",
          "sales": [
@@ -9113,8 +9107,7 @@
          "title": "Action Comics",
          "issue": "1",
          "gradeSrc": "CGC",
-         "grade": "9.4",
-         "restoration":"EA",
+         "grade": "9.4 (EA)",
          "tags": "cgc,action-comics,restored,dc",
          "cgcid":"1562123001",
          "sales": [
@@ -9131,9 +9124,7 @@
          "title": "Action Comics",
          "issue": "1",
          "gradeSrc": "CGC",
-         "grade": "8.5",
-         "restoration":"A3",
-         "gradingNotes":"trimmed",
+         "grade": "8.5 (A3)",
          "tags": "cgc,action-comics,restored,dc",
          "cgcid":"1260017001",
          "sales": [
@@ -10509,7 +10500,56 @@
             }
          ],
          "id": "0634"
+      },
+      {
+         "title": "Action Comics",
+         "issue": "7",
+         "gradeSrc": "CGC",
+         "grade": "5.0",
+         "cgcid": "0912171001",
+         "sales": [
+            {
+               "salesDate": "2025-03-19",
+               "price": "179400",
+               "venue": "comicconnect",
+               "link": "https://www.comicconnect.com/item/1065662#description"
+            }
+         ],
+         "id": "0635"
+      },
+      {
+         "title": "Action Comics",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "9.0 (A1)",
+         "tags": "cgc,action-comics,restored,dc",
+         "cgcid":"1562123001",
+         "sales": [
+            {
+               "venue": "comicconnect",
+               "salesDate": "2024-12-17",
+               "price": "794650",
+               "link": "https://www.comicconnect.com/item/1045363"
+            }
+         ],
+         "id": "0636"
+      },
+            {
+         "title": "Batman",
+         "issue": "1",
+         "gradeSrc": "CGC",
+         "grade": "2.5",
+         "tags": "cgc,batman,dc",
+         "cgcid":"1205116001",
+         "sales": [
+            {
+               "salesDate": "2024-12-17",
+               "price": "120000",
+               "venue": "comicconnect",
+               "link": "https://www.comicconnect.com/item/1056568"
+            }
+         ],
+         "id": "0637"
       }
-
    ]
 }

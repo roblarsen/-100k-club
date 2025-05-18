@@ -18,5 +18,6 @@ export const venues = {
     "jphemint": "JP The Mint",
     "gregreece": "Greg Reece Comics",
     "esquirecomics": "Esquire Comics/Comic Connect",
-    "sothebys": "Sotheby's"
+    "sothebys": "Sotheby's",
+    "landry":"Landry Pop Acutions"
 };

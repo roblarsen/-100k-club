@@ -14,6 +14,8 @@ export function drawChart(data: Array<RecordSale>) {
 
   const defaultOpacity = 0.7;
 
+  //todo: I think there's a method in D3 to get color scales
+
   const colors = {
     "comicconnect": "#3EF77F",
     "heritage": "#F7AF3E",
@@ -97,7 +99,7 @@ export function drawChart(data: Array<RecordSale>) {
   const showTooltip = (e: MouseEvent) => {
     const text = `
     <h3>${d3.select(e.target).datum().title} ${d3.select(e.target).datum().issue} ${d3.select(e.target).datum().gradeSrc} ${d3.select(e.target).datum().grade}  ${d3.select(e.target).datum().pedigree}</h3>
-    <p>${d3.select(e.target).datum().venue} ${d3.select(e.target).datum().salesDate}</p>
+    <p>${venues[d3.select(e.target).datum().venue]} ${d3.select(e.target).datum().salesDate}</p>
     <p class="price">$${d3.select(e.target).datum().price.toLocaleString()}</p>
 
   `;

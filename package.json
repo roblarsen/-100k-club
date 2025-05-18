@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "records": "cd  ./record-sales && npm run start",
-     "data": "cd  ./data && npm run watch"
+     "data": "cd  ./data && npm run watch",
+     "books": "cd  ./data && ts-node ./data/minify-books.ts"
   },
   "dependencies": {  },
   "devDependencies": {},

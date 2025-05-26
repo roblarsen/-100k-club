@@ -50,6 +50,6 @@
   },
   "dependencies": {
     "cssmin": "^0.4.3",
-    "serve": "^14.2.3"
+    "serve": "^14.2.4"
   }
 }

@@ -1,0 +1,55 @@
+{
+  "name": "100000Club",
+  "version": "2.0.0",
+  "description": "An interactive interface to the $100,000 Club data set",
+  "author": "Rob Larsen",
+  "license": "MIT",
+  "main": "app.js",
+  "scripts": {
+    "dev": "grunt dev",
+    "build": "grunt build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roblarsen/-100k-club"
+  },
+  "devDependencies": {
+    "autoprefixer-core": "^6.0.1",
+    "grunt": "^1.6.1",
+    "grunt-angular-templates": "^1.2.0",
+    "grunt-cli": "^1.5.0",
+    "grunt-concurrent": "^3.0.0",
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-contrib-compress": "^2.0.0",
+    "grunt-contrib-concat": "^2.1.0",
+    "grunt-contrib-connect": "^3.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-imagemin": "^4.0.0",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-contrib-less": "^3.0.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-filerev": "^2.1.2",
+    "grunt-jscs": "^3.0.1",
+    "grunt-karma": "*",
+    "grunt-minjson": "^0.4.0",
+    "grunt-newer": "^1.1.0",
+    "grunt-ng-annotate": "^4.0.0",
+    "grunt-postcss": "^0.9.0",
+    "grunt-sass": "^3.1.0",
+    "grunt-string-replace": "1.3.3",
+    "grunt-svgmin": "^7.0.0",
+    "grunt-usemin": "^3.1.1",
+    "jit-grunt": "^0.10.0",
+    "jshint-stylish": "^2.2.1",
+    "minjson": "0.0.4",
+    "node-sass": "^9.0.0",
+    "time-grunt": "^2.0.0"
+  },
+  "dependencies": {
+    "cssmin": "^0.4.3",
+    "serve": "^14.2.3"
+  }
+}

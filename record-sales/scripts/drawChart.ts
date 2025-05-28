@@ -41,7 +41,7 @@ export function drawChart(data: Array<RecordSale>) {
   const minYear = Math.min(...years) - 1;
   const maxYear = Math.max(...years) + 1;
 
-  const margin = { top: 10, right: 30, bottom: 60, left: 60 },
+  const margin = { top: 10, right: 30, bottom: 60, left: 80 },
     width = 1200 - margin.left - margin.right,
     height = 800 - margin.top - margin.bottom;
 

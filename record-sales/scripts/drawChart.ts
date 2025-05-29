@@ -43,7 +43,7 @@ export function drawChart(data: Array<RecordSale>) {
 
   const margin = { top: 10, right: 30, bottom: 60, left: 80 },
     width = 1200 - margin.left - margin.right,
-    height = 800 - margin.top - margin.bottom;
+    height = 600 - margin.top - margin.bottom;
 
   // append the svg object to the body of the page
   let svg = d3.select("#viz")

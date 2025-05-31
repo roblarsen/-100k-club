@@ -5,7 +5,7 @@
       "issue": "1",
       "publisher": "DC Comics",
       "coverDate": "1938-06-01",
-      "pedigree": "Church",
+      "pedigree": "Edgar Church",
       "gradeSrc": "Anecdote",
       "grade": "9.2",
       "generalCommentary": "Best Existing",
@@ -388,7 +388,7 @@
       "title": "Action Comics",
       "issue": "2",
       "publisher": "DC Comics",
-      "pedigree": "Church",
+      "pedigree": "Edgar Church",
       "gradeSrc": "",
       "sales": [],
       "id": "0022",
@@ -398,7 +398,7 @@
       "title": "Action Comics",
       "issue": "7",
       "publisher": "DC Comics",
-      "pedigree": "Church",
+      "pedigree": "Edgar Church",
       "tags": "dc,pedigree,superman,action",
       "sales": [],
       "id": "0023"
@@ -474,7 +474,7 @@
     {
       "title": "All American Comics",
       "issue": "16",
-      "pedigree": "Church",
+      "pedigree": "Edgar Church",
       "gradeSrc": "CGC",
       "grade": "9.4",
       "tags": "all-american-comics,green-lantern,dc,cgc,pedigree",
@@ -509,7 +509,7 @@
       "title": "All Star Comics",
       "issue": "3",
       "publisher": "DC Comics",
-      "pedigree": "Church",
+      "pedigree": "Edgar Church",
       "gradeSrc": "CGC",
       "grade": "9.6",
       "tags": "all-star-comics,jsa,dc,pedigree,cgc",
@@ -525,7 +525,7 @@
     {
       "title": "All Star Comics",
       "issue": "8",
-      "pedigree": "Church",
+      "pedigree": "Edgar Church",
       "gradeSrc": "",
       "generalCommentary": "Overstreet 26 reported sale",
       "tags": "all-star,dc,church,pedigree",
@@ -872,7 +872,7 @@
     {
       "title": "Archie Comics",
       "issue": "1",
-      "pedigree": "Church",
+      "pedigree": "Edgar Church",
       "gradeSrc": "Anecdote",
       "grade": "NM",
       "generalCommentary": "Reported in Overstreet 28",
@@ -1113,7 +1113,7 @@
     {
       "title": "Flash Comics",
       "issue": "1",
-      "pedigree": "Church",
+      "pedigree": "Edgar Church",
       "gradeSrc": "CGC",
       "grade": "9.6",
       "tags": "flash,dc,cgc,heritage,jp-the-mint",
@@ -1156,7 +1156,7 @@
     {
       "title": "Batman",
       "issue": "1",
-      "pedigree": "Church",
+      "pedigree": "Edgar Church",
       "gradeSrc": "MHC",
       "grade": "NM",
       "tags": "batman,pedigree,dc",
@@ -1539,7 +1539,7 @@
       "generalCommentary": "OS 27 reported $150,000 trade.",
       "title": "Detective Comics",
       "issue": "1",
-      "pedigree": "Church",
+      "pedigree": "Edgar Church",
       "grade": "VG/FN",
       "tags": "detective-comics,pedigree,dc",
       "sales": [],
@@ -1566,7 +1566,7 @@
     {
       "title": "Detective Comics",
       "issue": "27",
-      "pedigree": "Church",
+      "pedigree": "Edgar Church",
       "gradeSrc": "CGC",
       "grade": "8.5",
       "tags": "detective-comics,dc,batman,pedigree",
@@ -1909,7 +1909,7 @@
     {
       "title": "Detective Comics",
       "issue": "33",
-      "pedigree": "Church",
+      "pedigree": "Edgar Church",
       "tags": "detective-comics,dc,batman,pedigree",
       "sales": [],
       "id": "0120"
@@ -1946,7 +1946,7 @@
     {
       "title": "Detective Comics",
       "issue": "38",
-      "pedigree": "Church",
+      "pedigree": "Edgar Church",
       "tags": "batman,detective-comics,pedigree,dc",
       "sales": [],
       "id": "0122"
@@ -1964,7 +1964,7 @@
     {
       "title": "Green Lantern",
       "issue": "1",
-      "pedigree": "Church",
+      "pedigree": "Edgar Church",
       "gradeSrc": "Anecdote",
       "grade": "9.4",
       "tags": "green-lantern,dc",
@@ -2105,7 +2105,7 @@
     {
       "title": "Marvel Comics",
       "issue": "1",
-      "pedigree": "Church",
+      "pedigree": "Edgar Church",
       "gradeSrc": "Anecdote",
       "grade": "NM/MT",
       "generalCommentary": "OS 20 Trade data- $108,000. John Verzyl said that it was for $132,000. Either case its the earliest $100,000 comic, at least in terms of trade value. John did also verify the anecdote about this book. It is \"perfect.\" There's nothing wrong with it. It's also supposedly got pretty nice registration.",
@@ -2148,7 +2148,7 @@
     {
       "title": "Marvel Comics",
       "issue": "1",
-      "provenance": "Pay Copy",
+      "pedigree": "Pay Copy",
       "gradeSrc": "CGC",
       "generalCommentary": "used to be a 9.0",
       "grade": "9.2",
@@ -2307,7 +2307,7 @@
     {
       "title": "More Fun",
       "issue": "52",
-      "pedigree": "Church",
+      "pedigree": "Edgar Church",
       "gradeSrc": "CGC",
       "grade": "9.2",
       "tags": "more-fun,pedigree,dc,church",
@@ -2376,7 +2376,7 @@
     {
       "title": "More Fun",
       "issue": "53",
-      "pedigree": "Church",
+      "pedigree": "Edgar Church",
       "gradeSrc": "CGC",
       "grade": "9.8",
       "tags": "more-fun,dc,church,pedigree",
@@ -2440,7 +2440,7 @@
     {
       "title": "Pep Comics",
       "issue": "22",
-      "pedigree": "Church",
+      "pedigree": "Edgar Church",
       "gradeSrc": "Anecdote",
       "grade": "NM",
       "tags": "archie,pep-comics",
@@ -2457,7 +2457,7 @@
     {
       "title": "Sensation",
       "issue": "1",
-      "pedigree": "Church",
+      "pedigree": "Edgar Church",
       "tags": "wonder-woman,dc,pedigree",
       "sales": [
         {
@@ -2554,7 +2554,7 @@
     {
       "title": "Superman",
       "issue": "1",
-      "pedigree": "Church",
+      "pedigree": "Edgar Church",
       "gradeSrc": "CGC",
       "grade": "8.0",
       "tags": "superman,dc,pedigree",
@@ -2662,7 +2662,7 @@
     {
       "title": "Whiz",
       "issue": "2",
-      "pedigree": "Church",
+      "pedigree": "Edgar Church",
       "gradeSrc": "Anecdote",
       "grade": "NM/NM+",
       "generalCommentary": "Catalog NM+ Generally ranges from 9.0-9.8. OS 21 lists it as \"MT.\" Changed hands in a cash/trade deal- $74,000 (1990)",
@@ -3603,7 +3603,7 @@
       "tags": "incredible-hulk,cgc,marvel,hulk",
       "sales": [
         {
-          "salesDate": "2025-04-203",
+          "salesDate": "2025-04-20",
           "price": "312000",
           "venue": "heritage",
           "link": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/the-incredible-hulk-1-marvel-1962-cgc-vf-nm-90-off-white-to-white-pages/a/7413-91013.s?ic4=GalleryView-Thumbnail-071515#"
@@ -3649,6 +3649,7 @@
           "salesDate": "2012-02-01",
           "price": "222200",
           "venue": "unknown"
+
         },
         {
           "salesDate": "2013-05-09",
@@ -4390,7 +4391,7 @@
     {
       "title": "Sub Mariner Comics",
       "issue": "1",
-      "pedigree": "Church",
+      "pedigree": "Edgar Church",
       "gradeSrc": "Anecdote",
       "grade": "9.8",
       "tags": "marvel,timely,cgc,restored",
@@ -5756,7 +5757,7 @@
       "issue": "49",
       "gradeSrc": "cgc",
       "grade": "9.6",
-      "pedigree": "Church",
+      "pedigree": "Edgar Church",
       "tags": "startling,schomburg,nedor",
       "sales": [
         {
@@ -6302,7 +6303,7 @@
       "issue": "1",
       "gradeSrc": "CGC",
       "grade": "9.4",
-      "pedigree": "Church",
+      "pedigree": "Edgar Church",
       "tags": "planet comics, pedigree, church, fiction house",
       "sales": [
         {
@@ -9456,7 +9457,7 @@
         {
           "salesDate": "2019-11-21",
           "price": "260000",
-          "venue": "MyComicShop.com",
+          "venue": "mcs",
           "link": "https://www.mycomicshop.com/search?ItemID=60030683"
         }
       ],

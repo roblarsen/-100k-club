@@ -5,7 +5,7 @@ export const venues = {
     "ebay": "eBay",
     "comiclink": "ComicLink",
     "goldinauctions": "Goldin Auctions",
-    "unknown": "unknown",
+    "unknown": "Unknown Venue",
     "metropolis": "Metropolis",
     "hakes": "Hakes",
     "pedigreecomics": "Pedigree Comics",
@@ -19,5 +19,6 @@ export const venues = {
     "gregreece": "Greg Reece Comics",
     "esquirecomics": "Esquire Comics/Comic Connect",
     "sothebys": "Sotheby's",
-    "landry":"Landry Pop Acutions"
+    "landry":"Landry Pop Acutions",
+    "mcs": "MyComicShop.com"
 };

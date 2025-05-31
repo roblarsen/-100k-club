@@ -18,6 +18,7 @@ function dateFormatter(date, locale = 'en-US') {
     year: "numeric",
     month: "short",
     day: "numeric",
+    timeZone: 'UTC'
   };
   if (date == "Invalid Date") {
     return "Unknown Date";

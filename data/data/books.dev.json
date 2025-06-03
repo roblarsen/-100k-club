@@ -2195,6 +2195,7 @@
       "title": "Marvel Comics",
       "issue": "1",
       "gradeSrc": "CGC",
+      "pedigree":"Windy City",
       "grade": "9.4",
       "generalCommentary": "UPGRADED from 8.5/9.0",
       "tags": "marvel,timely,upgrade",
@@ -8227,7 +8228,6 @@
     {
       "title": "Captain America Comics",
       "issue": "1",
-      "pedigree": "Reilly",
       "gradeSrc": "CGC",
       "grade": "8.5 (SP)",
       "tags": "captain-america,marvel,timely,pedigree",

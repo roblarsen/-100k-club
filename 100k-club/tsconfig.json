@@ -5,11 +5,12 @@
     "jsx": "react",
     "allowJs": true,
     "moduleResolution": "node",
+    "resolveJsonModule": true,
     "sourceMap": true,
     "outDir": "./dist",
     "noImplicitAny": false,
     "allowSyntheticDefaultImports": true,
-      "esModuleInterop": true,
+    "esModuleInterop": true,
   "types": ["webpack-dev-server"]
   },
   "include": ["scripts/**/*"],

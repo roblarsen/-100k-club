@@ -1,7 +1,7 @@
-import { RecordSale } from "./RecordSale";
+import { RecordSale } from "../../core/RecordSale";
 import * as _ from "lodash";
 import * as d3 from "d3";
-import { venues } from "./venues";
+import { venues } from "../../core/venues";
 
 export function drawChart(data: Array<RecordSale>) {
 

@@ -1,48 +1,13 @@
 import * as _ from "lodash";
 import { AllCommunityModule, ModuleRegistry, createGrid } from 'ag-grid-community'; 
-import { venues } from "./venues";
-import { Comic  } from "./Comic";
-
+import { formatCurrency } from "../../core/formatCurrency";
+import {getVenueName} from "../../core/getVenueName";
+import { dateFormatter} from "../../core/dateFormatter";
 // Register all Community features
 ModuleRegistry.registerModules([AllCommunityModule]);
 
-//todo: extract this into a project level script
-function formatCurrency(number, locale = 'en-US', currency = 'USD') {
-  return new Intl.NumberFormat(locale, {
-    style: 'currency',
-    currency: currency
-  }).format(number);
-}
-
-//todo: extract this into a project level script
-function getVenueName(venue) {
-  if (venue in venues) {
-    return venues[venue];
-  } else {
-    return "Unknown Venue";
-  }
-}
-
-
-//todo: extract this into a project level script
-function dateFormatter(date, locale = 'en-US') {
-  date = new Date(date);
- const options = {
-    year: "numeric",
-    month: "short",
-    day: "numeric",
-    timeZone: 'UTC'
-  };
-  if (date == "Invalid Date") {
-    return "Unknown Date";
-  } else {
-    return date.toLocaleDateString(locale, options);
-  }
-  
-}
 
 function salesLink(sale){
-  console.log(sale);
   if (sale.link) {
     return `<a href="${sale.link}">${formatCurrency(sale.price)}</a>`;
   } else {
@@ -60,7 +25,7 @@ function salesRender(data) {
       ${salesLink(d)} 
       
       at ${getVenueName(d.venue)} 
-      on ${dateFormatter(d.salesDate)}</p> 
+      on ${dateFormatter(new Date(d.salesDate))}</p> 
 
     `
   })

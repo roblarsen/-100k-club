@@ -1,40 +1,12 @@
 import * as _ from "lodash";
-import { RecordSale } from "./RecordSale";
+import { RecordSale } from "../../core/RecordSale";
 import { AllCommunityModule, ModuleRegistry, createGrid } from 'ag-grid-community'; 
-import { venues } from "./venues";
+import { formatCurrency } from "../../core/formatCurrency";
+import { dateFormatter } from "../../core/dateFormatter";
+import { getVenueName } from "../../core/getVenueName";
 
 // Register all Community features
 ModuleRegistry.registerModules([AllCommunityModule]);
-
-function formatCurrency(number, locale = 'en-US', currency = 'USD') {
-  return new Intl.NumberFormat(locale, {
-    style: 'currency',
-    currency: currency
-  }).format(number);
-}
-
-function dateFormatter(date, locale = 'en-US') {
- const options = {
-    year: "numeric",
-    month: "short",
-    day: "numeric",
-    timeZone: 'UTC'
-  };
-  if (date == "Invalid Date") {
-    return "Unknown Date";
-  } else {
-    return date.toLocaleDateString(locale, options);
-  }
-  
-}
-
-function getVenueName(venue) {
-  if (venue in venues) {
-    return venues[venue];
-  } else {
-    return "Unknown Venue";
-  }
-}
 
 export function drawTable(data: Array<RecordSale>) {
  createGrid(document.getElementById("datagrid"), {

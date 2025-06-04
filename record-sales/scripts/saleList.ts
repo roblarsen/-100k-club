@@ -1,6 +1,6 @@
-import { Comic } from "./Comic";
-import { Sale } from "./Sale";
-import { RecordSale } from "./RecordSale";
+import { Comic } from "../../core/Comic";
+import { Sale } from "../../core/Sale";
+import { RecordSale } from "../../core/RecordSale";
 import * as _ from "lodash";
 
 

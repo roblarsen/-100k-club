@@ -13,6 +13,6 @@
     "esModuleInterop": true,
   "types": ["webpack-dev-server"]
   },
-  "include": ["scripts/**/*"],
+  "include": ["scripts/**/*", "../core/formatCurrency.ts", "../core/dateFormatter.ts", "../core/getVenueName.ts"],
   "paths": ["node_modules/**/*"]
 }

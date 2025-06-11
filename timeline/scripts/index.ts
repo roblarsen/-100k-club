@@ -1,3 +1,5 @@
+import * as d3 from "d3";
+
 const margin = {
   'top': 100,
   'right': 20,
@@ -9,7 +11,7 @@ const height = 768;
 const yMargin = margin.top + margin.bottom;
 const xMargin = margin.right + margin.left;
 
-const svg = d3.select('#target')
+const svg = d3.select('#viz')
   .append('svg')  
   .attr("preserveAspectRatio", "xMinYMin meet")
   .attr("viewBox", `0 0 ${width} ${height}`)

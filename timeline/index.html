@@ -23,9 +23,41 @@
 </head>
 
 <body>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <!-- Add your site or application content here -->
-<div id="viz">  </div>
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-12 nominal" id="viz">
+
+            </div>
+        </div>
+        <div class ="row">
+            <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="inflation" id="inflationValue">
+                    <label class="form-check-label" for="inflationValue">
+                      Show Inflation Adjusted Results
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="nominal" id="nominalValue" checked>
+                    <label class="form-check-label" for="nominalValue">
+                      Show Nominal Results
+                    </label>
+                  </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12" id="data">
+                <h1>The Data</h1>
+
+            </div>
+        </div>
+    </div>
+
+
 
 </body>
 

@@ -1,5 +1,4 @@
 //https://inflationdata.com/Inflation/Consumer_Price_Index/HistoricalCPI.aspx?reloaded=true
-
 const data = [{
   "Year": 1913,
   "Jan": 9.8,
@@ -2045,7 +2044,7 @@ function getCpi(year, initialMonth) {
   return yearData[month]
 }
 
-function inflation(initialFrom, initialTo) {
+export function inflation(initialFrom, initialTo) {
   const from = initialFrom || {}
   const to = initialTo || { year: lastFullYear }
   if (!from.year) {
@@ -2068,3 +2067,4 @@ function inflation(initialFrom, initialTo) {
   const currentValue = inflationValue + from.amount
   return +currentValue.toFixed(2)
 }
+

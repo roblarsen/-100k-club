@@ -1,4 +1,7 @@
 import * as d3 from "d3";
+import { inflation } from "./inflation";
+import moment from "moment";
+import * as data from  "../../data/data/records.json";
 
 const margin = {
   'top': 100,
@@ -10,6 +13,8 @@ const width = 1440;
 const height = 768;
 const yMargin = margin.top + margin.bottom;
 const xMargin = margin.right + margin.left;
+
+const sales = data.sales.sort((d1, d2) => moment.utc(d1.date).diff(moment.utc(d2.date)));
 
 const svg = d3.select('#viz')
   .append('svg')  
@@ -64,8 +69,7 @@ const inflationLine = d3.line()
     return y(d.inflationAdjustedPrice);
   });
 
-d3.json('data/books.json').then((data) => {
-  const sales = data.sales.sort((d1, d2) => moment.utc(d1.date).diff(moment.utc(d2.date)));
+
 
   sales.forEach((d) => {
     d.date = parseTime(d.date);
@@ -169,8 +173,8 @@ d3.json('data/books.json').then((data) => {
       let note = ' ';
       let date;
       if (d.seller !== '') {
-        if (d.seller === 'unknown') {
-          soldBy = ' by an unknown seller ';
+        if (d.seller === 'unkmomentn') {
+          soldBy = ' by an unkmomentn seller ';
         } else {
           soldBy = ` sold by ${d.seller} `;
         }

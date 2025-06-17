@@ -74,6 +74,8 @@ sales.forEach((d) => {
   d.date = parseTime(d.date);
   const year = parseInt(moment(d.date).format('YYYY'));
   d.inflationAdjustedPrice = inflation({'amount': d.price, 'year': year});
+  console.log(typeof d.inflationAdjustedPrice);
+
 });
 
 x.domain([

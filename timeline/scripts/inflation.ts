@@ -1957,7 +1957,7 @@ const data = [{
   "Apr": 267.054,
   "May": 269.195,
 
-        
+
   "Jun": 271.696,
   "Jul": 273.003,
   "Aug": 273.567,
@@ -1989,7 +1989,7 @@ const data = [{
 },
 {
   "Year": 2023,
-  "Jan":  299.170,
+  "Jan": 299.170,
   "Feb": 300.840,
   "Mar": 301.836,
   "Apr": 303.363,
@@ -2004,7 +2004,7 @@ const data = [{
   "Annual": 306.746,
   "HALF1": "",
   "HALF2": ""
-},{
+}, {
   "Year": 2024,
   "Jan": 308.417,
   "Feb": 310.326,
@@ -2015,12 +2015,26 @@ const data = [{
   "Jul": 314.540,
   "Aug": 314.796,
   "Sep": 315.301,
-  "Annual": 315.301,
+  "Oct": 315.664,
+  "Nov":	315.493,
+  "Dec":	315.605, 	 	 	 	 	 	 	 
+  "Annual": 313.689,
+  "HALF1": "",
+  "HALF2": ""
+}, {
+  "Year": 2024,
+  "Jan": 317.671,
+  "Feb": 	319.082,
+  "Mar": 	319.799,
+  "Apr": 	320.795,
+  "May": 	321.465,
   "HALF1": "",
   "HALF2": ""
 }
+
+	
 ];
-const lastFullYear = 2023
+const lastFullYear = 2024;
 const months = [
   { abbr: "Jan", name: "January", order: 1 },
   { abbr: "Feb", name: "February", order: 2 },
@@ -2034,38 +2048,38 @@ const months = [
   { abbr: "Oct", name: "October", order: 10 },
   { abbr: "Nov", name: "November", order: 11 },
   { abbr: "Dec", name: "December", order: 12 }
-]
+];
 
 function getCpi(year, initialMonth) {
   const month = initialMonth
     ? months.find(m => m.order === initialMonth).abbr
-    : "Annual"
-  const yearData = data.find(d => d.Year === year)
-  return yearData[month]
+    : "Annual";
+  const yearData = data.find(d => d.Year === year);
+  return yearData[month];
 }
 
 export function inflation(initialFrom, initialTo?) {
-  const from = initialFrom || {}
-  const to = initialTo || { year: lastFullYear }
+  const from = initialFrom || {};
+  const to = initialTo || { year: lastFullYear };
   if (!from.year) {
-    throw new Error("from.year must be provided")
+    throw new Error("from.year must be provided");
   } else if (!from.amount) {
-    throw new Error("from.amount must be provided")
+    throw new Error("from.amount must be provided");
   } else if (typeof from.year !== "number") {
-    throw new Error("from.year must be a number, like 1922")
+    throw new Error("from.year must be a number, like 1922");
   } else if (from.year < 1913) {
-    throw new Error("from.year must be 1913 or later")
+    throw new Error("from.year must be 1913 or later");
   }
   if (from.year > lastFullYear) {
-    return (from.amount)
+    return (from.amount);
   }
-  const fromCpi = getCpi(from.year, from.month)
-  const toCpi = getCpi(to.year, to.month)
+  const fromCpi = getCpi(from.year, from.month);
+  const toCpi = getCpi(to.year, to.month);
 
-  const inflationFactor = (toCpi - fromCpi) / fromCpi
-  const inflationValue = inflationFactor * from.amount
-  const currentValue = inflationValue + from.amount
-  return +currentValue.toFixed(2)
+  const inflationFactor = (toCpi - fromCpi) / fromCpi;
+  const inflationValue = inflationFactor * from.amount;
+  const currentValue = inflationValue + from.amount;
 
+  return +currentValue.toFixed(2);
 }
 

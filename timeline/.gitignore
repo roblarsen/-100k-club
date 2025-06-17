@@ -27,5 +27,3 @@ node_modules
 
 .tmp
 dist.tgz
-
-dist

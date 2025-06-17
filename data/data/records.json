@@ -8,31 +8,32 @@
       "note": "Kansas City",
       "date": "2024-04-07",
       "seller": "Heritage",
-      "price": "6000000",
-      "goodDate": true
-    },
+      "price": 6000000,
+    "goodDate": true,
+    "inflationAdjustedPrice": ""
+  },
     {
       "title": "Superman",
       "issue": "1",
       "grade": "8.0",
       "date": "2022-04-13",
-      "price": "5300000",
+      "price": 5300000,
       "seller": "Tony Arnold/Roy Delic",
       "buyer": "",
-      "note": "",
-      "goodDate": true
-    },
+      "note": "Edgar Church",
+      "goodDate": true,
+   "inflationAdjustedPrice":""},
     {
       "title": "Amazing Fantasy",
       "issue": "15",
       "grade": "9.6",
       "date": "2021-09-09",
-      "price": "3600000",
+      "price": 3600000,
       "seller": "Heritage",
       "buyer": "",
       "note": "",
-      "goodDate": true
-    },
+      "goodDate": true,
+   "inflationAdjustedPrice":""},
     {
       "title": "Action Comics",
       "issue": "1",
@@ -41,9 +42,9 @@
       "note": "",
       "date": "2021-04-26",
       "seller": "ComicConnect",
-      "price": "3250000",
-      "goodDate": true
-    },
+      "price": 3250000,
+      "goodDate": true,
+   "inflationAdjustedPrice":""},
     {
       "title": "Action Comics",
       "issue": "1",
@@ -52,9 +53,9 @@
       "note": "",
       "date": "2014-08-24",
       "seller": "Pristine Comics on eBay",
-      "price": "3207852",
-      "goodDate": true
-    },
+      "price": 3207852,
+      "goodDate": true,
+   "inflationAdjustedPrice":""},
     {
       "title": "Action Comics",
       "issue": "1",
@@ -63,9 +64,9 @@
       "note": "Cage Copy",
       "date": "2011-11-30",
       "seller": "ComicConnect",
-      "price": "2161000",
-      "goodDate": true
-    },
+      "price": 2161000,
+      "goodDate": true,
+   "inflationAdjustedPrice":""},
     {
       "title": "Action Comics",
       "issue": "1",
@@ -74,9 +75,9 @@
       "note": "",
       "date": "2010-03-29",
       "seller": "ComicConnect",
-      "price": "1500000",
-      "goodDate": true
-    },
+      "price": 1500000,
+      "goodDate": true,
+   "inflationAdjustedPrice":""},
     {
       "title": "Detective Comics",
       "issue": "27",
@@ -85,9 +86,9 @@
       "note": "",
       "date": "2010-02-25",
       "seller": "Heritage",
-      "price": "1075000",
-      "goodDate": true
-    },
+      "price": 1075000,
+      "goodDate": true,
+   "inflationAdjustedPrice":""},
     {
       "title": "Action Comics",
       "issue": "1",
@@ -96,20 +97,20 @@
       "note": "Kansas City",
       "date": "2010-02-22",
       "seller": "ComicConnect",
-      "price": "1000000",
-      "goodDate": true
-    },
+      "price": 1000000,
+      "goodDate": true,
+   "inflationAdjustedPrice":""},
     {
       "title": "Flash Comics",
       "issue": "1",
       "grade": "9.6",
-      "note": "Church copy",
+      "note":"Edgar Church",
       "buyer": "JP the Mint",
       "date": "2004-01-01",
       "seller": "unknown",
-      "price": "350000",
-      "goodDate": false
-    },
+      "price": 350000,
+      "goodDate": false,
+   "inflationAdjustedPrice":""},
     {
       "title": "Marvel Comics",
       "issue": "1",
@@ -118,9 +119,9 @@
       "buyer": "JP the Mint",
       "date": "2003-01-01",
       "seller": "Steve Geppi",
-      "price": "350000",
-      "goodDate": true
-    },
+      "price": 350000,
+      "goodDate": true,
+   "inflationAdjustedPrice":""},
     
     {
       "title": "Detective Comics",
@@ -130,9 +131,9 @@
       "buyer": "",
       "date": "2001-10-25",
       "seller": "Mastronet",
-      "price": "278210",
-      "goodDate": false
-    },
+      "price": 278210,
+      "goodDate": false,
+   "inflationAdjustedPrice":""},
     {
       "title": "Captain America Comics",
       "issue": "1",
@@ -141,20 +142,20 @@
       "buyer": "John Verzyl",
       "date": "2001-01-01",
       "seller": "unknown",
-      "price": "260000",
-      "goodDate": false
-    },
+      "price": 260000,
+      "goodDate": false,
+   "inflationAdjustedPrice":""},
     {
       "title": "Superman",
       "issue": "1",
       "grade": "VF",
-      "note": "Church Copy",
+      "note": "Edgar Church",
       "buyer": "Bechara Malouf",
       "date": "1995-07-04",
       "seller": "Red Beard",
-      "price": "170000",
-      "goodDate": true
-    },
+      "price": 170000,
+      "goodDate": true,
+   "inflationAdjustedPrice":""},
     {
       "title": "Action Comics",
       "issue": "1",
@@ -163,31 +164,31 @@
       "buyer": "Daniel Kramer",
       "date": "1995-01-01",
       "seller": "PCE",
-      "price": "137500",
-      "goodDate": false
-    },
+      "price": 137500,
+      "goodDate": false,
+   "inflationAdjustedPrice":""},
     {
       "title": "Detective Comics",
       "issue": "27",
       "grade": "8.5",
-      "note": "Church",
+      "note": "Edgar Church",
       "buyer": "",
       "date": "1994-01-01",
       "seller": "Dave Anderson?",
-      "price": "125000",
-      "goodDate": false
-    },
+      "price": 125000,
+      "goodDate": false,
+   "inflationAdjustedPrice":""},
     {
       "title": "Detective Comics",
       "issue": "27",
-      "grade": "high grade",
+      "grade": "'Other' high grade",
       "note": "'other high grade' copy",
       "buyer": "Steve Geppi",
       "date": "1993-01-01",
       "seller": "Dave Anderson (OK)",
-      "price": "101000",
-      "goodDate": false
-    },
+      "price": 101000,
+      "goodDate": false,
+   "inflationAdjustedPrice":""},
     {
       "title": "Action Comics",
       "issue": "1",
@@ -195,43 +196,43 @@
       "note": "",
       "buyer": "Metropolis (for actor Nic Cage)",
       "seller": "Sotheby's",
-      "price": "82500",
+      "price": 82500,
       "date": "1992-09-30",
-      "goodDate": true
-    },
+      "goodDate": true,
+   "inflationAdjustedPrice":""},
     {
       "title": "Detective Comics",
       "issue": "27",
       "grade": "NM-MT",
       "note": "Allentown",
       "buyer": "Dave Anderson",
-      "price": "80000",
+      "price": 80000,
       "seller": "Metropolis",
       "date": "1990-01-01",
-      "goodDate": false
-    },
+      "goodDate": false,
+   "inflationAdjustedPrice":""},
     {
       "title": "Marvel Comics",
       "issue": "1",
       "grade": "NM",
       "buyer": "Steve Geppi",
-      "note": "Church Copy",
+      "note": "Edgar Church",
       "seller": "John Snyder",
-      "price": "35000",
+      "price": 35000,
       "date": "1984-01-01",
-      "goodDate": false
-    },
+      "goodDate": false,
+   "inflationAdjustedPrice":""},
     {
       "title": "Marvel Comics",
       "issue": "1",
       "grade": "",
-      "note": "",
+      "note": "Edgar Church",
       "buyer": "John Snyder",
       "date": "1979-01-01",
       "seller": "MHC through Steve Geppi",
-      "price": "13500",
-      "goodDate": false
-    },
+      "price": 13500,
+      "goodDate": false,
+   "inflationAdjustedPrice":""},
     {
       "title": "Marvel Comics",
       "issue": "1",
@@ -240,9 +241,9 @@
       "buyer": "",
       "date": "1977-01-01",
       "seller": "Robert Crestohl?",
-      "price": "7500",
-      "goodDate": false
-    },
+      "price": 7500,
+      "goodDate": false,
+   "inflationAdjustedPrice":""},
     {
       "title": "Motion Picture Funnies Weekly",
       "issue": "1",
@@ -251,9 +252,9 @@
       "note": "",
       "date": "1976-01-01",
       "seller": "unknown",
-      "price": "6300",
-      "goodDate": false
-    },
+      "price": 6300,
+      "goodDate": false,
+   "inflationAdjustedPrice":""},
     {
       "title": "Action",
       "issue": "1",
@@ -262,9 +263,9 @@
       "buyer": "",
       "date": "1975-01-01",
       "seller": "Mitch Mehdy",
-      "price": "2500",
-      "goodDate": false
-    },
+      "price": 2500,
+      "goodDate": false,
+   "inflationAdjustedPrice":""},
     {
       "title": "Whiz",
       "issue": "2",
@@ -273,9 +274,9 @@
       "buyer": "Burl Rowe",
       "date": "1974-01-04",
       "seller": "Comics & Comix",
-      "price": "2000",
-      "goodDate": true
-    },
+      "price": 2000,
+      "goodDate": true,
+   "inflationAdjustedPrice":""},
     {
       "title": "Action",
       "issue": "1",
@@ -284,9 +285,9 @@
       "buyer": "Bruce Hamilton",
       "date": "1973-04-02",
       "seller": "Gene Henderson",
-      "price": "1000",
-      "goodDate": true
-    },
+      "price": 1000,
+      "goodDate": true,
+   "inflationAdjustedPrice":""},
     {
       "title": "Action",
       "issue": "1",
@@ -296,8 +297,8 @@
       "date": "1973-04-22",
       "seller": "Bruce Hamilton",
       "price": "1500.00",
-      "goodDate": true
-    },
+      "goodDate": true,
+   "inflationAdjustedPrice":""},
     {
       "title": "Action",
       "issue": "1",
@@ -307,8 +308,8 @@
       "date": "1973-05-01",
       "seller": "Theo Hostein",
       "price": "1801.26",
-      "goodDate": true
-    },
+      "goodDate": true,
+   "inflationAdjustedPrice":""},
     {
       "title": "Marvel Comics",
       "issue": "1",
@@ -317,9 +318,9 @@
       "note": "",
       "date": "1968-01-01",
       "seller": "Howard Rogolfsky",
-      "price": "330",
-      "goodDate": false
-    },
+      "price": 330,
+      "goodDate": false,
+   "inflationAdjustedPrice":""},
     {
       "title": "Action Comics",
       "issue": "1",
@@ -328,8 +329,8 @@
       "note": "",
       "date": "1965-01-01",
       "seller": "unknown",
-      "price": "250",
-      "goodDate": false
-    }
+      "price": 250,
+      "goodDate": false,
+   "inflationAdjustedPrice":""}
   ]
 }

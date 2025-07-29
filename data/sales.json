@@ -1,0 +1,5782 @@
+[
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "Kansas City",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 6000000,
+        "salesDate": "2024-04-24",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "Edgar Church",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 5300000,
+        "salesDate": "2022-04-13",
+        "venue": "privatesale"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 3600000,
+        "salesDate": "2021-09-09",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 3250000,
+        "salesDate": "2021-04-06",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 3207852,
+        "salesDate": "2014-08-24",
+        "venue": "ebay"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "Rocket Copy",
+        "gradeSrc": "CGC",
+        "grade": "6.0",
+        "price": 3180000,
+        "salesDate": "2022-01-13",
+        "venue": "heritage"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "Reilly",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 3120000,
+        "salesDate": "2022-04-07",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0",
+        "price": 2604750,
+        "salesDate": "2021-12-16",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "Pay Copy",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 2427777.65,
+        "salesDate": "2022-03-17",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0",
+        "price": 2340000,
+        "salesDate": "2024-01-11",
+        "venue": "heritage"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 2220000,
+        "salesDate": "2021-01-14",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 2161000,
+        "salesDate": "2011-11-30",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 2052000,
+        "salesDate": "2018-06-13",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 2040000,
+        "salesDate": "2024-09-12",
+        "venue": "heritage"
+    },
+    {
+        "title": "Tales of Suspense",
+        "issue": "39",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.8",
+        "price": 2000000,
+        "salesDate": "2023-09-01",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.0",
+        "price": 1740000,
+        "salesDate": "2023-03-30",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.0",
+        "price": 1638759.2,
+        "salesDate": "2021-12-14",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 1500000,
+        "salesDate": "2022-04-07",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0",
+        "price": 1500000,
+        "salesDate": "2020-11-19",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 1500000,
+        "salesDate": "2010-03-29",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "Larson",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 1440000,
+        "salesDate": "2021-09-18",
+        "venue": "goldinauctions"
+    },
+    {
+        "title": "Amazing Spider-Man",
+        "issue": "1",
+        "pedigree": "Curator",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 1380000,
+        "salesDate": "2024-01-11",
+        "venue": "heritage"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "Windy City",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 1260000,
+        "salesDate": "2019-11-21",
+        "venue": "heritage"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 1207500,
+        "salesDate": "2021-04-15",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.5",
+        "price": 1140000,
+        "salesDate": "2022-01-13",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 1125000,
+        "salesDate": "2021-06-17",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 1100000,
+        "salesDate": "2011-03-09",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 1075000,
+        "salesDate": "2010-02-25",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "Kansas City",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 1000000,
+        "salesDate": "2010-02-22",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.0",
+        "price": 960000,
+        "salesDate": "2024-11-24",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.5",
+        "price": 956000,
+        "salesDate": "2016-08-04",
+        "venue": "heritage"
+    },
+    {
+        "title": "All Star Comics",
+        "issue": "8",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 936223,
+        "salesDate": "2017-08-27",
+        "venue": "ebay"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "Reilly",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 915000,
+        "salesDate": "2019-08-12",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 875000,
+        "salesDate": "2022-07-02",
+        "venue": "unknown"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 815000,
+        "salesDate": "2018-03-20",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.0",
+        "price": 815000,
+        "salesDate": "2022-06-10",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 810000,
+        "salesDate": "2023-01-12",
+        "venue": "heritage"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 810000,
+        "salesDate": "2023-06-22",
+        "venue": "heritage"
+    },
+    {
+        "title": "X-Men",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 807300,
+        "salesDate": "2016-02-19",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 795000,
+        "salesDate": "2020-03-05",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0 (A1)",
+        "price": 794650,
+        "salesDate": "2024-12-17",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 750000,
+        "salesDate": "2024-04-04",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "Rockford",
+        "gradeSrc": "CGC",
+        "grade": "6.0",
+        "price": 732000,
+        "salesDate": "2018-03-21",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "Kansas City",
+        "gradeSrc": "CGC",
+        "grade": "6.0",
+        "price": 729000,
+        "salesDate": "2022-09-22",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5",
+        "price": 725000,
+        "salesDate": "2015-06-01",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 720000,
+        "salesDate": "2022-05-12",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 710000,
+        "salesDate": "2017-05-01",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 707250,
+        "salesDate": "2021-09-18",
+        "venue": "goldinauctions"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 705000,
+        "salesDate": "2017-05-02",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.0",
+        "price": 683200,
+        "salesDate": "2025-04-22",
+        "venue": "landry"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.5",
+        "price": 675000,
+        "salesDate": "2024-06-24",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 675000,
+        "salesDate": "2015-07-12",
+        "venue": "unknown"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.5",
+        "price": 675000,
+        "salesDate": "2023-03-30",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "Nova Scotia",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 675000,
+        "salesDate": "2023-01-12",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 658000,
+        "salesDate": "2015-03-24",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.5",
+        "price": 657250,
+        "salesDate": "2010-08-04",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5",
+        "price": 625000,
+        "salesDate": "2011-06-01",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.0",
+        "price": 600000,
+        "salesDate": "2024-06-24",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 598000,
+        "salesDate": "2019-06-10",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0 (MP)",
+        "price": 576000,
+        "salesDate": "2024-04-24",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4 (EA)",
+        "price": 575000,
+        "salesDate": "2022-06-08",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.0",
+        "price": 575000,
+        "salesDate": "2010-04-01",
+        "venue": "metropolis"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5",
+        "price": 575000,
+        "salesDate": "2010-08-01",
+        "venue": "privatesale"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 569273.61,
+        "salesDate": "2018-03-18",
+        "venue": "hakes"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 567625,
+        "salesDate": "2013-08-01",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5",
+        "price": 567625,
+        "salesDate": "2013-02-23",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "Curator",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 566000,
+        "salesDate": "2021-02-23",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 560000,
+        "salesDate": "2021-08-30",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 552000,
+        "salesDate": "2022-11-17",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "Curator",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 540000,
+        "salesDate": "2024-09-12",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.5 (C)",
+        "price": 528000,
+        "salesDate": "2021-06-17",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "Billy Wright",
+        "gradeSrc": "CGC",
+        "grade": "6.5",
+        "price": 522813,
+        "salesDate": "2012-02-24",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 520000,
+        "salesDate": "2022-03-15",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.5",
+        "price": 507500,
+        "salesDate": "2017-03-09",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 504000,
+        "salesDate": "2024-04-04",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.0",
+        "price": 498750,
+        "salesDate": "2016-01-20",
+        "venue": "unknown"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 498000,
+        "salesDate": "2019-09-09",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0",
+        "price": 492938,
+        "salesDate": "2011-11-19",
+        "venue": "heritage"
+    },
+    {
+        "title": "X-Men",
+        "issue": "1",
+        "pedigree": "Pacific Coast",
+        "gradeSrc": "CGC",
+        "grade": "9.8",
+        "price": 492937.5,
+        "salesDate": "2012-07-26",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.0",
+        "price": 475000,
+        "salesDate": "2015-05-01",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.0 (CO)",
+        "price": 461555,
+        "salesDate": "2017-12-06",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 460000,
+        "salesDate": "2016-01-16",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "114",
+        "pedigree": "Promise Collection",
+        "gradeSrc": "",
+        "grade": "",
+        "price": 456000,
+        "salesDate": "2021-06-18",
+        "venue": "heritage"
+    },
+    {
+        "title": "Phantom Lady",
+        "issue": "17",
+        "pedigree": "Promise Collection",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 456000,
+        "salesDate": "2021-06-18",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "140",
+        "pedigree": "Promise Collection",
+        "gradeSrc": "",
+        "grade": "",
+        "price": 456000,
+        "salesDate": "2021-06-18",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 456000,
+        "salesDate": "2019-05-16",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 454100,
+        "salesDate": "2016-02-18",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0 (MP)",
+        "price": 452000,
+        "salesDate": "2021-06-21",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0 (CO)",
+        "price": 450000,
+        "salesDate": "2018-03-06",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Flash Comics",
+        "issue": "1",
+        "pedigree": "Edgar Church",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 450000,
+        "salesDate": "2010-03-01",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 448500,
+        "salesDate": "2022-06-08",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 436000,
+        "salesDate": "2010-09-21",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 427111,
+        "salesDate": "2013-09-13",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 420000,
+        "salesDate": "2022-06-16",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 415000,
+        "salesDate": "2018-03-06",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5",
+        "price": 414000,
+        "salesDate": "2012-04-18",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "All Star Comics",
+        "issue": "8",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 411001,
+        "salesDate": "2016-03-28",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Sensation Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 399100,
+        "salesDate": "2017-08-27",
+        "venue": "ebay"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 395000,
+        "salesDate": "2021-02-23",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "Curator",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 395000,
+        "salesDate": "2017-03-20",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.5 (C)",
+        "price": 393000,
+        "salesDate": "2017-06-12",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 392000,
+        "salesDate": "2016-05-17",
+        "venue": "pedigreecomics"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "Larson",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 390000,
+        "salesDate": "2016-12-13",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "Billy Wright",
+        "gradeSrc": "CGC",
+        "grade": "3.0",
+        "price": 388375,
+        "salesDate": "2013-08-03",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 385000,
+        "salesDate": "2021-03-10",
+        "venue": "unknown"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5 (A4)",
+        "price": 384000,
+        "salesDate": "2025-01-09",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0 (a1)",
+        "price": 384000,
+        "salesDate": "2022-09-08",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0 (a1)",
+        "price": 384000,
+        "salesDate": "2022-09-08",
+        "venue": "heritage"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 384000,
+        "salesDate": "2021-01-14",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.5 (EP)",
+        "price": 379579.35,
+        "salesDate": "2024-06-24",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Tales of Suspense",
+        "issue": "39",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 375000,
+        "salesDate": "2012-04-01",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "2.5",
+        "price": 363527.65,
+        "salesDate": "2022-03-17",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 360000,
+        "salesDate": "2021-04-05",
+        "venue": "heritage"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.5",
+        "price": 360000,
+        "salesDate": "2022-01-13",
+        "venue": "heritage"
+    },
+    {
+        "title": "Avengers",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 360000,
+        "salesDate": "2021-09-18",
+        "venue": "goldinauctions"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.0",
+        "price": 360000,
+        "salesDate": "2023-06-22",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.5",
+        "price": 360000,
+        "salesDate": "2020-07-09",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 360000,
+        "salesDate": "2020-07-09",
+        "venue": "heritage"
+    },
+    {
+        "title": "All Star Comics",
+        "issue": "3",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 358800,
+        "salesDate": "2021-04-15",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.5",
+        "price": 358500,
+        "salesDate": "2016-11-17",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.5 (a3)",
+        "price": 350750,
+        "salesDate": "2021-09-21",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5 (A3)",
+        "price": 350750,
+        "salesDate": "2022-09-21",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 350000,
+        "salesDate": "2022-06-08",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "X-Men",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 350000,
+        "salesDate": "2016-02-24",
+        "venue": "comiclink"
+    },
+    {
+        "title": "X-Men",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 350000,
+        "salesDate": "2016-02-19",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "Pay Copy",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 350000,
+        "salesDate": "2003-01-01",
+        "venue": "privatesale"
+    },
+    {
+        "title": "Flash Comics",
+        "issue": "1",
+        "pedigree": "Edgar Church",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 350000,
+        "salesDate": "2004-01-01",
+        "venue": "unknown"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.5",
+        "price": 348000,
+        "salesDate": "2022-12-16",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.5",
+        "price": 348000,
+        "salesDate": "2020-09-10",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.5",
+        "price": 345000,
+        "salesDate": "2011-08-09",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 343057,
+        "salesDate": "2011-08-09",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "33",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 341234,
+        "salesDate": "2018-06-13",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0",
+        "price": 339761,
+        "salesDate": "2022-03-17",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.5",
+        "price": 336000,
+        "salesDate": "2019-02-21",
+        "venue": "heritage"
+    },
+    {
+        "title": "Incredible Hulk",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 336000,
+        "salesDate": "2018-11-15",
+        "venue": "heritage"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0",
+        "price": 334600,
+        "salesDate": "2018-02-22",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "31",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0",
+        "price": 329400,
+        "salesDate": "2025-04-22",
+        "venue": "landry"
+    },
+    {
+        "title": "Incredible Hulk",
+        "issue": "1",
+        "pedigree": "Northland",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 326000,
+        "salesDate": "2014-08-01",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0",
+        "price": 325000,
+        "salesDate": "2021-06-30",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.5",
+        "price": 323000,
+        "salesDate": "2012-04-16",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Incredible Hulk",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 320000,
+        "salesDate": "2014-06-13",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.0",
+        "price": 317200,
+        "salesDate": "2010-03-13",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5 (A-5)",
+        "price": 313000,
+        "salesDate": "2017-06-13",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": ".5",
+        "price": 312000,
+        "salesDate": "2024-11-24",
+        "venue": "heritage"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0",
+        "price": 312000,
+        "salesDate": "2022-05-12",
+        "venue": "heritage"
+    },
+    {
+        "title": "Journey into Mystery",
+        "issue": "83",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 312000,
+        "salesDate": "2021-09-18",
+        "venue": "goldinauctions"
+    },
+    {
+        "title": "Incredible Hulk",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 312000,
+        "salesDate": "2025-04-20",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.0",
+        "price": 310111,
+        "salesDate": "2020-12-18",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.0",
+        "price": 310000,
+        "salesDate": "2014-11-20",
+        "venue": "heritage"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 306050,
+        "salesDate": "2013-06-12",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CBCS",
+        "grade": "3.0",
+        "price": 305000,
+        "salesDate": "2015-06-03",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0",
+        "price": 300150,
+        "salesDate": "2023-03-15",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5 (A2)",
+        "price": 300000,
+        "salesDate": "2021-11-18",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.0",
+        "price": 300000,
+        "salesDate": "2023-11-16",
+        "venue": "heritage"
+    },
+    {
+        "title": "Tales of Suspense",
+        "issue": "39",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 300000,
+        "salesDate": "2015-07-01",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Incredible Hulk",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 300000,
+        "salesDate": "2017-06-01",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.0",
+        "price": 300000,
+        "salesDate": "2010-04-01",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "Billy Wright",
+        "gradeSrc": "CGC",
+        "grade": "3.0",
+        "price": 298750,
+        "salesDate": "2012-02-24",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.0",
+        "price": 295000,
+        "salesDate": "2016-01-22",
+        "venue": "heritage"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "2.5",
+        "price": 293250,
+        "salesDate": "2022-12-15",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Wonder Woman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 291000,
+        "salesDate": "2016-12-13",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 288000,
+        "salesDate": "2022-09-08",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "1.8",
+        "price": 288000,
+        "salesDate": "2022-11-17",
+        "venue": "heritage"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 288000,
+        "salesDate": "2016-03-28",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.5",
+        "price": 288000,
+        "salesDate": "2024-06-20",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.5",
+        "price": 288000,
+        "salesDate": "2020-03-05",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.0",
+        "price": 287000,
+        "salesDate": "2012-08-14",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Whiz",
+        "issue": "2",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 281001,
+        "salesDate": "2012-12-12",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.0",
+        "price": 280500,
+        "salesDate": "2020-08-26",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 280000,
+        "salesDate": "2007-10-01",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 278190,
+        "salesDate": "2001-01-01",
+        "venue": "mastronet"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "Larson",
+        "gradeSrc": "CGC",
+        "grade": "9.2(C)",
+        "price": 276000,
+        "salesDate": "2022-11-17",
+        "venue": "heritage"
+    },
+    {
+        "title": "Journey into Mystery",
+        "issue": "83",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 275000,
+        "salesDate": "2014-02-24",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Incredible Hulk",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 275000,
+        "salesDate": "2016-08-16",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "2.5",
+        "price": 275000,
+        "salesDate": "2015-01-01",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Avengers",
+        "issue": "1",
+        "pedigree": "Pacific Coast",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 274850,
+        "salesDate": "2012-07-28",
+        "venue": "heritage"
+    },
+    {
+        "title": "Flash Comics",
+        "issue": "1",
+        "pedigree": "Edgar Church",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 273125,
+        "salesDate": "2007-01-01",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "2.5",
+        "price": 270000,
+        "salesDate": "2015-01-01",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Marvel Spotlight",
+        "issue": "5",
+        "pedigree": "",
+        "gradeSrc": "",
+        "grade": "",
+        "price": 264000,
+        "salesDate": "2021-06-17",
+        "venue": "heritage"
+    },
+    {
+        "title": "Incredible Hulk",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 264000,
+        "salesDate": "2018-08-02",
+        "venue": "heritage"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 264000,
+        "salesDate": "2021-04-05",
+        "venue": "heritage"
+    },
+    {
+        "title": "Suspense Comics",
+        "issue": "3",
+        "pedigree": "Edgar Church",
+        "gradeSrc": "CBCS",
+        "grade": "9.2",
+        "price": 262900,
+        "salesDate": "2017-05-18",
+        "venue": "heritage"
+    },
+    {
+        "title": "Tales of Suspense",
+        "issue": "39",
+        "pedigree": "Pacific Coast",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 262900,
+        "salesDate": "2012-07-26",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Spider-Man",
+        "issue": "1",
+        "pedigree": "Curator",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 262900,
+        "salesDate": "2016-11-17",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5 (A3)",
+        "price": 261427,
+        "salesDate": "2018-07-21",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 261000,
+        "salesDate": "2017-05-30",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "2.0",
+        "price": 260000,
+        "salesDate": "2019-11-21",
+        "venue": "mcs"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "Allentown",
+        "gradeSrc": "CGC",
+        "grade": "9.8",
+        "price": 260000,
+        "salesDate": "2001-01-01",
+        "venue": "unknown"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "10",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 258000,
+        "salesDate": "2011-08-09",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.5",
+        "price": 257333,
+        "salesDate": "2018-06-24",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Pep Comics",
+        "issue": "22",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 252100,
+        "salesDate": "2017-9-15",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Avengers",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 250000,
+        "salesDate": "2011-10-25",
+        "venue": "metropolis"
+    },
+    {
+        "title": "X-Men",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 250000,
+        "salesDate": "2013-07-01",
+        "venue": "unknown"
+    },
+    {
+        "title": "X-Men",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 250000,
+        "salesDate": "2013-07-01",
+        "venue": "unknown"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.5",
+        "price": 250000,
+        "salesDate": "",
+        "venue": "unknown"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5",
+        "price": 250000,
+        "salesDate": "2006-01-01",
+        "venue": "unknown"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CBCS",
+        "grade": "7.5",
+        "price": 249165,
+        "salesDate": "",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "Billy Wright",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 247850,
+        "salesDate": "2012-02-24",
+        "venue": "heritage"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.0",
+        "price": 246000,
+        "salesDate": "2021-05-21",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Fantastic Comics",
+        "issue": "3",
+        "pedigree": "Edgar Church",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 243000,
+        "salesDate": "2017-06-13",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0",
+        "price": 243000,
+        "salesDate": "2019-03-12",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5 (MP)",
+        "price": 242000,
+        "salesDate": "2018-06-13",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 240000,
+        "salesDate": "2022-06-17",
+        "venue": "heritage"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "Promise Collection",
+        "gradeSrc": "CGC",
+        "grade": "3.5",
+        "price": 240000,
+        "salesDate": "2021-11-18",
+        "venue": "heritage"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 240000,
+        "salesDate": "2019-02-01",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.5",
+        "price": 239000,
+        "salesDate": "2016-11-19",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CBCS",
+        "grade": "9.0",
+        "price": 237000,
+        "salesDate": "2016-03-28",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CBCS",
+        "grade": "7.5",
+        "price": 237000,
+        "salesDate": "2015-01-15",
+        "venue": "philipweiss"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 234000,
+        "salesDate": "2022-11-17",
+        "venue": "heritage"
+    },
+    {
+        "title": "Teenage mutant ninja turtles",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.8",
+        "price": 230555,
+        "salesDate": "2021-12-14",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Incredible Hulk",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 230000,
+        "salesDate": "2017-05-31",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5",
+        "price": 228000,
+        "salesDate": "2025-04-03",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.0 (E B-5)",
+        "price": 228000,
+        "salesDate": "2024-11-24",
+        "venue": "heritage"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 228000,
+        "salesDate": "2022-08-04",
+        "venue": "heritage"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0 (A3)",
+        "price": 228000,
+        "salesDate": "2024-06-20",
+        "venue": "heritage"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0",
+        "price": 228000,
+        "salesDate": "2019-05-16",
+        "venue": "heritage"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.5",
+        "price": 227050,
+        "salesDate": "2018-05-12",
+        "venue": "heritage"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "Pay Copy",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 227050,
+        "salesDate": "2010-02-25",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "White Mountain",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 227000,
+        "salesDate": "2007-10-16",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Wonder Woman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 226877.77,
+        "salesDate": "2017-08-27",
+        "venue": "ebay"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.0",
+        "price": 223200,
+        "salesDate": "2022-11-17",
+        "venue": "heritage"
+    },
+    {
+        "title": "Journey into Mystery",
+        "issue": "83",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 222200,
+        "salesDate": "2012-02-01",
+        "venue": "unknown"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.5 (a3)",
+        "price": 222000,
+        "salesDate": "2018-09-07",
+        "venue": "unknown"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5 (EP)",
+        "price": 220000,
+        "salesDate": "2019-06-10",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.0",
+        "price": 217500,
+        "salesDate": "2013-01-24",
+        "venue": "unknown"
+    },
+    {
+        "title": "Journey into Mystery",
+        "issue": "83",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 217000,
+        "salesDate": "2014-12-04",
+        "venue": "unknown"
+    },
+    {
+        "title": "Incredible Hulk",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 216000,
+        "salesDate": "2019-02-23",
+        "venue": "heritage"
+    },
+    {
+        "title": "Journey into Mystery",
+        "issue": "83",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 215185,
+        "salesDate": "2018-05-23",
+        "venue": "comiclink"
+    },
+    {
+        "title": "All American Comics",
+        "issue": "16",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5",
+        "price": 215100,
+        "salesDate": "2018-02-22",
+        "venue": "heritage"
+    },
+    {
+        "title": "Journey into Mystery",
+        "issue": "83",
+        "pedigree": "",
+        "gradeSrc": "CBCS",
+        "grade": "9.6",
+        "price": 215100,
+        "salesDate": "2015-11-19",
+        "venue": "heritage"
+    },
+    {
+        "title": "Avengers",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 215100,
+        "salesDate": "2015-11-19",
+        "venue": "heritage"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "Twilight",
+        "gradeSrc": "CGC",
+        "grade": "6.0",
+        "price": 215000,
+        "salesDate": "2017-12-08",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.5",
+        "price": 214000,
+        "salesDate": "2011-12-02",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.5",
+        "price": 211000,
+        "salesDate": "2020-02-25",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.5",
+        "price": 210000,
+        "salesDate": "2019-05-16",
+        "venue": "heritage"
+    },
+    {
+        "title": "Journey into Mystery",
+        "issue": "83",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 210000,
+        "salesDate": "2020-06-30",
+        "venue": "unknown"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 210000,
+        "salesDate": "2010-01-01",
+        "venue": "pedigreecomics"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 210000,
+        "salesDate": "2007-01-01",
+        "venue": "comiclink"
+    },
+    {
+        "title": "More Fun",
+        "issue": "52",
+        "pedigree": "Edgar Church",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 207000,
+        "salesDate": "2001-01-01",
+        "venue": "unknown"
+    },
+    {
+        "title": "Tales to Astonish",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 205501,
+        "salesDate": "2016-12-08",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "Pay Copy",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 204999.99,
+        "salesDate": "2007-08-03",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics Ashcan",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 204000,
+        "salesDate": "2021-04-05",
+        "venue": "heritage"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "74",
+        "pedigree": "Promise Collection",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 204000,
+        "salesDate": "2021-06-18",
+        "venue": "heritage"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "36",
+        "pedigree": "Promise Collection",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 204000,
+        "salesDate": "2021-06-18",
+        "venue": "heritage"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 204000,
+        "salesDate": "2019-08-01",
+        "venue": "heritage"
+    },
+    {
+        "title": "All American Comics",
+        "issue": "16",
+        "pedigree": "Billy Wright",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 203150,
+        "salesDate": "2013-08-01",
+        "venue": "heritage"
+    },
+    {
+        "title": "All American Comics",
+        "issue": "16",
+        "pedigree": "Billy Wright",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 203150,
+        "salesDate": "2012-02-22",
+        "venue": "heritage"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "Pay Copy",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 201250,
+        "salesDate": "2006-01-19",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.0",
+        "price": 201000,
+        "salesDate": "2012-04-18",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Incredible Hulk",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 200000,
+        "salesDate": "2020-05-27",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Tales to Astonish",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 200000,
+        "salesDate": "2015-01-01",
+        "venue": "unknown"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 200000,
+        "salesDate": "2015-07-01",
+        "venue": "comiclink"
+    },
+    {
+        "title": "X-Men",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 200000,
+        "salesDate": "2011-04-01",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "2.0",
+        "price": 196905,
+        "salesDate": "2024-06-29",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Journey into Mystery",
+        "issue": "83",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 195000,
+        "salesDate": "2016-12-07",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.0",
+        "price": 194543,
+        "salesDate": "2012-12-04",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.5",
+        "price": 194400,
+        "salesDate": "2022-12-11",
+        "venue": "heritage"
+    },
+    {
+        "title": "Avengers",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 194000,
+        "salesDate": "2018-06-11",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "33",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 194000,
+        "salesDate": "2011-08-09",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.5",
+        "price": 192120.15,
+        "salesDate": "2002-01-01",
+        "venue": "unknown"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "1.5",
+        "price": 192000,
+        "salesDate": "2022-06-16",
+        "venue": "heritage"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.0",
+        "price": 192000,
+        "salesDate": "2021-04-05",
+        "venue": "heritage"
+    },
+    {
+        "title": "Journey into Mystery",
+        "issue": "83",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 191200,
+        "salesDate": "2017-11-16",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 191200,
+        "salesDate": "2014-02-20",
+        "venue": "heritage"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "White Mountain",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 191200,
+        "salesDate": "2013-08-01",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0",
+        "price": 191000,
+        "salesDate": "2021-06-22",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 190000,
+        "salesDate": "2009-02-15",
+        "venue": "pedigreecomics"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "7",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.5",
+        "price": 188000,
+        "salesDate": "2017-06-20",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0",
+        "price": 186000,
+        "salesDate": "2020-03-05",
+        "venue": "heritage"
+    },
+    {
+        "title": "Journey into Mystery",
+        "issue": "83",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 185500,
+        "salesDate": "2013-05-09",
+        "venue": "unknown"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "13",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 185000,
+        "salesDate": "2011-08-09",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.5",
+        "price": 182501,
+        "salesDate": "2020-12-01",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Flash Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 182000,
+        "salesDate": "2014-06-03",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Flash Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 182000,
+        "salesDate": "2014-06-03",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.0",
+        "price": 180000,
+        "salesDate": "2021-09-08",
+        "venue": "heritage"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 180000,
+        "salesDate": "2024-06-20",
+        "venue": "heritage"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 180000,
+        "salesDate": "2022-09-08",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "1.5",
+        "price": 180000,
+        "salesDate": "2024-06-24",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "38",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 180000,
+        "salesDate": "2021-02-24",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2 (a5)",
+        "price": 180000,
+        "salesDate": "2018-11-15",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 180000,
+        "salesDate": "2020-04-30",
+        "venue": "heritage"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5",
+        "price": 180000,
+        "salesDate": "2016-12-14",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Incredible Hulk",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 180000,
+        "salesDate": "2014-09-01",
+        "venue": "highgradecomics"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "7",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 179400,
+        "salesDate": "2025-03-19",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Journey into Mystery",
+        "issue": "83",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 179250,
+        "salesDate": "2014-11-20",
+        "venue": "heritage"
+    },
+    {
+        "title": "Showcase",
+        "issue": "4",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 179250,
+        "salesDate": "2009-05-22",
+        "venue": "heritage"
+    },
+    {
+        "title": "Incredible Hulk",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 178000,
+        "salesDate": "2014-12-08",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 177000,
+        "salesDate": "2020-05-20",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Whiz",
+        "issue": "2",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.0",
+        "price": 176007,
+        "salesDate": "2011-12-03",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Whiz",
+        "issue": "2",
+        "pedigree": "Edgar Church",
+        "gradeSrc": "ANECDOTE",
+        "grade": "NM/NM+",
+        "price": 176000,
+        "salesDate": "1995-01-01",
+        "venue": "unknown"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 175365,
+        "salesDate": "2012-04-17",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5",
+        "price": 175200,
+        "salesDate": "2018-06-24",
+        "venue": "ebay"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "31",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.0",
+        "price": 174000,
+        "salesDate": "2024-11-24",
+        "venue": "heritage"
+    },
+    {
+        "title": "Whiz",
+        "issue": "2",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.0",
+        "price": 173275,
+        "salesDate": "2018-05-12",
+        "venue": "heritage"
+    },
+    {
+        "title": "Suspense Comics",
+        "issue": "3",
+        "pedigree": "Penn",
+        "gradeSrc": "CBCS",
+        "grade": "9.0",
+        "price": 173275,
+        "salesDate": "2015-08-27",
+        "venue": "heritage"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "Denver",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 172500,
+        "salesDate": "2005-08-13",
+        "venue": "heritage"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.5",
+        "price": 172221,
+        "salesDate": "2024-07-31",
+        "venue": "hakes"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0 (MP)",
+        "price": 172000,
+        "salesDate": "2014-06-03",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Journey into Mystery",
+        "issue": "83",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 171000,
+        "salesDate": "2013-03-23",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "Edgar Church",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 170000,
+        "salesDate": "1996-01-01",
+        "venue": "redbeard"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.5",
+        "price": 168000,
+        "salesDate": "2024-11-24",
+        "venue": "heritage"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.5",
+        "price": 168000,
+        "salesDate": "2022-04-07",
+        "venue": "heritage"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "Promise Collection",
+        "gradeSrc": "CGC",
+        "grade": "3.5",
+        "price": 168000,
+        "salesDate": "2023-06-22",
+        "venue": "heritage"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.5(C)",
+        "price": 168000,
+        "salesDate": "2023-09-14",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0 (MP)",
+        "price": 168000,
+        "salesDate": "2023-03-30",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "2.0",
+        "price": 167300,
+        "salesDate": "2018-05-12",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "33",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 167300,
+        "salesDate": "2017-11-17",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CBCS",
+        "grade": "4.5 (EA)",
+        "price": 167300,
+        "salesDate": "2016-02-18",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0 M/E(A-4)",
+        "price": 167300,
+        "salesDate": "2014-07-07",
+        "venue": "heritage"
+    },
+    {
+        "title": "Archie Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 167300,
+        "salesDate": "2011-02-24",
+        "venue": "heritage"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "Denver",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 166750,
+        "salesDate": "2001-01-01",
+        "venue": "unknown"
+    },
+    {
+        "title": "Tales of Suspense",
+        "issue": "39",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 165555,
+        "salesDate": "2018-05-24",
+        "venue": "comiclink"
+    },
+    {
+        "title": "All American Comics",
+        "issue": "16",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5",
+        "price": 165000,
+        "salesDate": "2019-08-27",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 165000,
+        "salesDate": "2018-08-15",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "1.0",
+        "price": 163300,
+        "salesDate": "2024-10-02",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Wonder Woman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 163000,
+        "salesDate": "2017-09-15",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "46",
+        "pedigree": "Promise Collection",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 162000,
+        "salesDate": "2021-06-18",
+        "venue": "heritage"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 161325,
+        "salesDate": "2017-11-17",
+        "venue": "heritage"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "Windy City",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 161000,
+        "salesDate": "2005-10-14",
+        "venue": "heritage"
+    },
+    {
+        "title": "Showcase",
+        "issue": "4",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 160200,
+        "salesDate": "2008-09-29",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 160000,
+        "salesDate": "2024-10-01",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Sensation Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 160000,
+        "salesDate": "2021-02-25",
+        "venue": "comiclink"
+    },
+    {
+        "title": "X-Men",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 158400,
+        "salesDate": "2021-09-18",
+        "venue": "goldinauctions"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.5",
+        "price": 158250,
+        "salesDate": "2018-08-29",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.0",
+        "price": 158000,
+        "salesDate": "2007-01-01",
+        "venue": "metropolis"
+    },
+    {
+        "title": "Suspense Comics",
+        "issue": "3",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.0",
+        "price": 156000,
+        "salesDate": "2025-01-09",
+        "venue": "heritage"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.0",
+        "price": 156000,
+        "salesDate": "2024-04-04",
+        "venue": "heritage"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "2.0 (C3)",
+        "price": 156000,
+        "salesDate": "2021-09-17",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.5",
+        "price": 156000,
+        "salesDate": "2021-04-05",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "13",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 156000,
+        "salesDate": "2018-11-15",
+        "venue": "heritage"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.5",
+        "price": 156000,
+        "salesDate": "2019-08-01",
+        "venue": "heritage"
+    },
+    {
+        "title": "Showcase",
+        "issue": "4",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 155350,
+        "salesDate": "2017-11-16",
+        "venue": "heritage"
+    },
+    {
+        "title": "Tales of Suspense",
+        "issue": "39",
+        "pedigree": "",
+        "gradeSrc": "CBCS",
+        "grade": "9.6",
+        "price": 155350,
+        "salesDate": "2017-11-16",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 155350,
+        "salesDate": "2017-02-23",
+        "venue": "heritage"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "Denver",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 155350,
+        "salesDate": "2009-02-26",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "1.0",
+        "price": 155000,
+        "salesDate": "2021-05-27",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "X-Men",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 153134,
+        "salesDate": "2019-03-23",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.5",
+        "price": 153000,
+        "salesDate": "2018-12-12",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Sensation Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 153000,
+        "salesDate": "2018-03-22",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 151555,
+        "salesDate": "2011-11-30",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Whiz",
+        "issue": "2",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.0",
+        "price": 150666,
+        "salesDate": "2019-11-21",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0 (MP)",
+        "price": 150555,
+        "salesDate": "2017-09-14",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Daredevil",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 150000,
+        "salesDate": "2021-04-05",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Spider-Man",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "",
+        "grade": "9.2",
+        "price": 150000,
+        "salesDate": "2021-04-05",
+        "venue": "heritage"
+    },
+    {
+        "title": "Incredible Hulk",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 150000,
+        "salesDate": "2021-06-23",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "All Star Comics",
+        "issue": "8",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.5",
+        "price": 150000,
+        "salesDate": "2020-05-27",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "2.0",
+        "price": 150000,
+        "salesDate": "2019-11-21",
+        "venue": "heritage"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.0",
+        "price": 150000,
+        "salesDate": "2019-11-21",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "33",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 150000,
+        "salesDate": "2017-03-01",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Journey into Mystery",
+        "issue": "83",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 150000,
+        "salesDate": "2020-02-26",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Amazing Spider-Man",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 150000,
+        "salesDate": "2017-01-31",
+        "venue": "unknown"
+    },
+    {
+        "title": "Incredible Hulk",
+        "issue": "181",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.9",
+        "price": 150000,
+        "salesDate": "2011-02-01",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "Kansas City",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 150000,
+        "salesDate": "2008-01-01",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "OS32",
+        "grade": "8.5",
+        "price": 150000,
+        "salesDate": "2001-01-01",
+        "venue": "unknown"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "White Mountain",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 150000,
+        "salesDate": "2004-08-01",
+        "venue": "pedigreecomics"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0 (MP)",
+        "price": 149375,
+        "salesDate": "2011-08-17",
+        "venue": "heritage"
+    },
+    {
+        "title": "Showcase",
+        "issue": "22",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 149375,
+        "salesDate": "2017-11-16",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "Nova Scotia",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 148000,
+        "salesDate": "",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Tales of Suspense",
+        "issue": "39",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 147500,
+        "salesDate": "2011-03-24",
+        "venue": "pedigreecomics"
+    },
+    {
+        "title": "X-Men",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 147000,
+        "salesDate": "2021-06-22",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Flash Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 147000,
+        "salesDate": "2013-03-20",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "RAW",
+        "grade": "0.5",
+        "price": 145655,
+        "salesDate": "2018-06-24",
+        "venue": "ebay"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 145450,
+        "salesDate": "2012-12-06",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 145400,
+        "salesDate": "2012-12-06",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Journey into Mystery",
+        "issue": "83",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 145000,
+        "salesDate": "2021-05-26",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.0",
+        "price": 145000,
+        "salesDate": "2013-08-15",
+        "venue": "unknown"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "White Mountain",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 145000,
+        "salesDate": "2014-02-25",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 145000,
+        "salesDate": "2005-01-01",
+        "venue": "pgcmint"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.5",
+        "price": 144000,
+        "salesDate": "2025-04-03",
+        "venue": "heritage"
+    },
+    {
+        "title": "More Fun Comics",
+        "issue": "73",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 144000,
+        "salesDate": "2024-11-24",
+        "venue": "heritage"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.0",
+        "price": 144000,
+        "salesDate": "2022-06-17",
+        "venue": "heritage"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 144000,
+        "salesDate": "2024-06-20",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.0 (A2)",
+        "price": 144000,
+        "salesDate": "2020-04-30",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.5",
+        "price": 144000,
+        "salesDate": "2018-11-15",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "7",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.0",
+        "price": 144000,
+        "salesDate": "2020-11-19",
+        "venue": "heritage"
+    },
+    {
+        "title": "Journey into Mystery",
+        "issue": "83",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 144000,
+        "salesDate": "2019-02-23",
+        "venue": "heritage"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.5",
+        "price": 143400,
+        "salesDate": "2017-02-23",
+        "venue": "heritage"
+    },
+    {
+        "title": "Pep Comics",
+        "issue": "22",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0",
+        "price": 143400,
+        "salesDate": "2014-11-20",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5 (MP)",
+        "price": 143400,
+        "salesDate": "2010-11-18",
+        "venue": "heritage"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 143400,
+        "salesDate": "2015-11-19",
+        "venue": "heritage"
+    },
+    {
+        "title": "Avengers",
+        "issue": "4",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.8",
+        "price": 143400,
+        "salesDate": "2017-05-18",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "7",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 143400,
+        "salesDate": "2008-02-01",
+        "venue": "heritage"
+    },
+    {
+        "title": "Journey into Mystery",
+        "issue": "83",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 141778,
+        "salesDate": "2020-05-27",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "1.0",
+        "price": 141450,
+        "salesDate": "2022-03-19",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Incredible Hulk",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CBCS",
+        "grade": "8.5",
+        "price": 141011,
+        "salesDate": "2017-03-22",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "More Fun",
+        "issue": "53",
+        "pedigree": "Edgar Church",
+        "gradeSrc": "CGC",
+        "grade": "9.8",
+        "price": 141003,
+        "salesDate": "2015-06-04",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.5",
+        "price": 140760,
+        "salesDate": "2017-11-16",
+        "venue": "hakes"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 139000,
+        "salesDate": "2008-01-01",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.5",
+        "price": 138779,
+        "salesDate": "2020-08-25",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "1.0",
+        "price": 138000,
+        "salesDate": "2024-04-04",
+        "venue": "heritage"
+    },
+    {
+        "title": "All-American Comics",
+        "issue": "61",
+        "pedigree": "Promise Collection",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 138000,
+        "salesDate": "2021-06-17",
+        "venue": "heritage"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "5",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 138000,
+        "salesDate": "2021-04-05",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "225",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 138000,
+        "salesDate": "2021-04-05",
+        "venue": "heritage"
+    },
+    {
+        "title": "Archie Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 138000,
+        "salesDate": "2021-04-15",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "1.0",
+        "price": 137760,
+        "salesDate": "2021-09-18",
+        "venue": "goldinauctions"
+    },
+    {
+        "title": "X-Men",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 137500,
+        "salesDate": "2011-10-01",
+        "venue": "unknown"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0 (MP)",
+        "price": 137000,
+        "salesDate": "2014-06-04",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Pep Comics",
+        "issue": "22",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5",
+        "price": 135000,
+        "salesDate": "2015-03-26",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Amazing Spider-Man",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 135000,
+        "salesDate": "2015-03-15",
+        "venue": "unknown"
+    },
+    {
+        "title": "Amazing Spider-Man",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 135000,
+        "salesDate": "2015-03-20",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "Nova Scotia",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 135000,
+        "salesDate": "2010-01-01",
+        "venue": "unknown"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.5",
+        "price": 134555,
+        "salesDate": "2018-12-12",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "X-Men",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 134000,
+        "salesDate": "2020-05-23",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.0",
+        "price": 133550,
+        "salesDate": "2020-12-01",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "2.5",
+        "price": 132600,
+        "salesDate": "2020-09-16",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "1.5",
+        "price": 132250,
+        "salesDate": "2023-08-25",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Silver Surfer",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.8",
+        "price": 132000,
+        "salesDate": "2025-04-03",
+        "venue": "heritage"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0 (C1)",
+        "price": 132000,
+        "salesDate": "2025-04-03",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "38",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 132000,
+        "salesDate": "2025-01-09",
+        "venue": "heritage"
+    },
+    {
+        "title": "Batman",
+        "issue": "11",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 132000,
+        "salesDate": "2024-11-24",
+        "venue": "heritage"
+    },
+    {
+        "title": "Startling Comics",
+        "issue": "49",
+        "pedigree": "Promise Collection",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 132000,
+        "salesDate": "2021-06-18",
+        "venue": "heritage"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 132000,
+        "salesDate": "2021-04-05",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "359",
+        "pedigree": "Boston",
+        "gradeSrc": "",
+        "grade": "",
+        "price": 132000,
+        "salesDate": "2021-01-14",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "1.8",
+        "price": 132000,
+        "salesDate": "2018-11-15",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "31",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 132000,
+        "salesDate": "2020-11-19",
+        "venue": "heritage"
+    },
+    {
+        "title": "Sensation Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 132000,
+        "salesDate": "2019-11-21",
+        "venue": "heritage"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.0",
+        "price": 132000,
+        "salesDate": "2019-11-21",
+        "venue": "heritage"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 132000,
+        "salesDate": "2016-08-30",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Incredible Hulk",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 132000,
+        "salesDate": "2016-12-14",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Tales of Suspense",
+        "issue": "39",
+        "pedigree": "",
+        "gradeSrc": "CBCS",
+        "grade": "9.4",
+        "price": 132000,
+        "salesDate": "2021-04-05",
+        "venue": "heritage"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.0",
+        "price": 131450,
+        "salesDate": "2018-05-12",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "31",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 131450,
+        "salesDate": "2017-11-17",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Spider-Man",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 131450,
+        "salesDate": "2017-11-16",
+        "venue": "heritage"
+    },
+    {
+        "title": "Justice League of America",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 131000,
+        "salesDate": "2019-06-12",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.5",
+        "price": 131000,
+        "salesDate": "2018-06-11",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "0.5",
+        "price": 130000,
+        "salesDate": "2022-09-08",
+        "venue": "unknown"
+    },
+    {
+        "title": "Avengers",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 130000,
+        "salesDate": "2013-01-01",
+        "venue": "unknown"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5 (EP)",
+        "price": 130000,
+        "salesDate": "2014-09-09",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.5",
+        "price": 130000,
+        "salesDate": "2005-04-16",
+        "venue": "unknown"
+    },
+    {
+        "title": "Amazing Spider-Man",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 130000,
+        "salesDate": "2019-06-10",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Amazing Spider-Man",
+        "issue": "1",
+        "pedigree": "White Mountain",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 130000,
+        "salesDate": "2009-04-21",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.5",
+        "price": 129000,
+        "salesDate": "2016-06-07",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 128000,
+        "salesDate": "2017-05-31",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "Windy City",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 126500,
+        "salesDate": "2003-03-06",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "38",
+        "pedigree": "Allentown",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 126500,
+        "salesDate": "2005-05-19",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "White Mountain",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 126500,
+        "salesDate": "2005-05-20",
+        "venue": "heritage"
+    },
+    {
+        "title": "All Star Comics",
+        "issue": "3",
+        "pedigree": "Edgar Church",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 126500,
+        "salesDate": "",
+        "venue": "unknown"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.0",
+        "price": 126000,
+        "salesDate": "2023-11-16",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "69",
+        "pedigree": "Promise Collection",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 126000,
+        "salesDate": "2021-06-18",
+        "venue": "heritage"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 126000,
+        "salesDate": "2019-08-01",
+        "venue": "heritage"
+    },
+    {
+        "title": "Incredible Hulk",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 125475,
+        "salesDate": "2009-11-19",
+        "venue": "heritage"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.5",
+        "price": 125000,
+        "salesDate": "2024-10-01",
+        "venue": "heritage"
+    },
+    {
+        "title": "Tales of Suspense",
+        "issue": "39",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 125000,
+        "salesDate": "2021-02-25",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Daredevil",
+        "issue": "1",
+        "pedigree": "Northland",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 125000,
+        "salesDate": "2021-03-07",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Daredevil",
+        "issue": "1",
+        "pedigree": "Twin Cities",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 125000,
+        "salesDate": "2021-04-13",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "7",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.0",
+        "price": 125000,
+        "salesDate": "2017-05-1",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Avengers",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 125000,
+        "salesDate": "2015-04-01",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.0",
+        "price": 125000,
+        "salesDate": "",
+        "venue": "unknown"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "Edgar Church",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 125000,
+        "salesDate": "1994-01-01",
+        "venue": "unknown"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "7",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.0",
+        "price": 124023.9,
+        "salesDate": "2018-03-18",
+        "venue": "hakes"
+    },
+    {
+        "title": "Archie Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 122567,
+        "salesDate": "2014-08-26",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Incredible Hulk",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 122001,
+        "salesDate": "2020-08-26",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 122000,
+        "salesDate": "2009-03-20",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "Diamond Run",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 122000,
+        "salesDate": "2004-01-01",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Wonder Woman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 121901.15,
+        "salesDate": "2025-03-21",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CBCS",
+        "grade": "9.0",
+        "price": 121259,
+        "salesDate": "2018-05-23",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Phantom Lady",
+        "issue": "17",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 121000,
+        "salesDate": "2010-09-12",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "Nova Scotia",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 121000,
+        "salesDate": "2008-08-28",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "2.5",
+        "price": 121000,
+        "salesDate": "2009-06-19",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "1.5",
+        "price": 120777,
+        "salesDate": "2019-03-15",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "38",
+        "pedigree": "Allentown",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 120750,
+        "salesDate": "2002-10-10",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5",
+        "price": 120750,
+        "salesDate": "",
+        "venue": "unknown"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "2.5",
+        "price": 120000,
+        "salesDate": "2024-12-17",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "2.5",
+        "price": 120000,
+        "salesDate": "2024-12-17",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "29",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5",
+        "price": 120000,
+        "salesDate": "2024-11-24",
+        "venue": "heritage"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 120000,
+        "salesDate": "2022-11-17",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "124",
+        "pedigree": "Promise Collection",
+        "gradeSrc": "CGC",
+        "grade": "9.8",
+        "price": 120000,
+        "salesDate": "2021-06-18",
+        "venue": "heritage"
+    },
+    {
+        "title": "Wonder Woman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 120000,
+        "salesDate": "2020-07-09",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.5",
+        "price": 120000,
+        "salesDate": "2019-09-09",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "Rocky Mountain",
+        "gradeSrc": "CGC",
+        "grade": "7.5",
+        "price": 120000,
+        "salesDate": "2019-02-21",
+        "venue": "heritage"
+    },
+    {
+        "title": "Flash Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.0",
+        "price": 120000,
+        "salesDate": "2018-12-13",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Brave and the Bold",
+        "issue": "28",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 120000,
+        "salesDate": "2014-09-09",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Brave and the Bold",
+        "issue": "28",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 120000,
+        "salesDate": "2013-10-06",
+        "venue": "pedigreecomics"
+    },
+    {
+        "title": "Avengers",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 120000,
+        "salesDate": "",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Incredible Hulk",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 120000,
+        "salesDate": "",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Avengers",
+        "issue": "4",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.8",
+        "price": 120000,
+        "salesDate": "2012-08-14",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Avengers",
+        "issue": "4",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.8",
+        "price": 120000,
+        "salesDate": "2013-09-14",
+        "venue": "pedigreecomics"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.5",
+        "price": 119500,
+        "salesDate": "2018-02-22",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "35",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.5",
+        "price": 119500,
+        "salesDate": "2017-02-23",
+        "venue": "heritage"
+    },
+    {
+        "title": "More Fun",
+        "issue": "52",
+        "pedigree": "Larson",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 119500,
+        "salesDate": "2006-08-10",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Spider-Man",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 119222,
+        "salesDate": "2014-03-01",
+        "venue": "unknown"
+    },
+    {
+        "title": "Amazing Spider-Man",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 119222,
+        "salesDate": "2014-03-11",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0",
+        "price": 119013,
+        "salesDate": "2013-9-25",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 118977,
+        "salesDate": "2008-01-01",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "Allentown",
+        "gradeSrc": "CGC",
+        "grade": "9.4 (SP)",
+        "price": 117939,
+        "salesDate": "2015-03-26",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Incredible Hulk",
+        "issue": "1",
+        "pedigree": "Northland",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 117500,
+        "salesDate": "",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 117000,
+        "salesDate": "2022-06-23",
+        "venue": "heritage"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "4.0",
+        "price": 117000,
+        "salesDate": "2020-03-05",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0",
+        "price": 116553,
+        "salesDate": "2018-08-15",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "2.0",
+        "price": 116512.5,
+        "salesDate": "2012-02-22",
+        "venue": "heritage"
+    },
+    {
+        "title": "Walt Disney's Comics and Stories",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 116512,
+        "salesDate": "2008-11-12",
+        "venue": "heritage"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5 (MP)",
+        "price": 116512,
+        "salesDate": "2008-05-01",
+        "venue": "heritage"
+    },
+    {
+        "title": "X-Men",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 116150,
+        "salesDate": "2009-08-31",
+        "venue": "unknown"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "1.5",
+        "price": 116000,
+        "salesDate": "2010-12-2",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Amazing Spider-Man",
+        "issue": "3",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.8",
+        "price": 115000,
+        "salesDate": "2020-12-01",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Avengers",
+        "issue": "4",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.8",
+        "price": 115000,
+        "salesDate": "2014-09-01",
+        "venue": "unknown"
+    },
+    {
+        "title": "Amazing Spider-Man",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 115000,
+        "salesDate": "2014-09-01",
+        "venue": "unknown"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "Rockford",
+        "gradeSrc": "CGC",
+        "grade": "6.0",
+        "price": 115000,
+        "salesDate": "",
+        "venue": "unknown"
+    },
+    {
+        "title": "Tales of Suspense",
+        "issue": "39",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 114990,
+        "salesDate": "2009-11-23",
+        "venue": "pedigreecomics"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "2.0",
+        "price": 114000,
+        "salesDate": "2023-09-14",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0",
+        "price": 114000,
+        "salesDate": "2018-11-15",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "1.0",
+        "price": 114000,
+        "salesDate": "2019-11-21",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2 (EP)",
+        "price": 113525,
+        "salesDate": "2012-05-10",
+        "venue": "heritage"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "Billy Wright",
+        "gradeSrc": "CGC",
+        "grade": "7.5",
+        "price": 113525,
+        "salesDate": "2012-02-22",
+        "venue": "heritage"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.5",
+        "price": 112007,
+        "salesDate": "2012-08-29",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Superman",
+        "issue": "14",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 112000,
+        "salesDate": "2018-12-14",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 111328,
+        "salesDate": "2002-06-22",
+        "venue": "jpthemint"
+    },
+    {
+        "title": "More Fun Comics",
+        "issue": "73",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.5",
+        "price": 111000,
+        "salesDate": "2021-04-05",
+        "venue": "heritage"
+    },
+    {
+        "title": "Pep Comics",
+        "issue": "22",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5",
+        "price": 111000,
+        "salesDate": "2012-12-10",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "Allentown",
+        "gradeSrc": "CGC",
+        "grade": "9.4 (SP)",
+        "price": 111000,
+        "salesDate": "2014-01-31",
+        "venue": "pedigreecomics"
+    },
+    {
+        "title": "All American Comics",
+        "issue": "16",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5",
+        "price": 110537.5,
+        "salesDate": "2015-08-27",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Spider-Man",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 110537.5,
+        "salesDate": "2016-02-18",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "1.0",
+        "price": 110000,
+        "salesDate": "2017-09-14",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "1.8",
+        "price": 110000,
+        "salesDate": "",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 110000,
+        "salesDate": "2011-07-21",
+        "venue": "unknown"
+    },
+    {
+        "title": "Planet Comics",
+        "issue": "1",
+        "pedigree": "Edgar Church",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 108666,
+        "salesDate": "2018-12-14",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "X-Men",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 108000,
+        "salesDate": "2025-04-03",
+        "venue": "heritage"
+    },
+    {
+        "title": "More Fun",
+        "issue": "52",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5",
+        "price": 108000,
+        "salesDate": "2025-01-09",
+        "venue": "heritage"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "1.5",
+        "price": 108000,
+        "salesDate": "2024-11-24",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "1.0",
+        "price": 108000,
+        "salesDate": "2022-06-22",
+        "venue": "heritage"
+    },
+    {
+        "title": "Phantom Lady",
+        "issue": "23",
+        "pedigree": "Promise Collection",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 108000,
+        "salesDate": "2021-06-18",
+        "venue": "heritage"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "48",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.8",
+        "price": 108000,
+        "salesDate": "2021-06-18",
+        "venue": "heritage"
+    },
+    {
+        "title": "Brave and the Bold",
+        "issue": "28",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 108000,
+        "salesDate": "2017-08-01",
+        "venue": "gregreece"
+    },
+    {
+        "title": "Incredible Hulk",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 108000,
+        "salesDate": "2018-11-15",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 108000,
+        "salesDate": "2010-09-20",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Flash Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5",
+        "price": 107550,
+        "salesDate": "2016-11-17",
+        "venue": "heritage"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5",
+        "price": 107550,
+        "salesDate": "2014-11-20",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "6.5 (B-5)",
+        "price": 107550,
+        "salesDate": "2014-11-20",
+        "venue": "heritage"
+    },
+    {
+        "title": "Marvel Mystery Comics",
+        "issue": "9",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 107550,
+        "salesDate": "2009-05-22",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "38",
+        "pedigree": "Allentown",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 107550,
+        "salesDate": "2009-05-21",
+        "venue": "heritage"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0",
+        "price": 107550,
+        "salesDate": "2012-11-15",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 107300,
+        "salesDate": "2011-10-19",
+        "venue": "unknown"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0",
+        "price": 107006,
+        "salesDate": "2018-03-20",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "10",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.5",
+        "price": 107000,
+        "salesDate": "2018-12-12",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "Kansas City",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 107000,
+        "salesDate": "2001-11-01",
+        "venue": "heritage"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.5",
+        "price": 106250,
+        "salesDate": "2021-11-05",
+        "venue": "heritage"
+    },
+    {
+        "title": "X-Men",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 106050,
+        "salesDate": "2009-11-01",
+        "venue": "unknown"
+    },
+    {
+        "title": "X-Men",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 105521,
+        "salesDate": "2010-05-27",
+        "venue": "unknown"
+    },
+    {
+        "title": "X-Men",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 105521,
+        "salesDate": "2010-05-27",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5 (SP)",
+        "price": 105166,
+        "salesDate": "2020-12-01",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Amazing Spider-Man",
+        "issue": "4",
+        "pedigree": "Pacific Coast",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 105000,
+        "salesDate": "2021-05-21",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0",
+        "price": 105000,
+        "salesDate": "2018-03-06",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5 (EP)",
+        "price": 105000,
+        "salesDate": "2011-12-01",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 105000,
+        "salesDate": "2010-05-30",
+        "venue": "unknown"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 104562.5,
+        "salesDate": "2009-11-01",
+        "venue": "heritage"
+    },
+    {
+        "title": "More Fun Comics",
+        "issue": "73",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 104562,
+        "salesDate": "2016-11-17",
+        "venue": "heritage"
+    },
+    {
+        "title": "Amazing Spider-Man",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "",
+        "grade": "9.4",
+        "price": 104200,
+        "salesDate": "2009-03-13",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0 (MP)",
+        "price": 102002,
+        "salesDate": "2012-12-04",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.5",
+        "price": 102001,
+        "salesDate": "2017-05-01",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Action Comics",
+        "issue": "13",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 102001,
+        "salesDate": "2015-03-24",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Mask Comics",
+        "issue": "1",
+        "pedigree": "Promise Collection",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 102000,
+        "salesDate": "2021-06-18",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "149",
+        "pedigree": "Promise Collection",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 102000,
+        "salesDate": "2021-06-18",
+        "venue": "heritage"
+    },
+    {
+        "title": "Daredevil",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 102000,
+        "salesDate": "2021-01-14",
+        "venue": "heritage"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "29",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.5",
+        "price": 102000,
+        "salesDate": "2020-09-10",
+        "venue": "heritage"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "2.5",
+        "price": 102000,
+        "salesDate": "2020-09-10",
+        "venue": "heritage"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "3.5",
+        "price": 102000,
+        "salesDate": "2018-05-22",
+        "venue": "heritage"
+    },
+    {
+        "title": "Startling Comcs",
+        "issue": "49",
+        "pedigree": "Edgar Church",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 101575,
+        "salesDate": "2016-08-4",
+        "venue": "heritage"
+    },
+    {
+        "title": "Marvel Comics",
+        "issue": "1",
+        "pedigree": "Larson",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 101575,
+        "salesDate": "2006-11-17",
+        "venue": "heritage"
+    },
+    {
+        "title": "Superman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "1.0",
+        "price": 101111,
+        "salesDate": "2023-03-18",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "X-Men",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 101002,
+        "salesDate": "2010-02-18",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "",
+        "grade": "",
+        "price": 101000,
+        "salesDate": "1993-01-02",
+        "venue": "unknown"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0",
+        "price": 100199,
+        "salesDate": "2017-11-13",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "7.0",
+        "price": 100199,
+        "salesDate": "2017-11-13",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "Captain America Comics",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "5.0",
+        "price": 100000,
+        "salesDate": "2020-02-25",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Brave and the Bold",
+        "issue": "28",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 100000,
+        "salesDate": "2014-02-25",
+        "venue": "comiclink"
+    },
+    {
+        "title": "X-Men",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 100000,
+        "salesDate": "2010-04-18",
+        "venue": "unknown"
+    },
+    {
+        "title": "Journey into Mystery",
+        "issue": "83",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 100000,
+        "salesDate": "2011-10-22",
+        "venue": "unknown"
+    },
+    {
+        "title": "Incredible Hulk",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.0",
+        "price": 100000,
+        "salesDate": "2011-11-09",
+        "venue": "unknown"
+    },
+    {
+        "title": "Amazing Fantasy",
+        "issue": "15",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.5",
+        "price": 100000,
+        "salesDate": "",
+        "venue": "comicconnect"
+    },
+    {
+        "title": "X-Men",
+        "issue": "1",
+        "pedigree": "Pacific Coast",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 100000,
+        "salesDate": "",
+        "venue": "pedigreecomics"
+    },
+    {
+        "title": "Showcase",
+        "issue": "4",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 100000,
+        "salesDate": "2011-05-13",
+        "venue": "esqurecomics"
+    },
+    {
+        "title": "Sensation",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.4",
+        "price": 100000,
+        "salesDate": "2001-01-01",
+        "venue": "unknown"
+    },
+    {
+        "title": "Detective Comics",
+        "issue": "27",
+        "pedigree": "",
+        "gradeSrc": "OS",
+        "grade": "7.5",
+        "price": 100000,
+        "salesDate": "2002-01-01",
+        "venue": "unknown"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 100000,
+        "salesDate": "2008-06-01",
+        "venue": "metropolis"
+    },
+    {
+        "title": "Batman",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "8.0",
+        "price": 100000,
+        "salesDate": "2009-11-17",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Fantastic Four",
+        "issue": "1",
+        "pedigree": "White Mountain",
+        "gradeSrc": "CGC",
+        "grade": "9.2",
+        "price": 100000,
+        "salesDate": "2007-01-01",
+        "venue": "metropolis"
+    },
+    {
+        "title": "Avengers",
+        "issue": "1",
+        "pedigree": "",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 100000,
+        "salesDate": "2011-02-01",
+        "venue": "comiclink"
+    },
+    {
+        "title": "Amazing Spider-Man",
+        "issue": "1",
+        "pedigree": "White Mountain",
+        "gradeSrc": "CGC",
+        "grade": "9.6",
+        "price": 100000,
+        "salesDate": "",
+        "venue": "comiclink"
+    }
+]

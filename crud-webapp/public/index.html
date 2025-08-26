@@ -98,6 +98,70 @@
             </div>
         </section>
 
+        <!-- Sales Management Modal -->
+        <div id="sales-modal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="sales-modal-title">Manage Sales</h3>
+                    <span class="close" onclick="closeSalesModal()">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="actions">
+                        <button onclick="showAddSaleForm()" class="btn btn-primary">Add Sale</button>
+                    </div>
+
+                    <!-- Add/Edit Sale Form -->
+                    <div id="sale-form-container" class="form-container" style="display: none;">
+                        <h4 id="sale-form-title">Add New Sale</h4>
+                        <form id="sale-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="sale-price">Price ($):</label>
+                                    <input type="number" id="sale-price" required min="0" step="0.01">
+                                </div>
+                                <div class="form-group">
+                                    <label for="sale-date">Sale Date:</label>
+                                    <input type="date" id="sale-date" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="sale-venue">Venue:</label>
+                                    <input type="text" id="sale-venue" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="sale-link">Link (optional):</label>
+                                    <input type="url" id="sale-link">
+                                </div>
+                            </div>
+                            <div class="form-actions">
+                                <button type="submit" class="btn btn-primary">Save Sale</button>
+                                <button type="button" onclick="cancelSaleForm()" class="btn btn-secondary">Cancel</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Sales Table -->
+                    <div class="table-container">
+                        <table id="sales-table" class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Price</th>
+                                    <th>Date</th>
+                                    <th>Venue</th>
+                                    <th>Link</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="sales-tbody">
+                                <!-- Sales will be loaded here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Records Section -->
         <section id="records-section" class="data-section">
             <h2>Sales Records Management</h2>

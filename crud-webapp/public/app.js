@@ -106,6 +106,7 @@ function renderBooks() {
             <td>${book.sales ? book.sales.length : 0}</td>
             <td>
                 <button class="btn btn-edit" onclick="editBook('${book.id}')">Edit</button>
+                <button class="btn btn-primary" onclick="manageSales('${book.id}')">Sales</button>
                 <button class="btn btn-danger" onclick="deleteBook('${book.id}')">Delete</button>
             </td>
         `;
@@ -186,6 +187,131 @@ document.getElementById('book-form').addEventListener('submit', async function(e
         await loadAllData();
     } catch (error) {
         showError('Failed to save book');
+    }
+});
+
+// Sales management for individual books
+let currentBookSales = null;
+let currentEditingSale = null;
+
+function manageSales(bookId) {
+    const book = booksData.books.find(b => b.id === bookId);
+    if (!book) return;
+    
+    currentBookSales = { bookId, book };
+    document.getElementById('sales-modal-title').textContent = `Manage Sales - ${book.title} #${book.issue}`;
+    document.getElementById('sales-modal').style.display = 'flex';
+    
+    renderSales();
+}
+
+function closeSalesModal() {
+    document.getElementById('sales-modal').style.display = 'none';
+    currentBookSales = null;
+    currentEditingSale = null;
+    cancelSaleForm();
+}
+
+function renderSales() {
+    if (!currentBookSales) return;
+    
+    const sales = currentBookSales.book.sales || [];
+    const tbody = document.getElementById('sales-tbody');
+    tbody.innerHTML = '';
+    
+    sales.forEach((sale, index) => {
+        const row = document.createElement('tr');
+        const price = sale.price ? Number(sale.price).toLocaleString() : '0';
+        const link = sale.link ? `<a href="${sale.link}" target="_blank">View</a>` : 'N/A';
+        
+        row.innerHTML = `
+            <td>$${price}</td>
+            <td>${sale.salesDate || ''}</td>
+            <td>${sale.venue || ''}</td>
+            <td>${link}</td>
+            <td>
+                <button class="btn btn-edit" onclick="editSale(${index})">Edit</button>
+                <button class="btn btn-danger" onclick="deleteSale(${index})">Delete</button>
+            </td>
+        `;
+        tbody.appendChild(row);
+    });
+}
+
+function showAddSaleForm() {
+    currentEditingSale = null;
+    document.getElementById('sale-form-title').textContent = 'Add New Sale';
+    document.getElementById('sale-form').reset();
+    document.getElementById('sale-form-container').style.display = 'block';
+}
+
+function editSale(saleIndex) {
+    if (!currentBookSales || !currentBookSales.book.sales) return;
+    
+    const sale = currentBookSales.book.sales[saleIndex];
+    if (!sale) return;
+    
+    currentEditingSale = { index: saleIndex, sale };
+    document.getElementById('sale-form-title').textContent = 'Edit Sale';
+    
+    // Populate form
+    document.getElementById('sale-price').value = sale.price || '';
+    document.getElementById('sale-date').value = sale.salesDate || '';
+    document.getElementById('sale-venue').value = sale.venue || '';
+    document.getElementById('sale-link').value = sale.link || '';
+    
+    document.getElementById('sale-form-container').style.display = 'block';
+}
+
+async function deleteSale(saleIndex) {
+    if (!currentBookSales || !confirm('Are you sure you want to delete this sale?')) return;
+    
+    try {
+        await apiCall(`/api/books/${currentBookSales.bookId}/sales/${saleIndex}`, 'DELETE');
+        await loadAllData();
+        // Update the current book reference
+        currentBookSales.book = booksData.books.find(b => b.id === currentBookSales.bookId);
+        renderSales();
+        showSuccess('Sale deleted successfully');
+    } catch (error) {
+        showError('Failed to delete sale');
+    }
+}
+
+function cancelSaleForm() {
+    document.getElementById('sale-form-container').style.display = 'none';
+    currentEditingSale = null;
+}
+
+// Sale form submission
+document.getElementById('sale-form').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    
+    if (!currentBookSales) return;
+    
+    const formData = {
+        price: document.getElementById('sale-price').value,
+        salesDate: document.getElementById('sale-date').value,
+        venue: document.getElementById('sale-venue').value,
+        link: document.getElementById('sale-link').value
+    };
+    
+    try {
+        if (currentEditingSale) {
+            await apiCall(`/api/books/${currentBookSales.bookId}/sales/${currentEditingSale.index}`, 'PUT', formData);
+            showSuccess('Sale updated successfully');
+        } else {
+            await apiCall(`/api/books/${currentBookSales.bookId}/sales`, 'POST', formData);
+            showSuccess('Sale added successfully');
+        }
+        
+        cancelSaleForm();
+        await loadAllData();
+        // Update the current book reference
+        currentBookSales.book = booksData.books.find(b => b.id === currentBookSales.bookId);
+        renderSales();
+    } catch (error) {
+        showError('Failed to save sale');
     }
 });
 

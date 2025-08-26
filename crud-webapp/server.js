@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
 // Data file paths
-const DATA_DIR = '../data/data';
+const DATA_DIR = './src';
 const BOOKS_FILE = path.join(__dirname, DATA_DIR, 'books.dev.json');
 const RECORDS_FILE = path.join(__dirname, DATA_DIR, 'records.json');
 const SA_PEDIGREES_FILE = path.join(__dirname, DATA_DIR, 'sa-pedigrees.dev.json');

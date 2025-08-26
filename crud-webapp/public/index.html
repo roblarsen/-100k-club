@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$100k Club - CRUD Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>$100k Club - Comic Data Manager</h1>
+        <nav>
+            <button onclick="showSection('books')" class="nav-btn active" id="books-nav">Books</button>
+            <button onclick="showSection('records')" class="nav-btn" id="records-nav">Records</button>
+            <button onclick="showSection('pedigrees')" class="nav-btn" id="pedigrees-nav">SA Pedigrees</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Books Section -->
+        <section id="books-section" class="data-section active">
+            <h2>Comic Books Management</h2>
+            
+            <div class="actions">
+                <button onclick="showAddBookForm()" class="btn btn-primary">Add New Book</button>
+                <input type="text" id="books-search" placeholder="Search books..." onkeyup="filterBooks()">
+            </div>
+
+            <!-- Add/Edit Book Form -->
+            <div id="book-form-container" class="form-container" style="display: none;">
+                <h3 id="book-form-title">Add New Book</h3>
+                <form id="book-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="book-title">Title:</label>
+                            <input type="text" id="book-title" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="book-issue">Issue:</label>
+                            <input type="text" id="book-issue">
+                        </div>
+                        <div class="form-group">
+                            <label for="book-publisher">Publisher:</label>
+                            <input type="text" id="book-publisher">
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="book-grade">Grade:</label>
+                            <input type="text" id="book-grade">
+                        </div>
+                        <div class="form-group">
+                            <label for="book-gradeSource">Grade Source:</label>
+                            <input type="text" id="book-gradeSource">
+                        </div>
+                        <div class="form-group">
+                            <label for="book-cgcid">CGC ID:</label>
+                            <input type="text" id="book-cgcid">
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="book-pedigree">Pedigree:</label>
+                            <input type="text" id="book-pedigree">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="book-tags">Tags (comma-separated):</label>
+                        <input type="text" id="book-tags">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="book-commentary">Commentary:</label>
+                        <textarea id="book-commentary" rows="3"></textarea>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">Save Book</button>
+                        <button type="button" onclick="cancelBookForm()" class="btn btn-secondary">Cancel</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Books Table -->
+            <div class="table-container">
+                <table id="books-table" class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Issue</th>
+                            <th>Publisher</th>
+                            <th>Grade</th>
+                            <th>CGC ID</th>
+                            <th>Pedigree</th>
+                            <th>Sales Count</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="books-tbody">
+                        <!-- Books will be loaded here -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Sales Management Modal -->
+        <div id="sales-modal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="sales-modal-title">Manage Sales</h3>
+                    <span class="close" onclick="closeSalesModal()">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="actions">
+                        <button onclick="showAddSaleForm()" class="btn btn-primary">Add Sale</button>
+                    </div>
+
+                    <!-- Add/Edit Sale Form -->
+                    <div id="sale-form-container" class="form-container" style="display: none;">
+                        <h4 id="sale-form-title">Add New Sale</h4>
+                        <form id="sale-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="sale-price">Price ($):</label>
+                                    <input type="number" id="sale-price" required min="0" step="0.01">
+                                </div>
+                                <div class="form-group">
+                                    <label for="sale-date">Sale Date:</label>
+                                    <input type="date" id="sale-date" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="sale-venue">Venue:</label>
+                                    <input type="text" id="sale-venue" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="sale-link">Link (optional):</label>
+                                    <input type="url" id="sale-link">
+                                </div>
+                            </div>
+                            <div class="form-actions">
+                                <button type="submit" class="btn btn-primary">Save Sale</button>
+                                <button type="button" onclick="cancelSaleForm()" class="btn btn-secondary">Cancel</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Sales Table -->
+                    <div class="table-container">
+                        <table id="sales-table" class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Price</th>
+                                    <th>Date</th>
+                                    <th>Venue</th>
+                                    <th>Link</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="sales-tbody">
+                                <!-- Sales will be loaded here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Records Section -->
+        <section id="records-section" class="data-section">
+            <h2>Sales Records Management</h2>
+            
+            <div class="actions">
+                <button onclick="showAddRecordForm()" class="btn btn-primary">Add New Record</button>
+                <input type="text" id="records-search" placeholder="Search records..." onkeyup="filterRecords()">
+            </div>
+
+            <!-- Add/Edit Record Form -->
+            <div id="record-form-container" class="form-container" style="display: none;">
+                <h3 id="record-form-title">Add New Record</h3>
+                <form id="record-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="record-title">Title:</label>
+                            <input type="text" id="record-title" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="record-issue">Issue:</label>
+                            <input type="text" id="record-issue">
+                        </div>
+                        <div class="form-group">
+                            <label for="record-grade">Grade:</label>
+                            <input type="text" id="record-grade">
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="record-price">Price:</label>
+                            <input type="number" id="record-price" step="0.01">
+                        </div>
+                        <div class="form-group">
+                            <label for="record-date">Date:</label>
+                            <input type="date" id="record-date">
+                        </div>
+                        <div class="form-group">
+                            <label for="record-seller">Seller:</label>
+                            <input type="text" id="record-seller">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="record-buyer">Buyer:</label>
+                            <input type="text" id="record-buyer">
+                        </div>
+                        <div class="form-group">
+                            <label for="record-note">Note:</label>
+                            <input type="text" id="record-note">
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">Save Record</button>
+                        <button type="button" onclick="cancelRecordForm()" class="btn btn-secondary">Cancel</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Records Table -->
+            <div class="table-container">
+                <table id="records-table" class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Issue</th>
+                            <th>Grade</th>
+                            <th>Price</th>
+                            <th>Date</th>
+                            <th>Seller</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="records-tbody">
+                        <!-- Records will be loaded here -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- SA Pedigrees Section -->
+        <section id="pedigrees-section" class="data-section">
+            <h2>Silver Age Pedigrees Management</h2>
+            
+            <div class="actions">
+                <button onclick="showAddPedigreeForm()" class="btn btn-primary">Add New Pedigree Book</button>
+                <input type="text" id="pedigrees-search" placeholder="Search pedigree books..." onkeyup="filterPedigrees()">
+            </div>
+
+            <!-- Add/Edit Pedigree Form -->
+            <div id="pedigree-form-container" class="form-container" style="display: none;">
+                <h3 id="pedigree-form-title">Add New Pedigree Book</h3>
+                <form id="pedigree-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="pedigree-title">Title:</label>
+                            <input type="text" id="pedigree-title" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="pedigree-pub">Publisher:</label>
+                            <input type="text" id="pedigree-pub">
+                        </div>
+                    </div>
+
+                    <h4>Pedigree Grades</h4>
+                    <div id="pedigree-grades" class="pedigree-grades">
+                        <!-- Pedigree grade inputs will be generated dynamically -->
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">Save Pedigree Book</button>
+                        <button type="button" onclick="cancelPedigreeForm()" class="btn btn-secondary">Cancel</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Pedigrees Table -->
+            <div class="table-container">
+                <table id="pedigrees-table" class="data-table">
+                    <thead id="pedigrees-thead">
+                        <!-- Headers will be generated dynamically -->
+                    </thead>
+                    <tbody id="pedigrees-tbody">
+                        <!-- Pedigrees will be loaded here -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

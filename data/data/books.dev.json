@@ -10,7 +10,14 @@
       "grade": "9.2",
       "generalCommentary": "Best Existing",
       "tags": "church,superman,action,dc,pedigree",
-      "sales": [],
+      "sales": [
+        {
+          "price": "3200000",
+          "salesDate": "2022-04-15",
+          "venue": "ComicConnect",
+          "link": "https://www.comicconnect.com/item/1234567"
+        }
+      ],
       "id": "0000"
     },
     {
@@ -2195,7 +2202,7 @@
       "title": "Marvel Comics",
       "issue": "1",
       "gradeSrc": "CGC",
-      "pedigree":"Windy City",
+      "pedigree": "Windy City",
       "grade": "9.4",
       "generalCommentary": "UPGRADED from 8.5/9.0",
       "tags": "marvel,timely,upgrade",
@@ -3650,7 +3657,6 @@
           "salesDate": "2012-02-01",
           "price": "222200",
           "venue": "unknown"
-
         },
         {
           "salesDate": "2013-05-09",
@@ -10623,7 +10629,6 @@
           "link": "https://www.landrypop.com/auctions/2025/04/the-paperboy-collection-platinum-golden-age-comics/120"
         }
       ],
-    
       "id": "0640"
     }
   ]

@@ -15,7 +15,7 @@ app.use(express.static('public'));
 
 // Data file paths
 const DATA_DIR = '../data/data';
-const BOOKS_FILE = path.join(__dirname, DATA_DIR, 'books.json');
+const BOOKS_FILE = path.join(__dirname, DATA_DIR, 'books.dev.json');
 const RECORDS_FILE = path.join(__dirname, DATA_DIR, 'records.json');
 const SA_PEDIGREES_FILE = path.join(__dirname, DATA_DIR, 'sa-pedigrees.dev.json');
 
@@ -111,6 +111,86 @@ app.delete('/api/books/:id', async (req, res) => {
         res.status(204).send();
     } catch (error) {
         res.status(500).json({ error: 'Failed to delete book' });
+    }
+});
+
+// Routes for Sales within Books
+app.get('/api/books/:id/sales', async (req, res) => {
+    try {
+        const data = await readJSONFile(BOOKS_FILE);
+        const book = data.books.find(b => b.id === req.params.id);
+        if (!book) {
+            return res.status(404).json({ error: 'Book not found' });
+        }
+        res.json(book.sales || []);
+    } catch (error) {
+        res.status(500).json({ error: 'Failed to read sales data' });
+    }
+});
+
+app.post('/api/books/:id/sales', async (req, res) => {
+    try {
+        const data = await readJSONFile(BOOKS_FILE);
+        const bookIndex = data.books.findIndex(b => b.id === req.params.id);
+        
+        if (bookIndex === -1) {
+            return res.status(404).json({ error: 'Book not found' });
+        }
+        
+        const newSale = req.body;
+        if (!data.books[bookIndex].sales) {
+            data.books[bookIndex].sales = [];
+        }
+        data.books[bookIndex].sales.push(newSale);
+        
+        await writeJSONFile(BOOKS_FILE, data);
+        res.status(201).json(newSale);
+    } catch (error) {
+        res.status(500).json({ error: 'Failed to add sale' });
+    }
+});
+
+app.put('/api/books/:id/sales/:saleIndex', async (req, res) => {
+    try {
+        const data = await readJSONFile(BOOKS_FILE);
+        const bookIndex = data.books.findIndex(b => b.id === req.params.id);
+        const saleIndex = parseInt(req.params.saleIndex);
+        
+        if (bookIndex === -1) {
+            return res.status(404).json({ error: 'Book not found' });
+        }
+        
+        if (!data.books[bookIndex].sales || saleIndex < 0 || saleIndex >= data.books[bookIndex].sales.length) {
+            return res.status(404).json({ error: 'Sale not found' });
+        }
+        
+        data.books[bookIndex].sales[saleIndex] = { ...data.books[bookIndex].sales[saleIndex], ...req.body };
+        await writeJSONFile(BOOKS_FILE, data);
+        res.json(data.books[bookIndex].sales[saleIndex]);
+    } catch (error) {
+        res.status(500).json({ error: 'Failed to update sale' });
+    }
+});
+
+app.delete('/api/books/:id/sales/:saleIndex', async (req, res) => {
+    try {
+        const data = await readJSONFile(BOOKS_FILE);
+        const bookIndex = data.books.findIndex(b => b.id === req.params.id);
+        const saleIndex = parseInt(req.params.saleIndex);
+        
+        if (bookIndex === -1) {
+            return res.status(404).json({ error: 'Book not found' });
+        }
+        
+        if (!data.books[bookIndex].sales || saleIndex < 0 || saleIndex >= data.books[bookIndex].sales.length) {
+            return res.status(404).json({ error: 'Sale not found' });
+        }
+        
+        data.books[bookIndex].sales.splice(saleIndex, 1);
+        await writeJSONFile(BOOKS_FILE, data);
+        res.status(204).send();
+    } catch (error) {
+        res.status(500).json({ error: 'Failed to delete sale' });
     }
 });
 

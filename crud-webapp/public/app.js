@@ -102,6 +102,7 @@ function renderBooks() {
             <td>${book.issue || ''}</td>
             <td>${book.publisher || ''}</td>
             <td>${book.grade || ''}</td>
+            <td>${book.cgcid || book.CGCid || ''}</td>
             <td>${book.pedigree || ''}</td>
             <td>${book.sales ? book.sales.length : 0}</td>
             <td>
@@ -134,6 +135,7 @@ function editBook(bookId) {
     document.getElementById('book-publisher').value = book.publisher || '';
     document.getElementById('book-grade').value = book.grade || '';
     document.getElementById('book-gradeSource').value = book.gradeSrc || '';
+    document.getElementById('book-cgcid').value = book.cgcid || book.CGCid || '';
     document.getElementById('book-pedigree').value = book.pedigree || '';
     document.getElementById('book-tags').value = book.tags || '';
     document.getElementById('book-commentary').value = book.generalCommentary || '';
@@ -168,6 +170,7 @@ document.getElementById('book-form').addEventListener('submit', async function(e
         publisher: document.getElementById('book-publisher').value,
         grade: document.getElementById('book-grade').value,
         gradeSrc: document.getElementById('book-gradeSource').value,
+        cgcid: document.getElementById('book-cgcid').value,
         pedigree: document.getElementById('book-pedigree').value,
         tags: document.getElementById('book-tags').value,
         generalCommentary: document.getElementById('book-commentary').value,

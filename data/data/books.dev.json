@@ -10731,6 +10731,26 @@
         }
       ],
       "id": "0645"
+    },
+    {
+      "title": "Sgt. Fury",
+      "issue": "1",
+      "publisher": "Marvel Comics",
+      "grade": "9.4",
+      "gradeSrc": "CGC",
+      "cgcid": "4316665003",
+      "pedigree": "",
+      "tags": "nick-fury,cgc,marvel",
+      "generalCommentary": "",
+      "sales": [
+        {
+          "price": "120000",
+          "salesDate": "2024-12-22",
+          "venue": "comic book addiction",
+          "link": "https://comicbookaddiction.com/products/sgt-fury-1963-marvel-1-cgc?variant=40272551968823"
+        }
+      ],
+      "id": "0646"
     }
   ]
 }

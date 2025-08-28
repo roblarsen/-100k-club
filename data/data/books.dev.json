@@ -5343,12 +5343,17 @@
       "tags": "marvel,ant-man,tales-to-astonish,silver-age",
       "sales": [
         {
-          "salesDate": "2015-01-01",
           "price": "200000",
-          "venue": "unknown"
+          "salesDate": "2013-07-18",
+          "venue": "unknown",
+          "link": ""
         }
       ],
-      "id": "0327"
+      "id": "0327",
+      "publisher": "Marvel Comics",
+      "cgcid": "0178412005",
+      "pedigree": "",
+      "generalCommentary": ""
     },
     {
       "title": "Tales to Astonish",
@@ -5358,13 +5363,17 @@
       "tags": "marvel,ant-man,tales-to-astonish,silver-age",
       "sales": [
         {
-          "salesDate": "2016-12-08",
-          "price": "205501",
-          "venue": "comiclink",
-          "link": "http://comics.ha.com/itm/golden-age-1938-1955-/all-american-comics-16-dc-1940-CGC-fn-65-cream-to-off-white-pages/a/7147-91029.s?ic4=ListView-ShortDescription-071515"
+          "price": "75000",
+          "salesDate": "2010-02-01",
+          "venue": "unknown",
+          "link": ""
         }
       ],
-      "id": "0328"
+      "id": "0328",
+      "publisher": "Marvel Comics",
+      "cgcid": "0705522001",
+      "pedigree": "",
+      "generalCommentary": ""
     },
     {
       "title": "Tales of Suspense",
@@ -10702,6 +10711,26 @@
         }
       ],
       "id": "0644"
+    },
+    {
+      "title": "Tales to Astonish",
+      "issue": "27",
+      "publisher": "Marvel Comics",
+      "grade": "9.4",
+      "gradeSrc": "CGC",
+      "cgcid": "1265452001",
+      "pedigree": "",
+      "tags": "marvel,ant-man,tales-to-astonish,silver-age",
+      "generalCommentary": "",
+      "sales": [
+        {
+          "price": "175000",
+          "salesDate": "2019-04-08",
+          "venue": "unknown",
+          "link": ""
+        }
+      ],
+      "id": "0645"
     }
   ]
 }

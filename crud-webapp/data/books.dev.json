@@ -3,16 +3,22 @@
     {
       "title": "Action Comics",
       "issue": "1",
-      "publisher": "DC Comics Updated Again",
+      "publisher": "DC Comics",
       "coverDate": "1938-06-01",
       "pedigree": "Edgar Church",
       "gradeSrc": "Anecdote",
       "grade": "9.2",
-      "generalCommentary": "Best Existing - Updated Again",
+      "generalCommentary": "Best Existing",
       "tags": "church,superman,action,dc,pedigree",
-      "sales": [],
-      "id": "0000",
-      "cgcid": ""
+      "sales": [
+        {
+          "price": "3200000",
+          "salesDate": "2022-04-15",
+          "venue": "ComicConnect",
+          "link": "https://www.comicconnect.com/item/1234567"
+        }
+      ],
+      "id": "0000"
     },
     {
       "title": "Action Comics",

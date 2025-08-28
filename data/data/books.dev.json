@@ -2653,21 +2653,6 @@
       "id": "0160"
     },
     {
-      "title": "Walt Disney's Comics and Stories",
-      "issue": "1",
-      "gradeSrc": "CGC",
-      "grade": "9.4",
-      "tags": "disney",
-      "sales": [
-        {
-          "salesDate": "2008-11-12",
-          "price": "116512",
-          "venue": "heritage"
-        }
-      ],
-      "id": "0161"
-    },
-    {
       "title": "Whiz",
       "issue": "2",
       "pedigree": "Edgar Church",
@@ -10690,6 +10675,26 @@
         }
       ],
       "id": "0643"
+    },
+    {
+      "title": "Walt Disney Comics & Stories",
+      "issue": "1",
+      "publisher": "Dell",
+      "grade": "9.4",
+      "gradeSrc": "CGC ",
+      "cgcid": "0065720001",
+      "pedigree": "",
+      "tags": "disney,dell,donald-duck",
+      "generalCommentary": "",
+      "sales": [
+        {
+          "price": "116512.50",
+          "salesDate": "2008-11-13",
+          "venue": "heritage",
+          "link": "https://comics.ha.com/itm/golden-age-1938-1955-/cartoon-character/walt-disney-s-comics-and-stories-1-dell-1940-cgc-nm-94-off-white-pages/a/830-91192.s?ic4=ListView-ShortDescription-071515"
+        }
+      ],
+      "id": "0644"
     }
   ]
 }

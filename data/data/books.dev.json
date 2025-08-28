@@ -10630,6 +10630,66 @@
         }
       ],
       "id": "0640"
+    },
+    {
+      "title": "Richie Rich",
+      "issue": "1",
+      "publisher": "Harvey",
+      "grade": "9.6",
+      "gradeSrc": "CGC",
+      "cgcid": "1057670010",
+      "pedigree": "",
+      "tags": "harvey,richie-rich,cgc",
+      "generalCommentary": "",
+      "sales": [
+        {
+          "price": "108000",
+          "salesDate": "2023-06-22",
+          "venue": "heritage",
+          "link": "https://comics.ha.com/itm/silver-age-1956-1969-/humor/richie-rich-1-harvey-1960-cgc-nm-96-off-white-to-white-pages/a/7340-91051.s?ic4=ListView-ShortDescription-071515"
+        }
+      ],
+      "id": "0641"
+    },
+    {
+      "title": "Richie Rich",
+      "issue": "1",
+      "publisher": "Harvey",
+      "grade": "9.6",
+      "gradeSrc": "CGC",
+      "cgcid": "0910170001",
+      "pedigree": "",
+      "tags": "harvey,richie-rich,cgc",
+      "generalCommentary": "",
+      "sales": [
+        {
+          "price": "26290",
+          "salesDate": "2008-05-22",
+          "venue": "heritage",
+          "link": "https://comics.ha.com/itm/silver-age-1956-1969-/humor/richie-rich-1-harvey-1960-cgc-nm-96-off-white-pages/a/828-41065.s?ic4=ListView-ShortDescription-071515"
+        }
+      ],
+      "id": "0642"
+    },
+    {
+      "title": "Richie Rich",
+      "issue": "1",
+      "publisher": "Harvey",
+      "grade": "9.6",
+      "gradeSrc": "CGC",
+      "cgcid": "4293774001",
+      "pedigree": "",
+      "tags": "harvey,richie-rich,cgc",
+      "generalCommentary": "",
+      "sales": [
+        {
+          "price": "96000",
+          "salesDate": "2023-11-16",
+          "venue": "heritage",
+          "link": "https://comics.ha.com/itm/silver-age-1956-1969-/humor/richie-rich-1-file-copy-harvey-1960-cgc-nm-96-off-white-pages/a/7342-91026.s?ic4=ListView-ShortDescription-071515"
+        }
+      ],
+      "id": "0643"
     }
   ]
 }

@@ -1131,14 +1131,21 @@
           "venue": "unknown"
         },
         {
-          "salesDate": "2007-01-01",
+          "salesDate": "2006-01-18",
           "price": "273125",
-          "venue": "heritage"
+          "venue": "heritage",
+          "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/flash-comics-1-mile-high-pedigree-dc-1940-cgc-nm-96-off-white-to-white-pages-one-of-the-most-important-comic-books-of/a/819-2174.s"
         },
         {
           "salesDate": "2010-03-01",
           "price": "450000",
           "venue": "heritage"
+        },
+        {
+          "price": "100000",
+          "salesDate": "1994-01-01",
+          "venue": "unknown",
+          "link": ""
         }
       ],
       "id": "0070"

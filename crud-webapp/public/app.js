@@ -174,7 +174,7 @@ document.getElementById('book-form').addEventListener('submit', async function(e
         pedigree: document.getElementById('book-pedigree').value,
         tags: document.getElementById('book-tags').value,
         generalCommentary: document.getElementById('book-commentary').value,
-        sales: []
+        sales: currentEditingBook ? (currentEditingBook.sales || []) : []
     };
     
     try {

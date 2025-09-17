@@ -4,10 +4,12 @@
   "description": "$100,000 Club ==========",
   "main": "index.js",
   "scripts": {
-    "onehundred": "cd  ./100k-club && npm run start",
-    "records": "cd  ./record-sales && npm run start",
-     "data": "cd  ./data && npm run watch",
-     "books": "cd  ./data && ts-node ./data/minify-books.ts"
+  "onehundred": "cd ./100k-club && npm start",
+  "crud-webapp": "cd ./crud-webapp && npm start",
+  "records": "cd ./record-sales && npm start",
+  "silver-age-pedigrees": "cd ./silver-age-pedigrees && npm start",
+  "data": "cd ./data && npm run watch",
+  "books": "cd ./data && ts-node ./data/minify-books.ts"
   },
   "dependencies": {  },
   "devDependencies": {},

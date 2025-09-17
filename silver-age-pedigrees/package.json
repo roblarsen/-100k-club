@@ -27,7 +27,7 @@
     "@types/webpack-dev-server": "^4.7.1",
     "@typescript-eslint/eslint-plugin": "^8.31.1",
     "@typescript-eslint/parser": "^8.31.1",
-    "ag-grid-community": "^33.2.4",
+    "ag-grid-community": "^34.2.0",
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^11.0.0",
     "d3": "^7.9.0",

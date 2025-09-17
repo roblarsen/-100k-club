@@ -1,10 +1,7 @@
-import * as _ from "lodash";
 import { AllCommunityModule, ModuleRegistry, createGrid } from 'ag-grid-community';
 
 // Register all Community features
 ModuleRegistry.registerModules([AllCommunityModule]);
-
-
 
 export function drawTable(data) {
   createGrid(document.getElementById("datagrid"), {
@@ -36,9 +33,18 @@ export function drawTable(data) {
       maxWidth: 125,
     },
     rowData: data,
-    domLayout: 'autoHeight',
     autoSizeStrategy: {
       type: 'fitCellContents'
+    },
+    onGridReady: () => {
+      // Set the viewport height to match its rendered height after the grid is drawn
+      setTimeout(() => {
+        const viewport = document.querySelector('.ag-body-viewport') as HTMLElement;
+        if (viewport) {
+          const computedHeight = viewport.offsetHeight;
+          viewport.style.height = `${computedHeight}px`;
+        }
+      }, 100);
     }
   });
 

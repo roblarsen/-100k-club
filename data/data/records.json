@@ -359,6 +359,18 @@
       "price": 250,
       "goodDate": false,
       "inflationAdjustedPrice": ""
+    },
+    {
+      "title": "Superman",
+      "issue": "1",
+      "grade": "9.0",
+      "price": 9120000,
+      "date": "2025-11-20",
+      "seller": "heritage",
+      "buyer": "unknown",
+      "note": "",
+      "goodDate": true,
+      "inflationAdjustedPrice": ""
     }
   ]
 }

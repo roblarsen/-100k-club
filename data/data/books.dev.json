@@ -10745,6 +10745,26 @@
         }
       ],
       "id": "0646"
+    },
+    {
+      "title": "Superman",
+      "issue": "1",
+      "publisher": "DC Comics",
+      "grade": "9.0",
+      "gradeSrc": "CGC",
+      "cgcid": "4627478006",
+      "pedigree": "",
+      "tags": "superman, dc",
+      "generalCommentary": "",
+      "sales": [
+        {
+          "price": "9120000",
+          "salesDate": "2025-11-20",
+          "venue": "heritage",
+          "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-dc-1939-cgc-vf-nm-90-off-white-to-white-pages/a/7427-93015.s?ic=hero-pr-comicArt-results-superman-viewLot-7427-112025"
+        }
+      ],
+      "id": "0647"
     }
   ]
 }

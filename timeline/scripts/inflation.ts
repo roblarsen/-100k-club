@@ -2022,7 +2022,7 @@ const data = [{
   "HALF1": "",
   "HALF2": ""
 }, {
-  "Year": 2024,
+  "Year": 2025,
   "Jan": 317.671,
   "Feb": 	319.082,
   "Mar": 	319.799,
@@ -2078,8 +2078,8 @@ export function inflation(initialFrom, initialTo?) {
 
   const inflationFactor = (toCpi - fromCpi) / fromCpi;
   const inflationValue = inflationFactor * from.amount;
-  const currentValue = inflationValue + from.amount;
+  const currentValue:number = inflationValue + from.amount;
 
-  return +currentValue.toFixed(2);
+  return +currentValue;
 }
 

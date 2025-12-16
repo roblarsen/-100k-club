@@ -1,6 +1,23 @@
 {
   "sales": [
-    {
+   
+       {
+        "title": "Superman",
+       
+        "grade": "9.0",
+        "price": 9120000,
+        "date": "2025-11-20",
+      "issue": "1",
+      "buyer": "",
+      "note": "Lee Family Collection",
+
+      "seller": "Heritage",
+
+      "goodDate": true,
+      "inflationAdjustedPrice": ""
+    },
+     {
+   
       "title": "Action Comics",
       "issue": "1",
       "grade": "8.5",
@@ -320,7 +337,7 @@
       "buyer": "Theo Hostein",
       "date": "1973-04-22",
       "seller": "Bruce Hamilton",
-      "price": "1500.00",
+      "price": 1500.00,
       "goodDate": true,
       "inflationAdjustedPrice": ""
     },
@@ -332,7 +349,7 @@
       "buyer": "Mitch Mehdy",
       "date": "1973-05-01",
       "seller": "Theo Hostein",
-      "price": "1801.26",
+      "price": 1801.26,
       "goodDate": true,
       "inflationAdjustedPrice": ""
     },

@@ -10623,6 +10623,24 @@
         }
       ],
       "id": "0640"
+    },
+     {
+      "title": "Superman",
+      "issue": "1",
+      "gradeSrc": "CGC",
+      "grade": "9.0",
+      "collection": "Lee Family Collection",
+      "tags": "superman,dc",
+      "cgcid": "4627478006",
+      "sales": [
+        {
+          "salesDate": "2025-11-20",
+          "price": "9120000",
+          "venue": "heritage",
+          "link": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-dc-1939-cgc-vf-nm-90-off-white-to-white-pages/a/7427-93015.s?ic4=GalleryView-Thumbnail-071515"
+        }
+      ],
+      "id": "0641"
     }
   ]
 }

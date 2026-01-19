@@ -126,6 +126,12 @@
       "generalCommentary": "Graded 78 by the Sotheby's Grading Commitee in 1992. A copy stolen from actor Nic Cage",
       "tags": "cgc,superman,action",
       "sales": [
+                {
+          "price": "15000000",
+          "link": "http://www.comicconnect.com/bookDetail.php?id=432101",
+          "salesDate": "2026-01-09",
+          "venue": "comicconnect"
+        },
         {
           "price": "2161000",
           "link": "http://www.comicconnect.com/bookDetail.php?id=432101",

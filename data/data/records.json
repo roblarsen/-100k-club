@@ -1,6 +1,18 @@
 {
   "sales": [
    
+    {
+      "title": "Action Comics",
+      "issue": "1",
+      "grade": "9.0",
+      "buyer": "Unknown",
+      "note": "Cage Copy",
+      "date": "2026-01-09",
+      "seller": "ComicConnect",
+      "price": 15000000,
+      "goodDate": true,
+      "inflationAdjustedPrice": ""
+    },
        {
         "title": "Superman",
        

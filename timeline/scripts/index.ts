@@ -10,7 +10,7 @@ const margin = {
   'left': 100
 };
 const width = 1440;
-const height = 768;
+const height = 1500;
 const yMargin = margin.top + margin.bottom;
 const xMargin = margin.right + margin.left;
 

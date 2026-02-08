@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heritage Lost Years - Data Viewer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px 40px;
+        }
+
+        header h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .controls {
+            padding: 20px 40px;
+            background: #f5f5f5;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            align-items: flex-end;
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .control-group label {
+            font-weight: 600;
+            color: #333;
+            font-size: 14px;
+        }
+
+        .control-group input,
+        .control-group select {
+            padding: 8px 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+            min-width: 200px;
+        }
+
+        .control-group input:focus,
+        .control-group select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .btn {
+            padding: 8px 16px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+
+        .btn:hover {
+            background: #5568d3;
+        }
+
+        .stats {
+            padding: 20px 40px;
+            background: #f9f9f9;
+            font-size: 14px;
+            color: #666;
+            border-bottom: 1px solid #ddd;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background: #f5f5f5;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        th {
+            padding: 12px 15px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 13px;
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            white-space: nowrap;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        th:hover {
+            background: #efefef;
+        }
+
+        th .sort-indicator {
+            display: inline-block;
+            margin-left: 6px;
+            font-size: 11px;
+        }
+
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #eee;
+            font-size: 13px;
+        }
+
+        tbody tr:hover {
+            background: #f9f9f9;
+        }
+
+        tbody tr:nth-child(even) {
+            background: #fafafa;
+        }
+
+        .lot {
+            font-weight: 600;
+            color: #667eea;
+        }
+
+        .price {
+            font-weight: 600;
+            color: #27ae60;
+        }
+
+        .title {
+            max-width: 400px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            color: #333;
+        }
+
+        .date {
+            color: #666;
+            font-size: 12px;
+        }
+
+        .url {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .url:hover {
+            text-decoration: underline;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            max-height: 600px;
+            overflow-y: auto;
+        }
+
+        .empty-state {
+            padding: 40px;
+            text-align: center;
+            color: #999;
+        }
+
+        .empty-state p {
+            font-size: 16px;
+        }
+
+        footer {
+            padding: 20px 40px;
+            background: #f5f5f5;
+            border-top: 1px solid #ddd;
+            font-size: 12px;
+            color: #999;
+        }
+
+        @media (max-width: 768px) {
+            .controls {
+                flex-direction: column;
+            }
+
+            .control-group input {
+                min-width: 100%;
+            }
+
+            th, td {
+                padding: 8px 10px;
+                font-size: 12px;
+            }
+
+            .title {
+                max-width: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Heritage Lost Years Collection</h1>
+            <p>Comic book auction records - view, sort, and filter</p>
+        </header>
+
+        <div class="controls">
+            <div class="control-group">
+                <label for="searchInput">Search by Title:</label>
+                <input type="text" id="searchInput" placeholder="e.g., Spider-Man, Captain America...">
+            </div>
+
+            <div class="control-group">
+                <label for="priceMinInput">Min Price ($):</label>
+                <input type="number" id="priceMinInput" placeholder="0">
+            </div>
+
+            <div class="control-group">
+                <label for="priceMaxInput">Max Price ($):</label>
+                <input type="number" id="priceMaxInput" placeholder="1000000">
+            </div>
+
+            <div class="control-group">
+                <label for="dateFilter">Filter by Date:</label>
+                <input type="text" id="dateFilter" placeholder="e.g., Nov 2001">
+            </div>
+
+            <button class="btn" onclick="resetFilters()">Reset Filters</button>
+        </div>
+
+        <div class="stats">
+            <span>Showing <strong id="resultCount">0</strong> of <strong id="totalCount">0</strong> records</span>
+        </div>
+
+        <div class="table-wrapper">
+            <table id="dataTable">
+                <thead>
+                    <tr>
+                        <th onclick="sortTable('lot')">Lot <span class="sort-indicator" id="sort-lot"></span></th>
+                        <th onclick="sortTable('title')">Title <span class="sort-indicator" id="sort-title"></span></th>
+                        <th onclick="sortTable('price')">Price <span class="sort-indicator" id="sort-price"></span></th>
+                        <th onclick="sortTable('date')">Date <span class="sort-indicator" id="sort-date"></span></th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                </tbody>
+            </table>
+            <div id="emptyState" class="empty-state" style="display: none;">
+                <p>No records found matching your filters.</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>Data loaded from heritage-lost-years.json | Read-only viewer</p>
+        </footer>
+    </div>
+
+    <script>
+        let allData = [];
+        let filteredData = [];
+        let currentSort = { column: 'lot', direction: 'asc' };
+
+        // Load data
+        async function loadData() {
+            try {
+                const response = await fetch('./data/heritage-lost-years.json');
+                allData = await response.json();
+                filteredData = [...allData];
+                updateStats();
+                renderTable();
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('tableBody').innerHTML = '<tr><td colspan="5" class="empty-state"><p>Error loading data. Make sure heritage-lost-years.json is accessible.</p></td></tr>';
+            }
+        }
+
+        // Sort table
+        function sortTable(column) {
+            if (currentSort.column === column) {
+                currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+            } else {
+                currentSort.column = column;
+                currentSort.direction = 'asc';
+            }
+
+            filteredData.sort((a, b) => {
+                let aVal = a[column];
+                let bVal = b[column];
+
+                if (column === 'price') {
+                    aVal = parseFloat(aVal);
+                    bVal = parseFloat(bVal);
+                }
+
+                if (typeof aVal === 'string') {
+                    aVal = aVal.toLowerCase();
+                    bVal = bVal.toLowerCase();
+                }
+
+                let comparison = 0;
+                if (aVal < bVal) comparison = -1;
+                if (aVal > bVal) comparison = 1;
+
+                return currentSort.direction === 'asc' ? comparison : -comparison;
+            });
+
+            updateSortIndicators();
+            renderTable();
+        }
+
+        // Update sort indicators
+        function updateSortIndicators() {
+            document.querySelectorAll('.sort-indicator').forEach(el => el.textContent = '');
+            const indicator = currentSort.direction === 'asc' ? '▲' : '▼';
+            document.getElementById(`sort-${currentSort.column}`).textContent = indicator;
+        }
+
+        // Filter data
+        function applyFilters() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const priceMin = parseFloat(document.getElementById('priceMinInput').value) || 0;
+            const priceMax = parseFloat(document.getElementById('priceMaxInput').value) || Infinity;
+            const dateFilter = document.getElementById('dateFilter').value.toLowerCase();
+
+            filteredData = allData.filter(item => {
+                const matchesSearch = !searchTerm || item.title.toLowerCase().includes(searchTerm);
+                const matchesPrice = item.price >= priceMin && item.price <= priceMax;
+                const matchesDate = !dateFilter || item.date.toLowerCase().includes(dateFilter);
+
+                return matchesSearch && matchesPrice && matchesDate;
+            });
+
+            sortTable(currentSort.column);
+            updateStats();
+            renderTable();
+        }
+
+        // Reset filters
+        function resetFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('priceMinInput').value = '';
+            document.getElementById('priceMaxInput').value = '';
+            document.getElementById('dateFilter').value = '';
+            currentSort = { column: 'lot', direction: 'asc' };
+            applyFilters();
+        }
+
+        // Update stats
+        function updateStats() {
+            document.getElementById('resultCount').textContent = filteredData.length;
+            document.getElementById('totalCount').textContent = allData.length;
+        }
+
+        // Render table
+        function renderTable() {
+            const tbody = document.getElementById('tableBody');
+            const emptyState = document.getElementById('emptyState');
+
+            if (filteredData.length === 0) {
+                tbody.innerHTML = '';
+                emptyState.style.display = 'block';
+                return;
+            }
+
+            emptyState.style.display = 'none';
+            tbody.innerHTML = filteredData.map(item => `
+                <tr>
+                    <td class="lot">${escapeHtml(item.lot)}</td>
+                    <td class="title" title="${escapeHtml(item.title)}">${escapeHtml(item.title)}</td>
+                    <td class="price">$${item.price.toLocaleString()}</td>
+                    <td class="date">${escapeHtml(item.date)}</td>
+                    <td><a href="${item.url}" target="_blank" class="url">View →</a></td>
+                </tr>
+            `).join('');
+        }
+
+        // Escape HTML
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Event listeners
+        document.getElementById('searchInput').addEventListener('input', applyFilters);
+        document.getElementById('priceMinInput').addEventListener('input', applyFilters);
+        document.getElementById('priceMaxInput').addEventListener('input', applyFilters);
+        document.getElementById('dateFilter').addEventListener('input', applyFilters);
+
+        // Initialize
+        loadData();
+    </script>
+</body>
+</html>

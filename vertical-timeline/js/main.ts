@@ -1,7 +1,7 @@
-import { rawData } from "./data.js";
-import { CHART_CONFIG } from "./config.js";
-import { processTimelineData } from "./layout.js";
-import { renderTimeline } from "./render.js";
+import { rawData } from "./data";
+import { CHART_CONFIG } from "./config";
+import { processTimelineData } from "./layout";
+import { renderTimeline } from "./render";
 
 const { processedData, totalHeight } = processTimelineData(rawData, CHART_CONFIG);
 

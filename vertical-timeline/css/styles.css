@@ -1,0 +1,9 @@
+body { margin: 0; background-color: #e0f0ff; }
+#chart-container { width: 100%; display: flex; justify-content: center; }
+svg { background-color: #fff; box-shadow: 0 0 100px rgba(0,0,0,0.2); }
+
+.year-label { font-family: 'Bangers', cursive; font-size: 52px; fill: #000; text-shadow: 2px 2px 0px #fff; }
+.comic-title { font-family: 'Bangers', cursive; font-size: 32px; fill: #d11; }
+.price-tag { font-family: 'Bangers', cursive; font-size: 40px; fill: #000; }
+.comic-details { font-family: 'Permanent Marker', cursive; font-size: 18px; fill: #333; }
+.note-text { font-family: 'Permanent Marker', cursive; font-size: 16px; fill: #666; font-style: italic; }

@@ -28,3 +28,4 @@ node_modules
 dist.tgz
 
 .parcel-cache
+nohup.out

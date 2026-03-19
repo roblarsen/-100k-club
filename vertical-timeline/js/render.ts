@@ -1,4 +1,21 @@
-function createPathData({ isLeft, x, y, centerX, boxW, boxH, yearMargin, tailGap }) {
+// @ts-ignore: d3 is loaded globally in index.html
+declare const d3: typeof import('d3');
+
+import type { ComicRecord } from "./data.js";
+import type { ChartConfig } from "./layout.js";
+
+interface PathDataArgs {
+  isLeft: boolean;
+  x: number;
+  y: number;
+  centerX: number;
+  boxW: number;
+  boxH: number;
+  yearMargin: number;
+  tailGap: number;
+}
+
+function createPathData({ isLeft, x, y, centerX, boxW, boxH, yearMargin, tailGap }: PathDataArgs): string {
   if (!isLeft) {
     return `
       M ${x},${y}
@@ -22,7 +39,7 @@ function createPathData({ isLeft, x, y, centerX, boxW, boxH, yearMargin, tailGap
     Z`;
 }
 
-function setupSvg(containerSelector, width, totalHeight) {
+function setupSvg(containerSelector: string, width: number, totalHeight: number) {
   const svg = d3
     .select(containerSelector)
     .append("svg")
@@ -77,70 +94,82 @@ function setupSvg(containerSelector, width, totalHeight) {
     .attr("stroke-width", 12)
     .attr("filter", "url(#rough-ink)");
 
-  return svg;
-}
+    return svg;
+  }
 
-function renderEntries(svg, processedData, config) {
-  const formatPrice = d3.format("$,.0f");
+  function renderEntries(svg: any, processedData: ComicRecord[], config: ChartConfig): void {
+    const formatPrice = d3.format("$,.0f");
 
-  const entries = svg
-    .selectAll(".entry")
-    .data(processedData)
-    .enter()
-    .append("g")
-    .attr("transform", (entry) => `translate(0, ${entry.y})`);
-
-  entries.each(function(entry) {
-    const g = d3.select(this);
-    const isLeft = entry.side === "left";
-    const centerX = config.width / 2;
-    const x = isLeft ? centerX - config.gutterWidth - config.boxW : centerX + config.gutterWidth;
-    const y = -config.boxH / 2;
-
-    const pathData = createPathData({
-      isLeft,
-      x,
-      y,
-      centerX,
-      boxW: config.boxW,
-      boxH: config.boxH,
-      yearMargin: config.yearMargin,
-      tailGap: config.tailGap
-    });
-
-    g
-      .append("path")
-      .attr("d", pathData.replace(/\s+/g, " ").trim())
-      .attr("fill", "#fff")
-      .attr("stroke", "#000")
-      .attr("stroke-width", 6)
-      .attr("filter", "url(#rough-ink)");
-
-    g
-      .append("text")
-      .attr("class", "year-label")
-      .attr("text-anchor", "middle")
-      .attr("x", centerX)
-      .attr("y", 18)
-      .text(entry.date.substring(0, 4));
-
-    const textGroup = g
+    const entries = svg
+      .selectAll(".entry")
+      .data(processedData)
+      .enter()
       .append("g")
-      .attr("transform", `translate(${x + config.textPaddingX}, ${y + config.textPaddingY})`);
+      .attr("transform", (entry: ComicRecord) => `translate(0, ${entry.y})`);
 
-    textGroup.append("text").attr("class", "comic-title").text(`${entry.title} #${entry.issue}`);
-    textGroup.append("text").attr("class", "price-tag").attr("y", 55).text(formatPrice(entry.price));
+    entries.each(function(this: SVGGElement, entry: ComicRecord) {
+      const g = d3.select(this);
+      const isLeft = entry.side === "left";
+      const centerX = config.width / 2;
+      const x = isLeft ? centerX - config.gutterWidth - config.boxW : centerX + config.gutterWidth;
+      const y = -config.boxH / 2;
 
-    const details = entry.grade ? `Grade: ${entry.grade}` : "";
-    textGroup.append("text").attr("class", "comic-details").attr("y", 95).text(details);
+      const pathData = createPathData({
+        isLeft,
+        x,
+        y,
+        centerX,
+        boxW: config.boxW,
+        boxH: config.boxH,
+        yearMargin: config.yearMargin,
+        tailGap: config.tailGap
+      });
 
-    if (entry.note) {
-      textGroup.append("text").attr("class", "note-text").attr("y", 130).text(`"${entry.note}"`);
-    }
-  });
+      g
+        .append("path")
+        .attr("d", pathData.replace(/\s+/g, " ").trim())
+        .attr("fill", "#fff")
+        .attr("stroke", "#000")
+        .attr("stroke-width", 6)
+        .attr("filter", "url(#rough-ink)");
+
+      g
+        .append("text")
+        .attr("class", "year-label")
+        .attr("text-anchor", "middle")
+        .attr("x", centerX)
+        .attr("y", 18)
+        .text(entry.date.substring(0, 4));
+
+      const textGroup = g
+        .append("g")
+        .attr("transform", `translate(${x + config.textPaddingX}, ${y + config.textPaddingY})`);
+
+      textGroup.append("text").attr("class", "comic-title").text(`${entry.title} #${entry.issue}`);
+      textGroup.append("text").attr("class", "price-tag").attr("y", 55).text(formatPrice(entry.price));
+
+      const details = entry.grade ? `Grade: ${entry.grade}` : "";
+      textGroup.append("text").attr("class", "comic-details").attr("y", 95).text(details);
+
+      if (entry.note) {
+        textGroup.append("text").attr("class", "note-text").attr("y", 130).text(`"${entry.note}"`);
+      }
+    });
+  }
+
+export interface RenderTimelineArgs {
+  containerSelector: string;
+  processedData: ComicRecord[];
+  totalHeight: number;
+  config: ChartConfig;
 }
 
-export function renderTimeline({ containerSelector, processedData, totalHeight, config }) {
+export function renderTimeline({
+  containerSelector,
+  processedData,
+  totalHeight,
+  config,
+}: RenderTimelineArgs): void {
   const svg = setupSvg(containerSelector, config.width, totalHeight);
   renderEntries(svg, processedData, config);
 }

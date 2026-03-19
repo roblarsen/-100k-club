@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "description": "Local static server for the vertical timeline demo",
   "scripts": {
-    "start": "npx http-server dist -p 4173 -c-1",
+    "build": "tsc --project tsconfig.json",
+    "start": "npm run build && npx http-server . -p 4173 -c-1",
     "dev": "npm run start"
   },
   "devDependencies": {

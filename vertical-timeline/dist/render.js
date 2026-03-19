@@ -119,7 +119,7 @@ function renderEntries(svg, processedData, config) {
         }
     });
 }
-export function renderTimeline({ containerSelector, processedData, totalHeight, config }) {
+export function renderTimeline({ containerSelector, processedData, totalHeight, config, }) {
     const svg = setupSvg(containerSelector, config.width, totalHeight);
     renderEntries(svg, processedData, config);
 }

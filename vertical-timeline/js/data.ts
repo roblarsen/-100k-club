@@ -1,4 +1,15 @@
-export const rawData = [
+export interface ComicRecord {
+  title: string;
+  issue: string;
+  grade?: string;
+  note?: string;
+  date: string;
+  price: number;
+  y?: number;
+  side?: 'left' | 'right';
+}
+
+export const rawData: ComicRecord[] = [
   {"title": "Action Comics", "issue": "1", "grade": "9.0", "note": "Cage Copy", "date": "2026-01-09", "price": 15000000},
   {"title": "Superman", "issue": "1", "grade": "9.0", "note": "Lee Family Collection", "date": "2025-11-20", "price": 9120000},
   {"title": "Action Comics", "issue": "1", "grade": "8.5", "note": "Kansas City", "date": "2024-04-07", "price": 6000000},
@@ -31,4 +42,4 @@ export const rawData = [
   {"title": "Action", "issue": "1", "date": "1973-04-02", "price": 1000},
   {"title": "Marvel Comics", "issue": "1", "date": "1968-01-01", "price": 330},
   {"title": "Action Comics", "issue": "1", "date": "1965-01-01", "price": 250}
-].sort((a, b) => new Date(a.date) - new Date(b.date));
+].sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());

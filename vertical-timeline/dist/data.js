@@ -31,4 +31,4 @@ export const rawData = [
     { "title": "Action", "issue": "1", "date": "1973-04-02", "price": 1000 },
     { "title": "Marvel Comics", "issue": "1", "date": "1968-01-01", "price": 330 },
     { "title": "Action Comics", "issue": "1", "date": "1965-01-01", "price": 250 }
-].sort((a, b) => new Date(a.date) - new Date(b.date));
+].sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());

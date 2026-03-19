@@ -86,13 +86,20 @@ const svg = d3
 
 const defs = svg.append("defs");
 
+// Using filterUnits="userSpaceOnUse" with absolute pixel coordinates is
+// critical for elements whose bounding box has zero width or height (e.g.,
+// a perfectly horizontal or vertical leader line).  With the default
+// objectBoundingBox mode, the filter region computes as 110% of 0px = 0px,
+// causing the element to render as invisible.  Absolute coordinates ensure
+// every element in the SVG is covered regardless of its own dimensions.
 defs
   .append("filter")
   .attr("id", "sketchy")
-  .attr("x", "-5%")
-  .attr("y", "-5%")
-  .attr("width", "110%")
-  .attr("height", "110%")
+  .attr("filterUnits", "userSpaceOnUse")
+  .attr("x", -margin.left)
+  .attr("y", -margin.top)
+  .attr("width", width)
+  .attr("height", height)
   .html(`
     <feTurbulence type="fractalNoise" baseFrequency="0.025 0.030"
       numOctaves="4" seed="2" result="noise"/>
@@ -104,10 +111,11 @@ defs
 defs
   .append("filter")
   .attr("id", "sketchy-line")
-  .attr("x", "-5%")
-  .attr("y", "-5%")
-  .attr("width", "110%")
-  .attr("height", "110%")
+  .attr("filterUnits", "userSpaceOnUse")
+  .attr("x", -margin.left)
+  .attr("y", -margin.top)
+  .attr("width", width)
+  .attr("height", height)
   .html(`
     <feTurbulence type="fractalNoise" baseFrequency="0.030 0.040"
       numOctaves="4" seed="7" result="noise"/>
@@ -439,44 +447,73 @@ function placeLabel(
 }
 
 // ── Leader line builder ───────────────────────────────────────────────────────
-// Draws an L-shaped (elbow) connector: dot edge → bend → label edge midpoint.
-// Straight when the label is perfectly aligned with the dot.
+// Draws an L-shaped connector from the dot edge to the nearest corner/edge of
+// the label box that faces the dot.  Every segment stays *outside* the label
+// box so the white fill never hides part of the line.
+//
+// "right"  → dot is LEFT of label  → attach to label left edge
+// "left"   → dot is RIGHT of label → attach to label right edge
+// "above"  → dot is BELOW label    → attach to label bottom edge
+// "below"  → dot is ABOVE label    → attach to label top edge
 function buildLeader(cx: number, cy: number, lx: number, ly: number, side: Side): string {
-  const lcx = lx + labelWidth  / 2;
-  const lcy = ly + labelHeight / 2;
-  const clampX = (v: number) => Math.max(lx + 8, Math.min(lx + labelWidth  - 8, v));
-  const clampY = (v: number) => Math.max(ly + 8, Math.min(ly + labelHeight - 8, v));
-
-  let dax: number, day: number; // dot attachment point
-  let lax: number, lay: number; // label attachment point
+  const lRight  = lx + labelWidth;
+  const lBottom = ly + labelHeight;
 
   switch (side) {
-    case "right":
-      dax = cx + dotR + 3; day = cy;
-      lax = lx;            lay = clampY(lcy);
-      if (Math.abs(day - lay) < 8) return `M ${dax} ${day} L ${lax} ${lay}`;
-      // Elbow: horizontal to label x-edge, then vertical to label midpoint y.
-      return `M ${dax} ${day} L ${lax} ${day} L ${lax} ${lay}`;
+    case "right": {
+      // Dot left of label — leader attaches to the label LEFT edge.
+      const dax = cx + dotR + 3;
+      if (cy < ly) {
+        // Dot is above the label: go right to label-left at dot-y, then down to label top.
+        return `M ${dax} ${cy} L ${lx} ${cy} L ${lx} ${ly}`;
+      } else if (cy > lBottom) {
+        // Dot is below the label: go right to label-left at dot-y, then up to label bottom.
+        return `M ${dax} ${cy} L ${lx} ${cy} L ${lx} ${lBottom}`;
+      } else {
+        // Dot y is within the label's vertical span: straight horizontal.
+        return `M ${dax} ${cy} L ${lx} ${cy}`;
+      }
+    }
 
-    case "left":
-      dax = cx - dotR - 3;    day = cy;
-      lax = lx + labelWidth;  lay = clampY(lcy);
-      if (Math.abs(day - lay) < 8) return `M ${dax} ${day} L ${lax} ${lay}`;
-      return `M ${dax} ${day} L ${lax} ${day} L ${lax} ${lay}`;
+    case "left": {
+      // Dot right of label — leader attaches to the label RIGHT edge.
+      const dax = cx - dotR - 3;
+      if (cy < ly) {
+        return `M ${dax} ${cy} L ${lRight} ${cy} L ${lRight} ${ly}`;
+      } else if (cy > lBottom) {
+        return `M ${dax} ${cy} L ${lRight} ${cy} L ${lRight} ${lBottom}`;
+      } else {
+        return `M ${dax} ${cy} L ${lRight} ${cy}`;
+      }
+    }
 
-    case "above":
-      dax = cx; day = cy - dotR - 3;
-      lax = clampX(lcx); lay = ly + labelHeight;
-      if (Math.abs(dax - lax) < 8) return `M ${dax} ${day} L ${lax} ${lay}`;
-      // Elbow: vertical to label y-edge, then horizontal to label midpoint x.
-      return `M ${dax} ${day} L ${dax} ${lay} L ${lax} ${lay}`;
+    case "above": {
+      // Dot below label — leader attaches to the label BOTTOM edge.
+      const day = cy - dotR - 3;
+      if (cx < lx) {
+        // Dot is left of label: go up to label-bottom at dot-x, then right to label left.
+        return `M ${cx} ${day} L ${cx} ${lBottom} L ${lx} ${lBottom}`;
+      } else if (cx > lRight) {
+        // Dot is right of label: go up to label-bottom at dot-x, then left to label right.
+        return `M ${cx} ${day} L ${cx} ${lBottom} L ${lRight} ${lBottom}`;
+      } else {
+        // Dot x within the label's horizontal span: straight vertical.
+        return `M ${cx} ${day} L ${cx} ${lBottom}`;
+      }
+    }
 
     case "below":
-    default:
-      dax = cx; day = cy + dotR + 3;
-      lax = clampX(lcx); lay = ly;
-      if (Math.abs(dax - lax) < 8) return `M ${dax} ${day} L ${lax} ${lay}`;
-      return `M ${dax} ${day} L ${dax} ${lay} L ${lax} ${lay}`;
+    default: {
+      // Dot above label — leader attaches to the label TOP edge.
+      const day = cy + dotR + 3;
+      if (cx < lx) {
+        return `M ${cx} ${day} L ${cx} ${ly} L ${lx} ${ly}`;
+      } else if (cx > lRight) {
+        return `M ${cx} ${day} L ${cx} ${ly} L ${lRight} ${ly}`;
+      } else {
+        return `M ${cx} ${day} L ${cx} ${ly}`;
+      }
+    }
   }
 }
 

@@ -1,0 +1,146 @@
+/* timeline-animation — handwritten comic book style */
+
+@font-face {
+  font-family: 'Bangers';
+  src: url('Bangers.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 20px;
+  font-family: 'Bangers', cursive;
+}
+
+.page-title {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.page-title h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 4rem;
+  letter-spacing: 4px;
+  color: #000;
+  margin: 0;
+  text-shadow: 3px 3px 0 #ccc;
+}
+
+.page-title .subtitle {
+  font-family: 'Bangers', cursive;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  color: #333;
+  margin: 5px 0 0;
+}
+
+#viz {
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+#viz svg {
+  display: block;
+}
+
+/* SVG element styles */
+.axis text {
+  font-family: 'Bangers', cursive;
+  font-size: 22px;
+  fill: #000;
+  letter-spacing: 1px;
+}
+
+.axis path,
+.axis line {
+  stroke: #000;
+  stroke-width: 2px;
+  fill: none;
+}
+
+.axis .tick line {
+  stroke: #ccc;
+  stroke-width: 1px;
+  stroke-dasharray: 4 4;
+}
+
+.grid line {
+  stroke: #ddd;
+  stroke-dasharray: 6 4;
+}
+
+.chart-line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 3px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.dot {
+  fill: #fff;
+  stroke: #000;
+  stroke-width: 2.5px;
+}
+
+/* Label box styling */
+.label-box {
+  fill: #fff;
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+.label-title {
+  font-family: 'Bangers', cursive;
+  font-size: 18px;
+  fill: #000;
+  letter-spacing: 1px;
+}
+
+.label-issue {
+  font-family: 'Bangers', cursive;
+  font-size: 14px;
+  fill: #333;
+  letter-spacing: 0.5px;
+}
+
+.label-price {
+  font-family: 'Bangers', cursive;
+  font-size: 16px;
+  fill: #000;
+  letter-spacing: 0.5px;
+}
+
+.label-date {
+  font-family: 'Bangers', cursive;
+  font-size: 13px;
+  fill: #555;
+}
+
+.connector-line {
+  stroke: #000;
+  stroke-width: 1.5px;
+  stroke-dasharray: 5 3;
+  fill: none;
+}
+
+.axis-label {
+  font-family: 'Bangers', cursive;
+  font-size: 26px;
+  fill: #000;
+  letter-spacing: 2px;
+}
+
+.chart-title {
+  font-family: 'Bangers', cursive;
+  font-size: 40px;
+  fill: #000;
+  letter-spacing: 3px;
+}

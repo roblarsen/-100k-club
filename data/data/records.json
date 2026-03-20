@@ -11,7 +11,7 @@
       "seller": "ComicConnect",
       "price": 15000000,
       "goodDate": true,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
        {
         "title": "Superman",
@@ -26,7 +26,7 @@
       "seller": "Heritage",
 
       "goodDate": true,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
      {
    
@@ -39,7 +39,7 @@
       "seller": "Heritage",
       "price": 6000000,
       "goodDate": true,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Superman",
@@ -51,7 +51,7 @@
       "buyer": "",
       "note": "Edgar Church",
       "goodDate": true,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Amazing Fantasy",
@@ -63,7 +63,7 @@
       "buyer": "",
       "note": "",
       "goodDate": true,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Action Comics",
@@ -75,7 +75,7 @@
       "seller": "ComicConnect",
       "price": 3250000,
       "goodDate": true,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Action Comics",
@@ -87,7 +87,7 @@
       "seller": "Pristine Comics on eBay",
       "price": 3207852,
       "goodDate": true,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Action Comics",
@@ -99,7 +99,7 @@
       "seller": "ComicConnect",
       "price": 2161000,
       "goodDate": true,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Action Comics",
@@ -111,7 +111,7 @@
       "seller": "ComicConnect",
       "price": 1500000,
       "goodDate": true,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Detective Comics",
@@ -123,7 +123,7 @@
       "seller": "Heritage",
       "price": 1075000,
       "goodDate": true,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Action Comics",
@@ -135,7 +135,7 @@
       "seller": "ComicConnect",
       "price": 1000000,
       "goodDate": true,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Flash Comics",
@@ -147,7 +147,7 @@
       "seller": "unknown",
       "price": 350000,
       "goodDate": false,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Marvel Comics",
@@ -159,7 +159,7 @@
       "seller": "Steve Geppi",
       "price": 350000,
       "goodDate": true,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Detective Comics",
@@ -171,7 +171,7 @@
       "seller": "Mastronet",
       "price": 278210,
       "goodDate": false,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Captain America Comics",
@@ -183,7 +183,7 @@
       "seller": "unknown",
       "price": 260000,
       "goodDate": false,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Superman",
@@ -195,7 +195,7 @@
       "seller": "Red Beard",
       "price": 170000,
       "goodDate": true,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Action Comics",
@@ -207,7 +207,7 @@
       "seller": "PCE",
       "price": 137500,
       "goodDate": false,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Detective Comics",
@@ -219,7 +219,7 @@
       "seller": "Dave Anderson?",
       "price": 125000,
       "goodDate": false,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Detective Comics",
@@ -231,7 +231,7 @@
       "seller": "Dave Anderson (OK)",
       "price": 101000,
       "goodDate": false,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Action Comics",
@@ -243,7 +243,7 @@
       "price": 82500,
       "date": "1992-09-30",
       "goodDate": true,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Detective Comics",
@@ -255,7 +255,7 @@
       "seller": "Metropolis",
       "date": "1990-01-01",
       "goodDate": false,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Marvel Comics",
@@ -267,7 +267,7 @@
       "price": 35000,
       "date": "1984-01-01",
       "goodDate": false,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Marvel Comics",
@@ -279,7 +279,7 @@
       "seller": "MHC through Steve Geppi",
       "price": 13500,
       "goodDate": false,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Marvel Comics",
@@ -291,7 +291,7 @@
       "seller": "Robert Crestohl?",
       "price": 7500,
       "goodDate": false,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Motion Picture Funnies Weekly",
@@ -303,7 +303,7 @@
       "seller": "unknown",
       "price": 6300,
       "goodDate": false,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Action",
@@ -315,7 +315,7 @@
       "seller": "Mitch Mehdy",
       "price": 2500,
       "goodDate": false,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Whiz",
@@ -327,7 +327,7 @@
       "seller": "Comics & Comix",
       "price": 2000,
       "goodDate": true,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Action",
@@ -339,7 +339,7 @@
       "seller": "Gene Henderson",
       "price": 1000,
       "goodDate": true,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Action",
@@ -351,7 +351,7 @@
       "seller": "Bruce Hamilton",
       "price": 1500.00,
       "goodDate": true,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Action",
@@ -363,7 +363,7 @@
       "seller": "Theo Hostein",
       "price": 1801.26,
       "goodDate": true,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Marvel Comics",
@@ -375,7 +375,7 @@
       "seller": "Howard Rogolfsky",
       "price": 330,
       "goodDate": false,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     },
     {
       "title": "Action Comics",
@@ -387,7 +387,7 @@
       "seller": "unknown",
       "price": 250,
       "goodDate": false,
-      "inflationAdjustedPrice": ""
+      "inflationAdjustedPrice": 0
     }
   ]
 }

@@ -10,6 +10,7 @@
   "license": "MIT",
   "author": "Rob Larsen",
   "scripts": {
+    "update:cpi": "ts-node ./scripts/update-cpi-data.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.prod.ts",
     "start": "webpack serve --config webpack.config.dev.ts",

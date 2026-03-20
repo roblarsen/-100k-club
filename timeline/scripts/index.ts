@@ -48,7 +48,7 @@ const list = d3.select('#data')
 const x = d3.scaleTime()
   .rangeRound([0, width - xMargin]);
 
-const y = d3.scaleLinear()
+const y = d3.scaleLog()
   .rangeRound([height - yMargin, 0]);
 
 
@@ -86,7 +86,8 @@ x.domain([
 const max = d3.max(sales, (d) => {
   return Math.ceil(d.price / 500000) * 500000;
 })
-y.domain([0, max + (max*.10)]);
+const min = d3.min(sales, (d) => Math.min(d.price, d.inflationAdjustedPrice));
+y.domain([min, max + (max*.10)]);
 const years = parseInt(moment().format('YYYY')) - parseInt(moment(x.domain()[0]).format('YYYY'));
 
 const axis = g.append('g')

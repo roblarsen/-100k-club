@@ -1,0 +1,51 @@
+name: Update CPI data
+
+on:
+  schedule:
+    # Monthly on the 1st at 00:00 UTC
+    - cron: "0 0 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-cpi:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install
+        run: npm ci
+
+      - name: Update CPI data
+        run: npm run update:cpi
+
+      - name: Build dist
+        run: npm run build
+
+      - name: Commit and push if changed
+        run: |
+          set -e
+
+          if [[ -z "$(git status --porcelain)" ]]; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add timeline dist
+          git commit -m "Update CPI data ($(date -u +'%Y-%m-%d'))"
+          git push origin main

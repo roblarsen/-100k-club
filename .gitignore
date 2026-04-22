@@ -29,3 +29,6 @@ dist.tgz
 
 .parcel-cache
 nohup.out
+
+# Playwright auth session – contains cookies/tokens, never commit
+auth.json

@@ -23,11 +23,13 @@ def main():
         context = browser.new_context()
         page = context.new_page()
 
-        print("Browser is open.")
-        print("Please log in to the auction sites you need (Heritage, ComicLink, etc.).")
-        print("When you are finished, return here and press ENTER to save your session.")
+        # Open Heritage Auctions as the default starting point;
+        # the user can navigate to any other site (e.g. ComicLink) from there.
+        page.goto("https://www.ha.com/c/login.zx")
 
-        page.goto("about:blank")
+        print("Browser is open and pointed at the Heritage Auctions login page.")
+        print("Log in to any auction sites you need (Heritage, ComicLink, etc.).")
+        print("When you are finished, return here and press ENTER to save your session.")
 
         input("\nPress ENTER to save session and close the browser...")
 

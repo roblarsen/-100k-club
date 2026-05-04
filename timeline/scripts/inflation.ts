@@ -28,10 +28,22 @@ function pad2(n: number) {
 function getCpi(year: number, month?: number) {
   const key = month ? `${year}-${pad2(month)}` : `${year}-00`;
   const v = typedCpiData.series[key];
-  if (typeof v !== "number") {
-    throw new Error(`Missing CPI value for ${key}`);
+  if (typeof v === "number") return v;
+
+  // Annual average is missing (e.g. the year has only partial monthly data).
+  // Fall back to computing the average from whatever monthly entries exist.
+  if (!month) {
+    const monthlyValues: number[] = [];
+    for (let m = 1; m <= 12; m++) {
+      const mv = typedCpiData.series[`${year}-${pad2(m)}`];
+      if (typeof mv === "number") monthlyValues.push(mv);
+    }
+    if (monthlyValues.length > 0) {
+      return monthlyValues.reduce((a, b) => a + b, 0) / monthlyValues.length;
+    }
   }
-  return v;
+
+  throw new Error(`Missing CPI value for ${key}`);
 }
 
 export function inflation(initialFrom: InflationInput, initialTo?: Partial<InflationInput>) {

@@ -40,10 +40,8 @@ function main() {
   raw.cpi.forEach((row, rowIndex) => {
     const year = raw.firstYear + rowIndex;
 
-    if (!Array.isArray(row) || row.length !== 12) {
-      // Some packages may have partial final year; handle len>=1 safely
-      // but annual average only when we have 12 months.
-      // We'll still write what we have.
+    if (!Array.isArray(row) || row.length === 0) {
+      return; // skip completely empty rows
     }
 
     const months: number[] = [];
@@ -56,8 +54,13 @@ function main() {
       months.push(v);
     }
 
-    // Annual average: only if we have all 12 months numeric
-    if (months.length === 12) {
+    // Annual average: write whenever we have at least one month of data.
+    // For complete years (12 months) this is the true annual average; for partial
+    // years (e.g. the current calendar year where only a few months have been
+    // published) it is the average of the available months, which is the best
+    // approximation we can provide and prevents a "Missing CPI value" error at
+    // runtime.
+    if (months.length >= 1) {
       // Round to 1 decimal to align with typical CPI annual-average presentation,
       // without losing too much precision.
       const avg = Math.round(mean(months) * 10) / 10;

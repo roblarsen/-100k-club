@@ -10765,6 +10765,26 @@
         }
       ],
       "id": "0647"
+    },
+    {
+      "title": "Action Comics",
+      "issue": "1",
+      "publisher": "DC Comics",
+      "grade": "7.0",
+      "gradeSrc": "CGC",
+      "cgcid": "4685861001",
+      "pedigree": "",
+      "tags": "superman, dc, action",
+      "generalCommentary": "",
+      "sales": [
+        {
+          "price": "5000000",
+          "salesDate": "2026-03-17",
+          "venue": "comicconnect",
+          "link": "https://www.comicconnect.com/item/1095570?_kx=gGT4SN3GSZDZvM967GZPVFPmMojhKeVXtf0cZAtt1qU.Smm6SF&tzf=1"
+        }
+      ],
+      "id": "0648"
     }
   ]
 }

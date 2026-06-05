@@ -137,6 +137,12 @@
           "salesDate": "1992-01-01",
           "price": "82500",
           "venue": "sothebys"
+        },
+        {
+          "price": "15000000",
+          "salesDate": "2026-01-10",
+          "venue": "comicconnect",
+          "link": "https://www.comicconnect.com/item/1091567"
         }
       ],
       "id": "0007"

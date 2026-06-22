@@ -18,6 +18,8 @@ export function saleList( data: Array<AltAssetComic> ): Array<RecordSale> {
                 event.financials &&
                 event.financials.amount >= 100000
             ) {
+                // First qualifier conventionally holds the pedigree name (e.g. "Edgar Church").
+                // Additional qualifiers (e.g. "Restored", "Signature Series") are grading modifiers.
                 const pedigree = d.currentAuthentication.qualifiers?.[0] ?? '';
                 const gradeSrc = d.currentAuthentication.grader.toUpperCase();
                 const grade = d.currentAuthentication.rawGradeString;

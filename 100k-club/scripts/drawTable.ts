@@ -40,6 +40,7 @@ export function drawTable(data: Array<AltAssetComic>) {
         columnDefs: [
             { headerName: "Title", sortable: true, filter: true, valueGetter: params => params.data.customMetadata.title },
             { headerName: "Issue #", sortable: true, filter: true, valueGetter: params => params.data.customMetadata.issueNumber },
+            // First qualifier conventionally holds the pedigree name; additional qualifiers are grading modifiers.
             { headerName: "Pedigree", sortable: true, filter: true, valueGetter: params => params.data.currentAuthentication.qualifiers?.[0] ?? '' },
             { headerName: "Grade Source", sortable: true, filter: true, valueGetter: params => params.data.currentAuthentication.grader },
             { headerName: "Grade", sortable: true, filter: true, valueGetter: params => params.data.currentAuthentication.rawGradeString },

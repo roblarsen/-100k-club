@@ -5,7 +5,7 @@ import booksSpec from "../../data/data/books.spec.json";
 const books: Array<AltAssetComic> = (booksSpec as unknown[]).filter(
     (item: unknown): item is AltAssetComic => {
         if (!isAltAsset(item)) {
-            console.warn(`Skipping invalid record: ${String((item as Record<string, unknown>)?.urn ?? JSON.stringify(item).substring(0, 60))}`);
+            console.warn('Skipping record that failed isAltAsset() validation');
             return false;
         }
         return item.assetClass === 'comic';

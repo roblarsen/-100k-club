@@ -11,8 +11,12 @@
     "noImplicitAny": false,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "alt-asset-spec": ["../../alt-asset-spec/dist/index.d.ts"],
+      "alt-asset-spec/*": ["../../alt-asset-spec/dist/*"]
+    },
   "types": ["webpack-dev-server"]
   },
-  "include": ["scripts/**/*", "../core/formatCurrency.ts", "../core/dateFormatter.ts", "../core/getVenueName.ts"],
-  "paths": ["node_modules/**/*"]
+  "include": ["scripts/**/*", "../core/RecordSale.ts", "../core/formatCurrency.ts", "../core/dateFormatter.ts", "../core/getVenueName.ts", "../core/venues.ts"]
 }

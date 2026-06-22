@@ -26,9 +26,18 @@ interface LegacyBookRecord {
  * Cleanly formats scraped date strings into ISO 8601 month tokens (YYYY-MM)
  */
 function normalizeDate(rawDate: string): string {
-  const clean = rawDate.toLowerCase();
-  const yearMatch = clean.match(/\b\d{4}\b/);
-  const year = yearMatch ? yearMatch[0] : '2026';
+  const clean = rawDate.trim();
+
+  // Handle ISO date formats: YYYY-MM-DD or YYYY-MM
+  const isoMatch = clean.match(/^(\d{4})-(\d{2})/);
+  if (isoMatch) {
+    return `${isoMatch[1]}-${isoMatch[2]}`;
+  }
+
+  // Handle text-based dates like "March 2010", "Apr 2010"
+  const lc = clean.toLowerCase();
+  const yearMatch = lc.match(/\b(\d{4})\b/);
+  const year = yearMatch ? yearMatch[1] : '2026';
 
   const months: Record<string, string> = {
     jan: '01', feb: '02', mar: '03', apr: '04', may: '05', jun: '06',
@@ -37,7 +46,7 @@ function normalizeDate(rawDate: string): string {
 
   let month = '01';
   for (const [key, val] of Object.entries(months)) {
-    if (clean.includes(key)) { month = val; break; }
+    if (lc.includes(key)) { month = val; break; }
   }
   return `${year}-${month}`;
 }

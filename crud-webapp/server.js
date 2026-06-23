@@ -14,10 +14,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
 // Data file paths
-const DATA_DIR = '../data/data';
-const BOOKS_FILE = path.join(__dirname, DATA_DIR, 'books.dev.json');
-const RECORDS_FILE = path.join(__dirname, DATA_DIR, 'records.json');
-const SA_PEDIGREES_FILE = path.join(__dirname, DATA_DIR, 'sa-pedigrees.dev.json');
+const BOOKS_FILE = path.join(__dirname, '../data/books.json');
+const RECORDS_FILE = path.join(__dirname, '../data/data/records.json');
+const SA_PEDIGREES_FILE = path.join(__dirname, '../data/data/sa-pedigrees.dev.json');
 
 // Helper function to read JSON file
 async function readJSONFile(filePath) {
@@ -40,7 +39,13 @@ async function writeJSONFile(filePath, data) {
     }
 }
 
-// Routes for Books
+// Helper to build a URN from book metadata
+function buildUrn(publisher, title, issue, index) {
+    const slug = str => String(str).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    return `urn:altasset:comic:${slug(publisher)}:${slug(title)}:${slug(issue)}:inst-${index}`;
+}
+
+// Routes for Books (AltAssetComic format — data/books.json is a plain array)
 app.get('/api/books', async (req, res) => {
     try {
         const data = await readJSONFile(BOOKS_FILE);
@@ -50,14 +55,14 @@ app.get('/api/books', async (req, res) => {
     }
 });
 
-app.get('/api/books/:id', async (req, res) => {
+app.get('/api/books/:index', async (req, res) => {
     try {
         const data = await readJSONFile(BOOKS_FILE);
-        const book = data.books.find(b => b.id === req.params.id);
-        if (!book) {
+        const index = parseInt(req.params.index);
+        if (isNaN(index) || index < 0 || index >= data.length) {
             return res.status(404).json({ error: 'Book not found' });
         }
-        res.json(book);
+        res.json(data[index]);
     } catch (error) {
         res.status(500).json({ error: 'Failed to read book data' });
     }
@@ -66,47 +71,91 @@ app.get('/api/books/:id', async (req, res) => {
 app.post('/api/books', async (req, res) => {
     try {
         const data = await readJSONFile(BOOKS_FILE);
-        const newBook = req.body;
-        
-        // Generate new ID
-        const maxId = Math.max(...data.books.map(b => parseInt(b.id) || 0));
-        newBook.id = String(maxId + 1).padStart(4, '0');
-        
-        data.books.push(newBook);
+        const body = req.body;
+        const index = data.length;
+        const publisher = body.publisher || 'Unknown';
+        const title = body.title || 'Unknown';
+        const issue = body.issueNumber || '0';
+
+        const newBook = {
+            urn: buildUrn(publisher, title, issue, index),
+            schemaVersion: '1.0.0',
+            assetClass: 'comic',
+            currentAuthentication: {
+                grader: body.grader || 'Unknown',
+                numericGrade: parseFloat(body.rawGradeString) || 0,
+                rawGradeString: body.rawGradeString || '',
+                isActive: true,
+                qualifiers: body.pedigree ? [body.pedigree] : []
+            },
+            provenanceLedger: [],
+            tags: body.tags ? body.tags.split(',').map(t => t.trim()).filter(Boolean) : [],
+            generalCommentary: body.generalCommentary || '',
+            customMetadata: {
+                publisher,
+                title,
+                issueNumber: issue,
+                publicationDate: body.publicationDate || 'Unknown',
+                ...(body.cgcId ? { cgcId: body.cgcId } : {})
+            }
+        };
+
+        data.push(newBook);
         await writeJSONFile(BOOKS_FILE, data);
-        res.status(201).json(newBook);
+        res.status(201).json({ _index: index, ...newBook });
     } catch (error) {
         res.status(500).json({ error: 'Failed to create book' });
     }
 });
 
-app.put('/api/books/:id', async (req, res) => {
+app.put('/api/books/:index', async (req, res) => {
     try {
         const data = await readJSONFile(BOOKS_FILE);
-        const bookIndex = data.books.findIndex(b => b.id === req.params.id);
-        
-        if (bookIndex === -1) {
+        const index = parseInt(req.params.index);
+        if (isNaN(index) || index < 0 || index >= data.length) {
             return res.status(404).json({ error: 'Book not found' });
         }
-        
-        data.books[bookIndex] = { ...data.books[bookIndex], ...req.body };
+
+        const existing = data[index];
+        const body = req.body;
+
+        data[index] = {
+            ...existing,
+            currentAuthentication: {
+                ...existing.currentAuthentication,
+                grader: body.grader !== undefined ? body.grader : existing.currentAuthentication.grader,
+                numericGrade: body.rawGradeString !== undefined ? (parseFloat(body.rawGradeString) || 0) : existing.currentAuthentication.numericGrade,
+                rawGradeString: body.rawGradeString !== undefined ? body.rawGradeString : existing.currentAuthentication.rawGradeString,
+                qualifiers: body.pedigree !== undefined ? (body.pedigree ? [body.pedigree] : []) : existing.currentAuthentication.qualifiers
+            },
+            tags: body.tags !== undefined ? body.tags.split(',').map(t => t.trim()).filter(Boolean) : existing.tags,
+            generalCommentary: body.generalCommentary !== undefined ? body.generalCommentary : existing.generalCommentary,
+            customMetadata: {
+                ...existing.customMetadata,
+                ...(body.publisher !== undefined && { publisher: body.publisher }),
+                ...(body.title !== undefined && { title: body.title }),
+                ...(body.issueNumber !== undefined && { issueNumber: body.issueNumber }),
+                ...(body.publicationDate !== undefined && { publicationDate: body.publicationDate }),
+                ...(body.cgcId !== undefined && { cgcId: body.cgcId })
+            }
+        };
+
         await writeJSONFile(BOOKS_FILE, data);
-        res.json(data.books[bookIndex]);
+        res.json(data[index]);
     } catch (error) {
         res.status(500).json({ error: 'Failed to update book' });
     }
 });
 
-app.delete('/api/books/:id', async (req, res) => {
+app.delete('/api/books/:index', async (req, res) => {
     try {
         const data = await readJSONFile(BOOKS_FILE);
-        const bookIndex = data.books.findIndex(b => b.id === req.params.id);
-        
-        if (bookIndex === -1) {
+        const index = parseInt(req.params.index);
+        if (isNaN(index) || index < 0 || index >= data.length) {
             return res.status(404).json({ error: 'Book not found' });
         }
-        
-        data.books.splice(bookIndex, 1);
+
+        data.splice(index, 1);
         await writeJSONFile(BOOKS_FILE, data);
         res.status(204).send();
     } catch (error) {
@@ -114,79 +163,110 @@ app.delete('/api/books/:id', async (req, res) => {
     }
 });
 
-// Routes for Book Sales Management
-app.get('/api/books/:id/sales', async (req, res) => {
+// Routes for Book Sales — stored as provenanceLedger events
+app.get('/api/books/:index/sales', async (req, res) => {
     try {
         const data = await readJSONFile(BOOKS_FILE);
-        const book = data.books.find(b => b.id === req.params.id);
-        if (!book) {
+        const index = parseInt(req.params.index);
+        if (isNaN(index) || index < 0 || index >= data.length) {
             return res.status(404).json({ error: 'Book not found' });
         }
-        res.json(book.sales || []);
+
+        const sales = (data[index].provenanceLedger || [])
+            .map((event, ledgerIndex) => ({ ...event, _ledgerIndex: ledgerIndex }))
+            .filter(e => e.eventType === 'auction_sale' || e.eventType === 'private_sale');
+        res.json(sales);
     } catch (error) {
         res.status(500).json({ error: 'Failed to read book sales data' });
     }
 });
 
-app.post('/api/books/:id/sales', async (req, res) => {
+app.post('/api/books/:index/sales', async (req, res) => {
     try {
         const data = await readJSONFile(BOOKS_FILE);
-        const bookIndex = data.books.findIndex(b => b.id === req.params.id);
-        
-        if (bookIndex === -1) {
+        const index = parseInt(req.params.index);
+        if (isNaN(index) || index < 0 || index >= data.length) {
             return res.status(404).json({ error: 'Book not found' });
         }
-        
-        if (!data.books[bookIndex].sales) {
-            data.books[bookIndex].sales = [];
-        }
-        
-        const newSale = req.body;
-        data.books[bookIndex].sales.push(newSale);
+
+        const book = data[index];
+        if (!book.provenanceLedger) book.provenanceLedger = [];
+
+        const saleCount = book.provenanceLedger.filter(
+            e => e.eventType === 'auction_sale' || e.eventType === 'private_sale'
+        ).length;
+        const urnSlug = book.urn.replace(/^urn:altasset:comic:/, '').replace(/:/g, '_');
+
+        const newEvent = {
+            eventId: `evt_${urnSlug}_sale_${saleCount}`,
+            eventType: req.body.eventType || 'auction_sale',
+            date: req.body.date || '',
+            platform: req.body.platform || '',
+            sourceLink: req.body.sourceLink || '',
+            financials: {
+                amount: Number(req.body.amount) || 0,
+                currency: 'USD'
+            }
+        };
+
+        book.provenanceLedger.push(newEvent);
         await writeJSONFile(BOOKS_FILE, data);
-        res.status(201).json(newSale);
+        res.status(201).json({ ...newEvent, _ledgerIndex: book.provenanceLedger.length - 1 });
     } catch (error) {
         res.status(500).json({ error: 'Failed to add sale to book' });
     }
 });
 
-app.put('/api/books/:id/sales/:saleIndex', async (req, res) => {
+app.put('/api/books/:index/sales/:ledgerIndex', async (req, res) => {
     try {
         const data = await readJSONFile(BOOKS_FILE);
-        const bookIndex = data.books.findIndex(b => b.id === req.params.id);
-        const saleIndex = parseInt(req.params.saleIndex);
-        
-        if (bookIndex === -1) {
+        const index = parseInt(req.params.index);
+        const ledgerIndex = parseInt(req.params.ledgerIndex);
+
+        if (isNaN(index) || index < 0 || index >= data.length) {
             return res.status(404).json({ error: 'Book not found' });
         }
-        
-        if (!data.books[bookIndex].sales || saleIndex < 0 || saleIndex >= data.books[bookIndex].sales.length) {
+
+        const ledger = data[index].provenanceLedger || [];
+        if (isNaN(ledgerIndex) || ledgerIndex < 0 || ledgerIndex >= ledger.length) {
             return res.status(404).json({ error: 'Sale not found' });
         }
-        
-        data.books[bookIndex].sales[saleIndex] = { ...data.books[bookIndex].sales[saleIndex], ...req.body };
+
+        ledger[ledgerIndex] = {
+            ...ledger[ledgerIndex],
+            ...(req.body.eventType !== undefined && { eventType: req.body.eventType }),
+            ...(req.body.date !== undefined && { date: req.body.date }),
+            ...(req.body.platform !== undefined && { platform: req.body.platform }),
+            ...(req.body.sourceLink !== undefined && { sourceLink: req.body.sourceLink }),
+            financials: {
+                amount: req.body.amount !== undefined ? Number(req.body.amount) : ledger[ledgerIndex].financials.amount,
+                currency: 'USD'
+            }
+        };
+
         await writeJSONFile(BOOKS_FILE, data);
-        res.json(data.books[bookIndex].sales[saleIndex]);
+        res.json(ledger[ledgerIndex]);
     } catch (error) {
         res.status(500).json({ error: 'Failed to update book sale' });
     }
 });
 
-app.delete('/api/books/:id/sales/:saleIndex', async (req, res) => {
+app.delete('/api/books/:index/sales/:ledgerIndex', async (req, res) => {
     try {
         const data = await readJSONFile(BOOKS_FILE);
-        const bookIndex = data.books.findIndex(b => b.id === req.params.id);
-        const saleIndex = parseInt(req.params.saleIndex);
-        
-        if (bookIndex === -1) {
+        const index = parseInt(req.params.index);
+        const ledgerIndex = parseInt(req.params.ledgerIndex);
+
+        if (isNaN(index) || index < 0 || index >= data.length) {
             return res.status(404).json({ error: 'Book not found' });
         }
-        
-        if (!data.books[bookIndex].sales || saleIndex < 0 || saleIndex >= data.books[bookIndex].sales.length) {
+
+        const ledger = data[index].provenanceLedger || [];
+        if (isNaN(ledgerIndex) || ledgerIndex < 0 || ledgerIndex >= ledger.length) {
             return res.status(404).json({ error: 'Sale not found' });
         }
-        
-        data.books[bookIndex].sales.splice(saleIndex, 1);
+
+        ledger.splice(ledgerIndex, 1);
         await writeJSONFile(BOOKS_FILE, data);
         res.status(204).send();
     } catch (error) {

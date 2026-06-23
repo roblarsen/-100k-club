@@ -48,7 +48,7 @@ async function loadAllData() {
             apiCall('/api/sa-pedigrees')
         ]);
         
-        booksData = books;
+        booksData = Array.isArray(books) ? books : [];
         recordsData = records;
         pedigreesData = pedigrees;
         
@@ -90,25 +90,35 @@ function hideAllForms() {
 
 // Books management
 function renderBooks() {
-    if (!booksData || !booksData.books) return;
+    if (!booksData || !booksData.length) return;
     
     const tbody = document.getElementById('books-tbody');
     tbody.innerHTML = '';
     
-    booksData.books.forEach((book, index) => {
+    booksData.forEach((book, index) => {
+        const title = book.customMetadata?.title || '';
+        const issue = book.customMetadata?.issueNumber || '';
+        const publisher = book.customMetadata?.publisher || '';
+        const grade = book.currentAuthentication?.rawGradeString || '';
+        const cgcId = book.customMetadata?.cgcId || '';
+        const pedigree = book.currentAuthentication?.qualifiers?.[0] || '';
+        const saleCount = (book.provenanceLedger || []).filter(
+            e => e.eventType === 'auction_sale' || e.eventType === 'private_sale'
+        ).length;
+
         const row = document.createElement('tr');
         row.innerHTML = `
-            <td>${book.title || ''}</td>
-            <td>${book.issue || ''}</td>
-            <td>${book.publisher || ''}</td>
-            <td>${book.grade || ''}</td>
-            <td>${book.cgcid || book.CGCid || ''}</td>
-            <td>${book.pedigree || ''}</td>
-            <td>${book.sales ? book.sales.length : 0}</td>
+            <td>${title}</td>
+            <td>${issue}</td>
+            <td>${publisher}</td>
+            <td>${grade}</td>
+            <td>${cgcId}</td>
+            <td>${pedigree}</td>
+            <td>${saleCount}</td>
             <td>
-                <button class="btn btn-edit" onclick="editBook('${book.id}')">Edit</button>
-                <button class="btn btn-primary" onclick="manageSales('${book.id}')">Sales</button>
-                <button class="btn btn-danger" onclick="deleteBook('${book.id}')">Delete</button>
+                <button class="btn btn-edit" onclick="editBook(${index})">Edit</button>
+                <button class="btn btn-primary" onclick="manageSales(${index})">Sales</button>
+                <button class="btn btn-danger" onclick="deleteBook(${index})">Delete</button>
             </td>
         `;
         tbody.appendChild(row);
@@ -122,32 +132,32 @@ function showAddBookForm() {
     document.getElementById('book-form-container').style.display = 'block';
 }
 
-function editBook(bookId) {
-    const book = booksData.books.find(b => b.id === bookId);
+function editBook(bookIndex) {
+    const book = booksData[bookIndex];
     if (!book) return;
     
-    currentEditingBook = book;
+    currentEditingBook = { index: bookIndex, book };
     document.getElementById('book-form-title').textContent = 'Edit Book';
     
-    // Populate form
-    document.getElementById('book-title').value = book.title || '';
-    document.getElementById('book-issue').value = book.issue || '';
-    document.getElementById('book-publisher').value = book.publisher || '';
-    document.getElementById('book-grade').value = book.grade || '';
-    document.getElementById('book-gradeSource').value = book.gradeSrc || '';
-    document.getElementById('book-cgcid').value = book.cgcid || book.CGCid || '';
-    document.getElementById('book-pedigree').value = book.pedigree || '';
-    document.getElementById('book-tags').value = book.tags || '';
+    // Populate form from AltAssetComic fields
+    document.getElementById('book-title').value = book.customMetadata?.title || '';
+    document.getElementById('book-issue').value = book.customMetadata?.issueNumber || '';
+    document.getElementById('book-publisher').value = book.customMetadata?.publisher || '';
+    document.getElementById('book-grade').value = book.currentAuthentication?.rawGradeString || '';
+    document.getElementById('book-gradeSource').value = book.currentAuthentication?.grader || '';
+    document.getElementById('book-cgcid').value = book.customMetadata?.cgcId || '';
+    document.getElementById('book-pedigree').value = book.currentAuthentication?.qualifiers?.[0] || '';
+    document.getElementById('book-tags').value = (book.tags || []).join(',');
     document.getElementById('book-commentary').value = book.generalCommentary || '';
     
     document.getElementById('book-form-container').style.display = 'block';
 }
 
-async function deleteBook(bookId) {
+async function deleteBook(bookIndex) {
     if (!confirm('Are you sure you want to delete this book?')) return;
     
     try {
-        await apiCall(`/api/books/${bookId}`, 'DELETE');
+        await apiCall(`/api/books/${bookIndex}`, 'DELETE');
         await loadAllData();
         showSuccess('Book deleted successfully');
     } catch (error) {
@@ -166,20 +176,19 @@ document.getElementById('book-form').addEventListener('submit', async function(e
     
     const formData = {
         title: document.getElementById('book-title').value,
-        issue: document.getElementById('book-issue').value,
+        issueNumber: document.getElementById('book-issue').value,
         publisher: document.getElementById('book-publisher').value,
-        grade: document.getElementById('book-grade').value,
-        gradeSrc: document.getElementById('book-gradeSource').value,
-        cgcid: document.getElementById('book-cgcid').value,
+        rawGradeString: document.getElementById('book-grade').value,
+        grader: document.getElementById('book-gradeSource').value,
+        cgcId: document.getElementById('book-cgcid').value,
         pedigree: document.getElementById('book-pedigree').value,
         tags: document.getElementById('book-tags').value,
-        generalCommentary: document.getElementById('book-commentary').value,
-        sales: currentEditingBook ? (currentEditingBook.sales || []) : []
+        generalCommentary: document.getElementById('book-commentary').value
     };
     
     try {
         if (currentEditingBook) {
-            await apiCall(`/api/books/${currentEditingBook.id}`, 'PUT', formData);
+            await apiCall(`/api/books/${currentEditingBook.index}`, 'PUT', formData);
             showSuccess('Book updated successfully');
         } else {
             await apiCall('/api/books', 'POST', formData);
@@ -197,12 +206,12 @@ document.getElementById('book-form').addEventListener('submit', async function(e
 let currentBookSales = null;
 let currentEditingSale = null;
 
-function manageSales(bookId) {
-    const book = booksData.books.find(b => b.id === bookId);
+function manageSales(bookIndex) {
+    const book = booksData[bookIndex];
     if (!book) return;
     
-    currentBookSales = { bookId, book };
-    document.getElementById('sales-modal-title').textContent = `Manage Sales - ${book.title} #${book.issue}`;
+    currentBookSales = { bookIndex, book };
+    document.getElementById('sales-modal-title').textContent = `Manage Sales - ${book.customMetadata?.title || ''} #${book.customMetadata?.issueNumber || ''}`;
     document.getElementById('sales-modal').style.display = 'flex';
     
     renderSales();
@@ -218,23 +227,26 @@ function closeSalesModal() {
 function renderSales() {
     if (!currentBookSales) return;
     
-    const sales = currentBookSales.book.sales || [];
+    const sales = (currentBookSales.book.provenanceLedger || [])
+        .map((event, ledgerIndex) => ({ ...event, _ledgerIndex: ledgerIndex }))
+        .filter(e => e.eventType === 'auction_sale' || e.eventType === 'private_sale');
+
     const tbody = document.getElementById('sales-tbody');
     tbody.innerHTML = '';
     
-    sales.forEach((sale, index) => {
+    sales.forEach((sale) => {
         const row = document.createElement('tr');
-        const price = sale.price ? Number(sale.price).toLocaleString() : '0';
-        const link = sale.link ? `<a href="${sale.link}" target="_blank">View</a>` : 'N/A';
+        const amount = sale.financials?.amount ? Number(sale.financials.amount).toLocaleString() : '0';
+        const link = sale.sourceLink ? `<a href="${sale.sourceLink}" target="_blank">View</a>` : 'N/A';
         
         row.innerHTML = `
-            <td>$${price}</td>
-            <td>${sale.salesDate || ''}</td>
-            <td>${sale.venue || ''}</td>
+            <td>$${amount}</td>
+            <td>${sale.date || ''}</td>
+            <td>${sale.platform || ''}</td>
             <td>${link}</td>
             <td>
-                <button class="btn btn-edit" onclick="editSale(${index})">Edit</button>
-                <button class="btn btn-danger" onclick="deleteSale(${index})">Delete</button>
+                <button class="btn btn-edit" onclick="editSale(${sale._ledgerIndex})">Edit</button>
+                <button class="btn btn-danger" onclick="deleteSale(${sale._ledgerIndex})">Delete</button>
             </td>
         `;
         tbody.appendChild(row);
@@ -248,32 +260,32 @@ function showAddSaleForm() {
     document.getElementById('sale-form-container').style.display = 'block';
 }
 
-function editSale(saleIndex) {
-    if (!currentBookSales || !currentBookSales.book.sales) return;
+function editSale(ledgerIndex) {
+    if (!currentBookSales) return;
     
-    const sale = currentBookSales.book.sales[saleIndex];
-    if (!sale) return;
+    const event = (currentBookSales.book.provenanceLedger || [])[ledgerIndex];
+    if (!event) return;
     
-    currentEditingSale = { index: saleIndex, sale };
+    currentEditingSale = { ledgerIndex };
     document.getElementById('sale-form-title').textContent = 'Edit Sale';
     
-    // Populate form
-    document.getElementById('sale-price').value = sale.price || '';
-    document.getElementById('sale-date').value = sale.salesDate || '';
-    document.getElementById('sale-venue').value = sale.venue || '';
-    document.getElementById('sale-link').value = sale.link || '';
+    // Populate form from provenanceLedger event
+    document.getElementById('sale-price').value = event.financials?.amount || '';
+    document.getElementById('sale-date').value = event.date || '';
+    document.getElementById('sale-venue').value = event.platform || '';
+    document.getElementById('sale-link').value = event.sourceLink || '';
     
     document.getElementById('sale-form-container').style.display = 'block';
 }
 
-async function deleteSale(saleIndex) {
+async function deleteSale(ledgerIndex) {
     if (!currentBookSales || !confirm('Are you sure you want to delete this sale?')) return;
     
     try {
-        await apiCall(`/api/books/${currentBookSales.bookId}/sales/${saleIndex}`, 'DELETE');
+        await apiCall(`/api/books/${currentBookSales.bookIndex}/sales/${ledgerIndex}`, 'DELETE');
         await loadAllData();
         // Update the current book reference
-        currentBookSales.book = booksData.books.find(b => b.id === currentBookSales.bookId);
+        currentBookSales.book = booksData[currentBookSales.bookIndex];
         renderSales();
         showSuccess('Sale deleted successfully');
     } catch (error) {
@@ -293,25 +305,25 @@ document.getElementById('sale-form').addEventListener('submit', async function(e
     if (!currentBookSales) return;
     
     const formData = {
-        price: document.getElementById('sale-price').value,
-        salesDate: document.getElementById('sale-date').value,
-        venue: document.getElementById('sale-venue').value,
-        link: document.getElementById('sale-link').value
+        amount: document.getElementById('sale-price').value,
+        date: document.getElementById('sale-date').value,
+        platform: document.getElementById('sale-venue').value,
+        sourceLink: document.getElementById('sale-link').value
     };
     
     try {
         if (currentEditingSale) {
-            await apiCall(`/api/books/${currentBookSales.bookId}/sales/${currentEditingSale.index}`, 'PUT', formData);
+            await apiCall(`/api/books/${currentBookSales.bookIndex}/sales/${currentEditingSale.ledgerIndex}`, 'PUT', formData);
             showSuccess('Sale updated successfully');
         } else {
-            await apiCall(`/api/books/${currentBookSales.bookId}/sales`, 'POST', formData);
+            await apiCall(`/api/books/${currentBookSales.bookIndex}/sales`, 'POST', formData);
             showSuccess('Sale added successfully');
         }
         
         cancelSaleForm();
         await loadAllData();
         // Update the current book reference
-        currentBookSales.book = booksData.books.find(b => b.id === currentBookSales.bookId);
+        currentBookSales.book = booksData[currentBookSales.bookIndex];
         renderSales();
     } catch (error) {
         showError('Failed to save sale');

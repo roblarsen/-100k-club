@@ -1,4 +1,4 @@
-import { AltAssetComic, getRecordHighSale } from "alt-asset-spec";
+import { AltAssetComic } from "alt-asset-spec";
 import { RecordSale } from "../../core/RecordSale";
 import * as _ from "lodash";
 
@@ -7,11 +7,6 @@ export function saleList( data: Array<AltAssetComic> ): Array<RecordSale> {
     const recordSales: Array<RecordSale> = [];
 
     data.forEach((d: AltAssetComic) => {
-        const highSale = getRecordHighSale(d);
-        if (!highSale || highSale.amount < 100000) {
-            return;
-        }
-
         d.provenanceLedger.forEach((event) => {
             if (
                 (event.eventType === 'auction_sale' || event.eventType === 'private_sale') &&

@@ -15,7 +15,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "alt-asset-spec": "1.0.0",
+    "alt-asset-spec": "^1.0.0",
     "tsx": "^4.22.4"
   }
 }

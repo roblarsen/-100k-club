@@ -165,5 +165,5 @@ const migrated = rawData.map((item: LegacyBookRecord, i: number) => {
   return specObj;
 }).filter(Boolean);
 
-writeFileSync('./data/data/books.spec.json', JSON.stringify(migrated, null, 2));
-console.log(`🏁 Done! Output ${migrated.length} validated items to books.spec.json.`);
+writeFileSync('./data/books.json', JSON.stringify(migrated, null, 2));
+console.log(`🏁 Done! Output ${migrated.length} validated items to books.json.`);

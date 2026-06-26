@@ -2,7 +2,7 @@ import { drawTable } from "./drawTable";
 import { drawChart } from "./drawChart";
 import { RecordSale } from "../../core/RecordSale";
 import { isAltAsset, AltAssetComic } from "alt-asset-spec";
-import booksSpec from "../../data/data/books.spec.json";
+import booksSpec from "../../data/books.json";
 import { saleList } from "./saleList";
 
 const validatedBooks: Array<AltAssetComic> = (booksSpec as unknown[]).filter(

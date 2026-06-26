@@ -1,6 +1,6 @@
 import { drawTable } from "./drawTable";
 import { isAltAsset, AltAssetComic } from "alt-asset-spec";
-import booksSpec from "../../data/data/books.spec.json";
+import booksSpec from "../../data/books.json";
 
 const books: Array<AltAssetComic> = (booksSpec as unknown[]).filter(
     (item: unknown): item is AltAssetComic => {

@@ -163,7 +163,7 @@ app.delete('/api/books/:index', async (req, res) => {
     }
 });
 
-// Routes for Book Sales — stored as provenanceLedger events
+// Routes for Book Provenance Ledger Events (all event types)
 app.get('/api/books/:index/sales', async (req, res) => {
     try {
         const data = await readJSONFile(BOOKS_FILE);
@@ -172,12 +172,11 @@ app.get('/api/books/:index/sales', async (req, res) => {
             return res.status(404).json({ error: 'Book not found' });
         }
 
-        const sales = (data[index].provenanceLedger || [])
-            .map((event, ledgerIndex) => ({ ...event, _ledgerIndex: ledgerIndex }))
-            .filter(e => e.eventType === 'auction_sale' || e.eventType === 'private_sale');
-        res.json(sales);
+        const events = (data[index].provenanceLedger || [])
+            .map((event, ledgerIndex) => ({ ...event, _ledgerIndex: ledgerIndex }));
+        res.json(events);
     } catch (error) {
-        res.status(500).json({ error: 'Failed to read book sales data' });
+        res.status(500).json({ error: 'Failed to read book ledger data' });
     }
 });
 
@@ -192,28 +191,49 @@ app.post('/api/books/:index/sales', async (req, res) => {
         const book = data[index];
         if (!book.provenanceLedger) book.provenanceLedger = [];
 
-        const saleCount = book.provenanceLedger.filter(
-            e => e.eventType === 'auction_sale' || e.eventType === 'private_sale'
-        ).length;
-        const urnSlug = book.urn.replace(/^urn:altasset:comic:/, '').replace(/:/g, '_');
+        const eventType = req.body.eventType || 'auction_sale';
+        const financialTypes = ['auction_sale', 'private_sale', 'asset_swap'];
+        const certTypes = ['regrade', 'reholder'];
 
         const newEvent = {
-            eventId: `evt_${urnSlug}_sale_${saleCount}`,
-            eventType: req.body.eventType || 'auction_sale',
-            date: req.body.date || '',
-            platform: req.body.platform || '',
-            sourceLink: req.body.sourceLink || '',
-            financials: {
-                amount: Number(req.body.amount) || 0,
-                currency: 'USD'
-            }
+            eventId: `evt_${Date.now()}`,
+            eventType,
+            date: req.body.date || ''
         };
+
+        if (req.body.platform) newEvent.platform = req.body.platform;
+        if (req.body.sourceLink) newEvent.sourceLink = req.body.sourceLink;
+        if (req.body.notes) newEvent.notes = req.body.notes;
+
+        if (eventType === 'auction_sale' && req.body.lotNumber) {
+            newEvent.lotNumber = req.body.lotNumber;
+        }
+
+        if (financialTypes.includes(eventType) && req.body.amount != null && req.body.amount !== '') {
+            const rawAmount = String(req.body.amount).replace(/[^0-9.]/g, '');
+            const parsedAmount = parseFloat(rawAmount);
+            if (!isNaN(parsedAmount)) {
+                newEvent.financials = {
+                    amount: parsedAmount,
+                    currency: req.body.currency || 'USD'
+                };
+            }
+        }
+
+        if (certTypes.includes(eventType)) {
+            if (req.body.previousCertNumber) newEvent.previousCertNumber = req.body.previousCertNumber;
+            if (req.body.newCertNumber) newEvent.newCertNumber = req.body.newCertNumber;
+        }
+
+        if (eventType === 'asset_merge' && req.body.mergedUrn) {
+            newEvent.mergedUrn = req.body.mergedUrn;
+        }
 
         book.provenanceLedger.push(newEvent);
         await writeJSONFile(BOOKS_FILE, data);
         res.status(201).json({ ...newEvent, _ledgerIndex: book.provenanceLedger.length - 1 });
     } catch (error) {
-        res.status(500).json({ error: 'Failed to add sale to book' });
+        res.status(500).json({ error: 'Failed to add ledger event to book' });
     }
 });
 
@@ -229,25 +249,58 @@ app.put('/api/books/:index/sales/:ledgerIndex', async (req, res) => {
 
         const ledger = data[index].provenanceLedger || [];
         if (isNaN(ledgerIndex) || ledgerIndex < 0 || ledgerIndex >= ledger.length) {
-            return res.status(404).json({ error: 'Sale not found' });
+            return res.status(404).json({ error: 'Ledger event not found' });
         }
 
-        ledger[ledgerIndex] = {
-            ...ledger[ledgerIndex],
-            ...(req.body.eventType !== undefined && { eventType: req.body.eventType }),
+        const existing = ledger[ledgerIndex];
+        const eventType = req.body.eventType !== undefined ? req.body.eventType : existing.eventType;
+        const financialTypes = ['auction_sale', 'private_sale', 'asset_swap'];
+        const certTypes = ['regrade', 'reholder'];
+
+        const updated = {
+            ...existing,
+            eventType,
             ...(req.body.date !== undefined && { date: req.body.date }),
-            ...(req.body.platform !== undefined && { platform: req.body.platform }),
-            ...(req.body.sourceLink !== undefined && { sourceLink: req.body.sourceLink }),
-            financials: {
-                amount: req.body.amount !== undefined ? Number(req.body.amount) : ledger[ledgerIndex].financials.amount,
-                currency: 'USD'
-            }
+            ...(req.body.platform !== undefined && { platform: req.body.platform || undefined }),
+            ...(req.body.sourceLink !== undefined && { sourceLink: req.body.sourceLink || undefined }),
+            ...(req.body.notes !== undefined && { notes: req.body.notes || undefined })
         };
 
+        if (eventType === 'auction_sale') {
+            if (req.body.lotNumber !== undefined) updated.lotNumber = req.body.lotNumber || undefined;
+        } else {
+            delete updated.lotNumber;
+        }
+
+        if (financialTypes.includes(eventType) && req.body.amount != null && req.body.amount !== '') {
+            const rawAmount = String(req.body.amount).replace(/[^0-9.]/g, '');
+            const parsedAmount = parseFloat(rawAmount);
+            if (!isNaN(parsedAmount)) {
+                updated.financials = { amount: parsedAmount, currency: req.body.currency || existing.financials?.currency || 'USD' };
+            }
+        } else if (!financialTypes.includes(eventType)) {
+            delete updated.financials;
+        }
+
+        if (certTypes.includes(eventType)) {
+            if (req.body.previousCertNumber !== undefined) updated.previousCertNumber = req.body.previousCertNumber || undefined;
+            if (req.body.newCertNumber !== undefined) updated.newCertNumber = req.body.newCertNumber || undefined;
+        } else {
+            delete updated.previousCertNumber;
+            delete updated.newCertNumber;
+        }
+
+        if (eventType === 'asset_merge') {
+            if (req.body.mergedUrn !== undefined) updated.mergedUrn = req.body.mergedUrn || undefined;
+        } else {
+            delete updated.mergedUrn;
+        }
+
+        ledger[ledgerIndex] = updated;
         await writeJSONFile(BOOKS_FILE, data);
         res.json(ledger[ledgerIndex]);
     } catch (error) {
-        res.status(500).json({ error: 'Failed to update book sale' });
+        res.status(500).json({ error: 'Failed to update ledger event' });
     }
 });
 

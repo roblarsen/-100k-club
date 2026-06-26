@@ -102,9 +102,7 @@ function renderBooks() {
         const grade = book.currentAuthentication?.rawGradeString || '';
         const cgcId = book.customMetadata?.cgcId || '';
         const pedigree = book.currentAuthentication?.qualifiers?.[0] || '';
-        const saleCount = (book.provenanceLedger || []).filter(
-            e => e.eventType === 'auction_sale' || e.eventType === 'private_sale'
-        ).length;
+        const saleCount = (book.provenanceLedger || []).length;
 
         const row = document.createElement('tr');
         row.innerHTML = `
@@ -117,7 +115,7 @@ function renderBooks() {
             <td>${saleCount}</td>
             <td>
                 <button class="btn btn-edit" onclick="editBook(${index})">Edit</button>
-                <button class="btn btn-primary" onclick="manageSales(${index})">Sales</button>
+                <button class="btn btn-primary" onclick="manageSales(${index})">Ledger</button>
                 <button class="btn btn-danger" onclick="deleteBook(${index})">Delete</button>
             </td>
         `;
@@ -211,7 +209,7 @@ function manageSales(bookIndex) {
     if (!book) return;
     
     currentBookSales = { bookIndex, book };
-    document.getElementById('sales-modal-title').textContent = `Manage Sales - ${book.customMetadata?.title || ''} #${book.customMetadata?.issueNumber || ''}`;
+    document.getElementById('sales-modal-title').textContent = `Provenance Ledger — ${book.customMetadata?.title || ''} #${book.customMetadata?.issueNumber || ''}`;
     document.getElementById('sales-modal').style.display = 'flex';
     
     renderSales();
@@ -227,26 +225,35 @@ function closeSalesModal() {
 function renderSales() {
     if (!currentBookSales) return;
     
-    const sales = (currentBookSales.book.provenanceLedger || [])
-        .map((event, ledgerIndex) => ({ ...event, _ledgerIndex: ledgerIndex }))
-        .filter(e => e.eventType === 'auction_sale' || e.eventType === 'private_sale');
+    const ledger = (currentBookSales.book.provenanceLedger || [])
+        .map((event, ledgerIndex) => ({ ...event, _ledgerIndex: ledgerIndex }));
 
     const tbody = document.getElementById('sales-tbody');
     tbody.innerHTML = '';
     
-    sales.forEach((sale) => {
+    ledger.forEach((event) => {
         const row = document.createElement('tr');
-        const amount = sale.financials?.amount ? Number(sale.financials.amount).toLocaleString() : '0';
-        const link = sale.sourceLink ? `<a href="${sale.sourceLink}" target="_blank">View</a>` : 'N/A';
+        const amount = event.financials?.amount != null
+            ? `$${Number(event.financials.amount).toLocaleString()} ${event.financials.currency || 'USD'}`
+            : '—';
         
+        let details = '';
+        if (event.lotNumber) details += `Lot: ${event.lotNumber} `;
+        if (event.previousCertNumber) details += `Prev cert: ${event.previousCertNumber} `;
+        if (event.newCertNumber) details += `New cert: ${event.newCertNumber} `;
+        if (event.mergedUrn) details += `Merged: ${event.mergedUrn} `;
+        if (event.notes) details += event.notes;
+        if (event.sourceLink) details += ` <a href="${event.sourceLink}" target="_blank">View</a>`;
+
         row.innerHTML = `
-            <td>$${amount}</td>
-            <td>${sale.date || ''}</td>
-            <td>${sale.platform || ''}</td>
-            <td>${link}</td>
+            <td><span class="event-type-badge event-type-${event.eventType}">${event.eventType}</span></td>
+            <td>${event.date || ''}</td>
+            <td>${event.platform || ''}</td>
+            <td>${amount}</td>
+            <td>${details}</td>
             <td>
-                <button class="btn btn-edit" onclick="editSale(${sale._ledgerIndex})">Edit</button>
-                <button class="btn btn-danger" onclick="deleteSale(${sale._ledgerIndex})">Delete</button>
+                <button class="btn btn-edit" onclick="editSale(${event._ledgerIndex})">Edit</button>
+                <button class="btn btn-danger" onclick="deleteSale(${event._ledgerIndex})">Delete</button>
             </td>
         `;
         tbody.appendChild(row);
@@ -255,9 +262,22 @@ function renderSales() {
 
 function showAddSaleForm() {
     currentEditingSale = null;
-    document.getElementById('sale-form-title').textContent = 'Add New Sale';
+    document.getElementById('sale-form-title').textContent = 'Add New Provenance Event';
     document.getElementById('sale-form').reset();
+    document.getElementById('sale-eventType').value = 'auction_sale';
+    onEventTypeChange();
     document.getElementById('sale-form-container').style.display = 'block';
+}
+
+function onEventTypeChange() {
+    const type = document.getElementById('sale-eventType').value;
+    const financialTypes = ['auction_sale', 'private_sale', 'asset_swap'];
+    const certTypes = ['regrade', 'reholder'];
+
+    document.getElementById('fields-financial').style.display = financialTypes.includes(type) ? 'flex' : 'none';
+    document.getElementById('fields-cert').style.display = certTypes.includes(type) ? 'flex' : 'none';
+    document.getElementById('fields-merge').style.display = type === 'asset_merge' ? 'flex' : 'none';
+    document.getElementById('field-lotNumber').style.display = type === 'auction_sale' ? 'flex' : 'none';
 }
 
 function editSale(ledgerIndex) {
@@ -267,14 +287,21 @@ function editSale(ledgerIndex) {
     if (!event) return;
     
     currentEditingSale = { ledgerIndex };
-    document.getElementById('sale-form-title').textContent = 'Edit Sale';
+    document.getElementById('sale-form-title').textContent = 'Edit Provenance Event';
     
-    // Populate form from provenanceLedger event
-    document.getElementById('sale-price').value = event.financials?.amount || '';
+    document.getElementById('sale-eventType').value = event.eventType || 'auction_sale';
     document.getElementById('sale-date').value = event.date || '';
     document.getElementById('sale-venue').value = event.platform || '';
+    document.getElementById('sale-lotNumber').value = event.lotNumber || '';
     document.getElementById('sale-link').value = event.sourceLink || '';
+    document.getElementById('sale-notes').value = event.notes || '';
+    document.getElementById('sale-price').value = event.financials?.amount != null ? event.financials.amount : '';
+    document.getElementById('sale-currency').value = event.financials?.currency || 'USD';
+    document.getElementById('sale-previousCertNumber').value = event.previousCertNumber || '';
+    document.getElementById('sale-newCertNumber').value = event.newCertNumber || '';
+    document.getElementById('sale-mergedUrn').value = event.mergedUrn || '';
     
+    onEventTypeChange();
     document.getElementById('sale-form-container').style.display = 'block';
 }
 
@@ -304,20 +331,55 @@ document.getElementById('sale-form').addEventListener('submit', async function(e
     
     if (!currentBookSales) return;
     
+    const eventType = document.getElementById('sale-eventType').value;
+    const financialTypes = ['auction_sale', 'private_sale', 'asset_swap'];
+    const certTypes = ['regrade', 'reholder'];
+
+    // Sanitize amount: strip commas and currency symbols, then parse as float
+    const rawAmount = document.getElementById('sale-price').value.replace(/[^0-9.]/g, '');
+    const parsedAmount = rawAmount ? parseFloat(rawAmount) : null;
+
+    // Sanitize date: if missing day component, format as YYYY-MM; otherwise keep as-is
+    const rawDate = document.getElementById('sale-date').value.trim();
+    let date = rawDate;
+    if (rawDate) {
+        const parts = rawDate.split('-');
+        if (parts.length === 2) {
+            date = `${parts[0].padStart(4, '0')}-${parts[1].padStart(2, '0')}`;
+        } else if (parts.length >= 3) {
+            date = `${parts[0].padStart(4, '0')}-${parts[1].padStart(2, '0')}-${parts[2].padStart(2, '0')}`;
+        }
+    }
+
     const formData = {
-        amount: document.getElementById('sale-price').value,
-        date: document.getElementById('sale-date').value,
-        platform: document.getElementById('sale-venue').value,
-        sourceLink: document.getElementById('sale-link').value
+        eventType,
+        date,
+        platform: document.getElementById('sale-venue').value.trim() || undefined,
+        sourceLink: document.getElementById('sale-link').value.trim() || undefined,
+        notes: document.getElementById('sale-notes').value.trim() || undefined,
+        ...(eventType === 'auction_sale' && {
+            lotNumber: document.getElementById('sale-lotNumber').value.trim() || undefined
+        }),
+        ...(financialTypes.includes(eventType) && parsedAmount != null && {
+            amount: parsedAmount,
+            currency: document.getElementById('sale-currency').value || 'USD'
+        }),
+        ...(certTypes.includes(eventType) && {
+            previousCertNumber: document.getElementById('sale-previousCertNumber').value.trim() || undefined,
+            newCertNumber: document.getElementById('sale-newCertNumber').value.trim() || undefined
+        }),
+        ...(eventType === 'asset_merge' && {
+            mergedUrn: document.getElementById('sale-mergedUrn').value.trim() || undefined
+        })
     };
     
     try {
         if (currentEditingSale) {
             await apiCall(`/api/books/${currentBookSales.bookIndex}/sales/${currentEditingSale.ledgerIndex}`, 'PUT', formData);
-            showSuccess('Sale updated successfully');
+            showSuccess('Event updated successfully');
         } else {
             await apiCall(`/api/books/${currentBookSales.bookIndex}/sales`, 'POST', formData);
-            showSuccess('Sale added successfully');
+            showSuccess('Event added successfully');
         }
         
         cancelSaleForm();
@@ -326,7 +388,7 @@ document.getElementById('sale-form').addEventListener('submit', async function(e
         currentBookSales.book = booksData[currentBookSales.bookIndex];
         renderSales();
     } catch (error) {
-        showError('Failed to save sale');
+        showError('Failed to save event');
     }
 });
 

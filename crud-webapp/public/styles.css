@@ -378,6 +378,10 @@ main {
     overflow-y: auto;
 }
 
+.modal-content-wide {
+    max-width: 1200px;
+}
+
 .modal-header {
     background: linear-gradient(135deg, #2c3e50, #34495e);
     color: white;
@@ -409,3 +413,20 @@ main {
 .close:hover {
     opacity: 0.7;
 }
+/* Provenance event type badges */
+.event-type-badge {
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.event-type-auction_sale    { background: #d5f5e3; color: #1e8449; }
+.event-type-private_sale    { background: #d6eaf8; color: #1a5276; }
+.event-type-asset_swap      { background: #fdebd0; color: #784212; }
+.event-type-grading_event   { background: #e8daef; color: #6c3483; }
+.event-type-reholder        { background: #fdfefe; color: #566573; border: 1px solid #bdc3c7; }
+.event-type-regrade         { background: #fef9e7; color: #7d6608; border: 1px solid #f9e79f; }
+.event-type-pedigree_discovery { background: #eafaf1; color: #1d6a39; }
+.event-type-asset_merge     { background: #fdedec; color: #922b21; }

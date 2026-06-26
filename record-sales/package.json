@@ -17,7 +17,7 @@
     "lint:fix": "eslint 'scripts/**/*.{ts,tsx}' --fix"
   },
   "dependencies": {
-    "alt-asset-spec": "file:../../alt-asset-spec"
+    "alt-asset-spec": "^1.0.0"
   },
   "devDependencies": {
     "@eslint/css": "^0.7.0",

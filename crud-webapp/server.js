@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const fs = require('fs').promises;
 const path = require('path');
+const { randomUUID } = require('crypto');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -43,6 +44,13 @@ async function writeJSONFile(filePath, data) {
 function buildUrn(publisher, title, issue, index) {
     const slug = str => String(str).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
     return `urn:altasset:comic:${slug(publisher)}:${slug(title)}:${slug(issue)}:inst-${index}`;
+}
+
+// Returns the trimmed string value, or undefined if empty/absent (omits the field from stored objects)
+function optField(value) {
+    if (value === undefined || value === null) return undefined;
+    const trimmed = String(value).trim();
+    return trimmed || undefined;
 }
 
 // Routes for Books (AltAssetComic format — data/books.json is a plain array)
@@ -196,17 +204,17 @@ app.post('/api/books/:index/sales', async (req, res) => {
         const certTypes = ['regrade', 'reholder'];
 
         const newEvent = {
-            eventId: `evt_${Date.now()}`,
+            eventId: `evt_${randomUUID()}`,
             eventType,
             date: req.body.date || ''
         };
 
-        if (req.body.platform) newEvent.platform = req.body.platform;
-        if (req.body.sourceLink) newEvent.sourceLink = req.body.sourceLink;
-        if (req.body.notes) newEvent.notes = req.body.notes;
+        if (req.body.platform) newEvent.platform = optField(req.body.platform);
+        if (req.body.sourceLink) newEvent.sourceLink = optField(req.body.sourceLink);
+        if (req.body.notes) newEvent.notes = optField(req.body.notes);
 
         if (eventType === 'auction_sale' && req.body.lotNumber) {
-            newEvent.lotNumber = req.body.lotNumber;
+            newEvent.lotNumber = optField(req.body.lotNumber);
         }
 
         if (financialTypes.includes(eventType) && req.body.amount != null && req.body.amount !== '') {
@@ -221,12 +229,12 @@ app.post('/api/books/:index/sales', async (req, res) => {
         }
 
         if (certTypes.includes(eventType)) {
-            if (req.body.previousCertNumber) newEvent.previousCertNumber = req.body.previousCertNumber;
-            if (req.body.newCertNumber) newEvent.newCertNumber = req.body.newCertNumber;
+            if (req.body.previousCertNumber) newEvent.previousCertNumber = optField(req.body.previousCertNumber);
+            if (req.body.newCertNumber) newEvent.newCertNumber = optField(req.body.newCertNumber);
         }
 
         if (eventType === 'asset_merge' && req.body.mergedUrn) {
-            newEvent.mergedUrn = req.body.mergedUrn;
+            newEvent.mergedUrn = optField(req.body.mergedUrn);
         }
 
         book.provenanceLedger.push(newEvent);
@@ -261,13 +269,13 @@ app.put('/api/books/:index/sales/:ledgerIndex', async (req, res) => {
             ...existing,
             eventType,
             ...(req.body.date !== undefined && { date: req.body.date }),
-            ...(req.body.platform !== undefined && { platform: req.body.platform || undefined }),
-            ...(req.body.sourceLink !== undefined && { sourceLink: req.body.sourceLink || undefined }),
-            ...(req.body.notes !== undefined && { notes: req.body.notes || undefined })
+            ...(req.body.platform !== undefined && { platform: optField(req.body.platform) }),
+            ...(req.body.sourceLink !== undefined && { sourceLink: optField(req.body.sourceLink) }),
+            ...(req.body.notes !== undefined && { notes: optField(req.body.notes) })
         };
 
         if (eventType === 'auction_sale') {
-            if (req.body.lotNumber !== undefined) updated.lotNumber = req.body.lotNumber || undefined;
+            if (req.body.lotNumber !== undefined) updated.lotNumber = optField(req.body.lotNumber);
         } else {
             delete updated.lotNumber;
         }
@@ -283,15 +291,15 @@ app.put('/api/books/:index/sales/:ledgerIndex', async (req, res) => {
         }
 
         if (certTypes.includes(eventType)) {
-            if (req.body.previousCertNumber !== undefined) updated.previousCertNumber = req.body.previousCertNumber || undefined;
-            if (req.body.newCertNumber !== undefined) updated.newCertNumber = req.body.newCertNumber || undefined;
+            if (req.body.previousCertNumber !== undefined) updated.previousCertNumber = optField(req.body.previousCertNumber);
+            if (req.body.newCertNumber !== undefined) updated.newCertNumber = optField(req.body.newCertNumber);
         } else {
             delete updated.previousCertNumber;
             delete updated.newCertNumber;
         }
 
         if (eventType === 'asset_merge') {
-            if (req.body.mergedUrn !== undefined) updated.mergedUrn = req.body.mergedUrn || undefined;
+            if (req.body.mergedUrn !== undefined) updated.mergedUrn = optField(req.body.mergedUrn);
         } else {
             delete updated.mergedUrn;
         }

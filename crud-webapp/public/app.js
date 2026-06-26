@@ -6,6 +6,13 @@ let currentEditingBook = null;
 let currentEditingRecord = null;
 let currentEditingPedigree = null;
 
+// Returns the trimmed string value, or undefined if empty (omits optional fields from payloads)
+function trimOrUndefined(value) {
+    if (value === undefined || value === null) return undefined;
+    const trimmed = String(value).trim();
+    return trimmed || undefined;
+}
+
 // Initialize app
 document.addEventListener('DOMContentLoaded', async function() {
     await loadAllData();
@@ -354,22 +361,22 @@ document.getElementById('sale-form').addEventListener('submit', async function(e
     const formData = {
         eventType,
         date,
-        platform: document.getElementById('sale-venue').value.trim() || undefined,
-        sourceLink: document.getElementById('sale-link').value.trim() || undefined,
-        notes: document.getElementById('sale-notes').value.trim() || undefined,
+        platform: trimOrUndefined(document.getElementById('sale-venue').value),
+        sourceLink: trimOrUndefined(document.getElementById('sale-link').value),
+        notes: trimOrUndefined(document.getElementById('sale-notes').value),
         ...(eventType === 'auction_sale' && {
-            lotNumber: document.getElementById('sale-lotNumber').value.trim() || undefined
+            lotNumber: trimOrUndefined(document.getElementById('sale-lotNumber').value)
         }),
         ...(financialTypes.includes(eventType) && parsedAmount != null && {
             amount: parsedAmount,
             currency: document.getElementById('sale-currency').value || 'USD'
         }),
         ...(certTypes.includes(eventType) && {
-            previousCertNumber: document.getElementById('sale-previousCertNumber').value.trim() || undefined,
-            newCertNumber: document.getElementById('sale-newCertNumber').value.trim() || undefined
+            previousCertNumber: trimOrUndefined(document.getElementById('sale-previousCertNumber').value),
+            newCertNumber: trimOrUndefined(document.getElementById('sale-newCertNumber').value)
         }),
         ...(eventType === 'asset_merge' && {
-            mergedUrn: document.getElementById('sale-mergedUrn').value.trim() || undefined
+            mergedUrn: trimOrUndefined(document.getElementById('sale-mergedUrn').value)
         })
     };
     

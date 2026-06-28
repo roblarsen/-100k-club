@@ -190,7 +190,7 @@
       "action"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Action Comics",
       "issueNumber": "1",
       "publicationDate": "1938-04"
@@ -413,7 +413,7 @@
       "restored"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Action Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -894,14 +894,14 @@
       }
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Action Comics",
       "issueNumber": "7",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:amazing-spider-man:1:inst-24",
+    "urn": "urn:altasset:comic:marvelcomics:amazing-spider-man:1:inst-24",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -943,7 +943,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Spider-Man",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -979,7 +979,7 @@
       "action"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Action Comics",
       "issueNumber": "10",
       "publicationDate": "Unknown"
@@ -1138,7 +1138,7 @@
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:all-star-comics:8:inst-30",
+    "urn": "urn:altasset:comic:dccomics:all-star-comics:8:inst-30",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -1169,7 +1169,7 @@
     ],
     "generalCommentary": "Overstreet 26 reported sale",
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "All Star Comics",
       "issueNumber": "8",
       "publicationDate": "Unknown"
@@ -1207,11 +1207,13 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "All Winners Comics",
       "issueNumber": "1",
-      "publicationDate": "Unknown"
-    }
+      "publicationDate": "Unknown",
+      "cgcId": ""
+    },
+    "generalCommentary": ""
   },
   {
     "urn": "urn:altasset:comic:marvelcomics:amazing-fantasy:15:inst-32",
@@ -1244,7 +1246,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -1315,7 +1317,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -1373,7 +1375,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -1422,7 +1424,7 @@
       "pedigree"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -1458,7 +1460,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -1504,7 +1506,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -1565,7 +1567,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -1601,7 +1603,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -1637,7 +1639,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -1674,7 +1676,7 @@
       "heritage.a"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -1710,14 +1712,14 @@
       "Comiclink"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:amazing-spider-man:1:inst-43",
+    "urn": "urn:altasset:comic:marvelcomics:amazing-spider-man:1:inst-43",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -1734,14 +1736,14 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Spider-Man",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:amazing-spider-man:1:inst-44",
+    "urn": "urn:altasset:comic:marvelcomics:amazing-spider-man:1:inst-44",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -1782,14 +1784,14 @@
       "heritage"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Spider-Man",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:amazing-spider-man:1:inst-45",
+    "urn": "urn:altasset:comic:marvelcomics:amazing-spider-man:1:inst-45",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -1838,14 +1840,14 @@
       "CGC.MARVEL"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Spider-Man",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:amazing-spider-man:1:inst-46",
+    "urn": "urn:altasset:comic:marvelcomics:amazing-spider-man:1:inst-46",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -1875,14 +1877,14 @@
       "spider-man"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Spider-Man",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:amazing-spider-man:5:inst-47",
+    "urn": "urn:altasset:comic:marvelcomics:amazing-spider-man:5:inst-47",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -1911,14 +1913,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Spider-Man",
       "issueNumber": "5",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:archie-comics:1:inst-48",
+    "urn": "urn:altasset:comic:archiecomics:archie-comics:1:inst-48",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -1947,14 +1949,14 @@
     ],
     "generalCommentary": "Reported in Overstreet 28",
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Archie Comics",
       "title": "Archie Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:archie-comics:1:inst-49",
+    "urn": "urn:altasset:comic:archiecomics:archie-comics:1:inst-49",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -1983,14 +1985,14 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Archie Comics",
       "title": "Archie Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:avengers:1:inst-50",
+    "urn": "urn:altasset:comic:marvelcomics:avengers:1:inst-50",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -2022,7 +2024,7 @@
       "pedigre"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Avengers",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -2053,7 +2055,7 @@
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:avengers:1:inst-52",
+    "urn": "urn:altasset:comic:marvelcomics:avengers:1:inst-52",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -2082,14 +2084,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Avengers",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:avengers:1:inst-53",
+    "urn": "urn:altasset:comic:marvelcomics:avengers:1:inst-53",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -2117,7 +2119,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Avengers",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -2153,7 +2155,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -2204,7 +2206,7 @@
       "superman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Action Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -2262,7 +2264,7 @@
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-57",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-57",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -2291,14 +2293,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-58",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-58",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -2326,14 +2328,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-59",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-59",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -2362,14 +2364,14 @@
     ],
     "generalCommentary": "Part of a trade for 9.6",
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-60",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-60",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -2386,14 +2388,14 @@
       "fantastic-four"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-61",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-61",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -2456,14 +2458,14 @@
       "pedigree"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:flash-comics:1:inst-62",
+    "urn": "urn:altasset:comic:dccomics:flash-comics:1:inst-62",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -2527,14 +2529,14 @@
       "jp-the-mint"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Flash Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:flash-comics:1:inst-63",
+    "urn": "urn:altasset:comic:dccomics:flash-comics:1:inst-63",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -2554,14 +2556,14 @@
     ],
     "generalCommentary": "Said to be 9+",
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Flash Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:flash-comics:1:inst-64",
+    "urn": "urn:altasset:comic:dccomics:flash-comics:1:inst-64",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -2579,7 +2581,7 @@
       "pedigree"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Flash Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -2615,7 +2617,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -2652,7 +2654,7 @@
       "pedigree"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -2687,7 +2689,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -2714,7 +2716,7 @@
       "missing"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -2752,7 +2754,7 @@
       "heritage"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -2790,7 +2792,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -2826,7 +2828,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -2875,7 +2877,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -2922,7 +2924,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -2946,7 +2948,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -2970,7 +2972,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -3017,7 +3019,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -3053,14 +3055,14 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-78",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-78",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -3103,14 +3105,14 @@
       "pedigree"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-79",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-79",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -3152,14 +3154,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-80",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-80",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -3211,14 +3213,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-81",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-81",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -3258,14 +3260,14 @@
       "timely"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-82",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-82",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -3307,14 +3309,14 @@
       "pedigree"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-83",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-83",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -3357,14 +3359,14 @@
     ],
     "generalCommentary": "upgraded",
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-84",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-84",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -3394,7 +3396,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -3430,7 +3432,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -3456,7 +3458,7 @@
     ],
     "generalCommentary": "OS 27 reported $150,000 trade.",
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -3493,7 +3495,7 @@
     ],
     "generalCommentary": "Best Existing",
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -3541,7 +3543,7 @@
       "pedigree"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -3578,7 +3580,7 @@
     ],
     "generalCommentary": "Missing",
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -3614,7 +3616,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -3651,7 +3653,7 @@
     ],
     "generalCommentary": "Slight resto",
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -3696,7 +3698,7 @@
     ],
     "generalCommentary": "The \"Other high grade\" copy",
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -3732,7 +3734,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -3756,7 +3758,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -3793,7 +3795,7 @@
       "batman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -3839,7 +3841,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -3867,7 +3869,7 @@
       "batman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -3915,7 +3917,7 @@
       "pedigree"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -3939,7 +3941,7 @@
       "batman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -3975,7 +3977,7 @@
       "batman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -3999,7 +4001,7 @@
       "batman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -4056,7 +4058,7 @@
       "batman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -4080,7 +4082,7 @@
       "batman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -4104,7 +4106,7 @@
       "batman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -4128,7 +4130,7 @@
       "batman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -4152,7 +4154,7 @@
       "batman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -4198,7 +4200,7 @@
       "batman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -4235,7 +4237,7 @@
       "batman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "29",
       "publicationDate": "Unknown"
@@ -4281,7 +4283,7 @@
       "batman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "33",
       "publicationDate": "Unknown"
@@ -4307,7 +4309,7 @@
       "pedigree"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "33",
       "publicationDate": "Unknown"
@@ -4368,7 +4370,7 @@
       "batman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "38",
       "publicationDate": "Unknown"
@@ -4394,14 +4396,14 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "38",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:flash-comics:1:inst-113",
+    "urn": "urn:altasset:comic:dccomics:flash-comics:1:inst-113",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -4420,14 +4422,14 @@
       "pedigree"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Flash Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:green-lantern:1:inst-114",
+    "urn": "urn:altasset:comic:dccomics:green-lantern:1:inst-114",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -4456,14 +4458,14 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Green Lantern",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:1:inst-115",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-115",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -4479,14 +4481,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:1:inst-116",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-116",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -4526,14 +4528,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:1:inst-117",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-117",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -4571,14 +4573,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:1:inst-118",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-118",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -4606,14 +4608,14 @@
       "hulk"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:181:inst-119",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:181:inst-119",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -4642,7 +4644,7 @@
       "x-men"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "181",
       "publicationDate": "Unknown"
@@ -4667,7 +4669,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Journey into Mystery",
       "issueNumber": "83",
       "publicationDate": "Unknown"
@@ -5462,7 +5464,7 @@
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:pep-comics:22:inst-138",
+    "urn": "urn:altasset:comic:archiecomics:pep-comics:22:inst-138",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -5490,7 +5492,7 @@
       "pep-comics"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Archie Comics",
       "title": "Pep Comics",
       "issueNumber": "22",
       "publicationDate": "Unknown"
@@ -5711,7 +5713,7 @@
     ],
     "generalCommentary": "Best Existing. The \"Dentist's\" copy. Grade range is 8.0-9.2. What we do know is that he had the option to have both this and the Church copy in hand and went with this one.",
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -5816,7 +5818,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -5850,7 +5852,7 @@
       "superman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -5928,7 +5930,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -5971,7 +5973,7 @@
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:x-men:1:inst-150",
+    "urn": "urn:altasset:comic:marvelcomics:x-men:1:inst-150",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -5990,14 +5992,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "X-Men",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:x-men:1:inst-151",
+    "urn": "urn:altasset:comic:marvelcomics:x-men:1:inst-151",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -6035,14 +6037,14 @@
       "pedigree"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "X-Men",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:x-men:1:inst-152",
+    "urn": "urn:altasset:comic:marvelcomics:x-men:1:inst-152",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -6074,14 +6076,14 @@
       "upgrade"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "X-Men",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:x-men:1:inst-153",
+    "urn": "urn:altasset:comic:marvelcomics:x-men:1:inst-153",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -6140,14 +6142,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "X-Men",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:x-men:1:inst-154",
+    "urn": "urn:altasset:comic:marvelcomics:x-men:1:inst-154",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -6174,14 +6176,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "X-Men",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:x-men:1:inst-155",
+    "urn": "urn:altasset:comic:marvelcomics:x-men:1:inst-155",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -6208,14 +6210,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "X-Men",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:x-men:1:inst-156",
+    "urn": "urn:altasset:comic:marvelcomics:x-men:1:inst-156",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -6242,7 +6244,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "X-Men",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -6267,7 +6269,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -6304,7 +6306,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -6352,7 +6354,7 @@
     ],
     "generalCommentary": "cert #1054830001",
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -6388,7 +6390,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -6425,7 +6427,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -6461,7 +6463,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -6498,7 +6500,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -6535,7 +6537,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -6572,7 +6574,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -6597,7 +6599,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -6634,7 +6636,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -6671,7 +6673,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -6708,14 +6710,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:amazing-spider-man:1:inst-170",
+    "urn": "urn:altasset:comic:marvelcomics:amazing-spider-man:1:inst-170",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -6732,14 +6734,14 @@
       "spider-man"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Spider-Man",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:amazing-spider-man:1:inst-171",
+    "urn": "urn:altasset:comic:marvelcomics:amazing-spider-man:1:inst-171",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -6768,14 +6770,14 @@
       "spider-man"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Spider-Man",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:amazing-spider-man:1:inst-172",
+    "urn": "urn:altasset:comic:marvelcomics:amazing-spider-man:1:inst-172",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -6815,14 +6817,14 @@
       "spider-man"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Spider-Man",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:amazing-spider-man:1:inst-173",
+    "urn": "urn:altasset:comic:marvelcomics:amazing-spider-man:1:inst-173",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -6861,14 +6863,14 @@
       "spider-man"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Spider-Man",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:amazing-spider-man:1:inst-174",
+    "urn": "urn:altasset:comic:marvelcomics:amazing-spider-man:1:inst-174",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -6885,14 +6887,14 @@
       "spider-man"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Spider-Man",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:amazing-spider-man:1:inst-175",
+    "urn": "urn:altasset:comic:marvelcomics:amazing-spider-man:1:inst-175",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -6931,14 +6933,14 @@
       "spider-man"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Spider-Man",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:amazing-spider-man:1:inst-176",
+    "urn": "urn:altasset:comic:marvelcomics:amazing-spider-man:1:inst-176",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -6955,14 +6957,14 @@
       "spider-man"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Spider-Man",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:amazing-spider-man:1:inst-177",
+    "urn": "urn:altasset:comic:marvelcomics:amazing-spider-man:1:inst-177",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -6990,14 +6992,14 @@
       "spider-man"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Spider-Man",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:amazing-spider-man:1:inst-178",
+    "urn": "urn:altasset:comic:marvelcomics:amazing-spider-man:1:inst-178",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -7025,14 +7027,14 @@
       "spider-man"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Spider-Man",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:avengers:4:inst-179",
+    "urn": "urn:altasset:comic:marvelcomics:avengers:4:inst-179",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -7072,14 +7074,14 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Avengers",
       "issueNumber": "4",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:avengers:4:inst-180",
+    "urn": "urn:altasset:comic:marvelcomics:avengers:4:inst-180",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -7108,14 +7110,14 @@
       "captain-america"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Avengers",
       "issueNumber": "4",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:avengers:4:inst-181",
+    "urn": "urn:altasset:comic:marvelcomics:avengers:4:inst-181",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -7145,7 +7147,7 @@
       "captain-america"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Avengers",
       "issueNumber": "4",
       "publicationDate": "Unknown"
@@ -7169,7 +7171,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -7193,14 +7195,14 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-184",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-184",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -7218,7 +7220,7 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -7288,7 +7290,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -7312,7 +7314,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -7348,7 +7350,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -7372,7 +7374,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -7410,7 +7412,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -7446,7 +7448,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -7470,7 +7472,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -7505,7 +7507,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -7529,7 +7531,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -7565,14 +7567,14 @@
       "batman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-196",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-196",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -7590,14 +7592,14 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-197",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-197",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -7626,14 +7628,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-198",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-198",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -7674,14 +7676,14 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-199",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-199",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -7711,14 +7713,14 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-200",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-200",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -7748,14 +7750,14 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:1:inst-201",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-201",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -7785,14 +7787,14 @@
       "pedigree"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:1:inst-202",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-202",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -7821,14 +7823,14 @@
       "hulk"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:1:inst-203",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-203",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -7857,14 +7859,14 @@
       "hulk"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:1:inst-204",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-204",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -7893,14 +7895,14 @@
       "hulk"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:1:inst-205",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-205",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -7940,14 +7942,14 @@
       "hulk"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:1:inst-206",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-206",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -7988,14 +7990,14 @@
       "hulk"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:1:inst-207",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-207",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -8025,14 +8027,14 @@
       "hulk"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:1:inst-208",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-208",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -8062,14 +8064,14 @@
       "hulk"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:1:inst-209",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-209",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -8099,14 +8101,14 @@
       "hulk"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:1:inst-210",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-210",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -8124,7 +8126,7 @@
       "hulk"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -8162,7 +8164,7 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Journey into Mystery",
       "issueNumber": "83",
       "publicationDate": "Unknown"
@@ -8241,7 +8243,7 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Journey into Mystery",
       "issueNumber": "83",
       "publicationDate": "Unknown"
@@ -8300,7 +8302,7 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Journey into Mystery",
       "issueNumber": "83",
       "publicationDate": "Unknown"
@@ -8337,7 +8339,7 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Journey into Mystery",
       "issueNumber": "83",
       "publicationDate": "Unknown"
@@ -8374,7 +8376,7 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Journey into Mystery",
       "issueNumber": "83",
       "publicationDate": "Unknown"
@@ -8400,7 +8402,7 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Journey into Mystery",
       "issueNumber": "83",
       "publicationDate": "Unknown"
@@ -8426,7 +8428,7 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Journey into Mystery",
       "issueNumber": "83",
       "publicationDate": "Unknown"
@@ -8452,7 +8454,7 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Journey into Mystery",
       "issueNumber": "83",
       "publicationDate": "Unknown"
@@ -8478,7 +8480,7 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Journey into Mystery",
       "issueNumber": "83",
       "publicationDate": "Unknown"
@@ -8504,7 +8506,7 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Journey into Mystery",
       "issueNumber": "83",
       "publicationDate": "Unknown"
@@ -8595,7 +8597,7 @@
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:pep-comics:22:inst-223",
+    "urn": "urn:altasset:comic:archiecomics:pep-comics:22:inst-223",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -8634,7 +8636,7 @@
       "pep-comics"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Archie Comics",
       "title": "Pep Comics",
       "issueNumber": "22",
       "publicationDate": "Unknown"
@@ -8705,7 +8707,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -8750,7 +8752,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -8807,7 +8809,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -8842,7 +8844,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -8877,7 +8879,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -8934,7 +8936,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -8968,7 +8970,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -9070,7 +9072,7 @@
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:x-men:1:inst-235",
+    "urn": "urn:altasset:comic:marvelcomics:x-men:1:inst-235",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -9099,14 +9101,14 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "X-Men",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:x-men:1:inst-236",
+    "urn": "urn:altasset:comic:marvelcomics:x-men:1:inst-236",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -9134,14 +9136,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "X-Men",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:x-men:1:inst-237",
+    "urn": "urn:altasset:comic:marvelcomics:x-men:1:inst-237",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -9180,14 +9182,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "X-Men",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:x-men:1:inst-238",
+    "urn": "urn:altasset:comic:marvelcomics:x-men:1:inst-238",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -9215,14 +9217,14 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "X-Men",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:x-men:1:inst-239",
+    "urn": "urn:altasset:comic:marvelcomics:x-men:1:inst-239",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -9250,14 +9252,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "X-Men",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:x-men:1:inst-240",
+    "urn": "urn:altasset:comic:marvelcomics:x-men:1:inst-240",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -9285,14 +9287,14 @@
       "x-men"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "X-Men",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:x-men:1:inst-241",
+    "urn": "urn:altasset:comic:marvelcomics:x-men:1:inst-241",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -9309,14 +9311,14 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "X-Men",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:x-men:1:inst-242",
+    "urn": "urn:altasset:comic:marvelcomics:x-men:1:inst-242",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -9334,14 +9336,14 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "X-Men",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:x-men:1:inst-243",
+    "urn": "urn:altasset:comic:marvelcomics:x-men:1:inst-243",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -9359,7 +9361,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "X-Men",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -9705,7 +9707,7 @@
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:avengers:1:inst-254",
+    "urn": "urn:altasset:comic:marvelcomics:avengers:1:inst-254",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -9734,14 +9736,14 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Avengers",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:all-star-comics:8:inst-255",
+    "urn": "urn:altasset:comic:dccomics:all-star-comics:8:inst-255",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -9758,7 +9760,7 @@
       "wonder-woman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "All Star Comics",
       "issueNumber": "8",
       "publicationDate": "Unknown"
@@ -9845,7 +9847,7 @@
     ],
     "generalCommentary": "Used in a lawsuit by DC against Fox.",
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Action Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -10022,7 +10024,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -10045,7 +10047,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -10068,7 +10070,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -10103,7 +10105,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -10149,7 +10151,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -10172,7 +10174,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -10219,7 +10221,7 @@
       "restored"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -10255,7 +10257,7 @@
       "restored"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -10291,7 +10293,7 @@
       "restored"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -10315,7 +10317,7 @@
       "restored"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -10351,7 +10353,7 @@
       "restored"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -10375,7 +10377,7 @@
       "restored"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -10411,7 +10413,7 @@
       "restored"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -11082,7 +11084,7 @@
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:flash-comics:1:inst-298",
+    "urn": "urn:altasset:comic:dccomics:flash-comics:1:inst-298",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -11111,14 +11113,14 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Flash Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:flash-comics:1:inst-299",
+    "urn": "urn:altasset:comic:dccomics:flash-comics:1:inst-299",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -11147,7 +11149,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Flash Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -11287,7 +11289,7 @@
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-304",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-304",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -11304,7 +11306,7 @@
       "fantastic-four"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -11342,7 +11344,7 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Journey into Mystery",
       "issueNumber": "83",
       "publicationDate": "Unknown"
@@ -11380,14 +11382,14 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Journey into Mystery",
       "issueNumber": "83",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:pep-comics:22:inst-307",
+    "urn": "urn:altasset:comic:archiecomics:pep-comics:22:inst-307",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -11415,7 +11417,7 @@
       "pep-comics"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Archie Comics",
       "title": "Pep Comics",
       "issueNumber": "22",
       "publicationDate": "Unknown"
@@ -11451,14 +11453,14 @@
       "restored"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-309",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-309",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -11488,14 +11490,14 @@
       "golden-age"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:archie-comics:1:inst-310",
+    "urn": "urn:altasset:comic:archiecomics:archie-comics:1:inst-310",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -11533,7 +11535,7 @@
       "archie"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Archie Comics",
       "title": "Archie Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -11581,7 +11583,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -11629,7 +11631,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -11702,7 +11704,7 @@
       "cbcs"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Journey into Mystery",
       "issueNumber": "83",
       "publicationDate": "Unknown"
@@ -11776,7 +11778,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Action Comics",
       "issueNumber": "2",
       "publicationDate": "Unknown"
@@ -11812,14 +11814,14 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Action Comics",
       "issueNumber": "13",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:avengers:1:inst-319",
+    "urn": "urn:altasset:comic:marvelcomics:avengers:1:inst-319",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -11858,7 +11860,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Avengers",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -11883,7 +11885,7 @@
     ],
     "generalCommentary": "Of uncertain origin. Potentially two other books on this list (the FN68 copy or the 8.0 Mastro copy) or potentially a new copy.",
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -11920,7 +11922,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -11957,7 +11959,7 @@
       "heritage"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -12155,7 +12157,7 @@
       "cbcs"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -12186,7 +12188,7 @@
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:x-men:1:inst-329",
+    "urn": "urn:altasset:comic:marvelcomics:x-men:1:inst-329",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -12223,7 +12225,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "X-Men",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -12270,7 +12272,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -12308,14 +12310,14 @@
       "restored"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:avengers:1:inst-332",
+    "urn": "urn:altasset:comic:marvelcomics:avengers:1:inst-332",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -12344,7 +12346,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Avengers",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -12388,7 +12390,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -12424,14 +12426,14 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:flash-comics:1:inst-335",
+    "urn": "urn:altasset:comic:dccomics:flash-comics:1:inst-335",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -12460,7 +12462,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Flash Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -12533,14 +12535,14 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:1:inst-338",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-338",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -12568,14 +12570,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:1:inst-339",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-339",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -12614,14 +12616,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:1:inst-340",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-340",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -12637,14 +12639,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:1:inst-341",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-341",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -12660,14 +12662,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:1:inst-342",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-342",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -12683,14 +12685,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:1:inst-343",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-343",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -12706,14 +12708,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:1:inst-344",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-344",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -12729,14 +12731,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:wonder-woman:1:inst-345",
+    "urn": "urn:altasset:comic:dccomics:wonder-woman:1:inst-345",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -12775,14 +12777,14 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Wonder Woman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-346",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-346",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -12812,14 +12814,14 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-347",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-347",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -12849,14 +12851,14 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-348",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-348",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -12874,14 +12876,14 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-349",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-349",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -12899,14 +12901,14 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-350",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-350",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -12924,14 +12926,14 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-351",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-351",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -12949,14 +12951,14 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-352",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-352",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -12974,7 +12976,7 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -13128,7 +13130,7 @@
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:wonder-woman:1:inst-357",
+    "urn": "urn:altasset:comic:dccomics:wonder-woman:1:inst-357",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -13156,14 +13158,14 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Wonder Woman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:pep-comics:22:inst-358",
+    "urn": "urn:altasset:comic:archiecomics:pep-comics:22:inst-358",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -13191,7 +13193,7 @@
       "pep-comics"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Archie Comics",
       "title": "Pep Comics",
       "issueNumber": "22",
       "publicationDate": "Unknown"
@@ -13263,7 +13265,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -13307,7 +13309,7 @@
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:amazing-spider-man:1:inst-362",
+    "urn": "urn:altasset:comic:marvelcomics:amazing-spider-man:1:inst-362",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -13339,14 +13341,14 @@
       "spider-man"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Spider-Man",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-363",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-363",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -13376,7 +13378,7 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -13423,7 +13425,7 @@
       "batman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -13496,7 +13498,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -13532,7 +13534,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "35",
       "publicationDate": "Unknown"
@@ -13570,7 +13572,7 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Journey into Mystery",
       "issueNumber": "83",
       "publicationDate": "Unknown"
@@ -13619,7 +13621,7 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Journey into Mystery",
       "issueNumber": "83",
       "publicationDate": "Unknown"
@@ -13656,7 +13658,7 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Journey into Mystery",
       "issueNumber": "83",
       "publicationDate": "Unknown"
@@ -13965,7 +13967,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "33",
       "publicationDate": "Unknown"
@@ -14001,7 +14003,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "31",
       "publicationDate": "Unknown"
@@ -14038,7 +14040,7 @@
       "hakes"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -14069,7 +14071,7 @@
       }
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Action Comics",
       "issueNumber": "7",
       "publicationDate": "Unknown"
@@ -14179,14 +14181,14 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-388",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-388",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -14216,7 +14218,7 @@
       "timely"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -14292,7 +14294,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -14335,7 +14337,7 @@
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:flash-comics:1:inst-392",
+    "urn": "urn:altasset:comic:dccomics:flash-comics:1:inst-392",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -14364,7 +14366,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Flash Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -14399,14 +14401,14 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "14",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-394",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-394",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -14436,7 +14438,7 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -14473,7 +14475,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -14511,7 +14513,7 @@
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-397",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-397",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -14560,14 +14562,14 @@
       "golden-age"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-398",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-398",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -14607,14 +14609,14 @@
       "golden-age"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:avengers:1:inst-399",
+    "urn": "urn:altasset:comic:marvelcomics:avengers:1:inst-399",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -14631,14 +14633,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Avengers",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:avengers:1:inst-400",
+    "urn": "urn:altasset:comic:marvelcomics:avengers:1:inst-400",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -14688,7 +14690,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Avengers",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -14736,7 +14738,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -14761,7 +14763,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -14798,7 +14800,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -14823,7 +14825,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -14848,7 +14850,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -14873,7 +14875,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -14898,7 +14900,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -14923,7 +14925,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -14948,7 +14950,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -14973,7 +14975,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -14998,7 +15000,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -15023,7 +15025,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -15048,7 +15050,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -15073,7 +15075,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -15110,7 +15112,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -15135,7 +15137,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -15160,7 +15162,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -15185,7 +15187,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -15210,7 +15212,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -15235,7 +15237,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -15260,7 +15262,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -15285,7 +15287,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -15310,7 +15312,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -15335,7 +15337,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -15360,7 +15362,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -15385,7 +15387,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -15410,7 +15412,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -15435,7 +15437,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -15460,7 +15462,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -15485,7 +15487,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -15510,14 +15512,14 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-432",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-432",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -15547,7 +15549,7 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -15584,7 +15586,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -15893,7 +15895,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -15929,14 +15931,14 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-445",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-445",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -15966,14 +15968,14 @@
       "timely"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-446",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-446",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -16003,14 +16005,14 @@
       "timely"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-447",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-447",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -16051,7 +16053,7 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -16150,7 +16152,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -16198,7 +16200,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -16235,14 +16237,14 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-453",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-453",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -16272,14 +16274,14 @@
       "golden-age"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-454",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-454",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -16309,7 +16311,7 @@
       "golden-age"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -16344,7 +16346,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -16383,14 +16385,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:1:0007055-ac-002",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:0007055-ac-002",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -16421,14 +16423,14 @@
       "hulk"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:flash-comics:1:inst-458",
+    "urn": "urn:altasset:comic:dccomics:flash-comics:1:inst-458",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -16459,7 +16461,7 @@
       "jp-the-mint"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Flash Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -16505,7 +16507,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -16551,14 +16553,14 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:x-men:1:inst-461",
+    "urn": "urn:altasset:comic:marvelcomics:x-men:1:inst-461",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -16586,7 +16588,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "X-Men",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -16634,7 +16636,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -16671,7 +16673,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -16708,7 +16710,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -16756,7 +16758,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -16908,7 +16910,7 @@
       }
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Action Comics",
       "issueNumber": "7",
       "publicationDate": "Unknown"
@@ -16950,7 +16952,7 @@
       }
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Action Comics",
       "issueNumber": "7",
       "publicationDate": "Unknown"
@@ -17022,7 +17024,7 @@
       "restored"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -17058,14 +17060,14 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "33",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-474",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-474",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -17095,7 +17097,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -17131,7 +17133,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -17167,7 +17169,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -17324,7 +17326,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -17361,7 +17363,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -17396,7 +17398,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -17442,14 +17444,14 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-484",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-484",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -17479,7 +17481,7 @@
       "golden-age"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -17564,7 +17566,7 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Journey into Mystery",
       "issueNumber": "83",
       "publicationDate": "Unknown"
@@ -17635,7 +17637,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "31",
       "publicationDate": "Unknown"
@@ -17672,14 +17674,14 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-490",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-490",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -17709,7 +17711,7 @@
       "golden-age"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -17746,14 +17748,14 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:wonder-woman:1:inst-492",
+    "urn": "urn:altasset:comic:dccomics:wonder-woman:1:inst-492",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -17792,7 +17794,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Wonder Woman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -17876,14 +17878,14 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:x-men:1:inst-495",
+    "urn": "urn:altasset:comic:marvelcomics:x-men:1:inst-495",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -17913,14 +17915,14 @@
       "upgrade"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "X-Men",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-496",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-496",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -17950,14 +17952,14 @@
       "golden-age"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-497",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-497",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -17987,14 +17989,14 @@
       "golden-age"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:1:inst-498",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-498",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -18024,14 +18026,14 @@
       "hulk"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:all-star-comics:8:inst-499",
+    "urn": "urn:altasset:comic:dccomics:all-star-comics:8:inst-499",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -18060,7 +18062,7 @@
       "wonder-woman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "All Star Comics",
       "issueNumber": "8",
       "publicationDate": "Unknown"
@@ -18097,7 +18099,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -18182,7 +18184,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -18218,7 +18220,7 @@
       "restored"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -18292,7 +18294,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -18327,7 +18329,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -18364,14 +18366,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-508",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-508",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -18412,14 +18414,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-509",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-509",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -18449,7 +18451,7 @@
       "timely"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -18486,14 +18488,14 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:amazing-spider-man:3:inst-511",
+    "urn": "urn:altasset:comic:marvelcomics:amazing-spider-man:3:inst-511",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -18522,14 +18524,14 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Spider-Man",
       "issueNumber": "3",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-512",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-512",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -18559,7 +18561,7 @@
       "pedigree"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -18606,7 +18608,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -18642,7 +18644,7 @@
       "batman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "29",
       "publicationDate": "Unknown"
@@ -18677,14 +18679,14 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-516",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-516",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -18714,7 +18716,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -18788,7 +18790,7 @@
       "pedigree"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "359",
       "publicationDate": "Unknown"
@@ -18825,7 +18827,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -18977,7 +18979,7 @@
       "pedigree"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "140",
       "publicationDate": "Unknown"
@@ -19056,7 +19058,7 @@
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:36:inst-526",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:36:inst-526",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -19088,14 +19090,14 @@
       "pedigree"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "36",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:74:inst-527",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:74:inst-527",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -19127,14 +19129,14 @@
       "pedigree"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "74",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:46:inst-528",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:46:inst-528",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -19166,7 +19168,7 @@
       "pedigree"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "46",
       "publicationDate": "Unknown"
@@ -19204,14 +19206,14 @@
       "pedigree"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "114",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:incredible-hulk:1:inst-530",
+    "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-530",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -19239,14 +19241,14 @@
       "hulk"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Incredible Hulk",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-531",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-531",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -19287,14 +19289,14 @@
       "golden-age"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-532",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-532",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -19324,7 +19326,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -19360,7 +19362,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "38",
       "publicationDate": "Unknown"
@@ -19415,7 +19417,7 @@
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:action-comics-ashcan:1:inst-535",
+    "urn": "urn:altasset:comic:dccomics:action-comics-ashcan:1:inst-535",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -19444,7 +19446,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Action Comics Ashcan",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -19480,7 +19482,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -19517,14 +19519,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:amazing-spider-man:1:inst-538",
+    "urn": "urn:altasset:comic:marvelcomics:amazing-spider-man:1:inst-538",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -19554,7 +19556,7 @@
       "spider-man"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Spider-Man",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -19626,14 +19628,14 @@
       "batman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "225",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:5:inst-541",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:5:inst-541",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -19663,14 +19665,14 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "5",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-542",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-542",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -19711,7 +19713,7 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -19747,7 +19749,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -19792,14 +19794,14 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:x-men:1:inst-545",
+    "urn": "urn:altasset:comic:marvelcomics:x-men:1:inst-545",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -19827,7 +19829,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "X-Men",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -19941,7 +19943,7 @@
       "batman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "69",
       "publicationDate": "Unknown"
@@ -19979,14 +19981,14 @@
       "batman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "124",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:48:inst-550",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:48:inst-550",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -20015,7 +20017,7 @@
       "silver surfer"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "48",
       "publicationDate": "Unknown"
@@ -20092,7 +20094,7 @@
       "joker"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "149",
       "publicationDate": "Unknown"
@@ -20203,14 +20205,14 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:amazing-spider-man:4:inst-556",
+    "urn": "urn:altasset:comic:marvelcomics:amazing-spider-man:4:inst-556",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -20241,7 +20243,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Spider-Man",
       "issueNumber": "4",
       "publicationDate": "Unknown"
@@ -20276,7 +20278,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -20314,14 +20316,14 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Journey into Mystery",
       "issueNumber": "83",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:x-men:1:inst-559",
+    "urn": "urn:altasset:comic:marvelcomics:x-men:1:inst-559",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -20349,7 +20351,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "X-Men",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -20395,7 +20397,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -20468,7 +20470,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Action Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -20516,7 +20518,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Action Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -20553,7 +20555,7 @@
       "restored"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Action Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -20633,7 +20635,7 @@
       "restored"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -20670,7 +20672,7 @@
       "restored"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -20707,7 +20709,7 @@
       "restored"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -20744,7 +20746,7 @@
     ],
     "generalCommentary": "Signed by Bob Kane to his good friend Robert Crestohl",
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -20791,7 +20793,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -20827,7 +20829,7 @@
       "batman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -21164,7 +21166,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -21199,7 +21201,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -21245,7 +21247,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -21280,7 +21282,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -21315,7 +21317,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -21382,7 +21384,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -21428,7 +21430,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -21463,7 +21465,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -21497,7 +21499,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -21532,14 +21534,14 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-590",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-590",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -21580,14 +21582,14 @@
       "timely"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-591",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-591",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -21620,14 +21622,14 @@
       "pedigree"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-592",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-592",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -21668,14 +21670,14 @@
       "timely"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-593",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-593",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -21705,14 +21707,14 @@
       "golden-age"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-594",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-594",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -21742,14 +21744,14 @@
       "golden-age"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-595",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-595",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -21779,14 +21781,14 @@
       "timely"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-596",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-596",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -21816,14 +21818,14 @@
       "timely"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-597",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-597",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -21853,14 +21855,14 @@
       "timely"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-598",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-598",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -21890,14 +21892,14 @@
       "timely"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-599",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-599",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -21927,14 +21929,14 @@
       "timely"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-600",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-600",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -21964,14 +21966,14 @@
       "timely"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-601",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-601",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -22001,14 +22003,14 @@
       "timely"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-602",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-602",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -22051,14 +22053,14 @@
       "pedigree"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-603",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-603",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -22088,14 +22090,14 @@
       "timely"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-604",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-604",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -22125,14 +22127,14 @@
       "timely"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-605",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-605",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -22162,14 +22164,14 @@
       "timely"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-606",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-606",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -22210,14 +22212,14 @@
       "timely"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-607",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-607",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -22247,14 +22249,14 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-608",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-608",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -22284,14 +22286,14 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-609",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-609",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -22321,14 +22323,14 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-610",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-610",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -22369,14 +22371,14 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-611",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-611",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -22406,14 +22408,14 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-612",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-612",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -22443,14 +22445,14 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-613",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-613",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -22480,14 +22482,14 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-614",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-614",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -22517,14 +22519,14 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:fantastic-four:1:inst-615",
+    "urn": "urn:altasset:comic:marvelcomics:fantastic-four:1:inst-615",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -22554,7 +22556,7 @@
       "kirby"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Fantastic Four",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -22590,7 +22592,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -22626,7 +22628,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -22663,7 +22665,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -22699,7 +22701,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -22736,7 +22738,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -22773,7 +22775,7 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
@@ -22846,7 +22848,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -22882,7 +22884,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -22918,14 +22920,14 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "31",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-626",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-626",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -22955,7 +22957,7 @@
       "timely"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -23028,7 +23030,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "11",
       "publicationDate": "Unknown"
@@ -23064,7 +23066,7 @@
       "batman"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "29",
       "publicationDate": "Unknown"
@@ -23100,7 +23102,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -23137,7 +23139,7 @@
       "restored"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Action Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -23208,7 +23210,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "38",
       "publicationDate": "Unknown"
@@ -23279,7 +23281,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -23316,14 +23318,14 @@
       "marvel"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
       "publicationDate": "Unknown"
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:captain-america-comics:1:inst-637",
+    "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:1:inst-637",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -23353,7 +23355,7 @@
       "golden-age"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Captain America Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -23396,7 +23398,7 @@
     }
   },
   {
-    "urn": "urn:altasset:comic:unknown:x-men:1:inst-639",
+    "urn": "urn:altasset:comic:marvelcomics:x-men:1:inst-639",
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
@@ -23425,7 +23427,7 @@
       "CGC"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "X-Men",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -23456,7 +23458,7 @@
       }
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Action Comics",
       "issueNumber": "7",
       "publicationDate": "Unknown"
@@ -23493,7 +23495,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Action Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -23529,7 +23531,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -23565,7 +23567,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
       "publicationDate": "Unknown"
@@ -23601,7 +23603,7 @@
       "dc"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
       "publicationDate": "Unknown"
@@ -23638,7 +23640,7 @@
       "classic-cover"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "31",
       "publicationDate": "Unknown"

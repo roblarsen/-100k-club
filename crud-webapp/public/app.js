@@ -235,13 +235,18 @@ function buildCurrentBookObject() {
         };
 
     const cgcId = document.getElementById('book-cgcid').value.trim();
-    base.customMetadata = {
+    const metadata = {
         ...(base.customMetadata || {}),
         title: document.getElementById('book-title').value,
         issueNumber: document.getElementById('book-issue').value,
-        publisher: document.getElementById('book-publisher').value,
-        ...(cgcId ? { cgcId } : (() => { delete base.customMetadata?.cgcId; return {}; })())
+        publisher: document.getElementById('book-publisher').value
     };
+    if (cgcId) {
+        metadata.cgcId = cgcId;
+    } else {
+        delete metadata.cgcId;
+    }
+    base.customMetadata = metadata;
 
     const pedigree = document.getElementById('book-pedigree').value.trim();
     base.currentAuthentication = {
@@ -295,7 +300,7 @@ function toggleRawJsonView() {
         // Sync valid JSON back into the form before hiding the pane
         try {
             populateFormFromBook(JSON.parse(document.getElementById('book-raw-json').value));
-        } catch (_) { /* keep existing form values if JSON is malformed */ }
+        } catch (_parseError) { /* keep existing form values if JSON is malformed */ }
         jsonPane.style.display = 'none';
         splitContainer.classList.remove('split-view');
         toggleBtn.textContent = 'Show Raw JSON';
@@ -314,7 +319,7 @@ function onRawJsonInput() {
     validateRawJson();
     try {
         populateFormFromBook(JSON.parse(document.getElementById('book-raw-json').value));
-    } catch (_) { /* don't update form while JSON is invalid */ }
+    } catch (_parseError) { /* don't update form while JSON is invalid */ }
 }
 
 /**
@@ -332,7 +337,7 @@ function validateRawJson() {
     try {
         parsed = JSON.parse(textarea.value);
         jsonErrorEl.style.display = 'none';
-    } catch (_) {
+    } catch (_parseError) {
         jsonErrorEl.style.display = 'inline';
         specErrorEl.style.display = 'none';
         saveBtn.disabled = true;
@@ -363,7 +368,7 @@ document.getElementById('book-form').addEventListener('submit', async function(e
         let parsedBook;
         try {
             parsedBook = JSON.parse(document.getElementById('book-raw-json').value);
-        } catch (_) {
+        } catch (_parseError) {
             showError('Invalid JSON: cannot save');
             return;
         }

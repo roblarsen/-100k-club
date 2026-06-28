@@ -28,60 +28,73 @@
 
             <!-- Add/Edit Book Form -->
             <div id="book-form-container" class="form-container" style="display: none;">
-                <h3 id="book-form-title">Add New Book</h3>
-                <form id="book-form">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="book-title">Title:</label>
-                            <input type="text" id="book-title" required>
+                <div class="form-header">
+                    <h3 id="book-form-title">Add New Book</h3>
+                    <button type="button" id="book-raw-toggle" onclick="toggleRawJsonView()" class="btn btn-secondary">Show Raw JSON</button>
+                </div>
+                <div id="book-edit-split">
+                    <form id="book-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="book-title">Title:</label>
+                                <input type="text" id="book-title" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="book-issue">Issue:</label>
+                                <input type="text" id="book-issue">
+                            </div>
+                            <div class="form-group">
+                                <label for="book-publisher">Publisher:</label>
+                                <input type="text" id="book-publisher">
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="book-issue">Issue:</label>
-                            <input type="text" id="book-issue">
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="book-grade">Grade:</label>
+                                <input type="text" id="book-grade">
+                            </div>
+                            <div class="form-group">
+                                <label for="book-gradeSource">Grade Source:</label>
+                                <input type="text" id="book-gradeSource">
+                            </div>
+                            <div class="form-group">
+                                <label for="book-cgcid">CGC ID:</label>
+                                <input type="text" id="book-cgcid">
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="book-publisher">Publisher:</label>
-                            <input type="text" id="book-publisher">
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="book-pedigree">Pedigree:</label>
+                                <input type="text" id="book-pedigree">
+                            </div>
                         </div>
-                    </div>
-                    
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="book-grade">Grade:</label>
-                            <input type="text" id="book-grade">
-                        </div>
-                        <div class="form-group">
-                            <label for="book-gradeSource">Grade Source:</label>
-                            <input type="text" id="book-gradeSource">
-                        </div>
-                        <div class="form-group">
-                            <label for="book-cgcid">CGC ID:</label>
-                            <input type="text" id="book-cgcid">
-                        </div>
-                    </div>
-                    
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="book-pedigree">Pedigree:</label>
-                            <input type="text" id="book-pedigree">
-                        </div>
-                    </div>
 
-                    <div class="form-group">
-                        <label for="book-tags">Tags (comma-separated):</label>
-                        <input type="text" id="book-tags">
-                    </div>
+                        <div class="form-group">
+                            <label for="book-tags">Tags (comma-separated):</label>
+                            <input type="text" id="book-tags">
+                        </div>
 
-                    <div class="form-group">
-                        <label for="book-commentary">Commentary:</label>
-                        <textarea id="book-commentary" rows="3"></textarea>
-                    </div>
+                        <div class="form-group">
+                            <label for="book-commentary">Commentary:</label>
+                            <textarea id="book-commentary" rows="3"></textarea>
+                        </div>
 
-                    <div class="form-actions">
-                        <button type="submit" class="btn btn-primary">Save Book</button>
-                        <button type="button" onclick="cancelBookForm()" class="btn btn-secondary">Cancel</button>
+                        <div class="form-actions">
+                            <button type="submit" id="book-save-btn" class="btn btn-primary">Save Book</button>
+                            <button type="button" onclick="cancelBookForm()" class="btn btn-secondary">Cancel</button>
+                            <span id="book-json-error" class="json-error-label" style="display: none;">&#9888; Invalid JSON Structure</span>
+                            <span id="book-spec-error" class="spec-error-label" style="display: none;"></span>
+                        </div>
+                    </form>
+
+                    <!-- Raw JSON pane — shown when toggle is active -->
+                    <div id="book-raw-json-pane" class="raw-json-pane" style="display: none;">
+                        <label for="book-raw-json" class="raw-json-label">Raw JSON — AltAssetComic</label>
+                        <textarea id="book-raw-json" class="raw-json-editor" oninput="onRawJsonInput()" spellcheck="false" autocomplete="off"></textarea>
                     </div>
-                </form>
+                </div>
             </div>
 
             <!-- Books Table -->

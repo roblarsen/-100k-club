@@ -5,6 +5,23 @@ let pedigreesData = null;
 let currentEditingBook = null;
 let currentEditingRecord = null;
 let currentEditingPedigree = null;
+let rawJsonViewActive = false;
+
+// Mirrors isAltAsset() from the alt-asset-spec package for client-side validation.
+function isAltAsset(obj) {
+    if (!obj || typeof obj !== 'object') return false;
+    const hasRequiredRootKeys = typeof obj.urn === 'string' &&
+        typeof obj.schemaVersion === 'string' &&
+        ['comic', 'trading_card', 'video_game', 'coin'].includes(obj.assetClass) &&
+        typeof obj.currentAuthentication === 'object' &&
+        Array.isArray(obj.provenanceLedger) &&
+        typeof obj.customMetadata === 'object';
+    if (!hasRequiredRootKeys) return false;
+    const auth = obj.currentAuthentication;
+    return typeof auth.grader === 'string' &&
+        typeof auth.rawGradeString === 'string' &&
+        typeof auth.isActive === 'boolean';
+}
 
 // Returns the trimmed string value, or undefined if empty (omits optional fields from payloads)
 function trimOrUndefined(value) {
@@ -134,6 +151,7 @@ function showAddBookForm() {
     currentEditingBook = null;
     document.getElementById('book-form-title').textContent = 'Add New Book';
     document.getElementById('book-form').reset();
+    resetRawJsonView();
     document.getElementById('book-form-container').style.display = 'block';
 }
 
@@ -145,15 +163,8 @@ function editBook(bookIndex) {
     document.getElementById('book-form-title').textContent = 'Edit Book';
     
     // Populate form from AltAssetComic fields
-    document.getElementById('book-title').value = book.customMetadata?.title || '';
-    document.getElementById('book-issue').value = book.customMetadata?.issueNumber || '';
-    document.getElementById('book-publisher').value = book.customMetadata?.publisher || '';
-    document.getElementById('book-grade').value = book.currentAuthentication?.rawGradeString || '';
-    document.getElementById('book-gradeSource').value = book.currentAuthentication?.grader || '';
-    document.getElementById('book-cgcid').value = book.customMetadata?.cgcId || '';
-    document.getElementById('book-pedigree').value = book.currentAuthentication?.qualifiers?.[0] || '';
-    document.getElementById('book-tags').value = (book.tags || []).join(',');
-    document.getElementById('book-commentary').value = book.generalCommentary || '';
+    populateFormFromBook(book);
+    resetRawJsonView();
     
     document.getElementById('book-form-container').style.display = 'block';
 }
@@ -173,12 +184,209 @@ async function deleteBook(bookIndex) {
 function cancelBookForm() {
     document.getElementById('book-form-container').style.display = 'none';
     currentEditingBook = null;
+    resetRawJsonView();
 }
+
+// ── Raw JSON view helpers ────────────────────────────────────────────────────
+
+/**
+ * Resets raw-JSON-view state to off and restores the default form appearance.
+ * Call whenever the form is opened or closed.
+ */
+function resetRawJsonView() {
+    rawJsonViewActive = false;
+    document.getElementById('book-raw-json-pane').style.display = 'none';
+    document.getElementById('book-edit-split').classList.remove('split-view');
+    document.getElementById('book-raw-toggle').textContent = 'Show Raw JSON';
+    document.getElementById('book-json-error').style.display = 'none';
+    document.getElementById('book-spec-error').style.display = 'none';
+    document.getElementById('book-save-btn').disabled = false;
+    document.getElementById('book-raw-json').value = '';
+}
+
+/**
+ * Builds a complete AltAssetComic object from the current form field values,
+ * merged on top of the base object being edited (preserving fields like
+ * provenanceLedger that the form does not expose).
+ */
+function buildCurrentBookObject() {
+    const base = currentEditingBook
+        ? JSON.parse(JSON.stringify(currentEditingBook.book))
+        : {
+            urn: '',
+            schemaVersion: '1.0.0',
+            assetClass: 'comic',
+            currentAuthentication: {
+                grader: '',
+                numericGrade: 0,
+                rawGradeString: '',
+                isActive: true,
+                qualifiers: []
+            },
+            provenanceLedger: [],
+            tags: [],
+            generalCommentary: '',
+            customMetadata: {
+                publisher: '',
+                title: '',
+                issueNumber: '',
+                publicationDate: 'Unknown'
+            }
+        };
+
+    const cgcId = document.getElementById('book-cgcid').value.trim();
+    base.customMetadata = {
+        ...(base.customMetadata || {}),
+        title: document.getElementById('book-title').value,
+        issueNumber: document.getElementById('book-issue').value,
+        publisher: document.getElementById('book-publisher').value,
+        ...(cgcId ? { cgcId } : (() => { delete base.customMetadata?.cgcId; return {}; })())
+    };
+
+    const pedigree = document.getElementById('book-pedigree').value.trim();
+    base.currentAuthentication = {
+        ...(base.currentAuthentication || {}),
+        rawGradeString: document.getElementById('book-grade').value,
+        grader: document.getElementById('book-gradeSource').value,
+        isActive: base.currentAuthentication?.isActive ?? true,
+        qualifiers: pedigree ? [pedigree] : []
+    };
+
+    const tagsRaw = document.getElementById('book-tags').value;
+    base.tags = tagsRaw ? tagsRaw.split(',').map(t => t.trim()).filter(Boolean) : [];
+    base.generalCommentary = document.getElementById('book-commentary').value;
+
+    return base;
+}
+
+/**
+ * Populates the visual form fields from an AltAssetComic object.
+ */
+function populateFormFromBook(book) {
+    document.getElementById('book-title').value = book.customMetadata?.title || '';
+    document.getElementById('book-issue').value = book.customMetadata?.issueNumber || '';
+    document.getElementById('book-publisher').value = book.customMetadata?.publisher || '';
+    document.getElementById('book-grade').value = book.currentAuthentication?.rawGradeString || '';
+    document.getElementById('book-gradeSource').value = book.currentAuthentication?.grader || '';
+    document.getElementById('book-cgcid').value = book.customMetadata?.cgcId || '';
+    document.getElementById('book-pedigree').value = book.currentAuthentication?.qualifiers?.[0] || '';
+    document.getElementById('book-tags').value = (book.tags || []).join(',');
+    document.getElementById('book-commentary').value = book.generalCommentary || '';
+}
+
+/**
+ * Toggles the raw-JSON split view on/off.
+ * Opening: serialises the current form state to the textarea.
+ * Closing:  parses the textarea back into the form fields (if valid).
+ */
+function toggleRawJsonView() {
+    rawJsonViewActive = !rawJsonViewActive;
+    const jsonPane = document.getElementById('book-raw-json-pane');
+    const toggleBtn = document.getElementById('book-raw-toggle');
+    const splitContainer = document.getElementById('book-edit-split');
+
+    if (rawJsonViewActive) {
+        document.getElementById('book-raw-json').value = JSON.stringify(buildCurrentBookObject(), null, 2);
+        jsonPane.style.display = 'flex';
+        splitContainer.classList.add('split-view');
+        toggleBtn.textContent = 'Hide Raw JSON';
+        validateRawJson();
+    } else {
+        // Sync valid JSON back into the form before hiding the pane
+        try {
+            populateFormFromBook(JSON.parse(document.getElementById('book-raw-json').value));
+        } catch (_) { /* keep existing form values if JSON is malformed */ }
+        jsonPane.style.display = 'none';
+        splitContainer.classList.remove('split-view');
+        toggleBtn.textContent = 'Show Raw JSON';
+        document.getElementById('book-json-error').style.display = 'none';
+        document.getElementById('book-spec-error').style.display = 'none';
+        document.getElementById('book-save-btn').disabled = false;
+    }
+}
+
+/**
+ * Handles input on the raw JSON textarea:
+ * validates syntax + spec, and syncs valid JSON into the visual form fields.
+ */
+function onRawJsonInput() {
+    if (!rawJsonViewActive) return;
+    validateRawJson();
+    try {
+        populateFormFromBook(JSON.parse(document.getElementById('book-raw-json').value));
+    } catch (_) { /* don't update form while JSON is invalid */ }
+}
+
+/**
+ * Validates the raw JSON textarea for syntax correctness and AltAsset spec
+ * compliance.  Updates the error labels and enables/disables the save button.
+ * Returns true when the object is valid and ready to save.
+ */
+function validateRawJson() {
+    const textarea = document.getElementById('book-raw-json');
+    const jsonErrorEl = document.getElementById('book-json-error');
+    const specErrorEl = document.getElementById('book-spec-error');
+    const saveBtn = document.getElementById('book-save-btn');
+
+    let parsed;
+    try {
+        parsed = JSON.parse(textarea.value);
+        jsonErrorEl.style.display = 'none';
+    } catch (_) {
+        jsonErrorEl.style.display = 'inline';
+        specErrorEl.style.display = 'none';
+        saveBtn.disabled = true;
+        return false;
+    }
+
+    if (!isAltAsset(parsed)) {
+        specErrorEl.textContent = '\u26a0 Object does not conform to AltAsset spec — check: urn (string), assetClass (comic|trading_card|video_game|coin), currentAuthentication.grader / rawGradeString / isActive, provenanceLedger (array), customMetadata (object)';
+        specErrorEl.style.display = 'block';
+        saveBtn.disabled = true;
+        return false;
+    }
+
+    specErrorEl.style.display = 'none';
+    saveBtn.disabled = false;
+    return true;
+}
+
+// ── End raw JSON view helpers ────────────────────────────────────────────────
 
 // Book form submission
 document.getElementById('book-form').addEventListener('submit', async function(e) {
     e.preventDefault();
-    
+
+    // Raw JSON mode: validate and save the full AltAssetComic object directly
+    if (rawJsonViewActive) {
+        if (!validateRawJson()) return;
+        let parsedBook;
+        try {
+            parsedBook = JSON.parse(document.getElementById('book-raw-json').value);
+        } catch (_) {
+            showError('Invalid JSON: cannot save');
+            return;
+        }
+        if (!isAltAsset(parsedBook)) {
+            showError('Object does not conform to AltAsset spec');
+            return;
+        }
+        try {
+            if (currentEditingBook) {
+                await apiCall(`/api/books/${currentEditingBook.index}/raw`, 'PUT', parsedBook);
+                showSuccess('Book updated successfully');
+            } else {
+                await apiCall('/api/books/raw', 'POST', parsedBook);
+                showSuccess('Book added successfully');
+            }
+            cancelBookForm();
+            await loadAllData();
+        } catch (error) {
+            showError('Failed to save book');
+        }
+        return;
+    }
+
     const formData = {
         title: document.getElementById('book-title').value,
         issueNumber: document.getElementById('book-issue').value,
@@ -205,6 +413,12 @@ document.getElementById('book-form').addEventListener('submit', async function(e
     } catch (error) {
         showError('Failed to save book');
     }
+});
+
+// Sync visual form fields → JSON textarea whenever an input changes while raw view is active
+document.getElementById('book-form').addEventListener('input', function() {
+    if (!rawJsonViewActive) return;
+    document.getElementById('book-raw-json').value = JSON.stringify(buildCurrentBookObject(), null, 2);
 });
 
 // Sales management for individual books

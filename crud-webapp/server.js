@@ -46,6 +46,22 @@ function buildUrn(publisher, title, issue, index) {
     return `urn:altasset:comic:${slug(publisher)}:${slug(title)}:${slug(issue)}:inst-${index}`;
 }
 
+// Mirrors isAltAsset() from the alt-asset-spec package for server-side validation.
+function isAltAsset(obj) {
+    if (!obj || typeof obj !== 'object') return false;
+    const hasRequiredRootKeys = typeof obj.urn === 'string' &&
+        typeof obj.schemaVersion === 'string' &&
+        ['comic', 'trading_card', 'video_game', 'coin'].includes(obj.assetClass) &&
+        typeof obj.currentAuthentication === 'object' &&
+        Array.isArray(obj.provenanceLedger) &&
+        typeof obj.customMetadata === 'object';
+    if (!hasRequiredRootKeys) return false;
+    const auth = obj.currentAuthentication;
+    return typeof auth.grader === 'string' &&
+        typeof auth.rawGradeString === 'string' &&
+        typeof auth.isActive === 'boolean';
+}
+
 // Returns the trimmed string value, or undefined if empty/absent (omits the field from stored objects)
 function optField(value) {
     if (value === undefined || value === null) return undefined;
@@ -54,6 +70,42 @@ function optField(value) {
 }
 
 // Routes for Books (AltAssetComic format — data/books.json is a plain array)
+
+// Raw book creation: accepts a complete AltAssetComic object (validated against spec).
+// Must be defined before /api/books/:index to avoid "raw" being parsed as an index.
+app.post('/api/books/raw', async (req, res) => {
+    try {
+        if (!isAltAsset(req.body)) {
+            return res.status(400).json({ error: 'Object does not conform to AltAsset spec' });
+        }
+        const data = await readJSONFile(BOOKS_FILE);
+        data.push(req.body);
+        await writeJSONFile(BOOKS_FILE, data);
+        res.status(201).json(req.body);
+    } catch (error) {
+        res.status(500).json({ error: 'Failed to create book' });
+    }
+});
+
+// Raw book replacement: replaces the full record at :index with the provided AltAssetComic object.
+app.put('/api/books/:index/raw', async (req, res) => {
+    try {
+        if (!isAltAsset(req.body)) {
+            return res.status(400).json({ error: 'Object does not conform to AltAsset spec' });
+        }
+        const data = await readJSONFile(BOOKS_FILE);
+        const index = parseInt(req.params.index);
+        if (isNaN(index) || index < 0 || index >= data.length) {
+            return res.status(404).json({ error: 'Book not found' });
+        }
+        data[index] = req.body;
+        await writeJSONFile(BOOKS_FILE, data);
+        res.json(data[index]);
+    } catch (error) {
+        res.status(500).json({ error: 'Failed to update book' });
+    }
+});
+
 app.get('/api/books', async (req, res) => {
     try {
         const data = await readJSONFile(BOOKS_FILE);

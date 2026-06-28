@@ -20,12 +20,13 @@
       "dc",
       "pedigree"
     ],
-    "generalCommentary": "Best Existing - Updated Again",
+    "generalCommentary": "Best Existing",
     "customMetadata": {
-      "publisher": "DC Comics Updated Again",
+      "publisher": "DC Comics",
       "title": "Action Comics",
       "issueNumber": "1",
-      "publicationDate": "1938-06"
+      "publicationDate": "1938-06",
+      "cgcId": ""
     }
   },
   {
@@ -5722,8 +5723,8 @@
     "assetClass": "comic",
     "currentAuthentication": {
       "grader": "CGC",
-      "numericGrade": 8,
-      "rawGradeString": "8.0",
+      "numericGrade": 8.5,
+      "rawGradeString": "8.5",
       "isActive": true,
       "qualifiers": [
         "Edgar Church"
@@ -5749,6 +5750,28 @@
           "amount": 5300000,
           "currency": "USD"
         }
+      },
+      {
+        "eventId": "evt_dccomics_superman_1_inst-145_sale_2",
+        "eventType": "private_sale",
+        "date": "2026-02-04",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/heritage-auctions-press-releases-and-news/a-record-breaking-sale-two-10-cent-comic-books-sell-for-13-million.s?releaseId=5392",
+        "financials": {
+          "amount": 7000000,
+          "currency": "USD"
+        }
+      },
+      {
+        "eventId": "evt_dccomics_superman_1_inst-145_sale_3",
+        "eventType": "regrade",
+        "date": "2022-01-10",
+        "platform": "CGC",
+        "sourceLink": "",
+        "financials": {
+          "amount": 0,
+          "currency": "USD"
+        }
       }
     ],
     "tags": [
@@ -5757,11 +5780,13 @@
       "pedigree"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
-      "publicationDate": "Unknown"
-    }
+      "publicationDate": "Unknown",
+      "cgcId": " 1072525001"
+    },
+    "generalCommentary": ""
   },
   {
     "urn": "urn:altasset:comic:dccomics:superman:1:inst-146",

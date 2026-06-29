@@ -28,60 +28,73 @@
 
             <!-- Add/Edit Book Form -->
             <div id="book-form-container" class="form-container" style="display: none;">
-                <h3 id="book-form-title">Add New Book</h3>
-                <form id="book-form">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="book-title">Title:</label>
-                            <input type="text" id="book-title" required>
+                <div class="form-header">
+                    <h3 id="book-form-title">Add New Book</h3>
+                    <button type="button" id="book-raw-toggle" onclick="toggleRawJsonView()" class="btn btn-secondary">Show Raw JSON</button>
+                </div>
+                <div id="book-edit-split">
+                    <form id="book-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="book-title">Title:</label>
+                                <input type="text" id="book-title" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="book-issue">Issue:</label>
+                                <input type="text" id="book-issue">
+                            </div>
+                            <div class="form-group">
+                                <label for="book-publisher">Publisher:</label>
+                                <input type="text" id="book-publisher">
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="book-issue">Issue:</label>
-                            <input type="text" id="book-issue">
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="book-grade">Grade:</label>
+                                <input type="text" id="book-grade">
+                            </div>
+                            <div class="form-group">
+                                <label for="book-gradeSource">Grade Source:</label>
+                                <input type="text" id="book-gradeSource">
+                            </div>
+                            <div class="form-group">
+                                <label for="book-cgcid">CGC ID:</label>
+                                <input type="text" id="book-cgcid">
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="book-publisher">Publisher:</label>
-                            <input type="text" id="book-publisher">
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="book-pedigree">Pedigree:</label>
+                                <input type="text" id="book-pedigree">
+                            </div>
                         </div>
-                    </div>
-                    
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="book-grade">Grade:</label>
-                            <input type="text" id="book-grade">
-                        </div>
-                        <div class="form-group">
-                            <label for="book-gradeSource">Grade Source:</label>
-                            <input type="text" id="book-gradeSource">
-                        </div>
-                        <div class="form-group">
-                            <label for="book-cgcid">CGC ID:</label>
-                            <input type="text" id="book-cgcid">
-                        </div>
-                    </div>
-                    
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="book-pedigree">Pedigree:</label>
-                            <input type="text" id="book-pedigree">
-                        </div>
-                    </div>
 
-                    <div class="form-group">
-                        <label for="book-tags">Tags (comma-separated):</label>
-                        <input type="text" id="book-tags">
-                    </div>
+                        <div class="form-group">
+                            <label for="book-tags">Tags (comma-separated):</label>
+                            <input type="text" id="book-tags">
+                        </div>
 
-                    <div class="form-group">
-                        <label for="book-commentary">Commentary:</label>
-                        <textarea id="book-commentary" rows="3"></textarea>
-                    </div>
+                        <div class="form-group">
+                            <label for="book-commentary">Commentary:</label>
+                            <textarea id="book-commentary" rows="3"></textarea>
+                        </div>
 
-                    <div class="form-actions">
-                        <button type="submit" class="btn btn-primary">Save Book</button>
-                        <button type="button" onclick="cancelBookForm()" class="btn btn-secondary">Cancel</button>
+                        <div class="form-actions">
+                            <button type="submit" id="book-save-btn" class="btn btn-primary">Save Book</button>
+                            <button type="button" onclick="cancelBookForm()" class="btn btn-secondary">Cancel</button>
+                            <span id="book-json-error" class="json-error-label" style="display: none;">&#9888; Invalid JSON Structure</span>
+                            <span id="book-spec-error" class="spec-error-label" style="display: none;"></span>
+                        </div>
+                    </form>
+
+                    <!-- Raw JSON pane — shown when toggle is active -->
+                    <div id="book-raw-json-pane" class="raw-json-pane" style="display: none;">
+                        <label for="book-raw-json" class="raw-json-label">Raw JSON — AltAssetComic</label>
+                        <textarea id="book-raw-json" class="raw-json-editor" oninput="onRawJsonInput()" spellcheck="false" autocomplete="off"></textarea>
                     </div>
-                </form>
+                </div>
             </div>
 
             <!-- Books Table -->
@@ -95,7 +108,7 @@
                             <th>Grade</th>
                             <th>CGC ID</th>
                             <th>Pedigree</th>
-                            <th>Sales Count</th>
+                            <th>Ledger Events</th>
                             <th>Actions</th>
                         </tr>
                     </thead>
@@ -106,63 +119,124 @@
             </div>
         </section>
 
-        <!-- Sales Management Modal -->
+        <!-- Provenance Ledger Modal -->
         <div id="sales-modal" class="modal" style="display: none;">
-            <div class="modal-content">
+            <div class="modal-content modal-content-wide">
                 <div class="modal-header">
-                    <h3 id="sales-modal-title">Manage Sales</h3>
+                    <h3 id="sales-modal-title">Manage Provenance Ledger</h3>
                     <span class="close" onclick="closeSalesModal()">&times;</span>
                 </div>
                 <div class="modal-body">
                     <div class="actions">
-                        <button onclick="showAddSaleForm()" class="btn btn-primary">Add Sale</button>
+                        <button onclick="showAddSaleForm()" class="btn btn-primary">Add Event</button>
                     </div>
 
-                    <!-- Add/Edit Sale Form -->
+                    <!-- Add/Edit Provenance Event Form -->
                     <div id="sale-form-container" class="form-container" style="display: none;">
-                        <h4 id="sale-form-title">Add New Sale</h4>
+                        <h4 id="sale-form-title">Add New Provenance Event</h4>
                         <form id="sale-form">
+                            <!-- Core fields -->
                             <div class="form-row">
                                 <div class="form-group">
-                                    <label for="sale-price">Price ($):</label>
-                                    <input type="number" id="sale-price" required min="0" step="0.01">
+                                    <label for="sale-eventType">Event Type:</label>
+                                    <select id="sale-eventType" required onchange="onEventTypeChange()">
+                                        <option value="auction_sale">auction_sale — Public Auction realized price</option>
+                                        <option value="private_sale">private_sale — Direct dealer or collector transaction</option>
+                                        <option value="asset_swap">asset_swap — Trade involving estimated financial/trade values</option>
+                                        <option value="grading_event">grading_event — Initial third-party slabbing event</option>
+                                        <option value="reholder">reholder — Transferring to a new matching holder</option>
+                                        <option value="regrade">regrade — Cracking out to challenge or upgrade the grade</option>
+                                        <option value="pedigree_discovery">pedigree_discovery — Uncovering historical pedigree provenance</option>
+                                        <option value="asset_merge">asset_merge — Identity consolidation of duplicate entries</option>
+                                    </select>
                                 </div>
                                 <div class="form-group">
-                                    <label for="sale-date">Sale Date:</label>
-                                    <input type="date" id="sale-date" required>
+                                    <label for="sale-date">Date (YYYY-MM-DD or YYYY-MM):</label>
+                                    <input type="text" id="sale-date" placeholder="e.g. 2024-06-15" required>
                                 </div>
                             </div>
+
                             <div class="form-row">
                                 <div class="form-group">
-                                    <label for="sale-venue">Venue:</label>
-                                    <input type="text" id="sale-venue" required>
+                                    <label for="sale-venue">Platform / Venue / Grader:</label>
+                                    <input type="text" id="sale-venue" placeholder="e.g. Heritage, CGC, CBCS">
+                                </div>
+                                <div class="form-group" id="field-lotNumber" style="display: none;">
+                                    <label for="sale-lotNumber">Lot Number:</label>
+                                    <input type="text" id="sale-lotNumber" placeholder="Auction lot identifier">
                                 </div>
                                 <div class="form-group">
-                                    <label for="sale-link">Link (optional):</label>
-                                    <input type="url" id="sale-link">
+                                    <label for="sale-link">Source Link (optional):</label>
+                                    <input type="url" id="sale-link" placeholder="https://...">
                                 </div>
                             </div>
+
+                            <!-- Financial fields — shown for auction_sale, private_sale, asset_swap -->
+                            <div id="fields-financial" class="form-row" style="display: none;">
+                                <div class="form-group">
+                                    <label for="sale-price">Amount:</label>
+                                    <input type="text" id="sale-price" placeholder="e.g. 192,120.15">
+                                </div>
+                                <div class="form-group">
+                                    <label for="sale-currency">Currency:</label>
+                                    <select id="sale-currency">
+                                        <option value="USD" selected>USD</option>
+                                        <option value="EUR">EUR</option>
+                                        <option value="GBP">GBP</option>
+                                        <option value="CAD">CAD</option>
+                                        <option value="AUD">AUD</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Certification progression fields — shown for regrade, reholder -->
+                            <div id="fields-cert" class="form-row" style="display: none;">
+                                <div class="form-group">
+                                    <label for="sale-previousCertNumber">Previous Cert Number:</label>
+                                    <input type="text" id="sale-previousCertNumber" placeholder="e.g. 1234567890">
+                                </div>
+                                <div class="form-group">
+                                    <label for="sale-newCertNumber">New Cert Number:</label>
+                                    <input type="text" id="sale-newCertNumber" placeholder="e.g. 0987654321">
+                                </div>
+                            </div>
+
+                            <!-- Identity consolidation field — shown for asset_merge -->
+                            <div id="fields-merge" class="form-row" style="display: none;">
+                                <div class="form-group">
+                                    <label for="sale-mergedUrn">Merged URN (retired reference):</label>
+                                    <input type="text" id="sale-mergedUrn" placeholder="urn:altasset:comic:...">
+                                </div>
+                            </div>
+
+                            <!-- Notes -->
+                            <div class="form-group">
+                                <label for="sale-notes">Notes (optional):</label>
+                                <textarea id="sale-notes" rows="2" placeholder="Free-text contextual or forensic details"></textarea>
+                            </div>
+
                             <div class="form-actions">
-                                <button type="submit" class="btn btn-primary">Save Sale</button>
+                                <button type="submit" class="btn btn-primary">Save Event</button>
                                 <button type="button" onclick="cancelSaleForm()" class="btn btn-secondary">Cancel</button>
                             </div>
                         </form>
                     </div>
 
-                    <!-- Sales Table -->
+                    <!-- Provenance Ledger Table -->
                     <div class="table-container">
                         <table id="sales-table" class="data-table">
                             <thead>
                                 <tr>
-                                    <th>Price</th>
+                                    <th>Event Type</th>
                                     <th>Date</th>
-                                    <th>Venue</th>
-                                    <th>Link</th>
+                                    <th>Platform</th>
+                                    <th>Amount</th>
+                                    <th>Notes / Details</th>
                                     <th>Actions</th>
                                 </tr>
                             </thead>
                             <tbody id="sales-tbody">
-                                <!-- Sales will be loaded here -->
+                                <!-- Ledger events will be loaded here -->
                             </tbody>
                         </table>
                     </div>

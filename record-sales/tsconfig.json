@@ -11,8 +11,8 @@
     "noImplicitAny": false,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
+    "baseUrl": ".",
   "types": ["webpack-dev-server"]
   },
-  "include": ["scripts/**/*", "../core/formatCurrency.ts", "../core/dateFormatter.ts", "../core/getVenueName.ts"],
-  "paths": ["node_modules/**/*"]
+  "include": ["scripts/**/*", "../core/RecordSale.ts", "../core/formatCurrency.ts", "../core/dateFormatter.ts", "../core/getVenueName.ts", "../core/venues.ts"]
 }

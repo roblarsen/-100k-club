@@ -23,12 +23,26 @@ interface LegacyBookRecord {
 }
 
 /**
- * Cleanly formats scraped date strings into ISO 8601 month tokens (YYYY-MM)
+ * Normalizes a scraped date string to a full ISO 8601 date (YYYY-MM-DD) when
+ * day information is available, or a month token (YYYY-MM) otherwise.
+ * Handles single-digit month/day components (e.g., "2013-9-25" → "2013-09-25").
  */
 function normalizeDate(rawDate: string): string {
-  const clean = rawDate.toLowerCase();
-  const yearMatch = clean.match(/\b\d{4}\b/);
-  const year = yearMatch ? yearMatch[0] : '2026';
+  const clean = rawDate.trim();
+
+  // Handle ISO-like date formats: YYYY-M-D, YYYY-MM-D, YYYY-M-DD, YYYY-MM-DD, YYYY-MM
+  const isoMatch = clean.match(/^(\d{4})-(\d{1,2})(?:-(\d{1,2}))?/);
+  if (isoMatch) {
+    const year = isoMatch[1];
+    const month = isoMatch[2].padStart(2, '0');
+    const day = isoMatch[3] ? isoMatch[3].padStart(2, '0') : null;
+    return day ? `${year}-${month}-${day}` : `${year}-${month}`;
+  }
+
+  // Handle text-based dates like "March 2010", "Apr 2010"
+  const lc = clean.toLowerCase();
+  const yearMatch = lc.match(/\b(\d{4})\b/);
+  const year = yearMatch ? yearMatch[1] : '2026';
 
   const months: Record<string, string> = {
     jan: '01', feb: '02', mar: '03', apr: '04', may: '05', jun: '06',
@@ -37,7 +51,7 @@ function normalizeDate(rawDate: string): string {
 
   let month = '01';
   for (const [key, val] of Object.entries(months)) {
-    if (clean.includes(key)) { month = val; break; }
+    if (lc.includes(key)) { month = val; break; }
   }
   return `${year}-${month}`;
 }
@@ -76,11 +90,11 @@ const serialNumber = legacy.cgcid || legacy.cbcsid || undefined;
       finalDate = normalizeDate(sale.salesDate);
     }
 
-    // Fix 3: Force string-enclosed values (e.g., "237000") into clean numbers
+    // Fix 3: Preserve decimal cents — use parseFloat so "192120.15" stays 192120.15
     let finalPrice = 0;
     if (sale.price) {
       finalPrice = typeof sale.price === 'string' 
-        ? parseInt(sale.price.replace(/[^0-9]/g, ''), 10) 
+        ? parseFloat(sale.price.replace(/[^0-9.]/g, '')) 
         : sale.price;
     }
 
@@ -116,7 +130,7 @@ const serialNumber = legacy.cgcid || legacy.cbcsid || undefined;
       publisher: legacy.publisher || 'Unknown',
       title: legacy.title,
       issueNumber: legacy.issue,
-      publicationDate: legacy.coverDate ? normalizeDate(legacy.coverDate) : 'Unknown'
+      publicationDate: legacy.coverDate ? normalizeDate(legacy.coverDate).substring(0, 7) : 'Unknown'
     }
   };
 }
@@ -156,5 +170,5 @@ const migrated = rawData.map((item: LegacyBookRecord, i: number) => {
   return specObj;
 }).filter(Boolean);
 
-writeFileSync('./data/data/books.spec.json', JSON.stringify(migrated, null, 2));
-console.log(`🏁 Done! Output ${migrated.length} validated items to books.spec.json.`);
+writeFileSync('./data/books.json', JSON.stringify(migrated, null, 2));
+console.log(`🏁 Done! Output ${migrated.length} validated items to books.json.`);

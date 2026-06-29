@@ -5732,6 +5732,15 @@
         "Edgar Church"
       ]
     },
+    "previousAuthentication": {
+      "grader": "CGC",
+      "numericGrade": 8,
+      "rawGradeString": "8.0",
+      "isActive": true,
+      "qualifiers": [
+        "Edgar Church"
+      ]
+    },
     "provenanceLedger": [
       {
         "eventId": "evt_superman_1_sale_145_0",
@@ -5786,7 +5795,7 @@
       "title": "Superman",
       "issueNumber": "1",
       "publicationDate": "Unknown",
-      "cgcId": " 1072525001"
+      "cgcId": "1072525001"
     },
     "generalCommentary": ""
   },
@@ -18173,6 +18182,16 @@
         "sourceLink": "https://comics.ha.com/itm/golden-age-1938-1955-/batman-1-dc-1940-CGC-nm-94-white-pages/a/7239-91027.s?ic4=ListView-ShortDescription-071515",
         "financials": {
           "amount": 2220000,
+          "currency": "USD"
+        }
+      },
+      {
+        "eventId": "evt_5fbabe1a-9e5f-4138-b8f8-e24ea3fdb003",
+        "eventType": "private_sale",
+        "date": "2026-02-04",
+        "platform": "Heritage",
+        "financials": {
+          "amount": 6000000,
           "currency": "USD"
         }
       }

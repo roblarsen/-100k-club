@@ -10,7 +10,22 @@
     "silver-age-pedigrees": "cd ./silver-age-pedigrees && npm start",
     "data": "cd ./data && npm run watch",
     "books": "cd ./data && ts-node ./data/minify-books.ts",
+    "test": "jest",
     "data:migrate": "node --import tsx ./process-dev-data.ts"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/lodash": "^4.17.24",
+    "@types/supertest": "^7.2.0",
+    "body-parser": "^2.3.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "jest": "^30.4.2",
+    "lodash": "^4.18.1",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.2.2",
+    "ts-jest": "^29.4.11",
+    "typescript": "^6.0.3"
   },
   "author": "",
   "license": "MIT",

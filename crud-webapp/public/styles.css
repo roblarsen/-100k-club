@@ -378,6 +378,10 @@ main {
     overflow-y: auto;
 }
 
+.modal-content-wide {
+    max-width: 1200px;
+}
+
 .modal-header {
     background: linear-gradient(135deg, #2c3e50, #34495e);
     color: white;
@@ -409,3 +413,118 @@ main {
 .close:hover {
     opacity: 0.7;
 }
+
+/* Form header: title + toggle button side by side */
+.form-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.form-header h3 {
+    margin: 0;
+    color: #2c3e50;
+}
+
+/* Split-view: visual form on the left, raw JSON pane on the right */
+#book-edit-split {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#book-edit-split.split-view {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+#book-edit-split.split-view #book-form {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Raw JSON editor pane */
+.raw-json-pane {
+    flex-direction: column;
+    gap: 0.5rem;
+    flex: 1;
+    min-width: 0;
+}
+
+.raw-json-label {
+    display: block;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.25rem;
+    font-size: 0.95rem;
+}
+
+.raw-json-editor {
+    width: 100%;
+    min-height: 420px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    padding: 0.75rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    resize: vertical;
+    background: #1e1e1e;
+    color: #d4d4d4;
+    transition: border-color 0.3s ease;
+}
+
+.raw-json-editor:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+/* Validation error labels */
+.json-error-label {
+    color: #c0392b;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 0.3rem 0.6rem;
+    background: #fdf0ef;
+    border: 1px solid #e74c3c;
+    border-radius: 4px;
+}
+
+.spec-error-label {
+    display: block;
+    color: #7d3c98;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+    padding: 0.4rem 0.6rem;
+    background: #f5eef8;
+    border: 1px solid #a569bd;
+    border-radius: 4px;
+    line-height: 1.4;
+}
+
+/* Responsive: stack split-view vertically on small screens */
+@media (max-width: 900px) {
+    #book-edit-split.split-view {
+        flex-direction: column;
+    }
+}
+
+/* Provenance event type badges */
+.event-type-badge {
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.event-type-auction_sale    { background: #d5f5e3; color: #1e8449; }
+.event-type-private_sale    { background: #d6eaf8; color: #1a5276; }
+.event-type-asset_swap      { background: #fdebd0; color: #784212; }
+.event-type-grading_event   { background: #e8daef; color: #6c3483; }
+.event-type-reholder        { background: #fdfefe; color: #566573; border: 1px solid #bdc3c7; }
+.event-type-regrade         { background: #fef9e7; color: #7d6608; border: 1px solid #f9e79f; }
+.event-type-pedigree_discovery { background: #eafaf1; color: #1d6a39; }
+.event-type-asset_merge     { background: #fdedec; color: #922b21; }

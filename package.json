@@ -10,7 +10,8 @@
     "silver-age-pedigrees": "cd ./silver-age-pedigrees && npm start",
     "data": "cd ./data && npm run watch",
     "books": "cd ./data && ts-node ./data/minify-books.ts",
-    "test": "jest"
+    "test": "jest",
+    "data:migrate": "node --import tsx ./process-dev-data.ts"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
@@ -27,5 +28,9 @@
     "typescript": "^6.0.3"
   },
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "alt-asset-spec": "^1.0.0",
+    "tsx": "^4.22.4"
+  }
 }

@@ -11,8 +11,8 @@
     "noImplicitAny": false,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
+    "baseUrl": ".",
   "types": ["webpack-dev-server"]
   },
-  "include": ["scripts/**/*"],
-  "paths": ["node_modules/**/*"]
+  "include": ["scripts/**/*"]
 }

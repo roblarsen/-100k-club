@@ -47,3 +47,7 @@ Code changes are non-functional without empirical validation.
 * **Co-located Testing:** Write companion unit test specifications alongside your implementations using matching extensions (`.test.ts` or `.spec.ts`).
 * **Determinism & Mocks:** Avoid calling real-world database or external third-party registry layers inside analysis routines. Mock heavy asset data streams explicitly within test files using reproducible fixtures.
 * **Boundary Coverage:** Ensure every financial calculation handles negative asset values, zero balances, empty indices, and null historical values without throwing unhandled exceptions.
+
+## 5. Directory Specific Variations & Legacy Adapters
+* **silver-age-pedigrees/**: This directory maps dynamic book entities where pedigree short-codes serve as top-level record keys. Always validate keys against the `PedigreeCode` type definition before iterating over properties. Treat grade values as raw text flags due to mixed notation ("9.4" vs "FN+").
+* **timeline/**: Contains legacy data schemas where `grade` fields contain mixed alpha/numeric content. When writing computation logic for this folder, always route raw strings through an explicit normalization utility to derive a safe numeric value or handle `null` entries explicitly.

@@ -6,6 +6,13 @@ let currentEditingBook = null;
 let currentEditingRecord = null;
 let currentEditingPedigree = null;
 let rawJsonViewActive = false;
+let currentEditingRecordLegacyDate = '';
+let currentEditingRecordLegacyDateNormalized = '';
+const tableSortState = {
+    books: { column: null, direction: 'asc' },
+    records: { column: null, direction: 'asc' },
+    pedigrees: { column: null, direction: 'asc' }
+};
 
 // Mirrors isAltAsset() from the alt-asset-spec package for client-side validation.
 function isAltAsset(obj) {
@@ -28,6 +35,196 @@ function trimOrUndefined(value) {
     if (value === undefined || value === null) return undefined;
     const trimmed = String(value).trim();
     return trimmed || undefined;
+}
+
+function normalizeDateForPicker(value) {
+    const raw = trimOrUndefined(value);
+    if (!raw) return '';
+
+    if (/^\d{4}-\d{2}-\d{2}$/.test(raw)) {
+        return raw;
+    }
+    if (/^\d{4}-\d{2}$/.test(raw)) {
+        return `${raw}-01`;
+    }
+
+    const timestamp = Date.parse(raw);
+    if (Number.isNaN(timestamp)) return '';
+    return new Date(timestamp).toISOString().slice(0, 10);
+}
+
+function parseDateLikeValue(value) {
+    if (value === null || value === undefined) return null;
+    const raw = String(value).trim();
+    if (!raw) return null;
+
+    const yearMonthDayMatch = raw.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if (yearMonthDayMatch) {
+        return Date.UTC(
+            Number(yearMonthDayMatch[1]),
+            Number(yearMonthDayMatch[2]) - 1,
+            Number(yearMonthDayMatch[3])
+        );
+    }
+
+    const yearMonthMatch = raw.match(/^(\d{4})-(\d{2})$/);
+    if (yearMonthMatch) {
+        return Date.UTC(
+            Number(yearMonthMatch[1]),
+            Number(yearMonthMatch[2]) - 1,
+            1
+        );
+    }
+
+    const parsed = Date.parse(raw);
+    return Number.isNaN(parsed) ? null : parsed;
+}
+
+function parseNumberLikeValue(value) {
+    if (value === null || value === undefined) return null;
+    if (typeof value === 'number') return Number.isFinite(value) ? value : null;
+
+    const raw = String(value).trim();
+    if (!raw) return null;
+
+    const normalized = raw.replace(/[$,%\s]/g, '').replace(/,/g, '');
+    if (!/^-?\d+(\.\d+)?$/.test(normalized)) return null;
+    const parsed = Number(normalized);
+    return Number.isFinite(parsed) ? parsed : null;
+}
+
+function compareTypeAware(aValue, bValue) {
+    const aNumber = parseNumberLikeValue(aValue);
+    const bNumber = parseNumberLikeValue(bValue);
+    if (aNumber !== null && bNumber !== null) {
+        return aNumber - bNumber;
+    }
+
+    const aDate = parseDateLikeValue(aValue);
+    const bDate = parseDateLikeValue(bValue);
+    if (aDate !== null && bDate !== null) {
+        return aDate - bDate;
+    }
+
+    const aString = String(aValue ?? '').trim().toLowerCase();
+    const bString = String(bValue ?? '').trim().toLowerCase();
+    return aString.localeCompare(bString);
+}
+
+function sortRows(rows, tableKey, getColumnValue) {
+    const state = tableSortState[tableKey];
+    if (!state || state.column === null) return rows;
+
+    const directionMultiplier = state.direction === 'desc' ? -1 : 1;
+    return [...rows]
+        .map((row, position) => ({ row, position }))
+        .sort((a, b) => {
+            const aValue = getColumnValue(a.row, state.column);
+            const bValue = getColumnValue(b.row, state.column);
+            const comparison = compareTypeAware(aValue, bValue);
+            if (comparison !== 0) return comparison * directionMultiplier;
+            return a.position - b.position;
+        })
+        .map(entry => entry.row);
+}
+
+function toggleTableSort(tableKey, columnKey) {
+    const state = tableSortState[tableKey];
+    if (!state) return;
+
+    if (state.column === columnKey) {
+        state.direction = state.direction === 'asc' ? 'desc' : 'asc';
+    } else {
+        state.column = columnKey;
+        state.direction = 'asc';
+    }
+}
+
+function setTableHeaderSortUi(tableId, tableKey) {
+    const table = document.getElementById(tableId);
+    if (!table) return;
+
+    const state = tableSortState[tableKey];
+    table.querySelectorAll('thead th').forEach(th => {
+        th.classList.remove('sort-asc', 'sort-desc');
+        if (th.dataset.sortColumn) {
+            th.classList.add('sortable');
+            if (state?.column === th.dataset.sortColumn) {
+                th.classList.add(state.direction === 'desc' ? 'sort-desc' : 'sort-asc');
+            }
+        }
+    });
+}
+
+function initializeSortableHeaders(tableId, tableKey, columnKeys) {
+    const table = document.getElementById(tableId);
+    if (!table) return;
+
+    table.querySelectorAll('thead th').forEach((th, index) => {
+        const columnKey = columnKeys[index];
+        if (!columnKey) return;
+
+        th.dataset.sortColumn = columnKey;
+        if (th.dataset.sortBound === 'true') return;
+
+        th.dataset.sortBound = 'true';
+        th.addEventListener('click', () => {
+            toggleTableSort(tableKey, columnKey);
+            if (tableKey === 'books') {
+                renderBooks();
+            } else if (tableKey === 'records') {
+                renderRecords();
+            } else if (tableKey === 'pedigrees') {
+                renderPedigrees();
+            }
+        });
+    });
+
+    setTableHeaderSortUi(tableId, tableKey);
+}
+
+function dedupeSortedValues(values, fallbackValues) {
+    const unique = new Map();
+    values.forEach(value => {
+        const trimmed = trimOrUndefined(value);
+        if (!trimmed) return;
+        const key = trimmed.toLowerCase();
+        if (!unique.has(key)) unique.set(key, trimmed);
+    });
+
+    const result = [...unique.values()].sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
+    return result.length ? result : [...fallbackValues];
+}
+
+function populateDatalistOptions(listId, options) {
+    const datalist = document.getElementById(listId);
+    if (!datalist) return;
+    datalist.innerHTML = '';
+    options.forEach(option => {
+        const optionElement = document.createElement('option');
+        optionElement.value = option;
+        datalist.appendChild(optionElement);
+    });
+}
+
+function updateRecordAutocompleteSuggestions() {
+    const sales = Array.isArray(recordsData?.sales) ? recordsData.sales : [];
+    const gradeOptions = dedupeSortedValues(
+        sales.map(record => record.grade),
+        ['10.0', '9.8', '9.6', '9.4', '9.2']
+    );
+    const venueOptions = dedupeSortedValues(
+        sales.map(record => record.seller || record.venue || record.platform),
+        ['Heritage', 'ComicConnect', 'eBay', 'CGC', 'CBCS']
+    );
+    const platformOptions = dedupeSortedValues(
+        sales.map(record => record.platform || record.venue || record.seller),
+        ['Heritage', 'ComicConnect', 'eBay', 'CGC', 'CBCS']
+    );
+
+    populateDatalistOptions('record-grade-options', gradeOptions);
+    populateDatalistOptions('record-venue-options', venueOptions);
+    populateDatalistOptions('record-platform-options', platformOptions);
 }
 
 // Initialize app
@@ -79,6 +276,7 @@ async function loadAllData() {
         renderBooks();
         renderRecords();
         renderPedigrees();
+        updateRecordAutocompleteSuggestions();
         hideLoading();
     } catch (error) {
         hideLoading();
@@ -114,12 +312,29 @@ function hideAllForms() {
 
 // Books management
 function renderBooks() {
-    if (!booksData || !booksData.length) return;
+    const columnKeys = ['title', 'issue', 'publisher', 'grade', 'cgcid', 'pedigree', 'ledgerEvents', 'actions'];
+    initializeSortableHeaders('books-table', 'books', columnKeys);
     
     const tbody = document.getElementById('books-tbody');
     tbody.innerHTML = '';
+    if (!booksData || !booksData.length) {
+        setTableHeaderSortUi('books-table', 'books');
+        return;
+    }
     
-    booksData.forEach((book, index) => {
+    const rows = booksData.map((book, index) => ({ book, index }));
+    const sortedRows = sortRows(rows, 'books', ({ book }, columnKey) => {
+        if (columnKey === 'title') return book.customMetadata?.title;
+        if (columnKey === 'issue') return book.customMetadata?.issueNumber;
+        if (columnKey === 'publisher') return book.customMetadata?.publisher;
+        if (columnKey === 'grade') return book.currentAuthentication?.rawGradeString;
+        if (columnKey === 'cgcid') return book.customMetadata?.cgcId;
+        if (columnKey === 'pedigree') return book.currentAuthentication?.qualifiers?.[0];
+        if (columnKey === 'ledgerEvents') return (book.provenanceLedger || []).length;
+        return '';
+    });
+
+    sortedRows.forEach(({ book, index }) => {
         const title = book.customMetadata?.title || '';
         const issue = book.customMetadata?.issueNumber || '';
         const publisher = book.customMetadata?.publisher || '';
@@ -145,6 +360,9 @@ function renderBooks() {
         `;
         tbody.appendChild(row);
     });
+
+    setTableHeaderSortUi('books-table', 'books');
+    filterBooks();
 }
 
 function showAddBookForm() {
@@ -619,13 +837,36 @@ document.getElementById('sale-form').addEventListener('submit', async function(e
 });
 
 // Records management
+function setRecordLegacyDateHint(message) {
+    const hint = document.getElementById('record-date-legacy-hint');
+    if (!hint) return;
+    hint.textContent = message || '';
+    hint.style.display = message ? 'block' : 'none';
+}
+
 function renderRecords() {
-    if (!recordsData || !recordsData.sales) return;
+    const columnKeys = ['title', 'issue', 'grade', 'price', 'date', 'seller', 'actions'];
+    initializeSortableHeaders('records-table', 'records', columnKeys);
     
     const tbody = document.getElementById('records-tbody');
     tbody.innerHTML = '';
+    if (!recordsData || !Array.isArray(recordsData.sales)) {
+        setTableHeaderSortUi('records-table', 'records');
+        return;
+    }
     
-    recordsData.sales.forEach((record, index) => {
+    const rows = recordsData.sales.map((record, index) => ({ record, index }));
+    const sortedRows = sortRows(rows, 'records', ({ record }, columnKey) => {
+        if (columnKey === 'title') return record.title;
+        if (columnKey === 'issue') return record.issue;
+        if (columnKey === 'grade') return record.grade;
+        if (columnKey === 'price') return record.price;
+        if (columnKey === 'date') return record.date;
+        if (columnKey === 'seller') return record.seller;
+        return '';
+    });
+
+    sortedRows.forEach(({ record, index }) => {
         const row = document.createElement('tr');
         row.innerHTML = `
             <td>${record.title || ''}</td>
@@ -641,12 +882,18 @@ function renderRecords() {
         `;
         tbody.appendChild(row);
     });
+
+    setTableHeaderSortUi('records-table', 'records');
+    filterRecords();
 }
 
 function showAddRecordForm() {
     currentEditingRecord = null;
+    currentEditingRecordLegacyDate = '';
+    currentEditingRecordLegacyDateNormalized = '';
     document.getElementById('record-form-title').textContent = 'Add New Record';
     document.getElementById('record-form').reset();
+    setRecordLegacyDateHint('');
     document.getElementById('record-form-container').style.display = 'block';
 }
 
@@ -662,7 +909,21 @@ function editRecord(recordIndex) {
     document.getElementById('record-issue').value = record.issue || '';
     document.getElementById('record-grade').value = record.grade || '';
     document.getElementById('record-price').value = record.price || '';
-    document.getElementById('record-date').value = record.date || '';
+    const normalizedDate = normalizeDateForPicker(record.date);
+    document.getElementById('record-date').value = normalizedDate;
+    if (record.date && record.date !== normalizedDate) {
+        currentEditingRecordLegacyDate = record.date;
+        currentEditingRecordLegacyDateNormalized = normalizedDate;
+        if (normalizedDate) {
+            setRecordLegacyDateHint(`Original date "${record.date}" will be preserved unless you choose a new date.`);
+        } else {
+            setRecordLegacyDateHint(`Original date "${record.date}" could not be shown in the picker and will be preserved unless you choose a new date.`);
+        }
+    } else {
+        currentEditingRecordLegacyDate = '';
+        currentEditingRecordLegacyDateNormalized = '';
+        setRecordLegacyDateHint('');
+    }
     document.getElementById('record-seller').value = record.seller || '';
     document.getElementById('record-buyer').value = record.buyer || '';
     document.getElementById('record-note').value = record.note || '';
@@ -685,18 +946,29 @@ async function deleteRecord(recordIndex) {
 function cancelRecordForm() {
     document.getElementById('record-form-container').style.display = 'none';
     currentEditingRecord = null;
+    currentEditingRecordLegacyDate = '';
+    currentEditingRecordLegacyDateNormalized = '';
+    setRecordLegacyDateHint('');
 }
 
 // Record form submission
 document.getElementById('record-form').addEventListener('submit', async function(e) {
     e.preventDefault();
+    const selectedDate = document.getElementById('record-date').value;
+    let finalDate = selectedDate;
+
+    if (currentEditingRecord !== null && currentEditingRecordLegacyDate) {
+        if (!selectedDate || selectedDate === currentEditingRecordLegacyDateNormalized) {
+            finalDate = currentEditingRecordLegacyDate;
+        }
+    }
     
     const formData = {
         title: document.getElementById('record-title').value,
         issue: document.getElementById('record-issue').value,
         grade: document.getElementById('record-grade').value,
         price: Number(document.getElementById('record-price').value),
-        date: document.getElementById('record-date').value,
+        date: finalDate,
         seller: document.getElementById('record-seller').value,
         buyer: document.getElementById('record-buyer').value,
         note: document.getElementById('record-note').value,
@@ -734,12 +1006,25 @@ function renderPedigrees() {
             <th>Actions</th>
         </tr>
     `;
+    const columnKeys = ['title', ...pedigreesData.keys.map(key => `grade:${key.short}`), 'publisher', 'actions'];
+    initializeSortableHeaders('pedigrees-table', 'pedigrees', columnKeys);
     
     // Render table body
     const tbody = document.getElementById('pedigrees-tbody');
     tbody.innerHTML = '';
     
-    pedigreesData.books.forEach((book, index) => {
+    const rows = pedigreesData.books.map((book, index) => ({ book, index }));
+    const sortedRows = sortRows(rows, 'pedigrees', ({ book }, columnKey) => {
+        if (columnKey === 'title') return book.title;
+        if (columnKey === 'publisher') return book.pub;
+        if (columnKey.startsWith('grade:')) {
+            const gradeKey = columnKey.slice('grade:'.length);
+            return book[gradeKey];
+        }
+        return '';
+    });
+
+    sortedRows.forEach(({ book, index }) => {
         const row = document.createElement('tr');
         row.innerHTML = `
             <td>${book.title || ''}</td>
@@ -752,6 +1037,9 @@ function renderPedigrees() {
         `;
         tbody.appendChild(row);
     });
+
+    setTableHeaderSortUi('pedigrees-table', 'pedigrees');
+    filterPedigrees();
 }
 
 function showAddPedigreeForm() {

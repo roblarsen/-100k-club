@@ -159,7 +159,7 @@
                             <div class="form-row">
                                 <div class="form-group">
                                     <label for="sale-venue">Platform / Venue / Grader:</label>
-                                    <input type="text" id="sale-venue" placeholder="e.g. Heritage, CGC, CBCS">
+                                    <input type="text" id="sale-venue" placeholder="e.g. Heritage, CGC, CBCS" list="record-platform-options">
                                 </div>
                                 <div class="form-group" id="field-lotNumber" style="display: none;">
                                     <label for="sale-lotNumber">Lot Number:</label>
@@ -268,7 +268,7 @@
                         </div>
                         <div class="form-group">
                             <label for="record-grade">Grade:</label>
-                            <input type="text" id="record-grade">
+                            <input type="text" id="record-grade" list="record-grade-options">
                         </div>
                     </div>
                     
@@ -280,10 +280,11 @@
                         <div class="form-group">
                             <label for="record-date">Date:</label>
                             <input type="date" id="record-date">
+                            <small id="record-date-legacy-hint" class="field-hint" style="display: none;"></small>
                         </div>
                         <div class="form-group">
                             <label for="record-seller">Seller:</label>
-                            <input type="text" id="record-seller">
+                            <input type="text" id="record-seller" list="record-venue-options">
                         </div>
                     </div>
 
@@ -304,6 +305,9 @@
                     </div>
                 </form>
             </div>
+            <datalist id="record-grade-options"></datalist>
+            <datalist id="record-venue-options"></datalist>
+            <datalist id="record-platform-options"></datalist>
 
             <!-- Records Table -->
             <div class="table-container">

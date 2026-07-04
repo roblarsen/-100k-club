@@ -7449,6 +7449,17 @@
           "amount": 725000,
           "currency": "USD"
         }
+      },
+      {
+        "eventId": "evt_895a4866-5006-4106-b1e5-205bb88d27b9",
+        "eventType": "auction_sale",
+        "date": "2026-05-07",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/detective-comics-27-dc-1939-cgc-fn-65-cream-to-off-white-pages/a/7465-91014.s?ic4=GalleryView-Thumbnail-071515",
+        "financials": {
+          "amount": 1525000,
+          "currency": "USD"
+        }
       }
     ],
     "tags": [
@@ -7460,8 +7471,10 @@
       "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
-      "publicationDate": "Unknown"
-    }
+      "publicationDate": "Unknown",
+      "cgcId": "1099571001"
+    },
+    "generalCommentary": ""
   },
   {
     "urn": "urn:altasset:comic:dccomics:detective-comics:27:inst-192",
@@ -23959,6 +23972,32 @@
       "title": "Action Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
+    }
+  },
+  {
+    "urn": "urn:altasset:comic:dc-comics:action-comics:1:inst-654",
+    "schemaVersion": "1.0.0",
+    "assetClass": "comic",
+    "currentAuthentication": {
+      "grader": "CGC",
+      "numericGrade": 7,
+      "rawGradeString": "7.0 (Conserved)",
+      "isActive": true,
+      "qualifiers": []
+    },
+    "provenanceLedger": [],
+    "tags": [
+      "action",
+      "dc",
+      "superman"
+    ],
+    "generalCommentary": "",
+    "customMetadata": {
+      "publisher": "DC Comics",
+      "title": "Action Comics",
+      "issueNumber": "1",
+      "publicationDate": "Unknown",
+      "cgcId": "4689353001"
     }
   }
 ]

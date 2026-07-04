@@ -87,7 +87,7 @@ function parseNumberLikeValue(value) {
     const raw = String(value).trim();
     if (!raw) return null;
 
-    const normalized = raw.replace(/[$,%\s]/g, '').replace(/,/g, '');
+    const normalized = raw.replace(/[$,%\s,]/g, '');
     if (!/^-?\d+(\.\d+)?$/.test(normalized)) return null;
     const parsed = Number(normalized);
     return Number.isFinite(parsed) ? parsed : null;
@@ -218,7 +218,7 @@ function updateRecordAutocompleteSuggestions() {
         ['Heritage', 'ComicConnect', 'eBay', 'CGC', 'CBCS']
     );
     const platformOptions = dedupeSortedValues(
-        sales.map(record => record.platform || record.venue || record.seller),
+        sales.map(record => record.seller || record.venue || record.platform),
         ['Heritage', 'ComicConnect', 'eBay', 'CGC', 'CBCS']
     );
 

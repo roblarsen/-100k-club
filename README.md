@@ -19,9 +19,7 @@ This repository contains several related applications and datasets focused on co
 - `100k-club/`, `record-sales/`, `silver-age-pedigrees/`, `timeline/`: Modern D3/TypeScript web apps for data visualization.
 - `crud-webapp/`: Node.js/Express CRUD app for managing comic book and sales data.
 - `core/`: Shared TypeScript modules for data models and utilities.
-- `archives/`: Legacy AngularJS code, static HTML, and historical notes.
 - `data/`: Centralized JSON datasets for books, sales, and pedigrees.
-- `_timeline/`: Standalone D3 timeline demo.
 
 ## Getting Started
 

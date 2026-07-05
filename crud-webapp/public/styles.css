@@ -181,6 +181,13 @@ main {
     color: #2c3e50;
 }
 
+.field-hint {
+    display: block;
+    margin-top: 0.35rem;
+    color: #6c757d;
+    font-size: 0.85rem;
+}
+
 .form-group input,
 .form-group textarea,
 .form-group select {
@@ -227,6 +234,27 @@ main {
     font-weight: 600;
     position: sticky;
     top: 0;
+}
+
+.data-table th.sortable {
+    cursor: pointer;
+    user-select: none;
+}
+
+.data-table th.sortable::after {
+    content: ' ⇅';
+    opacity: 0.45;
+    font-size: 0.8em;
+}
+
+.data-table th.sort-asc::after {
+    content: ' ↑';
+    opacity: 1;
+}
+
+.data-table th.sort-desc::after {
+    content: ' ↓';
+    opacity: 1;
 }
 
 .data-table td {

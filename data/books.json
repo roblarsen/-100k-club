@@ -19773,6 +19773,17 @@
           "amount": 360000,
           "currency": "USD"
         }
+      },
+      {
+        "eventId": "evt_4ab28df1-d7dc-4b95-885d-052c18822b03",
+        "eventType": "auction_sale",
+        "date": "2026-05-07",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/batman-1-dc-1940-cgc-vg-fn-50-off-white-to-white-pages/a/7465-91010.s?ic4=GalleryView-Thumbnail-071515",
+        "financials": {
+          "amount": 366000,
+          "currency": "USD"
+        }
       }
     ],
     "tags": [
@@ -19784,8 +19795,10 @@
       "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
-      "publicationDate": "Unknown"
-    }
+      "publicationDate": "Unknown",
+      "cgcId": "1972895004"
+    },
+    "generalCommentary": ""
   },
   {
     "urn": "urn:altasset:comic:dccomics:superman:1:inst-544",

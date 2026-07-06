@@ -18812,12 +18812,13 @@
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
-      "grader": "RAW",
-      "rawGradeString": "RAW",
+      "grader": "CGC",
+      "rawGradeString": "9.8",
       "isActive": true,
       "qualifiers": [
         "Boston"
-      ]
+      ],
+      "numericGrade": 9.8
     },
     "provenanceLedger": [
       {
@@ -18843,8 +18844,10 @@
       "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "359",
-      "publicationDate": "Unknown"
-    }
+      "publicationDate": "Unknown",
+      "cgcId": "1197792002"
+    },
+    "generalCommentary": ""
   },
   {
     "urn": "urn:altasset:comic:dccomics:batman:1:inst-519",
@@ -19001,12 +19004,13 @@
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
-      "grader": "RAW",
-      "rawGradeString": "RAW",
+      "grader": "CGC",
+      "rawGradeString": "9.6",
       "isActive": true,
       "qualifiers": [
         "Promise Collection"
-      ]
+      ],
+      "numericGrade": 9.6
     },
     "provenanceLedger": [
       {
@@ -19032,8 +19036,10 @@
       "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "140",
-      "publicationDate": "Unknown"
-    }
+      "publicationDate": "Unknown",
+      "cgcId": "1973696020"
+    },
+    "generalCommentary": ""
   },
   {
     "urn": "urn:altasset:comic:fox:phantom-lady:17:inst-524",
@@ -19232,12 +19238,13 @@
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
-      "grader": "RAW",
-      "rawGradeString": "RAW",
+      "grader": "CGC",
+      "rawGradeString": "9.8",
       "isActive": true,
       "qualifiers": [
         "Promise Collection"
-      ]
+      ],
+      "numericGrade": 9.8
     },
     "provenanceLedger": [
       {
@@ -19262,8 +19269,10 @@
       "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "114",
-      "publicationDate": "Unknown"
-    }
+      "publicationDate": "Unknown",
+      "cgcId": "1973696012"
+    },
+    "generalCommentary": ""
   },
   {
     "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-530",

@@ -7449,6 +7449,17 @@
           "amount": 725000,
           "currency": "USD"
         }
+      },
+      {
+        "eventId": "evt_895a4866-5006-4106-b1e5-205bb88d27b9",
+        "eventType": "auction_sale",
+        "date": "2026-05-07",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/detective-comics-27-dc-1939-cgc-fn-65-cream-to-off-white-pages/a/7465-91014.s?ic4=GalleryView-Thumbnail-071515",
+        "financials": {
+          "amount": 1525000,
+          "currency": "USD"
+        }
       }
     ],
     "tags": [
@@ -7460,8 +7471,10 @@
       "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
-      "publicationDate": "Unknown"
-    }
+      "publicationDate": "Unknown",
+      "cgcId": "1099571001"
+    },
+    "generalCommentary": ""
   },
   {
     "urn": "urn:altasset:comic:dccomics:detective-comics:27:inst-192",
@@ -11677,11 +11690,13 @@
       "pedigree"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Continental Magazines",
       "title": "Suspense Comics",
       "issueNumber": "3",
-      "publicationDate": "Unknown"
-    }
+      "publicationDate": "Unknown",
+      "cgcId": ""
+    },
+    "generalCommentary": ""
   },
   {
     "urn": "urn:altasset:comic:marvelcomics:journey-into-mystery:83:inst-315",
@@ -13311,11 +13326,13 @@
       "pedigree"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Continental Magazines",
       "title": "Suspense Comics",
       "issueNumber": "3",
-      "publicationDate": "Unknown"
-    }
+      "publicationDate": "Unknown",
+      "cgcId": ""
+    },
+    "generalCommentary": ""
   },
   {
     "urn": "urn:altasset:comic:marvelcomics:amazing-spider-man:1:inst-362",
@@ -15001,7 +15018,19 @@
       "isActive": true,
       "qualifiers": []
     },
-    "provenanceLedger": [],
+    "provenanceLedger": [
+      {
+        "eventId": "evt_3f5b527b-7944-47d2-85a9-611c126f75a1",
+        "eventType": "auction_sale",
+        "date": "2026-05-07",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/amazing-fantasy-15-marvel-1962-cgc-vf-85-off-white-pages/a/7465-91007.s?ic4=GalleryView-Thumbnail-071515",
+        "financials": {
+          "amount": 268400,
+          "currency": "USD"
+        }
+      }
+    ],
     "tags": [
       "amazing-fantasy",
       "marvel",
@@ -15012,8 +15041,10 @@
       "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
-      "publicationDate": "Unknown"
-    }
+      "publicationDate": "Unknown",
+      "cgcId": "0082650001"
+    },
+    "generalCommentary": ""
   },
   {
     "urn": "urn:altasset:comic:marvelcomics:amazing-fantasy:15:inst-412",
@@ -18781,12 +18812,13 @@
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
-      "grader": "RAW",
-      "rawGradeString": "RAW",
+      "grader": "CGC",
+      "rawGradeString": "9.8",
       "isActive": true,
       "qualifiers": [
         "Boston"
-      ]
+      ],
+      "numericGrade": 9.8
     },
     "provenanceLedger": [
       {
@@ -18812,8 +18844,10 @@
       "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "359",
-      "publicationDate": "Unknown"
-    }
+      "publicationDate": "Unknown",
+      "cgcId": "1197792002"
+    },
+    "generalCommentary": ""
   },
   {
     "urn": "urn:altasset:comic:dccomics:batman:1:inst-519",
@@ -18970,12 +19004,13 @@
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
-      "grader": "RAW",
-      "rawGradeString": "RAW",
+      "grader": "CGC",
+      "rawGradeString": "9.6",
       "isActive": true,
       "qualifiers": [
         "Promise Collection"
-      ]
+      ],
+      "numericGrade": 9.6
     },
     "provenanceLedger": [
       {
@@ -19001,8 +19036,10 @@
       "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "140",
-      "publicationDate": "Unknown"
-    }
+      "publicationDate": "Unknown",
+      "cgcId": "1973696020"
+    },
+    "generalCommentary": ""
   },
   {
     "urn": "urn:altasset:comic:fox:phantom-lady:17:inst-524",
@@ -19046,10 +19083,11 @@
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
-      "grader": "RAW",
-      "rawGradeString": "RAW",
+      "grader": "CGC",
+      "rawGradeString": "9.8",
       "isActive": true,
-      "qualifiers": []
+      "qualifiers": [],
+      "numericGrade": 9.8
     },
     "provenanceLedger": [
       {
@@ -19070,11 +19108,13 @@
       "bronze-age"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Marvel Comics",
       "title": "Marvel Spotlight",
       "issueNumber": "5",
-      "publicationDate": "Unknown"
-    }
+      "publicationDate": "Unknown",
+      "cgcId": "2573239003"
+    },
+    "generalCommentary": ""
   },
   {
     "urn": "urn:altasset:comic:marvelcomics:captain-america-comics:36:inst-526",
@@ -19198,12 +19238,13 @@
     "schemaVersion": "1.0.0",
     "assetClass": "comic",
     "currentAuthentication": {
-      "grader": "RAW",
-      "rawGradeString": "RAW",
+      "grader": "CGC",
+      "rawGradeString": "9.8",
       "isActive": true,
       "qualifiers": [
         "Promise Collection"
-      ]
+      ],
+      "numericGrade": 9.8
     },
     "provenanceLedger": [
       {
@@ -19228,8 +19269,10 @@
       "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "114",
-      "publicationDate": "Unknown"
-    }
+      "publicationDate": "Unknown",
+      "cgcId": "1973696012"
+    },
+    "generalCommentary": ""
   },
   {
     "urn": "urn:altasset:comic:marvelcomics:incredible-hulk:1:inst-530",
@@ -19760,6 +19803,17 @@
           "amount": 360000,
           "currency": "USD"
         }
+      },
+      {
+        "eventId": "evt_4ab28df1-d7dc-4b95-885d-052c18822b03",
+        "eventType": "auction_sale",
+        "date": "2026-05-07",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/batman-1-dc-1940-cgc-vg-fn-50-off-white-to-white-pages/a/7465-91010.s?ic4=GalleryView-Thumbnail-071515",
+        "financials": {
+          "amount": 366000,
+          "currency": "USD"
+        }
       }
     ],
     "tags": [
@@ -19771,8 +19825,10 @@
       "publisher": "DC Comics",
       "title": "Batman",
       "issueNumber": "1",
-      "publicationDate": "Unknown"
-    }
+      "publicationDate": "Unknown",
+      "cgcId": "1972895004"
+    },
+    "generalCommentary": ""
   },
   {
     "urn": "urn:altasset:comic:dccomics:superman:1:inst-544",
@@ -23193,11 +23249,13 @@
       "classic-cover"
     ],
     "customMetadata": {
-      "publisher": "Unknown",
+      "publisher": "Continental Magazines",
       "title": "Suspense Comics",
       "issueNumber": "3",
-      "publicationDate": "Unknown"
-    }
+      "publicationDate": "Unknown",
+      "cgcId": ""
+    },
+    "generalCommentary": ""
   },
   {
     "urn": "urn:altasset:comic:dccomics:detective-comics:38:inst-633",
@@ -23959,6 +24017,414 @@
       "title": "Action Comics",
       "issueNumber": "1",
       "publicationDate": "Unknown"
+    }
+  },
+  {
+    "urn": "urn:altasset:comic:dc-comics:action-comics:1:inst-654",
+    "schemaVersion": "1.0.0",
+    "assetClass": "comic",
+    "currentAuthentication": {
+      "grader": "CGC",
+      "numericGrade": 7,
+      "rawGradeString": "7.0 (Conserved)",
+      "isActive": true,
+      "qualifiers": []
+    },
+    "provenanceLedger": [],
+    "tags": [
+      "action",
+      "dc",
+      "superman"
+    ],
+    "generalCommentary": "",
+    "customMetadata": {
+      "publisher": "DC Comics",
+      "title": "Action Comics",
+      "issueNumber": "1",
+      "publicationDate": "Unknown",
+      "cgcId": "4689353001"
+    }
+  },
+  {
+    "urn": "urn:altasset:comic:marvel-comics:marvel-spotlight:5:inst-655",
+    "schemaVersion": "1.0.0",
+    "assetClass": "comic",
+    "currentAuthentication": {
+      "grader": "CGC",
+      "numericGrade": 9.8,
+      "rawGradeString": "9.8",
+      "isActive": true,
+      "qualifiers": []
+    },
+    "provenanceLedger": [
+      {
+        "eventId": "evt_f03759ed-072a-4268-a42d-728d8a4aaf74",
+        "eventType": "auction_sale",
+        "date": "2026-05-07",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/bronze-age-1970-1979-/superhero/marvel-spotlight-5-ghost-rider-marvel-1972-cgc-nm-mt-98-white-pages/a/7465-91018.s?ic4=GalleryView-Thumbnail-071515",
+        "financials": {
+          "amount": 244000,
+          "currency": "USD"
+        }
+      }
+    ],
+    "tags": [
+      "marvel",
+      "ghost-rider",
+      "bronze-age"
+    ],
+    "generalCommentary": "",
+    "customMetadata": {
+      "publisher": "Marvel Comics",
+      "title": "Marvel Spotlight",
+      "issueNumber": "5",
+      "publicationDate": "Unknown",
+      "cgcId": "4543049001"
+    }
+  },
+  {
+    "urn": "urn:altasset:comic:continental-magazines:suspense:3:inst-656",
+    "schemaVersion": "1.0.0",
+    "assetClass": "comic",
+    "currentAuthentication": {
+      "grader": "CGC",
+      "numericGrade": 6.5,
+      "rawGradeString": "6.5",
+      "isActive": true,
+      "qualifiers": []
+    },
+    "provenanceLedger": [
+      {
+        "eventId": "evt_68ae8b83-16d2-4109-839b-e5b515908e59",
+        "eventType": "auction_sale",
+        "date": "2026-05-07",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/suspense-comics-3-continental-magazines-1944-cgc-fn-65-off-white-pages/a/7465-91025.s?ic4=GalleryView-Thumbnail-071515",
+        "financials": {
+          "amount": 231800,
+          "currency": "USD"
+        }
+      }
+    ],
+    "tags": [
+      "suspense",
+      "classic-cover",
+      "schomburg"
+    ],
+    "generalCommentary": "",
+    "customMetadata": {
+      "publisher": "Continental Magazines",
+      "title": "Suspense",
+      "issueNumber": "3",
+      "publicationDate": "Unknown",
+      "cgcId": "0013021002"
+    }
+  },
+  {
+    "urn": "urn:altasset:comic:dc-comics:batman:1:inst-657",
+    "schemaVersion": "1.0.0",
+    "assetClass": "comic",
+    "currentAuthentication": {
+      "grader": "CGC",
+      "numericGrade": 4,
+      "rawGradeString": "4.0",
+      "isActive": true,
+      "qualifiers": []
+    },
+    "provenanceLedger": [
+      {
+        "eventId": "evt_9e247ffb-a208-4462-ab98-3f0360c401ba",
+        "eventType": "auction_sale",
+        "date": "2018-05-10",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/batman-1-dc-1940-cgc-vg-40-cream-to-off-white-pages/a/7187-91069.s",
+        "financials": {
+          "amount": 131450,
+          "currency": "USD"
+        }
+      },
+      {
+        "eventId": "evt_5400ecf8-9dba-430c-8404-346d33d42de3",
+        "eventType": "auction_sale",
+        "date": "2026-05-07",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/batman-1-dc-1940-cgc-vg-40-cream-to-off-white-pages/a/7465-91011.s?ic4=GalleryView-Thumbnail-071515",
+        "financials": {
+          "amount": 219600,
+          "currency": "USD"
+        }
+      }
+    ],
+    "tags": [
+      "dc",
+      "batman"
+    ],
+    "generalCommentary": "",
+    "customMetadata": {
+      "publisher": "DC Comics",
+      "title": "Batman",
+      "issueNumber": "1",
+      "publicationDate": "Unknown",
+      "cgcId": "1076202001"
+    }
+  },
+  {
+    "urn": "urn:altasset:comic:dc-comics:action-comics:10:inst-658",
+    "schemaVersion": "1.0.0",
+    "assetClass": "comic",
+    "currentAuthentication": {
+      "grader": "CGC",
+      "numericGrade": 7,
+      "rawGradeString": "7.0",
+      "isActive": true,
+      "qualifiers": []
+    },
+    "provenanceLedger": [
+      {
+        "eventId": "evt_42ca8824-d4cf-412f-933e-2edffd65b68c",
+        "eventType": "auction_sale",
+        "date": "2026-05-07",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/action-comics-10-dc-1939-cgc-fn-vf-70-off-white-to-white-pages/a/7465-91003.s?ic4=GalleryView-Thumbnail-071515",
+        "financials": {
+          "amount": 195200,
+          "currency": "USD"
+        }
+      }
+    ],
+    "tags": [
+      "action",
+      "dc",
+      "superman"
+    ],
+    "generalCommentary": "",
+    "customMetadata": {
+      "publisher": "DC Comics",
+      "title": "Action Comics",
+      "issueNumber": "10",
+      "publicationDate": "Unknown",
+      "cgcId": "0099022001"
+    }
+  },
+  {
+    "urn": "urn:altasset:comic:dc-comics:all-star-comics:8:inst-659",
+    "schemaVersion": "1.0.0",
+    "assetClass": "comic",
+    "currentAuthentication": {
+      "grader": "CGC",
+      "numericGrade": 8,
+      "rawGradeString": "8.0",
+      "isActive": true,
+      "qualifiers": []
+    },
+    "provenanceLedger": [
+      {
+        "eventId": "evt_89a192ef-0997-4c54-80b0-fcbc247711d9",
+        "eventType": "auction_sale",
+        "date": "2026-05-07",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/all-star-comics-8-dc-1942-cgc-vf-80-cream-to-off-white-pages/a/7465-91006.s?ic4=GalleryView-ShortDescription-071515",
+        "financials": {
+          "amount": 183000,
+          "currency": "USD"
+        }
+      }
+    ],
+    "tags": [
+      "golden-age",
+      "CGC",
+      "wonder-woman"
+    ],
+    "generalCommentary": "",
+    "customMetadata": {
+      "publisher": "DC Comics",
+      "title": "All Star Comics",
+      "issueNumber": "8",
+      "publicationDate": "Unknown",
+      "cgcId": "1054932001"
+    }
+  },
+  {
+    "urn": "urn:altasset:comic:dc-comics:all-american-comics:16:inst-660",
+    "schemaVersion": "1.0.0",
+    "assetClass": "comic",
+    "currentAuthentication": {
+      "grader": "CBCS",
+      "numericGrade": 4,
+      "rawGradeString": "4.0",
+      "isActive": true,
+      "qualifiers": []
+    },
+    "provenanceLedger": [
+      {
+        "eventId": "evt_fe8562c2-4a73-4182-b04a-152dabe85179",
+        "eventType": "auction_sale",
+        "date": "2026-05-07",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/all-american-comics-16-dc-1940-cbcs-vg-40-cream-to-off-white-pages/a/7465-91004.s?ic4=GalleryView-Thumbnail-071515",
+        "financials": {
+          "amount": 158600,
+          "currency": "USD"
+        }
+      }
+    ],
+    "tags": [
+      "DC",
+      "green-lantern"
+    ],
+    "generalCommentary": "",
+    "customMetadata": {
+      "publisher": "DC Comics",
+      "title": "All American Comics",
+      "issueNumber": "16",
+      "publicationDate": "Unknown",
+      "cgcId": "21-29C5BC0-001"
+    }
+  },
+  {
+    "urn": "urn:altasset:comic:marvel-comics:marvel-comics:1:inst-661",
+    "schemaVersion": "1.0.0",
+    "assetClass": "comic",
+    "currentAuthentication": {
+      "grader": "CGC",
+      "numericGrade": 9,
+      "rawGradeString": "9.0 (MP)",
+      "isActive": true,
+      "qualifiers": []
+    },
+    "provenanceLedger": [
+      {
+        "eventId": "evt_86dcfd02-d7cf-4d92-980d-97b8ef65f244",
+        "eventType": "auction_sale",
+        "date": "2026-05-07",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/marvel-comics-1-timely-1939-cgc-apparent-vf-nm-90-moderate-p-cream-to-off-white-pages/a/7465-91016.s?ic4=GalleryView-Thumbnail-071515",
+        "financials": {
+          "amount": 158600,
+          "currency": "USD"
+        }
+      }
+    ],
+    "tags": [
+      "marvel",
+      "timely"
+    ],
+    "generalCommentary": "",
+    "customMetadata": {
+      "publisher": "Marvel Comics",
+      "title": "Marvel Comics",
+      "issueNumber": "1",
+      "publicationDate": "Unknown",
+      "cgcId": "0010971005"
+    }
+  },
+  {
+    "urn": "urn:altasset:comic:marvel-comics:x-men:1:inst-662",
+    "schemaVersion": "1.0.0",
+    "assetClass": "comic",
+    "currentAuthentication": {
+      "grader": "CGC",
+      "numericGrade": 9.2,
+      "rawGradeString": "9.2",
+      "isActive": true,
+      "qualifiers": []
+    },
+    "provenanceLedger": [
+      {
+        "eventId": "evt_e4103459-32a2-45b5-9349-906b6c395042",
+        "eventType": "auction_sale",
+        "date": "2026-05-07",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/x-men-1-marvel-1963-cgc-nm-92-off-white-to-white-pages/a/7465-91026.s?ic4=GalleryView-Thumbnail-071515&__cf_chl_f_tk=zoqNis9suf6pKgPwls1zKCcNdSLXq.mHr3bC3qYnr3I-1783307984-1.0.1.1-m5btyfaJsMv61qDht8EPo7DTP2UlK2oMoG.LVbz9Egw",
+        "financials": {
+          "amount": 134200,
+          "currency": "USD"
+        }
+      }
+    ],
+    "tags": [
+      "marvel",
+      "x-men"
+    ],
+    "generalCommentary": "",
+    "customMetadata": {
+      "publisher": "Marvel Comics",
+      "title": "X-Men",
+      "issueNumber": "1",
+      "publicationDate": "Unknown",
+      "cgcId": "1201275004"
+    }
+  },
+  {
+    "urn": "urn:altasset:comic:marvel-comics:captain-america-comics:1:inst-663",
+    "schemaVersion": "1.0.0",
+    "assetClass": "comic",
+    "currentAuthentication": {
+      "grader": "CGC",
+      "numericGrade": 4,
+      "rawGradeString": "4.0",
+      "isActive": true,
+      "qualifiers": []
+    },
+    "provenanceLedger": [
+      {
+        "eventId": "evt_398d7f51-faf3-4f86-9ac9-70dca3ea5fac",
+        "eventType": "auction_sale",
+        "date": "2026-05-07",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-timely-1941-cgc-vg-40-light-tan-to-off-white-pages/a/7465-91012.s?ic4=GalleryView-Thumbnail-071515",
+        "financials": {
+          "amount": 128100,
+          "currency": "USD"
+        }
+      }
+    ],
+    "tags": [],
+    "generalCommentary": "",
+    "customMetadata": {
+      "publisher": "Marvel Comics",
+      "title": "Captain America Comics",
+      "issueNumber": "1",
+      "publicationDate": "Unknown",
+      "cgcId": "1420257001"
+    }
+  },
+  {
+    "urn": "urn:altasset:comic:dc-comics:superman:1:inst-664",
+    "schemaVersion": "1.0.0",
+    "assetClass": "comic",
+    "currentAuthentication": {
+      "grader": "CGC",
+      "numericGrade": 1.5,
+      "rawGradeString": "1.5",
+      "isActive": true,
+      "qualifiers": []
+    },
+    "provenanceLedger": [
+      {
+        "eventId": "evt_0456d799-6af9-4741-a6b3-75bb5d3dbff0",
+        "eventType": "auction_sale",
+        "date": "2026-05-07",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-dc-1939-cgc-fr-gd-15-cream-to-off-white-pages/a/7465-91024.s?ic4=GalleryView-Thumbnail-071515",
+        "financials": {
+          "amount": 109800,
+          "currency": "USD"
+        }
+      }
+    ],
+    "tags": [
+      "superman",
+      "dc"
+    ],
+    "generalCommentary": "",
+    "customMetadata": {
+      "publisher": "DC Comics",
+      "title": "Superman",
+      "issueNumber": "1",
+      "publicationDate": "Unknown",
+      "cgcId": "4353200001"
     }
   }
 ]

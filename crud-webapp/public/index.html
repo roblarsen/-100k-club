@@ -27,6 +27,7 @@
             </div>
 
             <!-- Add/Edit Book Form -->
+            <div id="book-form-anchor"></div>
             <div id="book-form-container" class="form-container" style="display: none;">
                 <div class="form-header">
                     <h3 id="book-form-title">Add New Book</h3>
@@ -151,8 +152,9 @@
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <label for="sale-date">Date (YYYY-MM-DD or YYYY-MM):</label>
-                                    <input type="text" id="sale-date" placeholder="e.g. 2024-06-15" required>
+                                    <label for="sale-date">Date:</label>
+                                    <input type="date" id="sale-date">
+                                    <small id="sale-date-hint" class="field-hint">Optional. Use the picker to keep the date format consistent.</small>
                                 </div>
                             </div>
 
@@ -175,7 +177,7 @@
                             <div id="fields-financial" class="form-row" style="display: none;">
                                 <div class="form-group">
                                     <label for="sale-price">Amount:</label>
-                                    <input type="text" id="sale-price" placeholder="e.g. 192,120.15">
+                                    <input type="text" id="sale-price" inputmode="decimal" placeholder="e.g. 192,120.15">
                                 </div>
                                 <div class="form-group">
                                     <label for="sale-currency">Currency:</label>

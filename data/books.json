@@ -7291,6 +7291,17 @@
           "amount": 1500000,
           "currency": "USD"
         }
+      },
+      {
+        "eventId": "evt_79fef6e7-c46e-4ebe-b8d9-b722301acc07",
+        "eventType": "auction_sale",
+        "date": "2026-02-26",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/detective-comics-27-dc-1939-cgc-fn-vf-70-off-white-pages/a/7461-91011.s?ic4=GalleryView-Thumbnail-071515",
+        "financials": {
+          "amount": 2318000,
+          "currency": "USD"
+        }
       }
     ],
     "tags": [
@@ -7302,8 +7313,10 @@
       "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
-      "publicationDate": "Unknown"
-    }
+      "publicationDate": "Unknown",
+      "cgcId": "0913676001"
+    },
+    "generalCommentary": ""
   },
   {
     "urn": "urn:altasset:comic:dccomics:detective-comics:27:inst-187",
@@ -13103,6 +13116,39 @@
           "amount": 936223,
           "currency": "USD"
         }
+      },
+      {
+        "eventId": "evt_c10497f9-9658-4f15-802d-4c1419da18a5",
+        "eventType": "auction_sale",
+        "date": "2022-06-16",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/all-star-comics-8-dc-1942-cgc-nm-94-off-white-to-white-pages/a/7274-91002.s",
+        "financials": {
+          "amount": 1620000,
+          "currency": "USD"
+        }
+      },
+      {
+        "eventId": "evt_f3581a03-a887-4fae-b0d3-56c5f34cc435",
+        "eventType": "auction_sale",
+        "date": "2024-01-11",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/all-star-comics-8-dc-1942-cgc-nm-94-off-white-to-white-pages/a/7358-91025.s",
+        "financials": {
+          "amount": 1500000,
+          "currency": "USD"
+        }
+      },
+      {
+        "eventId": "evt_0965adce-05c3-4e31-a716-2b4de29239ea",
+        "eventType": "auction_sale",
+        "date": "2026-02-04",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/all-star-comics-8-dc-1942-cgc-nm-94-off-white-to-white-pages/a/7461-91005.s?ic4=GalleryView-Thumbnail-071515",
+        "financials": {
+          "amount": 1342000,
+          "currency": "USD"
+        }
       }
     ],
     "tags": [
@@ -13114,8 +13160,10 @@
       "publisher": "DC Comics",
       "title": "All Star Comics",
       "issueNumber": "8",
-      "publicationDate": "Unknown"
-    }
+      "publicationDate": "Unknown",
+      "cgcId": "1341502001"
+    },
+    "generalCommentary": ""
   },
   {
     "urn": "urn:altasset:comic:dccomics:sensation-comics:1:inst-356",
@@ -24425,6 +24473,43 @@
       "issueNumber": "1",
       "publicationDate": "Unknown",
       "cgcId": "4353200001"
+    }
+  },
+  {
+    "urn": "urn:altasset:comic:dc-comics:superman:1:inst-665",
+    "schemaVersion": "1.0.0",
+    "assetClass": "comic",
+    "currentAuthentication": {
+      "grader": "CGC",
+      "numericGrade": 6.5,
+      "rawGradeString": "6.5",
+      "isActive": true,
+      "qualifiers": []
+    },
+    "provenanceLedger": [
+      {
+        "eventId": "evt_a864ea51-4cff-462f-8d0e-c81253a36833",
+        "eventType": "auction_sale",
+        "date": "2026-02-04",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/superman-1-dc-1939-cgc-fn-65-off-white-to-white-pages/a/7461-91018.s?ic4=GalleryView-Thumbnail-071515",
+        "financials": {
+          "amount": 1220000,
+          "currency": "USD"
+        }
+      }
+    ],
+    "tags": [
+      "superman",
+      "dc"
+    ],
+    "generalCommentary": "",
+    "customMetadata": {
+      "publisher": "DC Comics",
+      "title": "Superman",
+      "issueNumber": "1",
+      "publicationDate": "Unknown",
+      "cgcId": "4680984001"
     }
   }
 ]

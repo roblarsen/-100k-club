@@ -8,11 +8,17 @@ let currentEditingPedigree = null;
 let rawJsonViewActive = false;
 let currentEditingRecordLegacyDate = '';
 let currentEditingRecordLegacyDateNormalized = '';
+let currentEditingSaleLegacyDate = '';
+let currentEditingSaleLegacyDateNormalized = '';
+let currentBookRowKey = null;
 const tableSortState = {
     books: { column: null, direction: 'asc' },
     records: { column: null, direction: 'asc' },
     pedigrees: { column: null, direction: 'asc' }
 };
+const localeGroupingFormatter = new Intl.NumberFormat(
+    (typeof navigator !== 'undefined' && navigator.language) ? navigator.language : 'en-US'
+);
 
 // Mirrors isAltAsset() from the alt-asset-spec package for client-side validation.
 function isAltAsset(obj) {
@@ -91,6 +97,80 @@ function parseNumberLikeValue(value) {
     if (!/^-?\d+(\.\d+)?$/.test(normalized)) return null;
     const parsed = Number(normalized);
     return Number.isFinite(parsed) ? parsed : null;
+}
+
+function getBookRowKey(book, fallbackIndex) {
+    const urn = trimOrUndefined(book?.urn);
+    if (urn) return urn;
+
+    const title = trimOrUndefined(book?.customMetadata?.title) || 'untitled';
+    const issue = trimOrUndefined(book?.customMetadata?.issueNumber) || 'no-issue';
+    return `${title}::${issue}::${fallbackIndex}`;
+}
+
+function setCurrentBookRowByIndex(bookIndex) {
+    const book = booksData?.[bookIndex];
+    if (!book) return;
+
+    currentBookRowKey = getBookRowKey(book, bookIndex);
+    document.querySelectorAll('#books-tbody tr').forEach(row => {
+        row.classList.toggle('current-row', row.dataset.bookRowKey === currentBookRowKey);
+    });
+}
+
+function formatLocalizedAmountInput(value) {
+    const raw = String(value ?? '').replace(/[^\d.]/g, '');
+    if (!raw) return '';
+
+    const [integerPartRaw = '', ...decimalParts] = raw.split('.');
+    const integerPart = integerPartRaw.replace(/^0+(?=\d)/, '') || '0';
+    const decimalPart = decimalParts.join('').slice(0, 2);
+    const formattedInteger = localeGroupingFormatter.format(Number(integerPart));
+
+    if (raw.endsWith('.') && !decimalPart) {
+        return `${formattedInteger}.`;
+    }
+
+    return decimalPart ? `${formattedInteger}.${decimalPart}` : formattedInteger;
+}
+
+function clearSaleDateValidation() {
+    const input = document.getElementById('sale-date');
+    if (input) input.setCustomValidity('');
+}
+
+function setSaleDateHint(message) {
+    const hint = document.getElementById('sale-date-hint');
+    if (!hint) return;
+    hint.textContent = message || 'Optional. Use the picker to keep the date format consistent.';
+}
+
+function validateSaleDateInput() {
+    const input = document.getElementById('sale-date');
+    if (!input) return true;
+
+    if (!input.value || /^\d{4}-\d{2}-\d{2}$/.test(input.value)) {
+        input.setCustomValidity('');
+        return true;
+    }
+
+    input.setCustomValidity('Please choose a valid date from the picker.');
+    input.reportValidity();
+    return false;
+}
+
+function revealBookForm() {
+    document.getElementById('book-form-container').style.display = 'block';
+
+    const anchor = document.getElementById('book-form-anchor');
+    if (anchor) {
+        anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    const titleInput = document.getElementById('book-title');
+    if (titleInput) {
+        titleInput.focus({ preventScroll: true });
+    }
 }
 
 function compareTypeAware(aValue, bValue) {
@@ -344,6 +424,9 @@ function renderBooks() {
         const saleCount = (book.provenanceLedger || []).length;
 
         const row = document.createElement('tr');
+        row.dataset.bookRowKey = getBookRowKey(book, index);
+        row.classList.toggle('current-row', row.dataset.bookRowKey === currentBookRowKey);
+        row.addEventListener('click', () => setCurrentBookRowByIndex(index));
         row.innerHTML = `
             <td>${title}</td>
             <td>${issue}</td>
@@ -353,9 +436,9 @@ function renderBooks() {
             <td>${pedigree}</td>
             <td>${saleCount}</td>
             <td>
-                <button class="btn btn-edit" onclick="editBook(${index})">Edit</button>
-                <button class="btn btn-primary" onclick="manageSales(${index})">Ledger</button>
-                <button class="btn btn-danger" onclick="deleteBook(${index})">Delete</button>
+                <button class="btn btn-edit" onclick="setCurrentBookRowByIndex(${index}); editBook(${index})">Edit</button>
+                <button class="btn btn-primary" onclick="setCurrentBookRowByIndex(${index}); manageSales(${index})">Ledger</button>
+                <button class="btn btn-danger" onclick="setCurrentBookRowByIndex(${index}); deleteBook(${index})">Delete</button>
             </td>
         `;
         tbody.appendChild(row);
@@ -370,7 +453,7 @@ function showAddBookForm() {
     document.getElementById('book-form-title').textContent = 'Add New Book';
     document.getElementById('book-form').reset();
     resetRawJsonView();
-    document.getElementById('book-form-container').style.display = 'block';
+    revealBookForm();
 }
 
 function editBook(bookIndex) {
@@ -383,8 +466,8 @@ function editBook(bookIndex) {
     // Populate form from AltAssetComic fields
     populateFormFromBook(book);
     resetRawJsonView();
-    
-    document.getElementById('book-form-container').style.display = 'block';
+
+    revealBookForm();
 }
 
 async function deleteBook(bookIndex) {
@@ -706,9 +789,13 @@ function renderSales() {
 
 function showAddSaleForm() {
     currentEditingSale = null;
+    currentEditingSaleLegacyDate = '';
+    currentEditingSaleLegacyDateNormalized = '';
     document.getElementById('sale-form-title').textContent = 'Add New Provenance Event';
     document.getElementById('sale-form').reset();
     document.getElementById('sale-eventType').value = 'auction_sale';
+    setSaleDateHint('');
+    clearSaleDateValidation();
     onEventTypeChange();
     document.getElementById('sale-form-container').style.display = 'block';
 }
@@ -734,18 +821,33 @@ function editSale(ledgerIndex) {
     document.getElementById('sale-form-title').textContent = 'Edit Provenance Event';
     
     document.getElementById('sale-eventType').value = event.eventType || 'auction_sale';
-    document.getElementById('sale-date').value = event.date || '';
+    const normalizedDate = normalizeDateForPicker(event.date);
+    document.getElementById('sale-date').value = normalizedDate;
+    if (event.date && event.date !== normalizedDate) {
+        currentEditingSaleLegacyDate = event.date;
+        currentEditingSaleLegacyDateNormalized = normalizedDate;
+        if (normalizedDate) {
+            setSaleDateHint(`Original date "${event.date}" will be preserved unless you choose a new date.`);
+        } else {
+            setSaleDateHint(`Original date "${event.date}" could not be shown in the picker and will be preserved unless you choose a new date.`);
+        }
+    } else {
+        currentEditingSaleLegacyDate = '';
+        currentEditingSaleLegacyDateNormalized = '';
+        setSaleDateHint('');
+    }
     document.getElementById('sale-venue').value = event.platform || '';
     document.getElementById('sale-lotNumber').value = event.lotNumber || '';
     document.getElementById('sale-link').value = event.sourceLink || '';
     document.getElementById('sale-notes').value = event.notes || '';
-    document.getElementById('sale-price').value = event.financials?.amount != null ? event.financials.amount : '';
+    document.getElementById('sale-price').value = event.financials?.amount != null ? formatLocalizedAmountInput(event.financials.amount) : '';
     document.getElementById('sale-currency').value = event.financials?.currency || 'USD';
     document.getElementById('sale-previousCertNumber').value = event.previousCertNumber || '';
     document.getElementById('sale-newCertNumber').value = event.newCertNumber || '';
     document.getElementById('sale-mergedUrn').value = event.mergedUrn || '';
     
     onEventTypeChange();
+    clearSaleDateValidation();
     document.getElementById('sale-form-container').style.display = 'block';
 }
 
@@ -767,6 +869,10 @@ async function deleteSale(ledgerIndex) {
 function cancelSaleForm() {
     document.getElementById('sale-form-container').style.display = 'none';
     currentEditingSale = null;
+    currentEditingSaleLegacyDate = '';
+    currentEditingSaleLegacyDateNormalized = '';
+    setSaleDateHint('');
+    clearSaleDateValidation();
 }
 
 // Sale form submission
@@ -774,6 +880,7 @@ document.getElementById('sale-form').addEventListener('submit', async function(e
     e.preventDefault();
     
     if (!currentBookSales) return;
+    if (!validateSaleDateInput()) return;
     
     const eventType = document.getElementById('sale-eventType').value;
     const financialTypes = ['auction_sale', 'private_sale', 'asset_swap'];
@@ -783,15 +890,11 @@ document.getElementById('sale-form').addEventListener('submit', async function(e
     const rawAmount = document.getElementById('sale-price').value.replace(/[^0-9.]/g, '');
     const parsedAmount = rawAmount ? parseFloat(rawAmount) : null;
 
-    // Sanitize date: if missing day component, format as YYYY-MM; otherwise keep as-is
-    const rawDate = document.getElementById('sale-date').value.trim();
-    let date = rawDate;
-    if (rawDate) {
-        const parts = rawDate.split('-');
-        if (parts.length === 2) {
-            date = `${parts[0].padStart(4, '0')}-${parts[1].padStart(2, '0')}`;
-        } else if (parts.length >= 3) {
-            date = `${parts[0].padStart(4, '0')}-${parts[1].padStart(2, '0')}-${parts[2].padStart(2, '0')}`;
+    const selectedDate = document.getElementById('sale-date').value.trim();
+    let date = selectedDate;
+    if (currentEditingSale && currentEditingSaleLegacyDate) {
+        if (!selectedDate || selectedDate === currentEditingSaleLegacyDateNormalized) {
+            date = currentEditingSaleLegacyDate;
         }
     }
 
@@ -834,6 +937,14 @@ document.getElementById('sale-form').addEventListener('submit', async function(e
     } catch (error) {
         showError('Failed to save event');
     }
+});
+
+document.getElementById('sale-price').addEventListener('input', function(e) {
+    e.target.value = formatLocalizedAmountInput(e.target.value);
+});
+
+document.getElementById('sale-date').addEventListener('input', function() {
+    clearSaleDateValidation();
 });
 
 // Records management

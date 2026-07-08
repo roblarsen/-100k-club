@@ -118,20 +118,42 @@ function setCurrentBookRowByIndex(bookIndex) {
     });
 }
 
+function sanitizeAmountInput(value) {
+    const raw = String(value ?? '');
+    const digitsAndDots = raw.replace(/[^\d.]/g, '');
+    if (!digitsAndDots) {
+        return { integerPart: '', decimalPart: '', hasDecimalPoint: false };
+    }
+
+    const firstDotIndex = digitsAndDots.indexOf('.');
+    if (firstDotIndex === -1) {
+        return {
+            integerPart: digitsAndDots,
+            decimalPart: '',
+            hasDecimalPoint: false
+        };
+    }
+
+    return {
+        integerPart: digitsAndDots.slice(0, firstDotIndex),
+        decimalPart: digitsAndDots.slice(firstDotIndex + 1).replace(/\./g, ''),
+        hasDecimalPoint: true
+    };
+}
+
 function formatLocalizedAmountInput(value) {
-    const raw = String(value ?? '').replace(/[^\d.]/g, '');
-    if (!raw) return '';
+    const { integerPart: integerPartRaw, decimalPart, hasDecimalPoint } = sanitizeAmountInput(value);
+    if (!integerPartRaw && !decimalPart && !hasDecimalPoint) return '';
 
-    const [integerPartRaw = '', ...decimalParts] = raw.split('.');
     const integerPart = integerPartRaw.replace(/^0+(?=\d)/, '') || '0';
-    const decimalPart = decimalParts.join('').slice(0, 2);
     const formattedInteger = localeGroupingFormatter.format(Number(integerPart));
+    const truncatedDecimalPart = decimalPart.slice(0, 2);
 
-    if (raw.endsWith('.') && !decimalPart) {
+    if (hasDecimalPoint && !truncatedDecimalPart) {
         return `${formattedInteger}.`;
     }
 
-    return decimalPart ? `${formattedInteger}.${decimalPart}` : formattedInteger;
+    return truncatedDecimalPart ? `${formattedInteger}.${truncatedDecimalPart}` : formattedInteger;
 }
 
 function clearSaleDateValidation() {
@@ -149,7 +171,7 @@ function validateSaleDateInput() {
     const input = document.getElementById('sale-date');
     if (!input) return true;
 
-    if (!input.value || /^\d{4}-\d{2}-\d{2}$/.test(input.value)) {
+    if (input.checkValidity()) {
         input.setCustomValidity('');
         return true;
     }
@@ -426,7 +448,11 @@ function renderBooks() {
         const row = document.createElement('tr');
         row.dataset.bookRowKey = getBookRowKey(book, index);
         row.classList.toggle('current-row', row.dataset.bookRowKey === currentBookRowKey);
-        row.addEventListener('click', () => setCurrentBookRowByIndex(index));
+        row.addEventListener('click', event => {
+            const clickedElement = event.target instanceof Element ? event.target : null;
+            if (clickedElement?.closest('button')) return;
+            setCurrentBookRowByIndex(index);
+        });
         row.innerHTML = `
             <td>${title}</td>
             <td>${issue}</td>
@@ -887,8 +913,12 @@ document.getElementById('sale-form').addEventListener('submit', async function(e
     const certTypes = ['regrade', 'reholder'];
 
     // Sanitize amount: strip commas and currency symbols, then parse as float
-    const rawAmount = document.getElementById('sale-price').value.replace(/[^0-9.]/g, '');
-    const parsedAmount = rawAmount ? parseFloat(rawAmount) : null;
+    const amountParts = sanitizeAmountInput(document.getElementById('sale-price').value);
+    const normalizedDecimalPart = amountParts.decimalPart.slice(0, 2);
+    const normalizedAmount = amountParts.integerPart || amountParts.decimalPart
+        ? `${amountParts.integerPart || '0'}${amountParts.hasDecimalPoint ? '.' : ''}${normalizedDecimalPart}`
+        : '';
+    const parsedAmount = normalizedAmount ? parseFloat(normalizedAmount) : null;
 
     const selectedDate = document.getElementById('sale-date').value.trim();
     let date = selectedDate;

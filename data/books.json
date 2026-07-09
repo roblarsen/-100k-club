@@ -3932,7 +3932,9 @@
       "numericGrade": 5.5,
       "rawGradeString": "5.5",
       "isActive": true,
-      "qualifiers": []
+      "qualifiers": [
+        "Davis Crippen \"D\" Copy"
+      ]
     },
     "provenanceLedger": [],
     "tags": [
@@ -3944,8 +3946,10 @@
       "publisher": "DC Comics",
       "title": "Detective Comics",
       "issueNumber": "27",
-      "publicationDate": "Unknown"
-    }
+      "publicationDate": "Unknown",
+      "cgcId": "0745066002"
+    },
+    "generalCommentary": ""
   },
   {
     "urn": "urn:altasset:comic:dccomics:detective-comics:27:inst-100",
@@ -10216,7 +10220,9 @@
       "numericGrade": 3,
       "rawGradeString": "3.0",
       "isActive": true,
-      "qualifiers": []
+      "qualifiers": [
+        "Davis Crippen \"D\" Copy"
+      ]
     },
     "provenanceLedger": [],
     "tags": [
@@ -10227,8 +10233,10 @@
       "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
-      "publicationDate": "Unknown"
-    }
+      "publicationDate": "Unknown",
+      "cgcId": "0745066009"
+    },
+    "generalCommentary": ""
   },
   {
     "urn": "urn:altasset:comic:dccomics:detective-comics:27:inst-269",
@@ -15170,7 +15178,19 @@
       "isActive": true,
       "qualifiers": []
     },
-    "provenanceLedger": [],
+    "provenanceLedger": [
+      {
+        "eventId": "evt_a4c71fcf-43fa-48c2-b921-1a75320af14a",
+        "eventType": "auction_sale",
+        "date": "2026-02-26",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/amazing-fantasy-15-marvel-1962-cgc-vf-80-off-white-pages/a/7461-91006.s?ic4=GalleryView-Thumbnail-071515#",
+        "financials": {
+          "amount": 244000,
+          "currency": "USD"
+        }
+      }
+    ],
     "tags": [
       "amazing-fantasy",
       "marvel",
@@ -15181,8 +15201,10 @@
       "publisher": "Marvel Comics",
       "title": "Amazing Fantasy",
       "issueNumber": "15",
-      "publicationDate": "Unknown"
-    }
+      "publicationDate": "Unknown",
+      "cgcId": "0100104001"
+    },
+    "generalCommentary": ""
   },
   {
     "urn": "urn:altasset:comic:marvelcomics:amazing-fantasy:15:inst-415",
@@ -21873,6 +21895,17 @@
           "amount": 300150,
           "currency": "USD"
         }
+      },
+      {
+        "eventId": "evt_d4213af1-ff73-47e8-b547-e0bbc7f28c1a",
+        "eventType": "auction_sale",
+        "date": "2026-02-25",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/captain-america-comics-1-timely-1941-cgc-fn-vf-70-cream-to-off-white-pages/a/7461-91009.s?ic4=GalleryView-Thumbnail-071515",
+        "financials": {
+          "amount": 305000,
+          "currency": "USD"
+        }
       }
     ],
     "tags": [
@@ -24686,6 +24719,148 @@
       "issueNumber": "1",
       "publicationDate": "Unknown",
       "cgcId": "4658565002"
+    }
+  },
+  {
+    "urn": "urn:altasset:comic:continental-magazines:suspense-comics:3:inst-671",
+    "schemaVersion": "1.0.0",
+    "assetClass": "comic",
+    "currentAuthentication": {
+      "grader": "CGC",
+      "numericGrade": 8,
+      "rawGradeString": "8.0",
+      "isActive": true,
+      "qualifiers": [
+        "Davis Crippen \"D\" Copy"
+      ]
+    },
+    "provenanceLedger": [],
+    "tags": [
+      "suspense",
+      "classic-cover",
+      "schomburg",
+      "pedigree"
+    ],
+    "generalCommentary": "",
+    "customMetadata": {
+      "publisher": "Continental Magazines",
+      "title": "Suspense Comics",
+      "issueNumber": "3",
+      "publicationDate": "Unknown",
+      "cgcId": "0745066011"
+    }
+  },
+  {
+    "urn": "urn:altasset:comic:dc-comics:detective-comics:29:inst-672",
+    "schemaVersion": "1.0.0",
+    "assetClass": "comic",
+    "currentAuthentication": {
+      "grader": "CGC",
+      "numericGrade": 7,
+      "rawGradeString": "7.0",
+      "isActive": true,
+      "qualifiers": []
+    },
+    "provenanceLedger": [
+      {
+        "eventId": "evt_a7b65313-9aa8-4504-9209-ac59a8651f6e",
+        "eventType": "auction_sale",
+        "date": "2026-02-25",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/detective-comics-29-dc-1939-cgc-fn-vf-70-off-white-pages/a/7461-91012.s?ic4=GalleryView-Thumbnail-071515",
+        "financials": {
+          "amount": 231800,
+          "currency": "USD"
+        }
+      }
+    ],
+    "tags": [
+      "batman",
+      "detective-comics",
+      "dc"
+    ],
+    "generalCommentary": "",
+    "customMetadata": {
+      "publisher": "DC Comics",
+      "title": "Detective Comics",
+      "issueNumber": "29",
+      "publicationDate": "Unknown",
+      "cgcId": "4679992001"
+    }
+  },
+  {
+    "urn": "urn:altasset:comic:continental-magazines:suspense-comics:3:inst-673",
+    "schemaVersion": "1.0.0",
+    "assetClass": "comic",
+    "currentAuthentication": {
+      "grader": "CGC",
+      "numericGrade": 5,
+      "rawGradeString": "5.0",
+      "isActive": true,
+      "qualifiers": []
+    },
+    "provenanceLedger": [
+      {
+        "eventId": "evt_1b3874ed-99d1-415b-874a-0a094a54613e",
+        "eventType": "auction_sale",
+        "date": "2026-02-26",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/suspense-comics-3-continental-magazines-1944-cgc-vg-fn-50-cream-to-off-white-pages/a/7461-91020.s?ic4=GalleryView-Thumbnail-071515",
+        "financials": {
+          "amount": 195200,
+          "currency": "USD"
+        }
+      }
+    ],
+    "tags": [
+      "suspense",
+      "classic-cover",
+      "schomburg"
+    ],
+    "generalCommentary": "",
+    "customMetadata": {
+      "publisher": "Continental Magazines",
+      "title": "Suspense Comics",
+      "issueNumber": "3",
+      "publicationDate": "Unknown",
+      "cgcId": "1971422001"
+    }
+  },
+  {
+    "urn": "urn:altasset:comic:marvel-comics:amazing-spider-man:1:inst-674",
+    "schemaVersion": "1.0.0",
+    "assetClass": "comic",
+    "currentAuthentication": {
+      "grader": "CGC",
+      "numericGrade": 9,
+      "rawGradeString": "9.0",
+      "isActive": true,
+      "qualifiers": []
+    },
+    "provenanceLedger": [
+      {
+        "eventId": "evt_71201dd9-7d14-4929-9f39-3b3156124c1a",
+        "eventType": "auction_sale",
+        "date": "2026-02-26",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/the-amazing-spider-man-1-marvel-1963-cgc-vf-nm-90-off-white-to-white-pages/a/7461-91007.s?ic4=GalleryView-Thumbnail-071515",
+        "financials": {
+          "amount": 158600,
+          "currency": "USD"
+        }
+      }
+    ],
+    "tags": [
+      "spider-man",
+      "marvel"
+    ],
+    "generalCommentary": "",
+    "customMetadata": {
+      "publisher": "Marvel Comics",
+      "title": "Amazing Spider-Man",
+      "issueNumber": "1",
+      "publicationDate": "Unknown",
+      "cgcId": "1025221001"
     }
   }
 ]

@@ -24862,5 +24862,43 @@
       "publicationDate": "Unknown",
       "cgcId": "1025221001"
     }
+  },
+  {
+    "urn": "urn:altasset:comic:dc-comics:detective-comics:31:inst-675",
+    "schemaVersion": "1.0.0",
+    "assetClass": "comic",
+    "currentAuthentication": {
+      "grader": "CGC",
+      "numericGrade": 3,
+      "rawGradeString": "3.0",
+      "isActive": true,
+      "qualifiers": []
+    },
+    "provenanceLedger": [
+      {
+        "eventId": "evt_c127cd97-1633-444d-8764-ee13ac1fd396",
+        "eventType": "auction_sale",
+        "date": "2026-02-26",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/detective-comics-31-dc-1939-cgc-gd-vg-30-off-white-pages/a/7461-91013.s?ic4=GalleryView-Thumbnail-071515",
+        "financials": {
+          "amount": 134200,
+          "currency": "USD"
+        }
+      }
+    ],
+    "tags": [
+      "batman",
+      "detective-comics",
+      "dc"
+    ],
+    "generalCommentary": "",
+    "customMetadata": {
+      "publisher": "DC Comics",
+      "title": "Detective Comics",
+      "issueNumber": "31",
+      "publicationDate": "Unknown",
+      "cgcId": "4679982005"
+    }
   }
 ]

@@ -274,7 +274,7 @@
         <div class="card-title">Sale Data</div>
 
         <div class="field">
-          <label for="sale-price">Sale Price ($) <em class="field-hint">(Total from GPA / Inclusive of BP)</em></label>
+          <label for="sale-price">Sale Price ($) <em class="field-hint">(Total from GPA / Inclusive of Buyer's Premium)</em></label>
           <input type="number" id="sale-price" min="0" step="0.01" placeholder="0.00" />
         </div>
 
@@ -370,13 +370,13 @@
      * Runs the full ROI calculation from current input state.
      *
      * Because GPA and most data-tracking platforms report the **total price
-     * inclusive of Buyer's Premium**, the Sale Price input ($T$) is treated as
-     * a BP-inclusive total. The hammer price ($H$) is back-derived before the
-     * seller's commission is applied.
+     * inclusive of Buyer's Premium**, the Sale Price input is treated as
+     * a Buyer's Premium-inclusive total. The hammer price is back-derived
+     * before the seller's commission is applied.
      *
      * Formulas applied:
      *   Total Cost Basis    = Purchase Price + Optional Extra Fees
-     *   Derived Hammer ($H) = Sale Price (total) ÷ (1 + Buyer's Premium %)
+     *   Derived Hammer      = Sale Price (total) ÷ (1 + Buyer's Premium %)
      *   Seller Fee          = Derived Hammer × Seller's Premium %
      *   Net Payout          = Derived Hammer − Seller Fee
      *   Net Profit / Loss   = Net Payout − Total Cost Basis
@@ -405,8 +405,8 @@
 
       const totalCostBasis = purchasePrice + extraFees;
 
-      // Back out the hammer from the BP-inclusive sale total reported by GPA.
-      // When BP is 0% this is a no-op: derivedHammer === saleTotal.
+      // Back out the hammer from the Buyer's Premium-inclusive sale total reported by GPA.
+      // When Buyer's Premium is 0% this is a no-op: derivedHammer === saleTotal.
       const derivedHammer = buyersPremiumPct > 0
         ? saleTotal / (1 + buyersPremiumPct)
         : saleTotal;
@@ -469,7 +469,7 @@
       resultsContainer.innerHTML = `
         <div class="breakdown">
           ${row('Total Cost Basis (Purchase Price + Optional Fees)', r.totalCostBasis)}
-          ${row('Estimated Hammer Price (Sale Total ÷ (1 + BP%))', r.derivedHammer)}
+          ${row('Estimated Hammer Price (Sale Total ÷ (1 + Buyer\'s Premium %))', r.derivedHammer)}
           ${row('Auction House Cut / Seller Fee', r.sellerFee)}
           ${row('Your Net Payout (Hammer − Seller Fee)', r.netPayout)}
           <div class="breakdown-row final">

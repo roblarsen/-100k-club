@@ -116,61 +116,6 @@
     select { cursor: pointer; }
     select option { background: var(--surface-2); }
 
-    /* ── Toggle (checkbox styled) ───────────────────────────────────── */
-    .toggle-row {
-      display: flex;
-      align-items: center;
-      gap: .65rem;
-      margin-bottom: 1rem;
-      cursor: pointer;
-      user-select: none;
-    }
-    .toggle-row input[type="checkbox"] { display: none; }
-    .toggle-track {
-      position: relative;
-      width: 42px;
-      height: 24px;
-      background: var(--surface-2);
-      border: 1px solid var(--border);
-      border-radius: 99px;
-      flex-shrink: 0;
-      transition: background .2s, border-color .2s;
-    }
-    .toggle-track::after {
-      content: '';
-      position: absolute;
-      top: 3px; left: 3px;
-      width: 16px; height: 16px;
-      background: var(--text-muted);
-      border-radius: 50%;
-      transition: transform .2s, background .2s;
-    }
-    .toggle-row input:checked + .toggle-track {
-      background: var(--accent-dim);
-      border-color: var(--accent);
-    }
-    .toggle-row input:checked + .toggle-track::after {
-      transform: translateX(18px);
-      background: var(--accent);
-    }
-    .toggle-label {
-      font-size: .85rem;
-      font-weight: 600;
-      color: var(--text);
-    }
-
-    /* Collapsible auction section */
-    #auction-section {
-      overflow: hidden;
-      max-height: 0;
-      opacity: 0;
-      transition: max-height .25s ease, opacity .2s ease;
-    }
-    #auction-section.open {
-      max-height: 120px;
-      opacity: 1;
-    }
-
     /* ── Slider ─────────────────────────────────────────────────────── */
     .slider-row {
       display: flex;
@@ -314,30 +259,8 @@
         <div class="card-title">Purchase Data</div>
 
         <div class="field">
-          <label for="purchase-price">Purchase / Hammer Price ($)</label>
+          <label for="purchase-price">Purchase Price ($)</label>
           <input type="number" id="purchase-price" min="0" step="0.01" placeholder="0.00" />
-        </div>
-
-        <label
-          class="toggle-row"
-          for="bought-at-auction"
-          title="Enable to apply a buyer's premium"
-        >
-          <input type="checkbox" id="bought-at-auction" />
-          <span class="toggle-track"></span>
-          <span class="toggle-label">Bought at auction?</span>
-        </label>
-
-        <div id="auction-section">
-          <div class="field">
-            <label for="auction-house">Auction House (Buyer's Premium)</label>
-            <select id="auction-house">
-              <option value="0.20">Heritage (20%)</option>
-              <option value="0.03">ComicLink (3%)</option>
-              <option value="0.15">ComicConnect (15%)</option>
-              <option value="0.00">eBay / Other (0%)</option>
-            </select>
-          </div>
         </div>
 
         <div class="field">
@@ -351,8 +274,18 @@
         <div class="card-title">Sale Data</div>
 
         <div class="field">
-          <label for="sale-price">Sale / Hammer Price ($)</label>
+          <label for="sale-price">Sale Price ($) <em class="field-hint">(Total from GPA / Inclusive of BP)</em></label>
           <input type="number" id="sale-price" min="0" step="0.01" placeholder="0.00" />
+        </div>
+
+        <div class="field">
+          <label for="auction-house">Auction House (Buyer's Premium)</label>
+          <select id="auction-house">
+            <option value="0.20">Heritage (20%)</option>
+            <option value="0.03">ComicLink (3%)</option>
+            <option value="0.15">ComicConnect (15%)</option>
+            <option value="0.00">eBay / Other (0%)</option>
+          </select>
         </div>
 
         <div class="field">
@@ -386,16 +319,14 @@
 
   <script>
     /* ── DOM refs ────────────────────────────────────────────────────── */
-    const purchasePriceEl   = document.getElementById('purchase-price');
-    const boughtAtAuctionEl = document.getElementById('bought-at-auction');
-    const auctionSectionEl  = document.getElementById('auction-section');
-    const auctionHouseEl    = document.getElementById('auction-house');
-    const extraFeesEl       = document.getElementById('extra-fees');
-    const salePriceEl       = document.getElementById('sale-price');
-    const sliderEl          = document.getElementById('seller-premium-slider');
-    const sliderDisplayEl   = document.getElementById('slider-display');
-    const presetBtns        = document.querySelectorAll('.preset-btn');
-    const resultsContainer  = document.getElementById('results-container');
+    const purchasePriceEl  = document.getElementById('purchase-price');
+    const extraFeesEl      = document.getElementById('extra-fees');
+    const salePriceEl      = document.getElementById('sale-price');
+    const auctionHouseEl   = document.getElementById('auction-house');
+    const sliderEl         = document.getElementById('seller-premium-slider');
+    const sliderDisplayEl  = document.getElementById('slider-display');
+    const presetBtns       = document.querySelectorAll('.preset-btn');
+    const resultsContainer = document.getElementById('results-container');
 
     /* ── Helpers ─────────────────────────────────────────────────────── */
 
@@ -438,22 +369,27 @@
     /**
      * Runs the full ROI calculation from current input state.
      *
-     * Formulas applied:
-     *   Total Cost Basis  = Purchase Hammer × (1 + Buyer's Premium %) + Extra Fees
-     *   Net Sale Revenue  = Sale Hammer × (1 − Seller's Premium %)
-     *   Net Profit / Loss = Net Sale Revenue − Total Cost Basis
+     * Because GPA and most data-tracking platforms report the **total price
+     * inclusive of Buyer's Premium**, the Sale Price input ($T$) is treated as
+     * a BP-inclusive total. The hammer price ($H$) is back-derived before the
+     * seller's commission is applied.
      *
-     * @remarks `hasData` is truthy when either the purchase or sale hammer price
-     *   is non-zero. Partial calculations (only one side entered) are intentionally
-     *   supported so collectors can evaluate an open position or pending cost basis
-     *   before a sale is finalised.
+     * Formulas applied:
+     *   Total Cost Basis    = Purchase Price + Optional Extra Fees
+     *   Derived Hammer ($H) = Sale Price (total) ÷ (1 + Buyer's Premium %)
+     *   Seller Fee          = Derived Hammer × Seller's Premium %
+     *   Net Payout          = Derived Hammer − Seller Fee
+     *   Net Profit / Loss   = Net Payout − Total Cost Basis
+     *
+     * @remarks `hasData` is truthy when either the purchase price or sale price
+     *   is non-zero. Partial calculations are intentionally supported so
+     *   collectors can evaluate an open position before a sale is finalised.
      * @returns {{
-     *   purchaseHammer: number,
-     *   buyersPremium: number,
-     *   grossPaidByBuyer: number,
+     *   purchasePrice: number,
      *   extraFees: number,
      *   totalCostBasis: number,
-     *   saleHammer: number,
+     *   saleTotal: number,
+     *   derivedHammer: number,
      *   sellerFee: number,
      *   netPayout: number,
      *   netProfitLoss: number,
@@ -461,32 +397,32 @@
      * }}
      */
     function calculate() {
-      const purchaseHammer = parseInput(purchasePriceEl);
-      const extraFees      = parseInput(extraFeesEl);
-      const saleHammer     = parseInput(salePriceEl);
-      const sellerPct      = parseFloat(sliderEl.value) / 100;
+      const purchasePrice    = parseInput(purchasePriceEl);
+      const extraFees        = parseInput(extraFeesEl);
+      const saleTotal        = parseInput(salePriceEl);
+      const buyersPremiumPct = parseFloat(auctionHouseEl.value);
+      const sellerPct        = parseFloat(sliderEl.value) / 100;
 
-      const buyersPremiumPct  = boughtAtAuctionEl.checked
-        ? parseFloat(auctionHouseEl.value)
-        : 0;
+      const totalCostBasis = purchasePrice + extraFees;
 
-      const buyersPremium    = purchaseHammer * buyersPremiumPct;
-      const grossPaidByBuyer = purchaseHammer + buyersPremium;
-      const totalCostBasis   = grossPaidByBuyer + extraFees;
+      // Back out the hammer from the BP-inclusive sale total reported by GPA.
+      // When BP is 0% this is a no-op: derivedHammer === saleTotal.
+      const derivedHammer = buyersPremiumPct > 0
+        ? saleTotal / (1 + buyersPremiumPct)
+        : saleTotal;
 
-      const sellerFee        = saleHammer * sellerPct;
-      const netPayout        = saleHammer - sellerFee;
-      const netProfitLoss    = netPayout - totalCostBasis;
+      const sellerFee     = derivedHammer * sellerPct;
+      const netPayout     = derivedHammer - sellerFee;
+      const netProfitLoss = netPayout - totalCostBasis;
 
-      const hasData = purchaseHammer > 0 || saleHammer > 0;
+      const hasData = purchasePrice > 0 || saleTotal > 0;
 
       return {
-        purchaseHammer,
-        buyersPremium,
-        grossPaidByBuyer,
+        purchasePrice,
         extraFees,
         totalCostBasis,
-        saleHammer,
+        saleTotal,
+        derivedHammer,
         sellerFee,
         netPayout,
         netProfitLoss,
@@ -532,10 +468,10 @@
 
       resultsContainer.innerHTML = `
         <div class="breakdown">
-          ${row('Your Gross Purchase Price (Hammer + BP)', r.grossPaidByBuyer)}
-          ${row('Your Total Cost Basis (Hammer + BP + Fees)', r.totalCostBasis)}
+          ${row('Total Cost Basis (Purchase Price + Optional Fees)', r.totalCostBasis)}
+          ${row('Estimated Hammer Price (Sale Total ÷ (1 + BP%))', r.derivedHammer)}
           ${row('Auction House Cut / Seller Fee', r.sellerFee)}
-          ${row('Your Net Payout (Sale − Seller Fee)', r.netPayout)}
+          ${row('Your Net Payout (Hammer − Seller Fee)', r.netPayout)}
           <div class="breakdown-row final">
             <span class="row-label">Final Net Profit / Loss</span>
             <span class="row-value ${profitClass}">
@@ -546,12 +482,6 @@
     }
 
     /* ── Event wiring ────────────────────────────────────────────────── */
-
-    // Auction toggle
-    boughtAtAuctionEl.addEventListener('change', () => {
-      auctionSectionEl.classList.toggle('open', boughtAtAuctionEl.checked);
-      render();
-    });
 
     // Seller's premium slider
     sliderEl.addEventListener('input', () => {
@@ -583,7 +513,7 @@
     }
 
     // All other inputs
-    [purchasePriceEl, auctionHouseEl, extraFeesEl, salePriceEl].forEach(el => {
+    [purchasePriceEl, extraFeesEl, salePriceEl, auctionHouseEl].forEach(el => {
       el.addEventListener('input', render);
       el.addEventListener('change', render);
     });

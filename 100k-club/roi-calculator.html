@@ -276,7 +276,7 @@
         <div class="field">
           <label for="sale-price">Sale Price ($)</label>
           <input type="number" id="sale-price" min="0" step="0.01" placeholder="0.00" aria-describedby="sale-price-hint" />
-          <span id="sale-price-hint" class="field-hint">(<abbr title="GoCollect Price Archive">GPA</abbr> total / Inclusive of Buyer's Premium)</span>
+          <span id="sale-price-hint" class="field-hint">(<abbr title="GoCollect Price Archive">GPA</abbr> total — Inclusive of Buyer's Premium)</span>
         </div>
 
         <div class="field">
@@ -406,10 +406,12 @@
 
       const totalCostBasis = purchasePrice + extraFees;
 
-      // Clamp buyersPremiumPct to a range that keeps the divisor positive (> 0).
-      // The select options never produce values outside [0, 1], but guard
-      // defensively so dynamically added options can't cause division by zero.
-      const safeBuyersPremiumPct = Math.max(buyersPremiumPct, -0.9999);
+      // Guard against a divisor of zero or less. The select options are all ≥ 0,
+      // but we clamp defensively so dynamically added options can never produce
+      // an invalid divisor. The floor of -0.9999 keeps (1 + pct) ≥ 0.0001,
+      // which supports up to a ~99.99% "negative premium" without dividing by zero.
+      const MIN_BUYERS_PREMIUM = -0.9999;
+      const safeBuyersPremiumPct = Math.max(buyersPremiumPct, MIN_BUYERS_PREMIUM);
       const derivedHammer = saleTotal / (1 + safeBuyersPremiumPct);
 
       const sellerFee     = derivedHammer * sellerPct;
@@ -470,7 +472,7 @@
       resultsContainer.innerHTML = `
         <div class="breakdown">
           ${row('Total Cost Basis (Purchase Price + Optional Fees)', r.totalCostBasis)}
-          ${row('Estimated Hammer Price (after removing Buyer\'s Premium)', r.derivedHammer)}
+          ${row('Derived Hammer Price (after removing Buyer\'s Premium)', r.derivedHammer)}
           ${row('Auction House Cut / Seller Fee', r.sellerFee)}
           ${row('Your Net Payout (Hammer − Seller Fee)', r.netPayout)}
           <div class="breakdown-row final">

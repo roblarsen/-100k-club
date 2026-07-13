@@ -283,6 +283,12 @@
     .loss    { color: var(--loss); }
     .neutral { color: var(--text-muted); }
 
+    /* Optional label hint (e.g. "optional" annotation next to a field label) */
+    .field-hint {
+      font-weight: 400;
+      font-size: .75rem;
+    }
+
     /* ── Empty state ─────────────────────────────────────────────────── */
     .empty-state {
       text-align: center;
@@ -335,7 +341,7 @@
         </div>
 
         <div class="field">
-          <label for="extra-fees">Extra Fees / Shipping / Tax ($) <em style="font-weight:400;font-size:.75rem;">(optional)</em></label>
+          <label for="extra-fees">Extra Fees / Shipping / Tax ($) <em class="field-hint">(optional)</em></label>
           <input type="number" id="extra-fees" min="0" step="0.01" placeholder="0.00" />
         </div>
       </div>
@@ -495,12 +501,13 @@
      * @param {string} label
      * @param {number} value
      * @param {string} [colorClass] - Explicit color class ('profit', 'loss', 'neutral').
-     *   Defaults to the sign-derived class when omitted.
+     *   Defaults to 'neutral'. Pass an empty string to derive the class from the
+     *   sign of `value` via {@link signClass}.
      * @param {boolean} [isFinal] - When true, adds the 'final' modifier to the row.
      * @returns {string} HTML string
      */
-    function row(label, value, colorClass = '', isFinal = false) {
-      const cls = colorClass || signClass(value);
+    function row(label, value, colorClass = 'neutral', isFinal = false) {
+      const cls = colorClass !== '' ? colorClass : signClass(value);
       return `
         <div class="breakdown-row${isFinal ? ' final' : ''}">
           <span class="row-label">${label}</span>
@@ -525,10 +532,10 @@
 
       resultsContainer.innerHTML = `
         <div class="breakdown">
-          ${row('Your Gross Purchase Price (Hammer + BP)', r.grossPaidByBuyer, 'neutral')}
-          ${row('Your Total Cost Basis (Hammer + BP + Fees)', r.totalCostBasis, 'neutral')}
-          ${row('Auction House Cut / Seller Fee', r.sellerFee, 'neutral')}
-          ${row('Your Net Payout (Sale − Seller Fee)', r.netPayout, 'neutral')}
+          ${row('Your Gross Purchase Price (Hammer + BP)', r.grossPaidByBuyer)}
+          ${row('Your Total Cost Basis (Hammer + BP + Fees)', r.totalCostBasis)}
+          ${row('Auction House Cut / Seller Fee', r.sellerFee)}
+          ${row('Your Net Payout (Sale − Seller Fee)', r.netPayout)}
           <div class="breakdown-row final">
             <span class="row-label">Final Net Profit / Loss</span>
             <span class="row-value ${profitClass}">

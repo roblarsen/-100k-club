@@ -410,7 +410,7 @@
       // but we clamp defensively so dynamically added options can never produce
       // an invalid divisor. The floor of -0.9999 keeps (1 + pct) ≥ 0.0001,
       // which supports up to a ~99.99% "negative premium" without dividing by zero.
-      const MIN_BUYERS_PREMIUM = -0.9999;
+      const MIN_BUYERS_PREMIUM = -0.9999; // keeps divisor ≥ 0.0001; prevents division by zero
       const safeBuyersPremiumPct = Math.max(buyersPremiumPct, MIN_BUYERS_PREMIUM);
       const derivedHammer = saleTotal / (1 + safeBuyersPremiumPct);
 
@@ -471,7 +471,7 @@
 
       resultsContainer.innerHTML = `
         <div class="breakdown">
-          ${row('Total Cost Basis (Purchase Price + Optional Fees)', r.totalCostBasis)}
+          ${row('Total Cost Basis (Purchase Price + Fees)', r.totalCostBasis)}
           ${row('Derived Hammer Price (after removing Buyer\'s Premium)', r.derivedHammer)}
           ${row('Auction House Cut / Seller Fee', r.sellerFee)}
           ${row('Your Net Payout (Hammer − Seller Fee)', r.netPayout)}

@@ -24075,8 +24075,10 @@
       "publisher": "DC Comics",
       "title": "Superman",
       "issueNumber": "1",
-      "publicationDate": "Unknown"
-    }
+      "publicationDate": "Unknown",
+      "cgcId": "4627478006"
+    },
+    "generalCommentary": ""
   },
   {
     "urn": "urn:altasset:comic:dccomics:action-comics:1:4685861001",
@@ -24899,6 +24901,43 @@
       "issueNumber": "31",
       "publicationDate": "Unknown",
       "cgcId": "4679982005"
+    }
+  },
+  {
+    "urn": "urn:altasset:comic:dc-comics:action-comics:15:inst-676",
+    "schemaVersion": "1.0.0",
+    "assetClass": "comic",
+    "currentAuthentication": {
+      "grader": "CGC",
+      "numericGrade": 9.4,
+      "rawGradeString": "9.4",
+      "isActive": true,
+      "qualifiers": []
+    },
+    "provenanceLedger": [
+      {
+        "eventId": "evt_17ba232b-5f9e-4f3c-a92d-ece7d614b1c3",
+        "eventType": "auction_sale",
+        "date": "2025-11-20",
+        "platform": "Heritage",
+        "sourceLink": "https://comics.ha.com/itm/golden-age-1938-1955-/superhero/action-comics-15-dc-1939-cgc-nm-94-off-white-to-white-pages/a/7427-93003.s?ic4=GalleryView-Thumbnail-071515",
+        "financials": {
+          "amount": 264000,
+          "currency": "USD"
+        }
+      }
+    ],
+    "tags": [
+      "superman",
+      "dc"
+    ],
+    "generalCommentary": "",
+    "customMetadata": {
+      "publisher": "DC Comics",
+      "title": "Action Comics ",
+      "issueNumber": "15",
+      "publicationDate": "Unknown",
+      "cgcId": "4627478005"
     }
   }
 ]

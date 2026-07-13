@@ -274,7 +274,7 @@
         <div class="card-title">Sale Data</div>
 
         <div class="field">
-          <label for="sale-price">Sale Price ($) <em class="field-hint">(Total from GPA / Inclusive of Buyer's Premium)</em></label>
+          <label for="sale-price">Sale Price ($) <span class="field-hint">(Total from GPA / Inclusive of Buyer's Premium)</span></label>
           <input type="number" id="sale-price" min="0" step="0.01" placeholder="0.00" />
         </div>
 
@@ -405,11 +405,7 @@
 
       const totalCostBasis = purchasePrice + extraFees;
 
-      // Back out the hammer from the Buyer's Premium-inclusive sale total reported by GPA.
-      // When Buyer's Premium is 0% this is a no-op: derivedHammer === saleTotal.
-      const derivedHammer = buyersPremiumPct > 0
-        ? saleTotal / (1 + buyersPremiumPct)
-        : saleTotal;
+      const derivedHammer = saleTotal / (1 + buyersPremiumPct);
 
       const sellerFee     = derivedHammer * sellerPct;
       const netPayout     = derivedHammer - sellerFee;

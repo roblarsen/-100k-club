@@ -397,6 +397,10 @@
      * Parses a numeric input element's value.
      * @param {HTMLInputElement} el
      * @returns {number} Parsed float, or 0 if empty / invalid.
+     * @remarks Negative values are intentionally clamped to 0 so that
+     *   downstream financial calculations never receive invalid inputs
+     *   (e.g., a negative purchase price has no meaningful interpretation
+     *   in a consignment ROI context).
      */
     function parseInput(el) {
       const v = parseFloat(el.value);
@@ -414,8 +418,10 @@
 
     /**
      * Returns a CSS class name based on the sign of a number.
+     * These are logical type contracts enforced at render time, not
+     * runtime-enforced TypeScript types.
      * @param {number} n
-     * @returns {'profit'|'loss'|'neutral'}
+     * @returns {string} One of the string literals: 'profit', 'loss', or 'neutral'.
      */
     function signClass(n) {
       if (n > 0) return 'profit';
@@ -423,16 +429,18 @@
       return 'neutral';
     }
 
-    /* ── Core calculation ─────────────────────────────────────────────
-     *
-     * Total Cost Basis  = Purchase Hammer × (1 + Buyer's Premium %) + Extra Fees
-     * Net Sale Revenue  = Sale Hammer × (1 − Seller's Premium %)
-     * Net Profit / Loss = Net Sale Revenue − Total Cost Basis
-     *
-     * ─────────────────────────────────────────────────────────────── */
-
     /**
      * Runs the full ROI calculation from current input state.
+     *
+     * Formulas applied:
+     *   Total Cost Basis  = Purchase Hammer × (1 + Buyer's Premium %) + Extra Fees
+     *   Net Sale Revenue  = Sale Hammer × (1 − Seller's Premium %)
+     *   Net Profit / Loss = Net Sale Revenue − Total Cost Basis
+     *
+     * @remarks `hasData` is truthy when either the purchase or sale hammer price
+     *   is non-zero. Partial calculations (only one side entered) are intentionally
+     *   supported so collectors can evaluate an open position or pending cost basis
+     *   before a sale is finalised.
      * @returns {{
      *   purchaseHammer: number,
      *   buyersPremium: number,
@@ -486,13 +494,15 @@
      * Renders a single breakdown row.
      * @param {string} label
      * @param {number} value
-     * @param {string} [extraClass]
+     * @param {string} [colorClass] - Explicit color class ('profit', 'loss', 'neutral').
+     *   Defaults to the sign-derived class when omitted.
+     * @param {boolean} [isFinal] - When true, adds the 'final' modifier to the row.
      * @returns {string} HTML string
      */
-    function row(label, value, extraClass = '') {
-      const cls = extraClass || signClass(value);
+    function row(label, value, colorClass = '', isFinal = false) {
+      const cls = colorClass || signClass(value);
       return `
-        <div class="breakdown-row${extraClass === 'final' ? ' final' : ''}">
+        <div class="breakdown-row${isFinal ? ' final' : ''}">
           <span class="row-label">${label}</span>
           <span class="row-value ${cls}">${usd(value)}</span>
         </div>`;
@@ -515,7 +525,7 @@
 
       resultsContainer.innerHTML = `
         <div class="breakdown">
-          ${row('Gross Paid by Original Buyer (Hammer + BP)', r.grossPaidByBuyer, 'neutral')}
+          ${row('Your Gross Purchase Price (Hammer + BP)', r.grossPaidByBuyer, 'neutral')}
           ${row('Your Total Cost Basis (Hammer + BP + Fees)', r.totalCostBasis, 'neutral')}
           ${row('Auction House Cut / Seller Fee', r.sellerFee, 'neutral')}
           ${row('Your Net Payout (Sale − Seller Fee)', r.netPayout, 'neutral')}

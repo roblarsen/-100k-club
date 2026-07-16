@@ -1,0 +1,543 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Net ROI Consignment Calculator</title>
+  <style>
+    /* ── Reset & tokens ──────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:           #0f1117;
+      --surface:      #1a1d27;
+      --surface-2:    #22263a;
+      --border:       #2e3350;
+      --accent:       #5b8dee;
+      --accent-dim:   #3a5db0;
+      --text:         #e2e6f3;
+      --text-muted:   #7a82a8;
+      --profit:       #34d399;
+      --loss:         #f87171;
+      --radius:       10px;
+      --shadow:       0 4px 24px rgba(0,0,0,.45);
+      --font:         'Segoe UI', system-ui, -apple-system, sans-serif;
+    }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 2rem 1rem 4rem;
+    }
+
+    /* ── Layout ─────────────────────────────────────────────────────── */
+    .calc-wrapper {
+      width: 100%;
+      max-width: 760px;
+    }
+
+    .calc-header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .calc-header h1 {
+      font-size: clamp(1.3rem, 3vw, 1.75rem);
+      font-weight: 700;
+      letter-spacing: -.02em;
+      color: var(--text);
+    }
+    .calc-header p {
+      margin-top: .4rem;
+      font-size: .875rem;
+      color: var(--text-muted);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+    }
+    @media (max-width: 560px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+
+    /* ── Cards ───────────────────────────────────────────────────────── */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      box-shadow: var(--shadow);
+    }
+    .card-title {
+      font-size: .7rem;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1.25rem;
+    }
+
+    /* ── Form primitives ─────────────────────────────────────────────── */
+    .field { margin-bottom: 1.1rem; }
+    .field:last-child { margin-bottom: 0; }
+
+    label {
+      display: block;
+      font-size: .8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-bottom: .35rem;
+    }
+
+    input[type="number"],
+    select {
+      width: 100%;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text);
+      font-size: .95rem;
+      padding: .55rem .75rem;
+      outline: none;
+      transition: border-color .15s;
+      -moz-appearance: textfield;
+    }
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button { -webkit-appearance: none; }
+    input[type="number"]:focus,
+    select:focus { border-color: var(--accent); }
+
+    select { cursor: pointer; }
+    select option { background: var(--surface-2); }
+
+    /* ── Slider ─────────────────────────────────────────────────────── */
+    .slider-row {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+      margin-bottom: .6rem;
+    }
+    input[type="range"] {
+      flex: 1;
+      -webkit-appearance: none;
+      appearance: none;
+      height: 6px;
+      border-radius: 99px;
+      background: var(--surface-2);
+      outline: none;
+      cursor: pointer;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 18px; height: 18px;
+      border-radius: 50%;
+      background: var(--accent);
+      border: 2px solid var(--bg);
+      cursor: pointer;
+      transition: transform .1s;
+    }
+    input[type="range"]::-webkit-slider-thumb:hover { transform: scale(1.15); }
+    input[type="range"]::-moz-range-thumb {
+      width: 18px; height: 18px;
+      border-radius: 50%;
+      background: var(--accent);
+      border: 2px solid var(--bg);
+      cursor: pointer;
+    }
+    .slider-value {
+      min-width: 3rem;
+      text-align: right;
+      font-size: .9rem;
+      font-weight: 700;
+      color: var(--accent);
+    }
+
+    /* ── Preset buttons ─────────────────────────────────────────────── */
+    .preset-group {
+      display: flex;
+      gap: .5rem;
+      flex-wrap: wrap;
+      margin-top: .5rem;
+    }
+    .preset-btn {
+      flex: 1;
+      min-width: 0;
+      padding: .4rem .5rem;
+      font-size: .72rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      cursor: pointer;
+      text-align: center;
+      white-space: nowrap;
+      transition: color .15s, border-color .15s, background .15s;
+    }
+    .preset-btn:hover,
+    .preset-btn.active {
+      color: var(--accent);
+      border-color: var(--accent);
+      background: rgba(91,141,238,.1);
+    }
+
+    /* ── Results card ───────────────────────────────────────────────── */
+    .results-card {
+      grid-column: 1 / -1;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      box-shadow: var(--shadow);
+    }
+
+    .breakdown {
+      display: flex;
+      flex-direction: column;
+      gap: .55rem;
+    }
+
+    .breakdown-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: .875rem;
+      padding-bottom: .55rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .breakdown-row:last-child { border-bottom: none; padding-bottom: 0; }
+    .breakdown-row .row-label { color: var(--text-muted); }
+    .breakdown-row .row-value { font-weight: 700; font-variant-numeric: tabular-nums; }
+
+    /* Final P/L row styling */
+    .breakdown-row.final {
+      margin-top: .4rem;
+      padding-top: .75rem;
+      border-top: 1px solid var(--border);
+      font-size: 1rem;
+    }
+    .breakdown-row.final .row-label { color: var(--text); font-weight: 700; }
+
+    .profit  { color: var(--profit); }
+    .loss    { color: var(--loss); }
+    .neutral { color: var(--text-muted); }
+
+    /* Optional label hint (e.g. "optional" annotation next to a field label) */
+    .field-hint {
+      font-weight: 400;
+      font-size: .75rem;
+    }
+
+    /* ── Empty state ─────────────────────────────────────────────────── */
+    .empty-state {
+      text-align: center;
+      padding: 1.5rem 0;
+      color: var(--text-muted);
+      font-size: .85rem;
+    }
+    .empty-state span { font-size: 1.75rem; display: block; margin-bottom: .5rem; }
+  </style>
+</head>
+<body>
+  <div class="calc-wrapper">
+
+    <header class="calc-header">
+      <h1>Net ROI Consignment Calculator</h1>
+      <p>Account for buyer's premiums, seller's fees, and shipping to see your real profit or loss.</p>
+    </header>
+
+    <div class="grid">
+
+      <!-- ── Section 1: Purchase ───────────────────────────────────── -->
+      <div class="card">
+        <div class="card-title">Purchase Data</div>
+
+        <div class="field">
+          <label for="purchase-price">Purchase Price ($)</label>
+          <input type="number" id="purchase-price" min="0" step="0.01" placeholder="0.00" />
+        </div>
+
+        <div class="field">
+          <label for="extra-fees">Extra Fees / Shipping / Tax ($) <em class="field-hint">(optional)</em></label>
+          <input type="number" id="extra-fees" min="0" step="0.01" placeholder="0.00" />
+        </div>
+      </div>
+
+      <!-- ── Section 2: Sale ───────────────────────────────────────── -->
+      <div class="card">
+        <div class="card-title">Sale Data</div>
+
+        <div class="field">
+          <label for="sale-price">Sale Price ($)</label>
+          <input type="number" id="sale-price" min="0" step="0.01" placeholder="0.00" aria-describedby="sale-price-hint" />
+          <span id="sale-price-hint" class="field-hint">(GPA total — Inclusive of Buyer's Premium)</span>
+        </div>
+
+        <div class="field">
+          <label for="auction-house">Auction House (Buyer's Premium)</label>
+          <select id="auction-house">
+            <option value="0.20">Heritage (20%)</option>
+            <option value="0.03">ComicLink (3%)</option>
+            <option value="0.15">ComicConnect (15%)</option>
+            <option value="0.00">eBay / Other (0%)</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="seller-premium-slider">Seller's Premium</label>
+          <div class="slider-row">
+            <input
+              type="range"
+              id="seller-premium-slider"
+              min="0" max="15" step="0.5"
+              value="10"
+              aria-label="Seller's premium percentage"
+            />
+            <span class="slider-value" id="slider-display">10.0%</span>
+          </div>
+          <div class="preset-group" role="group" aria-label="Seller's premium presets">
+            <button class="preset-btn active" data-value="10" type="button">Standard 10%</button>
+            <button class="preset-btn" data-value="5" type="button">Preferred 5%</button>
+            <button class="preset-btn" data-value="0" type="button">Mega / 0%</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Results ───────────────────────────────────────────────── -->
+      <div class="results-card">
+        <div class="card-title">Breakdown</div>
+        <div id="results-container"></div>
+      </div>
+
+    </div><!-- /.grid -->
+  </div><!-- /.calc-wrapper -->
+
+  <script>
+    /* ── DOM refs ────────────────────────────────────────────────────── */
+    const purchasePriceEl  = document.getElementById('purchase-price');
+    const extraFeesEl      = document.getElementById('extra-fees');
+    const salePriceEl      = document.getElementById('sale-price');
+    const auctionHouseEl   = document.getElementById('auction-house');
+    const sliderEl         = document.getElementById('seller-premium-slider');
+    const sliderDisplayEl  = document.getElementById('slider-display');
+    const presetBtns       = document.querySelectorAll('.preset-btn');
+    const resultsContainer = document.getElementById('results-container');
+
+    /* ── Helpers ─────────────────────────────────────────────────────── */
+
+    /**
+     * Parses a numeric input element's value.
+     * @param {HTMLInputElement} el
+     * @returns {number} Parsed float, or 0 if empty / invalid.
+     * @remarks Negative values are intentionally clamped to 0 so that
+     *   downstream financial calculations never receive invalid inputs
+     *   (e.g., a negative purchase price has no meaningful interpretation
+     *   in a consignment ROI context).
+     */
+    function parseInput(el) {
+      const v = parseFloat(el.value);
+      return isNaN(v) || v < 0 ? 0 : v;
+    }
+
+    /**
+     * Formats a number as a USD currency string.
+     * @param {number} n
+     * @returns {string}
+     */
+    function usd(n) {
+      return n.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+    }
+
+    /**
+     * Returns a CSS class name based on the sign of a number.
+     * These are logical type contracts enforced at render time, not
+     * runtime-enforced TypeScript types.
+     * @param {number} n
+     * @returns {string} One of the string literals: 'profit', 'loss', or 'neutral'.
+     */
+    function signClass(n) {
+      if (n > 0) return 'profit';
+      if (n < 0) return 'loss';
+      return 'neutral';
+    }
+
+    /**
+     * Runs the full ROI calculation from current input state.
+     *
+     * Because GPA and most data-tracking platforms report the **total price
+     * inclusive of Buyer's Premium**, the Sale Price input is treated as
+     * a Buyer's Premium-inclusive total. The hammer price is back-derived
+     * before the seller's commission is applied.
+     *
+     * Formulas applied:
+     *   Total Cost Basis    = Purchase Price + Optional Extra Fees
+     *   Derived Hammer      = Sale Price (total) ÷ (1 + Buyer's Premium %)
+     *   Seller Fee          = Derived Hammer × Seller's Premium %
+     *   Net Payout          = Derived Hammer − Seller Fee
+     *   Net Profit / Loss   = Net Payout − Total Cost Basis
+     *
+     * @remarks `hasData` is truthy when either the purchase price or sale price
+     *   is non-zero. Partial calculations are intentionally supported so
+     *   collectors can evaluate an open position before a sale is finalised.
+     * @returns {{
+     *   purchasePrice: number,
+     *   extraFees: number,
+     *   totalCostBasis: number,
+     *   saleTotal: number,
+     *   derivedHammer: number,
+     *   sellerFee: number,
+     *   netPayout: number,
+     *   netProfitLoss: number,
+     *   hasData: boolean
+     * }}
+     */
+    function calculate() {
+      const purchasePrice    = parseInput(purchasePriceEl);
+      const extraFees        = parseInput(extraFeesEl);
+      const saleTotal        = parseInput(salePriceEl);
+      const buyersPremiumPct = parseFloat(auctionHouseEl.value);
+      const sellerPct        = parseFloat(sliderEl.value) / 100;
+
+      const totalCostBasis = purchasePrice + extraFees;
+
+      // Guard against a divisor of zero or less. The select options are all ≥ 0,
+      // but we clamp defensively so dynamically added options can never produce
+      // an invalid divisor. The floor of -0.9999 keeps (1 + pct) ≥ 0.0001,
+      // which supports up to a ~99.99% "negative premium" without dividing by zero.
+      const MIN_BUYERS_PREMIUM = -0.9999; // keeps divisor ≥ 0.0001; prevents division by zero
+      const safeBuyersPremiumPct = Math.max(buyersPremiumPct, MIN_BUYERS_PREMIUM);
+      const derivedHammer = saleTotal / (1 + safeBuyersPremiumPct);
+
+      const sellerFee     = derivedHammer * sellerPct;
+      const netPayout     = derivedHammer - sellerFee;
+      const netProfitLoss = netPayout - totalCostBasis;
+      const profitLossPct = totalCostBasis > 0 ? (netProfitLoss / totalCostBasis) * 100 : 0;
+
+      const hasData = purchasePrice > 0 || saleTotal > 0;
+
+      return {
+        purchasePrice,
+        extraFees,
+        totalCostBasis,
+        saleTotal,
+        derivedHammer,
+        sellerFee,
+        netPayout,
+        netProfitLoss,
+        profitLossPct,
+        hasData,
+      };
+    }
+
+    /* ── Render results ──────────────────────────────────────────────── */
+
+    /**
+     * Renders a single breakdown row.
+     * @param {string} label
+     * @param {number} value
+     * @param {string} [colorClass] - Explicit color class ('profit', 'loss', 'neutral').
+     *   Defaults to 'neutral'. Pass an empty string to derive the class from the
+     *   sign of `value` via {@link signClass}.
+     * @param {boolean} [isFinal] - When true, adds the 'final' modifier to the row.
+     * @returns {string} HTML string
+     */
+    function row(label, value, colorClass = 'neutral', isFinal = false) {
+      const cls = colorClass !== '' ? colorClass : signClass(value);
+      return `
+        <div class="breakdown-row${isFinal ? ' final' : ''}">
+          <span class="row-label">${label}</span>
+          <span class="row-value ${cls}">${usd(value)}</span>
+        </div>`;
+    }
+
+    /**
+     * Formats a numeric percent with sign and fixed precision.
+     * @param {number} n
+     * @returns {string}
+     */
+    function pct(n) {
+      return `${n >= 0 ? '+' : ''}${n.toFixed(2)}%`;
+    }
+
+    /** Updates the results panel from current input values. */
+    function render() {
+      const r = calculate();
+
+      if (!r.hasData) {
+        resultsContainer.innerHTML = `
+          <div class="empty-state">
+            <span>🧮</span>
+            Enter a purchase or sale price to see your breakdown.
+          </div>`;
+        return;
+      }
+
+      const profitClass = signClass(r.netProfitLoss);
+
+      resultsContainer.innerHTML = `
+        <div class="breakdown">
+          ${row('Total Cost Basis (Purchase Price + Fees)', r.totalCostBasis)}
+          ${row('Derived Hammer Price (after removing Buyer\'s Premium)', r.derivedHammer)}
+          ${row('Auction House Cut / Seller Fee', r.sellerFee)}
+          ${row('Your Net Payout (Hammer − Seller Fee)', r.netPayout)}
+          <div class="breakdown-row final">
+            <span class="row-label">Final Net Profit / Loss</span>
+            <span class="row-value ${profitClass}">
+              ${r.netProfitLoss >= 0 ? '+' : ''}${usd(r.netProfitLoss)}
+            </span>
+          </div>
+          <div class="breakdown-row">
+            <span class="row-label">Profit / Loss (%)</span>
+            <span class="row-value ${profitClass}">${pct(r.profitLossPct)}</span>
+          </div>
+        </div>`;
+    }
+
+    /* ── Event wiring ────────────────────────────────────────────────── */
+
+    // Seller's premium slider
+    sliderEl.addEventListener('input', () => {
+      const v = parseFloat(sliderEl.value);
+      sliderDisplayEl.textContent = v.toFixed(1) + '%';
+      syncPresetButtons(v);
+      render();
+    });
+
+    // Preset buttons
+    presetBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const v = parseFloat(btn.dataset.value);
+        sliderEl.value = v;
+        sliderDisplayEl.textContent = v.toFixed(1) + '%';
+        syncPresetButtons(v);
+        render();
+      });
+    });
+
+    /**
+     * Marks the matching preset button as active, clearing others.
+     * @param {number} currentValue
+     */
+    function syncPresetButtons(currentValue) {
+      presetBtns.forEach(btn => {
+        btn.classList.toggle('active', parseFloat(btn.dataset.value) === currentValue);
+      });
+    }
+
+    // All other inputs
+    [purchasePriceEl, extraFeesEl, salePriceEl, auctionHouseEl].forEach(el => {
+      el.addEventListener('input', render);
+      el.addEventListener('change', render);
+    });
+
+    /* ── Initial render ──────────────────────────────────────────────── */
+    render();
+  </script>
+</body>
+</html>

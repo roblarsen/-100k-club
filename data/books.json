@@ -5763,19 +5763,20 @@
     "provenanceLedger": [
       {
         "eventId": "evt_superman_1_sale_145_0",
-        "eventType": "auction_sale",
-        "date": "1996-01-01",
+        "eventType": "private_sale",
+        "date": "1996-07-04",
         "platform": "redbeard",
         "financials": {
           "amount": 170000,
           "currency": "USD"
-        }
+        },
+        "notes": "At San Diego"
       },
       {
         "eventId": "evt_superman_1_sale_145_1",
-        "eventType": "auction_sale",
+        "eventType": "private_sale",
         "date": "2022-04-13",
-        "platform": "privatesale",
+        "platform": "Tony Arnold/Roy Delic",
         "financials": {
           "amount": 5300000,
           "currency": "USD"
@@ -5802,6 +5803,12 @@
           "amount": 0,
           "currency": "USD"
         }
+      },
+      {
+        "eventId": "evt_799dbfc5-98a6-4f6f-a919-702108f50f7b",
+        "eventType": "pedigree_discovery",
+        "date": "1977-01-14",
+        "notes": "Chuck Rozanski buys the original Edgar Church/Mile High pedigree"
       }
     ],
     "tags": [

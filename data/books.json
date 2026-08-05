@@ -5798,17 +5798,20 @@
         "eventType": "regrade",
         "date": "2022-01-10",
         "platform": "CGC",
-        "sourceLink": "",
-        "financials": {
-          "amount": 0,
-          "currency": "USD"
-        }
+        "sourceLink": ""
       },
       {
         "eventId": "evt_799dbfc5-98a6-4f6f-a919-702108f50f7b",
         "eventType": "pedigree_discovery",
         "date": "1977-01-14",
         "notes": "Chuck Rozanski buys the original Edgar Church/Mile High pedigree"
+      },
+      {
+        "eventId": "evt_e1302eb5-8d11-420a-83bf-f4404aafc99b",
+        "eventType": "grading_event",
+        "date": "2000-06-01",
+        "platform": "CGC",
+        "notes": "Graded at some time before the first CGC Census"
       }
     ],
     "tags": [

@@ -3,7 +3,6 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const fs = require('fs').promises;
 const path = require('path');
-const { randomUUID } = require('crypto');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -15,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
 // Data file paths
-const BOOKS_FILE = path.join(__dirname, '../data/books.json');
+const BOOKS_FILE = path.join(__dirname, '../data/books.dev.json');
 const RECORDS_FILE = path.join(__dirname, '../data/data/records.json');
 const SA_PEDIGREES_FILE = path.join(__dirname, '../data/data/sa-pedigrees.dev.json');
 
@@ -40,71 +39,60 @@ async function writeJSONFile(filePath, data) {
     }
 }
 
-// Helper to build a URN from book metadata
-function buildUrn(publisher, title, issue, index) {
-    const slug = str => String(str).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-    return `urn:altasset:comic:${slug(publisher)}:${slug(title)}:${slug(issue)}:inst-${index}`;
-}
-
-// Mirrors isAltAsset() from the alt-asset-spec package for server-side validation.
-function isAltAsset(obj) {
-    if (!obj || typeof obj !== 'object') return false;
-    const hasRequiredRootKeys = typeof obj.urn === 'string' &&
-        typeof obj.schemaVersion === 'string' &&
-        ['comic', 'trading_card', 'video_game', 'coin'].includes(obj.assetClass) &&
-        typeof obj.currentAuthentication === 'object' &&
-        Array.isArray(obj.provenanceLedger) &&
-        typeof obj.customMetadata === 'object';
-    if (!hasRequiredRootKeys) return false;
-    const auth = obj.currentAuthentication;
-    return typeof auth.grader === 'string' &&
-        typeof auth.rawGradeString === 'string' &&
-        typeof auth.isActive === 'boolean';
-}
-
-// Returns the trimmed string value, or undefined if empty/absent (omits the field from stored objects)
+/**
+ * Returns the trimmed string value, or undefined if empty/absent.
+ * Omits dead payload attributes from stored objects.
+ */
 function optField(value) {
     if (value === undefined || value === null) return undefined;
     const trimmed = String(value).trim();
     return trimmed || undefined;
 }
 
-// Routes for Books (AltAssetComic format — data/books.json is a plain array)
+/**
+ * Generates the next string id by finding the current maximum numeric id
+ * across all books and incrementing by one, zero-padded to 4 digits.
+ * @param {Array<{id: string}>} books - Existing books array.
+ * @returns {string} Next zero-padded 4-digit id string.
+ */
+function nextBookId(books) {
+    const max = books.reduce((acc, book) => {
+        const n = parseInt(book.id, 10);
+        return Number.isFinite(n) && n > acc ? n : acc;
+    }, 0);
+    return String(max + 1).padStart(4, '0');
+}
 
-// Raw book creation: accepts a complete AltAssetComic object (validated against spec).
-// Must be defined before /api/books/:index to avoid "raw" being parsed as an index.
-app.post('/api/books/raw', async (req, res) => {
-    try {
-        if (!isAltAsset(req.body)) {
-            return res.status(400).json({ error: 'Object does not conform to AltAsset spec' });
-        }
-        const data = await readJSONFile(BOOKS_FILE);
-        data.push(req.body);
-        await writeJSONFile(BOOKS_FILE, data);
-        res.status(201).json(req.body);
-    } catch (error) {
-        res.status(500).json({ error: 'Failed to create book' });
-    }
-});
+/**
+ * Finds a book in the books array by its string id.
+ * @param {Array} books
+ * @param {string} id
+ * @returns {{ book: object, index: number } | null}
+ */
+function findBookById(books, id) {
+    const index = books.findIndex(b => String(b.id) === String(id));
+    if (index === -1) return null;
+    return { book: books[index], index };
+}
 
-// Raw book replacement: replaces the full record at :index with the provided AltAssetComic object.
-app.put('/api/books/:index/raw', async (req, res) => {
-    try {
-        if (!isAltAsset(req.body)) {
-            return res.status(400).json({ error: 'Object does not conform to AltAsset spec' });
-        }
-        const data = await readJSONFile(BOOKS_FILE);
-        const index = parseInt(req.params.index);
-        if (isNaN(index) || index < 0 || index >= data.length) {
-            return res.status(404).json({ error: 'Book not found' });
-        }
-        data[index] = req.body;
-        await writeJSONFile(BOOKS_FILE, data);
-        res.json(data[index]);
-    } catch (error) {
-        res.status(500).json({ error: 'Failed to update book' });
-    }
-});
+/**
+ * Sorts a provenanceLedger (or sales) array in strictly ascending chronological
+ * order by ISO-8601 date string. Entries without a date sort to the front.
+ * @param {Array} ledger - Array of event objects with optional `date` property.
+ * @returns {Array} New sorted array (does not mutate the original).
+ */
+function sortLedgerChronologically(ledger) {
+    return [...ledger].sort((a, b) => {
+        const aDate = a.date ? a.date : '';
+        const bDate = b.date ? b.date : '';
+        if (!aDate && !bDate) return 0;
+        if (!aDate) return -1;
+        if (!bDate) return 1;
+        return aDate < bDate ? -1 : aDate > bDate ? 1 : 0;
+    });
+}
+
+// Routes for Books
 
 app.get('/api/books', async (req, res) => {
     try {
@@ -115,14 +103,14 @@ app.get('/api/books', async (req, res) => {
     }
 });
 
-app.get('/api/books/:index', async (req, res) => {
+app.get('/api/books/:id', async (req, res) => {
     try {
         const data = await readJSONFile(BOOKS_FILE);
-        const index = parseInt(req.params.index);
-        if (isNaN(index) || index < 0 || index >= data.length) {
+        const found = findBookById(data.books, req.params.id);
+        if (!found) {
             return res.status(404).json({ error: 'Book not found' });
         }
-        res.json(data[index]);
+        res.json(found.book);
     } catch (error) {
         res.status(500).json({ error: 'Failed to read book data' });
     }
@@ -132,90 +120,50 @@ app.post('/api/books', async (req, res) => {
     try {
         const data = await readJSONFile(BOOKS_FILE);
         const body = req.body;
-        const index = data.length;
-        const publisher = body.publisher || 'Unknown';
-        const title = body.title || 'Unknown';
-        const issue = body.issueNumber || '0';
+        const id = nextBookId(data.books);
 
         const newBook = {
-            urn: buildUrn(publisher, title, issue, index),
-            schemaVersion: '1.0.0',
-            assetClass: 'comic',
-            currentAuthentication: {
-                grader: body.grader || 'Unknown',
-                numericGrade: parseFloat(body.rawGradeString) || 0,
-                rawGradeString: body.rawGradeString || '',
-                isActive: true,
-                qualifiers: body.pedigree ? [body.pedigree] : []
-            },
-            provenanceLedger: [],
-            tags: body.tags ? body.tags.split(',').map(t => t.trim()).filter(Boolean) : [],
-            generalCommentary: body.generalCommentary || '',
-            customMetadata: {
-                publisher,
-                title,
-                issueNumber: issue,
-                publicationDate: body.publicationDate || 'Unknown',
-                ...(body.cgcId ? { cgcId: body.cgcId } : {})
-            }
+            id,
+            title: body.title || '',
+            issue: body.issue || '',
+            sales: [],
+            ...body,
+            id,
         };
 
-        data.push(newBook);
+        data.books.push(newBook);
         await writeJSONFile(BOOKS_FILE, data);
-        res.status(201).json({ _index: index, ...newBook });
+        res.status(201).json(newBook);
     } catch (error) {
         res.status(500).json({ error: 'Failed to create book' });
     }
 });
 
-app.put('/api/books/:index', async (req, res) => {
+app.put('/api/books/:id', async (req, res) => {
     try {
         const data = await readJSONFile(BOOKS_FILE);
-        const index = parseInt(req.params.index);
-        if (isNaN(index) || index < 0 || index >= data.length) {
+        const found = findBookById(data.books, req.params.id);
+        if (!found) {
             return res.status(404).json({ error: 'Book not found' });
         }
 
-        const existing = data[index];
-        const body = req.body;
-
-        data[index] = {
-            ...existing,
-            currentAuthentication: {
-                ...existing.currentAuthentication,
-                grader: body.grader !== undefined ? body.grader : existing.currentAuthentication.grader,
-                numericGrade: body.rawGradeString !== undefined ? (parseFloat(body.rawGradeString) || 0) : existing.currentAuthentication.numericGrade,
-                rawGradeString: body.rawGradeString !== undefined ? body.rawGradeString : existing.currentAuthentication.rawGradeString,
-                qualifiers: body.pedigree !== undefined ? (body.pedigree ? [body.pedigree] : []) : existing.currentAuthentication.qualifiers
-            },
-            tags: body.tags !== undefined ? body.tags.split(',').map(t => t.trim()).filter(Boolean) : existing.tags,
-            generalCommentary: body.generalCommentary !== undefined ? body.generalCommentary : existing.generalCommentary,
-            customMetadata: {
-                ...existing.customMetadata,
-                ...(body.publisher !== undefined && { publisher: body.publisher }),
-                ...(body.title !== undefined && { title: body.title }),
-                ...(body.issueNumber !== undefined && { issueNumber: body.issueNumber }),
-                ...(body.publicationDate !== undefined && { publicationDate: body.publicationDate }),
-                ...(body.cgcId !== undefined && { cgcId: body.cgcId })
-            }
-        };
-
+        data.books[found.index] = { ...found.book, ...req.body, id: found.book.id };
         await writeJSONFile(BOOKS_FILE, data);
-        res.json(data[index]);
+        res.json(data.books[found.index]);
     } catch (error) {
         res.status(500).json({ error: 'Failed to update book' });
     }
 });
 
-app.delete('/api/books/:index', async (req, res) => {
+app.delete('/api/books/:id', async (req, res) => {
     try {
         const data = await readJSONFile(BOOKS_FILE);
-        const index = parseInt(req.params.index);
-        if (isNaN(index) || index < 0 || index >= data.length) {
+        const found = findBookById(data.books, req.params.id);
+        if (!found) {
             return res.status(404).json({ error: 'Book not found' });
         }
 
-        data.splice(index, 1);
+        data.books.splice(found.index, 1);
         await writeJSONFile(BOOKS_FILE, data);
         res.status(204).send();
     } catch (error) {
@@ -223,167 +171,105 @@ app.delete('/api/books/:index', async (req, res) => {
     }
 });
 
-// Routes for Book Provenance Ledger Events (all event types)
-app.get('/api/books/:index/sales', async (req, res) => {
+// Routes for Book Sales
+
+app.get('/api/books/:id/sales', async (req, res) => {
     try {
         const data = await readJSONFile(BOOKS_FILE);
-        const index = parseInt(req.params.index);
-        if (isNaN(index) || index < 0 || index >= data.length) {
+        const found = findBookById(data.books, req.params.id);
+        if (!found) {
             return res.status(404).json({ error: 'Book not found' });
         }
-
-        const events = (data[index].provenanceLedger || [])
-            .map((event, ledgerIndex) => ({ ...event, _ledgerIndex: ledgerIndex }));
-        res.json(events);
+        res.json(found.book.sales || []);
     } catch (error) {
-        res.status(500).json({ error: 'Failed to read book ledger data' });
+        res.status(500).json({ error: 'Failed to read book sales data' });
     }
 });
 
-app.post('/api/books/:index/sales', async (req, res) => {
+app.post('/api/books/:id/sales', async (req, res) => {
     try {
         const data = await readJSONFile(BOOKS_FILE);
-        const index = parseInt(req.params.index);
-        if (isNaN(index) || index < 0 || index >= data.length) {
+        const found = findBookById(data.books, req.params.id);
+        if (!found) {
             return res.status(404).json({ error: 'Book not found' });
         }
 
-        const book = data[index];
-        if (!book.provenanceLedger) book.provenanceLedger = [];
+        const book = data.books[found.index];
+        if (!Array.isArray(book.sales)) book.sales = [];
 
-        const eventType = req.body.eventType || 'auction_sale';
-        const financialTypes = ['auction_sale', 'private_sale', 'asset_swap'];
-        const certTypes = ['regrade', 'reholder'];
+        const newSale = { ...req.body };
 
-        const newEvent = {
-            eventId: `evt_${randomUUID()}`,
-            eventType,
-            date: req.body.date || ''
-        };
+        // Strip empty optional string fields before persisting (Rule 3)
+        ['sourceLink', 'notes'].forEach(field => {
+            if (newSale[field] === '') delete newSale[field];
+        });
 
-        if (req.body.platform) newEvent.platform = optField(req.body.platform);
-        if (req.body.sourceLink) newEvent.sourceLink = optField(req.body.sourceLink);
-        if (req.body.notes) newEvent.notes = optField(req.body.notes);
+        book.sales.push(newSale);
 
-        if (eventType === 'auction_sale' && req.body.lotNumber) {
-            newEvent.lotNumber = optField(req.body.lotNumber);
-        }
+        // Sort provenanceLedger chronologically after each mutation (Rule 1)
+        book.sales = sortLedgerChronologically(book.sales);
 
-        if (financialTypes.includes(eventType) && req.body.amount != null && req.body.amount !== '') {
-            const rawAmount = String(req.body.amount).replace(/[^0-9.]/g, '');
-            const parsedAmount = parseFloat(rawAmount);
-            if (!isNaN(parsedAmount)) {
-                newEvent.financials = {
-                    amount: parsedAmount,
-                    currency: req.body.currency || 'USD'
-                };
-            }
-        }
-
-        if (certTypes.includes(eventType)) {
-            if (req.body.previousCertNumber) newEvent.previousCertNumber = optField(req.body.previousCertNumber);
-            if (req.body.newCertNumber) newEvent.newCertNumber = optField(req.body.newCertNumber);
-        }
-
-        if (eventType === 'asset_merge' && req.body.mergedUrn) {
-            newEvent.mergedUrn = optField(req.body.mergedUrn);
-        }
-
-        book.provenanceLedger.push(newEvent);
         await writeJSONFile(BOOKS_FILE, data);
-        res.status(201).json({ ...newEvent, _ledgerIndex: book.provenanceLedger.length - 1 });
+        res.status(201).json(newSale);
     } catch (error) {
-        res.status(500).json({ error: 'Failed to add ledger event to book' });
+        res.status(500).json({ error: 'Failed to add sale to book' });
     }
 });
 
-app.put('/api/books/:index/sales/:ledgerIndex', async (req, res) => {
+app.put('/api/books/:id/sales/:saleIndex', async (req, res) => {
     try {
         const data = await readJSONFile(BOOKS_FILE);
-        const index = parseInt(req.params.index);
-        const ledgerIndex = parseInt(req.params.ledgerIndex);
-
-        if (isNaN(index) || index < 0 || index >= data.length) {
+        const found = findBookById(data.books, req.params.id);
+        if (!found) {
             return res.status(404).json({ error: 'Book not found' });
         }
 
-        const ledger = data[index].provenanceLedger || [];
-        if (isNaN(ledgerIndex) || ledgerIndex < 0 || ledgerIndex >= ledger.length) {
-            return res.status(404).json({ error: 'Ledger event not found' });
-        }
+        const book = data.books[found.index];
+        const sales = book.sales || [];
+        const saleIndex = parseInt(req.params.saleIndex, 10);
 
-        const existing = ledger[ledgerIndex];
-        const eventType = req.body.eventType !== undefined ? req.body.eventType : existing.eventType;
-        const financialTypes = ['auction_sale', 'private_sale', 'asset_swap'];
-        const certTypes = ['regrade', 'reholder'];
-
-        const updated = {
-            ...existing,
-            eventType,
-            ...(req.body.date !== undefined && { date: req.body.date }),
-            ...(req.body.platform !== undefined && { platform: optField(req.body.platform) }),
-            ...(req.body.sourceLink !== undefined && { sourceLink: optField(req.body.sourceLink) }),
-            ...(req.body.notes !== undefined && { notes: optField(req.body.notes) })
-        };
-
-        if (eventType === 'auction_sale') {
-            if (req.body.lotNumber !== undefined) updated.lotNumber = optField(req.body.lotNumber);
-        } else {
-            delete updated.lotNumber;
-        }
-
-        if (financialTypes.includes(eventType) && req.body.amount != null && req.body.amount !== '') {
-            const rawAmount = String(req.body.amount).replace(/[^0-9.]/g, '');
-            const parsedAmount = parseFloat(rawAmount);
-            if (!isNaN(parsedAmount)) {
-                updated.financials = { amount: parsedAmount, currency: req.body.currency || existing.financials?.currency || 'USD' };
-            }
-        } else if (!financialTypes.includes(eventType)) {
-            delete updated.financials;
-        }
-
-        if (certTypes.includes(eventType)) {
-            if (req.body.previousCertNumber !== undefined) updated.previousCertNumber = optField(req.body.previousCertNumber);
-            if (req.body.newCertNumber !== undefined) updated.newCertNumber = optField(req.body.newCertNumber);
-        } else {
-            delete updated.previousCertNumber;
-            delete updated.newCertNumber;
-        }
-
-        if (eventType === 'asset_merge') {
-            if (req.body.mergedUrn !== undefined) updated.mergedUrn = optField(req.body.mergedUrn);
-        } else {
-            delete updated.mergedUrn;
-        }
-
-        ledger[ledgerIndex] = updated;
-        await writeJSONFile(BOOKS_FILE, data);
-        res.json(ledger[ledgerIndex]);
-    } catch (error) {
-        res.status(500).json({ error: 'Failed to update ledger event' });
-    }
-});
-
-app.delete('/api/books/:index/sales/:ledgerIndex', async (req, res) => {
-    try {
-        const data = await readJSONFile(BOOKS_FILE);
-        const index = parseInt(req.params.index);
-        const ledgerIndex = parseInt(req.params.ledgerIndex);
-
-        if (isNaN(index) || index < 0 || index >= data.length) {
-            return res.status(404).json({ error: 'Book not found' });
-        }
-
-        const ledger = data[index].provenanceLedger || [];
-        if (isNaN(ledgerIndex) || ledgerIndex < 0 || ledgerIndex >= ledger.length) {
+        if (isNaN(saleIndex) || saleIndex < 0 || saleIndex >= sales.length) {
             return res.status(404).json({ error: 'Sale not found' });
         }
 
-        ledger.splice(ledgerIndex, 1);
+        const updated = { ...sales[saleIndex], ...req.body };
+
+        // Strip empty optional string fields before persisting (Rule 3)
+        ['sourceLink', 'notes'].forEach(field => {
+            if (updated[field] === '') delete updated[field];
+        });
+
+        sales[saleIndex] = updated;
+        book.sales = sortLedgerChronologically(sales);
+        await writeJSONFile(BOOKS_FILE, data);
+        res.json(updated);
+    } catch (error) {
+        res.status(500).json({ error: 'Failed to update sale' });
+    }
+});
+
+app.delete('/api/books/:id/sales/:saleIndex', async (req, res) => {
+    try {
+        const data = await readJSONFile(BOOKS_FILE);
+        const found = findBookById(data.books, req.params.id);
+        if (!found) {
+            return res.status(404).json({ error: 'Book not found' });
+        }
+
+        const book = data.books[found.index];
+        const sales = book.sales || [];
+        const saleIndex = parseInt(req.params.saleIndex, 10);
+
+        if (isNaN(saleIndex) || saleIndex < 0 || saleIndex >= sales.length) {
+            return res.status(404).json({ error: 'Sale not found' });
+        }
+
+        sales.splice(saleIndex, 1);
+        book.sales = sortLedgerChronologically(sales);
         await writeJSONFile(BOOKS_FILE, data);
         res.status(204).send();
     } catch (error) {
-        res.status(500).json({ error: 'Failed to delete book sale' });
+        res.status(500).json({ error: 'Failed to delete sale' });
     }
 });
 

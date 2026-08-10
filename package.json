@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
-    "@types/lodash": "^4.17.24",
+    "@types/lodash": "^4.17.25",
     "@types/supertest": "^7.2.1",
     "body-parser": "^2.3.0",
     "cors": "^2.8.6",
